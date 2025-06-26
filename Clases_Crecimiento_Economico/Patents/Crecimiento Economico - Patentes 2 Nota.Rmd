@@ -1,0 +1,566 @@
+---
+title: "Crecimiento Económico. Patentes"
+output:
+  html_document:
+    toc: true
+    theme: flatly
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| Patentes
+
+## ¿Qué es una patente?
+
+- Es un conjunto de derechos.
+- Reconoce a alguien una invención y los derechos que de ella se derivan.
+- Otorga un monopolio temporal.
+- **Relación con el crecimiento económico:**
+    -    Permiten desarrollo de la ciencia.
+    -    Motivan la inversión de algunas empresas.
+- **Dependen de diversos factores.**
+    -    Abusar de ellas perjudica la innovación.
+- **Primero ciencia, luego inventos:**
+    -    Modelling science as a contribution good (Kealey & Ricketts; 2014).
+    -    Ciencia es un bien colaborativo.
+    -    Problema es reunir suficientes personas.
+
+## ¿Qué es una patente?
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Science <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Science.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Science, interpolate=FALSE)
+```
+
+## ¿Qué es una patente?
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Patent_Tradeoff <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patent_Tradeoff.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Patent_Tradeoff, interpolate=FALSE)
+```
+
+## ¿Qué es una patente?
+
+- Existen dos impactos derivados del poder de mercado de los productores de tecnología: 
+
+    -    En el **impacto positivo** hay un efecto de equilibrio parcial que aumenta las ganancias de los innovadores exitosos.
+
+    -    El **impacto negativo** es más sutil pues reduce la habilidad para competir, pero aumenta el incentivo para participar en programas de cabildeo.
+
+- Además, las patentes existen como **sustituto a un secreto socialmente costoso de comercializar**. 
+
+    -    Si el secreto puede seguir siendolo por mucho tiempo, no hay incentivos a hacerlo patente. Es mejor hacerla patente cuando es un poco más fácil de que se sepa. 
+
+    -    Algunas empresas, como Windows, les piden a sus empleados no investigar sobre otras patentes a fin de que la innovación sea completamente nueva.
+
+## ¿Qué es una patente?
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Patents_Markups <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patents_Markups.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Patents_Markups, interpolate=FALSE)
+```
+
+## Naturaleza de las patentes
+
+-<span style="color:blue">"The America Invents Act, Patent Priority, and Supplemental Examination”, (Bird, 2013)</span>
+
+- En el mundo:**Trade-Related Aspects of Intellectual Property Rights (TRIPS, 1995):**
+
+    - Acuerdo sobre aspectos de derecho de propiedad intelectual relacionados con el comercio que garantiza que el proceso para otorgar patentes sea igual en todo el mundo para cualquier producto en cualquier campo de la tecnología.
+
+    - El plazo de protección por un periodo de 20 años mínimo.
+
+- Anteriores: 
+
+    - **Convención de París para la protección de la propiedad industrial, 1883.**
+
+    - **Tratado de cooperación de patentes. 1978.**
+
+## Naturaleza de las patentes
+
+-<span style="color:blue">"The America Invents Act, Patent Priority, and Supplemental Examination”, (Bird, 2013)</span>
+
+- **America Invents Act (2011)**: Es el cambio más significativo en la ley de patentes en EEUU con la finalidad de acelerar el proceso de patentes para que el proceso sea lo más eficiente posible.
+
+- **Objetivo**: dar prioridad al aplicante que concibió primero el invento si es que dos aplican para la misma patente.
+
+- AIA le dio a Oficina de Patentes y Marcas de EEUU (USPTO) la autoridad para priorizar aplicaciones de patentes para productos, tecnologías, o procesos que son importantes para la economía y la competencia económica.
+
+- **First to file (primer aplicante en hacer el registro tiene prioridad)** - afecta diferente a las compañías dependiendo del tamaño, industria y otras variables. 
+
+- **Examinación suplemental:** nuevo procedimiento después de la emisión de la patente donde se pide al USPTO considerar, reconsiderar o corregir una examinación relevante de la patente para que puedan corregir omisiones o errores hechos durante la aplicación de la patente. 
+
+## Naturaleza de las patentes
+
+-<span style="color:blue">"Recent Research on the Economics of Patents” (Hall y Harhoff, 2012)</span>
+
+- **Litigio de patentes:**
+
+- En Estados Unidos cualquier tercero puede solicitar un nuevo examen de una patente durante su vigencia. 
+
+- **Los costos de litigio son importantes:**
+
+    - Partes con muchos recursos financieros pueden amenazar a quienes tienen menos recursos.
+
+    - Puede desanimar I&D: Lerner (1995) documentó este fenómeno para la biotecnología. 
+
+## Naturaleza de las patentes
+
+-<span style="color:blue">"Recent Research on the Economics of Patents” (Hall y Harhoff, 2012) </span>
+
+- **Divulgación del conocimiento:** Patentar es atractivo cuando se puede realizar ingeniería inversa de un producto.
+
+- **Patentes como señales para inversionistas:** Las patentes como derechos de propiedad de activos intangibles pueden ser señales para los inversores de que una empresa de nueva creación tiene activos valiosos incluso con ausencia de ganancias en ese momento. 
+
+- **Efectos**
+
+    - En innovación de software: Open source
+
+    - En investigación académica
+
+- **Conclusión:** Publicar y patentar son actividades complementarias (Azoulay  2009; Breschi 2007; Carayol 2007; Fabrizo y DiMinim 2008) 
+
+
+## Valuación de patentes
+
+-<span style="color:blue">"Patent valuation within the context of patent auctions” (Mattei, 2009)</span>
+
+- **¿Por qué es necesaria una buena valuación de patentes?**
+
+    - Uso adecuado como colateral en operaciones crediticias.
+
+    - Reflejar en el valor de una empresa el valor de las patentes que posee.
+
+    - Inclusión  de activos intelectuales en las medidas de actividad económica (PIB).
+
+    - Información clara sobre las oportunidades de compra para los posibles compradores de patentes.
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+- **¿Qué determina el valor de una patente?**
+
+    - Ocean Tomo: brinda servicios de transacción y subasta de patentes.
+
+    - Proceso de subasta nos permiten observar el valor privado de la patente.
+
+- **Determinantes**: Calidad tecnológica (citas posteriores), tamaño familiar de una patente (relevancia económica) y alcance (International Patent Classification)
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+**Calidad tecnológica (citas posteriores):**
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Backward_Forward_Citations <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Backward_Forward_Citations.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Backward_Forward_Citations, interpolate=FALSE)
+```
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+- **Tamaño familiar de una patente (relevancia económica):**
+
+- **Definición:** Número de jurisdicciones en las que se buscó la protección de una patente para el mismo invento.
+
+- El costo de incurrir en la patente implica que habrá un beneficio más adelante.
+
+- Entre más costos se haya incurrido (número procesos de patente), mayores deberían ser lo beneficios.
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+- **International Patent Classification (alcance):**
+
+- El IPC es una clasificación establecida por el Arreglo de Estrasburgo de 1971 que ordena las patentes según el área de uso que tienen (Agricultura, Ganadería, etc).
+
+- Si una patente pertenece a muchas clases, dicha patente tiene un mayor alcance.
+
+- Las patentes pueden pertenecer hasta a 7 clases del IPC.
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+- **Sesgo en la muestra:**
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Patents_Industry <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patents_Industry.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Patents_Industry, interpolate=FALSE)
+```
+
+## Valuación de patentes
+
+-<span style="color:blue">"Testing patent value indicators on directly observed patent value. An empirical analysis of Ocean Tomo patent auctions” (Timo Fischer & Jan Leidinger)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_OLS_Patent_Price <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-OLS_Patent_Price.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_OLS_Patent_Price, interpolate=FALSE)
+```
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- **¿Qué tan importante es la protección de patentes para proporcionar incentivos para la innovación?**
+
+- Patentes: Son la medida estándar de innovación.
+
+- Sin embargo, los datos de patentes pueden no capturar la innovación que ocurre fuera de la patente.
+
+    - Países sin leyes sobre patentes
+
+    - Inventores confían en mecanismos alternativos.
+
+    - Secretos y tiempo de entrega 
+
+    - Evidencia empírica de la historia económica puede ayudar a responder lo que los datos modernos no.
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- Caso Vivero Stark Brothers
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Cage_Golden_Delicious <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Cage_Golden_Delicious.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Cage_Golden_Delicious, interpolate=FALSE)
+```
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- **Leyes de patentes y la difusión de la innovación:**
+
+    - Los competidores pueden estar más dispuestos a revelar información técnica a los competidores si se sienten protegidos por una patente.
+
+    - Al crear derechos de propiedad intelectual sobre ideas, las patentes pueden facilitar la innovación a través del aprendizaje acumulativo. 
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- ¿Cómo puede la política económica modificar los sistemas de patentes para hacerlos más efectivos?
+
+- **Existen algunos problemas con los sistemas de patentes:**
+
+    - Dificultad de definir los límites cubiertos por una patente.  
+
+    - Grupos de patentes: permiten a un grupo de empresas combinar sus patentes evitando bloqueos y guerras de patentes.
+
+    - Desperdicio social: Investigación duplicada y patentes estratégicas.
+
+    - 1917: Grupo Wilbur Wright Company y Curtiss Company: Después de que se formó el grupo, la producción estadounidense de aviones aumento de 83 en 1916 a 11,950 en 1918. (Bittlingmayer, 1988)
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- **¿Cómo puede la política económica modificar los sistemas de patentes para hacerlos más efectivos?**
+
+- En ausencia de una regulación efectiva, los grupos de patentes pueden influir no solo en los niveles, sino también en la dirección del cambio tecnológico.
+
+- Un mecanismo alternativo para modificar los sistemas de patentes es **la licencia obligatoria**, que debilita el poder de monopolio de las patentes al otorgarles licencias a empresas competidoras. 
+
+- Los accesos a estas licencias pueden no ser inmediatos: países evitan desplazar el desarrollo de las patentes.
+
+- Aunque con retraso, estas licencias pueden fomentar la investigación nacional.
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- ¿Cómo puede la política económica modificar los sistemas de patentes para hacerlos más efectivos?
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Sewing_Machine_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Sewing_Machine_Patents.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Sewing_Machine_Patents, interpolate=FALSE)
+```
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- ¿Cómo puede la política económica modificar los sistemas de patentes para hacerlos más efectivos?
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Stitches <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Stitches.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Stitches, interpolate=FALSE)
+```
+
+## Patentes e Innovación
+
+-<span style="color:blue">"Patents and innovation: Evidence from Economic History" (Moser; 2013)</span>
+
+- **Conclusiones**
+
+- **Críticos:**
+
+- El uso de estratégico de las patentes para detener a los competidores y extraer los derechos de licencia amenaza la efectividad de las patentes como un medio para fomentar la innovación. 
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Effects of copyrights on science. Evidence from the WWII book republication program" (Biasi, Moser; 2018)</span>
+
+- La relajación de las leyes de derechos de autor condujo a una mayor innovación al permitir que un grupo más grande de personas tuviera acceso al conocimiento existente
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Citatons_Sample <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Citatons_Sample.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Citatons_Sample, interpolate=FALSE)
+```
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+- Para servir como base para el crecimiento a largo plazo, la investigación científica y el progreso tecnológico deben ejercer un efecto indirecto intertemporal positivo.
+
+- No solo es importante la cantidad de conocimientos que se genera.
+
+    - Calidad de los mecanismos para almacenar el conocimiento
+
+    - La fidelidad del conocimiento
+
+    - Costos de acceso al conocimiento
+
+    - Las instituciones y políticas públicas se sugieren como elementos centrales del proceso acumulativo. 
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+- Contribución de esta investigación: proporcionar evidencia estadística del impacto de una institución (**Biological Resource Centers - BRCs**) sobre la acumulabilidad de conocimiento.
+
+    - BRCs: Instituciones a través de las cuales los científicos pueden obtener materiales para propósitos de investigación. 
+
+    - Centrales para el desarrollo de las ciencias biológicas
+
+    - Recolectan, certifican y distribuyen organismos biológicos para su uso en la investigación. 
+
+    - Los materiales en las ciencias biológicas pueden ser de uso temporal (organismos vivos) y de difícil acceso. 
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+- Impacto de las instituciones que mejoran la investigación en la difusión de conocimientos.
+
+- La difusión del conocimiento depende de instituciones que faciliten la transferencia de conocimientos a bajo costo entre las generaciones de investigadores.
+
+- Las instituciones pueden reducir los costos de acceso al conocimiento:
+
+    - Mejoran la confiabilidad de las fuentes
+
+    - Aumentan el tamaño total de las reservas
+
+- Las patentes universitarias o institucionales pueden ser más citadas/utilizadas en relación con un grupo de control de patentes generadas por laboratorios industriales.
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+- Metodología: Es posible identificar cómo cambia el patrón de citas sobre una publicación científica depositada en una BRC sobre aquellas que no están asociadas a una BRC.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Annual_Citations_Controls <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Annual_Citations_Controls.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Annual_Citations_Controls, interpolate=FALSE)
+```
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Annual_Citations_Differences <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Annual_Citations_Differences.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Annual_Citations_Differences, interpolate=FALSE)
+```
+
+## Innovación acumulativa
+
+-<span style="color:blue">"Climbing atop the Shoulders of Giants: The Impact of Institutions on Cumulative Research" (Furman; 2011)</span>
+
+- **Conclusiones:**
+
+- Las instituciones facilitan el progreso científico y técnico aprovechando el potencial de una generación para servir como “semilla” de generaciones futuras.
+
+- Las BRCs impactan en la acumulación de investigación en las ciencias biológicas, mejorando el valor de los materiales que se recolectan.
+
+- Estos sistemas de acumulación de conocimiento tendrían que ser implementados en las otras ciencias de acuerdo a sus particularidades.
+
+## Problemática de las patentes
+
+-<span style="color:blue">"On Sharks, trolls and their patent prey" (Reitzig, Henkel, Heath; 2006)</span>
+
+- Modelo de decisiones estratégicas con incertidumbre.
+
+- 4 preguntas fundamentales: 
+
+    - ¿Por qué existen los trolls de patentes?
+
+    - ¿Por qué ha aumentado su importancia?
+
+    - ¿Cuáles son las opciones de las empresas presa para combatirlos?
+
+    - ¿Cómo se puede abordar el problema desde la política pública?
+
+- **Patent Sharks/ trolls:** individuos o empresas que buscan generar ganancias a partir de regalías o indemnizaciones que obtienen por demandar a otras empresas por uso indebido de sus patentes.
+
+- En su mayoría son patentes insignificantes o con partes muy específicas.
+
+## Problemática de las patentes
+
+-<span style="color:blue">"On Sharks, trolls and their patent prey" (Reitzig, Henkel, Heath; 2006)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Game_Shark <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Game_Shark.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Game_Shark, interpolate=FALSE)
+```
+
+## Problemática de las patentes
+
+-<span style="color:blue">"On Sharks, trolls and their patent prey" (Reitzig, Henkel, Heath; 2006)</span>
+
+- **¿Por qué existen?** 2 razones principales: (i) es legal, (ii) es rentable.
+
+- **¿Por qué ha aumentado su importancia?** La fórmula para calcular las compensaciones genera incentivos a que los dueños de las patentes se dejen infringir.
+
+- **Opciones de las empresas para combatirlos:** Aumentar el monitoreo y regulación
+
+- **Política pública:** La indemnización tiene que reflejar el daño verdadero del uso de la patente e incluir costos hipotéticos de invent around 
+
+## Problemática de las patentes
+
+-<span style="color:blue">"Can Patents Deter Innovation? The Anticommons in Biomedical Research" (Heller, Eisenberg; 1998)</span>
+
+- **Tragedia de los comunes:** los agentes económicos tienden a sobreutilizar los recursos escasos compartidos.
+
+- **Tragedia de los anticomunes:** los agentes subutilizan recursos compartidos debido a que muchos otros agentes los pueden excluir.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Anticommons <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Anticommons.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Anticommons, interpolate=FALSE)
+```
+
+## Problemática de las patentes
+
+-<span style="color:blue">"Can Patents Deter Innovation? The Anticommons in Biomedical Research" (Heller, Eisenberg; 1998)</span>
+
+- Industria biomédica
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Patents_Anticommons_Example <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Anticommons_Example.png", native= TRUE, info=TRUE)
+
+grid.raster(Patents_Anticommons_Example, interpolate=FALSE)
+```
+
+- **Problemas con los grupos de patentes:** costos de transacción, intereses heterogéneos y sesgos cognitivos
+
+- **Causas:** fragmentos concurrentes y licencias de apilamiento (stacking licenses).
+
+- **Consecuencias:** obstáculo para nuevos productos y se desarrollan proyectos menos rentables.
+
+## Problemática de las patentes
+
+-<span style="color:blue">"The Case Against Patents” (Boldrin y Levine, 2013)</span>
+
+- A pesar de que el argumento general a favor de las patentes es que incrementan la innovación y la productividad, los autores indican que no hay evidencia empírica que concluya que las patentes sirven para mejorar la innovación y la producción.
+
+    - El fortalecimiento del régimen de patentes aumenta el número de patentes y no la innovación.
+
+    - El efecto en la innovación podría ser negativo.
+
+    - El sistema actual de patentes sirve más a los intereses de un gremio que a los de la eficiencia económica.
+
+    - Efecto del primer competidor (first mover)
+
+## Problemática de las patentes
+
+-<span style="color:blue">"The Case Against Patents” (Boldrin y Levine, 2013)</span>
+
+- Economía política de las patentes:
+
+    - Según Boldrin y Levine, en la realidad no se ve eso: las actividades ya no son innovadoras. 
+
+    - Los abogados de las patentes juegan un papel muy importante.
+
+    - Leyes diseñadas para perpetuar poder monopólico.
+
+    - En el caso de Amazon, una de sus patentes por mucho tiempo fue el método de comprar productos en línea y se preservó durante años por el cabildeo realizado. 
+    
+## Problemática de las patentes
+
+-<span style="color:blue">"The Case Against Patents” (Boldrin y Levine, 2013)</span>
+
+- **Conclusiones:** de manera particular, los autores proponen ocho formas de mejorar el sistema de patentes:
+
+    - Tiempo limitado
+
+    - Revisar “qué puede ser patentado”
+
+    - Que las patentes sean limitadas cuando éstas estorben la innovación
+
+    - Revisar las agendas de organizaciones internacionales
+
+    - Estudiar más los sectores
+
+    - Tomar en cuenta la evidencia económica
+
+    - Prohibición de patentar cuando exista subsidio federal por investigación
+
+    - Depender de otros incentivos

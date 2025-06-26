@@ -1,0 +1,765 @@
+---
+title: "Crecimiento Económico. Desaceleración"
+output:
+  html_document:
+    toc: true
+    theme: flatly
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| ¿Se ha reducido el crecimiento económico de los países desarrollados durante el siglo XXI?
+
+## Desaceleración en Estados Unidos
+
+<span style="color:blue">**“The big puzzle in economics today: why is the economy growing so slowly?” (VoxEU; 2017):**</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_US_Economic_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-US_Economic_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_US_Economic_Growth, interpolate=FALSE)
+```
+
+## Hechos: Caida en la producción
+
+- [Se nota una posible desaceleración en el crecimiento medido de la producción en los últimos años, vía una disminución de la productividad, desde el 2000](http://plotly.com/~iguzmanvt/48.embed)
+
+
+
+## Hechos: Caida en la participación de la mano de obra
+
+- [La participación del capital en la producción ha aumentado](http://plotly.com/~iguzmanvt/198.embed)
+
+
+
+## Hechos: Caida en la participación de la mano de obra
+
+- También, la participación de la mano de obra en el PIB ha tenido una tendencia a la baja en los últimos 30 años (Piketty, Karabarbounis y Neiman). 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Labor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Share.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Labor_Share, interpolate=FALSE)
+```
+
+## Hechos: Caida en la participación de la mano de obra
+
+- Estados Unidos está experimentando una desaceleración en el crecimiento medido de la productividad laboral.
+
+- **Desde 2005 hasta 2015**, el crecimiento de la productividad laboral ha promediado <span style="color:red">1.3% por año</span>. Esto es <span style="color:red">inferior a una trayectoria de 2.8%</span> de crecimiento anual promedio sostenido **durante el periodo 1995-2004**.
+
+- Esta desaceleración es estadísticamente significativa. 
+
+    -    Una prueba t que compara las tasas de crecimiento de la productividad laboral trimestral promedio durante 1995-2004 con las de 2005-2015 rechaza la igualdad.
+
+    -    Si la caída anualizada del 1.5% en el crecimiento de la productividad laboral se mantuviera durante 25 años, agravaría una diferencia del 45% en el ingreso per cápita.
+
+    -    A menos que la desaceleración sea un problema de medición, es grave, especialmente si persiste después de su década inicial.
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Upcoming Slowdown in U.S. Economic Growth" (Charles I. Jones, 1997)**</span>  
+
+- Se suele creer que Estados Unidos está cerca de su estado estacionario. Sin embargo, ha aumentado:
+
+    -    El tiempo dedicado acumulación de capital humano
+
+    -    La proporción de científicos e ingenieros dedicados a Innovación y Desarrollo
+
+    -    El nivel de apertura de la economía
+
+- Estos cambios no son consistentes con el estado estacionario
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Upcoming Slowdown in U.S. Economic Growth" (Charles I. Jones, 1997)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_GDP_Components <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-GDP_Components.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_GDP_Components, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+- Jones y Fernald desglosan el crecimiento de aproximadamente el 2% en la producción per cápita en los Estados Unidos desde 1950 hasta 2007 de la siguiente manera:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Growth_Accounting <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Growth_Accounting.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Growth_Accounting, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+- De estos, **el aumento en el capital humano y el aumento en la intensidad de I&D reflejan el crecimiento en las variables de control.** 
+
+- Bajo los supuestos de la teoría económica (y de RCE), ninguno de los dos puede crecer para siempre, ya que están limitados. 
+
+- Por lo tanto, <span style="color:red">el crecimiento tendría que caer por debajo del 2% en algún punto</span> .
+
+- De todas las variables anteriores, solo el efecto de escala no es una variable de control y, por lo tanto, es capaz de continuar proporcionando crecimiento para siempre. Esto significa que la BGP de la economía puede llegar a ser 0.4% por año. 
+
+- **¿Veremos que la tasa de crecimiento de Estados Unidos se desacelere a 0.4% por año o menos?.**
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+- Asumen que el flujo de tecnología aumenta pero a un ritmo decreciente. Por sí solo, esto implicaría que la tasa de crecimiento tenderá a 0. 
+
+- Pero, **¿si el flujo de tecnología no tiene esta tendencia a disminuir con el nivel de tecnología?** (Inteligencia Artificial, robots, computación cuántica, big data, o alguna otra cosa podría generar crecimiento tecnológico y un crecimiento económico).
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Alternative_Futures <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Alternative_Futures.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Alternative_Futures, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+- **Dos preguntas interesantes sobre lo que sucederá con el crecimiento en las próximas décadas**:
+
+    -    ¿La intensidad del esfuerzo de I&D se nivelará o los países ricos, así como la India y China, continuarán impulsando una mayor proporción de sus recursos y personas en I&D? Si es así, entonces el crecimiento puede mantenerse cerca del 2% durante mucho tiempo. 
+    
+    -    ¿Habrá un cambio fundamental en la naturaleza del progreso tecnológico?
+
+## Teoría sobre la desaceleración: Desaceleración en la generación de I&D y capital humano
+
+<span style="color:blue">**"The Future of US Economic Growth" (Jones, Fernald; 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_RD_Expenditure <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-RD_Expenditure.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_RD_Expenditure, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**U.S. Productivity Growth: The Slowdown Has Returned After a Temporary Revival. (Robert J. Gordon):**</span>   
+
+- Enfatiza la **creciente divergencia** entre el crecimiento de la productividad en la manufactura y en el resto de la economía.
+
+- En el **sector manufacturero, no ha habido ninguna desaceleración**. El período 2004-2012 coincidió con la tasa de crecimiento alcanzada en los "años dorados" de 1948-1972  que fue de 2.46%. Contrastando, en los años del inicio del internet de 1996-2004 se tiene una tasa de 4.6% la cual superó cualquier precedente en historia de Estados Unidos.
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**U.S. Productivity Growth: The Slowdown Has Returned After a Temporary Revival. (Robert J. Gordon):**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Manufacturing_Output <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Manufacturing_Output.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Manufacturing_Output, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**U.S. Productivity Growth: The Slowdown Has Returned After a Temporary Revival. (Robert J. Gordon):**</span>   
+
+- El problema es que **la manufactura se está reduciendo en proporción al total de la economía** y, como resultado, su desempeño sobresaliente tiene un peso cada vez menor en la determinación del crecimiento de la productividad para la economía total.
+
+- El desempeño de la productividad de Estados Unidos no se puede salvar solo con la manufactura porque la participación de ese sector se está reduciendo.
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**U.S. Productivity Growth: The Slowdown Has Returned After a Temporary Revival. (Robert J. Gordon):**</span>   
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Manufacturing_US <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Manufacturing_US.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Manufacturing_US, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**Expenditure Shares, Price Measurement, and True Relative Labor Productivity Growth in Post-WWII Manufacturing: What the Aggregate Data Suggest. (Brad DeLong; 2016):**</span>   
+
+- **La participación de la industria manufacturera en la producción nominal ha ido disminuyendo** de manera constante desde fines de la década de 1940 en 1.4% por año.
+
+- El **precio relativo de los bienes manufacturados** (en comparación con la producción agregada) **también ha disminuido en 1.4% por año**. 
+
+- <span style="color:red">La participación real de la manufactura en la producción real no ha crecido con el tiempo</span>.
+
+- ¿Cómo llega a esto? Probablemente no estemos midiendo correctamente la caída de los precios y, por tanto, la participación real de la fabricación.
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**Expenditure Shares, Price Measurement, and True Relative Labor Productivity Growth in Post-WWII Manufacturing: What the Aggregate Data Suggest. (Brad DeLong; 2016):**</span>   
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Nominal_Real_Manufacturing <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Nominal_Real_Manufacturing.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Nominal_Real_Manufacturing, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**"The Role of Entrepreneurship in US Job Creation and Economic Dynamism" (Decker, Haltiwanger, Jarmin, Miranda, 2014):**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Job_Creation_Destruction <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Job_Creation_Destruction.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Job_Creation_Destruction, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**"The Role of Entrepreneurship in US Job Creation and Economic Dynamism" (Decker, Haltiwanger, Jarmin, Miranda, 2014):**</span>   
+
+- En el caso de las manufacturas, la proporción de empleo en las empresas jóvenes ha disminuido muy levemente durante el mismo período. 
+
+- Por el contrario, en el sector de servicios, la proporción de puestos de trabajo en empresas jóvenes superaba el 25% en 1982 y ahora se sitúa en torno al 15%.
+
+## Teoría sobre la desaceleración: Disminución del sector manufactura en el tamaño de la economía
+
+<span style="color:blue">**"The Role of Entrepreneurship in US Job Creation and Economic Dynamism" (Decker, Haltiwanger, Jarmin, Miranda, 2014):**</span>  
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Share_Young_Firms <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Share_Young_Firms.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Share_Young_Firms, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Declining responsiveness and the productivity slowdown”. (Decker, Haltiwanger, Jarmin, Miranda, 2018)**</span>  
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Job_Reallocation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Job_Reallocation.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Job_Reallocation, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Leaving money on the table: Declining responsiveness and the productivity slowdown”. (Ryan Decker, J. H)**</span>  
+
+- Existen dos hipótesis alternativas para explicar la disminución en la reasignación de trabajo:
+
+    -    Pocos choques o choques menos intensos.
+    -    Costos crecientes y fricciones.
+    
+- Si la dispersión de la productividad en las empresas ha aumentado, esto contradice la hipótesis de que la dispersión de los choques ha cambiado y apoya la hipótesis de que **la capacidad de respuesta de las empresas se ha debilitado**.
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Leaving money on the table: Declining responsiveness and the productivity slowdown”. (Ryan Decker, J. H)**</span>  
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Within_Labor_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Within_Labor_Productivity.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Within_Labor_Productivity, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Leaving money on the table: Declining responsiveness and the productivity slowdown”. (Ryan Decker, J. H)**</span>  
+
+- Esto implica que la reasignación laboral se ha vuelto menos dependiente de la PTF.
+
+- La capacidad de respuesta de la productividad entre las empresas de alta tecnología aumentó desde la década de 1980 hasta la de 1990 y luego disminuyó durante la década de 2000, imitando el patrón de reasignación de empleos en el sector de alta tecnología. 
+
+- Fuera de la alta tecnología, la capacidad de respuesta de la productividad disminuyó durante todo el período. 
+
+- Esto **apoya la hipótesis de la capacidad de respuesta**.
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Leaving money on the table: Declining responsiveness and the productivity slowdown”. (Ryan Decker, J. H)**</span>  
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Tech_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Tech_Productivity.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Tech_Productivity, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Reasignación laboral entre sectores
+
+<span style="color:blue">**“Leaving money on the table: Declining responsiveness and the productivity slowdown”. (Ryan Decker, J. H)**</span>  
+
+- Descubrir la causa de los cambios en los patrones de reasignación de trabajo es importante. 
+
+- Estos patrones tienen implicaciones significativas para la productividad agregada y los estándares de vida.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Tech_Contribution_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Tech_Contribution_GDP.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Tech_Contribution_GDP, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+- El rápido aumento del crecimiento de la fuerza laboral genera un rápido aumento en la tasa de entrada y en el número de empresas. 
+
+- A medida que estos participantes envejecen, aumentan de tamaño y absorben más mano de obra, lo que deja menos espacio para que las nuevas empresas potenciales cubran la oferta laboral cuando el crecimiento de la fuerza laboral disminuye.
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Labor_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Labor_Growth, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+- Durante las décadas de 1960 y 1970, cuando el auge de los baby boomers ingresó a la fuerza laboral, entraron muchas empresas nuevas para aprovechar ese auge de la oferta laboral.
+
+- Una vez que la tasa de crecimiento de la fuerza laboral comenzó a caer en la década de 1990 y se aceleró durante el siglo XXI, el conjunto de empresas existente pudo acomodar fácilmente a los nuevos trabajadores que ingresaban al mercado.
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Entry_Rate <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Entry_Rate.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Entry_Rate, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+- Con la entrada de menos empresas nuevas, la edad media de las empresas aumentó. 
+
+- Dado que las empresas más antiguas tienden a ser más grandes y los trabajadores no abandonan tanto estos trabajos, esto significó una concentración del empleo en empresas grandes y antiguas, así como una caída en la tasa de salida general.
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+<span style="color:blue">**"From population growth to firm demographics: implications for concentration, entrepreneurship and the labor share" (Hopenhayn, Neira y Singhania, 2018)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Business_Dynamics <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Business_Dynamics.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Business_Dynamics, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+- La disminución de la tasa bruta de natalidad fue impulsada en gran parte por un cambio en las preferencias de las familias con respecto al número de hijos a tener. [Este cambio de comportamiento es uno de los principales impulsores del envejecimiento de la población y la desaceleración del crecimiento](http://plotly.com/~iguzmanvt/211.embed)
+
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+- El tamaño absoluto de la población aumentó de 1960 a 1990, y de nuevo de 1990 a 2020.
+
+- En 1960 había pocas personas mayores, tanto en términos absolutos como en relación con las edades más jóvenes. En 1990 y 2020, el número absoluto de personas mayores era mucho mayor.
+
+- [Este envejecimiento de la población cambió la proporción de adultos en edad laboral a personas en categorías "dependientes", como los niños (0-20 años) y las personas mayores (65 años o más)](http://plotly.com/~iguzmanvt/216.embed)
+ 
+
+## Teoría sobre la desaceleración: Cambios demográficos
+
+- Para 2030, la tasa de dependencia de las personas mayores se acercará al 40%, mientras que no se prevé que la tasa de dependencia de los jóvenes disminuya mucho. 
+
+- [Esto significa que la proporción de trabajadores con respecto a la población total, que ya había comenzado a disminuir debido al aumento de la tasa de dependencia de las personas mayores a principios de la década de 2000, seguirá disminuyendo](http://plotly.com/~iguzmanvt/213.embed)
+
+
+## Teoría sobre la desaceleración: Prácticas laborales
+
+<span style="color:blue">**"What Determines Productivity? Lessons from the Dramatic Recovery of the U.S. and Canadian Iron Ore Industries Following Their Early 1980s Crisis" (Schmitz, 2015)**</span> 
+
+- El paper estudia la reacción de las industrias del mineral de hierro de Estados Unidos y Canadá a la competencia de los proveedores brasileños. 
+
+- Respondieron mejorando sustancialmente la productividad en relación con su nivel en las décadas anteriores. La gráfica muestra el salto en la productividad laboral en la industria estadounidense a principios de la década de 1980, cuando Brasil comenzó su producción.
+
+## Teoría sobre la desaceleración: Prácticas laborales
+
+<span style="color:blue">**"What Determines Productivity? Lessons from the Dramatic Recovery of the U.S. and Canadian Iron Ore Industries Following Their Early 1980s Crisis" (Schmitz, 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Iron_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Iron_Productivity.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Iron_Productivity, interpolate=FALSE)
+
+```
+
+## Teoría sobre la desaceleración: Prácticas laborales
+
+<span style="color:blue">**"What Determines Productivity? Lessons from the Dramatic Recovery of the U.S. and Canadian Iron Ore Industries Following Their Early 1980s Crisis" (Schmitz, 2015)**</span> 
+
+- Lo que determina el aumento de la productividad son las mejoras en las prácticas laborales generadas por la competencia. 
+
+- Algunas de estas prácticas estaban ligadas a los paquetes de compensación de los trabajadores que se extinguieron a partir de la entrada de la competencia. 
+
+- Este aumento en la productividad se dio a pesar de no haber un cambio tecnológico profundo en el sector.
+
+## Teoría sobre la desaceleración: Prácticas laborales
+
+<span style="color:blue">**"What Determines Productivity? Lessons from the Dramatic Recovery of the U.S. and Canadian Iron Ore Industries Following Their Early 1980s Crisis" (Schmitz, 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Iron_Productivity_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Iron_Productivity_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Iron_Productivity_2, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Can intangible investment explain the UK productivity puzzle?" (Goodridge, Haskel, Wallis; 2013)**</span> 
+
+- Este paper investiga si los intangibles podrían explicar la desaceleración de la productividad en el Reino Unido de una manera que parece una acumulación de mano de obra. 
+
+- Observan que desde la recesión: 
+
+    -    Las empresas han mejorado sus habilidades más rápido que antes. 
+
+    -    La inversión intangible en I&D y software ha aumentado, mientras que la inversión tangible ha disminuido.
+
+    -    La inversión intangible y la inversión en equipos de telecomunicaciones disminuyeron antes de la recesión.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Can intangible investment explain the UK productivity puzzle?" (Goodridge, Haskel, Wallis; 2013)**</span> 
+
+```{r fig.margin = TRUE, fig.height = 6, fig.width = 10, echo=FALSE}
+library(png)
+library(grid)
+library(gridExtra)
+Slowdown_UK_Output <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Output.png")), interpolate = FALSE)
+Slowdown_UK_Productivity <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Productivity.png")), interpolate = FALSE)
+grid.arrange(Slowdown_UK_Output, Slowdown_UK_Productivity, ncol = 2)
+```
+    
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Can intangible investment explain the UK productivity puzzle?" (Goodridge, Haskel, Wallis; 2013)**</span> 
+
+- Por lo tanto, prueban para ver si: 
+
+    -    Lo que parece una acumulación de mano de obra es en realidad empresas que mantienen empleados que trabajan para crear activos intangibles.
+
+    -    En qué medida la desaceleración actual en el crecimiento de la PTF se debe a los efectos indirectos de la desaceleración pasada en la inversión en I&D y equipos de telecomunicaciones.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Can intangible investment explain the UK productivity puzzle?" (Goodridge, Haskel, Wallis; 2013)**</span> 
+
+```{r fig.margin = TRUE, fig.height = 6, fig.width = 10, echo=FALSE}
+library(png)
+library(grid)
+library(gridExtra)
+Slowdown_UK_Output_Adjusted <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Output_Adjusted.png")), interpolate = FALSE)
+Slowdown_UK_Capital_Growth <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Capital_Growth.png")), interpolate = FALSE)
+grid.arrange(Slowdown_UK_Output_Adjusted, Slowdown_UK_Capital_Growth, ncol = 2)
+```
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Can intangible investment explain the UK productivity puzzle?" (Goodridge, Haskel, Wallis; 2013)**</span> 
+
+- Inversiones intangibles:
+
+    -    Información computarizada (software).
+
+    -    Propiedad innovadora (científica y no científica I&D).
+    
+    -    Recursos específicos (reputación, capital humano).
+
+- Explican de 5%-16%.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Hipótesis de la “mala medición”: 
+
+    -    Muchas de las tecnologías de difusión más rápida desde 2004, como los smartphones, las redes sociales en línea y los medios descargables, implican el consumo de productos que requieren mucho tiempo pero que no imponen un gran costo monetario directo a los consumidores. 
+
+    -    Si se considera que el gasto total en dichos productos es tanto el precio como el valor del tiempo dedicado a consumirlos, un argumento de preferencia revelada sugeriría que ofrecen una utilidad marginal adicional. 
+
+    -    Al mismo tiempo, el hecho de que no sean particularmente caros (al menos en relación con el supuesto interés de los consumidores en ellos) podría dar como resultado que una porción relativamente modesta de su beneficio de consumo entregado se refleje en el PIB.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Si la desaceleración de la productividad medida no hubiera ocurrido, el PIB medido en 2015 sería, conservadoramente, 2.7 trillones (15%) más alto de lo que fue.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+library(gridExtra)
+Slowdown_Labor_Productivity <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Productivity.png")), interpolate=FALSE)
+grid.arrange(Slowdown_Labor_Productivity)
+```
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Realiza cuatro análisis dispares, cada uno de los cuales ofrece desafíos empíricos a la "hipótesis de la mala medición". 
+
+    -    La desaceleración de la productividad se ha producido en docenas de países, y su tamaño no está relacionado con las medidas de las intensidades de producción o consumo de tecnologías de información y comunicación (TIC, el tipo de bienes más frecuentemente citado como fuentes de mala medición). 
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Labor_Productivity_Change <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Productivity_Change.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Labor_Productivity_Change, interpolate=FALSE)
+```
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Realiza cuatro análisis dispares, cada uno de los cuales ofrece desafíos empíricos a la "hipótesis de la mala medición". 
+
+    -    Las estimaciones de la literatura de investigación existente sobre el excedente creado por las tecnologías digitales vinculadas a Internet están muy por debajo de los 2.7 trillones o más de "producción perdida" como resultado de la desaceleración del crecimiento de la productividad. El más grande, a cierta distancia, es menos de un tercio del PIB supuestamente mal medido. 
+
+    -    Si los problemas de medición tuvieran en cuenta incluso una parte modesta de este producto perdido, las tasas de crecimiento de la producción y la productividad adecuadamente medidas de las industrias que producen y prestan servicios a las TIC tendrían que haber sido múltiplos de su crecimiento medido en los datos. 
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Estimación del excedente de tecnologías ligadas a internet
+
+    -    Greenstein y McDevitt(2009): $17-26 billones de dólares en 2015
+    -    Dutz, Orzag, Willing(2009): $96 billones de dólares en 2015
+    -    Rosston, Savage y Waldam(2010): $54-73 billones de dólares en 2015
+    -    Nevo, Turner y Williams (2015):$132 billones de dólares en 2015
+    -    Goolsbee y Klenow(2006): tiempo empleado en el uso: 3% del ingreso es excedente de consumidor, en el agregado $995 billones de dólares en 2015
+    -    Sectores más implicados en falta de medición (mismeasurement): Productos informáticos y electrónicos; Sector completo de información(telecomunicaciones,etc)
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+- Realiza cuatro análisis dispares, cada uno de los cuales ofrece desafíos empíricos a esta "hipótesis de la mala medición". 
+
+    -    Si bien el ingreso nacional bruto medido ha sido en promedio más alto que el producto interno bruto medido desde 2004, tal vez indicando que se está pagando a los trabajadores para que fabriquen productos que se regalan o a precios muy reducidos, esta tendencia en realidad comenzó antes de la desaceleración de la productividad y además, refleja ingresos de capital inusualmente altos en lugar de ingresos laborales (es decir, las ganancias son inusualmente altas). 
+    
+    -    En combinación, estas facetas complementarias de la evidencia sugieren que el caso razonable para la hipótesis de la mala medición enfrenta obstáculos reales cuando se enfrenta con los datos.
+
+## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
+
+<span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_GDI_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-GDI_GDP.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_GDI_GDP, interpolate=FALSE)
+```
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+- La reciente desaceleración en el crecimiento de China ha causado preocupación por sus perspectivas de crecimiento a largo plazo. 
+
+- La evidencia sugiere que, antes de 2008, el milagro de crecimiento de China fue impulsado principalmente por la mejora de la productividad luego de las reformas de la política económica. 
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_China_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-China_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_China_Growth, interpolate=FALSE)
+```
+
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+- Sin embargo, desde 2008, el crecimiento se ha vuelto más dependiente de la inversión que de la PTF y el crecimiento general se ha desacelerado. 
+
+- Con el avance del tiempo, el crecimiento de China se ha vuelto más dependiente de la inversión de capital en este período más reciente.
+
+- El rol limitado de la participación  laboral refleja la política de un solo hijo y las políticas restrictivas sobre la migración interna, como el sistema "Hukou" que restringe las capacidades de los ciudadanos para trabajar en ciudades distintas a donde nacieron. 
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_Accounting_China <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Accounting_China.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_Accounting_China, interpolate=FALSE)
+```
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+- Durante la crisis financiera mundial, la demanda de exportaciones chinas se redujo sustancialmente. 
+
+- Mientras tanto, la disminución de las ganancias de productividad presentaba más desafíos para mantener un alto crecimiento. 
+
+- El gobierno chino respondió a la crisis con la adopción de un paquete de estímulo fiscal a gran escala, que se anunció en noviembre de 2008 y se implementó rápidamente en 2009 y principios de 2010 (Wong 2011; Faust, Lin y Luo; 2012). 
+
+- Este ajuste de la política impulsó significativamente el crecimiento de la inversión, especialmente en áreas específicas como infraestructura y construcción, y llevó a un auge de corto plazo en la producción en 2009 y 2010. 
+
+- No obstante, el crecimiento se ha reducido sustancialmente desde 2011.
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+- La reciente desaceleración ha suscitado la preocupación de que China podría estar cayendo en el patrón de la trampa de ingresos medios.
+
+- Algunos países han evitado exitosamente esta trampa y han pasado a un estado de ingresos altos, que la OCDE define como un PIB per cápita de $12,500 basado en los precios internacionales constantes de 2011. Estos incluyen a los países vecinos de China, Japón y Corea del Sur.
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_South_Asia_Trend <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-South_Asia_Trend.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_South_Asia_Trend, interpolate=FALSE)
+```
+
+## Caso: Desaceleración en China
+
+<span style="color:blue">**"Is China’s Growth Miracle Over?” (Zheng Liu; 2015)**</span> 
+
+- Si los recientes planes de reforma pueden abordar con éxito los desequilibrios estructurales del país, China podría mantener una tasa de crecimiento sólida que podría ayudar a suavizar su transición al estado de altos ingresos:
+
+    -    Las asignaciones de capital y mano de obra existentes en China dejan mucho espacio para mejorar la eficiencia. 
+
+    -    La tecnología de China todavía está por detrás de los países avanzados 
+
+    -    China es un país grande, con un desarrollo regional altamente desigual. 
+
+
+## Caso: Aceleración en la Unión Europea
+
+<span style="color:blue">**“10 years EU enlargement anniversary: Waltzing past Vienna” (Darvas; 2014)**</span> 
+
+- Desde su adhesión a la Unión Europea, Varsovia, Bratislava y Praga tienen un PIB per cápita más alto que el de Viena.
+
+- Esto debido a la cercanía geográfica y fuertes vínculos comerciales y financieros.
+
+## Caso: Aceleración en la Unión Europea
+
+<span style="color:blue">**“10 years EU enlargement anniversary: Waltzing past Vienna” (Darvas; 2014)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_EU_Cities <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-EU_Cities.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_EU_Cities, interpolate=FALSE)
+```
+
+## Caso: Aceleración en la Unión Europea
+
+<span style="color:blue">**“10 years EU enlargement anniversary: Waltzing past Vienna” (Darvas; 2014)**</span> 
+
+- Aunque progresan a un ritmo más lento que sus capitales, las economías totales de los miembros del aniversario también han convergido en general hacia el promedio de los países centrales de la UE desde su adhesión, aunque existen algunas excepciones notables.
+
+## Caso: Aceleración en la Unión Europea
+
+<span style="color:blue">**“10 years EU enlargement anniversary: Waltzing past Vienna” (Darvas; 2014)**</span> 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Slowdown_EU_Cities_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-EU_Cities_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Slowdown_EU_Cities_2, interpolate=FALSE)
+```
+
+## Caso: Aceleración en la Unión Europea
+
+<span style="color:blue">**“10 years EU enlargement anniversary: Waltzing past Vienna” (Darvas; 2014)**</span> 
+
+- La adhesión a la UE ha ofrecido una serie de oportunidades y mejores perspectivas de crecimiento económico a través de varios canales, tales como:
+
+    -    Al adoptar las leyes de la UE, las instituciones de mercado se han fortalecido, mejorando el entorno empresarial y atrayendo inversiones del exterior.
+
+    -    El acceso al mercado único aumentó la competencia, fomentando la eficiencia.
+
+    -    Como resultado, varias empresas de Europa central se han integrado en las cadenas de valor europeas y mundiales.
+
+    -    El acceso a la educación en otros países de la UE, junto con la movilidad laboral, permitió mejorar las habilidades y el capital humano.
+
+    -    El amplio apoyo financiero de diversos fondos de la UE impulsó el desarrollo de infraestructura, educación, investigación, salud, medio ambiente y agricultura subsidiada, solo por mencionar algunos objetivos principales. 
+
+- Sin embargo, las diferencias regionales dentro de los países se ampliaron. El rápido aumento de las capitales y algunas otras regiones caracterizadas por una concentración eficiente de actividades económicas no se reflejó en la mayoría de las demás regiones.
+

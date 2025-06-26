@@ -1,0 +1,556 @@
+---
+title: "Crecimiento Económico"
+output:
+  ioslides_presentation: 
+    css: air.css
+    smaller: true
+    widescreen: true
+  html_document: 
+  runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| Cambio tecnológico, género y migración
+
+## Género y mercado laboral
+
+- La participación de las mujeres tiende a ser menor que la de los hombres. Sin embargo, las diferencias son notables: en algunos, la proporción es inferior al 25% mientras que en otros la relación es del 100%.
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi">
+
+</iframe>
+
+## Género y mercado laboral
+
+- La participación de la mujer en la fuerza laboral es más alta en algunos de los países más pobres y ricos del mundo y es más bajo en países con ingresos nacionales promedio en algún punto intermedio.
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income">
+
+</iframe>
+
+## Género y mercado laboral
+
+- En el período 1980-2016, la mayoría de los países experimentó un aumento en la proporción de mujeres empleadas. En general, la participación de las mujeres en el mercado laboral fue impulsada por el empleo, más que por el desempleo.
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/female-employment-to-population-ratio">
+
+</iframe>
+
+## Género y mercado laboral
+
+- <span style="color:blue">Closing the Gender Gap (IMF, 2019)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_31 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Removing_Barriers.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_31, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The macroeconomic benefits of gender diversity (Lagarde, Ostry; 2018)</span>
+
+- Al preguntarse por el efecto en la diversidad de género, miden el efecto sustitución entre trabajadores hombres y mujeres.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_52 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Elasticity_Substitution.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_52, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The macroeconomic benefits of gender diversity (Lagarde, Ostry; 2018)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_53 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gains_Closing_Gap.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_53, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The macroeconomic benefits of gender diversity (Lagarde, Ostry; 2018)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_54 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gains_Eliminate_Barriers.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_54, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">Working women in the city and urban wage growth in the United States (Weinstein, 2017)</span>
+
+- Aún cuando el mecanismo no es claro, dos vías empatan con la teoría económica para prever el comportamiento de los salarios:
+
+    -    Aumento de demanda: si las mujeres se unieron a la fuerza laboral por mayores oportunidades de empleo, entonces los salarios aumentan por el cambio en la participación laboral.
+    
+    -    Aumento en oferta: existe un cambio de actitud con respecto del trabajo, aumentaría la oferta de trabajo y reduciría salarios por más gente compitiendo por empleo.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Working women in the city and urban wage growth in the United States (Weinstein, 2017)</span>
+
+- Impacto de inclusión laboral femenina en el alza de salarios reales
+
+- Estudio utilizando ciudades de Estados Unidos de 1980 a 2010.
+
+- La participación de las mujeres en la fuerza laboral influencia el crecimiento salarial real en aproximadamente 250 áreas metropolitanas de Estados Unidos. Esto ocurre a medida que las mujeres se incorporan aumentando la productividad y aumentando los salarios.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Working women in the city and urban wage growth in the United States (Weinstein, 2017)</span>
+
+- Se encuentra que cada aumento en 10% de participación laboral femenina, está relacionado con un aumento de 5% en el salario real.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_32 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Female_Labor_Cities.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_32, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">Working women in the city and urban wage growth in the United States (Weinstein, 2017)</span>
+
+- Impacto de inclusión laboral femenina en el alza de salarios reales
+
+- La participación de la mujer en la fuerza laboral podría aumentar la productividad de la ciudad ya que las mujeres pueden reemplazar a los hombres menos productivos.
+
+- Podrían también aumentar el nivel de habilidad general en el área o introducir un set diferente de habilidades complementarias.
+
+- Al aumentar la participación de la mujer en 10%, el salario real incrementa en casi 10%. Un 10% de incremento en la participación masculina en el sector está asociado con una disminución de 3% en el salario real promedio. Esto debido a un cambio en la curva de oferta: más hombres compitiendo por los mismos trabajos.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Working women in the city and urban wage growth in the United States (Weinstein, 2017)</span>
+
+- El mecanismo por el que esto pasa aún no es claro:
+
+    -    Una mayor representación del consumidor en la empresa.
+
+    -    Una mayor cantidad de aplicantes para que las empresas elijan.
+
+    -    Aportar diferentes habilidades y perspectivas en el desarrollo de actividades laborales.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Gender Inequality and Economic Growth: A cross-country analysis (Seguino, 2000)</span>
+
+- La hipótesis principal es que la desigualdad de género que reduce los salarios de las mujeres relativo al de los hombres es un estímulo en economías orientadas a la exportación.
+
+    -    El efecto en el crecimiento es transmitido vía el estímulo a la inversión producido por la expansión del sector exportador.
+    
+    -    El cambio tecnológico sirve como un signo de rentabilidad por lo que es necesario que también haya una fuerza laboral calificada que puede adaptarse. El efecto neto de los beneficios de la educación de las mujeres se vuelve confuso cuando a pesar de ser calificadas, las mujeres siguen incorporándose a los mismos sectores que antes.
+
+    -    La segregación ocupacional por género se vuelve un factor muy relevante porque las mujeres tienden a estar en empleos con salarios más bajos y en industrias donde se producen bienes que son elásticos en el precio.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Gender Inequality and Economic Growth: A cross-country analysis (Seguino, 2000)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_59 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Gap_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_59, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The Impact of Gender Inequality in Education and Employment on Economic Growth: New Evidence for a Panel of Countries (Klassen, Lamanna, 2009)</span>
+
+- Las disparidades de género reducen el crecimiento económico
+
+- Los autores analizan el crecimiento de largo plazo con datos que van de 1960 al 2000. Consideran regresiones en panel tomando a cada década como un dato para cada país. Buscan capturar los efectos directos e indirectos de la desigualdad de género en el crecimiento económico. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_33 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Inequality_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_33, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">Closing the Gender Gap (IMF, 2019)</span>
+
+- Políticas públicas
+
+- La mejor política posible dependerá del nivel de desarrollo económico, de la brecha existente y de la velocidad con la que la nueva tecnología afecte a la economía. Sin embargo, se recomienda enfocarse en las siguientes políticas:
+
+    -    Atraer a más mujeres a la fuerza laboral: infraestructura que facilite a las mujeres conciliar trabajo y vida familiar son particularmente efectivas, apoyar mujeres empresarias al incrementar su acceso a financiamiento, promover igualdad de derechos para mujeres en economías avanzadas, presionar para mayor paridad para licencia de paternidad y maternidad y promover acceso a cuidado infantil a precio factible.
+
+    -    Brindar a las mujeres habilidades adecuadas y empoderarlas en el lugar de trabajo a punto de entrar: inversión en educación y servicios de salud.
+
+    -    Ya en el mercado laboral: deducción de impuestos para prácticas, subsidios a capacitación por parte de compañías privadas por medio de impuestos y subvenciones públicas, así como asegurar apoyo para mujeres desplazadas mediante políticas para mejorar habilidades.
+
+## Género y mercado laboral
+
+- <span style="color:blue">Women Empowerment and Economic Development (Duflo, 2011)</span>
+
+- El empoderamiento de la mujer y el desarrollo económico están estrechamente relacionados entre sí. 
+
+    -    Por un lado, el desarrollo económico por sí solo es insuficiente para asegurar un progreso significativo en dimensiones importantes del empoderamiento de la mujer. Por otro lado, el empoderamiento de la mujer conduce a la mejora en algunos aspectos del bienestar de los niños (salud y nutrición, en particular), pero a expensas de otros (educación).
+
+    -    Esto sugiere que ni el desarrollo económico ni el empoderamiento de la mujer son la fórmula mágica que a veces se pretende. Puede que este no sea el mensaje más reconfortante de transmitir, pero puede ser necesario para evitar la reacción que generalmente atraen las soluciones milagrosas fallidas.
+    
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- El Covid 19 ha acelerado la automatización de trabajos debido a que hay ocupaciones que tienen un mayor riesgo de infección viral y un alto potencial de automatización
+
+- El paper contribuye con la creación y desarrollo de índices de automatización y de riesgo de transmisión de Covid 19 en ciertas ocupaciones
+
+- El estudio muestra cómo las mujeres son un grupo demográfico con alto riesgo de transmisión viral y con alto potencial de automatización
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+Usando datos de O*Net se crearon dos índices para analizar a la población de Estados Unidos:
+
+1. Índice de Riesgo de Transmisión Viral de una ocupación, considerando la proximidad física, discusiones cara a cara y exposición a enfermedades.
+
+2. Índice de Riesgo de automatización de una ocupación con una medida de la intensidad de las tareas rutinarias
+
+
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- Los trabajadores en ocupaciones de alto riesgo representan alrededor del 17.9% de la población estadounidense empleada de 2013 a 2017 Y los trabajadores en ocupaciones de bajo riesgo representan poco menos del 32%
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_42 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Potential_Risks.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_42, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- Los trabajadores en ocupaciones de alto riesgo representan alrededor del 17.9% de la población estadounidense empleada de 2013 a 2017 Y los trabajadores en ocupaciones de bajo riesgo representan poco menos del 32%
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_43 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Risks.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_43, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_44 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Index.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_44, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- Hay una porcentaje mayor de mujeres que de hombres en ocupaciones de alto riesgo.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_45 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Index.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_45, interpolate=FALSE)
+```
+
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- Tanto para hombres como para mujeres, los trabajadores con salarios bajos y medios enfrentan un mayor riesgo que sus contrapartes con salarios altos.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_46 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Wages.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_46, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">COVID-19 and implication for automation (Chenoff, Warman, 2020)</span>
+
+- El diferencial entre trabajadores con educación de nivel alto y bajo/medio es más marcado para las mujeres que para los hombres.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_47 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Education.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_47, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+- La desaceleración provocada por la pandemia Covid 19 ha creado mayores pérdidas de empleo para las mujeres que para los hombres
+
+- La pérdida de puestos de trabajo en mayor proporción para las mujeres reducirá la capacidad de las familias para compensar la pérdida de ingresos, lo que producirá una recesión más profunda y persistente
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_48 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Unemployment.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_48, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+- Causas principales del impacto desproporcionado en el empleo de la mujer
+
+1. El empleo de las mujeres se concentra en sectores que son relativamente estables en los ciclos económicos típicos, pero que se vieron fuertemente afectados durante la pandemia
+
+2. A medida que se cerraron las escuelas y las guarderías, se multiplicaron las necesidades de cuidado de los hijos y las mujeres han proporcionado la mayor parte del cuidado infantil
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+- Causas principales del impacto desproporcionado en el empleo de la mujer
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_49 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gap_Recessions.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_49, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_50 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Marginal_Propensity_Consume.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_50, interpolate=FALSE)
+```
+
+## Género y mercado laboral
+
+- <span style="color:blue">The shecession (she recession) of 2020: Causes and
+consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_51 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Effect_Oppening_Schools.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_51, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigration in American Economic History (Abramitsky, Boustan 2016)</span>
+
+- La inmigración masiva fue históricamente muy rara, por lo que incluso un movimiento relativamente pequeño hacia los Estados Unidos parecía grande en comparación. En números absolutos, esto representó a millones de personas.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_34 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_34, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigration in American Economic History (Abramitsky, Boustan 2016)</span>
+
+- La razón del aumento de los flujos porcentuales en los últimos años es que las tasas de fertilidad son muy bajas, por lo que la población nativa no está creciendo tan rápido como lo hizo en el siglo XIX o principios del XX.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_35 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Stock.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_35, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigration in American Economic History (Abramitsky, Boustan 2016)</span>
+
+- En la década de 1990 ya no había una gran inmigración de Europa, sino de América Latina y Asia. Al mismo tiempo, los inmigrantes chinos, indios y vietnamitas aumentaron.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_36 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Regions.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_36, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- Dado que la inmigración es un proceso continuo, tiene sentido pensar en ello en el contexto del modelo de Solow como un cambio en la tasa de crecimiento de la población en lugar de como un cambio único para el factor trabajo.
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/223.embed">
+
+</iframe>
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigrants, Productivity, and Labor Markets (Peri, 2016)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_37 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Share.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_37, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigrants, Productivity, and Labor Markets (Peri, 2016)</span>
+
+- En los últimos 25 años el porcentaje de los inmigrantes de países pobres a ricos ha aumentado.
+
+    -    Mayores tasas a países con niveles medios de desarrollo económico.
+    
+    -    Migración de personas calificadas es mayor pues obtienen mayores beneficios económicos al emigrar. 
+
+- Análisis:
+
+    -    La migración en analizada como un cambio en la oferta de trabajo heterogéneos.
+    
+    -    Las tareas que realizan las personas nativas e inmigrantes son variadas.
+
+    -    Los trabajadores y empresas nativas pueden cambiar sus decisiones por la migración.
+
+    -    Los inmigrantes pueden afectar el factor de productividad total a nivel total.
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Immigrants, Productivity, and Labor Markets (Peri, 2016)</span> 
+
+- En Estados Unidos se estimó que: 
+
+    -    Un efecto positivo de un aumento en la migración de personas de diferentes países en la productividad laboral.
+
+    -    Un aumento en la migración llevó a que los nativos sin universidad se enfocarán en actividad no manuales, y hubo un aumento marginal en los salarios.
+
+    -    Un aumento de migración no calificada aumento las técnicas de producción y no hubo cambios en los salarios de los nativos. 
+
+- En Europa se mostró que:
+
+    -    Los inmigrantes tienen mayor participación de mercado y tienden a desplazar a los inmigrantes.
+
+    -    Hay cierto “skill downgrading” de los inmigrantes pues, aunque tengan un grado alto de educación tienen trabajos similares a los nativos con menores grados de educación.
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Recent trends in high-skilled migration to the United States and other OECD countries (Dumont, 2014)</span>
+
+- La inmigración de jóvenes con habilidades altas puede ayudar a compensar los efectos del cambio demográfico
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_38 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-OECD_Population.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_38, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Recent trends in high-skilled migration to the United States and other OECD countries (Dumont, 2014)</span>
+
+- En términos relativos, Estados Unidos no es uno de los principales países de inmigración y la participación de los inmigrantes altamente calificados en el mercado estadounidense está disminuyendo
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_39 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Legal_Immigration.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_39, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Recent trends in high-skilled migration to the United States and other OECD countries (Dumont, 2014)</span>
+
+- Diversos enfoques en la contratación de trabajadores extranjeros altamente calificados
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_40 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-High_Skilled_Immigration.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_40, interpolate=FALSE)
+```
+
+## Migración y mercado laboral
+
+- <span style="color:blue">Recent trends in high-skilled migration to the United States and other OECD countries (Dumont, 2014)</span>
+
+- No en todos los países los inmigrantes con alta habilidad cuentan con más oportunidades.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_2_41 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Employment_High_Low.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_2_41, interpolate=FALSE)
+```

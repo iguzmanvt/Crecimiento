@@ -1,0 +1,553 @@
+---
+title: "Crecimiento Económico. Difusión tecnológica"
+output:
+  html_document:
+    toc: true
+    theme: flatly
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| Difusión tecnológica
+
+## Modelo de difusión tecnológica
+
+- Un planteamiento para modelar la convergencia es tomar la tecnología de la frontera de producción de las economías “líderes” que son copiadas o adoptadas por países "seguidores".
+
+- En este caso, el crecimiento económico refleja:
+
+    -    La adopción de tecnología.
+
+    -    Las tasas diferenciales de generación de tecnología endógena.
+
+    -    El uso eficiente de la tecnología.
+
+- Modelar la adopción tecnológica implica los siguientes desafíos:
+
+    -    Incluso dentro de un solo país, observamos diferencias considerables en el uso de las tecnologías entre industrias.
+
+    -    Es difícil explicar cómo en el mundo globalizado algunos países pueden no importar o usar tecnologías existentes.
+
+## Adaptación de tecnologías existentes:
+
+- Si bien países como Estados Unidos, Alemania o Japón crean sus propias tecnologías a través del proceso de I&D, la mayoría de los países del mundo son importadores de tecnología en lugar de líderes en tecnología. 
+
+- A pesar de las excepciones existentes en los países en desarrollo, la adopción de tecnologías es más importante para la mayoría de las empresas en estos países que la creación de tecnologías completamente nuevas. 
+
+- Esta perspectiva también sugiere que un análisis detallado de la difusión de la tecnología y las decisiones de adopción de tecnología es necesario entender la evolución de la productividad y las diferencias tecnológicas entre los países.
+
+## Adaptación de tecnologías existentes:
+
+- A pesar de la presunción de que la tecnología y los conocimientos técnicos disponibles se pueden adoptar fácilmente, existen diferencias considerables de tecnología y productividad entre países y empresas que operan en circunstancias similares. 
+
+- El artículo clásico en esta área es el estudio de Griliches (1957) sobre la adopción de maíz híbrido en los Estados Unidos. 
+
+- Griliches demostró que el maíz híbrido más productivo se difundió lentamente en la agricultura de los Estados Unidos y que esta difusión se vio afectada por las condiciones económicas locales de diferentes áreas. 
+
+- La probabilidad de adopción está relacionada con la contribución de la productividad del maíz híbrido en un área en particular, el tamaño del mercado y el nivel de habilidad de la fuerza laboral en el área. 
+
+## Adaptación de tecnologías existentes:
+
+- Otra contribución del estudio fue plantear la curva de difusión en forma de S, en la que la tecnología se propaga primero lentamente y luego, una vez que alcanza un nivel crítico de adopción, comienza a propagarse mucho más rápidamente. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Griliches <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Griliches.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Griliches, interpolate=FALSE)
+```
+
+## Adaptación de tecnologías existentes:
+
+- Finalmente, una vez que una gran parte de la población objetivo adopta la tecnología, la tasa de adopción vuelve a disminuir. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Cummulative_Adopters <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Cummulative_Adopters.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Cummulative_Adopters, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+- Comin, Easterly, Gong (2010) calculan la falta de difusión en el uso de 10 tecnologías para al menos 95 países. Además, también calculan los retrasos en el uso del tiempo para el PIB per cápita.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Real_GDP_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+- La mayoría de la población mundial vive en países con niveles de PIB per cápita menores a los observados en Estados Unidos en la era posterior a la Segunda Guerra Mundial. 
+
+- La mayor parte del África subsahariana, al igual que Afganistán y Mongolia, tienen niveles de ingreso per cápita que no se han observado en los Estados Unidos desde 1820.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Real_GDP_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+- Sus principales conclusiones son: 
+
+    -    Los retrasos en el uso de la tecnología son grandes, comparables a los retrasos en el PIB per cápita real 
+
+    -    Los retrasos en el uso están correlacionados entre los países con retrasos en el ingreso per cápita.
+
+    -    Los retrasos en el uso están altamente correlacionados entre las tecnologías
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+- Difusión de capacidad de energía eléctrica en diferentes países:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Tech_Adoption <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Tech_Adoption, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+- Los países desarrollados deberían observar una mayor demanda de bienes y servicios que incorporan o utilizan tecnología. Los costos de producir los bienes y servicios que incorporan la tecnología tienden a aumentar con el salario.
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Shifts <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Shifts.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Shifts, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Electricity_Production <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Electricity_Production.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Electricity_Production, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Adoption_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Adoption_Lags.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Adoption_Lags, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Tech_Adoption_Sectors <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Sectors.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Tech_Adoption_Sectors, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- <span style="color:blue"> “Was the wealth of nations determined in 1000 bc?” (Comin, Easterly, Gong, 2010)</span>
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Tech_Adoption_Correlation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Correlation.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Tech_Adoption_Correlation, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- Una fuerte correlación negativa es evidente, lo que sugiere el hecho de que los retrasos en la adopción de tecnología han ido disminuyendo con el tiempo. Comin y Hobijn (2010) estiman que las tecnologías inventadas 10 años después se adoptan en promedio 4.3 años más rápido.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Year_Invention_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Year_Invention_Lags.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Year_Invention_Lags, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Growth_Westerns_Nonwesterns <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Westerns_Nonwesterns.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Growth_Westerns_Nonwesterns, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Growth_Rates_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Rates_GDP.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Growth_Rates_GDP, interpolate=FALSE)
+```
+
+## Difusión tecnológica
+
+- Modelo de difusión tecnológica
+
+- Conclusiones:
+
+- Tomando la tasa de crecimiento mundial como dada, la estructura del equilibrio es similar a la de modelos anteriores.
+
+- Si se toma esta tasa de crecimiento como endógena, el crecimiento para cada país parecerá exógeno, pero estará determinado por la tasa global.
+
+- El progreso tecnológico y el crecimiento económico son el resultado de las inversiones de todos los países, pero existen efectos tecnológicos secundarios que empujan a los países relativamente atrasados hacia el promedio mundial, asegurando tasas de crecimiento iguales a largo plazo para todos los países a largo plazo.
+
+## Difusión tecnológica
+
+- Modelo de difusión tecnológica
+
+- Conclusiones:
+
+- Las tasas de crecimiento siguen siendo compatibles con las grandes diferencias de nivel entre los países.
+
+- Varios supuestos simplificadores: las mismas tasas de descuento y el enfoque en el equilibrio de estado estacionario.
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Los autores destacan 10 hechos estilizados relacionados con la disminución del dinamismo empresarial:
+
+- Hecho 1. La concentración del mercado ha aumentado
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Market_Concentration <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Market_Concentration.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Market_Concentration, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 2. Los markups han incrementado
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Average_Markup <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Average_Markup.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Average_Markup, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 3. La participación de las ganancias en el PIB ha aumentado
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Profit_Fraction_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Profit_Fraction_GDP.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Profit_Fraction_GDP, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 3. La participación de las ganancias en el PIB ha aumentado
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Factor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Factor_Share.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Factor_Share, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 4. La participación laboral ha disminuido
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Labor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Labor_Share.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Labor_Share, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 5. La concentración del mercado y la participación laboral están negativamente asociadas
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Correlation_Concentration_Labor <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Correlation_Concentration_Labor.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Correlation_Concentration_Labor, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 6. La brecha de productividad laboral entre las empresas líderes y seguidoras se ha ampliado
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Labor_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Labor_Productivity.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Labor_Productivity, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 7. La tasa de entrada de las empresas ha disminuido
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Entry_Exit_Rates <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Entry_Exit_Rates.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Entry_Exit_Rates, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 8. La participación económica de las empresas jóvenes ha disminuido
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Employment_Share_Young <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Employment_Share_Young.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Employment_Share_Young, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 9. La reasignación de empleos y la rotación han disminuido
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Job_Reallocation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Job_Reallocation.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Job_Reallocation, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Hechos sobre el dinamismo empresarial
+
+- Hecho 10. La dispersión de las tasas de crecimiento de las empresas ha disminuido
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Growth_Dispersion <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Dispersion.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Growth_Dispersion, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Lo que hacen los autores es proporcionar una explicación unificada para los diez hechos con base en el modelo shumpetereano sin tomar ninguno de ellos como algo dado, desarrollándola desde los conceptos básicos de cómo las empresas compiten y establecen los markups. 
+
+- En este caso, las empresas seguidoras no están vendiendo ningún producto, solo gastan en I&D. 
+
+    -    Si se quedan muy atrás y la posibilidad de tener asimilación del conocimiento es lo suficientemente baja, entonces pasará mucho tiempo antes de que puedan alcanzar al líder actual. Por lo tanto, gastan muy poco en I&D. 
+
+- Una lógica similar es establecida para las empresas líderes. Si la brecha es muy grande, simplemente están invirtiendo dinero de I&D sin una ganancia significativa. 
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Entonces, cuando la brecha en el costo marginal ya es muy grande (y por lo tanto el markup es muy grande) ambas empresas tienen pocos incentivos para innovar.
+
+    -    Para el seguidor, esto depende de una gran brecha y una baja probabilidad de aprovechar la difusión de conocimiento. Si esta última es alta, entonces aún tendría incentivos invertir mucho en I&D.
+
+    -    Los outsiders siguen una lógica similar a la de los seguidores, excepto que no les importa mucho la brecha. Para ellos, lo único que importa es la oportunidad de innovar lo suficiente para alcanzar al líder. Cuanto mayor es esa posibilidad, más invierten en I + D.
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Con estas consideraciones, los autores suponen impuestos corporativos bajos, altos subsidios de I&D y altos costos de entrada analizando una caída en la tasa de difusión del conocimiento puede explicar los hechos estilizados.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Results <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Results.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Results, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+- Una menor probabilidad de difusión del conocimiento implica menos productos en los que el seguidor (o un outsider) alcance al líder, y más productos con un líder claro y, por lo tanto, una brecha amplia en los costos marginales. Esto implica:
+
+    -    La concentración del mercado aumentó. Si más productos tienen un líder claro, entonces más productos tienen todas las ventas dirigidas a una empresa, lo que se mostrará como una mayor concentración de ventas.
+
+    -    Los markups promedio aumentaron. Si más productos tienen un líder claro, entonces más productos tienen una brecha en el costo marginal y, por lo tanto, tienen un markup mayor. 
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+    -    La participación de los beneficios en el PIB aumentó. Si más productos tienen un líder claro, más productos tienen márgenes que se traducen en ganancias. Entonces, la participación de las ganancias es mayor.
+
+    -    La participación laboral del PIB bajó. Si la participación en las ganancias aumentó, la participación en los gastos pagados como costos (es decir, salarios) disminuyó.
+
+    -    La relación entre concentración de mercado y participación laboral se distancian aún más.
+
+    -    La brecha de productividad aumentó. La productividad es solo el inverso del costo marginal aquí. Con menos posibilidades de difusión del conocimiento, los incentivos para realizar I&D disminuyen y las brechas en el costo marginal (y la productividad) entre líderes y seguidores se amplían.
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> Ten Facts on Declining Business Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates, 2019)</span>
+
+    -    La tasa de entrada de nuevas empresas cayó. Con una tasa más baja de difusión del conocimiento, hay menos incentivos por parte de personas externas para intentar ingresar a la industria.
+
+    -    La participación de las empresas jóvenes cayó. Igual que el anterior. Con la entrada de menos personas externas, hay menos empresas nuevas como parte de todas las empresas.
+
+    -    Los últimos dos hechos, relocalización laboral y dispersión del crecimiento de las empresas, se cumplen para un conjunto específico de industrias.
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> What Happened to U.S. Business Dynamism? (Akcigit y Ates, 2019)</span>
+
+ - El objetivo del artículo anterior no es que puedan explicar estos hechos con su modelo. 
+
+ - El punto es que vincularon estos hechos a una característica del proceso de reducción en el dinamismo empresarial, la posibilidad de tener suerte en I&D con base en la difusión de conocimiento, que no es obvio por el simple hecho de conocer los hechos.
+
+- El paper acompañante proporciona el vínculo de la falta de difusión del conocimiento con protecciones de patentes más estrictas, y ofrece algunas pruebas que lo respaldan. 
+
+    -    El ejemplo es el tener la suerte de contratar a un ingeniero de la empresa líder. En ausencia de reglas estrictas de propiedad intelectual, ese ingeniero básicamente puede recrear el proceso de producción del líder en la empresa del seguidor. 
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> What Happened to U.S. Business Dynamism? (Akcigit y Ates, 2019)</span>
+
+ - Pero ahora imagine que las reglas de patentes se endurecen.
+
+    -    Ese nuevo ingeniero puede conocer los procesos de producción del líder, pero el seguidor no puede implementarlos debido a la infracción de una patente, y tiene que licenciar el proceso. 
+
+    -    Ni siquiera puede contratar al nuevo ingeniero porque tienen un acuerdo de no competencia en esa línea de productos. 
+
+    -    Los incentivos para invertir en la búsqueda de ese ingeniero desaparecen.
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue"> What Happened to U.S. Business Dynamism? (Akcigit y Ates, 2019)</span>
+
+ - En el paper documentan indicadores del flujo de conocimiento utilizando datos de patentes. 
+
+ - Argumentan que la concentración de patentes en empresas líderes muestra que están protegiendo más activamente la propiedad intelectual que en el pasado para evitar la difusión del conocimiento. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Registry_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Registry_Patents.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Registry_Patents, interpolate=FALSE)
+```
+
+## Modelo Schumpeteriano de difusión tecnológica
+
+- <span style="color:blue">What Happened to U.S. Business Dynamism? (Akcigit y Ates, 2019)</span>
+
+ - También analizan las reasignaciones de patentes, que ocurren cuando una empresa compra una patente a otra. Este es un método para un líder de crear red densa de patentes “patent thicket” que evita que los seguidores o outsiders conozcan sus conocimientos ni sus costos marginales. 
+
+- Esto muestra que los líderes están tratando más activamente de evitar que los seguidores o extraños asimilen el conocimiento.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Technological_Diffusion_Reassignment_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Reassignment_Patents.png", native= TRUE, info=TRUE)
+
+grid.raster(Technological_Diffusion_Reassignment_Patents, interpolate=FALSE)
+```

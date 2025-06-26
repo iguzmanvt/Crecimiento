@@ -1,0 +1,792 @@
+---
+title: "Crecimiento Económico"
+output:
+  ioslides_presentation: 
+    css: air.css
+    smaller: true
+    widescreen: true
+  html_document: 
+  runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| Sistemas de pensiones y crecimiento económico
+
+## Política redistributiva generacional
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_33 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Taxes_Inefficiency.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_33, interpolate=FALSE)
+```
+
+## Política redistributiva generacional
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_34 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Taxes_Efficiency.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_34, interpolate=FALSE)
+```
+
+## Tipos de pensiones
+
+-   **¿Qué son las pensiones?**: son un pago entregado de manera regular por un gobierno o empresa a una persona de un fondo de inversión a la que la persona (o su patrón) contribuyó durante sus años laborales.
+
+-   **Dos tipos de plan de pensiones:**
+
+-   Contribuciones Definidas:
+
+    -   Cada empleado tiene una cuenta de retiro donde deposita una cantidad definida de manera recurrente
+
+    -   Los beneficios dependen de la cantidad de dinero acumulado en la cuenta al retirarse
+
+-   Beneficios Definidos
+
+    -   Los empleados reciben una cantidad definida anualmente al retirarse por parte del gobierno o su empleador
+
+    -   Los beneficios dependen del nivel de salario en los años previos al retiro y los años (antigüedad) en el puesto
+
+    -   Es decir, para aumentar la pensión se necesita o mayor antigüedad o mayor nivel de salario final
+
+## Tipos de pensiones
+
+-   **Dos tipos de plan de pensiones:**
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_1 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-DC_DB.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_1, interpolate=FALSE)
+```
+
+## Tipos de pensiones
+
+-   **Dos tipos de plan de pensiones:**
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-DC_DB_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_2, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Population Aging and PAYG Pensions in the OLG Model" (Cipriani; 2013)**]{style="color:blue"}
+
+-   Se consideran 2 modelos: Fertilidad Endógena y Fertilidad Exógena.
+
+-   En general, la caída en la fertilidad produce 3 efectos:
+
+    -   Efecto de la transferencia intergeneracional: Menos aportaciones para los ancianos futuros.
+
+    -   Efecto en la creación de capital: Aumento en el ratio de capital-trabajo.
+
+    -   Efecto de la calidad infantil: Tener o no hijos.
+
+-   Paper de Fanti y Gori vs paper de Giam Pietro Cipriani para ver qué efecto gana.
+
+## Pensiones y crecimiento económico
+
+[**"Population Aging and PAYG Pensions in the OLG Model" (Cipriani; 2013)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_3 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_1.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_3, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Population Aging and PAYG Pensions in the OLG Model" (Cipriani; 2013)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_4 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_4, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Population Aging and PAYG Pensions in the OLG Model" (Cipriani; 2013)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_5 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_3.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_5, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Population Aging and PAYG Pensions in the OLG Model" (Cipriani; 2013)**]{style="color:blue"}
+
+-   **Cuando la esperanza de vida crece:**
+
+    -   En el modelo con fertilidad exógena, los beneficios del PAYG caen en el estado estacionario.
+
+    -   En el modelo con fertilidad endógena, un aumento en la longevidad trae un efecto negativo en la fertilidad y en los beneficios por pensiones.
+
+-   Por lo tanto, cuando metes longevidad en tu modelo, el envejecimiento de la población efectivamente puede ser un problema para las pensiones (Contrario a Fanti y Gori).
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+-   Como la población ha envejecido, los impuestos a las pensiones van a tener que aumentar. (Modelo de Ramsey y Modelo OLG).
+
+-   Ramsey: Preocupación por generaciones futuras (horizonte infinito).
+
+-   Consecuencias del envejecimiento:
+
+    -   Aumentar la tasa de contribución
+
+    -   Se necesita menos acumulación para mantener el ratio de capital-trabajo.
+
+-   ¿Qué pasa cuando hay envejecimiento en la población con el esquema de PAYG?
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+-   **Supuestos:**
+
+    -   Todos los individuos son idénticos excepto por su edad.
+
+    -   Impuestos lump-sum.
+
+    -   Una vez que envejecen consumen el retorno del ahorro más la transferencia del gobierno.
+
+    -   Agentes son no altruistas.
+
+    -   Economía cerrada por lo que Inversión=Ahorro.
+
+    -   Función de utilidad social.
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_6 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Meijdam_Verbon_1.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_6, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_7 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Meijdam_Verbon_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_7, interpolate=FALSE)
+```
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+-   **Corto plazo. Disminución en "n" no prevista:**
+
+    -   Brinco en el ratio de capital-trabajo.
+
+    -   Se da un efecto de reducción del capital.
+
+    -   Aumenta redistribución entre los jóvenes y viejos por el ratio de dependencia.
+
+-   En el caso de un cambio en el crecimiento de la población inesperado y de una vez por todas, el cambio en el ratio de dependencia no afecta el consumo inicial total.
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+-   **Corto plazo. Disminución en "n" prevista:**
+
+    -   No hay un brinco en el ratio de capital-trabajo como cuando la caída en n es imprevista.
+
+    -   Caída inicial en el consumo total, dado que se trata de un modelo OLG.
+
+-   **Largo plazo. Disminución en "n":**
+
+    -   El acervo de capital se mantiene sin cambios.
+
+    -   Reducción del capital: el consumo baja en el largo plazo.
+
+## Pensiones y crecimiento económico
+
+[**"Aging and Public Pensions in an Overlapping-Generations Model" (Meijdam y Verbon; 1997)**]{style="color:blue"}
+
+-   **Resultados:**
+
+-   La persona joven sabe que tendrá que trabajar más tiempo, tiene menos incentivos a ahorrar cuando es joven.
+
+    -   Dado que más agentes viejos trabajan, el stock de capital per cápita ($k_t$) y el producto por trabajador ($y_t$) disminuyen. Esto no necesariamente implica que el producto agregado ($Y_t$) decrece, porque a pesar de que el capital agregado ($K_t$) se reduce (por la reducción en ahorro), el factor trabajo ($L_t$) está aumentando.
+
+    -   Por lo general es mayor la disminución en el stock de capital agregado que el incremento en mano de obra, por lo tanto el producto agregado suele disminuir. Esto dependerá de la elasticidad del capital ($\alpha$).
+
+## Efectos del aumento en la edad de retiro
+
+-   La persona joven sabe que tendrá que trabajar más tiempo, tiene menos incentivos a ahorrar cuando es joven.
+
+    -   Dado que más agentes viejos trabajan, el stock de capital per cápita ($k_t$) y el producto por trabajador ($y_t$) disminuyen. Esto no necesariamente implica que el producto agregado ($Y_t$) decrece, porque a pesar de que el capital agregado ($K_t$) se reduce (por la reducción en ahorro), el factor trabajo ($L_t$) está aumentando.
+
+    -   Por lo general es mayor la disminución en el stock de capital agregado que el incremento en mano de obra, por lo tanto el producto agregado suele disminuir. Esto dependerá de la elasticidad del capital ($\alpha$).
+
+## Efectos del aumento en la edad de retiro
+
+-   A pesar de que más trabajadores mantienen a menos retirados, como el ingreso por trabajador disminuye, el beneficio de seguridad social por unidad de tiempo puede disminuir dada una tasa de impuesto sobre la nómina.
+
+    -   Esto dependerá de qué tan grande es el tiempo trabajado necesario para retirarse, de ser alto, los beneficios aumentan.
+
+    -   Esto podría resultar contraproducente al objetivo del gobierno de reducir la carga del presupuesto gubernamental sin disminuir los beneficios de seguridad social o sin aumentar la tasa impositiva.
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+-   Muchos países desarrollados están enfrentando los problemas de la sustentabilidad de la seguridad social como consecuencia de la disminución en la tasa de fertilidad y aumento en la esperanza de vida.
+
+-   Para sustentar el sistema de seguridad social actual, los países han decidido reducir los beneficios de las personas retiradas o aumentar la edad para retirarse.
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_8 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_1.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_8, interpolate=FALSE)
+```
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_9 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_9, interpolate=FALSE)
+```
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_10 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_3.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_10, interpolate=FALSE)
+```
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+-   **Producción:**
+
+-   En el estado estacionario, la producción por unidad de trabajo disminuye en x. En cuanto a la producción agregada, existe una única $\alpha^*$ tal que:
+
+    -   $\alpha<\alpha^*$: la producción agregada incrementa para toda x.
+
+    -   $\alpha$ entre $<\alpha^*$ y $1/2$: dependiendo de donde esté, la producción agregada tenderá a incrementar o a decrecer.
+
+    -   $\alpha>1/2$: la producción agregada disminuye.
+
+## Efectos del aumento en la edad de retiro
+
+[**"The effects of the raising-the-official-pension-age policy in an overlapping generations economy" (Miyazaki; 2014)**]{style="color:blue"}
+
+-   **Resultados:**
+
+    -   Se estudian los efectos de la política de aumento de la edad de retirarse en un modelo OLG.
+
+    -   Esta política no siempre aumenta la producción en una economía.
+
+    -   Trabajar más tiempo aumenta la mano de obra, mientras que disminuye el capital a través del ahorro
+
+    -   El beneficio de seguridad social por unidad de tiempo puede disminuir
+
+## Eficiencia en redistribución de pensiones
+
+[**"On the intergenerational Pareto efficiency of pay-as-you-go financed pension systems" (Breyer; 1989)**]{style="color:blue"}
+
+-   PAYG puede otorgar una mejor TIR comparado con un sistema de financiamiento de capital si la suma de las tasas de crecimiento de la población y del ingreso por trabajador exceden las tasas de interés en inversiones productivas.
+
+-   **Problemas:**
+
+    -   Salarios y tasas de interés exógenas -\> economía "pequeña y abierta"
+
+    -   No se consideran sistemas mixtos
+
+    -   Se consideran sistemas maduros
+
+## Eficiencia en redistribución de pensiones
+
+[**"On the intergenerational Pareto efficiency of pay-as-you-go financed pension systems" (Breyer; 1989)**]{style="color:blue"}
+
+-   **Supuestos:**
+
+    -   2 períodos: trabajador y pensionado
+
+    -   Número de trabajadores en cada período t: $N_t=N_0 G^{t}$
+
+    -   Cada trabajador está dotado de una unidad de un bien único
+
+    -   Mercados de capitales perfectos
+
+    -   Consumo en edad laboral de cada integrante de la generación t: $c_t=1-b_t^{k}-b_t^{p}$
+
+    -   Sin costos de transacción, los pagos de pensiones para la misma generación a la edad de retirarse son: $z^{p}_{t+1}=Gb^{p}_{t+1}$ y $z^{k}_{t+1}=Rb^{k}_{t+1}$
+
+## Eficiencia en redistribución de pensiones
+
+[**"On the intergenerational Pareto efficiency of pay-as-you-go financed pension systems" (Breyer; 1989)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_11 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Breyer_1.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_11, interpolate=FALSE)
+```
+
+## Eficiencia en redistribución de pensiones
+
+[**"On the intergenerational Pareto efficiency of pay-as-you-go financed pension systems" (Breyer; 1989)**]{style="color:blue"}
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_12 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Breyer_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_12, interpolate=FALSE)
+```
+
+## Eficiencia en redistribución de pensiones
+
+[**"On the intergenerational Pareto efficiency of pay-as-you-go financed pension systems" (Breyer; 1989)**]{style="color:blue"}
+
+-   **Resultados:**
+
+    -   Si PAYG se sustituye por un sistema de financiamiento de capital es imposible compensar a los retirados en la transición por las pérdidas incurridas sin perjudicar al menos a una generación posterior.
+
+    -   La decisión entre los sistemas de seguridad social no se reduce a un criterio de eficiencia en Pareto, si no implica conflictos de distribución entre generaciones.
+
+## Sistema de pensiones en México
+
+-   **El antiguo esquema - dos elementos:**
+
+-   Sistema de beneficios definidos parcialmente fundado (IVCM), administrado por el IMSS
+
+    -   Operó como un esquema PAYG.
+
+    -   Pensión mínima garantizada tras 10 años de contribuciones.
+
+    -   Aportaciones del 8.5% de los salarios.
+
+    -   Las reservas actuariales eran utilizadas para financiar otros rubros de la seguridad social, principalmente la salud (estructura demográfica y entorno macroeconómico lo permitían).
+
+-   Fondo para la vivienda administrado por el INFONAVIT:
+
+    -   Aportaciones del 5% de los salarios.
+
+## Sistema de pensiones en México
+
+-   **Cálculo de las pensiones (antiguo esquema):**
+
+    -   La base se calculaba cómo un porcentaje del salario promedio de los últimos 5 años trabajados.
+
+    -   Se añade una fracción por cada año adicional de contribuciones después del mínimo (10 años).
+
+    -   A mayores salarios , el porcentaje se reduce (efecto redistributivo).
+
+    -   Para compensar la erosión del valor real de las pensiones, estas se indexaron al salario mínimo en 1989.
+
+## Sistema de pensiones en México
+
+-   **La necesidad de la reforma:**
+
+-   **Pensiones inadecuadas:**
+
+    -   Trabajadores con alta rotación perdían derecho a una pensión (no acumulaban 10 años seguidos de contribuciones).
+
+    -   Existían incentivos para contribuir únicamente el mínimo de 10 años, ya que la mayor parte de una pensión estaba asegurada por ese periodo de contribuciones.
+
+    -   Existían incentivos para sub-reportar ingresos para recibir una pensión mayor. De esta manera trabajadores con ingresos altos recibían la misma pensión que aquellos con ingresos bajos.
+
+## Sistema de pensiones en México
+
+-   **Desequilibrios financieros:**
+
+    -   A partir de 1960 la menor tasa de natalidad y la mayor esperanza de vida, transforman la estructura demográfica de México.
+
+    -   El índice de dependencia comienza a crecer. El pago de pensiones crece, deteriorando la situación financiera del IMSS.
+
+-   **Los beneficios de los jubilados se incrementaron:**
+
+    -   La pensión mínima pasó de 35% del salario mínimo en 1989 a 100% en 1995.
+
+## Sistema de pensiones en México
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_13 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Mexico_Demographics.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_13, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_14 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Mexico_Dependency_Ratio.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_14, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   **Consecuencias:**
+
+    -   El nivel de reservas actuariales no era suficiente para afrontar el valor presente neto de la creciente población mayor y la elevada evasión.
+
+    -   Contribuciones actuales no eran suficientes para financiar en el mediano y largo plazo los beneficios mayores concedidos a los trabajadores.
+
+## Sistema de pensiones en México
+
+-   **La reforma de 1997:**
+
+-   Se pasa de un sistema parcialmente fundado a uno cien por ciento fundado.
+
+    -   Administrado por fondos privados (AFORE) e invertidos por SIEFORES.
+
+    -   Contribuciones tripartitas (trabajador, empleador, gobierno).
+
+-   Pensión mínima garantizada después de 25 años de contribuciones.
+
+-   El total de contribuciones para el retiro, ahora representa alrededor del 13.5% del salario del trabajador promedio.
+
+-   El fondo administrado por el INFONAVIT se mantiene de forma separada.
+
+-   Se crea un órgano regulador (CONSAR).
+
+## Sistema de pensiones en México
+
+-   **Costos de la reforma de 1997:**
+
+La reforma implicó tres costos principales.
+
+-   Jubilados bajo viejo esquema mantienen sus beneficios.
+
+    -   Después de agotarse las reservas del IMSS, el gobierno asume el pago.
+
+-   Los trabajadores de transición, podrán elegir retirarse bajo el antiguo esquema siempre que sus beneficios acumulados bajo este sean mayores.
+
+-   El gobierno está obligado a aportar a los fondos para el retiro individuales bajo el nuevo esquema.
+
+## Sistema de pensiones en México
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_15 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-OECD_Funding.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_15, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   **Oportunidades a futuro:**
+
+    -   Incremento en los activos bajo administración de SIEFORES.
+
+    -   Nuevas oportunidades de inversión.
+
+    -   Un ambiente de menores rendimientos y necesidad de diversificación.
+
+## Sistema de pensiones en México
+
+[**"Modelo para el sistema de pensiones en México: diagnóstico y recomendaciones" (BBVA; 2014)**]{style="color:blue"}
+
+-   La reforma del sistema de pensiones IMSS en 1997 limitó el creciente costo fiscal del anterior esquema de reparto.
+
+    -   El SAR ha tenido efectos macroeconómicos favorables para México:
+
+    -   Incremento significativo del ahorro financiero
+
+    -   Estímulo de los mercados financieros locales.
+
+Sin embargo, la cobertura de empleo y pensiones no se ha desarrollado como se esperaba.
+
+-   Objetivo: Desarrollar un modelo de proyección macroeconómica y actuarial para simular las tasas de cobertura y reemplazo esperadas para el período 2012-2050.
+
+## Sistema de pensiones en México
+
+[**"Modelo para el sistema de pensiones en México: diagnóstico y recomendaciones" (BBVA; 2014)**]{style="color:blue"}
+
+-   **Cálculo de contribuciones:**
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_16 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-BBVA_1.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_16, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+[**"Modelo para el sistema de pensiones en México: diagnóstico y recomendaciones" (BBVA; 2014)**]{style="color:blue"}
+
+-   Nuevo saldo = (Saldo anterior x tasa de interés) + Nueva aportación
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_17 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-BBVA_2.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_17, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   **Costo fiscal de las pensiones:**
+
+-   El costo fiscal del sistema de pensiones del IMSS se compone de:
+
+    -   Financiamiento de pensiones L73,
+
+    -   Financiamiento del MPG, cuando se agoten los fondos de la cuenta individual,
+
+    -   Cuota Social,
+
+    -   Contribuciones del gobierno a la cuenta individual, equivalentes al 0.225% del salario del trabajador.
+
+## Sistema de pensiones en México
+
+-   Distribución de los salarios:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_18 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Salary_Distribution.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_18, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   Distribución de los salarios:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_19 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Monthly_Income.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_19, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   Distribución de los salarios:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_20 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Deciles_Income.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_20, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   Distribución de los salarios:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_21 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Contributors_Distribution.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_21, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   Las tasas de cobertura laboral proyectadas para cotizantes regulares, seguirán siendo bajas. El gráfico derecho muestra que la cobertura de las pensiones para los mayores de 65 años aumentará del 14% en 2011 al 22% en 2050.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_22 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Labor_Coverage.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_22, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   El costo fiscal incluye el pago de pensiones L73, MPG, así como la Cuota Social y otras contribuciones gubernamentales a las cuentas individuales de los trabajadores activos.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_23 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Fiscal_Cost.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_23, interpolate=FALSE)
+```
+
+## Sistema de pensiones en México
+
+-   **Resultados:** La posibilidad de obtener pensiones adecuadas quedará restringida a quienes tengan condiciones socioeconómicas con una larga trayectoria laboral.
+
+-   **Propuesta de reforma:**
+
+    -   Incrementar la tasa de cotización obligatoria
+
+    -   Eliminación progresiva de la jubilación anticipada
+
+    -   Incorporación obligatoria de trabajadores independientes
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   Japón: Tasa de fertilidad disminuye mientras expectativa de vida incrementa.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_24 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japanese_Population.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_24, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   La población de Japón está envejeciendo (tasas de fertilidad por debajo de niveles de reemplazo por 40 años; expectativa de vida mayor a economías desarrolladas).
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_25 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Fertility_Rate.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_25, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   La población de Japón está envejeciendo (tasas de fertilidad por debajo de niveles de reemplazo por 40 años; expectativa de vida mayor a economías desarrolladas).
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_26 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Life_Expectancy.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_26, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   Ratio de dependencia incrementará de 10% en 1950 a 80% en 2050.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_27 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Dependency_Ratio.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_27, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   **Japón: Modelo de una reforma en el sistema de pensiones:**
+
+    -   Aumento en la edad de retiro 3 años (65 a 68) gradualmente.
+
+    -   Recorte de gradual a lo largo de 30 años del 20% en beneficios (recorte a "replacement rate" = % de la pensión vs salario en años laborales)
+
+-   **¿Cuál es el impacto de demorar esta Reforma en Japón?**
+
+-   Se plantean 3 escenarios para inicio de reforma: 2020, 2030 and 2040.
+
+-   Modelo económico: Equilibrio general de generaciones traslapadas calibrado con datos demográficos y económicos de Japón.
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   No hacer la reforma implicaría una desaceleración económica.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_28 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_No_Reform.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_28, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   Demorar la reforma prolongará impacto económico.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_29 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Reform.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_29, interpolate=FALSE)
+```
+
+## Experiencias internacionales
+
+[**"When do we start? Pension reform in aging Japan" (RIETI; 2016)**]{style="color:blue"}
+
+-   En el momento de la reforma comienza a aumentar el bienestar social.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Pensions_30 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Welfare_Reform.png", native= TRUE, info=TRUE)
+
+grid.raster(Pensions_30, interpolate=FALSE)
+```

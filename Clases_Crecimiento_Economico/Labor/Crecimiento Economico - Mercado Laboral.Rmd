@@ -1,0 +1,583 @@
+---
+title: "Crecimiento Económico"
+output:
+  ioslides_presentation: 
+    css: air.css
+    smaller: true
+    widescreen: true
+  html_document: 
+  runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+library(shiny)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# Crecimiento Económico \| Cambio tecnológico y sustitución laboral
+
+## Cambio tecnológico y sustitución laboral
+
+### **Agenda**
+
+- Implicaciones del cambio tecnológico
+
+- Sustitución laboral
+
+    -    Revolución Industrial
+    
+    -    Actualidad
+
+- Sustitutos o complementos
+
+- Políticas
+
+## Implicaciones del cambio tecnológico
+
+-   “En lo que respecta a la influencia del periódico sobre la mente y la moral de la gente, **no puede haber ninguna duda racional de que el telégrafo ha causado un gran daño** … Diez días nos lleva conocer las noticias de Europa. ¿Qué necesidad hay de tener las noticias en diez minutos? ¿Qué tan trivial y miserable es la columna telegráfica? Aquí nevó, llovió allá, un hombre mató, otro ahorcado. **Incluso las notas del Washington (Post) se ha deteriorado desde la innovación**, y puedo recomendar conscientemente los artículos de antes de 1844, en lugar de los de años posteriores”.
+
+- New York Times, 1858
+
+## Implicaciones del cambio tecnológico
+
+-   "Tomemos, por ejemplo, la revolución que se ha producido en la industria del vidrio. Durante mucho tiempo se pensó que era imposible reemplazar la habilidad humana en su fabricación. En la actualidad, casi todos los artículos de vidrio están siendo fabricadas por máquinas y algunas son extraordinariamente eficientes. En cada tipo de botella, una máquina automática produce 41 veces más que los procesos de mano de obra, y la producción de la máquina **no requiere sopladores de vidrio calificados**. Una máquina hace ahora lo que 41 hombres antes ¿Qué estamos haciendo con los hombres desplazados?”
+
+- “Piense en la angustia en todo el país en 1920-21 con los bares cerrados y las calles inundadas de extranjeros, **y sin trabajo en ningún lugar**. Nuestro deber, como lo vimos, era cuidar lo mejor que pudiéramos para los trabajadores que ya estaban aquí, nativos o nacidos en el extranjero. **La inmigración restrictiva nos permitió hacerlo**, y por lo tanto resolvimos una situación extraordinariamente mala. Ahora, tal como fuimos sabios en esa época en lo que respecta a la inmigración, **debemos ser sabios al evitar hoy en día la maldición del desempleo como resultado de la incesante invención de la maquinaria**.”
+
+- Secretario del Trabajo James J. Davis, 1927
+
+## Implicaciones del cambio tecnológico
+
+-   “La cantidad de trabajos reemplazados por máquinas más eficientes es solo una parte del problema. Lo que preocupa a muchos expertos en empleo es que **la automatización puede impedir que la economía cree suficientes empleos nuevos** ... En toda la industria, la tendencia ha sido una mayor producción con una fuerza laboral más pequeña ... Muchas de las pérdidas en empleos en fábricas han sido contrarrestadas por un aumento en las industrias de servicios o en empleos de oficina. Pero la automatización está empezando a moverse y también a eliminar los trabajos de oficina ... **En el pasado, las nuevas industrias contrataban a mucha más gente que las que despedían. Pero esto no es cierto para muchas de las nuevas industrias de hoy** ... Las nuevas industrias de hoy en día tienen comparativamente pocos empleos para los no calificados o semicalificados, la clase de trabajadores cuyos empleos están siendo eliminados por la automatización”
+
+- TIMES, 1961
+
+## Implicaciones del cambio tecnológico
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Computerphobia <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Computerphobia.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Computerphobia, interpolate=FALSE)
+```
+
+## Implicaciones del cambio tecnológico
+
+-   Esto es el argumento actual sobre como **la tecnología y la automatización que conducirá a un desempleo masivo en el futuro**. Hace 50 años estábamos preocupados por este tipo de cosas, y en este momento no se tenía un desempleo masivo. 
+
+- Cuando este ha existido, no se referencia al problema de la automatización. 
+
+## Implicaciones del cambio tecnológico
+
+-   En 1961, **la relación empleo / población** era de 55%, y luego aumentó de manera constante hasta 2000, cuando alcanzó un máximo del 64%. 
+
+-   Incluso después de la crisis de 2008, la proporción sigue siendo del 59% en la actualidad, más alta que en 1961.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Labor_Force_Statistics <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Labor_Force_Statistics.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Labor_Force_Statistics, interpolate=FALSE)
+```
+
+## Implicaciones del cambio tecnológico
+
+-   <span style="color:red">Reemplazo de trabajos</span>
+
+-   **La preocupación es que la tecnología reemplazará ciertos trabajos** (especialmente los que producen bienes) y que no habrá nada para que hagan estas personas. **Presumiblemente saldrán completamente del mercado laboral** y posiblemente necesitarán un apoyo permanente para mantener los ingresos.
+
+-   **Esto tratado así, es falso:** la tecnología reduce la demanda de mano de obra en algunas industrias, por lo que hay menos trabajadores empleados ahí, lo que **aumenta la oferta de mano de obra en todas las demás industrias**. 
+
+## Implicaciones del cambio tecnológico
+
+-   Para que el impacto de la oferta no genere otros empleos, se debe asumir que la economía es tan inflexible que tiene una serie de puestos de trabajo fijos que se pueden cubrir. Sin embargo, los datos demuestran que esto no es así:
+
+-   **Entre 1950 y 2013, el mercado laboral de Estados Unidos se expandió de 28 millones a 117 millones de empleos de servicio (BLS).**
+
+-   Así que la economía va a encontrar algo que estas personas puedan hacer. 
+
+-   La pregunta es **qué tipo de trabajos serán estos.**
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“When Did Growth Begin? New Estimates of Productivity Growth in England from 1250 to 1870” (Bouscasse, Nakamura, Steinsson, 2021)</span>
+
+- Inicios del aumento de la productividad
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_England_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-England_Productivity.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_England_Productivity, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“When Did Growth Begin? New Estimates of Productivity Growth in England from 1250 to 1870” (Bouscasse, Nakamura, Steinsson, 2021)</span>
+
+- Inicios del aumento de la productividad
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Wage_Labor_Supply <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wage_Labor_Supply.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Wage_Labor_Supply, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“Human Capital Formation from Occupations: The ‘Deskilling Hypothesis’ Revisited” (Pleijt, Wiesdorf (PW); 2014; CGEH)</span>
+
+-   Los autores **analizan la composición de habilidades de la fuerza laboral de Reino Unido desde 1550 hasta 1850**. Lo hacen **observando los títulos ocupacionales registrados en los registros parroquiales ingleses** durante ese período, y codifican a cada trabajador observado según la habilidad asociada con su ocupación. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Skills_Manual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skills_Manual.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Skills_Manual, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- BGS es básicamente una actualización del paper de PW en el periodo actual. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Employment_Management <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Management.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Employment_Management, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- Concluyen que **el nivel de empleo de trabajadores calificados está disminuyendo**. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Employment_Management <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Management.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Employment_Management, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- En contraste, **la tendencia de los empleados de servicios y mano de obra poco calificada es positiva** y, a pesar de la caída en 2008, esto no parece haber revertido la tendencia general al alza de las últimas décadas. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Employment_Service <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Service.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Employment_Service, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- Una interpretación es que **se formó una “nueva habilidad”** en Estados Unidos desde el año 2000.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Cognitive_College <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Cognitive_College.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Cognitive_College, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- Una interpretación es que se formó una “nueva habilidad” en Estados Unidos desde el año 2000.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Management_College <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Management_College.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Management_College, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)</span>
+
+- De acuerdo con BGS, ahora tenemos un "exceso" de trabajadores calificados graduados de universidades, que no son realmente necesarios. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Routine_Tasks <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Routine_Tasks.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Routine_Tasks, interpolate=FALSE)
+```
+
+## La sustitución laboral en la Revolución Industrial
+
+-   <span style="color:blue">“The Great Reversal in the Demand for Skill and Cognitive Tasks” (Beaudry, Green, Sand (BGS); 2013; NBER)
+
+- Las industrias están presionando al mercado laboral hacia trabajos que normalmente habrían sido para trabajadores no calificados que no tienen estudios universitarios, lo que a su vez obliga a esas personas calificadas a ocupar puestos de trabajo poco calificados en servicio o trabajo. 
+
+## Cambio tecnológico: sustituto o complemento
+
+-   En Estados Unidos, **los datos muestran que los salarios de los trabajadores de los percentiles 10 y 20 en los Estados Unidos se estancaron en los últimos 40 años**.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Wages_Low_Workers <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wages_Low_Workers.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Wages_Low_Workers, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Trade, skill-biased technical change and wages in Mexican manufacturing” (Caselli, University of Oxford, 2011)
+
+- La liberalización del comercio en México generó un **aumento de habilidades de los trabajadores en el sector manufacturero mexicano**.
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Skilled_Mexico <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_Mexico.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Skilled_Mexico, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Trade, skill-biased technical change and wages in Mexican manufacturing” (Caselli, University of Oxford, 2011)</span>
+
+- Esto refleja principalmente **un aumento en los salarios reales de los trabajadores calificados**.
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Skilled_1985 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_1985.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Skilled_1985, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Trade, skill-biased technical change and wages in Mexican manufacturing” (Caselli, University of Oxford, 2011)</span>
+
+- ...y **una caída en los salarios reales de los trabajadores no calificados**.
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Unskilled_1985 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unskilled_1985.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Unskilled_1985, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Technology and Skill Demand in Mexico” (López-Acevedo, The World Bank, 2002)</span>
+
+- López-Acevedo investiga los efectos de la tecnología en el empleo y los salarios de trabajadores manufactureros mexicanos con diferentes habilidades utilizando datos  panel en el periodo de 1992 a 1999, **analizando la relación entre desarrollo tecnológico y la demanda de habilidades**. 
+
+- Los hallazgos **apoyan la hipótesis de que el cambio tecnológico aumenta las habilidades**. 
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Skilled_Categories <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_Categories.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Skilled_Categories, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Technology and Skill Demand in Mexico” (López-Acevedo, The World Bank, 2002)</span>
+
+- Asimismo, **los salarios de los trabajadores calificados y semicalificados muestran tasas de crecimiento notablemente más altas en comparación con la tasa de crecimiento de los trabajadores poco calificados**. 
+
+- Los resultados muestran que la inversión en capital humano mejora las ganancias de productividad impulsadas por la tecnología.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Wage_Premium_Categories <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wage_Premium_Categories.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Wage_Premium_Categories, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“The Micro and Macro of Disappearing Routine Jobs: A Flows Approach” (Cortes, Jaimovich, Nekarda, and Siu (CJNS); 2014; NBER)</span>
+
+- CJNS investigan los **flujos en el trabajo “rutinario” (aquellas actividades que pueden realizarse siguiendo un conjunto bien definido de procedimientos) frente al no rutinario**. En la década de 1980, alrededor de 1/3 de los trabajadores estadounidenses tenían un trabajo rutinario, y actualmente este número es solo de 1/4. 
+ 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Employed_Rutinary <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employed_Rutinary.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Employed_Rutinary, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“The Micro and Macro of Disappearing Routine Jobs: A Flows Approach” (Cortes, Jaimovich, Nekarda, and Siu (CJNS); 2014; NBER)</span>
+
+- Como es de esperarse, las personas con más educación pudieron adaptarse mejor a esto. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Unemployed_Rutinary_Manual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unemployed_Rutinary_Manual.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Unemployed_Rutinary_Manual, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“The Micro and Macro of Disappearing Routine Jobs: A Flows Approach” (Cortes, Jaimovich, Nekarda, and Siu (CJNS); 2014; NBER)</span>
+
+- Como es de esperarse, las personas con más educación pudieron adaptarse mejor a esto. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Unemployed_Rutinary_Cognitive <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unemployed_Rutinary_Cognitive.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Unemployed_Rutinary_Cognitive, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_NLF_ERM <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-NLF_ERM.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_NLF_ERM, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Job Polarization and Job Recoveries” (Jaimovich y Siu, 2018)</span>
+
+- Jaimovich y Siu (2012) estudian el **comportamiento de la recuperación laboral en Estados Unidos después de las 6 recesiones** importantes ocurridas entre el periodo 1970-2009. Las siguientes gráficas reflejan la distribución del empleo agregado antes y después de cada recesión (en meses):
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Employment_Recession <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Recession.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Employment_Recession, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Job Polarization and Job Recoveries” (Jaimovich y Siu, 2018)</span>
+
+- Jaimovich y Siu (2012) estudian el **comportamiento de la recuperación laboral en Estados Unidos después de las 6 recesiones** importantes ocurridas entre el periodo 1970-2009. Las siguientes gráficas reflejan la distribución del empleo agregado antes y después de cada recesión (en meses):
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Occupational_Employment_Recession <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Occupational_Employment_Recession.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Occupational_Employment_Recession, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Robots are our saviours, not the enemy” (Thiel; 2014; FT)</span>
+
+- Thiel utiliza la combinación de máquinas y trabajadores en Paypal para detectar fraudes como el ejemplo de cómo las máquinas más inteligentes beneficiarán a los trabajadores. 
+
+- Una de las respuestas viene por parte de Brad DeLong: **si los trabajadores se benefician no depende de la productividad promedio de ese trabajador, sino de la productividad del trabajador marginal que no está empleado**. 
+
+- Es decir, si puedo ser reemplazado en Paypal por un trabajador desempleado que no tiene otras opciones, entonces mi propio salario será bajo, independientemente de cuán productivo sea. Al reemplazar a los trabajadores en algunos trabajos, las máquinas aumentan la oferta de trabajadores en los trabajos restantes, lo que reduce los salarios.
+
+- **Para mantener los salarios altos, tendremos que aumentar la demanda de habilidades específicas para los trabajadores. ¿Que habilidades? DeLong enlista: persuasión, motivación e innovación** como cosas que se dejarán para que los trabajadores realicen.
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Polanyi’s Paradox and the Shape of Employment Growth” (Autor; 2014; NBEC)</span>
+
+- El paper toma una posición de complementariedad entre las máquinas y los trabajadores. 
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Cats_Neural <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Cats_Neural.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Cats_Neural, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Polanyi’s Paradox and the Shape of Employment Growth” (Autor; 2014; NBEC)</span>
+
+- Gran parte del optimismo de Autor proviene de lo que él llama "la paradoja de Polyani“ que esencialmente dice: **las personas somos incapaces de explicar por completo lo que sabemos, por lo que no podemos programar una máquina para hacerlo**. 
+
+- Por lo tanto, pone un **límite de las máquinas pues no tienen conocimiento tácito.** Todo debe especificarse con precisión para que funcionen. Mientras haya tareas como esa, los robots no pueden reemplazar a los trabajadores, y requerirá que estos, junto con las máquinas, realicen juntos el trabajo. 
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Polanyi’s Paradox and the Shape of Employment Growth” (Autor; 2014; NBEC)</span>
+
+- **Sin embargo, el salario de esos trabajadores aún podría caer porque las mejores máquinas podrían hacer que cualquier persona pudiera trabajar en ese lugar** (por ejemplo, el sector de construcción), y el producto marginal de cualquier trabajador es muy bajo. 
+
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Changes_Wages_Occupational <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Changes_Wages_Occupational.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Changes_Wages_Occupational, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Robots Are Us: Some Economics of Human Replacement” (Benzell, Kotlikoff, LaGarda, y Sachs (BKLS); 2018; NBEC)</span>
+
+- Intentan proporcionar un modelo básico de crecimiento económico que explique la capacidad de las máquinas para reemplazar a los trabajadores humanos hasta el momento de hacerlos “obsoletos”.
+
+- Desarrollan un modelo OLG de dos períodos que admite que **las máquinas inteligentes pueden producir miseria o prosperidad económica**. Predice firmemente tres cosas: 
+
+    -    Una disminución a largo plazo de la participación de la mano de obra en los ingresos (entre los países de la OCDE)
+    -    Booms tecnológicos seguidos por los baches tecnológicos 
+    -    Una creciente dependencia de la producción actual en previa inversión de software.
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Robots Are Us: Some Economics of Human Replacement” (Benzell, Kotlikoff, LaGarda, y Sachs (BKLS); 2018; NBEC)</span>
+
+- El “crecimiento empobrecedor” es más probable cuanto menor es la propensión a ahorrar y menor la elasticidad de sustitución del capital por tecnología. Si la tecnología es buena para reemplazar el trabajo, se pueden dar estas condiciones.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Immiseriating_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Immiseriating_Growth.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Immiseriating_Growth, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Robots Are Us: Some Economics of Human Replacement” (Benzell, Kotlikoff, LaGarda, y Sachs (BKLS); 2018; NBEC)</span>
+
+- El “crecimiento empobrecedor” es más probable cuanto menor es la propensión a ahorrar y menor la elasticidad de sustitución del capital por tecnología. Si la tecnología es buena para reemplazar el trabajo, se pueden dar estas condiciones.
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Sachs_Case_Studies <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Sachs_Case_Studies.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Sachs_Case_Studies, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Review trends" (Greenstone, Looney; Milken Institute, 2011)</span>
+
+- Para personas sin educación superior en Estados Unidos, el cambio tecnológico no parece tenido los beneficios de los demás sectores:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Annual_Earnings <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Annual_Earnings.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Annual_Earnings, interpolate=FALSE)
+```
+
+## Cambio tecnológico: sustituto o complemento
+
+- <span style="color:blue">“Review trends" (Greenstone, Looney; Milken Institute, 2011)</span>
+
+- Para personas sin educación superior en Estados Unidos, el cambio tecnológico no parece tenido los beneficios de los demás sectores:
+
+```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
+library(png)
+library(grid)
+Labor_Rising_Nonemployment <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Rising_Nonemployment.png", native= TRUE, info=TRUE)
+
+grid.raster(Labor_Rising_Nonemployment, interpolate=FALSE)
+```
+
+## Políticas
+
+- En vez de preocuparse por el desplazamiento de los trabajadores por el cambio tecnológico, los diseñadores de políticas públicas y analistas deberían de preocuparse por mejorar el mercado laboral complementándolo con la nueva tecnología: 
+
+    -    **Calidad de los empleos**: McDonalds, tiendas minoristas, etc, estos son los trabajos que la tecnología debe reemplazar para que el mercado busque ocupar a estas personas aprovechando el talento humano.
+    
+    -    **En específico, en el sector manufacturero los empleos están siendo reemplazados por la tecnología.** Probablemente, las máquinas produzcan todo en un futuro. 
+    
+## Políticas
+
+- Por ello:
+
+    -    **Una opción es suavizar la transición para las personas desplazadas y ayudarlas a pasar a nuevas industrias**: esto implicaría discusiones sobre apoyo para capacitación y educación, no el evitar que una tecnología se incorpore a la industria.
+
+    -    Si el objetivo es apoyar a los trabajadores afectados por la presión salarial a la baja a medida que disminuye la demanda de mano de obra, entonces es mejor trabajar para **revertir la pérdida del poder de negociación de los trabajadores**: por ejemplo, aumentar los salarios mínimos o sindicalizar a los trabajadores.
+
+## Políticas
+
+- **Las máquinas podrían reemplazar a los trabajadores en la producción y esto llevará al salario por debajo de ese requisito de subsistencia.** Esto implicaría que ninguna empresa contratará trabajadores con el salario de subsistencia o las personas que trabajan no cumplirán con la subsistencia.
+
+    -    **El argumento ignora el impacto de las máquinas en el precio de ese requisito de subsistencia: también reducen el precio de los bienes**. 
+
+    -    **No es necesario ni obvio que los salarios reales deban caer a causa de las máquinas**: los datos dicen que, a pesar de todos los cambios tecnológicos, los salarios reales han aumentado a medida que los costos más bajos superan la presión a la baja sobre los salarios.
+
+## Políticas
+
+- **La concentración de riqueza sería un problema con o sin aumento tecnológico**. La preocupación aquí es que, dado que los ricos serán los únicos capaces de construir los robots, fabricar de robots, controlarán completamente la producción de bienes y la demanda de mano de obra. 
+
+    -    Ese no es un problema que surja con los robots, ese es un problema que surge con la agricultura hace 10 mil años. 
+
+## Políticas
+
+- **La pregunta de qué sucede cuando las máquinas abundan tiene más que ver sobre cómo nos adaptamos a la tecnología disruptiva**. Por ejemplo, la introducción del arado en el siglo XIII:
+
+    -    El análisis de la introducción de una nueva tecnología incorporada en bienes de capital es similar a las preocupaciones con respecto al aumento tecnológico: con el capital de solo unos pocos, aquellos sin capital se vuelven dependientes de los ricos y tienen su nivel de vida reducido. 
+
+    -    La innovación favorece a aquellos con las habilidades para trabajar con la nueva tecnología. 
+
+    -    **La evidencia sugiere que quien posea la tecnología o el capital asociado con ella la usará como apalancamiento sobre aquellos que no la tienen, como siempre**.
+
+- **Sin embargo, es solo un ejemplo de cómo los mismos problemas con la innovación, la tecnología y el desplazamiento han ocurrido siempre**. 
+
+## Políticas
+
+- **Cualquier empleo puede ser bueno si el trabajador y el empleador pueden coordinar un buen equilibrio.** 
+
+    -    A medida que la tecnología sigue desplazando a los trabajadores, las políticas públicas deben de enfocarse en conseguir el equilibrio en los sectores de una industria (alto salario, alto beneficio, alto esfuerzo, baja rotación) en lugar de preocuparse por cosas como los días perdidos de los trabajadores o la presunción de que, literalmente, se quedarán sin cosas que hacercapital se vuelven dependientes de los ricos y tienen su nivel de vida reducido. 
+    
+## Políticas
+
+- **Políticas públicas específicas:**
+
+    -    **Formación.** Dotar a las personas con habilidades que les permitan pasar a trabajos que son más difíciles de reemplazar, o al menos seguir avanzando en estos los trabajos antes de que los robots los reemplacen. 
+    
+    -   **Redistribución.** Cobrar impuestos a los propietarios adinerados de tecnología. Difunde los beneficios de tener robots alrededor de todos.
+
+    -    **Mejores salarios a los menos calificados**.
+

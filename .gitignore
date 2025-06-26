@@ -1,0 +1,15 @@
+# Archivos temporales de VS Code / Jupyter / Windows
+.vscode/
+.ipynb_checkpoints/
+*.pyc
+Thumbs.db
+.DS_Store
+# --- Archivos que no subiré -------------------------
+*.RData
+*.RDataTmp
+*.Rhistory
+*.xlsx
+*.html
+*.png
+*.jpg
+*.ipynb_checkpoints/

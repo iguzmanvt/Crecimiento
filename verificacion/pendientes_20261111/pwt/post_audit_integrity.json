@@ -1,0 +1,32 @@
+{
+  "baseline": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "repo_HEAD": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "repo_status_porcelain": [],
+  "original_xlsx_sha256_after": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+  "original_xlsx_git_blob_after": "eeadab4fbf7a1bba4fd2c25d73559b46cab2e59f",
+  "original_xlsx_unchanged": true,
+  "historical_workspace_sha256": "84eecbdd279dedbb35241539bb522ef507647b41945ea8e52ed7451c9d00cdbb",
+  "downloaded_originals_verified": [
+    {
+      "name": "repo_ejemplo_estados_unidos.xlsx",
+      "sha256_matches_manifest": true
+    },
+    {
+      "name": "official_pwt100.xlsx",
+      "sha256_matches_manifest": true
+    },
+    {
+      "name": "official_pwt100.dta",
+      "sha256_matches_manifest": true
+    },
+    {
+      "name": "official_pwt100_changelog.pdf",
+      "sha256_matches_manifest": true
+    },
+    {
+      "name": "cran_pwt10_10.01-0.tar.gz",
+      "sha256_matches_manifest": true
+    }
+  ],
+  "Rmd_git_blob": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc"
+}

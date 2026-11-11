@@ -1,0 +1,99 @@
+{
+  "retrieved_UTC": "2026-11-11T21:02:28.356687+00:00",
+  "baseline": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "repo_HEAD": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "sources": [
+    {
+      "name": "repo_ejemplo_estados_unidos.xlsx",
+      "repo_path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+      "bytes": 6613816,
+      "sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+      "git_blob": "eeadab4fbf7a1bba4fd2c25d73559b46cab2e59f"
+    },
+    {
+      "name": "official_pwt100.xlsx",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+      "final_url": "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8",
+      "bytes": 6561820,
+      "sha256": "1a13ca27ada7bcab29c15430b3fe7f4d6c3cf0d2ee3eef3aed31d0fc0a2085d3",
+      "transport": "Windows curl with certificate verification; Python urllib chain verification failed"
+    },
+    {
+      "name": "official_pwt100.dta",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100.dta",
+      "final_url": "https://www.rug.nl/ggdc/docs/pwt100.dta",
+      "status": 200,
+      "content_type": "application/octet-stream;charset=UTF-8",
+      "bytes": 3452645,
+      "sha256": "51d0b44fab4535e2c38ea5b2cab10ede548525e5488b4fafa166776723db4100",
+      "transport": "Windows curl with certificate verification; Python urllib chain verification failed"
+    },
+    {
+      "name": "official_pwt100_changelog.pdf",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf",
+      "final_url": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf",
+      "status": 200,
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 165635,
+      "sha256": "3e438de5f339433a9be08869697d270d8d28fcfdad58f7db17a7f1f8e4fa2486",
+      "transport": "Windows curl with certificate verification; Python urllib chain verification failed"
+    },
+    {
+      "name": "cran_pwt10_10.01-0.tar.gz",
+      "url": "https://cran.r-project.org/src/contrib/pwt10_10.01-0.tar.gz",
+      "final_url": "https://cran.r-project.org/src/contrib/pwt10_10.01-0.tar.gz",
+      "status": 200,
+      "content_type": "application/x-gzip",
+      "last_modified": "Mon, 27 Feb 2023 19:42:31 GMT",
+      "etag": "\"298a0b-5f5b3ae095423\"",
+      "bytes": 2722315,
+      "sha256": "5b47ad8b46e97c923ed4eaa9ca0d86ab032212e27136cd6ba76dad093f28dc94"
+    }
+  ],
+  "original_xlsx_unchanged": true,
+  "download_attempts": [
+    {
+      "name": "repo_ejemplo_estados_unidos.xlsx",
+      "repo_path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+      "bytes": 6613816,
+      "sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+      "git_blob": "eeadab4fbf7a1bba4fd2c25d73559b46cab2e59f"
+    },
+    {
+      "name": "official_pwt100.xlsx",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+    },
+    {
+      "name": "official_pwt100.dta",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100.dta",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+    },
+    {
+      "name": "official_pwt100_changelog.pdf",
+      "url": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>"
+    },
+    {
+      "name": "cran_pwt10_10.01-0.tar.gz",
+      "url": "https://cran.r-project.org/src/contrib/pwt10_10.01-0.tar.gz",
+      "final_url": "https://cran.r-project.org/src/contrib/pwt10_10.01-0.tar.gz",
+      "status": 200,
+      "content_type": "application/x-gzip",
+      "last_modified": "Mon, 27 Feb 2023 19:42:31 GMT",
+      "etag": "\"298a0b-5f5b3ae095423\"",
+      "bytes": 2722315,
+      "sha256": "5b47ad8b46e97c923ed4eaa9ca0d86ab032212e27136cd6ba76dad093f28dc94"
+    }
+  ],
+  "pandas_available": true,
+  "cran_object": {
+    "member": "pwt10/data/pwt10.0.rda",
+    "bytes": 1359272,
+    "sha256": "1e51143c37a726c745e4655a460481be93ed36a20243e5e671bd4160d93c35f6",
+    "md5": "6f6a527f2a00a3a010e53f73150d09a1",
+    "git_blob": "8526f6a8bcc34307975840d8c5ff1fc874ee368a"
+  }
+}

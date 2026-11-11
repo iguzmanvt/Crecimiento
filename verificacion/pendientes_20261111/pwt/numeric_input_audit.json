@@ -1,0 +1,58 @@
+{
+  "pandas_version": "3.0.0",
+  "DTA_value_labels_decoded": true,
+  "blank_strings_normalized_to_missing": true,
+  "repo_workbook_sheets": [
+    "Info",
+    "Legend",
+    "Data",
+    "Hoja1",
+    "Hoja1 (2)"
+  ],
+  "official_workbook_sheets": [
+    "Info",
+    "Legend",
+    "Data"
+  ],
+  "repo_Data_XML_sha256": "d810feaf809d4d1a0a691b2ac238df2e231049f5795a05c3b7c94a1b343a4088",
+  "official_Data_XML_sha256": "4f1649d7ff8f2917f935771a308fd1bbf1cadd475ac83556b2f7aa2b4232e760",
+  "repo_vs_official_xlsx_Data": {
+    "keys_left": 12810,
+    "keys_right": 12810,
+    "common_keys": 12810,
+    "rows_columns_compared": 666120,
+    "column_mismatches": {},
+    "examples": [],
+    "all_equal": true
+  },
+  "official_xlsx_vs_DTA_Data": {
+    "keys_left": 12810,
+    "keys_right": 12810,
+    "common_keys": 12810,
+    "rows_columns_compared": 666120,
+    "column_mismatches": {},
+    "examples": [],
+    "all_equal": true
+  },
+  "dta_input_dtypes": {
+    "year": "int16",
+    "rgdpna": "float32",
+    "rnna": "float32",
+    "pop": "float64",
+    "hc": "float32"
+  },
+  "rnna_profile_summary": {
+    "years": 70,
+    "mismatches": 35,
+    "max_abs_difference": 8,
+    "max_relative_difference": 1.8687554369103494e-7,
+    "ulp_counts": {
+      "0": 35,
+      "1": 27,
+      "2": 8
+    },
+    "all_xlsx_and_cran_values_exact_float32": true
+  },
+  "Rmd_executed": false,
+  "formulas_recalculated": false
+}

@@ -1,0 +1,390 @@
+{
+  "date": "2026-11-11",
+  "task": "Procedencia de pwt10.0, cronología CRAN/GGDC y código publicado",
+  "scope": "Sólo lectura; sin ejecutar Rmd, R, Stata ni api_create; repositorios no modificados.",
+  "conclusions": [
+    "La fuente CRAN conserva sin cambio el archivo pwt10.0.rda publicado el 21-ene-2021 dentro del paquete 10.01-0 del 27-feb-2023. No confundir versión del paquete y objeto de datos.",
+    "GGDC actualizó PWT10.0 después del primer paquete CRAN; el último changelog consultado enumera cuatro revisiones de 2021.",
+    "El changelog menciona recalcular rnna para China/Sudán, no una revisión de rnna de Estados Unidos. Esa ausencia no demuestra que ningún proceso haya alterado USA.",
+    "No se encontró el importador de datos a R en ninguno de los dos árboles CRAN, y no se localizó en la búsqueda acotada de fuentes del autor/R-Forge.",
+    "El programa oficial de GGDC incorpora rnna ya calculado desde k_aggregate.dta y exporta DTA/XLSX consecutivamente; el ZIP no contiene el generador del archivo de capital.",
+    "Estos datos no permiten atribuir causalmente las diferencias USA a revisión, recálculo o importador. La comparación numérica del coordinador es independiente."
+  ],
+  "package_data_identity": {
+    "original_package_version": "10.0-0",
+    "original_release_date": "2021-01-21",
+    "original_commit": "ddab9e949de8f52619cdfdbc436c5ea558d16a11",
+    "current_package_version": "10.01-0",
+    "current_release_date": "2023-02-27",
+    "current_commit": "957b298fd706a567af96ccb1663ad68d5e5d07ba",
+    "data_path": "data/pwt10.0.rda",
+    "old_blob": "8526f6a8bcc34307975840d8c5ff1fc874ee368a",
+    "current_blob": "8526f6a8bcc34307975840d8c5ff1fc874ee368a",
+    "bytes": 1359272,
+    "identical_git_blob": true,
+    "declared_MD5_both_manifests": "6f6a527f2a00a3a010e53f73150d09a1",
+    "MD5_locally_recomputed": false,
+    "history_commits_for_data_path": [
+      "ddab9e949de8f52619cdfdbc436c5ea558d16a11"
+    ],
+    "package_10_01_adds_distinct_object": "data/pwt10.01.rda",
+    "installed_object_verified_here": false
+  },
+  "chronology": [
+    {
+      "date": "2021-01-14",
+      "event": "Disponibilidad/producción registrada por el catálogo oficial de Groningen",
+      "source": "https://research.rug.nl/en/datasets/penn-world-table-version-100/"
+    },
+    {
+      "date": "2021-01-15",
+      "event": "Anuncio de lanzamiento GGDC",
+      "source": "https://www.rug.nl/ggdc/blog/pwt-100-has-been-launched-12-01-2021?lang=en"
+    },
+    {
+      "date": "2021-01-21",
+      "event": "Primera versión CRAN10.0-0; pwt10.0.rda ya presente",
+      "source": "https://cran.r-project.org/src/contrib/Archive/pwt10/"
+    },
+    {
+      "date": "2021-01-26",
+      "event": "Corrección de GDP nominal de serie alternativa China y variables dependientes",
+      "source": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf"
+    },
+    {
+      "date": "2021-01-28",
+      "event": "Sustitución de benchmarks ICP1996/2005 por Eurostat/OCDE cuando disponibles; cambios de precios en Europa/OCDE",
+      "source": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf"
+    },
+    {
+      "date": "2021-02-18",
+      "event": "Corrección xr Sudán1970–2019 y variables dependientes",
+      "source": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf"
+    },
+    {
+      "date": "2021-06-18",
+      "event": "Recálculo capital stocks/services China/Sudán y TFP asociada; efectos multilaterales ctfp/cwtfp en otros países",
+      "source": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf"
+    },
+    {
+      "date": "2023-02-27",
+      "event": "CRAN10.01-0 añade pwt10.01; pwt10.0.rda permanece igual",
+      "source": "https://github.com/cran/pwt10/blob/957b298fd706a567af96ccb1663ad68d5e5d07ba/NEWS.md"
+    }
+  ],
+  "documented_object": {
+    "rows": 12810,
+    "variables": 52,
+    "countries": 183,
+    "years": [
+      1950,
+      2019
+    ],
+    "base_year": 2017,
+    "rnna": "Capital stock at constant2017nationalprices, in million2017USD",
+    "schema_in_R": [
+      "country",
+      "isocode",
+      "year",
+      "currency"
+    ],
+    "schema_in_GGDC_export": [
+      "countrycode",
+      "country",
+      "currency_unit",
+      "year"
+    ],
+    "implication": "Existe adaptación de esquema en el objeto R; no se identificó código del importador ni su procedencia de XLSX frente a DTA.",
+    "source": "https://github.com/cran/pwt10/blob/957b298fd706a567af96ccb1663ad68d5e5d07ba/man/pwt10.0.Rd"
+  },
+  "import_code_search": {
+    "official_CRAN_source_trees_complete": true,
+    "original_files": [
+      {
+        "path": "DESCRIPTION",
+        "sha": "1f04721a6c384cc06140f11e0faac76ced20d943",
+        "size": 798
+      },
+      {
+        "path": "MD5",
+        "sha": "10852b4b12c1a9d381e8eb6e2e197f4f830aff01",
+        "size": 329
+      },
+      {
+        "path": "NAMESPACE",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0
+      },
+      {
+        "path": "NEWS",
+        "sha": "f93a37d5029a081e9227d914eaa1752fac87b427",
+        "size": 159
+      },
+      {
+        "path": "build/partial.rdb",
+        "sha": "2ee6af8e8e5a82994b34d3eed4db3b3e292114f8",
+        "size": 7430
+      },
+      {
+        "path": "data/pwt10.0.rda",
+        "sha": "8526f6a8bcc34307975840d8c5ff1fc874ee368a",
+        "size": 1359272
+      },
+      {
+        "path": "inst/CITATION",
+        "sha": "f87b3725319de8fe4b1821cd45d90c33c60e1b3e",
+        "size": 1158
+      },
+      {
+        "path": "man/pwt10.0.Rd",
+        "sha": "ab930d9727abba443bdd2d5ec492e802ff7f32b7",
+        "size": 5859
+      }
+    ],
+    "current_files": [
+      {
+        "path": "DESCRIPTION",
+        "sha": "53b6963fd960cfeb94e2737dcb4ffbfa8aaf5e10",
+        "size": 816
+      },
+      {
+        "path": "MD5",
+        "sha": "fb0a91b7d6a5c881115bd65b4ea539e0476ab586",
+        "size": 434
+      },
+      {
+        "path": "NAMESPACE",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0
+      },
+      {
+        "path": "NEWS.md",
+        "sha": "d228033453f95c6bae7e621b556934f1d72d391c",
+        "size": 497
+      },
+      {
+        "path": "build/partial.rdb",
+        "sha": "8c171e4c70c08cd940b7bc137eeceffcd3086ad8",
+        "size": 61
+      },
+      {
+        "path": "data/pwt10.0.rda",
+        "sha": "8526f6a8bcc34307975840d8c5ff1fc874ee368a",
+        "size": 1359272
+      },
+      {
+        "path": "data/pwt10.01.rda",
+        "sha": "7a90ff0d76217ca3d0f1e6d74989588473bba948",
+        "size": 1357636
+      },
+      {
+        "path": "inst/CITATION",
+        "sha": "06d7cb4891f60dd63c2129db11aaa45cd810adf4",
+        "size": 1158
+      },
+      {
+        "path": "man/pwt10.0.Rd",
+        "sha": "d068e2eae5f73ac47150d1cfa4b674624cdaf1b3",
+        "size": 5934
+      },
+      {
+        "path": "man/pwt10.01.Rd",
+        "sha": "cadea8c59ba2e04b6a006c70b7baf6516a555767",
+        "size": 6213
+      }
+    ],
+    "R_scripts_or_data_raw_in_either": [],
+    "targeted_queries": [
+      "\"pwt10.0\" \"read.dta\"",
+      "\"pwt10\" \"data-raw\"",
+      "\"pwt10\" \"R-Forge\"",
+      "\"pwt10.0\" \"read.dta\" \"zeileis\""
+    ],
+    "interpretation": "No localizado en las fuentes y búsquedas indicadas; no se afirma inexistencia global."
+  },
+  "GGDC_program_package": {
+    "url": "https://www.rug.nl/ggdc/docs/pwt100-program-package.zip",
+    "bytes": 2666447,
+    "sha256": "a3ec39f199e889e0759a1c920ef1a3c87af966ec749603f8a8f774d32fcf9b65",
+    "last_modified_HTTP": "Fri,18Jun2021 10:16:44GMT",
+    "entry_count": 27,
+    "scripts": [
+      {
+        "name": "mata/fischer_func_create.do",
+        "bytes": 194,
+        "sha256": "c8baeb52854810b4becf9566dae044311191e30e04136f002afb2b71077c21cf",
+        "line_count": 15
+      },
+      {
+        "name": "mata/geks2_func_create.do",
+        "bytes": 253,
+        "sha256": "9e8fef15ea71b0fcdf27bda0822f0acee0e665dd98856984047fd8b73c58d598",
+        "line_count": 18
+      },
+      {
+        "name": "mata/geks_func_create.do",
+        "bytes": 249,
+        "sha256": "ccdefff5ba12b44a177ca37f61668bf4caba119df467c65530f90988df3c922d",
+        "line_count": 18
+      },
+      {
+        "name": "mata/gk_func_create.do",
+        "bytes": 367,
+        "sha256": "e8cf5a99761c6620b2d8a3cb75282e0a955ff03302452dc9f50881807723b1a8",
+        "line_count": 27
+      },
+      {
+        "name": "mata/laspeyres_func_create.do",
+        "bytes": 164,
+        "sha256": "e09fb85041539db814e3b1e72df7ca6f4d591885944721bcbe0c47ac22da9d91",
+        "line_count": 14
+      },
+      {
+        "name": "mata/paasche_func_create.do",
+        "bytes": 152,
+        "sha256": "48bf2d0201dd030380458dba943fa60c32250862b6ee327bc8162c0fdbffe1b8",
+        "line_count": 14
+      },
+      {
+        "name": "mata/tornquist_func_create.do",
+        "bytes": 185,
+        "sha256": "ae2ab4e6650eb14888d0eee3ac503801705eaadcf9fa648fd6a99515a35937bc",
+        "line_count": 15
+      },
+      {
+        "name": "gen_final_pwt.do",
+        "bytes": 6134,
+        "sha256": "a68c6c2be5e2957f9a90dc51af804a32f6279597e1d6b60a99dd0590634b1629",
+        "line_count": 116
+      },
+      {
+        "name": "gen_ppp_ts.do",
+        "bytes": 10651,
+        "sha256": "de75fee1f93ff136c6ff91f44a09e2136b2160a451465c847ee06c05074c61c7",
+        "line_count": 350
+      },
+      {
+        "name": "gen_pwt100.do",
+        "bytes": 12154,
+        "sha256": "58506c9bcff2974740531815f3da48b31ef7e461da2611858ab09cd17f1a0dff",
+        "line_count": 304
+      },
+      {
+        "name": "index.do",
+        "bytes": 517,
+        "sha256": "e62819af21c456470aa0411f5364a3349840b899f4dde0635f935ed76d31e952",
+        "line_count": 16
+      }
+    ],
+    "capital_input": {
+      "name": "Data/k_aggregate.dta",
+      "bytes": 399527,
+      "compressed_bytes": 300507,
+      "modified_zip": [
+        2021,
+        6,
+        9,
+        22,
+        0,
+        2
+      ],
+      "crc32": "0b12e846"
+    },
+    "traced_operations": [
+      {
+        "file": "gen_pwt100.do",
+        "line": 129,
+        "operation": "Merge de Data/k_aggregate.dta por countrycode/year; los stocks/servicios ya están calculados."
+      },
+      {
+        "file": "gen_pwt100.do",
+        "line": 304,
+        "operation": "Ejecutaría el script final de guardado gen_final_pwt.do; no fue ejecutado en esta auditoría."
+      },
+      {
+        "file": "gen_final_pwt.do",
+        "line": 6,
+        "operation": "rnna se incluye en la lista de variables que se conservan."
+      },
+      {
+        "file": "gen_final_pwt.do",
+        "line": 52,
+        "operation": "Etiqueta rnna como capital a precios nacionales2017, millonesUSD2017."
+      },
+      {
+        "file": "gen_final_pwt.do",
+        "line": 113,
+        "operation": "compress"
+      },
+      {
+        "file": "gen_final_pwt.do",
+        "line": 115,
+        "operation": "Guardar DTA"
+      },
+      {
+        "file": "gen_final_pwt.do",
+        "line": 116,
+        "operation": "Exportar XLSX desde la misma tabla"
+      }
+    ],
+    "generator_of_k_aggregate_in_zip": false,
+    "explicit_rnna_recast_float_double_in_inspected_scripts": false,
+    "compress_causality": "Stata documenta que compress no causa pérdida de precisión; su presencia no explica diferencias numéricas entre las entregas.",
+    "compress_manual_page": 2,
+    "Stata_executed": false
+  },
+  "archival_route": {
+    "DOI": "10.15141/S5Q94M",
+    "resolved_to": "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+    "datacite": {
+      "doi": "10.15141/s5q94m",
+      "publisher": "Groningen Growth and Development Centre",
+      "url": "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100",
+      "created": "2021-01-08T23:11:11.000Z",
+      "registered": "2021-01-08T23:11:12.000Z",
+      "version": null,
+      "relatedIdentifiers": [],
+      "dates": [
+        {
+          "date": "2021",
+          "dateType": "Issued"
+        }
+      ]
+    },
+    "dataverse_attempt": {
+      "endpoint": "https://dataverse.nl/api/datasets/:persistentId?persistentId=doi%3A10.15141%2FS5Q94M",
+      "status": 404,
+      "message": "When accessing a dataset based on Persistent ID, a persistentId query parameter must be present.",
+      "result": "Inconcluso; se verificó URL efectiva con query, pero la respuesta no prueba inexistencia del dataset."
+    },
+    "january_XLSX_DTA_recovered_from_primary_archive": false,
+    "Wayback_broad_search_performed": false
+  },
+  "sources": {
+    "release": "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+    "change_log": "https://www.rug.nl/ggdc/docs/pwt100-changelog.pdf",
+    "catalog": "https://research.rug.nl/en/datasets/penn-world-table-version-100/",
+    "announcement": "https://www.rug.nl/ggdc/blog/pwt-100-has-been-launched-12-01-2021?lang=en",
+    "xlsx": "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+    "dta": "https://www.rug.nl/ggdc/docs/pwt100.dta",
+    "programs": "https://www.rug.nl/ggdc/docs/pwt100-program-package.zip",
+    "cran_archive": "https://cran.r-project.org/src/contrib/Archive/pwt10/",
+    "cran_source_original": "https://cran.r-project.org/src/contrib/Archive/pwt10/pwt10_10.0-0.tar.gz",
+    "cran_source_current": "https://cran.r-project.org/src/contrib/pwt10_10.01-0.tar.gz",
+    "old_tree": "https://github.com/cran/pwt10/tree/ddab9e949de8f52619cdfdbc436c5ea558d16a11",
+    "current_tree": "https://github.com/cran/pwt10/tree/957b298fd706a567af96ccb1663ad68d5e5d07ba",
+    "old_MD5": "https://github.com/cran/pwt10/blob/ddab9e949de8f52619cdfdbc436c5ea558d16a11/MD5",
+    "current_MD5": "https://github.com/cran/pwt10/blob/957b298fd706a567af96ccb1663ad68d5e5d07ba/MD5",
+    "history": "https://github.com/cran/pwt10/commits/master/data/pwt10.0.rda",
+    "NEWS": "https://github.com/cran/pwt10/blob/957b298fd706a567af96ccb1663ad68d5e5d07ba/NEWS.md",
+    "Rd": "https://github.com/cran/pwt10/blob/957b298fd706a567af96ccb1663ad68d5e5d07ba/man/pwt10.0.Rd",
+    "datacite": "https://api.datacite.org/dois/10.15141/S5Q94M",
+    "stata_compress": "https://www.stata.com/manuals/dcompress.pdf"
+  },
+  "limitations": [
+    "No se han cotejado aquí los valores USA; los35/70casos y resultado float32 son hallazgos comunicados por el coordinador.",
+    "La fecha ZIP no demuestra cuándo se calcularon sus números; los timestamps de entradas son metadatos de archivo.",
+    "El RDA de enero y los archivos oficiales actuales pertenecen a entregas temporales distintas; no basta para atribuir cada diferencia a una revisión documentada.",
+    "Falta el script de importación CRAN o un original GGDC anterioral21ene2021 verificado para cerrar el origen exacto."
+  ]
+}

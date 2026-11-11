@@ -1,0 +1,28 @@
+{
+  "program_zip_sha256": "a3ec39f199e889e0759a1c920ef1a3c87af966ec749603f8a8f774d32fcf9b65",
+  "capital_input_sha256": "8915aa1ed27b0f2935f032937d150f3a6d1c48be33dc84f348d926b083e0b34e",
+  "capital_input_rows": 10314,
+  "capital_input_columns": [
+    "countrycode",
+    "year",
+    "cn",
+    "pl_n",
+    "rnna",
+    "ck",
+    "pl_k",
+    "rkna",
+    "irr_real",
+    "irr_outlier",
+    "delta"
+  ],
+  "USA_rows": 70,
+  "rnna_present": true,
+  "Stata_executed": false,
+  "rnna_dtype": "float32",
+  "USA_official_mismatches": 0,
+  "USA_max_abs_difference": 0,
+  "years": [
+    1950,
+    2019
+  ]
+}

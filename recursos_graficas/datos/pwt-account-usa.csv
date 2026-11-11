@@ -1,0 +1,241 @@
+traza,nombre,observacion,x_presente,y_presente,x,y
+0,K/Y only,0,True,True,1960,9.85
+0,K/Y only,1,True,True,1961,9.85
+0,K/Y only,2,True,True,1962,9.84
+0,K/Y only,3,True,True,1963,9.84
+0,K/Y only,4,True,True,1964,9.83
+0,K/Y only,5,True,True,1965,9.83
+0,K/Y only,6,True,True,1966,9.82
+0,K/Y only,7,True,True,1967,9.82
+0,K/Y only,8,True,True,1968,9.82
+0,K/Y only,9,True,True,1969,9.82
+0,K/Y only,10,True,True,1970,9.83
+0,K/Y only,11,True,True,1971,9.83
+0,K/Y only,12,True,True,1972,9.82
+0,K/Y only,13,True,True,1973,9.81
+0,K/Y only,14,True,True,1974,9.83
+0,K/Y only,15,True,True,1975,9.84
+0,K/Y only,16,True,True,1976,9.83
+0,K/Y only,17,True,True,1977,9.82
+0,K/Y only,18,True,True,1978,9.81
+0,K/Y only,19,True,True,1979,9.82
+0,K/Y only,20,True,True,1980,9.83
+0,K/Y only,21,True,True,1981,9.83
+0,K/Y only,22,True,True,1982,9.85
+0,K/Y only,23,True,True,1983,9.84
+0,K/Y only,24,True,True,1984,9.82
+0,K/Y only,25,True,True,1985,9.82
+0,K/Y only,26,True,True,1986,9.82
+0,K/Y only,27,True,True,1987,9.81
+0,K/Y only,28,True,True,1988,9.81
+0,K/Y only,29,True,True,1989,9.8
+0,K/Y only,30,True,True,1990,9.81
+0,K/Y only,31,True,True,1991,9.82
+0,K/Y only,32,True,True,1992,9.81
+0,K/Y only,33,True,True,1993,9.81
+0,K/Y only,34,True,True,1994,9.8
+0,K/Y only,35,True,True,1995,9.8
+0,K/Y only,36,True,True,1996,9.8
+0,K/Y only,37,True,True,1997,9.79
+0,K/Y only,38,True,True,1998,9.78
+0,K/Y only,39,True,True,1999,9.78
+0,K/Y only,40,True,True,2000,9.77
+0,K/Y only,41,True,True,2001,9.78
+0,K/Y only,42,True,True,2002,9.78
+0,K/Y only,43,True,True,2003,9.78
+0,K/Y only,44,True,True,2004,9.78
+0,K/Y only,45,True,True,2005,9.77
+0,K/Y only,46,True,True,2006,9.77
+0,K/Y only,47,True,True,2007,9.77
+0,K/Y only,48,True,True,2008,9.78
+0,K/Y only,49,True,True,2009,9.8
+0,K/Y only,50,True,True,2010,9.79
+0,K/Y only,51,True,True,2011,9.79
+0,K/Y only,52,True,True,2012,9.78
+0,K/Y only,53,True,True,2013,9.78
+0,K/Y only,54,True,True,2014,9.78
+0,K/Y only,55,True,True,2015,9.77
+0,K/Y only,56,True,True,2016,9.77
+0,K/Y only,57,True,True,2017,9.77
+0,K/Y only,58,True,True,2018,9.76
+0,K/Y only,59,True,True,2019,9.76
+1,HC only,0,True,True,1960,9.85
+1,HC only,1,True,True,1961,9.85
+1,HC only,2,True,True,1962,9.86
+1,HC only,3,True,True,1963,9.87
+1,HC only,4,True,True,1964,9.89
+1,HC only,5,True,True,1965,9.92
+1,HC only,6,True,True,1966,9.94
+1,HC only,7,True,True,1967,9.97
+1,HC only,8,True,True,1968,9.99
+1,HC only,9,True,True,1969,10.01
+1,HC only,10,True,True,1970,10.02
+1,HC only,11,True,True,1971,10.02
+1,HC only,12,True,True,1972,10.05
+1,HC only,13,True,True,1973,10.08
+1,HC only,14,True,True,1974,10.1
+1,HC only,15,True,True,1975,10.09
+1,HC only,16,True,True,1976,10.12
+1,HC only,17,True,True,1977,10.15
+1,HC only,18,True,True,1978,10.19
+1,HC only,19,True,True,1979,10.21
+1,HC only,20,True,True,1980,10.21
+1,HC only,21,True,True,1981,10.22
+1,HC only,22,True,True,1982,10.2
+1,HC only,23,True,True,1983,10.21
+1,HC only,24,True,True,1984,10.24
+1,HC only,25,True,True,1985,10.26
+1,HC only,26,True,True,1986,10.27
+1,HC only,27,True,True,1987,10.29
+1,HC only,28,True,True,1988,10.31
+1,HC only,29,True,True,1989,10.32
+1,HC only,30,True,True,1990,10.32
+1,HC only,31,True,True,1991,10.31
+1,HC only,32,True,True,1992,10.3
+1,HC only,33,True,True,1993,10.31
+1,HC only,34,True,True,1994,10.32
+1,HC only,35,True,True,1995,10.33
+1,HC only,36,True,True,1996,10.34
+1,HC only,37,True,True,1997,10.35
+1,HC only,38,True,True,1998,10.36
+1,HC only,39,True,True,1999,10.37
+1,HC only,40,True,True,2000,10.37
+1,HC only,41,True,True,2001,10.36
+1,HC only,42,True,True,2002,10.35
+1,HC only,43,True,True,2003,10.35
+1,HC only,44,True,True,2004,10.36
+1,HC only,45,True,True,2005,10.37
+1,HC only,46,True,True,2006,10.38
+1,HC only,47,True,True,2007,10.38
+1,HC only,48,True,True,2008,10.38
+1,HC only,49,True,True,2009,10.34
+1,HC only,50,True,True,2010,10.33
+1,HC only,51,True,True,2011,10.33
+1,HC only,52,True,True,2012,10.34
+1,HC only,53,True,True,2013,10.34
+1,HC only,54,True,True,2014,10.35
+1,HC only,55,True,True,2015,10.36
+1,HC only,56,True,True,2016,10.37
+1,HC only,57,True,True,2017,10.38
+1,HC only,58,True,True,2018,10.39
+1,HC only,59,True,True,2019,10.39
+2,Prod only,0,True,True,1960,9.85
+2,Prod only,1,True,True,1961,9.86
+2,Prod only,2,True,True,1962,9.91
+2,Prod only,3,True,True,1963,9.92
+2,Prod only,4,True,True,1964,9.95
+2,Prod only,5,True,True,1965,9.99
+2,Prod only,6,True,True,1966,10.02
+2,Prod only,7,True,True,1967,10.01
+2,Prod only,8,True,True,1968,10.03
+2,Prod only,9,True,True,1969,10.02
+2,Prod only,10,True,True,1970,9.99
+2,Prod only,11,True,True,1971,10.02
+2,Prod only,12,True,True,1972,10.04
+2,Prod only,13,True,True,1973,10.06
+2,Prod only,14,True,True,1974,10.01
+2,Prod only,15,True,True,1975,10
+2,Prod only,16,True,True,1976,10.02
+2,Prod only,17,True,True,1977,10.04
+2,Prod only,18,True,True,1978,10.05
+2,Prod only,19,True,True,1979,10.05
+2,Prod only,20,True,True,1980,10.02
+2,Prod only,21,True,True,1981,10.03
+2,Prod only,22,True,True,1982,10
+2,Prod only,23,True,True,1983,10.04
+2,Prod only,24,True,True,1984,10.09
+2,Prod only,25,True,True,1985,10.11
+2,Prod only,26,True,True,1986,10.12
+2,Prod only,27,True,True,1987,10.13
+2,Prod only,28,True,True,1988,10.15
+2,Prod only,29,True,True,1989,10.17
+2,Prod only,30,True,True,1990,10.17
+2,Prod only,31,True,True,1991,10.17
+2,Prod only,32,True,True,1992,10.2
+2,Prod only,33,True,True,1993,10.21
+2,Prod only,34,True,True,1994,10.24
+2,Prod only,35,True,True,1995,10.24
+2,Prod only,36,True,True,1996,10.27
+2,Prod only,37,True,True,1997,10.29
+2,Prod only,38,True,True,1998,10.32
+2,Prod only,39,True,True,1999,10.35
+2,Prod only,40,True,True,2000,10.38
+2,Prod only,41,True,True,2001,10.38
+2,Prod only,42,True,True,2002,10.39
+2,Prod only,43,True,True,2003,10.42
+2,Prod only,44,True,True,2004,10.45
+2,Prod only,45,True,True,2005,10.47
+2,Prod only,46,True,True,2006,10.47
+2,Prod only,47,True,True,2007,10.47
+2,Prod only,48,True,True,2008,10.46
+2,Prod only,49,True,True,2009,10.46
+2,Prod only,50,True,True,2010,10.48
+2,Prod only,51,True,True,2011,10.49
+2,Prod only,52,True,True,2012,10.51
+2,Prod only,53,True,True,2013,10.51
+2,Prod only,54,True,True,2014,10.52
+2,Prod only,55,True,True,2015,10.55
+2,Prod only,56,True,True,2016,10.55
+2,Prod only,57,True,True,2017,10.55
+2,Prod only,58,True,True,2018,10.58
+2,Prod only,59,True,True,2019,10.59
+3,Actual GDP p.c.,0,True,True,1960,9.85
+3,Actual GDP p.c.,1,True,True,1961,9.86
+3,Actual GDP p.c.,2,True,True,1962,9.91
+3,Actual GDP p.c.,3,True,True,1963,9.93
+3,Actual GDP p.c.,4,True,True,1964,9.98
+3,Actual GDP p.c.,5,True,True,1965,10.03
+3,Actual GDP p.c.,6,True,True,1966,10.08
+3,Actual GDP p.c.,7,True,True,1967,10.1
+3,Actual GDP p.c.,8,True,True,1968,10.13
+3,Actual GDP p.c.,9,True,True,1969,10.15
+3,Actual GDP p.c.,10,True,True,1970,10.14
+3,Actual GDP p.c.,11,True,True,1971,10.17
+3,Actual GDP p.c.,12,True,True,1972,10.21
+3,Actual GDP p.c.,13,True,True,1973,10.26
+3,Actual GDP p.c.,14,True,True,1974,10.24
+3,Actual GDP p.c.,15,True,True,1975,10.23
+3,Actual GDP p.c.,16,True,True,1976,10.27
+3,Actual GDP p.c.,17,True,True,1977,10.31
+3,Actual GDP p.c.,18,True,True,1978,10.35
+3,Actual GDP p.c.,19,True,True,1979,10.38
+3,Actual GDP p.c.,20,True,True,1980,10.36
+3,Actual GDP p.c.,21,True,True,1981,10.38
+3,Actual GDP p.c.,22,True,True,1982,10.35
+3,Actual GDP p.c.,23,True,True,1983,10.39
+3,Actual GDP p.c.,24,True,True,1984,10.45
+3,Actual GDP p.c.,25,True,True,1985,10.48
+3,Actual GDP p.c.,26,True,True,1986,10.51
+3,Actual GDP p.c.,27,True,True,1987,10.53
+3,Actual GDP p.c.,28,True,True,1988,10.56
+3,Actual GDP p.c.,29,True,True,1989,10.59
+3,Actual GDP p.c.,30,True,True,1990,10.6
+3,Actual GDP p.c.,31,True,True,1991,10.59
+3,Actual GDP p.c.,32,True,True,1992,10.61
+3,Actual GDP p.c.,33,True,True,1993,10.63
+3,Actual GDP p.c.,34,True,True,1994,10.66
+3,Actual GDP p.c.,35,True,True,1995,10.67
+3,Actual GDP p.c.,36,True,True,1996,10.7
+3,Actual GDP p.c.,37,True,True,1997,10.73
+3,Actual GDP p.c.,38,True,True,1998,10.76
+3,Actual GDP p.c.,39,True,True,1999,10.79
+3,Actual GDP p.c.,40,True,True,2000,10.82
+3,Actual GDP p.c.,41,True,True,2001,10.82
+3,Actual GDP p.c.,42,True,True,2002,10.83
+3,Actual GDP p.c.,43,True,True,2003,10.85
+3,Actual GDP p.c.,44,True,True,2004,10.88
+3,Actual GDP p.c.,45,True,True,2005,10.91
+3,Actual GDP p.c.,46,True,True,2006,10.92
+3,Actual GDP p.c.,47,True,True,2007,10.93
+3,Actual GDP p.c.,48,True,True,2008,10.92
+3,Actual GDP p.c.,49,True,True,2009,10.89
+3,Actual GDP p.c.,50,True,True,2010,10.9
+3,Actual GDP p.c.,51,True,True,2011,10.91
+3,Actual GDP p.c.,52,True,True,2012,10.93
+3,Actual GDP p.c.,53,True,True,2013,10.94
+3,Actual GDP p.c.,54,True,True,2014,10.95
+3,Actual GDP p.c.,55,True,True,2015,10.98
+3,Actual GDP p.c.,56,True,True,2016,10.99
+3,Actual GDP p.c.,57,True,True,2017,11
+3,Actual GDP p.c.,58,True,True,2018,11.03
+3,Actual GDP p.c.,59,True,True,2019,11.04

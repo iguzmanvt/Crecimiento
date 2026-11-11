@@ -1,0 +1,672 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Relationship of R&amp;D growth and prod growth</title><link rel="stylesheet" href="../assets/galeria.css"><main><nav><a href="../index.html">← Índice de vistas locales</a></nav><h1>Relationship of R&amp;D growth and prod growth</h1><p class="notice">Material fuente archivado; correspondencia con los identificadores pendientes sin demostrar. Se conservan los valores y las etiquetas del respaldo; su fecha de edición estadística debe comprobarse en la fuente.</p><p>Dietz Vollrath, StudyGuide, material archivado bajo licencia MIT. Se preservan las etiquetas originales.</p><p><a href="https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html">Fuente fijada en GitHub</a> · <a href="../datos/pwt-oecd-rd-gtfp.json" download>JSON completo</a> · <a href="../datos/pwt-oecd-rd-gtfp.csv" download>CSV de la vista inicial</a></p><p>El CSV conserva los arrays explícitos de la vista inicial; el JSON incluye todos los fotogramas. No se calculan ni completan valores ausentes.</p><div id="grafica" class="plot"></div><p id="estado">Vista local. Puede ampliar, consultar valores y ocultar series desde la leyenda.</p><details><summary>Procedencia y límites</summary><pre>{
+  &quot;slug&quot;: &quot;pwt-oecd-rd-gtfp&quot;,
+  &quot;tipo&quot;: &quot;fuente_StudyGuide&quot;,
+  &quot;procedencia&quot;: &quot;Dietz Vollrath, StudyGuide, material archivado bajo licencia MIT. Se preservan las etiquetas originales.&quot;,
+  &quot;url_fuente&quot;: &quot;https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html&quot;,
+  &quot;archivo_fuente&quot;: &quot;plotly/pwt-oecd-rd-gtfp.html&quot;,
+  &quot;commit_fuente&quot;: &quot;3a8c79f20022ef7b985b392d73921839a4317883&quot;,
+  &quot;blob_fuente&quot;: &quot;0b06cc0d347dd0b5fc11b12a8314f290906eeeec&quot;,
+  &quot;datos_sha256&quot;: &quot;884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac&quot;,
+  &quot;widget_original_sha256&quot;: &quot;be10b3de26a44f43849c0365fb4200657bbf052760fb311fdd0dd61296bc7d55&quot;,
+  &quot;identidades_relacionadas_por_tema&quot;: [
+    &quot;iguzmanvt:72&quot;,
+    &quot;iguzmanvt:116&quot;,
+    &quot;iguzmanvt:118&quot;,
+    &quot;iguzmanvt:120&quot;
+  ],
+  &quot;identidad_ChartStudio_autenticada&quot;: false,
+  &quot;edicion_estadistica&quot;: &quot;No acreditada sólo por el widget. El código actual del curso puede corresponder a otra edición.&quot;,
+  &quot;observaciones&quot;: &quot;&quot;
+}</pre></details><script type="application/json" id="datos-grafica">{
+  "data": [
+    {
+      "x": [
+        0.0454620210965889,
+        0.0540915087124997,
+        0.0566609149025739,
+        0.0517598289575135,
+        0.076225320017925,
+        0.0803405136709383,
+        0.0882873590420944,
+        0.118783086297429,
+        0.0774574442671193,
+        0.0555069223090245,
+        0.0573608761845183,
+        0.0549410506917221,
+        0.0543142622552304,
+        0.0498131307366952,
+        0.0369660274796129,
+        0.0324090011820687,
+        0.0201104191396876,
+        0.0158600535539911,
+        0.0604662404634771
+      ],
+      "y": [
+        0.0243,
+        0.0269,
+        0.0246,
+        0.0277,
+        0.0281,
+        0.0346,
+        0.041,
+        0.0497,
+        0.0543,
+        0.0597,
+        0.0584,
+        0.0502,
+        0.0487,
+        0.0459,
+        0.0393,
+        0.0302,
+        0.0221,
+        0.0159,
+        0.0117
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "CHN",
+      "marker": {
+        "color": "rgba(152,78,163,1)",
+        "line": {
+          "color": "rgba(152,78,163,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(152,78,163,1)"
+      },
+      "error_y": {
+        "color": "rgba(152,78,163,1)"
+      },
+      "error_x": {
+        "color": "rgba(152,78,163,1)"
+      },
+      "line": {
+        "color": "rgba(152,78,163,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [
+        0.0617468312408429,
+        0.0638300990296562,
+        0.0559192221138083,
+        0.0467734518502899,
+        0.0410023810610026,
+        0.0106099485696216,
+        0.0160673520284544,
+        0.0163374366352492,
+        0.0195252976120651,
+        0.0209863683410825,
+        0.0241487427680198,
+        0.0219818713814638,
+        0.0240530319651729,
+        0.0247675908033646,
+        0.0282031516626224,
+        0.0276108225198547,
+        0.0264194463249844,
+        0.0354612910829841,
+        0.0356322872477101,
+        0.0366524405578691,
+        0.0359771262558128,
+        0.0350926112947288
+      ],
+      "y": [
+        0.0219,
+        0.0181,
+        0.0126,
+        0.0063,
+        0.0038,
+        0.0047,
+        0.0033,
+        0.0039,
+        0.0076,
+        0.0074,
+        0.0061,
+        -0.0023,
+        0.0024,
+        0.0029,
+        0.0027,
+        0.0028,
+        0.0043,
+        0.0046,
+        0.0016,
+        0.0015,
+        0.0023,
+        0.0107
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "DEU",
+      "marker": {
+        "color": "rgba(255,127,0,1)",
+        "line": {
+          "color": "rgba(255,127,0,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(255,127,0,1)"
+      },
+      "error_y": {
+        "color": "rgba(255,127,0,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,0,1)"
+      },
+      "line": {
+        "color": "rgba(255,127,0,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [
+        0.000784317746102658,
+        0.000778214044205505,
+        0.003101023674256,
+        0.00380273955892392,
+        0.0106167060542047,
+        0.00770646841895459,
+        0.008330626281702,
+        0.0140472575248991,
+        0.0231070128022987,
+        0.0248705120563752,
+        0.0352766440681469,
+        0.0429277419059202,
+        0.0503269837594143,
+        0.0535747216327017,
+        0.0534477979561146,
+        0.0562465215321209,
+        0.0550862235400753,
+        0.0468704517952533,
+        0.042424288715557,
+        0.0408405577359554,
+        0.032207992180208,
+        0.0256698372012348,
+        0.0211394186428052,
+        0.018892683290782,
+        0.0139642325944106,
+        0.0136307456973666,
+        0.0157817229858312
+      ],
+      "y": [
+        0.0147,
+        0.0124,
+        0.0096,
+        0.0125,
+        0.0106,
+        0.0085,
+        0.0077,
+        0.0085,
+        0.0095,
+        0.0142,
+        0.0158,
+        0.0158,
+        0.0159,
+        0.0139,
+        0.0152,
+        0.0154,
+        0.0141,
+        0.0077,
+        0.0019,
+        0.0005,
+        -0.0005,
+        -0.001,
+        -0.0026,
+        -0.0009,
+        -0.0031,
+        -0.0035,
+        -0.0044
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "GBR",
+      "marker": {
+        "color": "rgba(255,255,51,1)",
+        "line": {
+          "color": "rgba(255,255,51,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(255,255,51,1)"
+      },
+      "error_y": {
+        "color": "rgba(255,255,51,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,255,51,1)"
+      },
+      "line": {
+        "color": "rgba(255,255,51,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [
+        0.042129249729224,
+        0.0427142437045967,
+        0.0387031598730905,
+        0.0386354371955198,
+        0.0352649705694814,
+        0.0235597986694135,
+        0.0197662422177697,
+        0.0199058035042365,
+        0.0162157435156582,
+        0.0105360172495701,
+        0.00874618328732133,
+        0.000100365741155173,
+        0.00174514190394799,
+        -0.000779974897648117,
+        0.00106496178034501,
+        0.0103789059737624,
+        0.00899538928619208,
+        0.0005851011063287,
+        -0.000514288586755818,
+        0.00129795839391935,
+        0.000554338688703559,
+        0.00367338142863431,
+        0.00123701170166619,
+        0.00436792602087053,
+        -0.00276475081340219,
+        -0.00286116743848623,
+        -0.00117875572092476,
+        0.00321541623692667,
+        0.00393230913039382
+      ],
+      "y": [
+        0.0261,
+        0.0235,
+        0.0188,
+        0.0148,
+        0.012,
+        0.0124,
+        0.0081,
+        0.0013,
+        -0.0028,
+        -0.0011,
+        -0.0016,
+        0.0006,
+        0.0048,
+        0.0066,
+        0.0063,
+        0.0039,
+        0.0058,
+        0.0053,
+        -0.0015,
+        0.0002,
+        0.0002,
+        0.0022,
+        0.003,
+        0.0003,
+        0.0007,
+        -0.0007,
+        0.0003,
+        0,
+        0.0074
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "JPN",
+      "marker": {
+        "color": "rgba(55,126,184,1)",
+        "line": {
+          "color": "rgba(55,126,184,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(55,126,184,1)"
+      },
+      "error_y": {
+        "color": "rgba(55,126,184,1)"
+      },
+      "error_x": {
+        "color": "rgba(55,126,184,1)"
+      },
+      "line": {
+        "color": "rgba(55,126,184,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [
+        0.0582194420207921,
+        0.0698783419786135,
+        0.077093148868887,
+        0.0936759809218778,
+        0.0890214835175721,
+        0.0890844432731219,
+        0.0750954175460016,
+        0.0799198966004958,
+        0.0755099726766396,
+        0.0793623490122037,
+        0.0684272133890818,
+        0.0591417735524892,
+        0.0545942739375258,
+        0.054776315384937,
+        0.0567905768458518
+      ],
+      "y": [
+        0.0253,
+        0.025,
+        0.0275,
+        0.0326,
+        0.0223,
+        0.023,
+        0.0222,
+        0.0171,
+        0.0165,
+        0.0143,
+        0.0133,
+        0.0114,
+        0.0079,
+        0.0094,
+        0.0085
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "KOR",
+      "marker": {
+        "color": "rgba(77,175,74,1)",
+        "line": {
+          "color": "rgba(77,175,74,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(77,175,74,1)"
+      },
+      "error_y": {
+        "color": "rgba(77,175,74,1)"
+      },
+      "error_x": {
+        "color": "rgba(77,175,74,1)"
+      },
+      "line": {
+        "color": "rgba(77,175,74,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [
+        0.0338270604246487,
+        0.0325968720693826,
+        0.0295995455950022,
+        0.0230728283444733,
+        0.0273903800980444,
+        0.0261298094526198,
+        0.02552464505819,
+        0.0295633188060521,
+        0.0292283149351519,
+        0.0282162420715782,
+        0.0291460048611109,
+        0.0289278804647786,
+        0.0333688403025432,
+        0.0314218912951382,
+        0.0274630849254949,
+        0.0238351613986506,
+        0.018919585734826,
+        0.0172253450709436,
+        0.0186202754426208,
+        0.01185063411187,
+        0.0136839803635551,
+        0.0118561545690167,
+        0.00857131940452476,
+        0.0149083776152182,
+        0.0178485541884795,
+        0.0154557073990178,
+        0.0200210586385039,
+        0.0236240319825445,
+        0.021105550991115
+      ],
+      "y": [
+        0.0135,
+        0.0195,
+        0.017,
+        0.0148,
+        0.0132,
+        0.0145,
+        0.0165,
+        0.0174,
+        0.0182,
+        0.0205,
+        0.0207,
+        0.0197,
+        0.0204,
+        0.0213,
+        0.0233,
+        0.0203,
+        0.0183,
+        0.0142,
+        0.011,
+        0.0107,
+        0.0116,
+        0.0111,
+        0.0097,
+        0.0071,
+        0.0077,
+        0.0081,
+        0.008,
+        0.012,
+        0.0131
+      ],
+      "mode": "markers",
+      "hovertemplate": [
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>",
+        "<br> %{yaxis.title.text}: %{y:.2f}<br> %{xaxis.title.text}: %{x:.2f}<br>"
+      ],
+      "type": "scatter",
+      "name": "USA",
+      "marker": {
+        "color": "rgba(228,26,28,1)",
+        "line": {
+          "color": "rgba(228,26,28,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(228,26,28,1)"
+      },
+      "error_y": {
+        "color": "rgba(228,26,28,1)"
+      },
+      "error_x": {
+        "color": "rgba(228,26,28,1)"
+      },
+      "line": {
+        "color": "rgba(228,26,28,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "title": {
+      "text": "Relationship of R&D growth and prod growth",
+      "x": 0
+    },
+    "xaxis": {
+      "domain": [
+        0,
+        1
+      ],
+      "automargin": true,
+      "title": "10-year growth rate of R&D FTE"
+    },
+    "yaxis": {
+      "domain": [
+        0,
+        1
+      ],
+      "automargin": true,
+      "title": "10-year productivity growth rate"
+    },
+    "hovermode": "x unified",
+    "showlegend": true
+  },
+  "frames": []
+}
+</script><script src="../assets/plotly.min.js"></script><script>const spec=JSON.parse(document.getElementById('datos-grafica').textContent);const plot=document.getElementById('grafica');const opts={"frames":0,"slug":"pwt-oecd-rd-gtfp"};const layout=JSON.parse(JSON.stringify(spec.layout));delete layout.width;delete layout.height;layout.autosize=true;
+const config={responsive:true,displaylogo:false,showSendToCloud:false,modeBarButtonsToRemove:['sendDataToCloud','editInChartStudio']};
+window.graficaLista=false;Plotly.newPlot(plot,spec.data,layout,config).then(async()=>{if(spec.frames&&spec.frames.length){await Plotly.addFrames(plot,spec.frames);const selector=document.getElementById('frame');spec.frames.forEach((f,i)=>{const option=document.createElement('option');option.value=String(f.name===undefined?i:f.name);option.textContent=f.name===undefined?'Fotograma '+i:String(f.name);selector.appendChild(option);});document.getElementById('mostrar-frame').onclick=async()=>{const f=spec.frames.find((f,i)=>String(f.name===undefined?i:f.name)===selector.value);await Plotly.animate(plot,[String(f.name)],{frame:{duration:0,redraw:true},transition:{duration:0},mode:'immediate'});window.ultimoFotograma=String(f.name);};}if(opts.slug==='oecd-rd-logrd'){document.getElementById('eje-lineal').onclick=()=>Plotly.relayout(plot,{'yaxis.type':'linear'});document.getElementById('eje-original').onclick=()=>Plotly.relayout(plot,{'yaxis.type':spec.layout.yaxis.type});}window.graficaLista=true;}).catch(e=>{document.getElementById('estado').textContent='Error al dibujar: '+e.message;window.errorGrafica=String(e);});</script></main></html>

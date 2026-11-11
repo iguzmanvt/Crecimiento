@@ -14,3 +14,7 @@ Rscript scripts/renderizar_modulos.R /ruta/externa/vacia Slowdown
 ```
 
 Conservar cada carpeta de salida completa. La verificación cubre generación, figuras locales y funcionamiento del navegador; no replica las estimaciones contenidas en imágenes ni actualiza sus cifras.
+
+## Seguimiento de gráficas externas
+
+La [galería local](../../recursos_graficas/README.md) ofrece material fuente archivado y una figura del curso recuperada. La [matriz de los originales pendientes](../../PENDIENTES_GRAFICAS_Y_PWT.md) distingue alternativas y límites. No se ha demostrado una correspondencia con los identificadores antiguos.

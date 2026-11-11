@@ -32,3 +32,7 @@ Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 202
 ## Generar notas y presentaciones
 
 Los 15 módulos posteriores a Introducción cuentan con [guía de generación, estado y límites](REPRODUCCION_MODULOS.md). Las carpetas de tema incluyen un README con sus fuentes y variantes. Las 51 salidas nuevas se generan fuera del repositorio; los HTML enlazados en el índice siguen siendo los históricos.
+
+## Seguimiento de Chart Studio y PWT
+
+El [informe de seguimiento](PENDIENTES_GRAFICAS_Y_PWT.md) cierra el efecto de la diferencia de capital sobre el ejemplo USA y ofrece [44 vistas locales de apoyo](recursos_graficas/README.md). Los 40 identificadores originales mantienen su estado sin autenticar; las alternativas preservan procedencia y límites.

@@ -1,0 +1,4 @@
+# Vistas reproducibles incluidas con sus datos y recursos.
+!index.html
+!graficas/
+!graficas/*.html

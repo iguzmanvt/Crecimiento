@@ -1,0 +1,391 @@
+{
+  "history_html_blobs_scanned": 353,
+  "history_plotly_widgets_parsed": 314,
+  "errors": [],
+  "controls": {
+    "42": [
+      {
+        "path": "plotly/pwt-apply-comp.html",
+        "blob": "569334fe80c9f33ee0cc0e823d43ae4c463bf719",
+        "source_sha256": "0cc15c71dbb1c6ec0d486a78fdb0b87e70c0491939b7abc015d2024c725f455f",
+        "script_sha256": "d1ef410ad103fa765a2b60ae4915840f264fcd7e727abb71245db59d74974fb3",
+        "trace_index": 2,
+        "trace_name": "USA",
+        "title": {
+          "text": "Log GDP per capita ",
+          "x": 0
+        },
+        "points": 70,
+        "expected_points": 70,
+        "exact_pairs": true,
+        "covered_expected_years": 70,
+        "equal_values_by_year": 70,
+        "within_1e12_by_year": 70,
+        "first": [
+          [
+            1950,
+            9.67
+          ],
+          [
+            1951,
+            9.73
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-apply-usa.html",
+        "blob": "af16ae626f119e8409001998a9f642212bebd1ff",
+        "source_sha256": "5d9fd74ad79b73e2c72447d571f813d3f390363c09a68bc8816db263377eebed",
+        "script_sha256": "b322ccbfceb848cc338f78bbe825411ee48c0ba1ab978c63a154dffe6a415d33",
+        "trace_index": 0,
+        "trace_name": "USA",
+        "title": {
+          "text": "Log GDP per capita for United States",
+          "x": 0
+        },
+        "points": 70,
+        "expected_points": 70,
+        "exact_pairs": true,
+        "covered_expected_years": 70,
+        "equal_values_by_year": 70,
+        "within_1e12_by_year": 70,
+        "first": [
+          [
+            1950,
+            9.67
+          ],
+          [
+            1951,
+            9.73
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-catchup-lngdppc.html",
+        "blob": "65074bb8c9c59258ad1236a7e6a6818fed1a7d1c",
+        "source_sha256": "cf48e2cec1bd6d971877cc407bc3af7fee3c28a3f2ae1b8968d45216058982c7",
+        "script_sha256": "6802eb48f4d5e395cbe06cafb58b70d90194e8328a3a06a447c8732a32462a18",
+        "trace_index": 5,
+        "trace_name": "United States of America",
+        "title": {
+          "text": "Log GDP per capita for catch-up growth countries",
+          "x": 0
+        },
+        "points": 70,
+        "expected_points": 70,
+        "exact_pairs": true,
+        "covered_expected_years": 70,
+        "equal_values_by_year": 70,
+        "within_1e12_by_year": 70,
+        "first": [
+          [
+            1950,
+            9.67
+          ],
+          [
+            1951,
+            9.73
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-stable-lngdppc.html",
+        "blob": "ca1ad2f5b9b234bbc7f746fe78cb17880c60837e",
+        "source_sha256": "699082fb5fbbe2f0efe98d355a562df05a0a327693c92ca72f69879e0d46c18d",
+        "script_sha256": "e292a77994f05b95135e2c05e3e65826da19bae287962a52e29b5b2a65f6f707",
+        "trace_index": 4,
+        "trace_name": "United States of America",
+        "title": {
+          "text": "Log GDP per capita for stable growth countries",
+          "x": 0
+        },
+        "points": 70,
+        "expected_points": 70,
+        "exact_pairs": true,
+        "covered_expected_years": 70,
+        "equal_values_by_year": 70,
+        "within_1e12_by_year": 70,
+        "first": [
+          [
+            1950,
+            9.67
+          ],
+          [
+            1951,
+            9.73
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-apply-usa.html",
+        "blob": "5fc4b6e9a3c9a9b6fc8265aab37f7ce20e39d37b",
+        "source_sha256": "6b0f32bf41b72b58b390d79f6da2211ec96ebb6da1cb475d01b99baac4885033",
+        "script_sha256": "69489cbeb941c149b8a251698828ed09b09379dc90cd3d14a135d25f8dab5c2c",
+        "trace_index": 0,
+        "trace_name": "USA",
+        "title": {
+          "text": "Log GDP per capita for United States",
+          "x": 0
+        },
+        "points": 70,
+        "expected_points": 70,
+        "exact_pairs": true,
+        "covered_expected_years": 70,
+        "equal_values_by_year": 70,
+        "within_1e12_by_year": 70,
+        "first": [
+          [
+            1950,
+            9.67
+          ],
+          [
+            1951,
+            9.73
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-account-usa.html",
+        "blob": "1ea194d240b5296a58ac265b91ed77469bdc1781",
+        "source_sha256": "5a6add80d7b50ca41983a125bd0e87d56bae6b29efa7d92c2b15c0f4df1feee7",
+        "script_sha256": "fad2f32356be2e4d5e657c32b181c0c1c6fcba6dd6b379e60028aa9414945727",
+        "trace_index": 3,
+        "trace_name": "Actual GDP p.c.",
+        "title": {
+          "text": "Accounting for United States",
+          "x": 0
+        },
+        "points": 60,
+        "expected_points": 70,
+        "exact_pairs": false,
+        "covered_expected_years": 60,
+        "equal_values_by_year": 60,
+        "within_1e12_by_year": 60,
+        "first": [
+          [
+            1960,
+            9.85
+          ],
+          [
+            1961,
+            9.86
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-account-usa.html",
+        "blob": "41a85ab0452f0d21b63d0d00ca8cc3941710b806",
+        "source_sha256": "a94bc9776d6395d10e3a64595b09a62be8eb2f92eb35d2955fe2e2dd4fb5f3bc",
+        "script_sha256": "7f745350d8f037331dbe35372215541e7752398eb39125af07fbaecc73cf09c9",
+        "trace_index": 3,
+        "trace_name": "Actual GDP p.c.",
+        "title": {
+          "text": "Accounting for United States",
+          "x": 0
+        },
+        "points": 60,
+        "expected_points": 70,
+        "exact_pairs": false,
+        "covered_expected_years": 60,
+        "equal_values_by_year": 60,
+        "within_1e12_by_year": 60,
+        "first": [
+          [
+            1960,
+            9.85
+          ],
+          [
+            1961,
+            9.86
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-account-usa.html",
+        "blob": "b8ce0a392cd5a42f296cf42b72b1e4f19146e6f7",
+        "source_sha256": "2218dac96dc0404aad8c3a8ae8f7425867d5c3ebacca82f5f941e1c988019b57",
+        "script_sha256": "638074717514aec51b3c4b94f957316882cdc9e96248b7b101cab3c957559dba",
+        "trace_index": 3,
+        "trace_name": "Actual GDP p.c.",
+        "title": {
+          "text": "Accounting for United States",
+          "x": 0
+        },
+        "points": 60,
+        "expected_points": 70,
+        "exact_pairs": false,
+        "covered_expected_years": 60,
+        "equal_values_by_year": 60,
+        "within_1e12_by_year": 60,
+        "first": [
+          [
+            1960,
+            9.85
+          ],
+          [
+            1961,
+            9.86
+          ]
+        ],
+        "last": [
+          [
+            2018,
+            11.03
+          ],
+          [
+            2019,
+            11.04
+          ]
+        ]
+      }
+    ],
+    "223": [
+      {
+        "path": "plotly/pwt-usa-pop-growth.html",
+        "blob": "6c35f0458e6dd33292a738f0916f53bee0b3938e",
+        "source_sha256": "a17897b32ca500ced38214014ad5486a4ca4687da8f92b5f1d64c5e5b8e91de6",
+        "script_sha256": "8634a974f34e76e9561f4902767764a7934594d3e5e52bf4e63d6a7d6d4896ac",
+        "trace_index": 0,
+        "trace_name": "United States of America",
+        "title": {
+          "text": "Population growth rate",
+          "x": 0
+        },
+        "points": 60,
+        "expected_points": 58,
+        "exact_pairs": false,
+        "covered_expected_years": 58,
+        "equal_values_by_year": 46,
+        "within_1e12_by_year": 46,
+        "first": [
+          [
+            1950,
+            0.017
+          ],
+          [
+            1951,
+            0.0170000000000001
+          ]
+        ],
+        "last": [
+          [
+            2008,
+            0.00700000000000003
+          ],
+          [
+            2009,
+            0.00800000000000001
+          ]
+        ]
+      },
+      {
+        "path": "plotly/pwt-usa-pop-growth.html",
+        "blob": "babe0ddf7c702539737ca9564a5dc4731f99feab",
+        "source_sha256": "a58aa884f64bda920eac16fa18d927922ba041e9e836545ca493a55aef82ef17",
+        "script_sha256": "4539677f9710e30265f4f10b6ce2b20ca74ea6097ca3a78359cff78e3800620c",
+        "trace_index": 0,
+        "trace_name": "United States",
+        "title": {
+          "text": "Population growth rate",
+          "x": 0
+        },
+        "points": 64,
+        "expected_points": 58,
+        "exact_pairs": false,
+        "covered_expected_years": 58,
+        "equal_values_by_year": 0,
+        "within_1e12_by_year": 21,
+        "first": [
+          [
+            1950,
+            0.016999999999999994
+          ],
+          [
+            1951,
+            0.01700000000000008
+          ]
+        ],
+        "last": [
+          [
+            2012,
+            0.007000000000000029
+          ],
+          [
+            2013,
+            0.007000000000000029
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "graficas": [
+    {
+      "slug": "eia-energy-intensity",
+      "title": "Energy intensity",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "6d2bfb4f8d52e2ffb879b3c907194d3ebfaf322508ebc5cf7923e66d9313d2a5",
+      "csv_sha256": "5ffd2f4ac7e6107c1f51f74ffb11a630c1cb62e073a9c6697af826ab157aabb5"
+    },
+    {
+      "slug": "eia-energy-price",
+      "title": "Implied energy price",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "7f6d24e3ea6f8a700847f9095d7e4463ee110d1c7ad170f7d583ee6104e3f9a0",
+      "csv_sha256": "054ee6605a105791ed78004f12ed7be4184b91eb9753e2833da6e09d40b2a905"
+    },
+    {
+      "slug": "eia-energy-share",
+      "title": "Energy share of GDP",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "9abd7999446ba574f188b907c60d6d2677cc3d11150ed5a5feb5000989287c04",
+      "csv_sha256": "4b16d0069af57216da07810dea4b26b72494c180015af380e1cb51131d77ded7"
+    },
+    {
+      "slug": "me-gA-dynamics",
+      "title": "Dynamics of productivity growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 2,
+      "frames": 250,
+      "json_sha256": "e6908748647ebf5290313d84b041ba83f04fdef517a9960ac0b522ff7eea2ea8",
+      "csv_sha256": "b2795b5c267a3e0022f69386423cf1de9ec5940bee297edfce456e92e886e708"
+    },
+    {
+      "slug": "me-level-theory",
+      "title": "Theoretical log GDP over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 4,
+      "frames": 0,
+      "json_sha256": "16abde4d5fbe36c2dced99ba467dd80df75264ba8e2a1ec6f6d86f2cf4608f65",
+      "csv_sha256": "9e0e5a224a5cbfeec2efdbf79e54d76992ebac8a0ee24d5377cebc9464286eda"
+    },
+    {
+      "slug": "me-lny-animated",
+      "title": "Level of GDP per capita over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 30,
+      "json_sha256": "8067a97ef6f1dd0c78b35dcc342333b8d18aae5fc0d75a56e311484fdc0a0210",
+      "csv_sha256": "4b762491e1d21184ad5675da4f05274204284fb70d39d38c5c88355a54fdfdd2"
+    },
+    {
+      "slug": "oecd-rd-fte",
+      "title": "R&D Workers over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+      "csv_sha256": "f662584f39f923430c9a6120cb1547cabb0b12d4446e26310390a96f3c402867"
+    },
+    {
+      "slug": "oecd-rd-levelrd",
+      "title": "R&D expenditure over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "7d8a75e196118486ca7023f06cd4abb16ffadedf6ad5225de6defec85fee7db0",
+      "csv_sha256": "736b79a8dd313ceecadedfd97da915c00a67c014835325e3865bf8a6508991ab"
+    },
+    {
+      "slug": "oecd-rd-lnfte-jpn",
+      "title": "Japanese R&D Workers over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "11ba46c23fce0dc5efa88ecf6df7be477d74856ea014690a2a96ba0e06f1fff7",
+      "csv_sha256": "3aa0208b611c6eb054c14a7c561b5bc90ec2d1144390a2c82471bc83b357e4fc"
+    },
+    {
+      "slug": "oecd-rd-lnfte",
+      "title": "R&D Workers over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "21cd8000e978c7e6fc88d3d63d45caa351f47eeb5d6d22c96f472f9d15835ddf",
+      "csv_sha256": "080d5d8975b489599e247370c4d6dd3ff2c8a9209bd078972752427ee39c909a"
+    },
+    {
+      "slug": "oecd-rd-logrd",
+      "title": "R&D expenditure over time",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "d0edac205821320085ac646f2b167e1548a40c41d547c17ccc60e5e976cffd6a",
+      "csv_sha256": "4b54de2e4c624da19af7a2d8adfdd3737e2ed7523afec5a12f91a26dcffc62f2"
+    },
+    {
+      "slug": "pwt-account-basic-jpn",
+      "title": "Accounting for Japan",
+      "tipo": "fuente_StudyGuide",
+      "traces": 2,
+      "frames": 0,
+      "json_sha256": "a13f376856c41cd59f80b19d025cb4f4895f6546713f378ebd96d1c51787c8d3",
+      "csv_sha256": "be27c8d3a453c6df2038b24df0c67554ad6e7dc514e9e80d9d6b71ab44c28ee3"
+    },
+    {
+      "slug": "pwt-account-basic-usa",
+      "title": "Accounting for United States",
+      "tipo": "fuente_StudyGuide",
+      "traces": 2,
+      "frames": 0,
+      "json_sha256": "4a18e4e898d4f1cc445a328076ebecf743373275f1e533a6bb67337ffbd99d96",
+      "csv_sha256": "f5a772c8eeb157eb4323dff2f8cd7417a4b216b7dcf5c79b2dcf0a3520de7d72"
+    },
+    {
+      "slug": "pwt-account-kor",
+      "title": "Accounting for South Korea",
+      "tipo": "fuente_StudyGuide",
+      "traces": 4,
+      "frames": 0,
+      "json_sha256": "b4d7fb805ca7ab1f8ba2dc84966697b419b6941a06c64c113d99d34c103b7065",
+      "csv_sha256": "fed1eb590391780cbcb1a2187113a846777ec9c0eaaa137a6e4b01286ead5e5d"
+    },
+    {
+      "slug": "pwt-account-usa",
+      "title": "Accounting for United States",
+      "tipo": "fuente_StudyGuide",
+      "traces": 4,
+      "frames": 0,
+      "json_sha256": "ce124e201c05dc39c0215a2342c067840362b6bb0c101c9aae107c6e61f5e2c6",
+      "csv_sha256": "f6d79fe62d5ee233d446f942bcdebea14b5317b1186befebdbe0a13dc96e496f"
+    },
+    {
+      "slug": "pwt-all-cshg-growth",
+      "title": "Government and growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "528d466c0137a2e8b694d183594f4a529939810d9d82ca0974d12a6a6bb92e2c",
+      "csv_sha256": "4917b39d826ceb8d3c13b1eb4c3cf0f58f5d3a5bc6c145f8eb306bb34d2479ec"
+    },
+    {
+      "slug": "pwt-all-cshg-level",
+      "title": "Government and level of GDP per capita",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "a3512bf7517e2e4c434fe747c788a41be84ba00aeb1770c637d3e93ef3bdfa86",
+      "csv_sha256": "4a9b4a29fa96d8f42ad8b134b853648ac13ea980477e465ce7993bb8519644c2"
+    },
+    {
+      "slug": "pwt-apply-chn",
+      "title": "Log GDP per capita for China",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "6dc1bafaba85b79f143d8caf1ff669eadbe795a3c73003eabc67de8740da0406",
+      "csv_sha256": "623c2e8d87e4d4742686f5bd25ebe40bb166c8727a1299abdafe0f5f955b57e2"
+    },
+    {
+      "slug": "pwt-apply-comp",
+      "title": "Log GDP per capita ",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "9de955f6e88e27848b2dda790a636cf3cf31690afabe8ce6242f28d30c4c2303",
+      "csv_sha256": "0a4087e1a51c4278b5d58943bb0ce2fe348907382c22bb2fcb0212f08154cd3f"
+    },
+    {
+      "slug": "pwt-apply-deu",
+      "title": "Log GDP per capita for Germany",
+      "tipo": "fuente_StudyGuide",
+      "traces": 2,
+      "frames": 0,
+      "json_sha256": "76a2ca6cf65313f904d362d73b875d2c498fc5a88219703c91c91e1d44c1286c",
+      "csv_sha256": "8d5bb6c2b5c4ca2b78279a690c3d6423a23a0e8a86eb1f414c9e79a75ba6d832"
+    },
+    {
+      "slug": "pwt-apply-gl-chn",
+      "title": "Population growth for China",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "e382a97f51e3accb83bc6e364beabcaed9a62b0d0462cdcaf4244edf6bd14b89",
+      "csv_sha256": "0edd45b641c938f7a4af110599b65bf4f9c0fe49bcc599ba43ddc2e0a7d000ba"
+    },
+    {
+      "slug": "pwt-apply-gl-kor",
+      "title": "Population growth for South Korea",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "1f4d5a46c582fb526c90279cbc0d9235cd2c015e1deba5839b6e53c1b5e30cd3",
+      "csv_sha256": "3a4362ba4881bf14531083be855e3da31a50248e36b3c7e8813a8951787d4f43"
+    },
+    {
+      "slug": "pwt-apply-gtfp-chn",
+      "title": "Level of productivity",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "d3a14a82eb39c16bc2c47522f5fac2bcdfbbd23b264e0f8b0a84d4c6ddc69b69",
+      "csv_sha256": "e0552b14508ca47269a558cc2a2dbcfd610718686173bd70c39a642cea9c9c62"
+    },
+    {
+      "slug": "pwt-apply-gtfp-jpn",
+      "title": "Level of productivity",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "39ca269c72428864675233fa17ac4a76159cd1c1e144efdd6fd3a84eb2d9ce51",
+      "csv_sha256": "5a28c294d571b8efa70e0796155f5ef16302682e5b627c856a3cff8b7719de60"
+    },
+    {
+      "slug": "pwt-apply-kor",
+      "title": "Log GDP per capita for South Korea",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "a164f570e860b6340a5a6150c64adc267d0fd4f3fd1c9235b9e8245b85def079",
+      "csv_sha256": "bb1fabd54e3a8c520e649173b4f994c53ca2b427cb55e4de0aff5e928706436a"
+    },
+    {
+      "slug": "pwt-apply-ky-deu",
+      "title": "Capital/output for Germany",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "8959d507ce2f8337e0cc1f598404a216e4af863104919a51f3901400882982dd",
+      "csv_sha256": "0bfcb21b05de6d97b6361916abced8be649852aa0f760bbf15ed01d963da6008"
+    },
+    {
+      "slug": "pwt-apply-si-chn",
+      "title": "Capital formation share of GDP for China",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "154c5f7995aa02c02a4235b080d0fa8e624a677bdcf5c16c53eb2617cfe07d8f",
+      "csv_sha256": "e352ad765592f00d6bdaa871d06f0f1edc72ee111aa7bea6807b0ad15da41371"
+    },
+    {
+      "slug": "pwt-apply-si-kor",
+      "title": "Capital formation share of GDP for South Korea",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "ac5dc5d2fbc60e43aaabae611bfb669b85b3b28a8683d284b8aca914890ffce1",
+      "csv_sha256": "0ae5da9c538151ca079ad1d79cf9d0868aa7346b90d35e6e344531828900ff00"
+    },
+    {
+      "slug": "pwt-apply-usa",
+      "title": "Log GDP per capita for United States",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "e73dbbbc30601a67c78d962960a2309af1c50ec3287646bf6dbff043da92f462",
+      "csv_sha256": "5e34d2ed65a8690ae34f32d188eeeecfaccecbe94688801e960da213aee86409"
+    },
+    {
+      "slug": "pwt-corr-gl",
+      "title": "Level of GDP p,c. and population growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 7,
+      "json_sha256": "30214adfeb9fe8507c334045b069a4d18463cd021b014c9fcd1460c13d2b97f6",
+      "csv_sha256": "c984e56bb721505c7281ca008bd90d172a3a350c2caccfc8d269fc5dfba47937"
+    },
+    {
+      "slug": "pwt-corr-si",
+      "title": "Level of GDP p,c. and capital formation",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 7,
+      "json_sha256": "33065a25f464787d2b67b4aad47b7d8f497c26646ced97c7589807395487cbae",
+      "csv_sha256": "74c95d321844957deef377f62838409f9c9621e9c936a309087a5cc3c63a5269"
+    },
+    {
+      "slug": "pwt-growth-acct-usa",
+      "title": "Growth accounting",
+      "tipo": "fuente_StudyGuide",
+      "traces": 3,
+      "frames": 0,
+      "json_sha256": "2943c7880894546c258205ed07f1e4a1a3f9e42434c7dda702ac5a4438e3b7bf",
+      "csv_sha256": "f090642d12a6a93bb1f3fae59ba578b69fb798fbab7de2fc354c09f789a9ebfc"
+    },
+    {
+      "slug": "pwt-growth-tfp-comp",
+      "title": "Productivity growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "499b5d219b69e31e1117c09ef8efb5dc36969ddaeee7e4b6e40cf3da4b28be07",
+      "csv_sha256": "85a044e1990edd1b56bcba120fe603efcb5d2f45ee752bd738839cbdb3a147fb"
+    },
+    {
+      "slug": "pwt-oecd-level-rd",
+      "title": "Relationship of R&D level and prod level",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "d43b39c36048fb078b3b447efb71daa263473081f849df71f67fbf067fd05dba",
+      "csv_sha256": "98d39aac22184b543d7804e461f68f9495e4409db66439a604180b2135b5f948"
+    },
+    {
+      "slug": "pwt-oecd-rd-gtfp",
+      "title": "Relationship of R&D growth and prod growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+      "csv_sha256": "879a6135f8adcb3f93b302fc68fa9f2824bb0f4982a0b34defed5dc9d74b1f9d"
+    },
+    {
+      "slug": "pwt-oecd-rd-tfp",
+      "title": "Relationship of R&D work and prod growth",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3",
+      "csv_sha256": "270351a16558e3c757f2f0e2f53633e09e4b8570fdf9daf70092f09f7244739c"
+    },
+    {
+      "slug": "pwt-test-chsg-level",
+      "title": "Government and level of GDP per capita",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "5bbfb623ea0ddba8b6f745da6d444e00c7956fc0de71d4ac50bce99d59c0c31e",
+      "csv_sha256": "0c8a2bd72f41b7d29fe1d7f4f60e1fb796f54391881fa7e99ca01759b0166417"
+    },
+    {
+      "slug": "pwt-usa-growth-rate",
+      "title": "10-year growth rate",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "a5581afdfdc3a899418e58c67014dc34ee574ad5a3e0f9d0e5818b54c84f6eff",
+      "csv_sha256": "e1f60d988d4512f3d954a16433290baa4e94be99ffd09c29a9cfd9acc3889455"
+    },
+    {
+      "slug": "pwt-usa-pop-growth",
+      "title": "10-year population growth rate",
+      "tipo": "fuente_StudyGuide",
+      "traces": 1,
+      "frames": 0,
+      "json_sha256": "84012a7bd9d2bb919a9d2bde465c5bb3d0ce66ed14a0d811c1f75b0b6ff50d4c",
+      "csv_sha256": "a38ecc05fe568f1d5fd959e745931a983b86057be02142e4a124fd7040950726"
+    },
+    {
+      "slug": "wdi-energy-gdpe-test",
+      "title": "Energy Intensity",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "7906dab4008fea5786976ea1eed562e9963b75833983166f6d3f6047867a3d47",
+      "csv_sha256": "a09474c7ee2a8c0d386bf4cccf844f8948741a891275fe659163b09709acfad0"
+    },
+    {
+      "slug": "wdi-energy-gdpe",
+      "title": "Energy Intensity",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "6da94de18758b2bd836a75daba8cad7e266c884ac6ccf08823e66d766d469bc0",
+      "csv_sha256": "4ca01ef42f1be564d8a5aa1206498fb6fcff4f1374c55e71102798fdbe0eaa8d"
+    },
+    {
+      "slug": "pwt-catchup-ky",
+      "title": "Capital/output ratio for catch-up countries",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "f993dea4c8b0b313bb6c80d9aaaa5fe676e6ed4de8ea2d8b6b68cfa746b30301",
+      "csv_sha256": "aabb0f4a61c266799042c973117e1f878876e2e5d45095c1c2e54238dfcf1838"
+    },
+    {
+      "slug": "pwt-catchup-emppop",
+      "title": "Employee/Pop ratio by country",
+      "tipo": "fuente_StudyGuide",
+      "traces": 6,
+      "frames": 0,
+      "json_sha256": "e29562004d687ab1e31e68ac2807b3a56dbee1f6c29be756e994cd7ab6e950b5",
+      "csv_sha256": "bca65a165ac702fb9004061859c0337008af81681bc671882788364b1d437627"
+    },
+    {
+      "slug": "fig-local-2021",
+      "title": "Relación entre trabajadores de I&D y crecimiento de la productividad",
+      "tipo": "objeto_local",
+      "traces": 9,
+      "frames": 0,
+      "json_sha256": "147da01bfea34bc4ea7e80d7aa63b68255f210247bd8f1d95b4816dbbe372e16",
+      "csv_sha256": "197d8d0c1c9c9154597c5288bf59f486ad90fb64f812cfbe2778f98fda3bef3c"
+    }
+  ],
+  "count": 44,
+  "plotly_sha256": "c32ca5c54fb5978975a7d7f669c8bd40a0acfb8e37c09e92d6126f119f5385e1",
+  "network_used": false
+}

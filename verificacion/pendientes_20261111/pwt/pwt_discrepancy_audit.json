@@ -1,0 +1,310 @@
+{
+  "audit_date": "2026-11-11",
+  "repo": "iguzmanvt/Crecimiento",
+  "baseline": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "status": "Cierre verificable del impacto en el ejemplo; origen algorítmico upstream no identificado",
+  "originals_preserved": true,
+  "executed": {
+    "reviewed_calculation_script": true,
+    "canonical_calculation_matches_Rmd": true,
+    "Rmd_document": false,
+    "api_create": false,
+    "Stata": false,
+    "spreadsheet_recalculation": false,
+    "repository_edits_or_publication": false
+  },
+  "comparisons": {
+    "original_Data_vs_official_XLSX": {
+      "keys_left": 12810,
+      "keys_right": 12810,
+      "common_keys": 12810,
+      "rows_columns_compared": 666120,
+      "column_mismatches": {},
+      "examples": [],
+      "all_equal": true
+    },
+    "official_XLSX_vs_DTA": {
+      "keys_left": 12810,
+      "keys_right": 12810,
+      "common_keys": 12810,
+      "rows_columns_compared": 666120,
+      "column_mismatches": {},
+      "examples": [],
+      "all_equal": true
+    },
+    "USA_original_vs_installed": {
+      "years": [
+        1950,
+        2019
+      ],
+      "rows": 70,
+      "country": "USA",
+      "columns": {
+        "isocode": {
+          "mismatches": 0,
+          "years": []
+        },
+        "year": {
+          "mismatches": 0,
+          "years": []
+        },
+        "rgdpna": {
+          "mismatches": 0,
+          "years": []
+        },
+        "rnna": {
+          "mismatches": 35,
+          "years": [
+            1950,
+            1951,
+            1956,
+            1958,
+            1959,
+            1960,
+            1961,
+            1963,
+            1964,
+            1967,
+            1970,
+            1973,
+            1976,
+            1979,
+            1980,
+            1982,
+            1983,
+            1984,
+            1987,
+            1988,
+            1991,
+            1997,
+            1999,
+            2000,
+            2001,
+            2004,
+            2005,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ]
+        },
+        "pop": {
+          "mismatches": 0,
+          "years": []
+        },
+        "hc": {
+          "mismatches": 0,
+          "years": []
+        }
+      }
+    },
+    "capital_program_boundary": {
+      "program_zip_sha256": "a3ec39f199e889e0759a1c920ef1a3c87af966ec749603f8a8f774d32fcf9b65",
+      "capital_input_sha256": "8915aa1ed27b0f2935f032937d150f3a6d1c48be33dc84f348d926b083e0b34e",
+      "capital_input_rows": 10314,
+      "capital_input_columns": [
+        "countrycode",
+        "year",
+        "cn",
+        "pl_n",
+        "rnna",
+        "ck",
+        "pl_k",
+        "rkna",
+        "irr_real",
+        "irr_outlier",
+        "delta"
+      ],
+      "USA_rows": 70,
+      "rnna_present": true,
+      "Stata_executed": false,
+      "rnna_dtype": "float32",
+      "USA_official_mismatches": 0,
+      "USA_max_abs_difference": 0,
+      "years": [
+        1950,
+        2019
+      ]
+    }
+  },
+  "numerical_profile": {
+    "years": 70,
+    "mismatches": 35,
+    "max_abs_difference": 8,
+    "max_relative_difference": 1.8687554369103494e-07,
+    "ulp_counts": {
+      "0": 35,
+      "1": 27,
+      "2": 8
+    },
+    "all_xlsx_and_cran_values_exact_float32": true,
+    "mismatches_1960_2019": 30,
+    "max_abs_unit": "millones de US$ de 2017",
+    "max_relative_percent": 1.8687554369103495e-05,
+    "interpretation": "Ambas series están exactamente en la malla float32; 1–2 ULP describe magnitud, no prueba causa por redondeo."
+  },
+  "result_scope": {
+    "country": "USA",
+    "years": [
+      1960,
+      2019
+    ],
+    "parameters": {
+      "alpha": 0.3,
+      "reference_year": 1960,
+      "round_lngdppc_digits": 2,
+      "round_ky_digits": 2,
+      "round_traces_digits": 2
+    },
+    "traces": [
+      "kyonly",
+      "hconly",
+      "tfponly",
+      "lngdppc"
+    ],
+    "points_per_source": 240,
+    "mismatches_vs_installed_per_source": 0,
+    "max_abs_difference": 0,
+    "derived_variables_checked": 12,
+    "derived_values_per_source": 720,
+    "all_derived_exact": true,
+    "sources": [
+      "repo_excel",
+      "official_excel",
+      "official_dta",
+      "installed_pwt100",
+      "cran_download"
+    ],
+    "cause_of_zero_result": "ky=round(rnna/rgdpna,2) coincide antes de los cálculos posteriores; las otras entradas relevantes coinciden."
+  },
+  "historical_workspace": {
+    "context": "Workspace localizado en carpeta de curso Otoño 2021; no fecha de creación autenticada sólo por nombre de carpeta",
+    "file_bytes": 4716153,
+    "file_md5": "d665dad1520077ad724717e01129fd24",
+    "pwt_rows": 12810,
+    "pwt_columns": 52,
+    "pwt_identical_to_installed": true,
+    "usa_rows": 60,
+    "usa_columns": 64,
+    "USA_years": [
+      1960,
+      2019
+    ],
+    "year_sequence_equal": true,
+    "required_inputs_exact": true,
+    "all_derived_numeric_exact": true,
+    "traces": [
+      {
+        "variable": "kyonly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "hconly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "tfponly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "lngdppc",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      }
+    ],
+    "sha256": "84eecbdd279dedbb35241539bb522ef507647b41945ea8e52ed7451c9d00cdbb",
+    "ChartStudio_fid104_identity_established": false
+  },
+  "provenance": {
+    "installed_object_matches_downloaded_CRAN": true,
+    "installed_package_DESCRIPTION_version": "10.01-0",
+    "object": "pwt10.0",
+    "RDA_source_blob": "8526f6a8bcc34307975840d8c5ff1fc874ee368a",
+    "RDA_identical_2021_2023_blobs": true,
+    "official_workbook_revision_label": "Revision of June 2021",
+    "exact_upstream_cause_proved": false,
+    "bounded_missing_evidence": [
+      "Código importador CRAN o entrega original GGDC anterior al 21-ene-2021 cotejable",
+      "Generador histórico de Data/k_aggregate.dta y/o documentación explícita del cambio rnna USA"
+    ]
+  },
+  "recommendation": {
+    "data_or_formula_change": false,
+    "keep": "Excel original, objeto explícito pwt10.0 y fórmulas/redondeos actuales",
+    "documentation": "Distinguir entrega CRAN de enero y archivos oficiales posteriores; declarar diferencias brutas en rnna y equivalencia exacta sólo de los resultados USA comprobados",
+    "avoid": [
+      "Afirmar igualdad de las seis columnas brutas",
+      "Llamar error de Excel, redondeo de importación o revisión económica demostrada a la discrepancia",
+      "Sustituir silenciosamente por pwt10.01",
+      "Extender impacto nulo a otros países o fórmulas sin redondear",
+      "Afirmar identidad de la gráfica histórica fid104"
+    ]
+  },
+  "limitations": [
+    "No se recuperó el algoritmo que originó la diferencia; el perfil float32 y la cronología no lo prueban.",
+    "Data igual significa valores de celdas normalizados, no identidad binaria de libros o DTA.",
+    "No se validó causalidad económica ni la idoneidad de alpha, año base o redondeos.",
+    "La carpeta Otoño 2021 no autentica fecha de creación del workspace.",
+    "Las hojas Hoja1 y Hoja1 (2) no son entradas del ejemplo USA; no se recalcularon."
+  ],
+  "evidence_files": [
+    "source_manifest.json",
+    "numeric_input_audit.json",
+    "USA_input_column_comparison.json",
+    "rnna_pairs_USA.json",
+    "rnna_35_differences_USA.csv",
+    "trace_effect_audit.json",
+    "USA_trace_comparison_1960_2019.csv",
+    "capital_program_boundary.json",
+    "pwt_provenance.json",
+    "pwt_provenance.md",
+    "post_audit_integrity.json"
+  ],
+  "execution_log": [
+    {
+      "script": "pwt_download_audit.py",
+      "purpose": "Copia de lectura del XLSX y descarga de fuentes oficiales; urllib falló cadena SSL en GGDC sin desactivar verificación",
+      "completed": true
+    },
+    {
+      "script": "pwt_native_download.py",
+      "purpose": "Descarga oficial con curl de Windows y extracción controlada del RDA CRAN",
+      "completed": true
+    },
+    {
+      "script": "pwt_export_installed.R",
+      "purpose": "Exportación de datos USA con 17 dígitos, sin Rmd ni plotly",
+      "completed": true
+    },
+    {
+      "script": "pwt_inputs_audit.py",
+      "purpose": "Comparación Data completo y perfiles float32; categorías DTA decodificadas",
+      "completed": true
+    },
+    {
+      "script": "pwt_trace_effect.R",
+      "pid": 29020,
+      "exit_code": 0,
+      "purpose": "Cálculo revisado, equivalencia AST Rmd y cotejo de workspace aislado"
+    },
+    {
+      "script": "pwt_program_boundary.py",
+      "pid": 1092,
+      "exit_code": 0,
+      "purpose": "Lectura de k_aggregate.dta, sin ejecutar Stata"
+    },
+    {
+      "script": "pwt_post_audit_integrity.py",
+      "pid": 4536,
+      "exit_code": 0,
+      "purpose": "Hashes y estado Git al finalizar"
+    }
+  ]
+}

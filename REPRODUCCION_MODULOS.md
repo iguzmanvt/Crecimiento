@@ -74,3 +74,7 @@ El [catálogo de referencias externas](verificacion/modulos_20261111/referencias
 Our World in Data, FRED y otros enlaces conservan su alcance separado. Una respuesta HTTP favorable no demuestra igualdad con la edición del curso. MathJax y algunos recursos remotos requieren conexión. Durante la prueba de navegador se bloquearon las solicitudes externas: se verificó funcionamiento y contenido local, no la representación remota de fórmulas o gráficas ni funcionamiento completamente offline.
 
 Las variantes idénticas de Labor/Labor_2 y la fuente anidada Ideas/CE-Ideas se conservan. La nota de Medio ambiente sigue físicamente en Energy; el manifiesto la agrupa con Environment. Introducción mantiene su [procedimiento propio](Clases_Crecimiento_Economico/Introduction/README.md).
+
+## Seguimiento de Chart Studio y PWT
+
+El [informe de seguimiento](PENDIENTES_GRAFICAS_Y_PWT.md) cierra el efecto de la diferencia de capital sobre el ejemplo USA y ofrece [44 vistas locales de apoyo](recursos_graficas/README.md). Los 40 identificadores originales mantienen su estado sin autenticar; las alternativas preservan procedencia y límites.

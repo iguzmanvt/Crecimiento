@@ -1,0 +1,957 @@
+{
+  "schema_version": 1,
+  "checked_date_utc": "2026-11-11",
+  "task": "Public archive and author-published backup search for 40 Chart Studio identities",
+  "scope": {
+    "baseline": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+    "targets_file": "crecimiento_pendientes/targets.json",
+    "targets_sha256": "f9e4fb05333911d7ce6d5c67f3bf454ac4fef8f6fe79b315e2cd068e6b4ca481",
+    "identity_count": 40,
+    "users": {
+      "iguzmanv": 4,
+      "iguzmanvt": 36
+    },
+    "identity_key": "username:plot_id",
+    "live_chart_410_requests_repeated": 0,
+    "repository_mutations": 0,
+    "external_messages_sent": 0
+  },
+  "outcome": {
+    "recovered_identity_count": 0,
+    "recovered_data_payloads": 0,
+    "recovered_figures": 0,
+    "archived_snapshots_retrieved": 0,
+    "author_reference_identities": [
+      "iguzmanvt:116",
+      "iguzmanvt:118"
+    ],
+    "conclusion": "No chart/data backup recovered through the checked public routes. Archive failures make the search incomplete; this is not proof that no archived copy exists."
+  },
+  "method": {
+    "execution": "Unauthenticated public HTTP GET from authorized Windows; web search/open from connected search tools",
+    "archive_requests_attempted": 10,
+    "archive_http_responses_received": 6,
+    "archive_request_failures_without_response": 4,
+    "archive_queries_are_prefix_indices_not_40_individual_chart_checks": true,
+    "stop_rule": "No further Wayback requests after observing the bounded batch's 503/offline and timeout results; no Arquivo retries after its bounded batch failed.",
+    "retrieval_timeout_seconds": {
+      "initial": 20,
+      "secondary": 25,
+      "arquivo": 15
+    },
+    "saved_response_directory": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c",
+    "git_history_and_saved_repository_html": "Covered independently by audit_b, not repeated here",
+    "local_course_files": "Covered independently by root, not repeated here"
+  },
+  "archive_checks": [
+    {
+      "name": "cdx_plotly_prefix",
+      "url": "https://web.archive.org/cdx/search/cdx?url=plotly.com%2F~iguzmanv%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:04:05.415969+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=plotly.com%2F~iguzmanv%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json"
+      },
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\cdx_plotly_prefix.response",
+      "response_json": [],
+      "outcome": "query_succeeded_no_capture_returned"
+    },
+    {
+      "name": "availability_representative_96",
+      "url": "https://archive.org/wayback/available?url=plotly.com%2F~iguzmanvt%2F96&timestamp=20251201",
+      "checked_at_utc": "2026-11-11T21:04:05.417324+00:00",
+      "status": 200,
+      "final_url": "https://archive.org/wayback/available?url=plotly.com%2F~iguzmanvt%2F96&timestamp=20251201",
+      "headers": {
+        "Server": "nginx/1.26.3",
+        "Content-Type": "application/json"
+      },
+      "bytes": 86,
+      "sha256": "4adeb7198f12666c3a41dc72981f8d3784f74031e24edcc6669041b4a59a32ba",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\availability_representative_96.response",
+      "response_json": {
+        "url": "plotly.com/~iguzmanvt/96",
+        "archived_snapshots": {},
+        "timestamp": "20251201"
+      },
+      "outcome": "query_succeeded_no_capture_returned"
+    },
+    {
+      "name": "cdx_plotly_unfiltered",
+      "url": "https://web.archive.org/cdx/search/cdx?url=plotly.com%2F~iguzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:05:06.986377+00:00",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=plotly.com%2F~iguzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/json"
+      },
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\cdx_plotly_unfiltered.response",
+      "response_json": [],
+      "outcome": "query_succeeded_no_capture_returned"
+    },
+    {
+      "name": "cdx_plotly_legacy",
+      "url": "https://web.archive.org/cdx/search/cdx?url=plot.ly%2F~iguzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:05:06.993598+00:00",
+      "status": 503,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=plot.ly%2F~iguzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html"
+      },
+      "bytes": 11832,
+      "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\cdx_plotly_legacy.response",
+      "error_title": "Internet Archive: Temporarily Offline",
+      "outcome": "archive_service_unavailable"
+    },
+    {
+      "name": "cdx_chartstudio",
+      "url": "https://web.archive.org/cdx/search/cdx?url=chart-studio.plotly.com%2F~iguzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:05:06.996300+00:00",
+      "error": "TimeoutError: The read operation timed out",
+      "outcome": "request_failed_indeterminate"
+    },
+    {
+      "name": "cdx_api_legacy",
+      "url": "https://web.archive.org/cdx/search/cdx?url=api.plot.ly%2Fv2%2Fplots%2Figuzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:05:12.763191+00:00",
+      "status": 503,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=api.plot.ly%2Fv2%2Fplots%2Figuzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html"
+      },
+      "bytes": 11832,
+      "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\cdx_api_legacy.response",
+      "error_title": "Internet Archive: Temporarily Offline",
+      "outcome": "archive_service_unavailable"
+    },
+    {
+      "name": "cdx_api_current",
+      "url": "https://web.archive.org/cdx/search/cdx?url=api.plotly.com%2Fv2%2Fplots%2Figuzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "checked_at_utc": "2026-11-11T21:05:16.171583+00:00",
+      "status": 503,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=api.plotly.com%2Fv2%2Fplots%2Figuzmanv&matchType=prefix&output=json&collapse=urlkey&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html"
+      },
+      "bytes": 11832,
+      "sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\cdx_api_current.response",
+      "error_title": "Internet Archive: Temporarily Offline",
+      "outcome": "archive_service_unavailable"
+    },
+    {
+      "name": "arquivo_plotly",
+      "url": "https://arquivo.pt/wayback/cdx?url=plotly.com%2F~iguzmanv&matchType=prefix&output=json&limit=1000",
+      "checked_at_utc": "2026-11-11T21:07:49.689397+00:00",
+      "error": "URLError: <urlopen error timed out>",
+      "outcome": "request_failed_indeterminate"
+    },
+    {
+      "name": "arquivo_plotly_legacy",
+      "url": "https://arquivo.pt/wayback/cdx?url=plot.ly%2F~iguzmanv&matchType=prefix&output=json&limit=1000",
+      "checked_at_utc": "2026-11-11T21:07:49.690915+00:00",
+      "error": "URLError: <urlopen error [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto>",
+      "outcome": "request_failed_indeterminate"
+    },
+    {
+      "name": "arquivo_chartstudio",
+      "url": "https://arquivo.pt/wayback/cdx?url=chart-studio.plotly.com%2F~iguzmanv&matchType=prefix&output=json&limit=1000",
+      "checked_at_utc": "2026-11-11T21:07:49.692509+00:00",
+      "error": "URLError: <urlopen error [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto>",
+      "outcome": "request_failed_indeterminate"
+    }
+  ],
+  "author_publications": [
+    {
+      "name": "mcv_innovacion_2022",
+      "url": "https://mexicocomovamos.mx/animal-politico/2022/07/las-oportunidades-de-crecimiento-de-america-latina-estan-en-la-inversion-en-innovacion-y-desarrollo/",
+      "checked_at_utc": "2026-11-11T21:05:18.007854+00:00",
+      "status": 200,
+      "final_url": "https://mexicocomovamos.mx/animal-politico/2022/07/las-oportunidades-de-crecimiento-de-america-latina-estan-en-la-inversion-en-innovacion-y-desarrollo/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Server": "cloudflare"
+      },
+      "bytes": 372897,
+      "sha256": "2e89442b75abafd1ebc8af4a372df939e2a327e9a853c9450f378c3cd591135e",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\mcv_innovacion_2022.response",
+      "published_date": "2022-07-19",
+      "author": "Isaac Guzmán Valdivia Tovar",
+      "direct_chart_links": [
+        "https://chart-studio.plotly.com/~iguzmanvt/116/#/",
+        "https://chart-studio.plotly.com/~iguzmanvt/118/#/"
+      ],
+      "classified_as": "authentic_author_reference_only_not_chart_backup",
+      "Plotly_newPlot_or_react_calls": 0,
+      "embedded_target_chart_payload_found": false,
+      "notes": "The sole application/json script is wp-emoji-settings. Three Datawrapper iframes are unrelated popup content; see rejected_candidates."
+    },
+    {
+      "name": "animal_innovacion_2022",
+      "url": "https://grupoanimal.mx/opinion/oportunidades-crecimiento-america-latina-inversion-innovacion-desarrollo",
+      "checked_at_utc": "2026-11-11T21:05:26.653740+00:00",
+      "status": 200,
+      "final_url": "https://grupoanimal.mx/opinion/oportunidades-crecimiento-america-latina-inversion-innovacion-desarrollo",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Server": "cloudflare"
+      },
+      "bytes": 22515,
+      "sha256": "aa11c98bac28a5a1525c66e2b8f694526e163706fa3bcbaa7db68a7b002335e0",
+      "truncated": false,
+      "raw_response_path": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\crecimiento_archive_20261111_audit_c\\animal_innovacion_2022.response",
+      "published_date": "2022-07-19",
+      "author": "Isaac Guzmán Valdivia Tovar",
+      "direct_chart_links": [
+        "https://chart-studio.plotly.com/~iguzmanvt/116/#/",
+        "https://chart-studio.plotly.com/~iguzmanvt/118/#/"
+      ],
+      "classified_as": "authentic_author_reference_only_not_chart_backup",
+      "Plotly_newPlot_or_react_calls": 0,
+      "embedded_target_chart_payload_found": false,
+      "notes": "Only original Chart Studio hyperlinks; no target figure/JSON or Plotly iframe found."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "source_check": "mcv_innovacion_2022",
+      "url": "https://datawrapper.dwcdn.net/0eGls/2/",
+      "identity": "datawrapper:0eGls",
+      "reason": "Parliament composition visualization in a popup; no direct identity connection to any target chart.",
+      "queried": false
+    },
+    {
+      "source_check": "mcv_innovacion_2022",
+      "url": "https://datawrapper.dwcdn.net/ostUc/2/",
+      "identity": "datawrapper:ostUc",
+      "reason": "Municipal electricity map in a popup; no direct identity connection to any target chart.",
+      "queried": false
+    },
+    {
+      "source_check": "mcv_innovacion_2022",
+      "url": "https://datawrapper.dwcdn.net/Tg9Kr/3/",
+      "identity": "datawrapper:Tg9Kr",
+      "reason": "State electricity map in a popup; no direct identity connection to any target chart.",
+      "queried": false
+    },
+    {
+      "source_check": "mcv_innovacion_2022",
+      "element": "script#wp-emoji-settings[type=application/json]",
+      "reason": "WordPress emoji configuration, not figure data."
+    },
+    {
+      "source_check": "mcv_innovacion_2022",
+      "url": "https://mexicocomovamos.mx/wp-content/uploads/2022/07/cuartoscuro_875542_digital.jpeg",
+      "reason": "Article image reference has no chart identity/data provenance; not accepted as a target backup.",
+      "queried": false
+    },
+    {
+      "source_check": "animal_innovacion_2022",
+      "url": "https://storage.googleapis.com/bucket-ga/uploads/2022/05/Card-Mexico-como-vamos.jpg",
+      "reason": "Publication card image reference has no target chart identity/data provenance.",
+      "queried": false
+    }
+  ],
+  "search_log": [
+    {
+      "engine": "Exa",
+      "queries": [
+        "\"iguzmanvt\" \"plotly\"",
+        "\"iguzmanv\" \"plotly\""
+      ],
+      "outcome": "No relevant recoverable identity payload; generic Plotly and unrelated name matches excluded."
+    },
+    {
+      "engine": "web system1",
+      "queries": [
+        "\"plotly.com/~iguzmanvt\"",
+        "\"plot.ly/~iguzmanv\"",
+        "\"iguzmanvt\" \"Crecimiento\" \"json\"",
+        "\"iguzmanv\" \"Productividad\""
+      ],
+      "outcome": "Found the author's 2022 article; inspected both publisher copies."
+    },
+    {
+      "engine": "web system2",
+      "queries": [
+        "\"iguzmanvt\" \"plotly\" \"json\"",
+        "\"iguzmanv\" \"plotly.com\" \"crecimiento\"",
+        "\"iguzmanvt\" site:github.com",
+        "\"iguzmanvt\" site:web.archive.org"
+      ],
+      "outcome": "Empty results for the batch."
+    },
+    {
+      "engine": "web system1",
+      "queries": [
+        "\"Isaac Guzmán\" \"plotly\" investigación desarrollo",
+        "\"iguzmanvt/96\" OR \"iguzmanvt/102\" OR \"iguzmanv/195\"",
+        "\"Isaac Guzmán\" \"Solow\" gráficos",
+        "\"iguzmanvt/198\" OR \"iguzmanv/198\""
+      ],
+      "outcome": "No matching primary-source chart backup; unrelated identities excluded."
+    },
+    {
+      "engine": "web system1",
+      "queries": [
+        "site:mexicocomovamos.mx \"Isaac\" \"chart-studio.plotly.com\"",
+        "site:grupoanimal.mx \"Isaac\" \"plotly\""
+      ],
+      "outcome": "No additional matching primary-source chart backup."
+    }
+  ],
+  "documentation": [
+    {
+      "url": "https://plotly.com/chart-studio-updates/",
+      "checked_date": "2026-11-11",
+      "source_reference": "turn41view2",
+      "observed": "Official closure date 2025-10-31 and support-email recovery route. No message sent.",
+      "raw_response_sha256": null
+    },
+    {
+      "url": "https://github.com/arquivo/pwa-technologies/wiki/URL-search:-CDX-server-API",
+      "checked_date": "2026-11-11",
+      "source_reference": "turn50view0",
+      "observed": "Official CDX documentation confirms prefix matching, JSON output, limits, and distinction between empty successful response and request error.",
+      "raw_response_sha256": null
+    }
+  ],
+  "identities": [
+    {
+      "identity": "iguzmanv:195",
+      "user": "iguzmanv",
+      "id": 195,
+      "modules": [
+        "Accounting"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanv:196",
+      "user": "iguzmanv",
+      "id": 196,
+      "modules": [
+        "Accounting"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanv:197",
+      "user": "iguzmanv",
+      "id": 197,
+      "modules": [
+        "Accounting"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanv:198",
+      "user": "iguzmanv",
+      "id": 198,
+      "modules": [
+        "Accounting",
+        "Slowdown"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:44",
+      "user": "iguzmanvt",
+      "id": 44,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:46",
+      "user": "iguzmanvt",
+      "id": 46,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:48",
+      "user": "iguzmanvt",
+      "id": 48,
+      "modules": [
+        "Slowdown",
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:50",
+      "user": "iguzmanvt",
+      "id": 50,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:52",
+      "user": "iguzmanvt",
+      "id": 52,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:54",
+      "user": "iguzmanvt",
+      "id": 54,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:56",
+      "user": "iguzmanvt",
+      "id": 56,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:58",
+      "user": "iguzmanvt",
+      "id": 58,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:60",
+      "user": "iguzmanvt",
+      "id": 60,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:62",
+      "user": "iguzmanvt",
+      "id": 62,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:72",
+      "user": "iguzmanvt",
+      "id": 72,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:76",
+      "user": "iguzmanvt",
+      "id": 76,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:78",
+      "user": "iguzmanvt",
+      "id": 78,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:82",
+      "user": "iguzmanvt",
+      "id": 82,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:96",
+      "user": "iguzmanvt",
+      "id": 96,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:100",
+      "user": "iguzmanvt",
+      "id": 100,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:102",
+      "user": "iguzmanvt",
+      "id": 102,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:104",
+      "user": "iguzmanvt",
+      "id": 104,
+      "modules": [
+        "Accounting"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:110",
+      "user": "iguzmanvt",
+      "id": 110,
+      "modules": [
+        "Accounting"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:112",
+      "user": "iguzmanvt",
+      "id": 112,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:116",
+      "user": "iguzmanvt",
+      "id": 116,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": [
+        "mcv_innovacion_2022",
+        "animal_innovacion_2022"
+      ]
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "user": "iguzmanvt",
+      "id": 118,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": [
+        "mcv_innovacion_2022",
+        "animal_innovacion_2022"
+      ]
+    },
+    {
+      "identity": "iguzmanvt:120",
+      "user": "iguzmanvt",
+      "id": 120,
+      "modules": [
+        "Ideas"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:122",
+      "user": "iguzmanvt",
+      "id": 122,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:124",
+      "user": "iguzmanvt",
+      "id": 124,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:126",
+      "user": "iguzmanvt",
+      "id": 126,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:132",
+      "user": "iguzmanvt",
+      "id": 132,
+      "modules": [
+        "Taxes"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:134",
+      "user": "iguzmanvt",
+      "id": 134,
+      "modules": [
+        "Taxes"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:160",
+      "user": "iguzmanvt",
+      "id": 160,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:162",
+      "user": "iguzmanvt",
+      "id": 162,
+      "modules": [
+        "Solow"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:190",
+      "user": "iguzmanvt",
+      "id": 190,
+      "modules": [
+        "Energy"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:192",
+      "user": "iguzmanvt",
+      "id": 192,
+      "modules": [
+        "Energy"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:198",
+      "user": "iguzmanvt",
+      "id": 198,
+      "modules": [
+        "Slowdown"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:211",
+      "user": "iguzmanvt",
+      "id": 211,
+      "modules": [
+        "Slowdown"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:213",
+      "user": "iguzmanvt",
+      "id": 213,
+      "modules": [
+        "Slowdown"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    },
+    {
+      "identity": "iguzmanvt:216",
+      "user": "iguzmanvt",
+      "id": 216,
+      "modules": [
+        "Slowdown"
+      ],
+      "status": "not_recovered",
+      "archive_snapshot_url": null,
+      "archive_capture_date": null,
+      "payload_sha256": null,
+      "plotly_com_prefix_index_matches_observed": 0,
+      "other_archive_hostnames_status": "indeterminate_due_to_access_or_service_errors",
+      "author_reference_checks": []
+    }
+  ],
+  "limitations": [
+    "Zero recovered is a search outcome, not a global absence claim.",
+    "Only the documented host/path prefixes and one availability representative were queried; alternate hosts, path forms, private exports and unindexed archives are not exhausted.",
+    "Wayback 503 and timeout results and Arquivo timeout/connection resets are indeterminate, not empty archive results.",
+    "Author articles authenticate links to identities 116 and 118 but do not preserve their numerical arrays or figures.",
+    "Raw author HTML and error responses remain in a separate Windows Temp directory; report records SHA-256 of received bytes.",
+    "Search-engine indexing gaps remain; exact searches are not a census of all public content.",
+    "No new chart replica was made or substituted for an original; future replicas must be separately identified."
+  ]
+}

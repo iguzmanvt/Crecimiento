@@ -1,0 +1,2677 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "audit_time_utc": "2026-11-11T21:21:25.749434+00:00",
+  "summary": {
+    "identities": 40,
+    "originals_authenticated": 0,
+    "originals_recovered_in_this_git_review": 0,
+    "source_widgets_core": 41,
+    "proposed_widget_paths": 31,
+    "proposed_widgets_not_in_core_41": [
+      "plotly/pwt-catchup-emppop.html",
+      "plotly/pwt-catchup-ky.html"
+    ],
+    "classification": {
+      "sin_candidato_directo": 7,
+      "candidato_condicionado": 10,
+      "conjunto_ambiguo": 9,
+      "candidato_tematico": 14
+    },
+    "source_widgets_extra": 2,
+    "proposed_widgets_missing_extracted_payload": []
+  },
+  "primary_source": {
+    "repository": "dvollrath/StudyGuide",
+    "commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+    "copyright": "2020 Dietz Vollrath",
+    "license": "MIT",
+    "license_file": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/LICENSE-StudyGuide",
+    "license_sha256": "165d77bbd664a2ccdaa4ac9e95e7cafa59d69710789c69036ce0cc402d5cea17"
+  },
+  "rows": [
+    {
+      "identity": "iguzmanv:195",
+      "user": "iguzmanv",
+      "id": 195,
+      "modules": [
+        "Accounting"
+      ],
+      "theme": "TFP en nivel de Estados Unidos",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 142,
+          "identity": "iguzmanv:195",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L142"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 172,
+          "identity": "iguzmanv:195",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L172"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 142,
+          "kind": "markdown_link",
+          "context": "- [**Productividad Multifactorial  (TFP) de Estados Unidos**](http://plotly.com/~iguzmanv/195.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "No hay widget directo de nivel de TFP de EE. UU. contra el tiempo en el catálogo inspeccionado.",
+      "alternative_limits": "Una contribución de productividad al PIB, una tasa de crecimiento de TFP o una comparación transversal no reproduce un nivel de TFP.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-account-usa.html",
+        "plotly/pwt-growth-tfp-comp.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanv:196",
+      "user": "iguzmanv",
+      "id": 196,
+      "modules": [
+        "Accounting"
+      ],
+      "theme": "Capital por trabajador de Estados Unidos",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 144,
+          "identity": "iguzmanv:196",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L144"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 178,
+          "identity": "iguzmanv:196",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L178"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 144,
+          "kind": "markdown_link",
+          "context": "- [**Capital por trabajador de Estados Unidos**](http://plotly.com/~iguzmanv/196.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "No hay widget directo de K por trabajador en EE. UU.",
+      "alternative_limits": "K/Y e inversión/PIB tienen denominadores distintos; no transformar ni recombinar datos para aparentar una recuperación.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-catchup-ky.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanv:197",
+      "user": "iguzmanv",
+      "id": 197,
+      "modules": [
+        "Accounting"
+      ],
+      "theme": "Capital y producción por trabajador de Estados Unidos",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 156,
+          "identity": "iguzmanv:197",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L156"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 201,
+          "identity": "iguzmanv:197",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L201"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 156,
+          "kind": "markdown_link",
+          "context": "- [**Capital y producción por trabajador en Estados Unidos**](http://plotly.com/~iguzmanv/197.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "No hay widget conjunto con ambas variables por trabajador para EE. UU.",
+      "alternative_limits": "PIB per cápita, K/Y y sus contribuciones no equivalen a producción y capital por trabajador.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-account-usa.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanv:198",
+      "user": "iguzmanv",
+      "id": 198,
+      "modules": [
+        "Accounting",
+        "Slowdown"
+      ],
+      "theme": "Participación del capital en costos de Estados Unidos",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 146,
+          "identity": "iguzmanv:198",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L146"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 184,
+          "identity": "iguzmanv:198",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L184"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+          "line": 48,
+          "identity": "iguzmanv:198",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleracion.Rmd#L48"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 146,
+          "kind": "markdown_link",
+          "context": "- [**Porcentaje de capital en los costos de Estados Unidos**](http://plotly.com/~iguzmanv/198.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "Los widgets relacionados muestran remuneración laboral/costos, no participación de capital.",
+      "alternative_limits": "La identidad iguzmanv:198 es distinta de iguzmanvt:198. W/(W+RK) no es RK/(W+RK); el complemento exigiría una transformación nueva y revisar definiciones.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-stable-phil.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:44",
+      "user": "iguzmanvt",
+      "id": 44,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Japón: distintos BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 108,
+          "identity": "iguzmanvt:44",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L108"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 191,
+          "identity": "iguzmanvt:44",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L191"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 108,
+          "kind": "markdown_link",
+          "context": "- [**Japón**](http://plotly.com/~iguzmanvt/44.embed) - Distintos BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "Japón y dos BGP aparecen en el widget y en ideas/applyideas.md.",
+      "alternative_limits": "El eje es log de productividad, no log de PIB per cápita. La etiqueta original no especifica variable ni fechas; conservar esa diferencia.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-gtfp-jpn.html",
+          "source_blob": "81c5ff9df00f81f53b691569fb5539fc47caaccf",
+          "source_sha256": "496cc8e32cf5e3c4930e3f9fd824f4d619fda010c0c73256a8d82b7fb00cf7a1",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-gtfp-jpn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-gtfp-jpn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-gtfp-jpn.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:46",
+      "user": "iguzmanvt",
+      "id": 46,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Estados Unidos: BGP 1",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 36,
+          "identity": "iguzmanvt:46",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L36"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 60,
+          "identity": "iguzmanvt:46",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L60"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 36,
+          "kind": "markdown_link",
+          "context": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/46.embed) - BGP 1",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "El widget contiene USA, BGP All y BGP 20th, bajo solow/apply.md.",
+      "alternative_limits": "No asignar BGP 1/2 a cada línea por orden. Para 48, la aparición adicional en Slowdown no prueba una caída de productividad ni una ruptura causal desde 2000.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-usa.html",
+          "source_blob": "af16ae626f119e8409001998a9f642212bebd1ff",
+          "source_sha256": "5d9fd74ad79b73e2c72447d571f813d3f390363c09a68bc8816db263377eebed",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-usa.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-usa.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-usa.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "us_bgp_46_48",
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:48",
+      "user": "iguzmanvt",
+      "id": 48,
+      "modules": [
+        "Slowdown",
+        "Solow"
+      ],
+      "theme": "Estados Unidos: BGP 2",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+          "line": 40,
+          "identity": "iguzmanvt:48",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleracion.Rmd#L40"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+          "line": 35,
+          "identity": "iguzmanvt:48",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleraci%C3%B3n%20Nota.Rmd#L35"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 38,
+          "identity": "iguzmanvt:48",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L38"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 67,
+          "identity": "iguzmanvt:48",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L67"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "module": "Slowdown",
+          "module_physical": "Slowdown",
+          "module_logical": "Slowdown",
+          "line": 35,
+          "kind": "markdown_link",
+          "context": "- [Se nota una posible desaceleración en el crecimiento medido de la producción en los últimos años, vía una disminución de la productividad, desde el 2000](http://plotly.com/~iguzmanvt/48.embed)",
+          "working_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 38,
+          "kind": "markdown_link",
+          "context": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/48.embed) - BGP 2",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "El widget contiene USA, BGP All y BGP 20th, bajo solow/apply.md.",
+      "alternative_limits": "No asignar BGP 1/2 a cada línea por orden. Para 48, la aparición adicional en Slowdown no prueba una caída de productividad ni una ruptura causal desde 2000.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-usa.html",
+          "source_blob": "af16ae626f119e8409001998a9f642212bebd1ff",
+          "source_sha256": "5d9fd74ad79b73e2c72447d571f813d3f390363c09a68bc8816db263377eebed",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-usa.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-usa.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-usa.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "us_bgp_46_48",
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:50",
+      "user": "iguzmanvt",
+      "id": 50,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Alemania: BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 88,
+          "identity": "iguzmanvt:50",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L88"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 131,
+          "identity": "iguzmanvt:50",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L131"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 88,
+          "kind": "markdown_link",
+          "context": "- [**Alemania**](http://plotly.com/~iguzmanvt/50.embed) - BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Mismo país y comparación de PIB per cápita con BGP.",
+      "alternative_limits": "El widget usa log PIB per cápita; periodo y ajuste BGP son los del curso, no los del ID perdido.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-deu.html",
+          "source_blob": "9a767b39b9f49616781f6858a47e4be908791325",
+          "source_sha256": "3a87394d333aa94511ffc7d6fa97b15bf1def7cb857619ccec9848d09e6a16f5",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-deu.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-deu.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-deu.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:52",
+      "user": "iguzmanvt",
+      "id": 52,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Alemania: proporción K/Y",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 90,
+          "identity": "iguzmanvt:52",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L90"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 137,
+          "identity": "iguzmanvt:52",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L137"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 90,
+          "kind": "markdown_link",
+          "context": "- [**Alemania**](http://plotly.com/~iguzmanvt/52.embed) - Proporción K/Y",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Mismo país y razón capital/producto.",
+      "alternative_limits": "No confundir el stock K/Y con formación de capital/PIB; mantener años y definición originales del curso.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-ky-deu.html",
+          "source_blob": "d8b8c05b296f21c3c812723846c6da7ad10c2948",
+          "source_sha256": "eda92a9de180b63594c78f30f5b1377aa4b17b81f7f40479050d3642ebb7b364",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-ky-deu.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-ky-deu.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-ky-deu.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:54",
+      "user": "iguzmanvt",
+      "id": 54,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Corea del Sur: BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 92,
+          "identity": "iguzmanvt:54",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L92"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 143,
+          "identity": "iguzmanvt:54",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L143"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 92,
+          "kind": "markdown_link",
+          "context": "- [**Corea del Sur**](http://plotly.com/~iguzmanvt/54.embed) - BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "KOR y BGP before/after en log PIB per cápita.",
+      "alternative_limits": "La existencia de dos líneas no identifica las rupturas ni datos de la gráfica histórica.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-kor.html",
+          "source_blob": "e153599dec2bfdb90bcb71e33fb623de2016ede1",
+          "source_sha256": "2c290f7c70798d398fce0d9040e5147fcbc5592cda8f44567b6d1c8729c5b245",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-kor.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-kor.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-kor.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:56",
+      "user": "iguzmanvt",
+      "id": 56,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "China: BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 98,
+          "identity": "iguzmanvt:56",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L98"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 161,
+          "identity": "iguzmanvt:56",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L161"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 98,
+          "kind": "markdown_link",
+          "context": "- [**China**](http://plotly.com/~iguzmanvt/56.embed) - BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "CHN con BGP before y S. Korea BGP.",
+      "alternative_limits": "La línea de comparación coreana debe conservarse y explicarse; no presentarla como ajuste chino adicional.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-chn.html",
+          "source_blob": "078c9d3a994b183d3e0985210b8f0368c13ebec5",
+          "source_sha256": "71e17b3c560eb9f05e7b71645eac32c3d17dc401fdc8d449a18735df98f12728",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-chn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-chn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-chn.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:58",
+      "user": "iguzmanvt",
+      "id": 58,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "China: crecimiento poblacional",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 102,
+          "identity": "iguzmanvt:58",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L102"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 173,
+          "identity": "iguzmanvt:58",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L173"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 102,
+          "kind": "markdown_link",
+          "context": "- [**China**](http://plotly.com/~iguzmanvt/58.embed) - Crecimiento poblacional",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "País y variable coinciden temáticamente.",
+      "alternative_limits": "La ventana de crecimiento debe conservarse como la del curso; no llamarla variación anual sin comprobar fórmula.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-gl-chn.html",
+          "source_blob": "4ffe12a6bbefad2baaa51c241f443fe6ae79f418",
+          "source_sha256": "1c54ccfe3667de01ee483e6ff887ed84f32953f042846b0424f7dcda8abb1085",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-gl-chn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-gl-chn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-gl-chn.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:60",
+      "user": "iguzmanvt",
+      "id": 60,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "China: transición al BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 104,
+          "identity": "iguzmanvt:60",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L104"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 179,
+          "identity": "iguzmanvt:60",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L179"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 104,
+          "kind": "markdown_link",
+          "context": "- [**China**](http://plotly.com/~iguzmanvt/60.embed) - Transición al BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "El primero contiene trayectoria china y BGP; el segundo compara China, Corea y EE. UU.",
+      "alternative_limits": "Son alternativas distintas: trayectoria con BGP o comparación de países. No se conoce cuál correspondía al ID histórico.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-chn.html",
+          "source_blob": "078c9d3a994b183d3e0985210b8f0368c13ebec5",
+          "source_sha256": "71e17b3c560eb9f05e7b71645eac32c3d17dc401fdc8d449a18735df98f12728",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-chn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-chn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-chn.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-apply-comp.html",
+          "source_blob": "569334fe80c9f33ee0cc0e823d43ae4c463bf719",
+          "source_sha256": "0cc15c71dbb1c6ec0d486a78fdb0b87e70c0491939b7abc015d2024c725f455f",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-comp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-comp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-comp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:62",
+      "user": "iguzmanvt",
+      "id": 62,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "China: diferentes BGP",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 106,
+          "identity": "iguzmanvt:62",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L106"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 185,
+          "identity": "iguzmanvt:62",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L185"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 106,
+          "kind": "markdown_link",
+          "context": "- [**China**](http://plotly.com/~iguzmanvt/62.embed) - Diferentes BGP",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Ambos contienen China y referencias BGP.",
+      "alternative_limits": "El primero muestra log PIB per cápita; el segundo log productividad. No son intercambiables ni se puede elegir variable sólo por la etiqueta.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-chn.html",
+          "source_blob": "078c9d3a994b183d3e0985210b8f0368c13ebec5",
+          "source_sha256": "71e17b3c560eb9f05e7b71645eac32c3d17dc401fdc8d449a18735df98f12728",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-chn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-chn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-chn.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-apply-gtfp-chn.html",
+          "source_blob": "218cd8268919c84bb29d88fd2b82ceb333c4797d",
+          "source_sha256": "9caadd676ab2d0101a5fab500e399d71d0e035c5374026e3fcf45ca9f0e40392",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-gtfp-chn.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-gtfp-chn.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-gtfp-chn.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:72",
+      "user": "iguzmanvt",
+      "id": 72,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "China y otros países: investigadores y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 298,
+          "identity": "iguzmanvt:72",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L298"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 262,
+          "identity": "iguzmanvt:72",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L262"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 298,
+          "identity": "iguzmanvt:72",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L298"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 262,
+          "kind": "markdown_link",
+          "context": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/72.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Los cuatro textos Rmd son idénticos. Ambos widgets estudian I+D y crecimiento de productividad e incluyen China.",
+      "alternative_limits": "rd-tfp usa nivel log de trabajadores FTE frente a crecimiento de productividad; rd-gtfp usa crecimiento de FTE frente a crecimiento de productividad. El primero se aproxima más al texto literal, pero no permite asignar IDs. pwt-oecd-level-rd es sólo material relacionado porque cambia la variable dependiente a nivel de productividad.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-oecd-rd-tfp.html",
+          "source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+          "source_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-tfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-tfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-oecd-rd-gtfp.html",
+          "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+          "source_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-gtfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-gtfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "ideas_72_116_118_120",
+      "related_but_not_substitutes": [
+        "plotly/pwt-oecd-level-rd.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:76",
+      "user": "iguzmanvt",
+      "id": 76,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "Simulación R/A y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 134,
+          "identity": "iguzmanvt:76",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L134"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 113,
+          "identity": "iguzmanvt:76",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L113"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 134,
+          "identity": "iguzmanvt:76",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L134"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 113,
+          "kind": "markdown_link",
+          "context": "- [En la simulación se nota que ambas economías colapsan hacia una proporción de investigadores / productividad de 2, y una tasa de crecimiento común de la productividad de 2%, cuya tasa de crecimiento es la tasa de crecimiento de los investigadores](http://plotly.com/~iguzmanvt/76.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "El widget conserva dos economías A/B, eje R/A, eje crecimiento y 250 frames; ideas/proddynamic.md lo incorpora.",
+      "alternative_limits": "No es observación de países. Revisar parámetros, convergencia a R/A=2 y tasa 0.02 antes de afirmar réplica del texto; conservar todos los frames.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/me-gA-dynamics.html",
+          "source_blob": "5ad9e9e0f691c00bb14d6c6e9779ba9c3fd228bb",
+          "source_sha256": "2c72d63e2db5ade38aed8feaf7838896482b5a92835e3b2ce58fec04fe30b01d",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/me-gA-dynamics.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/me-gA-dynamics.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/me-gA-dynamics.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:78",
+      "user": "iguzmanvt",
+      "id": 78,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Dinámica de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 24,
+          "identity": "iguzmanvt:78",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L24"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 39,
+          "identity": "iguzmanvt:78",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L39"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 24,
+          "kind": "markdown_link",
+          "context": "- [**Dinámica de productividd**](http://plotly.com/~iguzmanvt/78.embed)",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "Coincidencia de tema y documentación del modelo de productividad.",
+      "alternative_limits": "La etiqueta Rmd es amplia: no identifica esta simulación. Es crecimiento frente a R/A, no nivel de productividad contra tiempo; 250 frames.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/me-gA-dynamics.html",
+          "source_blob": "5ad9e9e0f691c00bb14d6c6e9779ba9c3fd228bb",
+          "source_sha256": "2c72d63e2db5ade38aed8feaf7838896482b5a92835e3b2ce58fec04fe30b01d",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/me-gA-dynamics.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/me-gA-dynamics.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/me-gA-dynamics.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:82",
+      "user": "iguzmanvt",
+      "id": 82,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Nivel del PIB per cápita",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 26,
+          "identity": "iguzmanvt:82",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L26"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 46,
+          "identity": "iguzmanvt:82",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L46"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 26,
+          "kind": "markdown_link",
+          "context": "- [**Nivel del PIB per cápita**](http://plotly.com/~iguzmanvt/82.embed)",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "Widget explícito del nivel de PIB per cápita en solow/simbgp.md.",
+      "alternative_limits": "Simulación A/B/BGP, eje log PIB per cápita y tiempo abstracto; no corresponde a una serie empírica ni identifica país; 30 frames.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/me-lny-animated.html",
+          "source_blob": "0758bb80ecb4165b7ad581555a7a62bb80f70a06",
+          "source_sha256": "7017ae78a3749f2e2c5541c0179d8eec668e1d3fe3ef8fc10b6fcd688547cef4",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/me-lny-animated.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/me-lny-animated.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/me-lny-animated.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:96",
+      "user": "iguzmanvt",
+      "id": 96,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "Trabajadores de I+D en el tiempo",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 101,
+          "identity": "iguzmanvt:96",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L101"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 94,
+          "identity": "iguzmanvt:96",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L94"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 101,
+          "identity": "iguzmanvt:96",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L101"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 94,
+          "kind": "markdown_link",
+          "context": "- [El número de trabajadores de I&D ha aumentado con el tiempo. Estados Unidos y China ponen a más personas a trabajar en investigación y desarrollo que otros países](http://plotly.com/~iguzmanvt/96.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Misma variable y países CHN, DEU, GBR, JPN, KOR y USA; enlazado desde ideas/effort.md:20.",
+      "alternative_limits": "Son trabajadores equivalentes a tiempo completo (FTE), no necesariamente número de personas. Los periodos difieren por país.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/oecd-rd-fte.html",
+          "source_blob": "caa8734e1a88de21488a5d0cb81b96f88a074e2b",
+          "source_sha256": "8e3019730e7d3b7bbcba394d1cb8bb9451d4d8890f72d07eef12709b7e4baae4",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/oecd-rd-fte.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/oecd-rd-fte.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:100",
+      "user": "iguzmanvt",
+      "id": 100,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "Gasto de I+D en logaritmos",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 117,
+          "identity": "iguzmanvt:100",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L117"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 104,
+          "identity": "iguzmanvt:100",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L104"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 117,
+          "identity": "iguzmanvt:100",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L117"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 104,
+          "kind": "markdown_link",
+          "context": "- [Aplicando logaritmos para ver las tasas de crecimiento podemos ver que Estados Unidos, Japón, Alemania y Reino Unido tuvieron tasas de crecimiento similares mientras que China y Corea del Sur registraron tasas de crecimiento muy rápidas de este gasto](http://plotly.com/~iguzmanvt/100.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "La fuente usa ln de gasto y el curso lo enlaza en ideas/effort.md:34.",
+      "alternative_limits": "REVISIÓN OBLIGATORIA: Guide_OECD_RD.r:71/77 ya transforma y a ln(OBS_VALUE), y :80 además configura yaxis.type=log; el payload confirma ambos. No presentarlo sin advertencia como log simple ni corregirlo silenciosamente.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/oecd-rd-logrd.html",
+          "source_blob": "65105018cc9e95f864660d1ec92d4b72f520ea37",
+          "source_sha256": "d0f23eb7ca5ea6cda0ae58383cb32749eee52390b481c6bf44a8fd7b1d7d6708",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-logrd.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/oecd-rd-logrd.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/oecd-rd-logrd.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:102",
+      "user": "iguzmanvt",
+      "id": 102,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "Gasto real de I+D en el tiempo",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 109,
+          "identity": "iguzmanvt:102",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L109"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 99,
+          "identity": "iguzmanvt:102",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L99"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 109,
+          "identity": "iguzmanvt:102",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L109"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 99,
+          "kind": "markdown_link",
+          "context": "- [Estados Unidos y China dominan el gasto en I&D, lo que se debe en gran parte a un aumento masivo en el gasto en China durante los últimos veinte años](http://plotly.com/~iguzmanvt/102.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Misma familia de países y variable de gasto; ideas/effort.md:28.",
+      "alternative_limits": "No inventar moneda, PPP o año base desde el título; la fuente filtra PRICE_BASE=Q pero exige metadatos de unidades. La ventana «últimos veinte años» no es estable entre versiones.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/oecd-rd-levelrd.html",
+          "source_blob": "17655fa0e0f8308a289d720b8ae1773abfd2a727",
+          "source_sha256": "4af4eb46255d22a48cd261cfa0222a11046611a9374e900849a374ef2e246ad9",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-levelrd.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/oecd-rd-levelrd.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/oecd-rd-levelrd.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:104",
+      "user": "iguzmanvt",
+      "id": 104,
+      "modules": [
+        "Accounting"
+      ],
+      "theme": "Cálculo del residuo de Solow",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 81,
+          "identity": "iguzmanvt:104",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L81"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 100,
+          "identity": "iguzmanvt:104",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L100"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 81,
+          "kind": "markdown_link",
+          "context": "- [**Calculo del Residuo de Solow**](http://plotly.com/~iguzmanvt/104.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "Widgets de contabilidad que separan contribuciones de capital y productividad, con o sin capital humano.",
+      "alternative_limits": "No son una demostración intercambiable del mismo residuo. El Rmd sólo etiqueta el cálculo; seleccionar modelo, país y fórmula antes de insertar una alternativa.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-account-basic-usa.html",
+          "source_blob": "81eefb3e07dce364925d21c7742735db3059b1a2",
+          "source_sha256": "da7c5b1d9ff5e6b072844da5165e8c2dafc36486e7f26a3810185590c4af56fa",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-account-basic-usa.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-account-basic-usa.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-account-basic-usa.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-growth-acct-usa.html",
+          "source_blob": "241e4a7d65fe8a3534f7b71999b6d17c758ec1b0",
+          "source_sha256": "40c642d623b0c26b9fb7b61b5c695e68121ac108719c5de4ad5ed60994f668e3",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-growth-acct-usa.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-growth-acct-usa.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-growth-acct-usa.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:110",
+      "user": "iguzmanvt",
+      "id": 110,
+      "modules": [
+        "Accounting"
+      ],
+      "theme": "Tasa de crecimiento anualizada de 10 años",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+          "line": 98,
+          "identity": "iguzmanvt:110",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd#L98"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+          "line": 122,
+          "identity": "iguzmanvt:110",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento.Rmd#L122"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+          "module": "Accounting",
+          "module_physical": "Accounting",
+          "module_logical": "Accounting",
+          "line": 98,
+          "kind": "markdown_link",
+          "context": "- [**Tasa de crecimiento anualizada de 10 años**](http://plotly.com/~iguzmanvt/110.embed)",
+          "working_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "El widget conserva una tasa de crecimiento de 10 años y aparece en ideas/policy.md.",
+      "alternative_limits": "La etiqueta Rmd no especifica aquí variable o país. El widget catalogado tiene x=1950–2009; verificar anclaje inicial/final de ventana y fórmula antes de afirmar equivalencia.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-usa-growth-rate.html",
+          "source_blob": "af01cc7e84cdf7eb3afeb5fd2d20e103f30e4c87",
+          "source_sha256": "b715089f73fae1cb7cc0d4c456c99965cc3d3ef557fd1ebf45d0fba7048c5406",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-usa-growth-rate.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-usa-growth-rate.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-usa-growth-rate.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:112",
+      "user": "iguzmanvt",
+      "id": 112,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "Esfuerzo de I+D y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 125,
+          "identity": "iguzmanvt:112",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L125"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 108,
+          "identity": "iguzmanvt:112",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L108"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 125,
+          "identity": "iguzmanvt:112",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L125"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 108,
+          "kind": "markdown_link",
+          "context": "- [El incremento en el esfuerzo de I&D no estuvo asociado con un aumento sistemático en la tasa de crecimiento de la productividad](http://plotly.com/~iguzmanvt/112.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "ideas/effort.md:43 lo presenta después de los widgets de esfuerzo de I+D; el eje es crecimiento de productividad de 10 años.",
+      "alternative_limits": "Muestra evolución temporal en seis países, no una prueba causal ni una correlación por sí sola. Leer junto con trabajadores/gasto de I+D; no afirmar ausencia estadística de asociación sin análisis.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-growth-tfp-comp.html",
+          "source_blob": "a548dbdf247c9ad70289fa9c01e14dc9a012b2c1",
+          "source_sha256": "74fbdf6253a6e4832316d6d15a55c5474db18ec3ed2c5463e47edfe4a08f9c66",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-growth-tfp-comp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-growth-tfp-comp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-growth-tfp-comp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:116",
+      "user": "iguzmanvt",
+      "id": 116,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "China y otros países: investigadores y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 142,
+          "identity": "iguzmanvt:116",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L142"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 117,
+          "identity": "iguzmanvt:116",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L117"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 142,
+          "identity": "iguzmanvt:116",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L142"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 117,
+          "kind": "markdown_link",
+          "context": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/116.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Los cuatro textos Rmd son idénticos. Ambos widgets estudian I+D y crecimiento de productividad e incluyen China.",
+      "alternative_limits": "rd-tfp usa nivel log de trabajadores FTE frente a crecimiento de productividad; rd-gtfp usa crecimiento de FTE frente a crecimiento de productividad. El primero se aproxima más al texto literal, pero no permite asignar IDs. pwt-oecd-level-rd es sólo material relacionado porque cambia la variable dependiente a nivel de productividad.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-oecd-rd-tfp.html",
+          "source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+          "source_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-tfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-tfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-oecd-rd-gtfp.html",
+          "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+          "source_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-gtfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-gtfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "ideas_72_116_118_120",
+      "related_but_not_substitutes": [
+        "plotly/pwt-oecd-level-rd.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "user": "iguzmanvt",
+      "id": 118,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "China y otros países: investigadores y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 150,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L150"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 122,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L122"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 150,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L150"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "2314147eba9fd0d94ea412cc0b849b11bc83583d",
+          "line": 376,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%201%20Nota.Rmd#L376"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0483b5a5243d24817c337b6054409b52dc7f25d5",
+          "line": 493,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%201.Rmd#L493"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico Intro.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "b0d57ba06347760a19425a04409d8b149a26d519",
+          "line": 475,
+          "identity": "iguzmanvt:118",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%20Intro.Rmd#L475"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 122,
+          "kind": "markdown_link",
+          "context": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/118.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Los cuatro textos Rmd son idénticos. Ambos widgets estudian I+D y crecimiento de productividad e incluyen China.",
+      "alternative_limits": "rd-tfp usa nivel log de trabajadores FTE frente a crecimiento de productividad; rd-gtfp usa crecimiento de FTE frente a crecimiento de productividad. El primero se aproxima más al texto literal, pero no permite asignar IDs. pwt-oecd-level-rd es sólo material relacionado porque cambia la variable dependiente a nivel de productividad.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-oecd-rd-tfp.html",
+          "source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+          "source_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-tfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-tfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-oecd-rd-gtfp.html",
+          "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+          "source_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-gtfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-gtfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "ideas_72_116_118_120",
+      "related_but_not_substitutes": [
+        "plotly/pwt-oecd-level-rd.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:120",
+      "user": "iguzmanvt",
+      "id": 120,
+      "modules": [
+        "Ideas"
+      ],
+      "theme": "China y otros países: investigadores y crecimiento de productividad",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+          "line": 290,
+          "identity": "iguzmanvt:120",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L290"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+          "line": 258,
+          "identity": "iguzmanvt:120",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20Nota.Rmd#L258"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+          "line": 290,
+          "identity": "iguzmanvt:120",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Ideas/Crecimiento%20Economico%20-%20Ideas%20y%20productividad.Rmd#L290"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+          "module": "Ideas",
+          "module_physical": "Ideas",
+          "module_logical": "Ideas",
+          "line": 258,
+          "kind": "markdown_link",
+          "context": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/120.embed)",
+          "working_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Los cuatro textos Rmd son idénticos. Ambos widgets estudian I+D y crecimiento de productividad e incluyen China.",
+      "alternative_limits": "rd-tfp usa nivel log de trabajadores FTE frente a crecimiento de productividad; rd-gtfp usa crecimiento de FTE frente a crecimiento de productividad. El primero se aproxima más al texto literal, pero no permite asignar IDs. pwt-oecd-level-rd es sólo material relacionado porque cambia la variable dependiente a nivel de productividad.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-oecd-rd-tfp.html",
+          "source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+          "source_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-tfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-tfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/pwt-oecd-rd-gtfp.html",
+          "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+          "source_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-oecd-rd-gtfp.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-oecd-rd-gtfp.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "ideas_72_116_118_120",
+      "related_but_not_substitutes": [
+        "plotly/pwt-oecd-level-rd.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:122",
+      "user": "iguzmanvt",
+      "id": 122,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Corea del Sur: proporción K/Y",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 94,
+          "identity": "iguzmanvt:122",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L94"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 149,
+          "identity": "iguzmanvt:122",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L149"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 94,
+          "kind": "markdown_link",
+          "context": "- [**Corea del Sur**](http://plotly.com/~iguzmanvt/122.embed) - Proporción K/Y",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "El widget multicountry incluye Republic of Korea y muestra K/Y.",
+      "alternative_limits": "solow/apply.md:81 apunta a pwt-apply-si-kor, cuyo eje es formación de capital/PIB: NO sirve como K/Y. Usar el widget multicountry intacto y señalar el país, o mantener pendiente.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-catchup-ky.html",
+          "source_blob": "8be3f069faa99c96d6d6abeefaba809b2a761016",
+          "source_sha256": "75434c3d09cd33374995a5d3dd0ad2f838f99231ea5f7423ef31f2d3b71e0c81",
+          "in_core_41_payloads": false,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-ky.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-catchup-ky.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads_extra/pwt-catchup-ky.json",
+          "status": "archived_source_alternative_not_original_id",
+          "extracted_separately": true
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-apply-si-kor.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:124",
+      "user": "iguzmanvt",
+      "id": 124,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Corea del Sur: crecimiento poblacional",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 96,
+          "identity": "iguzmanvt:124",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L96"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 155,
+          "identity": "iguzmanvt:124",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L155"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 96,
+          "kind": "markdown_link",
+          "context": "- [**Corea del Sur**](http://plotly.com/~iguzmanvt/124.embed) - Crecimiento poblacional",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "País y variable coinciden temáticamente; solow/apply.md:85.",
+      "alternative_limits": "Verificar fórmula de tasa y periodo; no equiparar automáticamente con natalidad o empleo.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-apply-gl-kor.html",
+          "source_blob": "506df8d5d1464cfd8063d60f09878bea6b91a571",
+          "source_sha256": "3272b0f46c05bc9a879555ff4d1801037703d691ed83c44c46af83a1f3fa4f3a",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-apply-gl-kor.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-apply-gl-kor.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-apply-gl-kor.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:126",
+      "user": "iguzmanvt",
+      "id": 126,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "China: proporción K/Y",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 100,
+          "identity": "iguzmanvt:126",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L100"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 167,
+          "identity": "iguzmanvt:126",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L167"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 100,
+          "kind": "markdown_link",
+          "context": "- [**China**](http://plotly.com/~iguzmanvt/126.embed) - Proporción K/Y",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "El widget multicountry incluye China y muestra K/Y.",
+      "alternative_limits": "solow/apply.md:102 apunta a pwt-apply-si-chn, cuyo eje es formación de capital/PIB: NO sirve como K/Y. No seleccionar por proximidad de orden en la página.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-catchup-ky.html",
+          "source_blob": "8be3f069faa99c96d6d6abeefaba809b2a761016",
+          "source_sha256": "75434c3d09cd33374995a5d3dd0ad2f838f99231ea5f7423ef31f2d3b71e0c81",
+          "in_core_41_payloads": false,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-ky.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-catchup-ky.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads_extra/pwt-catchup-ky.json",
+          "status": "archived_source_alternative_not_original_id",
+          "extracted_separately": true
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-apply-si-chn.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:132",
+      "user": "iguzmanvt",
+      "id": 132,
+      "modules": [
+        "Taxes"
+      ],
+      "theme": "Gobierno y crecimiento del PIB per cápita",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "53818e4092fee5941b026e88106403e3021cc486",
+          "line": 21,
+          "identity": "iguzmanvt:132",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Taxes/Crecimiento%20Economico%20-%20Politica%20Fiscal%20y%20crecimiento%20Nota.Rmd#L21"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "35151f9a713b2c567c3a8fce364e241201ae9473",
+          "line": 44,
+          "identity": "iguzmanvt:132",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Taxes/Crecimiento%20Economico%20-%20Politica%20Fiscal%20y%20crecimiento.Rmd#L44"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+          "module": "Taxes",
+          "module_physical": "Taxes",
+          "module_logical": "Taxes",
+          "line": 21,
+          "kind": "markdown_link",
+          "context": "- [**Gobierno y crecimiento del PIB per cápita**](http://plotly.com/~iguzmanvt/132.embed)",
+          "working_sha256": "811366213a6a66150d95f4dae30c053657d78bfc32666b670384337adc1347ec"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Ejes gasto público/PIB y tasa de crecimiento de 10 años; seis países.",
+      "alternative_limits": "Gasto del gobierno no es tasa impositiva; no inferir causalidad. El periodo por punto no se obtiene de la posición x.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-all-cshg-growth.html",
+          "source_blob": "4e30ce35afa90a69c694b988666214bd821fb4f1",
+          "source_sha256": "ca6e5fc08bce641eb34792a196ee7ee85fc8e7c0dbab7a80909e65e2e572098e",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-growth.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-all-cshg-growth.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-all-cshg-growth.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:134",
+      "user": "iguzmanvt",
+      "id": 134,
+      "modules": [
+        "Taxes"
+      ],
+      "theme": "Gobierno y nivel del PIB per cápita",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "53818e4092fee5941b026e88106403e3021cc486",
+          "line": 15,
+          "identity": "iguzmanvt:134",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Taxes/Crecimiento%20Economico%20-%20Politica%20Fiscal%20y%20crecimiento%20Nota.Rmd#L15"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "35151f9a713b2c567c3a8fce364e241201ae9473",
+          "line": 32,
+          "identity": "iguzmanvt:134",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Taxes/Crecimiento%20Economico%20-%20Politica%20Fiscal%20y%20crecimiento.Rmd#L32"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+          "module": "Taxes",
+          "module_physical": "Taxes",
+          "module_logical": "Taxes",
+          "line": 15,
+          "kind": "markdown_link",
+          "context": "- [**Gobierno y nivel del PIB per cápita**](http://plotly.com/~iguzmanvt/134.embed)",
+          "working_sha256": "811366213a6a66150d95f4dae30c053657d78bfc32666b670384337adc1347ec"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Ejes gasto público/PIB y log PIB per cápita; seis países.",
+      "alternative_limits": "Nivel se muestra en logaritmos. No sustituir por pwt-test-chsg-level sin comparar payload; mantener versión no test y procedencia.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-all-cshg-level.html",
+          "source_blob": "274c680db7c6a262040a23fc3d07206f0ecbab0f",
+          "source_sha256": "8ff0edb9b6bd4f5f46a110afd811f6b5d3ef09b5059474c83f3c75fc4d31d3aa",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-level.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-all-cshg-level.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-all-cshg-level.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:160",
+      "user": "iguzmanvt",
+      "id": 160,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Correlación con la inversión",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "2314147eba9fd0d94ea412cc0b849b11bc83583d",
+          "line": 310,
+          "identity": "iguzmanvt:160",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%201%20Nota.Rmd#L310"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0483b5a5243d24817c337b6054409b52dc7f25d5",
+          "line": 366,
+          "identity": "iguzmanvt:160",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%201.Rmd#L366"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico Intro.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "b0d57ba06347760a19425a04409d8b149a26d519",
+          "line": 348,
+          "identity": "iguzmanvt:160",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Introduction/Crecimiento%20Economico%20Intro.Rmd#L348"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 20,
+          "identity": "iguzmanvt:160",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L20"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 26,
+          "identity": "iguzmanvt:160",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L26"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 20,
+          "kind": "markdown_link",
+          "context": "- [**Correlación con la inversión**](http://plotly.com/~iguzmanvt/160.embed)",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Formación de capital/PIB frente a log PIB per cápita; solow/level.md:53.",
+      "alternative_limits": "Son proporciones de inversión, no stock K ni K/Y. Hay 7 frames: el año y la muestra cambian; no convertir una animación a una única instantánea sin etiquetar.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-corr-si.html",
+          "source_blob": "cbe2e809dbb01e963418e6c4badbb02991b83176",
+          "source_sha256": "182f0e7f351b29a93e8fa1fe73d8e261d6c06069b2beb1484cfa9c3c1807912b",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-corr-si.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-corr-si.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-corr-si.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:162",
+      "user": "iguzmanvt",
+      "id": 162,
+      "modules": [
+        "Solow"
+      ],
+      "theme": "Correlación con crecimiento poblacional",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+          "line": 22,
+          "identity": "iguzmanvt:162",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd#L22"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+          "line": 32,
+          "identity": "iguzmanvt:162",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202.Rmd#L32"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+          "module": "Solow",
+          "module_physical": "Solow",
+          "module_logical": "Solow",
+          "line": 22,
+          "kind": "markdown_link",
+          "context": "- [**Correlación con el crecimiento poblacional**](http://plotly.com/~iguzmanvt/162.embed)",
+          "working_sha256": "7e0ff38791ba89d27d51ef7400ccaa461cf3f82b25287953e86c9325e8d34b1d"
+        }
+      ],
+      "alternative_classification": "candidato_tematico",
+      "alternative_rationale": "Crecimiento poblacional anualizado de 10 años frente a log PIB per cápita; solow/level.md:59.",
+      "alternative_limits": "Conservar ventana y 7 frames; asociación no prueba efecto causal.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-corr-gl.html",
+          "source_blob": "f418e6787402a18c464003d17ad2e2de0a203e86",
+          "source_sha256": "c0750a42f9aa3e006b43cf4ab06d1701b3be624a99bb1e3078980479709ac887",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-corr-gl.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-corr-gl.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/pwt-corr-gl.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:190",
+      "user": "iguzmanvt",
+      "id": 190,
+      "modules": [
+        "Energy"
+      ],
+      "theme": "Datos sobre uso de energía",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "8a1b009b6752923671c125229abf7e24f35299a3",
+          "line": 90,
+          "identity": "iguzmanvt:190",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Energy/Crecimiento%20Economico%20-%20Energia%20poblacion%20y%20crecimiento.Rmd#L90"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "464e3a232fbd544af9c45d9a2653167871cf1202",
+          "line": 84,
+          "identity": "iguzmanvt:190",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Energy/Crecimiento%20Economico%20-%20Energ%C3%ADa%20Nota.Rmd#L84"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+          "module": "Energy",
+          "module_physical": "Energy",
+          "module_logical": "Energy",
+          "line": 83,
+          "kind": "markdown_link",
+          "context": "-   [**Datos sobre el uso de energía**](http://plotly.com/~iguzmanvt/190.embed)",
+          "working_sha256": "0dc70581cee513724b64f678b9bc0a2fe476a7f230434288f16978a9d9eb1ce9"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Ambas etiquetas Rmd son idénticas. El curso conserva intensidad, gasto relativo y precio implícito; population/prfacts.md enlaza gdpe/share/price.",
+      "alternative_limits": "Son variables diferentes, no cuatro réplicas: kg equivalente de petróleo/PIB; gasto energético/PIB (%); precio implícito; uso de energía/PIB. En widgets EIA la traza no nombra país; no inferirlo por proveedor. La etiqueta no permite asignar 190/192 ni elegir unidades monetarias.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/wdi-energy-gdpe.html",
+          "source_blob": "86f690ed76783c5550ecff67fba5aac2f898c892",
+          "source_sha256": "f694c51ecd8eb79f49f0685893f7fd2ad998b47799097a48a5fd114dd5b3527b",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/wdi-energy-gdpe.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/wdi-energy-gdpe.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/wdi-energy-gdpe.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-share.html",
+          "source_blob": "be18a38c8f873f8e7229472d4bff0359b3086040",
+          "source_sha256": "f2a4f37a14c4d8faa7cb33853b61082df35b7b98aff67c811947e3db331d6627",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-share.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-share.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-share.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-price.html",
+          "source_blob": "d5d22c0ae24d3c43414fb18f01fb26504904b1b7",
+          "source_sha256": "a893cc63cbff963a12891a261f153764465ea18b747a9da893514709f22490e8",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-price.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-price.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-price.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-intensity.html",
+          "source_blob": "da6cdcbec812f0ebcbbe369976b8f7f7ad4a678f",
+          "source_sha256": "b82b2492b42cd49089ca1ab8cdf3fb746991b5e92720f049189d6c46e2c52f6b",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-intensity.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-intensity.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-intensity.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "energy_190_192",
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:192",
+      "user": "iguzmanvt",
+      "id": 192,
+      "modules": [
+        "Energy"
+      ],
+      "theme": "Datos sobre uso de energía",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "8a1b009b6752923671c125229abf7e24f35299a3",
+          "line": 96,
+          "identity": "iguzmanvt:192",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Energy/Crecimiento%20Economico%20-%20Energia%20poblacion%20y%20crecimiento.Rmd#L96"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "464e3a232fbd544af9c45d9a2653167871cf1202",
+          "line": 86,
+          "identity": "iguzmanvt:192",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Energy/Crecimiento%20Economico%20-%20Energ%C3%ADa%20Nota.Rmd#L86"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+          "module": "Energy",
+          "module_physical": "Energy",
+          "module_logical": "Energy",
+          "line": 85,
+          "kind": "markdown_link",
+          "context": "-   [**Datos sobre el uso de energía**](http://plotly.com/~iguzmanvt/192.embed)",
+          "working_sha256": "0dc70581cee513724b64f678b9bc0a2fe476a7f230434288f16978a9d9eb1ce9"
+        }
+      ],
+      "alternative_classification": "conjunto_ambiguo",
+      "alternative_rationale": "Ambas etiquetas Rmd son idénticas. El curso conserva intensidad, gasto relativo y precio implícito; population/prfacts.md enlaza gdpe/share/price.",
+      "alternative_limits": "Son variables diferentes, no cuatro réplicas: kg equivalente de petróleo/PIB; gasto energético/PIB (%); precio implícito; uso de energía/PIB. En widgets EIA la traza no nombra país; no inferirlo por proveedor. La etiqueta no permite asignar 190/192 ni elegir unidades monetarias.",
+      "alternatives": [
+        {
+          "widget_path": "plotly/wdi-energy-gdpe.html",
+          "source_blob": "86f690ed76783c5550ecff67fba5aac2f898c892",
+          "source_sha256": "f694c51ecd8eb79f49f0685893f7fd2ad998b47799097a48a5fd114dd5b3527b",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/wdi-energy-gdpe.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/wdi-energy-gdpe.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/wdi-energy-gdpe.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-share.html",
+          "source_blob": "be18a38c8f873f8e7229472d4bff0359b3086040",
+          "source_sha256": "f2a4f37a14c4d8faa7cb33853b61082df35b7b98aff67c811947e3db331d6627",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-share.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-share.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-share.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-price.html",
+          "source_blob": "d5d22c0ae24d3c43414fb18f01fb26504904b1b7",
+          "source_sha256": "a893cc63cbff963a12891a261f153764465ea18b747a9da893514709f22490e8",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-price.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-price.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-price.json",
+          "status": "archived_source_alternative_not_original_id"
+        },
+        {
+          "widget_path": "plotly/eia-energy-intensity.html",
+          "source_blob": "da6cdcbec812f0ebcbbe369976b8f7f7ad4a678f",
+          "source_sha256": "b82b2492b42cd49089ca1ab8cdf3fb746991b5e92720f049189d6c46e2c52f6b",
+          "in_core_41_payloads": true,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/eia-energy-intensity.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/eia-energy-intensity.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads/eia-energy-intensity.json",
+          "status": "archived_source_alternative_not_original_id"
+        }
+      ],
+      "shared_group": "energy_190_192",
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:198",
+      "user": "iguzmanvt",
+      "id": 198,
+      "modules": [
+        "Slowdown"
+      ],
+      "theme": "Participación del capital en la producción",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+          "line": 41,
+          "identity": "iguzmanvt:198",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleraci%C3%B3n%20Nota.Rmd#L41"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "module": "Slowdown",
+          "module_physical": "Slowdown",
+          "module_logical": "Slowdown",
+          "line": 41,
+          "kind": "markdown_link",
+          "context": "- [La participación del capital en la producción ha aumentado](http://plotly.com/~iguzmanvt/198.embed)",
+          "working_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "Los widgets relacionados conservan participación laboral, no una serie de capital/producción identificada.",
+      "alternative_limits": "Mantener separado de iguzmanv:198. Compensación/PIB y compensación/costos son denominadores diferentes; no restar de 1 ni atribuir beneficios sin revisión.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-stable-labs.html",
+        "plotly/pwt-stable-phil.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:211",
+      "user": "iguzmanvt",
+      "id": 211,
+      "modules": [
+        "Slowdown"
+      ],
+      "theme": "Natalidad, preferencias familiares y envejecimiento",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+          "line": 411,
+          "identity": "iguzmanvt:211",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleracion.Rmd#L411"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+          "line": 400,
+          "identity": "iguzmanvt:211",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleraci%C3%B3n%20Nota.Rmd#L400"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "module": "Slowdown",
+          "module_physical": "Slowdown",
+          "module_logical": "Slowdown",
+          "line": 400,
+          "kind": "markdown_link",
+          "context": "- La disminución de la tasa bruta de natalidad fue impulsada en gran parte por un cambio en las preferencias de las familias con respecto al número de hijos a tener. [Este cambio de comportamiento es uno de los principales impulsores del envejecimiento de la población y la desaceleración del crecimiento](http://plotly.com/~iguzmanvt/211.embed)",
+          "working_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "No hay candidato directo de tasa bruta de natalidad o composición etaria en el catálogo.",
+      "alternative_limits": "wdi-fert-test es tasa global de fecundidad de Brasil, México, Nigeria y Viet Nam: variable, geografía y población distintas. No prueba preferencias ni causalidad.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/wdi-fert-test.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:213",
+      "user": "iguzmanvt",
+      "id": 213,
+      "modules": [
+        "Slowdown"
+      ],
+      "theme": "Trabajadores/población y desaceleración",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+          "line": 435,
+          "identity": "iguzmanvt:213",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleracion.Rmd#L435"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+          "line": 416,
+          "identity": "iguzmanvt:213",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleraci%C3%B3n%20Nota.Rmd#L416"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "module": "Slowdown",
+          "module_physical": "Slowdown",
+          "module_logical": "Slowdown",
+          "line": 416,
+          "kind": "markdown_link",
+          "context": "- [Esto significa que la proporción de trabajadores con respecto a la población total, que ya había comenzado a disminuir debido al aumento de la tasa de dependencia de las personas mayores a principios de la década de 2000, seguirá disminuyendo](http://plotly.com/~iguzmanvt/213.embed)",
+          "working_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e"
+        }
+      ],
+      "alternative_classification": "candidato_condicionado",
+      "alternative_rationale": "El widget muestra razón empleados/población e incluye EE. UU. y otros cinco países.",
+      "alternative_limits": "Observaciones hasta 2019, no proyecciones. Empleados/población no es proporción de adultos en edad laboral; el widget no prueba la causa por dependencia ni el «seguirá disminuyendo».",
+      "alternatives": [
+        {
+          "widget_path": "plotly/pwt-catchup-emppop.html",
+          "source_blob": "0febccab0adbf84559772e01f486039ef4ead3bf",
+          "source_sha256": "c4c2e9ec6c5a25c2d8f5af65d3e29389a3c0fa60435bfcd403a72c1e1ae0a1e5",
+          "in_core_41_payloads": false,
+          "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-emppop.html",
+          "fork_source_url": "https://github.com/iguzmanvt/StudyGuide/blob/44927f3925b7f4de4803a76a703a5281b1a774fd/plotly/pwt-catchup-emppop.html",
+          "minimal_path": "/workspace/scratch/b7a84d4ecbc0/crecimiento_pendientes/studyguide_payloads_extra/pwt-catchup-emppop.json",
+          "status": "archived_source_alternative_not_original_id",
+          "extracted_separately": true
+        }
+      ],
+      "shared_group": null,
+      "related_but_not_substitutes": [],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    },
+    {
+      "identity": "iguzmanvt:216",
+      "user": "iguzmanvt",
+      "id": 216,
+      "modules": [
+        "Slowdown"
+      ],
+      "theme": "Adultos en edad laboral frente a dependientes 0–20 y 65+",
+      "original_status": "not_authenticated_or_recovered_from_audited_git_history",
+      "original_identity_proven": false,
+      "current_committed_references": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+          "line": 424,
+          "identity": "iguzmanvt:216",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleracion.Rmd#L424"
+        },
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "commit": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+          "blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+          "line": 409,
+          "identity": "iguzmanvt:216",
+          "url": "https://github.com/iguzmanvt/Crecimiento/blob/d8613e6a2fe63c1b7b3659ab3211895686c14dce/Clases_Crecimiento_Economico/Slowdown/Crecimiento%20Economico%20-%20Desaceleraci%C3%B3n%20Nota.Rmd#L409"
+        }
+      ],
+      "semantic_contexts_from_prior_capture": [
+        {
+          "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+          "module": "Slowdown",
+          "module_physical": "Slowdown",
+          "module_logical": "Slowdown",
+          "line": 409,
+          "kind": "markdown_link",
+          "context": "- [Este envejecimiento de la población cambió la proporción de adultos en edad laboral a personas en categorías \"dependientes\", como los niños (0-20 años) y las personas mayores (65 años o más)](http://plotly.com/~iguzmanvt/216.embed)",
+          "working_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e"
+        }
+      ],
+      "alternative_classification": "sin_candidato_directo",
+      "alternative_rationale": "No hay widget directo con esas categorías y cociente de dependencia.",
+      "alternative_limits": "No sustituir con empleados/población, crecimiento poblacional o fecundidad: cambian numerador, denominador y edades.",
+      "alternatives": [],
+      "shared_group": null,
+      "related_but_not_substitutes": [
+        "plotly/pwt-catchup-emppop.html",
+        "plotly/wdi-fert-test.html"
+      ],
+      "backup_existence_outside_audited_refs": "not_determined",
+      "local_fig2021_assigned_to_this_id": false
+    }
+  ],
+  "scope": "Crecimiento10commits; CE-Ideas4; Crecimiento-Economico---Intro1; Introduccion3; StudyGuide fork/upstream564reachablecommits. Repository details and limitations are in git_history_findings.md and underlying audit JSON.",
+  "rules": [
+    "Retain original40IDs as unauthenticated; provide source-course gallery separately.",
+    "Do not infer historical identity from a thematic match, matching variables, shared export name or one positive control.",
+    "Keep both Solow and Slowdown contexts for iguzmanvt:48; keep iguzmanv:198 separate from iguzmanvt:198.",
+    "Keep local2021fig with265points/9countries as a separate archived object with undetermined ID."
+  ],
+  "current_source_reference_validation": "Path/blob pairs validated against complete GitHub recursive tree of baseline commit, avoiding historical path aliases such as .Rmd/.rds sharing a blob.",
+  "source_path_blob_map": "head_rmd_blob_map.json",
+  "extra_provenance": "metadata_extra.json"
+}

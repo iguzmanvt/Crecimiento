@@ -1,0 +1,109 @@
+{
+  "saved_source": "fig_2021_xy_snapshot.json",
+  "saved_sha256": "55229e8dbc81ef63f58d25d3768fc5706f53b5693ed57c4164e89a603ecac0f0",
+  "saved_rows": 265,
+  "saved_fields": [
+    "COUNTRY",
+    "g10.accttfp",
+    "lnrdworker"
+  ],
+  "course_source": "studyguide_payloads/pwt-oecd-rd-tfp.json",
+  "course_source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+  "course_traces": 6,
+  "course_points": 201,
+  "comparison": [
+    {
+      "country": "ARG",
+      "saved_rows": 23,
+      "course_points": 0,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 23,
+      "course_unmatched_at_tolerance": 0
+    },
+    {
+      "country": "CHL",
+      "saved_rows": 13,
+      "course_points": 0,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 13,
+      "course_unmatched_at_tolerance": 0
+    },
+    {
+      "country": "CHN",
+      "saved_rows": 29,
+      "course_points": 29,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 29,
+      "course_unmatched_at_tolerance": 29
+    },
+    {
+      "country": "DEU",
+      "saved_rows": 32,
+      "course_points": 32,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 1,
+      "max_abs_difference_matched": 4.618527782440651e-14,
+      "saved_unmatched_at_tolerance": 31,
+      "course_unmatched_at_tolerance": 31
+    },
+    {
+      "country": "GBR",
+      "saved_rows": 39,
+      "course_points": 37,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 1,
+      "max_abs_difference_matched": 2.842170943040401e-14,
+      "saved_unmatched_at_tolerance": 38,
+      "course_unmatched_at_tolerance": 36
+    },
+    {
+      "country": "JPN",
+      "saved_rows": 39,
+      "course_points": 39,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 39,
+      "course_unmatched_at_tolerance": 39
+    },
+    {
+      "country": "KOR",
+      "saved_rows": 25,
+      "course_points": 25,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 25,
+      "course_unmatched_at_tolerance": 25
+    },
+    {
+      "country": "MEX",
+      "saved_rows": 26,
+      "course_points": 0,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 26,
+      "course_unmatched_at_tolerance": 0
+    },
+    {
+      "country": "USA",
+      "saved_rows": 39,
+      "course_points": 39,
+      "exact_tuple_multiset_overlap": 0,
+      "matching_pairs_abs_tolerance_1e12": 0,
+      "max_abs_difference_matched": null,
+      "saved_unmatched_at_tolerance": 39,
+      "course_unmatched_at_tolerance": 39
+    }
+  ],
+  "method": "Country-specific multiset comparison of x=lnrdworker,y=g10.accttfp, exact floats and separate absolute tolerance1e-12; no chronological inference.",
+  "conclusion": "Different samples: retain local fig as the archived2021 object with undetermined ChartStudio identity; do not replace by course widget or assign116/118/120/72.",
+  "plotly_id_assigned": null
+}

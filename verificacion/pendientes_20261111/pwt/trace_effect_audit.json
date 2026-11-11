@@ -1,0 +1,236 @@
+{
+  "R": "R version 4.3.3 (2024-02-29 ucrt)",
+  "DESCRIPTION_version": "10.01-0",
+  "object": "pwt10.0",
+  "downloaded_CRAN_object_identical_to_installed": true,
+  "calculation_expressions_exact_to_published_Rmd": true,
+  "baseline": "d8613e6a2fe63c1b7b3659ab3211895686c14dce",
+  "period": [
+    1960,
+    2019
+  ],
+  "comparisons": [
+    {
+      "source": "repo_excel",
+      "rows": 60,
+      "ky_rounded_exact": true,
+      "all_derived_numeric_exact": true,
+      "traces": [
+        {
+          "variable": "kyonly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "hconly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "tfponly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "lngdppc",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        }
+      ]
+    },
+    {
+      "source": "official_excel",
+      "rows": 60,
+      "ky_rounded_exact": true,
+      "all_derived_numeric_exact": true,
+      "traces": [
+        {
+          "variable": "kyonly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "hconly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "tfponly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "lngdppc",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        }
+      ]
+    },
+    {
+      "source": "official_dta",
+      "rows": 60,
+      "ky_rounded_exact": true,
+      "all_derived_numeric_exact": true,
+      "traces": [
+        {
+          "variable": "kyonly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "hconly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "tfponly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "lngdppc",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        }
+      ]
+    },
+    {
+      "source": "installed_pwt100",
+      "rows": 60,
+      "ky_rounded_exact": true,
+      "all_derived_numeric_exact": true,
+      "traces": [
+        {
+          "variable": "kyonly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "hconly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "tfponly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "lngdppc",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        }
+      ]
+    },
+    {
+      "source": "cran_download",
+      "rows": 60,
+      "ky_rounded_exact": true,
+      "all_derived_numeric_exact": true,
+      "traces": [
+        {
+          "variable": "kyonly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "hconly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "tfponly",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        },
+        {
+          "variable": "lngdppc",
+          "values": 60,
+          "mismatches": 0,
+          "max_abs_difference": 0,
+          "differing_years": []
+        }
+      ]
+    }
+  ],
+  "historical_workspace": {
+    "context": "Workspace localizado en carpeta de curso Otoño 2021; no fecha de creación autenticada sólo por nombre de carpeta",
+    "file_bytes": 4716153,
+    "file_md5": "d665dad1520077ad724717e01129fd24",
+    "pwt_rows": 12810,
+    "pwt_columns": 52,
+    "pwt_identical_to_installed": true,
+    "usa_rows": 60,
+    "usa_columns": 64,
+    "USA_years": [
+      1960,
+      2019
+    ],
+    "year_sequence_equal": true,
+    "required_inputs_exact": true,
+    "all_derived_numeric_exact": true,
+    "traces": [
+      {
+        "variable": "kyonly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "hconly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "tfponly",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      },
+      {
+        "variable": "lngdppc",
+        "mismatches": 0,
+        "max_abs_difference": 0
+      }
+    ]
+  },
+  "Rmd_document_executed": false,
+  "api_create_executed": false,
+  "workbook_recalculated": false
+}

@@ -25,3 +25,9 @@ El paquete comprobado identifica DESCRIPTION `10.01-0` (`packageVersion()` lo re
 El XLSX conserva `Info`, `Legend`, `Data` y dos hojas añadidas para México. `Hoja1 (2)` tiene entradas vacías y 132 fórmulas con caché cero; no se presenta como ejercicio terminado ni se recalculó el libro. En `Data`, USA tiene 70 años (1950–2019). Código ISO, año, `rgdpna`, `pop` y `hc` coinciden con el objeto R instalado; `rnna` difiere en 35 años, 30 dentro de 1960–2019, con máximo absoluto de 8 millones de US$ de 2017. No se determinó la causa. [Cotejo de entradas](../../verificacion/modulos_20261111/entradas_accounting.json).
 
 PWT 10.0: [página oficial y descarga](https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en), DOI `10.15141/S5Q94M`, licencia CC BY 4.0. Atribución: Feenstra, Robert C., Robert Inklaar y Marcel P. Timmer (2015), “The Next Generation of the Penn World Table”, American Economic Review 105(10), 3150–3182. [Documentación del objeto R](https://search.r-project.org/CRAN/refmans/pwt10/html/pwt10.0.html).
+
+## Seguimiento de gráficas externas
+
+La [galería local](../../recursos_graficas/README.md) ofrece material fuente archivado y una figura del curso recuperada. La [matriz de los originales pendientes](../../PENDIENTES_GRAFICAS_Y_PWT.md) distingue alternativas y límites. No se ha demostrado una correspondencia con los identificadores antiguos.
+
+El cotejo posterior confirmó que Data del Excel coincide con la versión oficial. Pese a las 35 diferencias brutas de rnna frente a CRAN, las cuatro trazas del ejemplo conservan exactamente sus 240 valores; los doce derivados también coinciden. Se mantienen datos y fórmulas. [Auditoría de capital](../../verificacion/pendientes_20261111/pwt/pwt_discrepancy_audit.md).

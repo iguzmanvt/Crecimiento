@@ -64,7 +64,7 @@ La comprobación del 11 de noviembre de 2026 aprobó las 604 referencias y la le
 ## Límites y pendientes
 
 - Las fuentes conservan sus dependencias, configuraciones y referencias externas. Esta entrega verifica las rutas literales de las imágenes y su lectura; no acredita el render completo de las 34 fuentes.
-- Las dos presentaciones de Introducción siguen declarando `air.css`, ausente en esa carpeta, y `runtime: shiny` dentro de `output`. Esa configuración requiere una revisión propia. Las variantes se conservan porque una incluye una tabla inicial adicional.
+- Las dos presentaciones de Introducción cuentan ahora con configuración estática corregida y CSS local, conservando la variante con tabla inicial adicional. Su [guía de generación](Clases_Crecimiento_Economico/Introduction/README.md) permite crear ambos formatos fuera del repositorio. Esta corrección posterior no amplía la validación al resto de las presentaciones.
 - La nota de Introducción mantiene 13 iframes de Our World in Data y 17 referencias de Chart Studio. Entre estas últimas hay una URL terminada en `.embe` y un identificador repetido. No se sustituyeron o reconstruyeron esos contenidos sin respaldo.
 - Los HTML históricos conservan respaldos que algunas fuentes Rmd sólo enlazan. Toda prueba de render debe escribir una salida separada. Las recuperaciones de las gráficas 42 y 223 permanecen disponibles en sus carpetas.
 - La verificación técnica no revisa las fuentes estadísticas ni actualiza las cifras de las imágenes.

@@ -1,12 +1,14 @@
 ---
 title: "Crecimiento Económico"
 output:
-  ioslides_presentation: 
-    css: air.css
+  ioslides_presentation:
+    css: introduction.css
     smaller: true
     widescreen: true
-  html_document: 
-  runtime: shiny
+    self_contained: false
+  html_document:
+    css: introduction.css
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(plotly)
 library(shiny)
 library(knitr)
+knitr::knit_meta_add(list(rmarkdown::html_dependency_jquery()))
 opts_chunk$set(echo = TRUE)
 ```
 

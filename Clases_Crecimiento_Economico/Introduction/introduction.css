@@ -1,0 +1,14 @@
+/* Ajustes locales sobre ioslides/Bootstrap. No reproduce el air.css ausente. */
+iframe {
+  max-width: 100%;
+}
+
+slides > slide {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+slides > slide img {
+  max-width: 100%;
+  height: auto;
+}

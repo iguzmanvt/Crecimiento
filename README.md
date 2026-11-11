@@ -7,7 +7,7 @@ Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 202
 | Tema | Carpeta | Material de entrada |
 | --- | --- | --- |
 | Introducción al curso | [Introduction](Clases_Crecimiento_Economico/Introduction/) | [Nota HTML](Clases_Crecimiento_Economico/Introduction/Crecimiento-Economico-1-Nota.html) |
-| Estudios de caso con el modelo de Solow | [Solow](Clases_Crecimiento_Economico/Solow/) | [Nota HTML](Clases_Crecimiento_Economico/Solow/Crecimiento-Economico-2-Nota.html) |
+| Estudios de caso con el modelo de Solow | [Solow](Clases_Crecimiento_Economico/Solow/) | [Nota HTML](Clases_Crecimiento_Economico/Solow/Crecimiento-Economico-2-Nota.html) · [Gráfica 42 recuperada](Clases_Crecimiento_Economico/Solow/recuperado/) |
 | Convergencia y políticas públicas para el crecimiento | [Convergence](Clases_Crecimiento_Economico/Convergence/) | [Nota HTML](Clases_Crecimiento_Economico/Convergence/Crecimiento-Economico---Convergencia-Nota.html) |
 | Contabilidad del crecimiento | [Accounting](Clases_Crecimiento_Economico/Accounting/) | [Nota HTML](Clases_Crecimiento_Economico/Accounting/Crecimiento-Economico---Contabilidad-del-crecimiento-Nota.html) · [Ejemplo en Excel](Clases_Crecimiento_Economico/Accounting/Ejemplo%20Estados%20Unidos.xlsx) |
 | Ideas, productividad e investigación y desarrollo | [Ideas](Clases_Crecimiento_Economico/Ideas/) | [Nota HTML](Clases_Crecimiento_Economico/Ideas/Crecimiento-Economico---Ideas-Nota.html) |

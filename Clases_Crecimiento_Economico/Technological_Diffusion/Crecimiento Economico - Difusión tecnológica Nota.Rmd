@@ -60,7 +60,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Griliches <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Griliches.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Griliches <- readPNG("Technological_Diffusion-Griliches.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Griliches, interpolate=FALSE)
 ```
@@ -72,7 +72,7 @@ grid.raster(Technological_Diffusion_Griliches, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Cummulative_Adopters <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Cummulative_Adopters.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Cummulative_Adopters <- readPNG("Technological_Diffusion-Cummulative_Adopters.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Cummulative_Adopters, interpolate=FALSE)
 ```
@@ -86,7 +86,7 @@ grid.raster(Technological_Diffusion_Cummulative_Adopters, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Real_GDP_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Real_GDP_Lags <- readPNG("Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
 ```
@@ -102,7 +102,7 @@ grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Real_GDP_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Real_GDP_Lags <- readPNG("Technological_Diffusion-Real_GDP_Lags.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
 ```
@@ -128,7 +128,7 @@ grid.raster(Technological_Diffusion_Real_GDP_Lags, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Tech_Adoption <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Tech_Adoption <- readPNG("Technological_Diffusion-Tech_Adoption.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Tech_Adoption, interpolate=FALSE)
 ```
@@ -143,7 +143,7 @@ grid.raster(Technological_Diffusion_Tech_Adoption, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Shifts <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Shifts.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Shifts <- readPNG("Technological_Diffusion-Shifts.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Shifts, interpolate=FALSE)
 ```
@@ -155,7 +155,7 @@ grid.raster(Technological_Diffusion_Shifts, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Electricity_Production <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Electricity_Production.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Electricity_Production <- readPNG("Technological_Diffusion-Electricity_Production.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Electricity_Production, interpolate=FALSE)
 ```
@@ -167,7 +167,7 @@ grid.raster(Technological_Diffusion_Electricity_Production, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Adoption_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Adoption_Lags.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Adoption_Lags <- readPNG("Technological_Diffusion-Adoption_Lags.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Adoption_Lags, interpolate=FALSE)
 ```
@@ -179,7 +179,7 @@ grid.raster(Technological_Diffusion_Adoption_Lags, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Tech_Adoption_Sectors <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Sectors.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Tech_Adoption_Sectors <- readPNG("Technological_Diffusion-Tech_Adoption_Sectors.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Tech_Adoption_Sectors, interpolate=FALSE)
 ```
@@ -191,7 +191,7 @@ grid.raster(Technological_Diffusion_Tech_Adoption_Sectors, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Tech_Adoption_Correlation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Correlation.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Tech_Adoption_Correlation <- readPNG("Technological_Diffusion-Tech_Adoption_Correlation.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Tech_Adoption_Correlation, interpolate=FALSE)
 ```
@@ -203,7 +203,7 @@ grid.raster(Technological_Diffusion_Tech_Adoption_Correlation, interpolate=FALSE
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Year_Invention_Lags <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Year_Invention_Lags.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Year_Invention_Lags <- readPNG("Technological_Diffusion-Year_Invention_Lags.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Year_Invention_Lags, interpolate=FALSE)
 ```
@@ -213,7 +213,7 @@ grid.raster(Technological_Diffusion_Year_Invention_Lags, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Growth_Westerns_Nonwesterns <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Westerns_Nonwesterns.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Growth_Westerns_Nonwesterns <- readPNG("Technological_Diffusion-Growth_Westerns_Nonwesterns.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Growth_Westerns_Nonwesterns, interpolate=FALSE)
 ```
@@ -223,7 +223,7 @@ grid.raster(Technological_Diffusion_Growth_Westerns_Nonwesterns, interpolate=FAL
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Growth_Rates_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Rates_GDP.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Growth_Rates_GDP <- readPNG("Technological_Diffusion-Growth_Rates_GDP.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Growth_Rates_GDP, interpolate=FALSE)
 ```
@@ -263,7 +263,7 @@ grid.raster(Technological_Diffusion_Growth_Rates_GDP, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Market_Concentration <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Market_Concentration.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Market_Concentration <- readPNG("Technological_Diffusion-Market_Concentration.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Market_Concentration, interpolate=FALSE)
 ```
@@ -279,7 +279,7 @@ grid.raster(Technological_Diffusion_Market_Concentration, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Average_Markup <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Average_Markup.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Average_Markup <- readPNG("Technological_Diffusion-Average_Markup.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Average_Markup, interpolate=FALSE)
 ```
@@ -295,7 +295,7 @@ grid.raster(Technological_Diffusion_Average_Markup, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Profit_Fraction_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Profit_Fraction_GDP.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Profit_Fraction_GDP <- readPNG("Technological_Diffusion-Profit_Fraction_GDP.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Profit_Fraction_GDP, interpolate=FALSE)
 ```
@@ -311,7 +311,7 @@ grid.raster(Technological_Diffusion_Profit_Fraction_GDP, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Factor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Factor_Share.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Factor_Share <- readPNG("Technological_Diffusion-Factor_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Factor_Share, interpolate=FALSE)
 ```
@@ -327,7 +327,7 @@ grid.raster(Technological_Diffusion_Factor_Share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Labor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Labor_Share.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Labor_Share <- readPNG("Technological_Diffusion-Labor_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Labor_Share, interpolate=FALSE)
 ```
@@ -343,7 +343,7 @@ grid.raster(Technological_Diffusion_Labor_Share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Correlation_Concentration_Labor <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Correlation_Concentration_Labor.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Correlation_Concentration_Labor <- readPNG("Technological_Diffusion-Correlation_Concentration_Labor.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Correlation_Concentration_Labor, interpolate=FALSE)
 ```
@@ -359,7 +359,7 @@ grid.raster(Technological_Diffusion_Correlation_Concentration_Labor, interpolate
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Labor_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Labor_Productivity.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Labor_Productivity <- readPNG("Technological_Diffusion-Labor_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Labor_Productivity, interpolate=FALSE)
 ```
@@ -375,7 +375,7 @@ grid.raster(Technological_Diffusion_Labor_Productivity, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Entry_Exit_Rates <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Entry_Exit_Rates.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Entry_Exit_Rates <- readPNG("Technological_Diffusion-Entry_Exit_Rates.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Entry_Exit_Rates, interpolate=FALSE)
 ```
@@ -391,7 +391,7 @@ grid.raster(Technological_Diffusion_Entry_Exit_Rates, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Employment_Share_Young <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Employment_Share_Young.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Employment_Share_Young <- readPNG("Technological_Diffusion-Employment_Share_Young.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Employment_Share_Young, interpolate=FALSE)
 ```
@@ -407,7 +407,7 @@ grid.raster(Technological_Diffusion_Employment_Share_Young, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Job_Reallocation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Job_Reallocation.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Job_Reallocation <- readPNG("Technological_Diffusion-Job_Reallocation.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Job_Reallocation, interpolate=FALSE)
 ```
@@ -423,7 +423,7 @@ grid.raster(Technological_Diffusion_Job_Reallocation, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Growth_Dispersion <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Growth_Dispersion.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Growth_Dispersion <- readPNG("Technological_Diffusion-Growth_Dispersion.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Growth_Dispersion, interpolate=FALSE)
 ```
@@ -459,7 +459,7 @@ grid.raster(Technological_Diffusion_Growth_Dispersion, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Results <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Results.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Results <- readPNG("Technological_Diffusion-Results.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Results, interpolate=FALSE)
 ```
@@ -531,7 +531,7 @@ grid.raster(Technological_Diffusion_Results, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Registry_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Registry_Patents.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Registry_Patents <- readPNG("Technological_Diffusion-Registry_Patents.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Registry_Patents, interpolate=FALSE)
 ```
@@ -547,7 +547,7 @@ grid.raster(Technological_Diffusion_Registry_Patents, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Technological_Diffusion_Reassignment_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Technological_Diffusion/Technological_Diffusion-Reassignment_Patents.png", native= TRUE, info=TRUE)
+Technological_Diffusion_Reassignment_Patents <- readPNG("Technological_Diffusion-Reassignment_Patents.png", native= TRUE, info=TRUE)
 
 grid.raster(Technological_Diffusion_Reassignment_Patents, interpolate=FALSE)
 ```

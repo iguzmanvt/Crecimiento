@@ -58,7 +58,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Computerphobia <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Computerphobia.png", native= TRUE, info=TRUE)
+Labor_Computerphobia <- readPNG("Labor-Computerphobia.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Computerphobia, interpolate=FALSE)
 ```
@@ -78,7 +78,7 @@ grid.raster(Labor_Computerphobia, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Labor_Force_Statistics <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Labor_Force_Statistics.png", native= TRUE, info=TRUE)
+Labor_Labor_Force_Statistics <- readPNG("Labor-Labor_Force_Statistics.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Labor_Force_Statistics, interpolate=FALSE)
 ```
@@ -110,7 +110,7 @@ grid.raster(Labor_Labor_Force_Statistics, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_England_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-England_Productivity.png", native= TRUE, info=TRUE)
+Labor_England_Productivity <- readPNG("Labor-England_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_England_Productivity, interpolate=FALSE)
 ```
@@ -124,7 +124,7 @@ grid.raster(Labor_England_Productivity, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Wage_Labor_Supply <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wage_Labor_Supply.png", native= TRUE, info=TRUE)
+Labor_Wage_Labor_Supply <- readPNG("Labor-Wage_Labor_Supply.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Wage_Labor_Supply, interpolate=FALSE)
 ```
@@ -138,7 +138,7 @@ grid.raster(Labor_Wage_Labor_Supply, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Skills_Manual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skills_Manual.png", native= TRUE, info=TRUE)
+Labor_Skills_Manual <- readPNG("Labor-Skills_Manual.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Skills_Manual, interpolate=FALSE)
 ```
@@ -152,7 +152,7 @@ grid.raster(Labor_Skills_Manual, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Employment_Management <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Management.png", native= TRUE, info=TRUE)
+Labor_Employment_Management <- readPNG("Labor-Employment_Management.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Employment_Management, interpolate=FALSE)
 ```
@@ -166,7 +166,7 @@ grid.raster(Labor_Employment_Management, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Employment_Management <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Management.png", native= TRUE, info=TRUE)
+Labor_Employment_Management <- readPNG("Labor-Employment_Management.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Employment_Management, interpolate=FALSE)
 ```
@@ -180,7 +180,7 @@ grid.raster(Labor_Employment_Management, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Employment_Service <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Service.png", native= TRUE, info=TRUE)
+Labor_Employment_Service <- readPNG("Labor-Employment_Service.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Employment_Service, interpolate=FALSE)
 ```
@@ -194,7 +194,7 @@ grid.raster(Labor_Employment_Service, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Cognitive_College <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Cognitive_College.png", native= TRUE, info=TRUE)
+Labor_Cognitive_College <- readPNG("Labor-Cognitive_College.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Cognitive_College, interpolate=FALSE)
 ```
@@ -208,7 +208,7 @@ grid.raster(Labor_Cognitive_College, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Management_College <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Management_College.png", native= TRUE, info=TRUE)
+Labor_Management_College <- readPNG("Labor-Management_College.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Management_College, interpolate=FALSE)
 ```
@@ -222,7 +222,7 @@ grid.raster(Labor_Management_College, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Routine_Tasks <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Routine_Tasks.png", native= TRUE, info=TRUE)
+Labor_Routine_Tasks <- readPNG("Labor-Routine_Tasks.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Routine_Tasks, interpolate=FALSE)
 ```
@@ -240,7 +240,7 @@ grid.raster(Labor_Routine_Tasks, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Wages_Low_Workers <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wages_Low_Workers.png", native= TRUE, info=TRUE)
+Labor_Wages_Low_Workers <- readPNG("Labor-Wages_Low_Workers.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Wages_Low_Workers, interpolate=FALSE)
 ```
@@ -255,7 +255,7 @@ grid.raster(Labor_Wages_Low_Workers, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Skilled_Mexico <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_Mexico.png", native= TRUE, info=TRUE)
+Labor_Skilled_Mexico <- readPNG("Labor-Skilled_Mexico.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Skilled_Mexico, interpolate=FALSE)
 ```
@@ -270,7 +270,7 @@ grid.raster(Labor_Skilled_Mexico, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Skilled_1985 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_1985.png", native= TRUE, info=TRUE)
+Labor_Skilled_1985 <- readPNG("Labor-Skilled_1985.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Skilled_1985, interpolate=FALSE)
 ```
@@ -285,7 +285,7 @@ grid.raster(Labor_Skilled_1985, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Unskilled_1985 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unskilled_1985.png", native= TRUE, info=TRUE)
+Labor_Unskilled_1985 <- readPNG("Labor-Unskilled_1985.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Unskilled_1985, interpolate=FALSE)
 ```
@@ -302,7 +302,7 @@ grid.raster(Labor_Unskilled_1985, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Skilled_Categories <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Skilled_Categories.png", native= TRUE, info=TRUE)
+Labor_Skilled_Categories <- readPNG("Labor-Skilled_Categories.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Skilled_Categories, interpolate=FALSE)
 ```
@@ -318,7 +318,7 @@ grid.raster(Labor_Skilled_Categories, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Wage_Premium_Categories <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Wage_Premium_Categories.png", native= TRUE, info=TRUE)
+Labor_Wage_Premium_Categories <- readPNG("Labor-Wage_Premium_Categories.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Wage_Premium_Categories, interpolate=FALSE)
 ```
@@ -333,7 +333,7 @@ grid.raster(Labor_Wage_Premium_Categories, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Employed_Rutinary <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employed_Rutinary.png", native= TRUE, info=TRUE)
+Labor_Employed_Rutinary <- readPNG("Labor-Employed_Rutinary.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Employed_Rutinary, interpolate=FALSE)
 ```
@@ -347,7 +347,7 @@ grid.raster(Labor_Employed_Rutinary, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Unemployed_Rutinary_Manual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unemployed_Rutinary_Manual.png", native= TRUE, info=TRUE)
+Labor_Unemployed_Rutinary_Manual <- readPNG("Labor-Unemployed_Rutinary_Manual.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Unemployed_Rutinary_Manual, interpolate=FALSE)
 ```
@@ -361,7 +361,7 @@ grid.raster(Labor_Unemployed_Rutinary_Manual, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Unemployed_Rutinary_Cognitive <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Unemployed_Rutinary_Cognitive.png", native= TRUE, info=TRUE)
+Labor_Unemployed_Rutinary_Cognitive <- readPNG("Labor-Unemployed_Rutinary_Cognitive.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Unemployed_Rutinary_Cognitive, interpolate=FALSE)
 ```
@@ -371,7 +371,7 @@ grid.raster(Labor_Unemployed_Rutinary_Cognitive, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_NLF_ERM <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-NLF_ERM.png", native= TRUE, info=TRUE)
+Labor_NLF_ERM <- readPNG("Labor-NLF_ERM.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_NLF_ERM, interpolate=FALSE)
 ```
@@ -385,7 +385,7 @@ grid.raster(Labor_NLF_ERM, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Employment_Recession <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Employment_Recession.png", native= TRUE, info=TRUE)
+Labor_Employment_Recession <- readPNG("Labor-Employment_Recession.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Employment_Recession, interpolate=FALSE)
 ```
@@ -399,7 +399,7 @@ grid.raster(Labor_Employment_Recession, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Occupational_Employment_Recession <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Occupational_Employment_Recession.png", native= TRUE, info=TRUE)
+Labor_Occupational_Employment_Recession <- readPNG("Labor-Occupational_Employment_Recession.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Occupational_Employment_Recession, interpolate=FALSE)
 ```
@@ -425,7 +425,7 @@ grid.raster(Labor_Occupational_Employment_Recession, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Cats_Neural <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Cats_Neural.png", native= TRUE, info=TRUE)
+Labor_Cats_Neural <- readPNG("Labor-Cats_Neural.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Cats_Neural, interpolate=FALSE)
 ```
@@ -448,7 +448,7 @@ grid.raster(Labor_Cats_Neural, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Changes_Wages_Occupational <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Changes_Wages_Occupational.png", native= TRUE, info=TRUE)
+Labor_Changes_Wages_Occupational <- readPNG("Labor-Changes_Wages_Occupational.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Changes_Wages_Occupational, interpolate=FALSE)
 ```
@@ -474,7 +474,7 @@ grid.raster(Labor_Changes_Wages_Occupational, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Immiseriating_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Immiseriating_Growth.png", native= TRUE, info=TRUE)
+Labor_Immiseriating_Growth <- readPNG("Labor-Immiseriating_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Immiseriating_Growth, interpolate=FALSE)
 ```
@@ -488,7 +488,7 @@ grid.raster(Labor_Immiseriating_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Sachs_Case_Studies <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Sachs_Case_Studies.png", native= TRUE, info=TRUE)
+Labor_Sachs_Case_Studies <- readPNG("Labor-Sachs_Case_Studies.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Sachs_Case_Studies, interpolate=FALSE)
 ```
@@ -502,7 +502,7 @@ grid.raster(Labor_Sachs_Case_Studies, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Annual_Earnings <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Annual_Earnings.png", native= TRUE, info=TRUE)
+Labor_Annual_Earnings <- readPNG("Labor-Annual_Earnings.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Annual_Earnings, interpolate=FALSE)
 ```
@@ -516,7 +516,7 @@ grid.raster(Labor_Annual_Earnings, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_Rising_Nonemployment <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor/Labor-Rising_Nonemployment.png", native= TRUE, info=TRUE)
+Labor_Rising_Nonemployment <- readPNG("Labor-Rising_Nonemployment.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_Rising_Nonemployment, interpolate=FALSE)
 ```

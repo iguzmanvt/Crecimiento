@@ -39,7 +39,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Science <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Science.png", native= TRUE, info=TRUE)
+Patents_Science <- readPNG("Patents-Science.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Science, interpolate=FALSE)
 ```
@@ -49,7 +49,7 @@ grid.raster(Patents_Science, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Patent_Tradeoff <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patent_Tradeoff.png", native= TRUE, info=TRUE)
+Patents_Patent_Tradeoff <- readPNG("Patents-Patent_Tradeoff.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Patent_Tradeoff, interpolate=FALSE)
 ```
@@ -73,7 +73,7 @@ grid.raster(Patents_Patent_Tradeoff, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Patents_Markups <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patents_Markups.png", native= TRUE, info=TRUE)
+Patents_Patents_Markups <- readPNG("Patents-Patents_Markups.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Patents_Markups, interpolate=FALSE)
 ```
@@ -174,7 +174,7 @@ grid.raster(Patents_Patents_Markups, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Backward_Forward_Citations <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Backward_Forward_Citations.png", native= TRUE, info=TRUE)
+Patents_Backward_Forward_Citations <- readPNG("Patents-Backward_Forward_Citations.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Backward_Forward_Citations, interpolate=FALSE)
 ```
@@ -212,7 +212,7 @@ grid.raster(Patents_Backward_Forward_Citations, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Patents_Industry <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Patents_Industry.png", native= TRUE, info=TRUE)
+Patents_Patents_Industry <- readPNG("Patents-Patents_Industry.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Patents_Industry, interpolate=FALSE)
 ```
@@ -224,7 +224,7 @@ grid.raster(Patents_Patents_Industry, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_OLS_Patent_Price <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-OLS_Patent_Price.png", native= TRUE, info=TRUE)
+Patents_OLS_Patent_Price <- readPNG("Patents-OLS_Patent_Price.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_OLS_Patent_Price, interpolate=FALSE)
 ```
@@ -256,7 +256,7 @@ grid.raster(Patents_OLS_Patent_Price, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Cage_Golden_Delicious <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Cage_Golden_Delicious.png", native= TRUE, info=TRUE)
+Patents_Cage_Golden_Delicious <- readPNG("Patents-Cage_Golden_Delicious.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Cage_Golden_Delicious, interpolate=FALSE)
 ```
@@ -310,7 +310,7 @@ grid.raster(Patents_Cage_Golden_Delicious, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Sewing_Machine_Patents <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Sewing_Machine_Patents.png", native= TRUE, info=TRUE)
+Patents_Sewing_Machine_Patents <- readPNG("Patents-Sewing_Machine_Patents.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Sewing_Machine_Patents, interpolate=FALSE)
 ```
@@ -324,7 +324,7 @@ grid.raster(Patents_Sewing_Machine_Patents, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Stitches <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Stitches.png", native= TRUE, info=TRUE)
+Patents_Stitches <- readPNG("Patents-Stitches.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Stitches, interpolate=FALSE)
 ```
@@ -348,7 +348,7 @@ grid.raster(Patents_Stitches, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Citatons_Sample <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Citatons_Sample.png", native= TRUE, info=TRUE)
+Patents_Citatons_Sample <- readPNG("Patents-Citatons_Sample.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Citatons_Sample, interpolate=FALSE)
 ```
@@ -408,7 +408,7 @@ grid.raster(Patents_Citatons_Sample, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Annual_Citations_Controls <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Annual_Citations_Controls.png", native= TRUE, info=TRUE)
+Patents_Annual_Citations_Controls <- readPNG("Patents-Annual_Citations_Controls.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Annual_Citations_Controls, interpolate=FALSE)
 ```
@@ -420,7 +420,7 @@ grid.raster(Patents_Annual_Citations_Controls, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Annual_Citations_Differences <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Annual_Citations_Differences.png", native= TRUE, info=TRUE)
+Patents_Annual_Citations_Differences <- readPNG("Patents-Annual_Citations_Differences.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Annual_Citations_Differences, interpolate=FALSE)
 ```
@@ -464,7 +464,7 @@ grid.raster(Patents_Annual_Citations_Differences, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Game_Shark <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Game_Shark.png", native= TRUE, info=TRUE)
+Patents_Game_Shark <- readPNG("Patents-Game_Shark.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Game_Shark, interpolate=FALSE)
 ```
@@ -492,7 +492,7 @@ grid.raster(Patents_Game_Shark, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Anticommons <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Anticommons.png", native= TRUE, info=TRUE)
+Patents_Anticommons <- readPNG("Patents-Anticommons.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Anticommons, interpolate=FALSE)
 ```
@@ -506,7 +506,7 @@ grid.raster(Patents_Anticommons, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Patents_Anticommons_Example <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Patents/Patents-Anticommons_Example.png", native= TRUE, info=TRUE)
+Patents_Anticommons_Example <- readPNG("Patents-Anticommons_Example.png", native= TRUE, info=TRUE)
 
 grid.raster(Patents_Anticommons_Example, interpolate=FALSE)
 ```

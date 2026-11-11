@@ -158,7 +158,7 @@ Estados Unidos y China ponen a más personas a trabajar en investigación y desa
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_1 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Shift_Age_Innovation.png", native= TRUE, info=TRUE)
+Ideas_1 <- readPNG("../Ideas-Shift_Age_Innovation.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_1, interpolate=FALSE)
 ```
@@ -182,7 +182,7 @@ grid.raster(Ideas_1, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_2 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Research_Effort.png", native= TRUE, info=TRUE)
+Ideas_2 <- readPNG("../Ideas-Research_Effort.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_2, interpolate=FALSE)
 ```
@@ -200,7 +200,7 @@ grid.raster(Ideas_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_3 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Research_Productivity.png", native= TRUE, info=TRUE)
+Ideas_3 <- readPNG("../Ideas-Research_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_3, interpolate=FALSE)
 ```
@@ -214,7 +214,7 @@ grid.raster(Ideas_3, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_4 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Moore_Law.png", native= TRUE, info=TRUE)
+Ideas_4 <- readPNG("../Ideas-Moore_Law.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_4, interpolate=FALSE)
 ```
@@ -228,7 +228,7 @@ grid.raster(Ideas_4, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_5 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Moore_Effective_Researchers.png", native= TRUE, info=TRUE)
+Ideas_5 <- readPNG("../Ideas-Moore_Effective_Researchers.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_5, interpolate=FALSE)
 ```
@@ -276,7 +276,7 @@ grid.raster(Ideas_5, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Ideas_6 <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Ideas/Ideas-Superexponential_Trends.png", native= TRUE, info=TRUE)
+Ideas_6 <- readPNG("../Ideas-Superexponential_Trends.png", native= TRUE, info=TRUE)
 
 grid.raster(Ideas_6, interpolate=FALSE)
 ```

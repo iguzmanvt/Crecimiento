@@ -73,7 +73,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Emissions_Income_Group <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Emissions_Income_Group.png", native= TRUE)
+Environment_Emissions_Income_Group <- readPNG("Environment-Emissions_Income_Group.png", native= TRUE)
 
 grid.raster(Environment_Emissions_Income_Group, interpolate=FALSE)
 ```
@@ -127,7 +127,7 @@ grid.raster(Environment_Emissions_Income_Group, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Kuznetz <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Kuznetz.png", native= TRUE)
+Environment_Kuznetz <- readPNG("Environment-Kuznetz.png", native= TRUE)
 
 grid.raster(Environment_Kuznetz, interpolate=FALSE)
 ```
@@ -149,7 +149,7 @@ grid.raster(Environment_Kuznetz, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Kuznetz_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Kuznetz_2.png", native= TRUE)
+Environment_Kuznetz_2 <- readPNG("Environment-Kuznetz_2.png", native= TRUE)
 
 grid.raster(Environment_Kuznetz_2, interpolate=FALSE)
 ```
@@ -161,7 +161,7 @@ grid.raster(Environment_Kuznetz_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Concentrations_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Concentrations_GDP.png", native= TRUE)
+Environment_Concentrations_GDP <- readPNG("Environment-Concentrations_GDP.png", native= TRUE)
 
 grid.raster(Environment_Concentrations_GDP, interpolate=FALSE)
 ```
@@ -187,7 +187,7 @@ China e India.
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Leaf_Area <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Leaf_Area.png", native= TRUE)
+Environment_Leaf_Area <- readPNG("Environment-Leaf_Area.png", native= TRUE)
 
 grid.raster(Environment_Leaf_Area, interpolate=FALSE)
 ```
@@ -199,7 +199,7 @@ grid.raster(Environment_Leaf_Area, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_China_India_Greening <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-China_India_Greening.png", native= TRUE)
+Environment_China_India_Greening <- readPNG("Environment-China_India_Greening.png", native= TRUE)
 
 grid.raster(Environment_China_India_Greening, interpolate=FALSE)
 ```
@@ -235,7 +235,7 @@ energías limpias temporales que dirigen la innovación al sector limpio
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Acemoglu_1 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Acemoglu_1.png", native= TRUE)
+Environment_Acemoglu_1 <- readPNG("Environment-Acemoglu_1.png", native= TRUE)
 
 grid.raster(Environment_Acemoglu_1, interpolate=FALSE)
 ```
@@ -247,7 +247,7 @@ grid.raster(Environment_Acemoglu_1, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Acemoglu_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Acemoglu_2.png", native= TRUE)
+Environment_Acemoglu_2 <- readPNG("Environment-Acemoglu_2.png", native= TRUE)
 
 grid.raster(Environment_Acemoglu_2, interpolate=FALSE)
 ```
@@ -271,7 +271,7 @@ grid.raster(Environment_Acemoglu_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Optimal_Policy <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Optimal_Policy.png", native= TRUE)
+Environment_Optimal_Policy <- readPNG("Environment-Optimal_Policy.png", native= TRUE)
 
 grid.raster(Environment_Optimal_Policy, interpolate=FALSE)
 ```
@@ -283,7 +283,7 @@ grid.raster(Environment_Optimal_Policy, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Welfare_Costs <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Welfare_Costs.png", native= TRUE)
+Environment_Welfare_Costs <- readPNG("Environment-Welfare_Costs.png", native= TRUE)
 
 grid.raster(Environment_Welfare_Costs, interpolate=FALSE)
 ```
@@ -316,7 +316,7 @@ grid.raster(Environment_Welfare_Costs, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Regional_Composition_Emissions <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Regional_Composition_Emissions.png", native= TRUE)
+Environment_Regional_Composition_Emissions <- readPNG("Environment-Regional_Composition_Emissions.png", native= TRUE)
 
 grid.raster(Environment_Regional_Composition_Emissions, interpolate=FALSE)
 ```
@@ -351,7 +351,7 @@ UNEP menciona que se necesitan 300 mil millones (billones) de euros anuales)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Environment_Tax_Strategies <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Environment/Environment-Tax_Strategies.png", native= TRUE)
+Environment_Tax_Strategies <- readPNG("Environment-Tax_Strategies.png", native= TRUE)
 
 grid.raster(Environment_Tax_Strategies, interpolate=FALSE)
 ```

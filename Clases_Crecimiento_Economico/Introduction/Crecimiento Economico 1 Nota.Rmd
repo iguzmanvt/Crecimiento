@@ -139,8 +139,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(png)
 library(grid)
 library(gridExtra)
-Introduction_Macro_Welfare <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Macro_Welfare.png")), interpolate = FALSE)
-Introduction_Macro_Welfare_2 <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Macro_Welfare_2.png")), interpolate = FALSE)
+Introduction_Macro_Welfare <-  rasterGrob(as.raster(readPNG("Introduction-Macro_Welfare.png")), interpolate = FALSE)
+Introduction_Macro_Welfare_2 <-  rasterGrob(as.raster(readPNG("Introduction-Macro_Welfare_2.png")), interpolate = FALSE)
 grid.arrange(Introduction_Macro_Welfare, Introduction_Macro_Welfare_2, ncol = 2)
 ```
 
@@ -255,7 +255,7 @@ grid.arrange(Introduction_Macro_Welfare, Introduction_Macro_Welfare_2, ncol = 2)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Convergence_OECD <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Convergence_OECD.png", native= TRUE, info=TRUE)
+Introduction_Convergence_OECD <- readPNG("Introduction-Convergence_OECD.png", native= TRUE, info=TRUE)
 
 grid.raster(Introduction_Convergence_OECD, interpolate=FALSE)
 ```
@@ -267,7 +267,7 @@ grid.raster(Introduction_Convergence_OECD, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Inconditional_Convergence <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Inconditional_Convergence.png", native= TRUE, info=TRUE)
+Introduction_Inconditional_Convergence <- readPNG("Introduction-Inconditional_Convergence.png", native= TRUE, info=TRUE)
 
 grid.raster(Introduction_Inconditional_Convergence, interpolate=FALSE)
 ```
@@ -289,7 +289,7 @@ grid.raster(Introduction_Inconditional_Convergence, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Convergence_Investment <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Convergence_Investment.png", native= TRUE, info=TRUE)
+Introduction_Convergence_Investment <- readPNG("Introduction-Convergence_Investment.png", native= TRUE, info=TRUE)
 
 grid.raster(Introduction_Convergence_Investment, interpolate=FALSE)
 ```
@@ -302,7 +302,7 @@ grid.raster(Introduction_Convergence_Investment, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Convergence_Schooling <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Convergence_Schooling.png", native= TRUE, info=TRUE)
+Introduction_Convergence_Schooling <- readPNG("Introduction-Convergence_Schooling.png", native= TRUE, info=TRUE)
 
 grid.raster(Introduction_Convergence_Schooling, interpolate=FALSE)
 ```
@@ -380,7 +380,7 @@ grid.raster(Introduction_Convergence_Schooling, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Markup <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Markup.png", native= TRUE)
+Introduction_Markup <- readPNG("Introduction-Markup.png", native= TRUE)
 
 grid.raster(Introduction_Markup, interpolate=FALSE)
 ```
@@ -390,7 +390,7 @@ grid.raster(Introduction_Markup, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Productivity_Wages <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Productivity_Wages.png", native= TRUE)
+Introduction_Productivity_Wages <- readPNG("Introduction-Productivity_Wages.png", native= TRUE)
 
 grid.raster(Introduction_Productivity_Wages, interpolate=FALSE)
 ```
@@ -400,7 +400,7 @@ grid.raster(Introduction_Productivity_Wages, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Labor_Share <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Labor_Share.png", native= TRUE)
+Introduction_Labor_Share <- readPNG("Introduction-Labor_Share.png", native= TRUE)
 
 grid.raster(Introduction_Labor_Share, interpolate=FALSE)
 ```
@@ -410,7 +410,7 @@ grid.raster(Introduction_Labor_Share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(jpeg)
 library(grid)
-Introduction_Price_Change <- readJPEG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Price_Change.jpg", native= TRUE)
+Introduction_Price_Change <- readJPEG("Introduction-Price_Change.jpg", native= TRUE)
 
 grid.raster(Introduction_Price_Change, interpolate=FALSE)
 ```
@@ -421,8 +421,8 @@ grid.raster(Introduction_Price_Change, interpolate=FALSE)
 library(png)
 library(grid)
 library(gridExtra)
-Introduction_Mean_Median_Earnings <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Mean_Median_Earnings.png")), interpolate = FALSE)
-Introduction_Low_Earnings <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Low_Earnings.png")), interpolate = FALSE)
+Introduction_Mean_Median_Earnings <-  rasterGrob(as.raster(readPNG("Introduction-Mean_Median_Earnings.png")), interpolate = FALSE)
+Introduction_Low_Earnings <-  rasterGrob(as.raster(readPNG("Introduction-Low_Earnings.png")), interpolate = FALSE)
 grid.arrange(Introduction_Mean_Median_Earnings, Introduction_Low_Earnings, ncol = 2)
 ```
 
@@ -434,8 +434,8 @@ grid.arrange(Introduction_Mean_Median_Earnings, Introduction_Low_Earnings, ncol 
 library(png)
 library(grid)
 library(gridExtra)
-Introduction_Real_Trend_GDP <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Real_Trend_GDP.png")), interpolate = FALSE)
-Introduction_GDP_Growth_Rate <-  rasterGrob(as.raster(readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-GDP_Growth_Rate.png")), interpolate = FALSE)
+Introduction_Real_Trend_GDP <-  rasterGrob(as.raster(readPNG("Introduction-Real_Trend_GDP.png")), interpolate = FALSE)
+Introduction_GDP_Growth_Rate <-  rasterGrob(as.raster(readPNG("Introduction-GDP_Growth_Rate.png")), interpolate = FALSE)
 grid.arrange(Introduction_Real_Trend_GDP, Introduction_GDP_Growth_Rate, ncol = 2)
 ```
 
@@ -444,7 +444,7 @@ grid.arrange(Introduction_Real_Trend_GDP, Introduction_GDP_Growth_Rate, ncol = 2
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Introduction_Nogales <- readPNG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Nogales.png", native= TRUE, info=TRUE)
+Introduction_Nogales <- readPNG("Introduction-Nogales.png", native= TRUE, info=TRUE)
 
 grid.raster(Introduction_Nogales, interpolate=FALSE)
 ```
@@ -453,7 +453,7 @@ grid.raster(Introduction_Nogales, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(jpeg)
 library(grid)
-Introduction_Africa <- readJPEG("C:/Users/iguzman/Desktop/Crecimiento Económico/Presentaciones/Introduction/Introduction-Africa.jpg", native= TRUE)
+Introduction_Africa <- readJPEG("Introduction-Africa.jpg", native= TRUE)
 
 grid.raster(Introduction_Africa, interpolate=FALSE)
 ```

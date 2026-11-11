@@ -48,7 +48,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_31 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Removing_Barriers.png", native= TRUE, info=TRUE)
+Labor_2_31 <- readPNG("Labor_2-Removing_Barriers.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_31, interpolate=FALSE)
 ```
@@ -62,7 +62,7 @@ grid.raster(Labor_2_31, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_52 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Elasticity_Substitution.png", native= TRUE, info=TRUE)
+Labor_2_52 <- readPNG("Labor_2-Elasticity_Substitution.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_52, interpolate=FALSE)
 ```
@@ -74,7 +74,7 @@ grid.raster(Labor_2_52, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_53 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gains_Closing_Gap.png", native= TRUE, info=TRUE)
+Labor_2_53 <- readPNG("Labor_2-Gains_Closing_Gap.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_53, interpolate=FALSE)
 ```
@@ -86,7 +86,7 @@ grid.raster(Labor_2_53, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_54 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gains_Eliminate_Barriers.png", native= TRUE, info=TRUE)
+Labor_2_54 <- readPNG("Labor_2-Gains_Eliminate_Barriers.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_54, interpolate=FALSE)
 ```
@@ -120,7 +120,7 @@ grid.raster(Labor_2_54, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_32 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Female_Labor_Cities.png", native= TRUE, info=TRUE)
+Labor_2_32 <- readPNG("Labor_2-Female_Labor_Cities.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_32, interpolate=FALSE)
 ```
@@ -168,7 +168,7 @@ grid.raster(Labor_2_32, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_59 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Gap_Growth.png", native= TRUE, info=TRUE)
+Labor_2_59 <- readPNG("Labor_2-Gender_Gap_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_59, interpolate=FALSE)
 ```
@@ -184,7 +184,7 @@ grid.raster(Labor_2_59, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_33 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Inequality_Growth.png", native= TRUE, info=TRUE)
+Labor_2_33 <- readPNG("Labor_2-Gender_Inequality_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_33, interpolate=FALSE)
 ```
@@ -244,7 +244,7 @@ Usando datos de O*Net se crearon dos índices para analizar a la población de E
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_42 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Potential_Risks.png", native= TRUE, info=TRUE)
+Labor_2_42 <- readPNG("Labor_2-Automation_Potential_Risks.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_42, interpolate=FALSE)
 ```
@@ -258,7 +258,7 @@ grid.raster(Labor_2_42, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_43 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Risks.png", native= TRUE, info=TRUE)
+Labor_2_43 <- readPNG("Labor_2-Automation_Risks.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_43, interpolate=FALSE)
 ```
@@ -270,7 +270,7 @@ grid.raster(Labor_2_43, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_44 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Automation_Index.png", native= TRUE, info=TRUE)
+Labor_2_44 <- readPNG("Labor_2-Automation_Index.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_44, interpolate=FALSE)
 ```
@@ -284,7 +284,7 @@ grid.raster(Labor_2_44, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_45 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Index.png", native= TRUE, info=TRUE)
+Labor_2_45 <- readPNG("Labor_2-Comparation_Index.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_45, interpolate=FALSE)
 ```
@@ -299,7 +299,7 @@ grid.raster(Labor_2_45, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_46 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Wages.png", native= TRUE, info=TRUE)
+Labor_2_46 <- readPNG("Labor_2-Comparation_Wages.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_46, interpolate=FALSE)
 ```
@@ -313,7 +313,7 @@ grid.raster(Labor_2_46, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_47 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Comparation_Education.png", native= TRUE, info=TRUE)
+Labor_2_47 <- readPNG("Labor_2-Comparation_Education.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_47, interpolate=FALSE)
 ```
@@ -335,7 +335,7 @@ consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_48 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gender_Unemployment.png", native= TRUE, info=TRUE)
+Labor_2_48 <- readPNG("Labor_2-Gender_Unemployment.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_48, interpolate=FALSE)
 ```
@@ -366,7 +366,7 @@ consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_49 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Gap_Recessions.png", native= TRUE, info=TRUE)
+Labor_2_49 <- readPNG("Labor_2-Gap_Recessions.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_49, interpolate=FALSE)
 ```
@@ -379,7 +379,7 @@ consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_50 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Marginal_Propensity_Consume.png", native= TRUE, info=TRUE)
+Labor_2_50 <- readPNG("Labor_2-Marginal_Propensity_Consume.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_50, interpolate=FALSE)
 ```
@@ -392,7 +392,7 @@ consequences (Alon , Doepke , Olmstead Rumsey , Tertilt; 2021)</span>
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_51 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Effect_Oppening_Schools.png", native= TRUE, info=TRUE)
+Labor_2_51 <- readPNG("Labor_2-Effect_Oppening_Schools.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_51, interpolate=FALSE)
 ```
@@ -406,7 +406,7 @@ grid.raster(Labor_2_51, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_34 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born.png", native= TRUE, info=TRUE)
+Labor_2_34 <- readPNG("Labor_2-Foreign_Born.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_34, interpolate=FALSE)
 ```
@@ -420,7 +420,7 @@ grid.raster(Labor_2_34, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_35 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Stock.png", native= TRUE, info=TRUE)
+Labor_2_35 <- readPNG("Labor_2-Foreign_Born_Stock.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_35, interpolate=FALSE)
 ```
@@ -434,7 +434,7 @@ grid.raster(Labor_2_35, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_36 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Regions.png", native= TRUE, info=TRUE)
+Labor_2_36 <- readPNG("Labor_2-Foreign_Born_Regions.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_36, interpolate=FALSE)
 ```
@@ -454,7 +454,7 @@ grid.raster(Labor_2_36, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_37 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Foreign_Born_Share.png", native= TRUE, info=TRUE)
+Labor_2_37 <- readPNG("Labor_2-Foreign_Born_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_37, interpolate=FALSE)
 ```
@@ -506,7 +506,7 @@ grid.raster(Labor_2_37, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_38 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-OECD_Population.png", native= TRUE, info=TRUE)
+Labor_2_38 <- readPNG("Labor_2-OECD_Population.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_38, interpolate=FALSE)
 ```
@@ -520,7 +520,7 @@ grid.raster(Labor_2_38, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_39 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Legal_Immigration.png", native= TRUE, info=TRUE)
+Labor_2_39 <- readPNG("Labor_2-Legal_Immigration.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_39, interpolate=FALSE)
 ```
@@ -534,7 +534,7 @@ grid.raster(Labor_2_39, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_40 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-High_Skilled_Immigration.png", native= TRUE, info=TRUE)
+Labor_2_40 <- readPNG("Labor_2-High_Skilled_Immigration.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_40, interpolate=FALSE)
 ```
@@ -548,7 +548,7 @@ grid.raster(Labor_2_40, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Labor_2_41 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Labor_2/Labor_2-Employment_High_Low.png", native= TRUE, info=TRUE)
+Labor_2_41 <- readPNG("Labor_2-Employment_High_Low.png", native= TRUE, info=TRUE)
 
 grid.raster(Labor_2_41, interpolate=FALSE)
 ```

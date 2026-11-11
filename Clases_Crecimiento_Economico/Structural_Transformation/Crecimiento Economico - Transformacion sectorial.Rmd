@@ -32,7 +32,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_US_Productivity_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-US_Productivity_Growth.png", native= TRUE, info=TRUE)
+Structural_Transformation_US_Productivity_Growth <- readPNG("Structural_Transformation-US_Productivity_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_US_Productivity_Growth, interpolate=FALSE)
 ```
@@ -48,7 +48,7 @@ grid.raster(Structural_Transformation_US_Productivity_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Share_Employment_New <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Share_Employment_New.png", native= TRUE, info=TRUE)
+Structural_Transformation_Share_Employment_New <- readPNG("Structural_Transformation-Share_Employment_New.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Share_Employment_New, interpolate=FALSE)
 ```
@@ -129,7 +129,7 @@ Conexiones políticas y acceso a crédito subsidiado
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Distribution_Plant_Size <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Distribution_Plant_Size.png", native= TRUE, info=TRUE)
+Structural_Transformation_Distribution_Plant_Size <- readPNG("Structural_Transformation-Distribution_Plant_Size.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Distribution_Plant_Size, interpolate=FALSE)
 ```
@@ -145,7 +145,7 @@ grid.raster(Structural_Transformation_Distribution_Plant_Size, interpolate=FALSE
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_TFP_Gains <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-TFP_Gains.png", native= TRUE, info=TRUE)
+Structural_Transformation_TFP_Gains <- readPNG("Structural_Transformation-TFP_Gains.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_TFP_Gains, interpolate=FALSE)
 ```
@@ -207,7 +207,7 @@ grid.raster(Structural_Transformation_TFP_Gains, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Aggregate_TFP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Aggregate_TFP.png", native= TRUE, info=TRUE)
+Structural_Transformation_Aggregate_TFP <- readPNG("Structural_Transformation-Aggregate_TFP.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Aggregate_TFP, interpolate=FALSE)
 ```
@@ -223,7 +223,7 @@ grid.raster(Structural_Transformation_Aggregate_TFP, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Between_Within <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Between_Within.png", native= TRUE, info=TRUE)
+Structural_Transformation_Between_Within <- readPNG("Structural_Transformation-Between_Within.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Between_Within, interpolate=FALSE)
 ```
@@ -237,7 +237,7 @@ grid.raster(Structural_Transformation_Between_Within, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Disorted_Solow_Residual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Disorted_Solow_Residual.png", native= TRUE, info=TRUE)
+Structural_Transformation_Disorted_Solow_Residual <- readPNG("Structural_Transformation-Disorted_Solow_Residual.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Disorted_Solow_Residual, interpolate=FALSE)
 ```
@@ -251,7 +251,7 @@ grid.raster(Structural_Transformation_Disorted_Solow_Residual, interpolate=FALSE
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Allocative_Efficiency <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Allocative_Efficiency.png", native= TRUE, info=TRUE)
+Structural_Transformation_Allocative_Efficiency <- readPNG("Structural_Transformation-Allocative_Efficiency.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Allocative_Efficiency, interpolate=FALSE)
 ```
@@ -267,7 +267,7 @@ grid.raster(Structural_Transformation_Allocative_Efficiency, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Disorted_Representative <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Disorted_Representative.png", native= TRUE, info=TRUE)
+Structural_Transformation_Disorted_Representative <- readPNG("Structural_Transformation-Disorted_Representative.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Disorted_Representative, interpolate=FALSE)
 ```
@@ -279,7 +279,7 @@ grid.raster(Structural_Transformation_Disorted_Representative, interpolate=FALSE
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Gains_Eliminating_Markups <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Gains_Eliminating_Markups.png", native= TRUE, info=TRUE)
+Structural_Transformation_Gains_Eliminating_Markups <- readPNG("Structural_Transformation-Gains_Eliminating_Markups.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Gains_Eliminating_Markups, interpolate=FALSE)
 ```
@@ -291,7 +291,7 @@ grid.raster(Structural_Transformation_Gains_Eliminating_Markups, interpolate=FAL
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Gains_TFP_Markups <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Gains_TFP_Markups.png", native= TRUE, info=TRUE)
+Structural_Transformation_Gains_TFP_Markups <- readPNG("Structural_Transformation-Gains_TFP_Markups.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Gains_TFP_Markups, interpolate=FALSE)
 ```
@@ -305,7 +305,7 @@ grid.raster(Structural_Transformation_Gains_TFP_Markups, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Evolution_Markup <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Evolution_Markup.png", native= TRUE, info=TRUE)
+Structural_Transformation_Evolution_Markup <- readPNG("Structural_Transformation-Evolution_Markup.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Evolution_Markup, interpolate=FALSE)
 ```
@@ -320,7 +320,7 @@ grid.raster(Structural_Transformation_Evolution_Markup, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Decomposition_Market_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Decomposition_Market_Share.png", native= TRUE, info=TRUE)
+Structural_Transformation_Decomposition_Market_Share <- readPNG("Structural_Transformation-Decomposition_Market_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Decomposition_Market_Share, interpolate=FALSE)
 ```
@@ -334,7 +334,7 @@ grid.raster(Structural_Transformation_Decomposition_Market_Share, interpolate=FA
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Evolution_Distribution_Markup <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Evolution_Distribution_Markup.png", native= TRUE, info=TRUE)
+Structural_Transformation_Evolution_Distribution_Markup <- readPNG("Structural_Transformation-Evolution_Distribution_Markup.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Evolution_Distribution_Markup, interpolate=FALSE)
 ```
@@ -348,7 +348,7 @@ grid.raster(Structural_Transformation_Evolution_Distribution_Markup, interpolate
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Evolution_Labor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Evolution_Labor_Share.png", native= TRUE, info=TRUE)
+Structural_Transformation_Evolution_Labor_Share <- readPNG("Structural_Transformation-Evolution_Labor_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Evolution_Labor_Share, interpolate=FALSE)
 ```
@@ -362,7 +362,7 @@ grid.raster(Structural_Transformation_Evolution_Labor_Share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Evolution_Capital_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Evolution_Capital_Share.png", native= TRUE, info=TRUE)
+Structural_Transformation_Evolution_Capital_Share <- readPNG("Structural_Transformation-Evolution_Capital_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Evolution_Capital_Share, interpolate=FALSE)
 ```
@@ -376,7 +376,7 @@ grid.raster(Structural_Transformation_Evolution_Capital_Share, interpolate=FALSE
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Evolution_Median_Wages <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Evolution_Median_Wages.png", native= TRUE, info=TRUE)
+Structural_Transformation_Evolution_Median_Wages <- readPNG("Structural_Transformation-Evolution_Median_Wages.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Evolution_Median_Wages, interpolate=FALSE)
 ```
@@ -388,7 +388,7 @@ grid.raster(Structural_Transformation_Evolution_Median_Wages, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Price_Changes <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Price_Changes.png", native= TRUE, info=TRUE)
+Structural_Transformation_Price_Changes <- readPNG("Structural_Transformation-Price_Changes.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Price_Changes, interpolate=FALSE)
 ```
@@ -462,7 +462,7 @@ grid.raster(Structural_Transformation_Price_Changes, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Roy <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Roy.png", native= TRUE, info=TRUE)
+Structural_Transformation_Roy <- readPNG("Structural_Transformation-Roy.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Roy, interpolate=FALSE)
 ```
@@ -490,7 +490,7 @@ grid.raster(Structural_Transformation_Roy, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Cost_Education <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Cost_Education.png", native= TRUE, info=TRUE)
+Structural_Transformation_Cost_Education <- readPNG("Structural_Transformation-Cost_Education.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Cost_Education, interpolate=FALSE)
 ```
@@ -504,7 +504,7 @@ grid.raster(Structural_Transformation_Cost_Education, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Life_Expectancy_Healthcare <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Life_Expectancy_Healthcare.png", native= TRUE, info=TRUE)
+Structural_Transformation_Life_Expectancy_Healthcare <- readPNG("Structural_Transformation-Life_Expectancy_Healthcare.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Life_Expectancy_Healthcare, interpolate=FALSE)
 ```
@@ -551,7 +551,7 @@ Es decir, una parte del dinero que recibiría la gente se devuelve a la educaci�
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Structural_Transformation_Contribution_Sector <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Structural_Transformation/Structural_Transformation-Contribution_Sector.png", native= TRUE, info=TRUE)
+Structural_Transformation_Contribution_Sector <- readPNG("Structural_Transformation-Contribution_Sector.png", native= TRUE, info=TRUE)
 
 grid.raster(Structural_Transformation_Contribution_Sector, interpolate=FALSE)
 ```

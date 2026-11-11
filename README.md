@@ -27,3 +27,4 @@ Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 202
 
 - Abre las notas HTML en el navegador desde una copia local del repositorio. Si descargas una nota con recursos asociados, conserva sus rutas.
 - Las carpetas también contienen fuentes R Markdown (`.Rmd`) de notas y presentaciones. Para regenerarlas, revisa los paquetes, estilos y archivos de datos que indica cada fuente.
+- La [verificación de rutas e imágenes](PORTABILIDAD_RMD.md) comprueba las lecturas locales de las fuentes R Markdown y documenta sus límites de reproducción.

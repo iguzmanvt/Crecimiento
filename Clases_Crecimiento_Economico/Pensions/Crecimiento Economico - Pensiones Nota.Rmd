@@ -22,7 +22,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_33 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Taxes_Inefficiency.png", native= TRUE, info=TRUE)
+Pensions_33 <- readPNG("Pensions-Taxes_Inefficiency.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_33, interpolate=FALSE)
 ```
@@ -32,7 +32,7 @@ grid.raster(Pensions_33, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_34 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Taxes_Efficiency.png", native= TRUE, info=TRUE)
+Pensions_34 <- readPNG("Pensions-Taxes_Efficiency.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_34, interpolate=FALSE)
 ```
@@ -64,7 +64,7 @@ grid.raster(Pensions_34, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_1 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-DC_DB.png", native= TRUE, info=TRUE)
+Pensions_1 <- readPNG("Pensions-DC_DB.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_1, interpolate=FALSE)
 ```
@@ -76,7 +76,7 @@ grid.raster(Pensions_1, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-DC_DB_2.png", native= TRUE, info=TRUE)
+Pensions_2 <- readPNG("Pensions-DC_DB_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_2, interpolate=FALSE)
 ```
@@ -104,7 +104,7 @@ grid.raster(Pensions_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_3 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_1.png", native= TRUE, info=TRUE)
+Pensions_3 <- readPNG("Pensions-Cipriani_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_3, interpolate=FALSE)
 ```
@@ -116,7 +116,7 @@ grid.raster(Pensions_3, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_4 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_2.png", native= TRUE, info=TRUE)
+Pensions_4 <- readPNG("Pensions-Cipriani_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_4, interpolate=FALSE)
 ```
@@ -128,7 +128,7 @@ grid.raster(Pensions_4, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_5 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Cipriani_3.png", native= TRUE, info=TRUE)
+Pensions_5 <- readPNG("Pensions-Cipriani_3.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_5, interpolate=FALSE)
 ```
@@ -186,7 +186,7 @@ grid.raster(Pensions_5, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_6 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Meijdam_Verbon_1.png", native= TRUE, info=TRUE)
+Pensions_6 <- readPNG("Pensions-Meijdam_Verbon_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_6, interpolate=FALSE)
 ```
@@ -198,7 +198,7 @@ grid.raster(Pensions_6, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_7 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Meijdam_Verbon_2.png", native= TRUE, info=TRUE)
+Pensions_7 <- readPNG("Pensions-Meijdam_Verbon_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_7, interpolate=FALSE)
 ```
@@ -276,7 +276,7 @@ grid.raster(Pensions_7, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_8 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_1.png", native= TRUE, info=TRUE)
+Pensions_8 <- readPNG("Pensions-Miyazaki_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_8, interpolate=FALSE)
 ```
@@ -288,7 +288,7 @@ grid.raster(Pensions_8, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_9 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_2.png", native= TRUE, info=TRUE)
+Pensions_9 <- readPNG("Pensions-Miyazaki_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_9, interpolate=FALSE)
 ```
@@ -300,7 +300,7 @@ grid.raster(Pensions_9, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_10 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Miyazaki_3.png", native= TRUE, info=TRUE)
+Pensions_10 <- readPNG("Pensions-Miyazaki_3.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_10, interpolate=FALSE)
 ```
@@ -372,7 +372,7 @@ grid.raster(Pensions_10, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_11 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Breyer_1.png", native= TRUE, info=TRUE)
+Pensions_11 <- readPNG("Pensions-Breyer_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_11, interpolate=FALSE)
 ```
@@ -384,7 +384,7 @@ grid.raster(Pensions_11, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_12 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Breyer_2.png", native= TRUE, info=TRUE)
+Pensions_12 <- readPNG("Pensions-Breyer_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_12, interpolate=FALSE)
 ```
@@ -458,7 +458,7 @@ grid.raster(Pensions_12, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_13 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Mexico_Demographics.png", native= TRUE, info=TRUE)
+Pensions_13 <- readPNG("Pensions-Mexico_Demographics.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_13, interpolate=FALSE)
 ```
@@ -468,7 +468,7 @@ grid.raster(Pensions_13, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_14 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Mexico_Dependency_Ratio.png", native= TRUE, info=TRUE)
+Pensions_14 <- readPNG("Pensions-Mexico_Dependency_Ratio.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_14, interpolate=FALSE)
 ```
@@ -518,7 +518,7 @@ La reforma implicó tres costos principales.
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_15 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-OECD_Funding.png", native= TRUE, info=TRUE)
+Pensions_15 <- readPNG("Pensions-OECD_Funding.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_15, interpolate=FALSE)
 ```
@@ -558,7 +558,7 @@ Sin embargo, la cobertura de empleo y pensiones no se ha desarrollado como se es
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_16 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-BBVA_1.png", native= TRUE, info=TRUE)
+Pensions_16 <- readPNG("Pensions-BBVA_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_16, interpolate=FALSE)
 ```
@@ -572,7 +572,7 @@ grid.raster(Pensions_16, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_17 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-BBVA_2.png", native= TRUE, info=TRUE)
+Pensions_17 <- readPNG("Pensions-BBVA_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_17, interpolate=FALSE)
 ```
@@ -598,7 +598,7 @@ grid.raster(Pensions_17, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_18 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Salary_Distribution.png", native= TRUE, info=TRUE)
+Pensions_18 <- readPNG("Pensions-Salary_Distribution.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_18, interpolate=FALSE)
 ```
@@ -610,7 +610,7 @@ grid.raster(Pensions_18, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_19 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Monthly_Income.png", native= TRUE, info=TRUE)
+Pensions_19 <- readPNG("Pensions-Monthly_Income.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_19, interpolate=FALSE)
 ```
@@ -622,7 +622,7 @@ grid.raster(Pensions_19, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_20 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Deciles_Income.png", native= TRUE, info=TRUE)
+Pensions_20 <- readPNG("Pensions-Deciles_Income.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_20, interpolate=FALSE)
 ```
@@ -634,7 +634,7 @@ grid.raster(Pensions_20, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_21 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Contributors_Distribution.png", native= TRUE, info=TRUE)
+Pensions_21 <- readPNG("Pensions-Contributors_Distribution.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_21, interpolate=FALSE)
 ```
@@ -646,7 +646,7 @@ grid.raster(Pensions_21, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_22 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Labor_Coverage.png", native= TRUE, info=TRUE)
+Pensions_22 <- readPNG("Pensions-Labor_Coverage.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_22, interpolate=FALSE)
 ```
@@ -658,7 +658,7 @@ grid.raster(Pensions_22, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_23 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Fiscal_Cost.png", native= TRUE, info=TRUE)
+Pensions_23 <- readPNG("Pensions-Fiscal_Cost.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_23, interpolate=FALSE)
 ```
@@ -684,7 +684,7 @@ grid.raster(Pensions_23, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_24 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japanese_Population.png", native= TRUE, info=TRUE)
+Pensions_24 <- readPNG("Pensions-Japanese_Population.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_24, interpolate=FALSE)
 ```
@@ -698,7 +698,7 @@ grid.raster(Pensions_24, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_25 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Fertility_Rate.png", native= TRUE, info=TRUE)
+Pensions_25 <- readPNG("Pensions-Japan_Fertility_Rate.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_25, interpolate=FALSE)
 ```
@@ -712,7 +712,7 @@ grid.raster(Pensions_25, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_26 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Life_Expectancy.png", native= TRUE, info=TRUE)
+Pensions_26 <- readPNG("Pensions-Japan_Life_Expectancy.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_26, interpolate=FALSE)
 ```
@@ -726,7 +726,7 @@ grid.raster(Pensions_26, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_27 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Dependency_Ratio.png", native= TRUE, info=TRUE)
+Pensions_27 <- readPNG("Pensions-Dependency_Ratio.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_27, interpolate=FALSE)
 ```
@@ -756,7 +756,7 @@ grid.raster(Pensions_27, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_28 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_No_Reform.png", native= TRUE, info=TRUE)
+Pensions_28 <- readPNG("Pensions-Japan_No_Reform.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_28, interpolate=FALSE)
 ```
@@ -770,7 +770,7 @@ grid.raster(Pensions_28, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_29 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Reform.png", native= TRUE, info=TRUE)
+Pensions_29 <- readPNG("Pensions-Japan_Reform.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_29, interpolate=FALSE)
 ```
@@ -784,7 +784,7 @@ grid.raster(Pensions_29, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Pensions_30 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Pensions/Pensions-Japan_Welfare_Reform.png", native= TRUE, info=TRUE)
+Pensions_30 <- readPNG("Pensions-Japan_Welfare_Reform.png", native= TRUE, info=TRUE)
 
 grid.raster(Pensions_30, interpolate=FALSE)
 ```

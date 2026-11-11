@@ -24,7 +24,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_US_Economic_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-US_Economic_Growth.png", native= TRUE, info=TRUE)
+Slowdown_US_Economic_Growth <- readPNG("Slowdown-US_Economic_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_US_Economic_Growth, interpolate=FALSE)
 ```
@@ -48,7 +48,7 @@ grid.raster(Slowdown_US_Economic_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Labor_Share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Share.png", native= TRUE, info=TRUE)
+Slowdown_Labor_Share <- readPNG("Slowdown-Labor_Share.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Labor_Share, interpolate=FALSE)
 ```
@@ -88,7 +88,7 @@ grid.raster(Slowdown_Labor_Share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_GDP_Components <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-GDP_Components.png", native= TRUE, info=TRUE)
+Slowdown_GDP_Components <- readPNG("Slowdown-GDP_Components.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_GDP_Components, interpolate=FALSE)
 ```
@@ -102,7 +102,7 @@ grid.raster(Slowdown_GDP_Components, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Growth_Accounting <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Growth_Accounting.png", native= TRUE, info=TRUE)
+Slowdown_Growth_Accounting <- readPNG("Slowdown-Growth_Accounting.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Growth_Accounting, interpolate=FALSE)
 ```
@@ -136,7 +136,7 @@ grid.raster(Slowdown_Growth_Accounting, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Alternative_Futures <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Alternative_Futures.png", native= TRUE, info=TRUE)
+Slowdown_Alternative_Futures <- readPNG("Slowdown-Alternative_Futures.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Alternative_Futures, interpolate=FALSE)
 ```
@@ -158,7 +158,7 @@ grid.raster(Slowdown_Alternative_Futures, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_RD_Expenditure <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-RD_Expenditure.png", native= TRUE, info=TRUE)
+Slowdown_RD_Expenditure <- readPNG("Slowdown-RD_Expenditure.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_RD_Expenditure, interpolate=FALSE)
 ```
@@ -178,7 +178,7 @@ grid.raster(Slowdown_RD_Expenditure, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Manufacturing_Output <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Manufacturing_Output.png", native= TRUE, info=TRUE)
+Slowdown_Manufacturing_Output <- readPNG("Slowdown-Manufacturing_Output.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Manufacturing_Output, interpolate=FALSE)
 ```
@@ -198,7 +198,7 @@ grid.raster(Slowdown_Manufacturing_Output, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Manufacturing_US <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Manufacturing_US.png", native= TRUE, info=TRUE)
+Slowdown_Manufacturing_US <- readPNG("Slowdown-Manufacturing_US.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Manufacturing_US, interpolate=FALSE)
 ```
@@ -222,7 +222,7 @@ grid.raster(Slowdown_Manufacturing_US, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Nominal_Real_Manufacturing <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Nominal_Real_Manufacturing.png", native= TRUE, info=TRUE)
+Slowdown_Nominal_Real_Manufacturing <- readPNG("Slowdown-Nominal_Real_Manufacturing.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Nominal_Real_Manufacturing, interpolate=FALSE)
 ```
@@ -234,7 +234,7 @@ grid.raster(Slowdown_Nominal_Real_Manufacturing, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Job_Creation_Destruction <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Job_Creation_Destruction.png", native= TRUE, info=TRUE)
+Slowdown_Job_Creation_Destruction <- readPNG("Slowdown-Job_Creation_Destruction.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Job_Creation_Destruction, interpolate=FALSE)
 ```
@@ -254,7 +254,7 @@ grid.raster(Slowdown_Job_Creation_Destruction, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Share_Young_Firms <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Share_Young_Firms.png", native= TRUE, info=TRUE)
+Slowdown_Share_Young_Firms <- readPNG("Slowdown-Share_Young_Firms.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Share_Young_Firms, interpolate=FALSE)
 ```
@@ -266,7 +266,7 @@ grid.raster(Slowdown_Share_Young_Firms, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Job_Reallocation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Job_Reallocation.png", native= TRUE, info=TRUE)
+Slowdown_Job_Reallocation <- readPNG("Slowdown-Job_Reallocation.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Job_Reallocation, interpolate=FALSE)
 ```
@@ -289,7 +289,7 @@ grid.raster(Slowdown_Job_Reallocation, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Within_Labor_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Within_Labor_Productivity.png", native= TRUE, info=TRUE)
+Slowdown_Within_Labor_Productivity <- readPNG("Slowdown-Within_Labor_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Within_Labor_Productivity, interpolate=FALSE)
 ```
@@ -313,7 +313,7 @@ grid.raster(Slowdown_Within_Labor_Productivity, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Tech_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Tech_Productivity.png", native= TRUE, info=TRUE)
+Slowdown_Tech_Productivity <- readPNG("Slowdown-Tech_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Tech_Productivity, interpolate=FALSE)
 ```
@@ -329,7 +329,7 @@ grid.raster(Slowdown_Tech_Productivity, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Tech_Contribution_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Tech_Contribution_GDP.png", native= TRUE, info=TRUE)
+Slowdown_Tech_Contribution_GDP <- readPNG("Slowdown-Tech_Contribution_GDP.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Tech_Contribution_GDP, interpolate=FALSE)
 ```
@@ -349,7 +349,7 @@ grid.raster(Slowdown_Tech_Contribution_GDP, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Labor_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Growth.png", native= TRUE, info=TRUE)
+Slowdown_Labor_Growth <- readPNG("Slowdown-Labor_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Labor_Growth, interpolate=FALSE)
 ```
@@ -369,7 +369,7 @@ grid.raster(Slowdown_Labor_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Entry_Rate <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Entry_Rate.png", native= TRUE, info=TRUE)
+Slowdown_Entry_Rate <- readPNG("Slowdown-Entry_Rate.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Entry_Rate, interpolate=FALSE)
 ```
@@ -389,7 +389,7 @@ grid.raster(Slowdown_Entry_Rate, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Business_Dynamics <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Business_Dynamics.png", native= TRUE, info=TRUE)
+Slowdown_Business_Dynamics <- readPNG("Slowdown-Business_Dynamics.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Business_Dynamics, interpolate=FALSE)
 ```
@@ -430,7 +430,7 @@ grid.raster(Slowdown_Business_Dynamics, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Iron_Productivity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Iron_Productivity.png", native= TRUE, info=TRUE)
+Slowdown_Iron_Productivity <- readPNG("Slowdown-Iron_Productivity.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Iron_Productivity, interpolate=FALSE)
 
@@ -453,7 +453,7 @@ grid.raster(Slowdown_Iron_Productivity, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Iron_Productivity_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Iron_Productivity_2.png", native= TRUE, info=TRUE)
+Slowdown_Iron_Productivity_2 <- readPNG("Slowdown-Iron_Productivity_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Iron_Productivity_2, interpolate=FALSE)
 ```
@@ -480,8 +480,8 @@ grid.raster(Slowdown_Iron_Productivity_2, interpolate=FALSE)
 library(png)
 library(grid)
 library(gridExtra)
-Slowdown_UK_Output <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Output.png")), interpolate = FALSE)
-Slowdown_UK_Productivity <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Productivity.png")), interpolate = FALSE)
+Slowdown_UK_Output <-  rasterGrob(as.raster(readPNG("Slowdown-UK_Output.png")), interpolate = FALSE)
+Slowdown_UK_Productivity <-  rasterGrob(as.raster(readPNG("Slowdown-UK_Productivity.png")), interpolate = FALSE)
 grid.arrange(Slowdown_UK_Output, Slowdown_UK_Productivity, ncol = 2)
 ```
     
@@ -503,8 +503,8 @@ grid.arrange(Slowdown_UK_Output, Slowdown_UK_Productivity, ncol = 2)
 library(png)
 library(grid)
 library(gridExtra)
-Slowdown_UK_Output_Adjusted <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Output_Adjusted.png")), interpolate = FALSE)
-Slowdown_UK_Capital_Growth <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-UK_Capital_Growth.png")), interpolate = FALSE)
+Slowdown_UK_Output_Adjusted <-  rasterGrob(as.raster(readPNG("Slowdown-UK_Output_Adjusted.png")), interpolate = FALSE)
+Slowdown_UK_Capital_Growth <-  rasterGrob(as.raster(readPNG("Slowdown-UK_Capital_Growth.png")), interpolate = FALSE)
 grid.arrange(Slowdown_UK_Output_Adjusted, Slowdown_UK_Capital_Growth, ncol = 2)
 ```
 
@@ -548,7 +548,7 @@ grid.arrange(Slowdown_UK_Output_Adjusted, Slowdown_UK_Capital_Growth, ncol = 2)
 library(png)
 library(grid)
 library(gridExtra)
-Slowdown_Labor_Productivity <-  rasterGrob(as.raster(readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Productivity.png")), interpolate=FALSE)
+Slowdown_Labor_Productivity <-  rasterGrob(as.raster(readPNG("Slowdown-Labor_Productivity.png")), interpolate=FALSE)
 grid.arrange(Slowdown_Labor_Productivity)
 ```
 
@@ -567,7 +567,7 @@ grid.arrange(Slowdown_Labor_Productivity)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Labor_Productivity_Change <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Labor_Productivity_Change.png", native= TRUE, info=TRUE)
+Slowdown_Labor_Productivity_Change <- readPNG("Slowdown-Labor_Productivity_Change.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Labor_Productivity_Change, interpolate=FALSE)
 ```
@@ -612,7 +612,7 @@ grid.raster(Slowdown_Labor_Productivity_Change, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_GDI_GDP <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-GDI_GDP.png", native= TRUE, info=TRUE)
+Slowdown_GDI_GDP <- readPNG("Slowdown-GDI_GDP.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_GDI_GDP, interpolate=FALSE)
 ```
@@ -632,7 +632,7 @@ grid.raster(Slowdown_GDI_GDP, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_China_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-China_Growth.png", native= TRUE, info=TRUE)
+Slowdown_China_Growth <- readPNG("Slowdown-China_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_China_Growth, interpolate=FALSE)
 ```
@@ -655,7 +655,7 @@ grid.raster(Slowdown_China_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_Accounting_China <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-Accounting_China.png", native= TRUE, info=TRUE)
+Slowdown_Accounting_China <- readPNG("Slowdown-Accounting_China.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_Accounting_China, interpolate=FALSE)
 ```
@@ -689,7 +689,7 @@ grid.raster(Slowdown_Accounting_China, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_South_Asia_Trend <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-South_Asia_Trend.png", native= TRUE, info=TRUE)
+Slowdown_South_Asia_Trend <- readPNG("Slowdown-South_Asia_Trend.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_South_Asia_Trend, interpolate=FALSE)
 ```
@@ -722,7 +722,7 @@ grid.raster(Slowdown_South_Asia_Trend, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_EU_Cities <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-EU_Cities.png", native= TRUE, info=TRUE)
+Slowdown_EU_Cities <- readPNG("Slowdown-EU_Cities.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_EU_Cities, interpolate=FALSE)
 ```
@@ -740,7 +740,7 @@ grid.raster(Slowdown_EU_Cities, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Slowdown_EU_Cities_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Slowdown/Slowdown-EU_Cities_2.png", native= TRUE, info=TRUE)
+Slowdown_EU_Cities_2 <- readPNG("Slowdown-EU_Cities_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Slowdown_EU_Cities_2, interpolate=FALSE)
 ```

@@ -66,7 +66,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Convergence_Type <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Convergence_Type.png", native= TRUE, info=TRUE)
+Convergence_Convergence_Type <- readPNG("Convergence-Convergence_Type.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Convergence_Type, interpolate=FALSE)
 ```
@@ -88,7 +88,7 @@ grid.raster(Convergence_Convergence_Type, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Convergence_World <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Convergence_World.png", native= TRUE, info=TRUE)
+Convergence_Convergence_World <- readPNG("Convergence-Convergence_World.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Convergence_World, interpolate=FALSE)
 ```
@@ -112,7 +112,7 @@ grid.raster(Convergence_Convergence_World, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Beta_Convergence <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Beta_Convergence.png", native= TRUE, info=TRUE)
+Convergence_Beta_Convergence <- readPNG("Convergence-Beta_Convergence.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Beta_Convergence, interpolate=FALSE)
 ```
@@ -219,7 +219,7 @@ $t=\frac{\frac{Ln (0.9)}{Ln(0.1)}-1}{\beta}$
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Convergence_1960_2000 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Convergence_1960_2000.png", native= TRUE, info=TRUE)
+Convergence_Convergence_1960_2000 <- readPNG("Convergence-Convergence_1960_2000.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Convergence_1960_2000, interpolate=FALSE)
 ```
@@ -242,7 +242,7 @@ grid.raster(Convergence_Convergence_1960_2000, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Middle_Income_Trap <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Middle_Income_Trap.png", native= TRUE, info=TRUE)
+Convergence_Middle_Income_Trap <- readPNG("Convergence-Middle_Income_Trap.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Middle_Income_Trap, interpolate=FALSE)
 ```
@@ -266,7 +266,7 @@ grid.raster(Convergence_Middle_Income_Trap, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Chiquiar_1 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Chiquiar_1.png", native= TRUE, info=TRUE)
+Convergence_Chiquiar_1 <- readPNG("Convergence-Chiquiar_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Chiquiar_1, interpolate=FALSE)
 ```
@@ -280,7 +280,7 @@ grid.raster(Convergence_Chiquiar_1, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Chiquiar_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Chiquiar_2.png", native= TRUE, info=TRUE)
+Convergence_Chiquiar_2 <- readPNG("Convergence-Chiquiar_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Chiquiar_2, interpolate=FALSE)
 ```
@@ -294,7 +294,7 @@ grid.raster(Convergence_Chiquiar_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_US_Convergence <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-US_Convergence.png", native= TRUE, info=TRUE)
+Convergence_US_Convergence <- readPNG("Convergence-US_Convergence.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_US_Convergence, interpolate=FALSE)
 ```
@@ -308,7 +308,7 @@ grid.raster(Convergence_US_Convergence, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Mexico_Indicators_1 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Mexico_Indicators_1.png", native= TRUE, info=TRUE)
+Convergence_Mexico_Indicators_1 <- readPNG("Convergence-Mexico_Indicators_1.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Mexico_Indicators_1, interpolate=FALSE)
 ```
@@ -322,7 +322,7 @@ grid.raster(Convergence_Mexico_Indicators_1, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Mexico_Indicators_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Mexico_Indicators_2.png", native= TRUE, info=TRUE)
+Convergence_Mexico_Indicators_2 <- readPNG("Convergence-Mexico_Indicators_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Mexico_Indicators_2, interpolate=FALSE)
 ```
@@ -336,7 +336,7 @@ grid.raster(Convergence_Mexico_Indicators_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Convergence_Indicators <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Convergence_Indicators.png", native= TRUE, info=TRUE)
+Convergence_Convergence_Indicators <- readPNG("Convergence-Convergence_Indicators.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Convergence_Indicators, interpolate=FALSE)
 ```
@@ -350,7 +350,7 @@ grid.raster(Convergence_Convergence_Indicators, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Absolute_Convergence <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Absolute_Convergence.png", native= TRUE, info=TRUE)
+Convergence_Absolute_Convergence <- readPNG("Convergence-Absolute_Convergence.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Absolute_Convergence, interpolate=FALSE)
 ```
@@ -380,7 +380,7 @@ grid.raster(Convergence_Absolute_Convergence, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Absolute_Convergence_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Absolute_Convergence_2.png", native= TRUE, info=TRUE)
+Convergence_Absolute_Convergence_2 <- readPNG("Convergence-Absolute_Convergence_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Absolute_Convergence_2, interpolate=FALSE)
 ```
@@ -396,7 +396,7 @@ Modelo: $(\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Absolute_Convergence_Periods <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Absolute_Convergence_Periods.png", native= TRUE, info=TRUE)
+Convergence_Absolute_Convergence_Periods <- readPNG("Convergence-Absolute_Convergence_Periods.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Absolute_Convergence_Periods, interpolate=FALSE)
 ```
@@ -437,7 +437,7 @@ Modelo: $(\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Conditional_Convergence_Periods <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Conditional_Convergence_Periods.png", native= TRUE, info=TRUE)
+Convergence_Conditional_Convergence_Periods <- readPNG("Convergence-Conditional_Convergence_Periods.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Conditional_Convergence_Periods, interpolate=FALSE)
 ```
@@ -489,7 +489,7 @@ grid.raster(Convergence_Conditional_Convergence_Periods, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_US_Change_College <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-US_Change_College.png", native= TRUE, info=TRUE)
+Convergence_US_Change_College <- readPNG("Convergence-US_Change_College.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_US_Change_College, interpolate=FALSE)
 ```
@@ -516,7 +516,7 @@ grid.raster(Convergence_US_Change_College, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Salaries_High_School <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Salaries_High_School.png", native= TRUE, info=TRUE)
+Convergence_Salaries_High_School <- readPNG("Convergence-Salaries_High_School.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Salaries_High_School, interpolate=FALSE)
 ```
@@ -554,7 +554,7 @@ grid.raster(Convergence_Salaries_High_School, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Headcount_Poverty_Rates <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Headcount_Poverty_Rates.png", native= TRUE, info=TRUE)
+Convergence_Headcount_Poverty_Rates <- readPNG("Convergence-Headcount_Poverty_Rates.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Headcount_Poverty_Rates, interpolate=FALSE)
 ```
@@ -582,7 +582,7 @@ grid.raster(Convergence_Headcount_Poverty_Rates, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Quartile_Poverty_Rates <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Quartile_Poverty_Rates.png", native= TRUE, info=TRUE)
+Convergence_Quartile_Poverty_Rates <- readPNG("Convergence-Quartile_Poverty_Rates.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Quartile_Poverty_Rates, interpolate=FALSE)
 ```
@@ -598,7 +598,7 @@ grid.raster(Convergence_Quartile_Poverty_Rates, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Headcount_Poverty_Rates_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Headcount_Poverty_Rates_2.png", native= TRUE, info=TRUE)
+Convergence_Headcount_Poverty_Rates_2 <- readPNG("Convergence-Headcount_Poverty_Rates_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Headcount_Poverty_Rates_2, interpolate=FALSE)
 ```
@@ -614,7 +614,7 @@ grid.raster(Convergence_Headcount_Poverty_Rates_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_RCTs <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-RCTs.png", native= TRUE, info=TRUE)
+Convergence_RCTs <- readPNG("Convergence-RCTs.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_RCTs, interpolate=FALSE)
 ```
@@ -655,7 +655,7 @@ $Magnitud_F=Y_{t+N_{EP}}^{Actual} - Y_{t+N_{EP}}^{Contrafactual}$
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Acceleration_Types <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Acceleration_Types.png", native= TRUE, info=TRUE)
+Convergence_Acceleration_Types <- readPNG("Convergence-Acceleration_Types.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Acceleration_Types, interpolate=FALSE)
 ```
@@ -679,7 +679,7 @@ grid.raster(Convergence_Acceleration_Types, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Acceleration_Brazil <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Acceleration_Brazil.png", native= TRUE, info=TRUE)
+Convergence_Acceleration_Brazil <- readPNG("Convergence-Acceleration_Brazil.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Acceleration_Brazil, interpolate=FALSE)
 ```
@@ -693,7 +693,7 @@ grid.raster(Convergence_Acceleration_Brazil, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Sustained_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Sustained_Growth.png", native= TRUE, info=TRUE)
+Convergence_Sustained_Growth <- readPNG("Convergence-Sustained_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Sustained_Growth, interpolate=FALSE)
 ```
@@ -707,7 +707,7 @@ grid.raster(Convergence_Sustained_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Non_Sustained_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Non_Sustained_Growth.png", native= TRUE, info=TRUE)
+Convergence_Non_Sustained_Growth <- readPNG("Convergence-Non_Sustained_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Non_Sustained_Growth, interpolate=FALSE)
 ```
@@ -721,7 +721,7 @@ grid.raster(Convergence_Non_Sustained_Growth, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Distribution_Growth <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Distribution_Growth.png", native= TRUE, info=TRUE)
+Convergence_Distribution_Growth <- readPNG("Convergence-Distribution_Growth.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Distribution_Growth, interpolate=FALSE)
 ```
@@ -779,7 +779,7 @@ Sugiere que lograr un crecimiento rápido a mediano plazo no es algo que sea muy
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Depressions <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Depressions.png", native= TRUE, info=TRUE)
+Convergence_Depressions <- readPNG("Convergence-Depressions.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Depressions, interpolate=FALSE)
 ```
@@ -825,7 +825,7 @@ Es probable que las estrategias de crecimiento difieran según las oportunidades
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Convergence_Growth_Diagnostics <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Convergence/Convergence-Growth_Diagnostics.png", native= TRUE, info=TRUE)
+Convergence_Growth_Diagnostics <- readPNG("Convergence-Growth_Diagnostics.png", native= TRUE, info=TRUE)
 
 grid.raster(Convergence_Growth_Diagnostics, interpolate=FALSE)
 ```

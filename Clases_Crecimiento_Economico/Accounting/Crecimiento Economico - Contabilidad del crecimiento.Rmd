@@ -126,7 +126,7 @@ $$
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Accounting_Growth_Accounting <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Accounting/Accounting-Growth_Accounting.png", native= TRUE, info=TRUE)
+Accounting_Growth_Accounting <- readPNG("Accounting-Growth_Accounting.png", native= TRUE, info=TRUE)
 
 grid.raster(Accounting_Growth_Accounting, interpolate=FALSE)
 ```
@@ -136,7 +136,7 @@ grid.raster(Accounting_Growth_Accounting, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Accounting_Growth_Accounting_2 <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Accounting/Accounting-Growth_Accounting_2.png", native= TRUE, info=TRUE)
+Accounting_Growth_Accounting_2 <- readPNG("Accounting-Growth_Accounting_2.png", native= TRUE, info=TRUE)
 
 grid.raster(Accounting_Growth_Accounting_2, interpolate=FALSE)
 ```
@@ -146,7 +146,7 @@ grid.raster(Accounting_Growth_Accounting_2, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Accounting_Primal_Dual <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Accounting/Accounting-Primal_Dual.png", native= TRUE, info=TRUE)
+Accounting_Primal_Dual <- readPNG("Accounting-Primal_Dual.png", native= TRUE, info=TRUE)
 
 grid.raster(Accounting_Primal_Dual, interpolate=FALSE)
 ```
@@ -236,7 +236,7 @@ grid.raster(Accounting_Primal_Dual, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Accounting_Productivity_Technology <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Accounting/Accounting-Productivity_Technology.png", native= TRUE, info=TRUE)
+Accounting_Productivity_Technology <- readPNG("Accounting-Productivity_Technology.png", native= TRUE, info=TRUE)
 
 grid.raster(Accounting_Productivity_Technology, interpolate=FALSE)
 ```

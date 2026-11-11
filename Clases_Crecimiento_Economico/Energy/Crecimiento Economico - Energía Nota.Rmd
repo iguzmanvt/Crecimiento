@@ -56,7 +56,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Energy_Crude_Reserves <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Energy/Energy-Crude_Reserves.png", native= TRUE, info=TRUE)
+Energy_Crude_Reserves <- readPNG("Energy-Crude_Reserves.png", native= TRUE, info=TRUE)
 
 grid.raster(Energy_Crude_Reserves, interpolate=FALSE)
 ```
@@ -70,7 +70,7 @@ grid.raster(Energy_Crude_Reserves, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Energy_Energy_Expenditure <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Energy/Energy-Energy_Expenditure.png", native= TRUE, info=TRUE)
+Energy_Energy_Expenditure <- readPNG("Energy-Energy_Expenditure.png", native= TRUE, info=TRUE)
 
 grid.raster(Energy_Energy_Expenditure, interpolate=FALSE)
 ```

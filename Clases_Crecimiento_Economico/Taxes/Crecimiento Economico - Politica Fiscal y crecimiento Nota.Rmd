@@ -26,7 +26,7 @@ output:
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_1_porc_share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-1_porc_share.png", native= TRUE, info=TRUE)
+Taxes_1_porc_share <- readPNG("Taxes-1_porc_share.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_1_porc_share, interpolate=FALSE)
 ```
@@ -46,7 +46,7 @@ grid.raster(Taxes_1_porc_share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_GDP_Tax_Rates <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-GDP_Tax_Rates.png", native= TRUE, info=TRUE)
+Taxes_GDP_Tax_Rates <- readPNG("Taxes-GDP_Tax_Rates.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_GDP_Tax_Rates, interpolate=FALSE)
 ```
@@ -57,7 +57,7 @@ grid.raster(Taxes_GDP_Tax_Rates, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_Employment_GDP_Tax <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-Employment_GDP_Tax.png", native= TRUE, info=TRUE)
+Taxes_Employment_GDP_Tax <- readPNG("Taxes-Employment_GDP_Tax.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_Employment_GDP_Tax, interpolate=FALSE)
 ```
@@ -67,7 +67,7 @@ grid.raster(Taxes_Employment_GDP_Tax, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_Tax_Cut <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-Tax_Cut.png", native= TRUE, info=TRUE)
+Taxes_Tax_Cut <- readPNG("Taxes-Tax_Cut.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_Tax_Cut, interpolate=FALSE)
 ```
@@ -79,7 +79,7 @@ grid.raster(Taxes_Tax_Cut, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_Tax_Changes <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-Tax_Changes.png", native= TRUE, info=TRUE)
+Taxes_Tax_Changes <- readPNG("Taxes-Tax_Changes.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_Tax_Changes, interpolate=FALSE)
 ```
@@ -93,7 +93,7 @@ grid.raster(Taxes_Tax_Changes, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_10_porc_share <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-10_porc_share.png", native= TRUE, info=TRUE)
+Taxes_10_porc_share <- readPNG("Taxes-10_porc_share.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_10_porc_share, interpolate=FALSE)
 ```
@@ -108,7 +108,7 @@ grid.raster(Taxes_10_porc_share, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Taxes_Supply_Elasticity <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Taxes/Taxes-Supply_Elasticity.png", native= TRUE, info=TRUE)
+Taxes_Supply_Elasticity <- readPNG("Taxes-Supply_Elasticity.png", native= TRUE, info=TRUE)
 
 grid.raster(Taxes_Supply_Elasticity, interpolate=FALSE)
 ```

@@ -26,7 +26,7 @@ opts_chunk$set(echo = TRUE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Innovation_Competition <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Innovation_Competition.png", native= TRUE, info=TRUE)
+Competition_Innovation_Competition <- readPNG("Competition-Innovation_Competition.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Innovation_Competition, interpolate=FALSE)
 ```
@@ -73,7 +73,7 @@ grid.raster(Competition_Innovation_Competition, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Product_Lines <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Product_Lines.png", native= TRUE, info=TRUE)
+Competition_Product_Lines <- readPNG("Competition-Product_Lines.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Product_Lines, interpolate=FALSE)
 ```
@@ -123,7 +123,7 @@ grid.raster(Competition_Product_Lines, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Growth_Innovation_Type <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Growth_Innovation_Type.png", native= TRUE, info=TRUE)
+Competition_Growth_Innovation_Type <- readPNG("Competition-Growth_Innovation_Type.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Growth_Innovation_Type, interpolate=FALSE)
 ```
@@ -134,7 +134,7 @@ grid.raster(Competition_Growth_Innovation_Type, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Growth_Innovation_Age <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Growth_Innovation_Age.png", native= TRUE, info=TRUE)
+Competition_Growth_Innovation_Age <- readPNG("Competition-Growth_Innovation_Age.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Growth_Innovation_Age, interpolate=FALSE)
 ```
@@ -145,7 +145,7 @@ grid.raster(Competition_Growth_Innovation_Age, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Growth_Innovation_Age <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Growth_Innovation_Age.png", native= TRUE, info=TRUE)
+Competition_Growth_Innovation_Age <- readPNG("Competition-Growth_Innovation_Age.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Growth_Innovation_Age, interpolate=FALSE)
 ```
@@ -154,7 +154,7 @@ grid.raster(Competition_Growth_Innovation_Age, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Growth_Contribution_Innovation <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Growth_Contribution_Innovation.png", native= TRUE, info=TRUE)
+Competition_Growth_Contribution_Innovation <- readPNG("Competition-Growth_Contribution_Innovation.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Growth_Contribution_Innovation, interpolate=FALSE)
 ```
@@ -164,7 +164,7 @@ grid.raster(Competition_Growth_Contribution_Innovation, interpolate=FALSE)
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
 library(grid)
-Competition_Growth_Contribution_Size <- readPNG("C:/Users/IsaacGuzman/Desktop/Crecimiento Económico/Presentaciones/Competition/Competition-Growth_Contribution_Size.png", native= TRUE, info=TRUE)
+Competition_Growth_Contribution_Size <- readPNG("Competition-Growth_Contribution_Size.png", native= TRUE, info=TRUE)
 
 grid.raster(Competition_Growth_Contribution_Size, interpolate=FALSE)
 ```

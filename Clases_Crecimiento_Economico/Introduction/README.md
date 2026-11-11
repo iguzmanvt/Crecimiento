@@ -48,3 +48,7 @@ La comprobación en Windows aprobó las cuatro salidas: 64/63 láminas de ioslid
 Los 32 iframes de cada variante —15 de Our World in Data y 17 de Chart Studio— se conservan. La prueba local bloquea su contenido remoto; también pueden requerir conexión recursos como MathJax. Esta comprobación no acredita su disponibilidad ni actualiza sus datos. Las referencias de Chart Studio siguen pendientes de recuperación, incluidas sus URL relativas al protocolo. La nota HTML histórica y la fuente `Crecimiento Economico 1 Nota.Rmd` no se modifican en esta entrega.
 
 Referencias de configuración: [formatos y directorios de render](https://pkgs.rstudio.com/rmarkdown/reference/render.html), [opciones y CSS de ioslides](https://pkg.yihui.org/rmarkdown-book/ioslides-presentation#custom-css).
+
+## Respaldo de referencias externas
+
+El [catálogo de referencias](referencias_externas/README.md) identifica los 32 recursos de las presentaciones, conserva las configuraciones archivadas de 13 recursos OWID y documenta la búsqueda de datos originales. Estas configuraciones no contienen observaciones numéricas. La recuperación de las gráficas permanece pendiente; el catálogo incluye una solicitud preparada para el respaldo de Chart Studio.

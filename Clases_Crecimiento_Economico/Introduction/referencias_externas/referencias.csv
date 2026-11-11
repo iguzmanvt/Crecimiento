@@ -1,0 +1,33 @@
+order,provider,resource_id,context,source_url,status,configuration_archive_index,numerical_observations_recovered
+1,Our World in Data,life-expectancy-years-vs-real-gdp-per-capita-2011us,Expectativa de vida,https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us?time=latest,configuracion_sin_observaciones,1,False
+2,Our World in Data,child-mortality-gdp-per-capita,Mortalidad infantil,https://ourworldindata.org/grapher/child-mortality-gdp-per-capita,configuracion_sin_observaciones,2,False
+3,Our World in Data,children-per-woman-by-gdp-per-capita,Crecimiento Poblacional,https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita,configuracion_sin_observaciones,3,False
+4,Our World in Data,urbanization-vs-gdp,Población urbana,https://ourworldindata.org/grapher/urbanization-vs-gdp,configuracion_sin_observaciones,4,False
+5,Our World in Data,outdoor-pollution-rate-vs-gdp,Contaminación,https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp,configuracion_sin_observaciones,5,False
+6,Our World in Data,co-emissions-per-capita-vs-gdp-per-capita-international-,Emisiones de dióxido de carbono,https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-,configuracion_sin_observaciones,6,False
+7,Our World in Data,the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita,Pobreza extrema,https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita,configuracion_sin_observaciones,7,False
+8,Our World in Data,gdp-per-capita-maddison-2020,Pobreza extrema: países / regiones con más de mil millones de habitantes,https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&time=1979..2018&country=CHN~IND~Sub-Sahara+Africa,sin_configuracion_archivada,,False
+9,Our World in Data,share-of-population-in-extreme-poverty,Pobreza extrema: países / regiones con más de mil millones de habitantes,https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=CHN~IND~Sub-Saharan+Africa,sin_configuracion_archivada,,False
+10,Our World in Data,global-hunger-index-vs-gdp-per-capita,Índice de hambre global,https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita,configuracion_sin_observaciones,8,False
+11,Our World in Data,share-of-adults-defined-as-obese,Obesidad,https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart,configuracion_sin_observaciones,9,False
+12,Our World in Data,gdppercapita-vs-annual-hours-worked,Número de horas trabajadas,https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked,configuracion_sin_observaciones,10,False
+13,Chart Studio,150,"""Hechos"" del crecimiento",//plotly.com/~iguzmanvt/150.embed,pendiente_datos_originales,,False
+14,Chart Studio,152,"""Hechos"" del crecimiento",//plotly.com/~iguzmanvt/152.embed,pendiente_datos_originales,,False
+15,Chart Studio,66,"""Hechos"" del crecimiento",//plotly.com/~iguzmanvt/66.embed,pendiente_datos_originales,,False
+16,Chart Studio,154,"""Hechos"" del crecimiento",//plotly.com/~iguzmanvt/154.embed,pendiente_datos_originales,,False
+17,Chart Studio,160,Correlación con la inversión,//plotly.com/~iguzmanvt/160.embed,pendiente_datos_originales,,False
+18,Chart Studio,170,"""Hechos"" del crecimiento: Países desarrollados",//plotly.com/~iguzmanvt/170.embed,pendiente_datos_originales,,False
+19,Chart Studio,174,"""Hechos"" del crecimiento: Países desarrollados",//plotly.com/~iguzmanvt/174.embed,pendiente_datos_originales,,False
+20,Chart Studio,202,"""Hechos"" del crecimiento: Países desarrollados",//plotly.com/~iguzmanvt/202.embed,pendiente_datos_originales,,False
+21,Chart Studio,207,"""Hechos"" del crecimiento: Países desarrollados",//plotly.com/~iguzmanvt/207.embed,pendiente_datos_originales,,False
+22,Chart Studio,156,"""Hechos"" del crecimiento: Países desarrollados",//plotly.com/~iguzmanvt/156.embed,pendiente_datos_originales,,False
+23,Chart Studio,172,"""Hechos"" del crecimiento: Países en desarrollo",//plotly.com/~iguzmanvt/172.embed,pendiente_datos_originales,,False
+24,Chart Studio,176,"""Hechos"" del crecimiento: Países en desarrollo",//plotly.com/~iguzmanvt/176.embed,pendiente_datos_originales,,False
+25,Chart Studio,205,"""Hechos"" del crecimiento: Países en desarrollo",//plotly.com/~iguzmanvt/205.embed,pendiente_datos_originales,,False
+26,Chart Studio,209,"""Hechos"" del crecimiento: Países en desarrollo",//plotly.com/~iguzmanvt/209.embed,pendiente_datos_originales,,False
+27,Chart Studio,158,"""Hechos"" del crecimiento: Países en desarrollo",//plotly.com/~iguzmanvt/158.embed,pendiente_datos_originales,,False
+28,Our World in Data,employment-by-economic-sector,"""Hechos"" modernos del crecimiento",https://ourworldindata.org/grapher/employment-by-economic-sector?stackMode=relative&country=~USA,configuracion_sin_observaciones,11,False
+29,Our World in Data,historical-and-projected-population-by-region,"""Hechos"" modernos del crecimiento",https://ourworldindata.org/grapher/historical-and-projected-population-by-region,configuracion_sin_observaciones,12,False
+30,Our World in Data,dependency-age-groups-to-2100,"""Hechos"" modernos del crecimiento",https://ourworldindata.org/grapher/dependency-age-groups-to-2100?country=~OWID_WRL,configuracion_sin_observaciones,13,False
+31,Chart Studio,168,"""Hechos"" modernos del crecimiento",//plotly.com/~iguzmanvt/168.embed,pendiente_datos_originales,,False
+32,Chart Studio,118,"""Hechos"" modernos del crecimiento",//plotly.com/~iguzmanvt/118.embed,pendiente_datos_originales,,False

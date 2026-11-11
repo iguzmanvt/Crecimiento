@@ -1,0 +1,191 @@
+{
+  "scope": "17 páginas embed y dos rutas de datos de la primera gráfica; sin credenciales",
+  "results": [
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/150.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.396800+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/150.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/152.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.399400+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/152.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/66.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.400437+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/66.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/154.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.401370+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/154.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/160.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.402722+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/160.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/170.embed",
+      "checked_at_utc": "2026-11-11T18:43:00.404011+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/170.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/174.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.151563+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/174.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/202.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.152278+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/202.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/207.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.161897+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/207.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/156.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.164192+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/156.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/172.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.179856+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/172.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/176.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.193045+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/176.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/205.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.388035+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/205.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/209.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.404051+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/209.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/158.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.414197+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/158.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/168.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.417950+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/168.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/118.embed",
+      "checked_at_utc": "2026-11-11T18:43:01.425620+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/118.embed",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://plotly.com/~iguzmanvt/150.json",
+      "checked_at_utc": "2026-11-11T18:43:01.430458+00:00",
+      "status": 410,
+      "final_url": "https://plotly.com/~iguzmanvt/150.json",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 3665,
+      "body_sha256": "818d86c878e8aa8f56e31da1c77fd9149b30902f0d019061d25dac03036ed5d6",
+      "limited_body": false
+    },
+    {
+      "requested_url": "https://api.plot.ly/v2/plots/iguzmanvt:150",
+      "checked_at_utc": "2026-11-11T18:43:01.629336+00:00",
+      "status": null,
+      "error": "URLError"
+    }
+  ]
+}

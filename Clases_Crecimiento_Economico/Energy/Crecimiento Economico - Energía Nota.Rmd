@@ -2,6 +2,8 @@
 title: "Crecimiento Económico. Energía"
 output:
   html_document:
+    css: ../curso.css
+    self_contained: false
     toc: true
     theme: flatly
 ---

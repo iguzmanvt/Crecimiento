@@ -1,0 +1,106 @@
+{
+  "repository": "iguzmanvt/Crecimiento",
+  "baseline": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "date": "2026-11-11",
+  "path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+  "baseline_blob": "94a026433aebb4e180fd7cc4fd670fec2a4c4bd4",
+  "working_blob": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc",
+  "clone_HEAD": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "scope": "Lectura de GitHub fijado y archivo/diff/hash-object Windows, sin ejecución de R ni modificación del repo",
+  "allowed_changes_exhaustive_match": true,
+  "calculations_chunk_identical": true,
+  "plot_construction_identical_except_publication_replaced_with_fig": true,
+  "data_call_explicit_pwt10_edition": true,
+  "plotly_explicit": true,
+  "labels": [
+    "datos",
+    "calculos",
+    "grafica"
+  ],
+  "labels_unique": true,
+  "chunk_headers": [
+    {
+      "line": 8,
+      "header": "```{r datos, include=FALSE}"
+    },
+    {
+      "line": 17,
+      "header": "```{r calculos, include=FALSE}"
+    },
+    {
+      "line": 45,
+      "header": "```{r grafica, echo=FALSE}"
+    }
+  ],
+  "final_plot_chunk_include_is_default_true": true,
+  "final_plot_chunk_echo_false": true,
+  "final_plot_value": "fig",
+  "api_create_count": 0,
+  "formula_checks": [
+    {
+      "id": "alpha_03",
+      "baseline": 21,
+      "current": 24,
+      "preserved": true,
+      "text": "p$acctky <- (.3/(1-.3))*log(p$ky) # completar K/Y"
+    },
+    {
+      "id": "post1959",
+      "baseline": 26,
+      "current": 29,
+      "preserved": true,
+      "text": "p <- p[which(p$year>1959),]"
+    },
+    {
+      "id": "reference1960_tfp",
+      "baseline": 27,
+      "current": 30,
+      "preserved": true,
+      "text": "p$inittfp <- with(p, accttfp[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+    },
+    {
+      "id": "reference1960_hc",
+      "baseline": 28,
+      "current": 31,
+      "preserved": true,
+      "text": "p$inithc <- with(p, accthc[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+    },
+    {
+      "id": "reference1960_ky",
+      "baseline": 29,
+      "current": 32,
+      "preserved": true,
+      "text": "p$initky <- with(p, acctky[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+    },
+    {
+      "id": "usa_filter",
+      "baseline": 38,
+      "current": 41,
+      "preserved": true,
+      "text": "usa <- p[which(p$isocode %in% c(\"USA\")),]"
+    }
+  ],
+  "rounding_lines": [
+    "p$lngdppc <- round(log(p$rgdpna) - log(p$pop),digits=2) # crear Log PIB per capita",
+    "p$ky <- round(p$rnna/p$rgdpna,digits=2) # crear ratio K/Y",
+    "p$kyonly <- round(p$inittfp + p$inithc + p$acctky,digits=2)",
+    "p$hconly <- round(p$inittfp + p$accthc + p$initky,digits=2)",
+    "p$tfponly <- round(p$accttfp + p$inithc + p$initky,digits=2)",
+    "p$input <- round(p$inittfp + p$accthc + p$acctky,digits=2)"
+  ],
+  "rounding_exact_unchanged": true,
+  "unchanged_trace_count": 4,
+  "unchanged_y_axis_range": [
+    9,
+    11.1
+  ],
+  "runtime_evaluated": false,
+  "repo_modified": false,
+  "result": "PASS: cambios limitados a configuración, dependencias explícitas, labels únicos y devolución local de fig; fórmulas/filtros/referencia/redondeos intactos.",
+  "limits": [
+    "No se ejecutó el Rmd ni se probó aquí disponibilidad/contenido de pwt10.0 en el paquete instalado.",
+    "No se verificó visualización o funcionamiento JS; el coordinador realiza ese render.",
+    "Preservar cálculos del baseline no constituye validación económica o estadística."
+  ],
+  "git_diff": "Process started with PID 15268 (shell: powershell.exe)\nInitial output:\nwarning: in the working copy of 'Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd', LF will be replaced by CRLF the next time Git touches it\ndiff --git a/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd b/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\nindex 94a0264..11b1ce3 100644\n--- a/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\t\n+++ b/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\t\n@@ -1,17 +1,20 @@\n ---\n-title: \"Untitled\"\n-output: html_document\n+title: \"Contabilidad del crecimiento: ejemplo de Estados Unidos\"\n+output:\n+  html_document:\n+    self_contained: false\n ---\n \n-```{r setup, include=FALSE}\n+```{r datos, include=FALSE}\n # Contabilidad del Crecimiento\n \n #########################################################################\n # Base de datos\n-data(\"pwt10.0\") # extraer PWT\n+library(plotly)\n+data(\"pwt10.0\", package=\"pwt10\") # extraer la edición 10.0 de PWT\n ```\n \n-```{r setup, include=FALSE}\n+```{r calculos, include=FALSE}\n #########################################################################\n # Cálculo de la contabilidad de crecimiento\n #########################################################################\n@@ -39,7 +42,7 @@ usa <- p[which(p$isocode %in% c(\"USA\")),]\n \n ```\n \n-```{r setup, include=FALSE}\n+```{r grafica, echo=FALSE}\n #########################################################################\n # Composición del PIB per cápita de Estados Unidos\n #########################################################################\n@@ -55,5 +58,5 @@ fig <- layout(fig, title = list(text = 'Contabilidad de crecimiento para Estados\n                xaxis = list(title = 'Año', tick0=1950, dtick=10),\n                yaxis = list (title = 'Log PIB per cápita',range=c(9,11.1)),\n                hovermode=\"x unified\")\n-api_create(fig, filename = \"pwt-account-usa\")\n+fig\n ```\n\\ No newline at end of file\n\n✅ Process 15268 has finished execution"
+}

@@ -1,7 +1,8 @@
 ---
-title: "Crecimiento Económico. Medio Ambiente"
+title: "Crecimiento Económico. Ideas, productividad e investigación y desarrollo"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---

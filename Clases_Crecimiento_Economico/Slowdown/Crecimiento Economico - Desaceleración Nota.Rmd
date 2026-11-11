@@ -2,6 +2,7 @@
 title: "Crecimiento Económico. Desaceleración"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---

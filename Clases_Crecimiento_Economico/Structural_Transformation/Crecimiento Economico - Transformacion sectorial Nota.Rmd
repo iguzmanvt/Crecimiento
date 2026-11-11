@@ -2,6 +2,7 @@
 title: "Crecimiento Económico. Transformación sectorial y crecimiento"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---

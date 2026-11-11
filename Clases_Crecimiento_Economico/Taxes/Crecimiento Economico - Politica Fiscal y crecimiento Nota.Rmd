@@ -2,6 +2,7 @@
 title: "Crecimiento Económico. Política Fiscal y Crecimiento"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---

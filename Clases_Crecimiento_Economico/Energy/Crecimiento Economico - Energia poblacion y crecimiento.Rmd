@@ -2,11 +2,13 @@
 title: "Crecimiento Económico"
 output:
   ioslides_presentation: 
-    css: air.css
+    css: ../curso.css
+    self_contained: false
     smaller: true
     widescreen: true
-  html_document: 
-  runtime: shiny
+  html_document:
+    css: ../curso.css
+    self_contained: false
 ---
 
 

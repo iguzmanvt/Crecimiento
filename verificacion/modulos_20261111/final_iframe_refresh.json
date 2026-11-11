@@ -1,0 +1,65 @@
+{
+  "changes": [
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "id": "10",
+      "prior_blob": "52ce29a8b423c6745c681230f65a95fa3a34ad1f",
+      "current_blob": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+      "new_block_occurrences": 1,
+      "body_matches_prior_after_removing_exact_closure": true,
+      "opening_line": 67,
+      "closing_line": 69,
+      "iframe_opens": 10,
+      "iframe_closes": 10,
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -57,6 +57,8 @@",
+        " ",
+        " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+        " ",
+        "+</iframe>",
+        "+",
+        " ## Factores",
+        " ",
+        " <span style=\"color:blue\">**Contaminación del aire**</span>"
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "id": "11",
+      "prior_blob": "fd2103fde6efb5390be579b9ec38f0f937f12536",
+      "current_blob": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+      "new_block_occurrences": 1,
+      "body_matches_prior_after_removing_exact_closure": true,
+      "opening_line": 69,
+      "closing_line": 71,
+      "iframe_opens": 10,
+      "iframe_closes": 10,
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -56,6 +56,8 @@",
+        " ",
+        " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+        " ",
+        "+</iframe>",
+        "+",
+        " ## Factores",
+        " ",
+        " <span style=\"color:blue\">**Contaminación del aire**</span>"
+      ]
+    }
+  ],
+  "expected_ids": [
+    "10",
+    "11"
+  ],
+  "only_expected_documents": true,
+  "only_exact_closure_insertions": true,
+  "unexpected_header_changes": [],
+  "stable_all34_after_refresh": true,
+  "Rmd_executed": false,
+  "render_script_executed": false,
+  "assets_comparison_reused": true
+}

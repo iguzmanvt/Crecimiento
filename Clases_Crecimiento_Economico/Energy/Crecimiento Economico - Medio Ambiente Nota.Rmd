@@ -2,6 +2,8 @@
 title: "Crecimiento Económico. Medio Ambiente"
 output:
   html_document:
+    css: ../curso.css
+    self_contained: false
     toc: true
     theme: flatly
 ---
@@ -63,6 +65,8 @@ opts_chunk$set(echo = TRUE)
 -  Los países desarrollados son los que más contaminan.
 
 <iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/co-emissions-per-capita">
+
+</iframe>
 
 ## Factores
 

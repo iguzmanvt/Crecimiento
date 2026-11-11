@@ -1,0 +1,279 @@
+[
+  {
+    "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+    "before_blob": "b13bb7feb9d79d8ac5d091c2ac734a9d117afdb8",
+    "after_blob": "f19a96bf93063893604710aa366be27dae2adf8e",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+    "before_blob": "f93acce99bc7b5281f765fe7d899a0d4e8a6ebc3",
+    "after_blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+    "before_blob": "94a026433aebb4e180fd7cc4fd670fec2a4c4bd4",
+    "after_blob": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": true
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+    "before_blob": "58195cf267299531f42f54d0eb5ec97af8a5aa3b",
+    "after_blob": "713c857631f6f7a4a8ccebdf513ba7a30e3930bb",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+    "before_blob": "08c693cf2707971ca5b2ad84a79bd5cc5f2f1399",
+    "after_blob": "dd1cd808a67e0b171658064e8976572f7db628d2",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+    "before_blob": "896a3f2051e732353aa1b422b58c2961ee524dd1",
+    "after_blob": "9aa731f117844f11e3fd75870042aa34a643de7d",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+    "before_blob": "cd8b76f631782cc19df5c3824707d4f68d468c2e",
+    "after_blob": "01636a86759498c24d3aa26acc0c73b6b27c1bea",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+    "before_blob": "4cae3b993a7eb755b4dcb4a8677d5382edb0ec98",
+    "after_blob": "8a1b009b6752923671c125229abf7e24f35299a3",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+    "before_blob": "cbbeaf65fe4fcc9b8182f897c8452ba730ced437",
+    "after_blob": "464e3a232fbd544af9c45d9a2653167871cf1202",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false,
+    "responsive_note_css": true
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+    "before_blob": "fd9eb0abdda91be7cbaee9b457bc5fb9087c8703",
+    "after_blob": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false,
+    "responsive_note_css": true,
+    "closed_iframe": "co-emissions-per-capita"
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+    "before_blob": "2f77ddcc8ebb7eb12d7b19d75821fe67ddfa135b",
+    "after_blob": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false,
+    "closed_iframe": "co-emissions-per-capita"
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "before_blob": "5f7e05b9fd8a2094c0c8b022db2812b627bb5126",
+    "after_blob": "02793ad9e9190f075425a7152f6bd237588159d4",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "before_blob": "01c180de9da8fca16250d35d91ac76088e74d80d",
+    "after_blob": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "before_blob": "8a2c430b19953cd6213fac62ca6f78dacf8209e5",
+    "after_blob": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "before_blob": "fe6541a142483b8cbd1c37cfb14ade043e691ced",
+    "after_blob": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+    "before_blob": "fe6541a142483b8cbd1c37cfb14ade043e691ced",
+    "after_blob": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+    "before_blob": "372a8c758de86653529c90e34c3002c2e6d94edb",
+    "after_blob": "c048d7e3b0215e2270ed4b61cdcfd7473850e892",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+    "before_blob": "4f50da67ff11fab9f091b0ccb241f618c77fcf6c",
+    "after_blob": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+    "header_fixed": true,
+    "recovered_graph": "223",
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+    "before_blob": "4f50da67ff11fab9f091b0ccb241f618c77fcf6c",
+    "after_blob": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+    "header_fixed": true,
+    "recovered_graph": "223",
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "before_blob": "6757faded7a269d6ffc50fb96cdf2c0d7fbce965",
+    "after_blob": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+    "header_fixed": true,
+    "recovered_graph": "223",
+    "example_local": false,
+    "responsive_note_css": true
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+    "before_blob": "8362f4bf81e62777fa295d0c600b604df1850fe7",
+    "after_blob": "30d3d7314cabc0ffc3566e1ab375342bbf83743e",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+    "before_blob": "4add7716fabc23d335a9356f6449b8ea14562282",
+    "after_blob": "8b5fca7dd457c26db0cb818c5b274cebf0d8daa2",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+    "before_blob": "eb842c4017a319ceea2e409038babef46cdd63c5",
+    "after_blob": "73c4cf480791e56e8636c46aa213f69682c83b6c",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+    "before_blob": "49855f4b1e8caa9aca93fd8a4674a15d9786625a",
+    "after_blob": "5de322540dffc3f60c697ecf0b53dbc2ebe00b95",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+    "before_blob": "7888f2f18071e08a23fd10cdadbc3af924a93356",
+    "after_blob": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+    "before_blob": "bbdda9df74addb904d7b17865151249438671d79",
+    "after_blob": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "before_blob": "39267ed7b55d42e0beae2a3e3edb4bafd6b0a3ed",
+    "after_blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+    "header_fixed": true,
+    "recovered_graph": "42",
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "before_blob": "511f8bcd73fa0a2c85094d7e67a7453f1ec1b835",
+    "after_blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+    "header_fixed": true,
+    "recovered_graph": "42",
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+    "before_blob": "0bbb0f893b1b782287623cd8d9ad786ce955f1d3",
+    "after_blob": "c2fdc1be4f05ca0b980459112ffe0f9434d10d80",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+    "before_blob": "c2736bcf2ac51590029261ea80c3224c01320853",
+    "after_blob": "c9cabaee497649c01929c3e99759e549919d8048",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "before_blob": "659865d750343b8f2ea2ec12e88cde8e6be05c85",
+    "after_blob": "53818e4092fee5941b026e88106403e3021cc486",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "before_blob": "ebc1d72910622d3ff316c7eb0f703948ac77b01a",
+    "after_blob": "35151f9a713b2c567c3a8fce364e241201ae9473",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+    "before_blob": "d968d8895bed0c517ef3edbd62febcf83a245736",
+    "after_blob": "630c19954775a152845cb0d2ee2dedcab9149192",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  },
+  {
+    "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd",
+    "before_blob": "34ccd8cce5f0317c6177592317ab6da19c3806aa",
+    "after_blob": "ed5581c4f588f18e7fe223eeed0481cab37e4703",
+    "header_fixed": true,
+    "recovered_graph": null,
+    "example_local": false
+  }
+]

@@ -1,0 +1,4107 @@
+{
+  "baseline": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "head": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "Rmd_count": 34,
+  "documents": [
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+      "baseline_blob": "b13bb7feb9d79d8ac5d091c2ac734a9d117afdb8",
+      "current_blob_normalized_LF": "f19a96bf93063893604710aa366be27dae2adf8e",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Contabilidad del crecimiento\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Contabilidad del crecimiento\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "531f6ebdf0e17efcd3fecc44208e4883c239d1cff1660280eb60aa4ed079f347",
+      "body_current_sha256": "531f6ebdf0e17efcd3fecc44208e4883c239d1cff1660280eb60aa4ed079f347",
+      "body_diff": [],
+      "chunks_before": 5,
+      "chunks_after": 5,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+      "baseline_blob": "f93acce99bc7b5281f765fe7d899a0d4e8a6ebc3",
+      "current_blob_normalized_LF": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "4f63901ad8bcd593dfed1ba8caa8d0b01f337db631a9a1e792ffe967edce8eac",
+      "body_current_sha256": "4f63901ad8bcd593dfed1ba8caa8d0b01f337db631a9a1e792ffe967edce8eac",
+      "body_diff": [],
+      "chunks_before": 5,
+      "chunks_after": 5,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+      "baseline_blob": "94a026433aebb4e180fd7cc4fd670fec2a4c4bd4",
+      "current_blob_normalized_LF": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc",
+      "changed": true,
+      "header_before": "---\ntitle: \"Untitled\"\noutput: html_document\n---\n",
+      "header_after": "---\ntitle: \"Contabilidad del crecimiento: ejemplo de Estados Unidos\"\noutput:\n  html_document:\n    self_contained: false\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "58b747425776dfb473adaf9a8406e31c30408bdbf51ee6ea73bbb95783f610e4",
+      "body_current_sha256": "67d44b08c91d74e1784034de6bb798571b94241f9941bcf110146b28521142e7",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -1,13 +1,14 @@",
+        " ",
+        "-```{r setup, include=FALSE}",
+        "+```{r datos, include=FALSE}",
+        " # Contabilidad del Crecimiento",
+        " ",
+        " #########################################################################",
+        " # Base de datos",
+        "-data(\"pwt10.0\") # extraer PWT",
+        "+library(plotly)",
+        "+data(\"pwt10.0\", package=\"pwt10\") # extraer la edición 10.0 de PWT",
+        " ```",
+        " ",
+        "-```{r setup, include=FALSE}",
+        "+```{r calculos, include=FALSE}",
+        " #########################################################################",
+        " # Cálculo de la contabilidad de crecimiento",
+        " #########################################################################",
+        "@@ -35,7 +36,7 @@",
+        " ",
+        " ```",
+        " ",
+        "-```{r setup, include=FALSE}",
+        "+```{r grafica, echo=FALSE}",
+        " #########################################################################",
+        " # Composición del PIB per cápita de Estados Unidos",
+        " #########################################################################",
+        "@@ -51,5 +52,5 @@",
+        "                xaxis = list(title = 'Año', tick0=1950, dtick=10),",
+        "                yaxis = list (title = 'Log PIB per cápita',range=c(9,11.1)),",
+        "                hovermode=\"x unified\")",
+        "-api_create(fig, filename = \"pwt-account-usa\")",
+        "+fig",
+        " ```"
+      ],
+      "chunks_before": 3,
+      "chunks_after": 3,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+      "baseline_blob": "58195cf267299531f42f54d0eb5ec97af8a5aa3b",
+      "current_blob_normalized_LF": "713c857631f6f7a4a8ccebdf513ba7a30e3930bb",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Contabilidad del crecimiento\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Competencia\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "225d15d2ba35f45b883b0faa0180cbd0229d2217dbc1ee6529bce7d2e99b276b",
+      "body_current_sha256": "225d15d2ba35f45b883b0faa0180cbd0229d2217dbc1ee6529bce7d2e99b276b",
+      "body_diff": [],
+      "chunks_before": 8,
+      "chunks_after": 8,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+      "baseline_blob": "08c693cf2707971ca5b2ad84a79bd5cc5f2f1399",
+      "current_blob_normalized_LF": "dd1cd808a67e0b171658064e8976572f7db628d2",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "356eebc629a35750f3d480154a4ec5a424cdf60f4a9696a88ded75a9d7f97405",
+      "body_current_sha256": "356eebc629a35750f3d480154a4ec5a424cdf60f4a9696a88ded75a9d7f97405",
+      "body_diff": [],
+      "chunks_before": 8,
+      "chunks_after": 8,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+      "baseline_blob": "896a3f2051e732353aa1b422b58c2961ee524dd1",
+      "current_blob_normalized_LF": "9aa731f117844f11e3fd75870042aa34a643de7d",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Convergencia\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Convergencia\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "9ea3fa3908772d57deb9dadd7b0ee0068c456c11b922aaed1de809969488d488",
+      "body_current_sha256": "9ea3fa3908772d57deb9dadd7b0ee0068c456c11b922aaed1de809969488d488",
+      "body_diff": [],
+      "chunks_before": 28,
+      "chunks_after": 28,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+      "baseline_blob": "cd8b76f631782cc19df5c3824707d4f68d468c2e",
+      "current_blob_normalized_LF": "01636a86759498c24d3aa26acc0c73b6b27c1bea",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "5c1b1626f7b29c01f9ddbdd17c30f7f37f6a2497d84380609d3eb0e4d391cbde",
+      "body_current_sha256": "5c1b1626f7b29c01f9ddbdd17c30f7f37f6a2497d84380609d3eb0e4d391cbde",
+      "body_diff": [],
+      "chunks_before": 29,
+      "chunks_after": 29,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+      "baseline_blob": "4cae3b993a7eb755b4dcb4a8677d5382edb0ec98",
+      "current_blob_normalized_LF": "8a1b009b6752923671c125229abf7e24f35299a3",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "61346a67038d9b359d85aa2c6d5f4f802ce9e6a6c00bc119e09faeef784ad801",
+      "body_current_sha256": "61346a67038d9b359d85aa2c6d5f4f802ce9e6a6c00bc119e09faeef784ad801",
+      "body_diff": [],
+      "chunks_before": 3,
+      "chunks_after": 3,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+      "baseline_blob": "cbbeaf65fe4fcc9b8182f897c8452ba730ced437",
+      "current_blob_normalized_LF": "464e3a232fbd544af9c45d9a2653167871cf1202",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Energía\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Energía\"\noutput:\n  html_document:\n    css: ../curso.css\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "4331c0430d8bc4964c645d7bb7b867fa7d0c8f08a66f4fd1e87869abd259c8db",
+      "body_current_sha256": "4331c0430d8bc4964c645d7bb7b867fa7d0c8f08a66f4fd1e87869abd259c8db",
+      "body_diff": [],
+      "chunks_before": 3,
+      "chunks_after": 3,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "baseline_blob": "fd9eb0abdda91be7cbaee9b457bc5fb9087c8703",
+      "current_blob_normalized_LF": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Medio Ambiente\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Medio Ambiente\"\noutput:\n  html_document:\n    css: ../curso.css\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "de51dd27c8dbd326f4a4ba7149cdd5a0dc68465d48a9c9203b0421193f6eec3e",
+      "body_current_sha256": "47c48723d0e5705e94c63e966cd53c30be3b77ed48462c20c4da58b1d9ce5964",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -57,6 +57,8 @@",
+        " ",
+        " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+        " ",
+        "+</iframe>",
+        "+",
+        " ## Factores",
+        " ",
+        " <span style=\"color:blue\">**Contaminación del aire**</span>"
+      ],
+      "chunks_before": 13,
+      "chunks_after": 13,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "baseline_blob": "2f77ddcc8ebb7eb12d7b19d75821fe67ddfa135b",
+      "current_blob_normalized_LF": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "145281c05f1d5a4d50a4c2b1fb55fc6225edb101611e5dcf13f6f60d3f55ff6e",
+      "body_current_sha256": "bdedea966d8c3703166d00b9845307f8c28ad4c56b3f372bea17ee1d6020630b",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -56,6 +56,8 @@",
+        " ",
+        " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+        " ",
+        "+</iframe>",
+        "+",
+        " ## Factores",
+        " ",
+        " <span style=\"color:blue\">**Contaminación del aire**</span>"
+      ],
+      "chunks_before": 13,
+      "chunks_after": 13,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "baseline_blob": "5f7e05b9fd8a2094c0c8b022db2812b627bb5126",
+      "current_blob_normalized_LF": "02793ad9e9190f075425a7152f6bd237588159d4",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "095118ed3818d735da2ab032670d384a9e41bf95d8ca74f8d2cb35e91f711f9b",
+      "body_current_sha256": "095118ed3818d735da2ab032670d384a9e41bf95d8ca74f8d2cb35e91f711f9b",
+      "body_diff": [],
+      "chunks_before": 7,
+      "chunks_after": 7,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "baseline_blob": "01c180de9da8fca16250d35d91ac76088e74d80d",
+      "current_blob_normalized_LF": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Medio Ambiente\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Ideas, productividad e investigación y desarrollo\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "490a2e29eb25a2ed092926635a608250e6fbaad6531f91535be7e772f167ea17",
+      "body_current_sha256": "490a2e29eb25a2ed092926635a608250e6fbaad6531f91535be7e772f167ea17",
+      "body_diff": [],
+      "chunks_before": 7,
+      "chunks_after": 7,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "baseline_blob": "8a2c430b19953cd6213fac62ca6f78dacf8209e5",
+      "current_blob_normalized_LF": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "7168bfc99254e2271b0df2de19281a4dae7cddafa2159ea21657e379f923fbb6",
+      "body_current_sha256": "7168bfc99254e2271b0df2de19281a4dae7cddafa2159ea21657e379f923fbb6",
+      "body_diff": [],
+      "chunks_before": 7,
+      "chunks_after": 7,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "baseline_blob": "fe6541a142483b8cbd1c37cfb14ade043e691ced",
+      "current_blob_normalized_LF": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Mercado Laboral\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Mercado Laboral\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "103872ecd65d5e0428a284d2c50a1cc49f903791da0b8d89b7e4f93f30719fe0",
+      "body_current_sha256": "103872ecd65d5e0428a284d2c50a1cc49f903791da0b8d89b7e4f93f30719fe0",
+      "body_diff": [],
+      "chunks_before": 30,
+      "chunks_after": 30,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+      "baseline_blob": "fe6541a142483b8cbd1c37cfb14ade043e691ced",
+      "current_blob_normalized_LF": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Mercado Laboral\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Mercado Laboral\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "103872ecd65d5e0428a284d2c50a1cc49f903791da0b8d89b7e4f93f30719fe0",
+      "body_current_sha256": "103872ecd65d5e0428a284d2c50a1cc49f903791da0b8d89b7e4f93f30719fe0",
+      "body_diff": [],
+      "chunks_before": 30,
+      "chunks_after": 30,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+      "baseline_blob": "372a8c758de86653529c90e34c3002c2e6d94edb",
+      "current_blob_normalized_LF": "c048d7e3b0215e2270ed4b61cdcfd7473850e892",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "f4730002257710f6f93d434afa02115721cf3c6a150c0ae769a40a307ff3d5d5",
+      "body_current_sha256": "f4730002257710f6f93d434afa02115721cf3c6a150c0ae769a40a307ff3d5d5",
+      "body_diff": [],
+      "chunks_before": 30,
+      "chunks_after": 30,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+      "baseline_blob": "4f50da67ff11fab9f091b0ccb241f618c77fcf6c",
+      "current_blob_normalized_LF": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "5c9fd4104600d28e00dd3234e8b5d5ecf7d4a9bbe863a9aa0890326a3198a522",
+      "body_current_sha256": "404b728f96c9f887c0ce17295e17e1571f5c94e08317c659ff49c86d92dab152",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -435,9 +435,9 @@",
+        " ",
+        " - Dado que la inmigración es un proceso continuo, tiene sentido pensar en ello en el contexto del modelo de Solow como un cambio en la tasa de crecimiento de la población en lugar de como un cambio único para el factor trabajo.",
+        " ",
+        "-<iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/223.embed\">",
+        "-",
+        "-</iframe>",
+        "+<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />",
+        "+",
+        "+[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)",
+        " ",
+        " ## Migración y mercado laboral",
+        " "
+      ],
+      "chunks_before": 26,
+      "chunks_after": 26,
+      "recovered_refs": [
+        {
+          "line": 450,
+          "text": "<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />"
+        },
+        {
+          "line": 452,
+          "text": "[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)"
+        }
+      ],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 1
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+      "baseline_blob": "4f50da67ff11fab9f091b0ccb241f618c77fcf6c",
+      "current_blob_normalized_LF": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "5c9fd4104600d28e00dd3234e8b5d5ecf7d4a9bbe863a9aa0890326a3198a522",
+      "body_current_sha256": "404b728f96c9f887c0ce17295e17e1571f5c94e08317c659ff49c86d92dab152",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -435,9 +435,9 @@",
+        " ",
+        " - Dado que la inmigración es un proceso continuo, tiene sentido pensar en ello en el contexto del modelo de Solow como un cambio en la tasa de crecimiento de la población en lugar de como un cambio único para el factor trabajo.",
+        " ",
+        "-<iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/223.embed\">",
+        "-",
+        "-</iframe>",
+        "+<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />",
+        "+",
+        "+[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)",
+        " ",
+        " ## Migración y mercado laboral",
+        " "
+      ],
+      "chunks_before": 26,
+      "chunks_after": 26,
+      "recovered_refs": [
+        {
+          "line": 450,
+          "text": "<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />"
+        },
+        {
+          "line": 452,
+          "text": "[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)"
+        }
+      ],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 1
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "baseline_blob": "6757faded7a269d6ffc50fb96cdf2c0d7fbce965",
+      "current_blob_normalized_LF": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Mercado Laboral - Género y migración\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Mercado Laboral - Género y migración\"\noutput:\n  html_document:\n    css: ../curso.css\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "0b04e7ac5d2c8e5f06abafd75d9be1591ec808d7f4fe1071ffeab33c0007adf5",
+      "body_current_sha256": "a0ddac75250886facbd19578be32d9cdcfd84b1da8ee7dadcb04cbe9ad8ae8ce",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -436,9 +436,9 @@",
+        " ",
+        " - Dado que la inmigración es un proceso continuo, tiene sentido pensar en ello en el contexto del modelo de Solow como un cambio en la tasa de crecimiento de la población en lugar de como un cambio único para el factor trabajo.",
+        " ",
+        "-<iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/223.embed\">",
+        "-",
+        "-</iframe>",
+        "+<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />",
+        "+",
+        "+[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)",
+        " ",
+        " ## Migración y mercado laboral",
+        " "
+      ],
+      "chunks_before": 26,
+      "chunks_after": 26,
+      "recovered_refs": [
+        {
+          "line": 447,
+          "text": "<img src=\"recuperado/grafica_223.svg\" alt=\"Tasa de crecimiento poblacional de Estados Unidos\" />"
+        },
+        {
+          "line": 449,
+          "text": "[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)"
+        }
+      ],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 1
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+      "baseline_blob": "8362f4bf81e62777fa295d0c600b604df1850fe7",
+      "current_blob_normalized_LF": "30d3d7314cabc0ffc3566e1ab375342bbf83743e",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Patentes\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Patentes\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "5bd2257c08fd29918e398a6b1e10136b9dbf5f520037d04ffcd45cab065d48cb",
+      "body_current_sha256": "5bd2257c08fd29918e398a6b1e10136b9dbf5f520037d04ffcd45cab065d48cb",
+      "body_diff": [],
+      "chunks_before": 16,
+      "chunks_after": 16,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+      "baseline_blob": "4add7716fabc23d335a9356f6449b8ea14562282",
+      "current_blob_normalized_LF": "8b5fca7dd457c26db0cb818c5b274cebf0d8daa2",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "da76e9231f80bf551094a03a8541486df235eda8787e1cb7c93dc304c0319131",
+      "body_current_sha256": "da76e9231f80bf551094a03a8541486df235eda8787e1cb7c93dc304c0319131",
+      "body_diff": [],
+      "chunks_before": 16,
+      "chunks_after": 16,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+      "baseline_blob": "eb842c4017a319ceea2e409038babef46cdd63c5",
+      "current_blob_normalized_LF": "73c4cf480791e56e8636c46aa213f69682c83b6c",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Pensiones\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Pensiones\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "d6fd0667ac094549529fb4e371baaca90889b3e8ad353d1db87a1c8e7955c0b2",
+      "body_current_sha256": "d6fd0667ac094549529fb4e371baaca90889b3e8ad353d1db87a1c8e7955c0b2",
+      "body_diff": [],
+      "chunks_before": 33,
+      "chunks_after": 33,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+      "baseline_blob": "49855f4b1e8caa9aca93fd8a4674a15d9786625a",
+      "current_blob_normalized_LF": "5de322540dffc3f60c697ecf0b53dbc2ebe00b95",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "ce37f3518897d8f0c91c0f70b4b97ebe5ba817f95ad2391dba560d0f1ccc5e04",
+      "body_current_sha256": "ce37f3518897d8f0c91c0f70b4b97ebe5ba817f95ad2391dba560d0f1ccc5e04",
+      "body_diff": [],
+      "chunks_before": 33,
+      "chunks_after": 33,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "baseline_blob": "7888f2f18071e08a23fd10cdadbc3af924a93356",
+      "current_blob_normalized_LF": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "9eb5572c305a50368d2672031e56a71dd805fffca9e81be9e1ca9403631a5476",
+      "body_current_sha256": "9eb5572c305a50368d2672031e56a71dd805fffca9e81be9e1ca9403631a5476",
+      "body_diff": [],
+      "chunks_before": 31,
+      "chunks_after": 31,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "baseline_blob": "bbdda9df74addb904d7b17865151249438671d79",
+      "current_blob_normalized_LF": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Desaceleración\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Desaceleración\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "fac910427bb85506ef8ec2c6b44e697dff0320e808531ecbe8db06d8359ad9e8",
+      "body_current_sha256": "fac910427bb85506ef8ec2c6b44e697dff0320e808531ecbe8db06d8359ad9e8",
+      "body_diff": [],
+      "chunks_before": 31,
+      "chunks_after": 31,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "baseline_blob": "39267ed7b55d42e0beae2a3e3edb4bafd6b0a3ed",
+      "current_blob_normalized_LF": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "2d88a1ec94342fb1669803c51cc2a9ed063ff76190966c93d3bc7722e1cd0009",
+      "body_current_sha256": "e0c3ed3c03c695f7b67dfe52ba2f57a316c58e20a5defe3726e8551ce19009aa",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -19,7 +19,11 @@",
+        " ",
+        " ### **Estudios de caso usando el modelo de Solow**",
+        " ",
+        "-- [**Estados Unidos**](http://plotly.com/~iguzmanvt/42.embed)",
+        "+- **Estados Unidos**",
+        "+",
+        "+<img src=\"recuperado/grafica_42.svg\" alt=\"Log PIB per cápita de Estados Unidos\" />",
+        "+",
+        "+[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)",
+        " ",
+        " - [**Estados Unidos**](http://plotly.com/~iguzmanvt/46.embed) - BGP 1",
+        " "
+      ],
+      "chunks_before": 1,
+      "chunks_after": 1,
+      "recovered_refs": [
+        {
+          "line": 32,
+          "text": "<img src=\"recuperado/grafica_42.svg\" alt=\"Log PIB per cápita de Estados Unidos\" />"
+        },
+        {
+          "line": 34,
+          "text": "[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)"
+        }
+      ],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 1
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+      "baseline_blob": "511f8bcd73fa0a2c85094d7e67a7453f1ec1b835",
+      "current_blob_normalized_LF": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": false,
+      "body_baseline_sha256": "9039132d587e0bf4087a4e52220425c7e7d108abf1228410d3664d7ee88d9b9b",
+      "body_current_sha256": "76711f4e3f76384d98528f70ec0de79329275ce22508e5e5f73be90fbf4ac3c2",
+      "body_diff": [
+        "--- baseline_body",
+        "+++ working_body",
+        "@@ -38,9 +38,9 @@",
+        " ",
+        " ## Estudios de caso usando el modelo de Solow",
+        " ",
+        "-<iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/42.embed\">",
+        "+<img src=\"recuperado/grafica_42.svg\" alt=\"Log PIB per cápita de Estados Unidos\" />",
+        " ",
+        "-</iframe>",
+        "+[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)",
+        " ",
+        " ## Estudios de caso usando el modelo de Solow",
+        " "
+      ],
+      "chunks_before": 1,
+      "chunks_after": 1,
+      "recovered_refs": [
+        {
+          "line": 53,
+          "text": "<img src=\"recuperado/grafica_42.svg\" alt=\"Log PIB per cápita de Estados Unidos\" />"
+        },
+        {
+          "line": 55,
+          "text": "[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)"
+        }
+      ],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 1
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+      "baseline_blob": "0bbb0f893b1b782287623cd8d9ad786ce955f1d3",
+      "current_blob_normalized_LF": "c2fdc1be4f05ca0b980459112ffe0f9434d10d80",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Transformación sectorial y crecimiento\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Transformación sectorial y crecimiento\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "f8fdc2a528c31773780ddafbf2491c638dada3c532430c32d0577168c9f92386",
+      "body_current_sha256": "f8fdc2a528c31773780ddafbf2491c638dada3c532430c32d0577168c9f92386",
+      "body_diff": [],
+      "chunks_before": 22,
+      "chunks_after": 22,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+      "baseline_blob": "c2736bcf2ac51590029261ea80c3224c01320853",
+      "current_blob_normalized_LF": "c9cabaee497649c01929c3e99759e549919d8048",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "18e31b10b4940fd9bad5936973ca6531fcb2dc9d588adfba6956e6f7a4137279",
+      "body_current_sha256": "18e31b10b4940fd9bad5936973ca6531fcb2dc9d588adfba6956e6f7a4137279",
+      "body_diff": [],
+      "chunks_before": 23,
+      "chunks_after": 23,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+      "baseline_blob": "659865d750343b8f2ea2ec12e88cde8e6be05c85",
+      "current_blob_normalized_LF": "53818e4092fee5941b026e88106403e3021cc486",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Política Fiscal y Crecimiento\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Política Fiscal y Crecimiento\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "5d1ccc4b00a04e7204f0e85c283be6c108bc08acc89b99a82fe3031f445b3379",
+      "body_current_sha256": "5d1ccc4b00a04e7204f0e85c283be6c108bc08acc89b99a82fe3031f445b3379",
+      "body_diff": [],
+      "chunks_before": 7,
+      "chunks_after": 7,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+      "baseline_blob": "ebc1d72910622d3ff316c7eb0f703948ac77b01a",
+      "current_blob_normalized_LF": "35151f9a713b2c567c3a8fce364e241201ae9473",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "833de5057e420fc94c1af552a8d111c2d0171a4f1b49673ec57bb8e11629af75",
+      "body_current_sha256": "833de5057e420fc94c1af552a8d111c2d0171a4f1b49673ec57bb8e11629af75",
+      "body_diff": [],
+      "chunks_before": 8,
+      "chunks_after": 8,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+      "baseline_blob": "d968d8895bed0c517ef3edbd62febcf83a245736",
+      "current_blob_normalized_LF": "630c19954775a152845cb0d2ee2dedcab9149192",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: air.css\n    smaller: true\n    widescreen: true\n  html_document: \n  runtime: shiny\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico\"\noutput:\n  ioslides_presentation: \n    css: ../curso.css\n    self_contained: false\n    smaller: true\n    widescreen: true\n  html_document:\n    css: ../curso.css\n    self_contained: false\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "a5fb0923ad17a77a940e76628a2df72339f5c2bf973624a9949fba83442eef72",
+      "body_current_sha256": "a5fb0923ad17a77a940e76628a2df72339f5c2bf973624a9949fba83442eef72",
+      "body_diff": [],
+      "chunks_before": 28,
+      "chunks_after": 28,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd",
+      "baseline_blob": "34ccd8cce5f0317c6177592317ab6da19c3806aa",
+      "current_blob_normalized_LF": "ed5581c4f588f18e7fe223eeed0481cab37e4703",
+      "changed": true,
+      "header_before": "---\ntitle: \"Crecimiento Económico. Difusión tecnológica\"\noutput:\n  html_document:\n    toc: true\n    theme: flatly\n---\n",
+      "header_after": "---\ntitle: \"Crecimiento Económico. Difusión tecnológica\"\noutput:\n  html_document:\n    self_contained: false\n    toc: true\n    theme: flatly\n---\n",
+      "body_identical": true,
+      "body_baseline_sha256": "cfbef2c19e6532b0468368cff8471e6a095b2a492bb95cd94a388e1e60000dbd",
+      "body_current_sha256": "cfbef2c19e6532b0468368cff8471e6a095b2a492bb95cd94a388e1e60000dbd",
+      "body_diff": [],
+      "chunks_before": 28,
+      "chunks_after": 28,
+      "recovered_refs": [],
+      "markdown_recovered_images": 0,
+      "html_recovered_images": 0
+    }
+  ],
+  "asset_checks": [
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Accounting-Growth_Accounting.png",
+      "baseline_blob": "da3dad0c2f8b254f79d9e11c5e5f4bb75ecd79b9",
+      "raw_blob": "da3dad0c2f8b254f79d9e11c5e5f4bb75ecd79b9",
+      "normalized_LF_blob": "bdfdb2839cc69430087c1fb5d31b3b2735905188",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 152159
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Accounting-Growth_Accounting_2.png",
+      "baseline_blob": "e6881c19c7263670f7f140726bdff14ff8b4cdab",
+      "raw_blob": "e6881c19c7263670f7f140726bdff14ff8b4cdab",
+      "normalized_LF_blob": "e6cf53a3973c22193c244a1ee6dcdede36a8fcc4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 161260
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Accounting-Primal_Dual.png",
+      "baseline_blob": "1e8893570c65a4e3ce108e1153c93a8d01300ec7",
+      "raw_blob": "1e8893570c65a4e3ce108e1153c93a8d01300ec7",
+      "normalized_LF_blob": "7f37db0697b94ae769427f3382aaad825a1ba40e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 127182
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Accounting-Productivity_Technology.png",
+      "baseline_blob": "2ecb81e226643a15ccec8eef2bc659f46a8d9bde",
+      "raw_blob": "2ecb81e226643a15ccec8eef2bc659f46a8d9bde",
+      "normalized_LF_blob": "29a54222e5e2cf8e288964b8800a11e5fe179052",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 83892
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento-Economico---Contabilidad-del-crecimiento-Nota.html",
+      "baseline_blob": "2ed6647e1741d5c82a4cc6be21dd5f5c926ad65a",
+      "raw_blob": "e51b75a52aee93ff3732de621f4d8c5b356abc44",
+      "normalized_LF_blob": "2ed6647e1741d5c82a4cc6be21dd5f5c926ad65a",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1771629
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+      "baseline_blob": "eeadab4fbf7a1bba4fd2c25d73559b46cab2e59f",
+      "raw_blob": "eeadab4fbf7a1bba4fd2c25d73559b46cab2e59f",
+      "normalized_LF_blob": "ec4c869c22368601b85f12c91f5970815beb3bcb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 6613816
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Growth_Contribution_Innovation.png",
+      "baseline_blob": "f2a97138916107d4ad57de1862215d60809ca8c7",
+      "raw_blob": "f2a97138916107d4ad57de1862215d60809ca8c7",
+      "normalized_LF_blob": "33a88815b1e8cc1185fc7ca481c1b9b12f55c90a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 71763
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Growth_Contribution_Size.png",
+      "baseline_blob": "b5d2dae3085f771ddbe1ffde0ab51793809819e4",
+      "raw_blob": "b5d2dae3085f771ddbe1ffde0ab51793809819e4",
+      "normalized_LF_blob": "3fda8a565ab10fd674911477171022534fa13f05",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 113766
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Growth_Innovation_Age.png",
+      "baseline_blob": "c8e42946c30d86a3b7a5b6f0af92b506ef6b9042",
+      "raw_blob": "c8e42946c30d86a3b7a5b6f0af92b506ef6b9042",
+      "normalized_LF_blob": "199d590052eb2a97146a92e814663cfceb9cd8e5",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 71967
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Growth_Innovation_Type.png",
+      "baseline_blob": "14338646ff12023969fee636b532eb07a716c853",
+      "raw_blob": "14338646ff12023969fee636b532eb07a716c853",
+      "normalized_LF_blob": "41a4bf34b1d25ef486331f9445c828401499805f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 124865
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Innovation_Competition.png",
+      "baseline_blob": "64cc6103e496fa66cf49b453e2377bd7eece4f5f",
+      "raw_blob": "64cc6103e496fa66cf49b453e2377bd7eece4f5f",
+      "normalized_LF_blob": "c6bac0ed7072b15721508f2d26520a0e1e4ee07f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 29819
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Competition-Product_Lines.png",
+      "baseline_blob": "1c332e71e5ed346f1d05ad12d545a0b8de114955",
+      "raw_blob": "1c332e71e5ed346f1d05ad12d545a0b8de114955",
+      "normalized_LF_blob": "57c7250c68295926c57875482f3dd9da3726e4e1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 77187
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Crecimiento-Economico---Competencia-Nota.html",
+      "baseline_blob": "433e3cf231f3699d52265ebafdd0c2030fbcba8f",
+      "raw_blob": "aa8a0e93888714b6d9c97beb97e21ed96cb41588",
+      "normalized_LF_blob": "433e3cf231f3699d52265ebafdd0c2030fbcba8f",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1917811
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Absolute_Convergence.png",
+      "baseline_blob": "946fd079a676e206d973881a65e32626fa8d1622",
+      "raw_blob": "946fd079a676e206d973881a65e32626fa8d1622",
+      "normalized_LF_blob": "dc0cd26f7d8144d7c86e20b376ddc385ab60643c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 202113
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Absolute_Convergence_2.png",
+      "baseline_blob": "c98a346fecf1c89f582c1cfc4e1b6fd79d88a48d",
+      "raw_blob": "c98a346fecf1c89f582c1cfc4e1b6fd79d88a48d",
+      "normalized_LF_blob": "9397ca5c060fe8d6b1b9a0e529a1e21ad60b4ecf",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 1437051
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Absolute_Convergence_Periods.png",
+      "baseline_blob": "2613bce7e807d937e7274b75815bc880d919d287",
+      "raw_blob": "2613bce7e807d937e7274b75815bc880d919d287",
+      "normalized_LF_blob": "c16cb66e8ca1fe2fc48c50c132db9ba8fc2f2d86",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 27883
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Acceleration_Brazil.png",
+      "baseline_blob": "2ce7e2c96db51962f9eebce5d0feef5867e614e7",
+      "raw_blob": "2ce7e2c96db51962f9eebce5d0feef5867e614e7",
+      "normalized_LF_blob": "4eb409696b4426b4ab54f259139af016e207dd2e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 109567
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Acceleration_Types.png",
+      "baseline_blob": "a453e947df7944160752c95b64ad44f1a26f0aaf",
+      "raw_blob": "a453e947df7944160752c95b64ad44f1a26f0aaf",
+      "normalized_LF_blob": "c27431e2f4021db25c915580d8f2ec70207744e4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 63470
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Beta_Convergence.png",
+      "baseline_blob": "8af068cb818d5de139b96166c677af26bceff160",
+      "raw_blob": "8af068cb818d5de139b96166c677af26bceff160",
+      "normalized_LF_blob": "f855034fc5d54f8b1759e7df01d8b18c55a48af1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 103521
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Chiquiar_1.png",
+      "baseline_blob": "33cc99094e83c248134230ccf5d88235464df391",
+      "raw_blob": "33cc99094e83c248134230ccf5d88235464df391",
+      "normalized_LF_blob": "baf206df60ea486ee0a6b5b3e5c97815419f2b88",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 198340
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Chiquiar_2.png",
+      "baseline_blob": "c45c6dc8f8e7da85e714b46c59fa7019c97511b4",
+      "raw_blob": "c45c6dc8f8e7da85e714b46c59fa7019c97511b4",
+      "normalized_LF_blob": "b526a2f20c2fd03a0e91f663a0163ac3ed0af81a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 79894
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Conditional_Convergence_Periods.png",
+      "baseline_blob": "8e6fa2211c52864c1e9f02851259140f782db735",
+      "raw_blob": "8e6fa2211c52864c1e9f02851259140f782db735",
+      "normalized_LF_blob": "93ae3b3e73a0fa5f1a773bbe6ee77a2b589a4243",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 106730
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Convergence_1960_2000.png",
+      "baseline_blob": "d45bd507114fc5f2b60b5ab5d0304d266e4f5fed",
+      "raw_blob": "d45bd507114fc5f2b60b5ab5d0304d266e4f5fed",
+      "normalized_LF_blob": "0729e516fbf53d221d7f448424e3cff1da9ac61a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 91819
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Convergence_Indicators.png",
+      "baseline_blob": "612b86e2a9108310bda55f1e01c016620020cd2b",
+      "raw_blob": "612b86e2a9108310bda55f1e01c016620020cd2b",
+      "normalized_LF_blob": "af8e5cca00497f53b70e0e3005bd2ac1dffae30c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 108241
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Convergence_Type.png",
+      "baseline_blob": "d27b84f7a12f934e38bd249eced7a037fc8a25d1",
+      "raw_blob": "d27b84f7a12f934e38bd249eced7a037fc8a25d1",
+      "normalized_LF_blob": "89ae030328d3ba1c73b6d6268a5019ed81c222bd",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 16126
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Convergence_World.png",
+      "baseline_blob": "d4219f2b724187b2db545b7c22da3f50a72a49c7",
+      "raw_blob": "d4219f2b724187b2db545b7c22da3f50a72a49c7",
+      "normalized_LF_blob": "2b20353ced55aafd94a610234a399529f8f0711c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 564388
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Depressions.png",
+      "baseline_blob": "a9883555f3cffc91f7a2adb765efa8b10a68d314",
+      "raw_blob": "a9883555f3cffc91f7a2adb765efa8b10a68d314",
+      "normalized_LF_blob": "622584a0b47537ac10035d06687574323a9f056d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 111330
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Distribution_Growth.png",
+      "baseline_blob": "10682d82969cac259ccb08acecb8b647f9396a9c",
+      "raw_blob": "10682d82969cac259ccb08acecb8b647f9396a9c",
+      "normalized_LF_blob": "0d92a51d4935f8317977075771b3cc945fca79a7",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 1953234
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Growth_Diagnostics.png",
+      "baseline_blob": "ef0141b2ba9a08ed69c8df9bbb4200f1e2422c9b",
+      "raw_blob": "ef0141b2ba9a08ed69c8df9bbb4200f1e2422c9b",
+      "normalized_LF_blob": "c9f396667e29fe5d093bd1246761182d833ed292",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 113667
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Headcount_Poverty_Rates.png",
+      "baseline_blob": "082d9b2caa2e17c408fd14a62105e7b0ac38c645",
+      "raw_blob": "082d9b2caa2e17c408fd14a62105e7b0ac38c645",
+      "normalized_LF_blob": "18a087d462327b2350ed7907ac5a471a1a723a31",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 121044
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Headcount_Poverty_Rates_2.png",
+      "baseline_blob": "3c2dd794790b0846f58dbe85196ce1e175e52efb",
+      "raw_blob": "3c2dd794790b0846f58dbe85196ce1e175e52efb",
+      "normalized_LF_blob": "2b2c5b0bf2fef2448cfe7bc6ed69d3642a832873",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 167069
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Mexico_Indicators_1.png",
+      "baseline_blob": "d651bd1d4631086193628e94015442afc133ebd3",
+      "raw_blob": "d651bd1d4631086193628e94015442afc133ebd3",
+      "normalized_LF_blob": "fe8153239490dcccce0c6611781792f728f04a02",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 189440
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Mexico_Indicators_2.png",
+      "baseline_blob": "da44d271050d6822e56816634033d996d21a19c7",
+      "raw_blob": "da44d271050d6822e56816634033d996d21a19c7",
+      "normalized_LF_blob": "8c90116a67fdb9f94bf54a5e3f4ca94d791d2e9a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 232282
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Middle_Income_Trap.png",
+      "baseline_blob": "5794a266d38d08987359dcb8c22fb2cc5d1872ca",
+      "raw_blob": "5794a266d38d08987359dcb8c22fb2cc5d1872ca",
+      "normalized_LF_blob": "eb6cc30ea5aa8a2b3317096cb1ed08c346b3d41d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45984
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Non_Sustained_Growth.png",
+      "baseline_blob": "77df7802fbce91910099f3b2a83631d410e6fe70",
+      "raw_blob": "77df7802fbce91910099f3b2a83631d410e6fe70",
+      "normalized_LF_blob": "a44777c3ed56a116ad89282cf73cc6150461023c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 775106
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Quartile_Poverty_Rates.png",
+      "baseline_blob": "d7dd51ff0f616818db243cb1d5e510a073470519",
+      "raw_blob": "d7dd51ff0f616818db243cb1d5e510a073470519",
+      "normalized_LF_blob": "e6a7154d68ec7cb00d8be289aafe4c626f7e13ce",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 7654
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-RCTs.png",
+      "baseline_blob": "8c2a57bf3741194467869a206a503326f6979f70",
+      "raw_blob": "8c2a57bf3741194467869a206a503326f6979f70",
+      "normalized_LF_blob": "b801fe1b8ef96f2528d81ce8cbaffaeed49343f4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30470
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Salaries_High_School.png",
+      "baseline_blob": "b7ef927dd5f52be9b7b67992c6040f419711b0d4",
+      "raw_blob": "b7ef927dd5f52be9b7b67992c6040f419711b0d4",
+      "normalized_LF_blob": "1ec3589fceec4b0d0f723cb6c61916a11e88fb15",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 46224
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-Sustained_Growth.png",
+      "baseline_blob": "fa0e751384ac53046dbb789a1b852c7f9ad592ff",
+      "raw_blob": "fa0e751384ac53046dbb789a1b852c7f9ad592ff",
+      "normalized_LF_blob": "49e489c231cc7f40a00eeab434df45f2d1ee317f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 693093
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-US_Change_College.png",
+      "baseline_blob": "1ec71ac902458f67f8e648202907a6a35861741b",
+      "raw_blob": "1ec71ac902458f67f8e648202907a6a35861741b",
+      "normalized_LF_blob": "f4bb6af08bde153492bbcd918f5f614b062c0e71",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 101333
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Convergence-US_Convergence.png",
+      "baseline_blob": "b1caa71074bafd1f9add5420b2887474d6b67bdd",
+      "raw_blob": "b1caa71074bafd1f9add5420b2887474d6b67bdd",
+      "normalized_LF_blob": "bdebaea04c79fd1103aeeb0307da4e85541f866f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 29836
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento-Economico---Convergencia-Nota.html",
+      "baseline_blob": "464f83dff722aa02c150bf47793d451291d2a9b1",
+      "raw_blob": "071b32bf0c1858666ee2e485ee08f2c5485af38a",
+      "normalized_LF_blob": "464f83dff722aa02c150bf47793d451291d2a9b1",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 6010132
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento-Economico---Energía-Nota.html",
+      "baseline_blob": "01923863ec8375fe1dfa1e01f7d068c60706add8",
+      "raw_blob": "9cfce993d37b8c1794de5507867ca5be390e6a9c",
+      "normalized_LF_blob": "01923863ec8375fe1dfa1e01f7d068c60706add8",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1592086
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento-Economico---Medio-Ambiente-Nota.html",
+      "baseline_blob": "950340c25d17769f2580c3c8626c0556466595df",
+      "raw_blob": "ab458dac37840ff289bf068f99db183c81d260e6",
+      "normalized_LF_blob": "950340c25d17769f2580c3c8626c0556466595df",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 3443001
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Energy-Crude_Reserves.png",
+      "baseline_blob": "3e7a99320069c61bffc23db5cc4301d109e4cbb7",
+      "raw_blob": "3e7a99320069c61bffc23db5cc4301d109e4cbb7",
+      "normalized_LF_blob": "0124b1cbcacb8508536da70cb7689f7af6489aab",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 67913
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Energy-Energy_Expenditure.png",
+      "baseline_blob": "b21319358346645248d6a61b7c25d5132fd97ad5",
+      "raw_blob": "b21319358346645248d6a61b7c25d5132fd97ad5",
+      "normalized_LF_blob": "855292f5252e27c4183b18f64561d0e8eb7bb868",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 121450
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Acemoglu_1.png",
+      "baseline_blob": "8106c0a64192163541b245dd4414d8a9867fdc02",
+      "raw_blob": "8106c0a64192163541b245dd4414d8a9867fdc02",
+      "normalized_LF_blob": "72e847b50f585d71a788f0a4f971d61c262ae0c0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 372346
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Acemoglu_2.png",
+      "baseline_blob": "4e04f1ff6a97d676f3d37f5cd28767cddeb8df51",
+      "raw_blob": "4e04f1ff6a97d676f3d37f5cd28767cddeb8df51",
+      "normalized_LF_blob": "bfc1064c2aef9b67a39c014642af310c496dd798",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 222134
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-China_India_Greening.png",
+      "baseline_blob": "54f5d33dd987c86e566e715638c3e4ce953073bb",
+      "raw_blob": "54f5d33dd987c86e566e715638c3e4ce953073bb",
+      "normalized_LF_blob": "bd997f5235afec4b67cac7efb8c16dfc48822cbe",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 26359
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Concentrations_GDP.png",
+      "baseline_blob": "849d4c85099d194790e654ad14c7fb28c9ed4554",
+      "raw_blob": "849d4c85099d194790e654ad14c7fb28c9ed4554",
+      "normalized_LF_blob": "676a6e46bf0468cab9f2d500fb83c909f8b07c8d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 26953
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Emissions_Income_Group.png",
+      "baseline_blob": "6a55045c34abca27b95df62d1ff6d1103c5daa08",
+      "raw_blob": "6a55045c34abca27b95df62d1ff6d1103c5daa08",
+      "normalized_LF_blob": "b296e3ec7bd45a86747c196f0440fa3832fd3336",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 87481
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Emissions_Region.png",
+      "baseline_blob": "25cfae4e8af220e7dface3f56bd9589aa133e8df",
+      "raw_blob": "25cfae4e8af220e7dface3f56bd9589aa133e8df",
+      "normalized_LF_blob": "b5b0cea1089fe50f8ccdefcdd4c3fc06ee8b3fed",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 90887
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Kuznetz.png",
+      "baseline_blob": "3b0efb2759eb59b029474793c1144e7e328c4527",
+      "raw_blob": "3b0efb2759eb59b029474793c1144e7e328c4527",
+      "normalized_LF_blob": "65d0fcbd95ae16934d7e7f8bd24572df9ea409d2",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 29783
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Kuznetz_2.png",
+      "baseline_blob": "589a6b4035612ece4efd0ce6008de5b39c817f54",
+      "raw_blob": "589a6b4035612ece4efd0ce6008de5b39c817f54",
+      "normalized_LF_blob": "77213f0cc4a8b08ec4c3606f0dd6e6578be20a45",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 43961
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Leaf_Area.png",
+      "baseline_blob": "e485d880ad71c43098ee892ab7666b5e965b9b96",
+      "raw_blob": "e485d880ad71c43098ee892ab7666b5e965b9b96",
+      "normalized_LF_blob": "3406d88455f3bd932d627a1a1f1f287bfcb30f3a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 469598
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Optimal_Policy.png",
+      "baseline_blob": "b69e071f991680e2cb2d81f6cc86b30c9ec805cf",
+      "raw_blob": "b69e071f991680e2cb2d81f6cc86b30c9ec805cf",
+      "normalized_LF_blob": "a35137b7af0c8652bb9d4dc3f0d59c2ebd7ceff3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 62204
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Regional_Composition_Emissions.png",
+      "baseline_blob": "f81d8095f46eee8244520c192b41f0ca6dd3c1d7",
+      "raw_blob": "f81d8095f46eee8244520c192b41f0ca6dd3c1d7",
+      "normalized_LF_blob": "f3b6c54aee92af405174ce1cfe5a61b00fe66f58",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 81595
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Tax_Strategies.png",
+      "baseline_blob": "e63ea22b05144881b2ced27236626c8d1bac3589",
+      "raw_blob": "e63ea22b05144881b2ced27236626c8d1bac3589",
+      "normalized_LF_blob": "5442bf94ab873bbc928fc44f57cf124d177bf1e4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 370155
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Environment-Welfare_Costs.png",
+      "baseline_blob": "073192ef6856e9dbb4ef0adb666e2ba15a963bac",
+      "raw_blob": "073192ef6856e9dbb4ef0adb666e2ba15a963bac",
+      "normalized_LF_blob": "9e749983b5bd7c17e8db4f6b91fe029a4fed0740",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 25406
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento-Economico---Ideas-Nota.html",
+      "baseline_blob": "2fda8372b06f8035f57155fedf544d87e1cb881f",
+      "raw_blob": "a0dc8767c7913a6f5493de0a556c7fd00c0874a0",
+      "normalized_LF_blob": "2fda8372b06f8035f57155fedf544d87e1cb881f",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1762646
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Moore_Effective_Researchers.png",
+      "baseline_blob": "205134d6b2549c9ae3737022ca3099a26f4e4874",
+      "raw_blob": "205134d6b2549c9ae3737022ca3099a26f4e4874",
+      "normalized_LF_blob": "1a55010947c905acc498a24acbadd2cc06f5bbd8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 77825
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Moore_Law.png",
+      "baseline_blob": "b49a94ee4c8dddcbe630d97de81cfcc8f637d7a2",
+      "raw_blob": "b49a94ee4c8dddcbe630d97de81cfcc8f637d7a2",
+      "normalized_LF_blob": "68d8d8584cdfafd7ccb3082559a2ea06e0d61296",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 40814
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Research_Effort.png",
+      "baseline_blob": "cf06ceea5e5a96f5d39adcf1cd00ba23611c0b18",
+      "raw_blob": "cf06ceea5e5a96f5d39adcf1cd00ba23611c0b18",
+      "normalized_LF_blob": "2a53c04d7e9d8c74347f819fe413012717c52da9",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 116360
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Research_Productivity.png",
+      "baseline_blob": "03f42b077eedddd687ad719700c6daa89c751096",
+      "raw_blob": "03f42b077eedddd687ad719700c6daa89c751096",
+      "normalized_LF_blob": "65fb05b1a0bf1a625a46ab36a6dc478155fc028e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57822
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Shift_Age_Innovation.png",
+      "baseline_blob": "50bed0110d288618234f17e77d3f5d6467269d88",
+      "raw_blob": "50bed0110d288618234f17e77d3f5d6467269d88",
+      "normalized_LF_blob": "c3dffcbe4a2ce4103b11c6919435eb387f2ca22d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 44037
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Ideas-Superexponential_Trends.png",
+      "baseline_blob": "08a13567ac6f461196006bb6a6ea6ee8f32417c4",
+      "raw_blob": "08a13567ac6f461196006bb6a6ea6ee8f32417c4",
+      "normalized_LF_blob": "89889d0f2facbf14b153251d2c5a4da68aeae939",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 107633
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Crecimiento-Economico-1-Nota.html",
+      "baseline_blob": "e2e7a4c6818480c79e37539fc792160737bb482c",
+      "raw_blob": "ef7ca02482222dd64590b5ce58254b8adfa60804",
+      "normalized_LF_blob": "e2e7a4c6818480c79e37539fc792160737bb482c",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 5466896
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Africa.jpg",
+      "baseline_blob": "10d7868a0f70ec87f1928d9ef4eda8b1023fdf54",
+      "raw_blob": "10d7868a0f70ec87f1928d9ef4eda8b1023fdf54",
+      "normalized_LF_blob": "10d7868a0f70ec87f1928d9ef4eda8b1023fdf54",
+      "raw_identical": true,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 159862
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Convergence_Investment.png",
+      "baseline_blob": "d3ef7e66d822382175bea258b01ce643745965cc",
+      "raw_blob": "d3ef7e66d822382175bea258b01ce643745965cc",
+      "normalized_LF_blob": "8372a4b6101a155223aaae55695c7fe7a4a03d76",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 48238
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Convergence_OECD.png",
+      "baseline_blob": "522d22c2be2eebaed4811e5711334203183320f1",
+      "raw_blob": "522d22c2be2eebaed4811e5711334203183320f1",
+      "normalized_LF_blob": "525e660a5491d1e888b859551292df1ac6edf0c6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 46709
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Convergence_Schooling.png",
+      "baseline_blob": "f84c3170973270ad7b53090827ef0e1590091906",
+      "raw_blob": "f84c3170973270ad7b53090827ef0e1590091906",
+      "normalized_LF_blob": "5dea20d0cccaf33b746ece6dcd92e0ee94e8dc48",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 63703
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-GDP_Growth_Rate.png",
+      "baseline_blob": "0793e05c56b7088e4506680bbd39f4ba71bc0275",
+      "raw_blob": "0793e05c56b7088e4506680bbd39f4ba71bc0275",
+      "normalized_LF_blob": "8134d112f3696c319a55a38ee1b6b58e4c758b40",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49206
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Inconditional_Convergence.png",
+      "baseline_blob": "f40ff23023ce280903909ae1e3b2fca856a67430",
+      "raw_blob": "f40ff23023ce280903909ae1e3b2fca856a67430",
+      "normalized_LF_blob": "9a5f3f49fadb5c231e5802e905078950aee5858d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 152976
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Labor_Share.png",
+      "baseline_blob": "cad87c6015343d85b0cc9d8246fa7a69430b9857",
+      "raw_blob": "cad87c6015343d85b0cc9d8246fa7a69430b9857",
+      "normalized_LF_blob": "8e30c06d0c787f763105115e13ca401d7448e9d6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 32588
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Low_Earnings.png",
+      "baseline_blob": "6cc8fc5f4650e857dca789da7931dc182bb27583",
+      "raw_blob": "6cc8fc5f4650e857dca789da7931dc182bb27583",
+      "normalized_LF_blob": "b7883d0c46fe2d2cfe59490b24336fb472f811ef",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 59382
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Macro_Welfare.png",
+      "baseline_blob": "99a22fb48f665882b733daf49524d6032b4427ae",
+      "raw_blob": "99a22fb48f665882b733daf49524d6032b4427ae",
+      "normalized_LF_blob": "dda2a53bc7c23d3ad49dc2a07451d26c45765fd3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 204399
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Macro_Welfare_2.png",
+      "baseline_blob": "989c72a3fb6684d1cb25d55163d267fc29efa1fd",
+      "raw_blob": "989c72a3fb6684d1cb25d55163d267fc29efa1fd",
+      "normalized_LF_blob": "66eb630472b8c37df2291eba2ee582f7e90d09b9",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 27662
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Markup.png",
+      "baseline_blob": "076f026a9cf26341f81688246b64f4239e90c454",
+      "raw_blob": "076f026a9cf26341f81688246b64f4239e90c454",
+      "normalized_LF_blob": "74b29280b9750f8276b30dadf9274f2d77696b28",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 22224
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Mean_Median_Earnings.png",
+      "baseline_blob": "00e6a537b17b5c1e6ec1df5ca25a22ffdd9d8f46",
+      "raw_blob": "00e6a537b17b5c1e6ec1df5ca25a22ffdd9d8f46",
+      "normalized_LF_blob": "2fb1ebf487571b8cc015ba80da55f6548cd0436b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 81429
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Nogales.png",
+      "baseline_blob": "87becdd114f740aa4b8e7ff4262a221de7ebc7f3",
+      "raw_blob": "87becdd114f740aa4b8e7ff4262a221de7ebc7f3",
+      "normalized_LF_blob": "9702762ad2d4c073294ab4417036cc7ee537261b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 914993
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Price_Change.jpg",
+      "baseline_blob": "a7a064a008ad316cf75e0a6c4255ee8a35c273b4",
+      "raw_blob": "a7a064a008ad316cf75e0a6c4255ee8a35c273b4",
+      "normalized_LF_blob": "fd849854f69a22252f2543f8a8fca78a1b264251",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 203266
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Productivity_Wages.png",
+      "baseline_blob": "c337c10a1f30416a8412a04ccce1b491ebd24788",
+      "raw_blob": "c337c10a1f30416a8412a04ccce1b491ebd24788",
+      "normalized_LF_blob": "dc2e9600defba7d12899a8ad8c90d009bde5a4f2",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45634
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction-Real_Trend_GDP.png",
+      "baseline_blob": "62d2389353aa158d88edcde49d232574ffba2966",
+      "raw_blob": "62d2389353aa158d88edcde49d232574ffba2966",
+      "normalized_LF_blob": "5526925b4901f5144fed0d2fe9002b1df769bf0a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 27349
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction_2-Development_Growth.png",
+      "baseline_blob": "ae1012637fc419c672abfd44a3f95da3d8098b04",
+      "raw_blob": "ae1012637fc419c672abfd44a3f95da3d8098b04",
+      "normalized_LF_blob": "d831566187b610d1761c2c74b0669f8474d84ecc",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 53417
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction_2-Long_Run.png",
+      "baseline_blob": "c2954b9db56a87a2f7eb480df8ad6c31c29a8526",
+      "raw_blob": "c2954b9db56a87a2f7eb480df8ad6c31c29a8526",
+      "normalized_LF_blob": "9e5ec6eadc3a3bfea56aad3446fb297706945ddc",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 47829
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Introduction/Introduction_2-Stable_Growth.png",
+      "baseline_blob": "742762b3c1468b9713835523c40da7ddddfb1538",
+      "raw_blob": "742762b3c1468b9713835523c40da7ddddfb1538",
+      "normalized_LF_blob": "ff49ca8a75dc83d0d5dd11c544aa35d3f137daa8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49027
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento-Economico---Mercado-Laboral-Nota.html",
+      "baseline_blob": "5e8fbb08e8edf5af650f3c3acc71368ffdad7e23",
+      "raw_blob": "f0d97fd170b02ae612d0a0ccc9b6ed0207dd748c",
+      "normalized_LF_blob": "5e8fbb08e8edf5af650f3c3acc71368ffdad7e23",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 5031049
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Annual_Earnings.png",
+      "baseline_blob": "00e6a537b17b5c1e6ec1df5ca25a22ffdd9d8f46",
+      "raw_blob": "00e6a537b17b5c1e6ec1df5ca25a22ffdd9d8f46",
+      "normalized_LF_blob": "2fb1ebf487571b8cc015ba80da55f6548cd0436b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 81429
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Cats_Neural.png",
+      "baseline_blob": "df971b5ad38b49ea275166035c85a30f9ad8b90a",
+      "raw_blob": "df971b5ad38b49ea275166035c85a30f9ad8b90a",
+      "normalized_LF_blob": "88da255ba265b40f504e88fd42ed3f38fb7f32fe",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 151234
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Changes_Wages_Occupational.png",
+      "baseline_blob": "67508bb37c96e9ea2ff73f6f3c02f5b6a657f779",
+      "raw_blob": "67508bb37c96e9ea2ff73f6f3c02f5b6a657f779",
+      "normalized_LF_blob": "c13c403c26c920f74152312727d79bd2b77e29c3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49078
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Cognitive_College.png",
+      "baseline_blob": "c283be98b77eef43d09333d1eb4a507f59009cbe",
+      "raw_blob": "c283be98b77eef43d09333d1eb4a507f59009cbe",
+      "normalized_LF_blob": "8ca817f7e2a30ef8e88008214bb3f8f882574574",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 46100
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Computerphobia.png",
+      "baseline_blob": "14b68b2ac298817f722b0d3111390ce330a4a34e",
+      "raw_blob": "14b68b2ac298817f722b0d3111390ce330a4a34e",
+      "normalized_LF_blob": "35e9c355ca45fa147b6a48f4f34bf5a36ae455bb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 3003946
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Employed_Rutinary.png",
+      "baseline_blob": "87df1b81b426873d39435d66daf62e50548f0268",
+      "raw_blob": "87df1b81b426873d39435d66daf62e50548f0268",
+      "normalized_LF_blob": "8a05e4289f7aa046d45e13b0583b752e13774342",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 109082
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Employment_Management.png",
+      "baseline_blob": "5713f1a501160e3eac795f8f8613bc19dd983ddb",
+      "raw_blob": "5713f1a501160e3eac795f8f8613bc19dd983ddb",
+      "normalized_LF_blob": "f5e3d054c4fdf4cbe1f210fa4ccba6bb979afa7e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 65114
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Employment_Recession.png",
+      "baseline_blob": "37ccdd5f6b569ad84d33399fb9a689e9fe9667f6",
+      "raw_blob": "37ccdd5f6b569ad84d33399fb9a689e9fe9667f6",
+      "normalized_LF_blob": "46872dbb60fc7e16a4df76abc21c80645fce1cea",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 1113513
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Employment_Service.png",
+      "baseline_blob": "fe396385d4b532ee2d087fedc789635ef28ebfc7",
+      "raw_blob": "fe396385d4b532ee2d087fedc789635ef28ebfc7",
+      "normalized_LF_blob": "49d4d5b97a06f5dd85e6280520d554a0773a790a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49036
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-England_Productivity.png",
+      "baseline_blob": "d48a69ba1636c22e90cf86378a763f3664449122",
+      "raw_blob": "d48a69ba1636c22e90cf86378a763f3664449122",
+      "normalized_LF_blob": "03274ef6d3a9a1156c1642827cd60c1680dc7f4d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 132367
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Immiseriating_Growth.png",
+      "baseline_blob": "6e5e14c52674353463b3ea693cd68256200f3878",
+      "raw_blob": "6e5e14c52674353463b3ea693cd68256200f3878",
+      "normalized_LF_blob": "6a7b500fdf98847758a44a84c3b241bd14287579",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 69731
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Labor_Force_Statistics.png",
+      "baseline_blob": "0eef979b18f13e86366eefddd9658fb6516d7a71",
+      "raw_blob": "0eef979b18f13e86366eefddd9658fb6516d7a71",
+      "normalized_LF_blob": "60144f1e77684465750c2fd7c3c9b860acdd8a7b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 66277
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Management_College.png",
+      "baseline_blob": "9ff3ee0f8d9f8d6763ea177d70f872abb2d483b6",
+      "raw_blob": "9ff3ee0f8d9f8d6763ea177d70f872abb2d483b6",
+      "normalized_LF_blob": "d4f54aaef400ab8b87f3d62a39e5f240a9cdadaa",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 37381
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-NLF_ERM.png",
+      "baseline_blob": "ff4394554af6ea8e9af59f4991c067a3e0e521a8",
+      "raw_blob": "ff4394554af6ea8e9af59f4991c067a3e0e521a8",
+      "normalized_LF_blob": "68bd30745209b25dab2ea36a1d7cb8865f1bef15",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 84893
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Occupational_Employment_Recession.png",
+      "baseline_blob": "ca458d1682dc6ae674d793d3bbc8734555cef780",
+      "raw_blob": "ca458d1682dc6ae674d793d3bbc8734555cef780",
+      "normalized_LF_blob": "35e234e19863cd98ec5f7cd3e8af0066d7bab83d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 1395805
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Rising_Nonemployment.png",
+      "baseline_blob": "29301e855bb1764979affada1ce6e0f1d6a2ccee",
+      "raw_blob": "29301e855bb1764979affada1ce6e0f1d6a2ccee",
+      "normalized_LF_blob": "d9442aae53b4444bb756b7afe51d0bdd939ace48",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 62665
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Routine_Tasks.png",
+      "baseline_blob": "623edc63c80b8c7833218dffb9c23d65b74e535b",
+      "raw_blob": "623edc63c80b8c7833218dffb9c23d65b74e535b",
+      "normalized_LF_blob": "52ec78753f7fd2f5c3da3e58eb8ac302386bf3c1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 43244
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Sachs_Case_Studies.png",
+      "baseline_blob": "e74ab12c75f11247e14196d0658b8ab64d33785f",
+      "raw_blob": "e74ab12c75f11247e14196d0658b8ab64d33785f",
+      "normalized_LF_blob": "ad1e0956067cd936cbb448182c557933461273b0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 114720
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Skilled_1985.png",
+      "baseline_blob": "420b3da14afc38a116f7b659b0938707a847b124",
+      "raw_blob": "420b3da14afc38a116f7b659b0938707a847b124",
+      "normalized_LF_blob": "add4c67632368b1157aa08cf6ecd9f19c9e040f0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 27717
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Skilled_Categories.png",
+      "baseline_blob": "487658b3f103fef1e31b68e68736e15bb6b7aeac",
+      "raw_blob": "487658b3f103fef1e31b68e68736e15bb6b7aeac",
+      "normalized_LF_blob": "593d84f52f429d9498c08aa2eae61fbfd5e9500a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 46256
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Skilled_Mexico.png",
+      "baseline_blob": "89475efde064231acb745185451326e74427bcc5",
+      "raw_blob": "89475efde064231acb745185451326e74427bcc5",
+      "normalized_LF_blob": "4ddc8e8e7596a905476cd5d5c56a15fc113c120c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 69064
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Skills_Manual.png",
+      "baseline_blob": "502c5b7a455d5dae77d9941b769ff330ac91427d",
+      "raw_blob": "502c5b7a455d5dae77d9941b769ff330ac91427d",
+      "normalized_LF_blob": "aae2d906e51298721411f08b78b3b3a7355873f8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45615
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Unemployed_Rutinary_Cognitive.png",
+      "baseline_blob": "1feb967849d0b48e9118c0e023c050a675f9b3cd",
+      "raw_blob": "1feb967849d0b48e9118c0e023c050a675f9b3cd",
+      "normalized_LF_blob": "e72e88699b308deb43abb795a4b59b449b65cf1a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 28597
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Unemployed_Rutinary_Manual.png",
+      "baseline_blob": "fda157cc758dea6de5b6dfe21c3c44f0c1ecf6ac",
+      "raw_blob": "fda157cc758dea6de5b6dfe21c3c44f0c1ecf6ac",
+      "normalized_LF_blob": "3bbadf6e1fcc2c8730c5f3491c5264f3fa7b9bc1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30802
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Unskilled_1985.png",
+      "baseline_blob": "52fac51db7699a16b3d4130889832454bf540ae1",
+      "raw_blob": "52fac51db7699a16b3d4130889832454bf540ae1",
+      "normalized_LF_blob": "3103dc63668cc11add4e1ff8b4cb14d70e266762",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 29952
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Wage_Labor_Supply.png",
+      "baseline_blob": "e753d2c13729d692f22f637009a5802efae8de2d",
+      "raw_blob": "e753d2c13729d692f22f637009a5802efae8de2d",
+      "normalized_LF_blob": "1819808e82e19dcfd402158248ebdb5453ead3c8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 111454
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Wage_Premium_Categories.png",
+      "baseline_blob": "44a67aba72b21663bc02e13b1c490c5470bfb7a6",
+      "raw_blob": "44a67aba72b21663bc02e13b1c490c5470bfb7a6",
+      "normalized_LF_blob": "368968246c63859cc722073b617f6c7cc572419b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 20770
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Labor-Wages_Low_Workers.png",
+      "baseline_blob": "5804498c22a278701873d21ec6fc5742b4fff9b4",
+      "raw_blob": "5804498c22a278701873d21ec6fc5742b4fff9b4",
+      "normalized_LF_blob": "427ba3a330e226ecdbbd31933f3b7cdb04de72f0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 88768
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento-Economico---Mercado-Laboral-2-Nota.html",
+      "baseline_blob": "d35266c14a35b05f3a76a9d7e9a317fa910c0cdb",
+      "raw_blob": "6e9c4dd3633957ab1bc25bfc0b967bfdad073cb2",
+      "normalized_LF_blob": "d35266c14a35b05f3a76a9d7e9a317fa910c0cdb",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 5191481
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-55.png",
+      "baseline_blob": "01cae014311708cd3f8ab3a92c72af46cdbf916a",
+      "raw_blob": "01cae014311708cd3f8ab3a92c72af46cdbf916a",
+      "normalized_LF_blob": "6b6d5af9afb2903e287d29c48be7c25e8e4455ea",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 85393
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-56.png",
+      "baseline_blob": "4ab9a4eeb1e300317b1dd654d3eff276f93f2b79",
+      "raw_blob": "4ab9a4eeb1e300317b1dd654d3eff276f93f2b79",
+      "normalized_LF_blob": "40388304e05c1bff2eb0903653c25a50a5bf368b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 182717
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-57.png",
+      "baseline_blob": "8998dbe40196c4a30f0274e55f97ea820de60b75",
+      "raw_blob": "8998dbe40196c4a30f0274e55f97ea820de60b75",
+      "normalized_LF_blob": "a95f6aa33e9beb0fddc6f2f5ada20d5cc81b7a2b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 78946
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-58.png",
+      "baseline_blob": "2d48acd321c0db420f61c5a58597bc1a7db1920b",
+      "raw_blob": "2d48acd321c0db420f61c5a58597bc1a7db1920b",
+      "normalized_LF_blob": "e9808afc02b252bba4727c1695f68f5add04d71b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 118866
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Automation_Index.png",
+      "baseline_blob": "5713bac3c5b9cb47e69d48c1595d3787cbfc3f3b",
+      "raw_blob": "5713bac3c5b9cb47e69d48c1595d3787cbfc3f3b",
+      "normalized_LF_blob": "38b00f6022f73e55e4a80e19abeb1d4e849ad6fe",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 217768
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Automation_Potential_Risks.png",
+      "baseline_blob": "87e221a11db7dce317268a8ecec12a349cc76682",
+      "raw_blob": "87e221a11db7dce317268a8ecec12a349cc76682",
+      "normalized_LF_blob": "d57da1e0ca2c5740f7fd95ea6c4800d6eead01c7",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 69735
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Automation_Risks.png",
+      "baseline_blob": "bceee3f9cc0f011443315697eb343386d84c3754",
+      "raw_blob": "bceee3f9cc0f011443315697eb343386d84c3754",
+      "normalized_LF_blob": "4fa239e1d1155697c54b9093f103ddf25c25b34f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 155786
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Comparation_Education.png",
+      "baseline_blob": "64b7392df802e02c6bf35ebee735c24a6a6a38b4",
+      "raw_blob": "64b7392df802e02c6bf35ebee735c24a6a6a38b4",
+      "normalized_LF_blob": "d51a61d8080b1adfadaa66d5441eae954a85422a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 79483
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Comparation_Index.png",
+      "baseline_blob": "ea3f9297f5df8ab678527d679963a26a4853a94f",
+      "raw_blob": "ea3f9297f5df8ab678527d679963a26a4853a94f",
+      "normalized_LF_blob": "50996af93618d6130a7eeaa9e67f396e536ff713",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 56415
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Comparation_Wages.png",
+      "baseline_blob": "693998fc952c0c92a470918195073d6b675110e1",
+      "raw_blob": "693998fc952c0c92a470918195073d6b675110e1",
+      "normalized_LF_blob": "17c6b8612e36e4a3bcf7bd2c34423f47cdf0a717",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 78475
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Effect_Oppening_Schools.png",
+      "baseline_blob": "2bac23dd5280df189e9475fe10b4bf79f9f71fba",
+      "raw_blob": "2bac23dd5280df189e9475fe10b4bf79f9f71fba",
+      "normalized_LF_blob": "63d84f5ed0fbc524106366206de201cd48592ac5",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 128465
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Elasticity_Substitution.png",
+      "baseline_blob": "b6789cc03dc79b946a31cfccb3afeb6a8ef83e34",
+      "raw_blob": "b6789cc03dc79b946a31cfccb3afeb6a8ef83e34",
+      "normalized_LF_blob": "6a49a82e1b123965df080463e93964ac50fb43a5",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 25039
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Employment_High_Low.png",
+      "baseline_blob": "702165a03027454b09a1d1c68233e076f6bd3d40",
+      "raw_blob": "702165a03027454b09a1d1c68233e076f6bd3d40",
+      "normalized_LF_blob": "108adc3022ff609c26f767f2ee6d314fc8068269",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 132883
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Female_Labor_Cities.png",
+      "baseline_blob": "b2322ace18ee00e1f2212ce13b6425999a6ee516",
+      "raw_blob": "b2322ace18ee00e1f2212ce13b6425999a6ee516",
+      "normalized_LF_blob": "7b6558d3728177aee5930a4803fec72de99ca192",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 97692
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Foreign_Born.png",
+      "baseline_blob": "7cc030adf373ea12247292ade4c189ccd0ebe7f8",
+      "raw_blob": "7cc030adf373ea12247292ade4c189ccd0ebe7f8",
+      "normalized_LF_blob": "982e4b3ee24497534062a0d445e491e7d590f2b0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 76088
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Foreign_Born_Regions.png",
+      "baseline_blob": "f3f5837b35ce43e01061ef469c5b6522a6916d8c",
+      "raw_blob": "f3f5837b35ce43e01061ef469c5b6522a6916d8c",
+      "normalized_LF_blob": "3aa6092e4aac2ac29bb846d8fb38ce2be1463d60",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57920
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Foreign_Born_Share.png",
+      "baseline_blob": "f5be00224b994c81eca29c0837fb93ca284dd459",
+      "raw_blob": "f5be00224b994c81eca29c0837fb93ca284dd459",
+      "normalized_LF_blob": "2bfcac29fd079b41375343e10f7c1d339d0826a7",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 83779
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Foreign_Born_Stock.png",
+      "baseline_blob": "3c12b5987d5c19d54129c588cf70fe0c5d1eaebe",
+      "raw_blob": "3c12b5987d5c19d54129c588cf70fe0c5d1eaebe",
+      "normalized_LF_blob": "96bb8d533bd5cfea7d792379354cebdf57c648fa",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49400
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gains_Closing_Gap.png",
+      "baseline_blob": "200d099e18dd2c1aebb47b97b14c4f5fb46d80f4",
+      "raw_blob": "200d099e18dd2c1aebb47b97b14c4f5fb46d80f4",
+      "normalized_LF_blob": "e8a31911026c875f438d762ed391d9724cdc353f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 56676
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gains_Eliminate_Barriers.png",
+      "baseline_blob": "492b49d520e562959616f3cc516bae6320d51495",
+      "raw_blob": "492b49d520e562959616f3cc516bae6320d51495",
+      "normalized_LF_blob": "bb19e99b70b2115dfa58e9a5e431c8672ab69eca",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45811
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gap_Recessions.png",
+      "baseline_blob": "53ac59209adbc1b2bbf96dcdf0b3eb0b60b7d557",
+      "raw_blob": "53ac59209adbc1b2bbf96dcdf0b3eb0b60b7d557",
+      "normalized_LF_blob": "57b5892dd3788a463b4f48f728b06a7d1558e3c1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 89406
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gender_Gap_Growth.png",
+      "baseline_blob": "07a2e90a8e1983f2b6a1be71e127916d405c96b7",
+      "raw_blob": "07a2e90a8e1983f2b6a1be71e127916d405c96b7",
+      "normalized_LF_blob": "ad454212bf2c183fa572defc2c9474c892624e08",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 39063
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gender_Inequality_Growth.png",
+      "baseline_blob": "719ddbb6ea7870a3b7ea0f19537549d23747ee08",
+      "raw_blob": "719ddbb6ea7870a3b7ea0f19537549d23747ee08",
+      "normalized_LF_blob": "73400d532f8a813b9d65d0e4a4296e68efd70892",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 98103
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Gender_Unemployment.png",
+      "baseline_blob": "b509e5f75447252091710ce2b14a81c2c578b6d9",
+      "raw_blob": "b509e5f75447252091710ce2b14a81c2c578b6d9",
+      "normalized_LF_blob": "a4a11f323655fcb569593b37046c57ac6d06a316",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 33974
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-High_Skilled_Immigration.png",
+      "baseline_blob": "a7f5e11ee339785fb56aaf6144dd660ddb35c033",
+      "raw_blob": "a7f5e11ee339785fb56aaf6144dd660ddb35c033",
+      "normalized_LF_blob": "34ebcd1736ebecddf5658fd72ed49c4fb9f938cf",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 115108
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Legal_Immigration.png",
+      "baseline_blob": "f78c4d4b3f6bea62ce0261fba810c04dcdeb9a96",
+      "raw_blob": "f78c4d4b3f6bea62ce0261fba810c04dcdeb9a96",
+      "normalized_LF_blob": "6d93cca268ca6cd215604e19ef86d063c1a7b820",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 76172
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Marginal_Propensity_Consume.png",
+      "baseline_blob": "c4809fdc788abbe3ef7d95ee08f43944c6d834fe",
+      "raw_blob": "c4809fdc788abbe3ef7d95ee08f43944c6d834fe",
+      "normalized_LF_blob": "1318c7ead5eba5c46424ce7ead320e5620a324bd",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 77981
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-OECD_Population.png",
+      "baseline_blob": "83fd42a19af8f85d9516b3b3f948a7a3d5312f8b",
+      "raw_blob": "83fd42a19af8f85d9516b3b3f948a7a3d5312f8b",
+      "normalized_LF_blob": "dc54a7603bddc1cb19b311fa8baaaf7e2ea57565",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 1120910
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Labor_2-Removing_Barriers.png",
+      "baseline_blob": "b82ed8708bf0a4e11eb0f1b85e760a97d2388ade",
+      "raw_blob": "b82ed8708bf0a4e11eb0f1b85e760a97d2388ade",
+      "normalized_LF_blob": "9099dcca32f6cc12c4731c069df2eea8d7a3110d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 336072
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/recuperado/grafica_223.html",
+      "baseline_blob": "89fd80e4de49d0aa8855878ce1b3d34ebf02c1b8",
+      "raw_blob": "89fd80e4de49d0aa8855878ce1b3d34ebf02c1b8",
+      "normalized_LF_blob": "89fd80e4de49d0aa8855878ce1b3d34ebf02c1b8",
+      "raw_identical": true,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 17640
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/recuperado/grafica_223.svg",
+      "baseline_blob": "5b4f98c7a80c5bc06737f5140acafba79cd2cb47",
+      "raw_blob": "5b4f98c7a80c5bc06737f5140acafba79cd2cb47",
+      "normalized_LF_blob": "5b4f98c7a80c5bc06737f5140acafba79cd2cb47",
+      "raw_identical": true,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 13382
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Crecimiento-Economico---Patentes-2-Nota.html",
+      "baseline_blob": "4578c390f1b51aa328e377dccf65a4a28321b614",
+      "raw_blob": "d2855b2d3a932c439b7da8dfa51d3bf49027b67a",
+      "normalized_LF_blob": "4578c390f1b51aa328e377dccf65a4a28321b614",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 2890666
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Annual_Citations_Controls.png",
+      "baseline_blob": "49ec9c11ae497651f5be05786a4a2b2418f05415",
+      "raw_blob": "49ec9c11ae497651f5be05786a4a2b2418f05415",
+      "normalized_LF_blob": "0771f86c52ecba1a273e33da884fa01376bdd8ab",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 54781
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Annual_Citations_Differences.png",
+      "baseline_blob": "b45c6bc050fdf47435dc0b73f73e617ace5c7ee4",
+      "raw_blob": "b45c6bc050fdf47435dc0b73f73e617ace5c7ee4",
+      "normalized_LF_blob": "a6e910a242f14af7ec0145b7b04845fa69ad7c2a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57532
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Anticommons.png",
+      "baseline_blob": "514b4a4932f91a4d3bcf600a18edab0ffbcce7a8",
+      "raw_blob": "514b4a4932f91a4d3bcf600a18edab0ffbcce7a8",
+      "normalized_LF_blob": "7776786b7d6ed72c8c44ea7ceae92dac84587568",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 13710
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Anticommons_Example.png",
+      "baseline_blob": "998c81ad495513e61dfe3ed7ccf8085dc5180448",
+      "raw_blob": "998c81ad495513e61dfe3ed7ccf8085dc5180448",
+      "normalized_LF_blob": "c3b00547b6320134cd6d4100c4c7c5e75160eaf3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 93644
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Backward_Forward_Citations.png",
+      "baseline_blob": "d18a95a406bcde00a5b8713e0b2bf45eb283d881",
+      "raw_blob": "d18a95a406bcde00a5b8713e0b2bf45eb283d881",
+      "normalized_LF_blob": "993cc7f0c84ffec47054e214f7035a642078c7f4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 131166
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Cage_Golden_Delicious.png",
+      "baseline_blob": "6a5495e909fad19c0a97e37f734907c5adcae91f",
+      "raw_blob": "6a5495e909fad19c0a97e37f734907c5adcae91f",
+      "normalized_LF_blob": "d5fb1438a981dbb9678c34e5aaf82c39e9138f74",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 181925
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Citatons_Sample.png",
+      "baseline_blob": "d35426f49da3126360971d8d47c03fd683197ed5",
+      "raw_blob": "d35426f49da3126360971d8d47c03fd683197ed5",
+      "normalized_LF_blob": "4e34310afad7a7a490a4709e631e520dc30d28fd",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 75158
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Game_Shark.png",
+      "baseline_blob": "979b2b237de427620ecea622b1c6f4383cea3be4",
+      "raw_blob": "979b2b237de427620ecea622b1c6f4383cea3be4",
+      "normalized_LF_blob": "9dcfdca0c8253cc63516f18972dd72b806f0ce1e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 61482
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-OLS_Patent_Price.png",
+      "baseline_blob": "2b36d6309011bc2471bc9ad26955b21524ae3cf3",
+      "raw_blob": "2b36d6309011bc2471bc9ad26955b21524ae3cf3",
+      "normalized_LF_blob": "56f0b7ae5b60a722c884df001aebcbc3e23ac92c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 201021
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Patent_Tradeoff.png",
+      "baseline_blob": "311c9edc82229836d3922f90e9ed516cd8607260",
+      "raw_blob": "311c9edc82229836d3922f90e9ed516cd8607260",
+      "normalized_LF_blob": "3035bcd38a8b21465bc5d9fdeff99c461f901a95",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 77158
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Patents_Industry.png",
+      "baseline_blob": "bae347866514a2e1996bd26c35b151f394d7fe72",
+      "raw_blob": "bae347866514a2e1996bd26c35b151f394d7fe72",
+      "normalized_LF_blob": "f13a9017fef006b5a4a3cfac33dc02dc5a0b5b89",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 19880
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Patents_Markups.png",
+      "baseline_blob": "c731e980fd1a37d9b4362c996ac06b005d35080b",
+      "raw_blob": "c731e980fd1a37d9b4362c996ac06b005d35080b",
+      "normalized_LF_blob": "f4b23359edff96e150b0e7f4c58d0dc2d9e57ee4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 47482
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Science.png",
+      "baseline_blob": "7005935f43b07cdc1d1587987937232275059bd8",
+      "raw_blob": "7005935f43b07cdc1d1587987937232275059bd8",
+      "normalized_LF_blob": "fb6d62a022849b7f7d4ea8c9604ad10091f61d61",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 21595
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Sewing_Machine_Patents.png",
+      "baseline_blob": "2a0ede28ef30cc8c527aef425a54bbc379ba6114",
+      "raw_blob": "2a0ede28ef30cc8c527aef425a54bbc379ba6114",
+      "normalized_LF_blob": "e32bafb4f66c02ecd6219a9ba122fd7eee7989d3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 83743
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Patents-Stitches.png",
+      "baseline_blob": "afa99abb96d0e5454b392a98cf1188d5dcf6b3f1",
+      "raw_blob": "afa99abb96d0e5454b392a98cf1188d5dcf6b3f1",
+      "normalized_LF_blob": "6e9f9bc8779fb557aca5e79b5119be442c0726ea",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 35816
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento-Economico---Pensiones-Nota.html",
+      "baseline_blob": "1703cb786255116f5c08eb6c01e326f7e75bf23d",
+      "raw_blob": "2121fd92ab3c730b0f1de228911b1d32f2adadcb",
+      "normalized_LF_blob": "1703cb786255116f5c08eb6c01e326f7e75bf23d",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 4307759
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-BBVA_1.png",
+      "baseline_blob": "9320d3e7575817be3d85ef82329fc19f043815e9",
+      "raw_blob": "9320d3e7575817be3d85ef82329fc19f043815e9",
+      "normalized_LF_blob": "81d47953b77a164256318d5650f3399a196ff8a1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 823669
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-BBVA_2.png",
+      "baseline_blob": "9294cf9801cf55ff1c11705c2c3d1ecbbc193c25",
+      "raw_blob": "9294cf9801cf55ff1c11705c2c3d1ecbbc193c25",
+      "normalized_LF_blob": "d2dd6517da9da89e258525bb109160c55525884b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 64172
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Breyer_1.png",
+      "baseline_blob": "3978410b880a716ec67fceca33e5f7d59505e8d3",
+      "raw_blob": "3978410b880a716ec67fceca33e5f7d59505e8d3",
+      "normalized_LF_blob": "2db3e988eaaec03786139bde370f57f36762cbf6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 48309
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Breyer_2.png",
+      "baseline_blob": "d52f1012e4e1b8b9368c99e3e2f359e4f195696c",
+      "raw_blob": "d52f1012e4e1b8b9368c99e3e2f359e4f195696c",
+      "normalized_LF_blob": "ccac50ea548b6d88720c2fbaa4696edb4ba3b8dc",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 70470
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Cipriani_1.png",
+      "baseline_blob": "82565e65fa7810487cd7c1ebaaeb57b0cee69805",
+      "raw_blob": "82565e65fa7810487cd7c1ebaaeb57b0cee69805",
+      "normalized_LF_blob": "3a257559170708c562ea60a8828f5d83ab406f07",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 36263
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Cipriani_2.png",
+      "baseline_blob": "db6d74cfdbf4591f425b0ac51436e14021b56786",
+      "raw_blob": "db6d74cfdbf4591f425b0ac51436e14021b56786",
+      "normalized_LF_blob": "5633f13b010b01af9f0bb30133ddc08e1a36192d",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 43449
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Cipriani_3.png",
+      "baseline_blob": "28d91335f7a430fae22d7363282711fd3c139f0a",
+      "raw_blob": "28d91335f7a430fae22d7363282711fd3c139f0a",
+      "normalized_LF_blob": "3888204013167184f3668fb780514f381d3dffff",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 50161
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Contributors_Distribution.png",
+      "baseline_blob": "6422c99b323249247e92b067c81622cecfb1bd3f",
+      "raw_blob": "6422c99b323249247e92b067c81622cecfb1bd3f",
+      "normalized_LF_blob": "008625e0973817570c4858f72d9843506a8e557a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 124566
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-DC_DB.png",
+      "baseline_blob": "bde65311c7de02d6af08c347fb26ebc56c230e9e",
+      "raw_blob": "bde65311c7de02d6af08c347fb26ebc56c230e9e",
+      "normalized_LF_blob": "dee3b124fb35c06a3bb45c0a517fb053135f6929",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 129859
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-DC_DB_2.png",
+      "baseline_blob": "6b644feea1243ab93643637cf9b381bc33e256e0",
+      "raw_blob": "6b644feea1243ab93643637cf9b381bc33e256e0",
+      "normalized_LF_blob": "ea377a3ee7e7856a8cbce82141af28835efced5b",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 151396
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Deciles_Income.png",
+      "baseline_blob": "73f28daa5a2b65db95bbca6733195a8da5b04304",
+      "raw_blob": "73f28daa5a2b65db95bbca6733195a8da5b04304",
+      "normalized_LF_blob": "318eeae1300a70bc17d94a9447c3c2ab349d8254",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 74288
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Dependency_Ratio.png",
+      "baseline_blob": "a8aff9504a210f60216f485877cf9d849a241bae",
+      "raw_blob": "a8aff9504a210f60216f485877cf9d849a241bae",
+      "normalized_LF_blob": "7b6956691188bf5d1fd4639b406afbb83a3b25d3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 20822
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Fiscal_Cost.png",
+      "baseline_blob": "046ac791a6d9c9ce94bcc5ed0ae1f923e8394030",
+      "raw_blob": "046ac791a6d9c9ce94bcc5ed0ae1f923e8394030",
+      "normalized_LF_blob": "cd558f3efaf6ca144453638a5084d5c867e2f45f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 91604
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japan_Fertility_Rate.png",
+      "baseline_blob": "9deb88bc7a3f24a2401dbdad4c133281194eb99f",
+      "raw_blob": "9deb88bc7a3f24a2401dbdad4c133281194eb99f",
+      "normalized_LF_blob": "b0fb39623770f4712cead9a87eb4d8d17f2ec678",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 28609
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japan_Life_Expectancy.png",
+      "baseline_blob": "c833d23048ae5d89ff5dae683ebbeee26aca651f",
+      "raw_blob": "c833d23048ae5d89ff5dae683ebbeee26aca651f",
+      "normalized_LF_blob": "1d5271cf0c7709721bc2bdf31cd078dfce41a4f7",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30968
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japan_No_Reform.png",
+      "baseline_blob": "5ef7c146b1a6fe7ebae0eb75e37ea7022b3dd89f",
+      "raw_blob": "5ef7c146b1a6fe7ebae0eb75e37ea7022b3dd89f",
+      "normalized_LF_blob": "ee3d9a38c65fc7eb1edf471e030bcce025f0cacf",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 96530
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japan_Reform.png",
+      "baseline_blob": "27daa17bdb5a4ab35de4f1aa5f0abdeab88e6e14",
+      "raw_blob": "27daa17bdb5a4ab35de4f1aa5f0abdeab88e6e14",
+      "normalized_LF_blob": "c0683c2286d4ef2f9e979f5e650f194d100a09fb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 83978
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japan_Welfare_Reform.png",
+      "baseline_blob": "42d6a3e1e886b5dfbef975ca55b963f013277723",
+      "raw_blob": "42d6a3e1e886b5dfbef975ca55b963f013277723",
+      "normalized_LF_blob": "c9c645bb3d3fe68c012129ad40220b6862373db6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 65373
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Japanese_Population.png",
+      "baseline_blob": "f0c1381ce4e70101f6529ddd84da0434eeae9842",
+      "raw_blob": "f0c1381ce4e70101f6529ddd84da0434eeae9842",
+      "normalized_LF_blob": "a87b2cb5d9ac44b6f6b85097475955f608c93316",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30709
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Labor_Coverage.png",
+      "baseline_blob": "8279729625648005b6f5880a95d85c9acc8ff594",
+      "raw_blob": "8279729625648005b6f5880a95d85c9acc8ff594",
+      "normalized_LF_blob": "567df9cd360ee9c546ac00c50112441e2ebe84d4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 88310
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Meijdam_Verbon_1.png",
+      "baseline_blob": "effdc39d7237452f0470bd85f94ed48658069311",
+      "raw_blob": "effdc39d7237452f0470bd85f94ed48658069311",
+      "normalized_LF_blob": "e9a23b20707842418499e780f137a505ebdfa7a4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 27898
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Meijdam_Verbon_2.png",
+      "baseline_blob": "ed21a6d1831f782881dda419f1b47546440479ea",
+      "raw_blob": "ed21a6d1831f782881dda419f1b47546440479ea",
+      "normalized_LF_blob": "ed45ec76d4aefab2bbed7aac1236094eed2d02bb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 23419
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Mexico_Demographics.png",
+      "baseline_blob": "69d152e2109f12b205b75cdeeceb09356218e4b8",
+      "raw_blob": "69d152e2109f12b205b75cdeeceb09356218e4b8",
+      "normalized_LF_blob": "44ebe70b442fe08b10e51928056d0632666b7be2",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 42394
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Mexico_Dependency_Ratio.png",
+      "baseline_blob": "6c2cd07425088914abb594dbb8c2686bc26a2823",
+      "raw_blob": "6c2cd07425088914abb594dbb8c2686bc26a2823",
+      "normalized_LF_blob": "78a391db73eaffc2bb83b8ba5c174b33b6b4dbac",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 44807
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Miyazaki_1.png",
+      "baseline_blob": "4b6745ede04ab1dd8959ce0ad9a9266d859a2ec8",
+      "raw_blob": "4b6745ede04ab1dd8959ce0ad9a9266d859a2ec8",
+      "normalized_LF_blob": "f6275b737ffc5488c845c0fa337488051c28b61e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 49061
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Miyazaki_2.png",
+      "baseline_blob": "633212dd4cc44e882e4191adb26e4989a9eb87d5",
+      "raw_blob": "633212dd4cc44e882e4191adb26e4989a9eb87d5",
+      "normalized_LF_blob": "0d169b311cdb6a1ed282af55ae6a87d677b02005",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45648
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Miyazaki_3.png",
+      "baseline_blob": "8f19f8c87da04f73c629f1721a0bd802c1b3c2dd",
+      "raw_blob": "8f19f8c87da04f73c629f1721a0bd802c1b3c2dd",
+      "normalized_LF_blob": "62116786e265e9c8ce5899be395f5d046d4bbe53",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 23148
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Monthly_Income.png",
+      "baseline_blob": "4611fe06504156b751efc950b00631e0c2fb6520",
+      "raw_blob": "4611fe06504156b751efc950b00631e0c2fb6520",
+      "normalized_LF_blob": "081221ee666ae6328dc512bf6721fcfee3d19c94",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 143548
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-OECD_Funding.png",
+      "baseline_blob": "8f8e158cad4e1c1a02f4afd740923e79ab3808de",
+      "raw_blob": "8f8e158cad4e1c1a02f4afd740923e79ab3808de",
+      "normalized_LF_blob": "fdf68050904cd87668ed6aa76335ce077c95a307",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 654114
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Salary_Distribution.png",
+      "baseline_blob": "d972e0649a0ec51d2a6170d576321b105e995b12",
+      "raw_blob": "d972e0649a0ec51d2a6170d576321b105e995b12",
+      "normalized_LF_blob": "927b12699c9bd1fd1443462a5a4a239762d0cb21",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 108220
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Taxes_Efficiency.png",
+      "baseline_blob": "3f622937296c608127fed6f8e1aa31273f0033b7",
+      "raw_blob": "3f622937296c608127fed6f8e1aa31273f0033b7",
+      "normalized_LF_blob": "3872231f64c7af18b72065c82fa3f5963dcb8dcd",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 40958
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Pensions-Taxes_Inefficiency.png",
+      "baseline_blob": "8117b8dcba44d8d8def124dedbdc1578eba2109d",
+      "raw_blob": "8117b8dcba44d8d8def124dedbdc1578eba2109d",
+      "normalized_LF_blob": "a677e2ec0f7c590ea09fa566020d73c135ac8797",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57187
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento-Economico---Desaceleración-Nota.html",
+      "baseline_blob": "d96431be91dde9d7ba36552a2a00fd7ec6364ce0",
+      "raw_blob": "40fbd18095946940f5a60d2ffd6b76e4d5f79983",
+      "normalized_LF_blob": "d96431be91dde9d7ba36552a2a00fd7ec6364ce0",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 4604841
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Accounting_China.png",
+      "baseline_blob": "1f7f26c74335e7d0b05ac4b521ded712c2941408",
+      "raw_blob": "1f7f26c74335e7d0b05ac4b521ded712c2941408",
+      "normalized_LF_blob": "a1dfe055c9e2cf6af52f24752ab7be2f5af0b15e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 26809
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Alternative_Futures.png",
+      "baseline_blob": "abf83993c06717d6f098dad72210a6bc3d5b5958",
+      "raw_blob": "abf83993c06717d6f098dad72210a6bc3d5b5958",
+      "normalized_LF_blob": "ca2d8aec29d4a6c39d7b3c531fc7e7bd47048f9f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 50229
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Business_Dynamics.png",
+      "baseline_blob": "5df7509b107f71d33d510904c0cbf687416d655d",
+      "raw_blob": "5df7509b107f71d33d510904c0cbf687416d655d",
+      "normalized_LF_blob": "ff65f6cffb4ab7cd7b7ff876fcaf762133d7697a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 161205
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-China_Growth.png",
+      "baseline_blob": "ce6e6c2b0503053e8bf242676adfa1bf0a59969a",
+      "raw_blob": "ce6e6c2b0503053e8bf242676adfa1bf0a59969a",
+      "normalized_LF_blob": "2c82b26afa0ed1ec33df44659c3dde5909615895",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45763
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-EU_Cities.png",
+      "baseline_blob": "5c3fd207b85e97ac25504c9a455ba66f0688e7e1",
+      "raw_blob": "5c3fd207b85e97ac25504c9a455ba66f0688e7e1",
+      "normalized_LF_blob": "06ceacc4dad4d762246b075ba0f04ddec4319950",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 94426
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-EU_Cities_2.png",
+      "baseline_blob": "942072870db58a28a6bd44225276e5ce8b029adb",
+      "raw_blob": "942072870db58a28a6bd44225276e5ce8b029adb",
+      "normalized_LF_blob": "7485ec4674f942d1a9b69887c8e4b3640a54498e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 98903
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Entry_Rate.png",
+      "baseline_blob": "19ca691873debd9128d1d8ecc49983bdb01ce7b8",
+      "raw_blob": "19ca691873debd9128d1d8ecc49983bdb01ce7b8",
+      "normalized_LF_blob": "40ee6883e64eb624669a43f68f3cf18bb088ae52",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 35518
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-GDI_GDP.png",
+      "baseline_blob": "1a68d65e4099eb4aab251fc7b93a0f90c6fbe95b",
+      "raw_blob": "1a68d65e4099eb4aab251fc7b93a0f90c6fbe95b",
+      "normalized_LF_blob": "ef8f68a21db8f083f6af85fa59a64ee2a504d920",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 160288
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-GDP_Components.png",
+      "baseline_blob": "9d612d778cdc91c53a0d00096f73796be96b63de",
+      "raw_blob": "9d612d778cdc91c53a0d00096f73796be96b63de",
+      "normalized_LF_blob": "3124992f4b669d4efab8321c94181a41328d4503",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 790640
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Growth_Accounting.png",
+      "baseline_blob": "a37de52424aa74ae48a67a2dfc069279cac67eb9",
+      "raw_blob": "a37de52424aa74ae48a67a2dfc069279cac67eb9",
+      "normalized_LF_blob": "e9430832565afeb041cd7291390d0de31ba48585",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 109693
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Iron_Productivity.png",
+      "baseline_blob": "59777a08a9d54ad747234f46cc522e94ba02243f",
+      "raw_blob": "59777a08a9d54ad747234f46cc522e94ba02243f",
+      "normalized_LF_blob": "490bf9aa77b0f187cb2e7e168a4d0ac03a5c8918",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 31021
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Iron_Productivity_2.png",
+      "baseline_blob": "ccc489cd4df01e621b27d37d174e4b00ebeb8174",
+      "raw_blob": "ccc489cd4df01e621b27d37d174e4b00ebeb8174",
+      "normalized_LF_blob": "0ff1a95098a7b87db5931882c81bfdffefe1184e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 38224
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Job_Creation_Destruction.png",
+      "baseline_blob": "38de1d2f2f7e398ee61091b14750f304bf9eef40",
+      "raw_blob": "38de1d2f2f7e398ee61091b14750f304bf9eef40",
+      "normalized_LF_blob": "2270e4b8336da5958e68e93bb9baf45a5e398938",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57973
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Job_Reallocation.png",
+      "baseline_blob": "bc458c09884e81062f00191eaaa336ff49044bca",
+      "raw_blob": "bc458c09884e81062f00191eaaa336ff49044bca",
+      "normalized_LF_blob": "e9319bbf5abc6c6e1f3982077d4f2dfe26c5fc02",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 159782
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Labor_Growth.png",
+      "baseline_blob": "a627bab766ca7137d297a760ea59ef7b07f01b96",
+      "raw_blob": "a627bab766ca7137d297a760ea59ef7b07f01b96",
+      "normalized_LF_blob": "c3a3ee5ea352bcb8ffc040b8a35a89e1f14b6b96",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 22877
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Labor_Productivity.png",
+      "baseline_blob": "7e47e233c7417a97f266bff4facaa6d99d7250fd",
+      "raw_blob": "7e47e233c7417a97f266bff4facaa6d99d7250fd",
+      "normalized_LF_blob": "5376f66494cff95be67de628941afdd4da8eb26c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 120628
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Labor_Productivity_Change.png",
+      "baseline_blob": "c1b8d9061b55aa44459c8fdf1a3a7c5d18ffe3cf",
+      "raw_blob": "c1b8d9061b55aa44459c8fdf1a3a7c5d18ffe3cf",
+      "normalized_LF_blob": "4d506d59438a258a71df6a816d7ea8e75c2f01ec",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 28822
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Labor_Share.png",
+      "baseline_blob": "502220ab7587fbbd89aef9218d1bce830f135f55",
+      "raw_blob": "502220ab7587fbbd89aef9218d1bce830f135f55",
+      "normalized_LF_blob": "d59925d442d136c5ec81abf37b684aab9bbb91e3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 25512
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Manufacturing_Output.png",
+      "baseline_blob": "b951553413979789bd297e1ff3f38b5a4395f64d",
+      "raw_blob": "b951553413979789bd297e1ff3f38b5a4395f64d",
+      "normalized_LF_blob": "7617ef15b355a4ce4f62608dc98fc3d7afc643c6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 66126
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Manufacturing_US.png",
+      "baseline_blob": "f5ef1857f4b610d39283fb05a3dc7aebbdf0bc20",
+      "raw_blob": "f5ef1857f4b610d39283fb05a3dc7aebbdf0bc20",
+      "normalized_LF_blob": "037da880e4a063502d77ce4f5e942aeb752fd25f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 99125
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Nominal_Real_Manufacturing.png",
+      "baseline_blob": "337faa7d6ea38da6d70aed8763a8b3cfe41d2c30",
+      "raw_blob": "337faa7d6ea38da6d70aed8763a8b3cfe41d2c30",
+      "normalized_LF_blob": "5377f2cf7214705606ae5497f0dfa1c7fa970138",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 59415
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-RD_Expenditure.png",
+      "baseline_blob": "00ca4cd5276d44cabc759b1d6dc51c62fce4c508",
+      "raw_blob": "00ca4cd5276d44cabc759b1d6dc51c62fce4c508",
+      "normalized_LF_blob": "47cb565e2b30cfc3c61f2288badc3d38a27165f0",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 69209
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Share_Young_Firms.png",
+      "baseline_blob": "2d6292e8fab5db1d7c4c14213dfb3cc47d9c8a9b",
+      "raw_blob": "2d6292e8fab5db1d7c4c14213dfb3cc47d9c8a9b",
+      "normalized_LF_blob": "c1ccf728ef0cb45f35e7785117f8a8340a98cfe1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 65658
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-South_Asia_Trend.png",
+      "baseline_blob": "a06506f6e792676351a31f29ae9ba345b2662fd9",
+      "raw_blob": "a06506f6e792676351a31f29ae9ba345b2662fd9",
+      "normalized_LF_blob": "6e07aa1ae7ff2f96e422b31cd06ffc04825141ef",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 33512
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Tech_Contribution_GDP.png",
+      "baseline_blob": "371107e8e0e463605529f62c28f83891f0236260",
+      "raw_blob": "371107e8e0e463605529f62c28f83891f0236260",
+      "normalized_LF_blob": "fe1821880c8a5083ab5f59cfedadd22e080e8621",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 66195
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Tech_Productivity.png",
+      "baseline_blob": "e1862e1343d6cd42e171056ebb7a0da2b760c209",
+      "raw_blob": "e1862e1343d6cd42e171056ebb7a0da2b760c209",
+      "normalized_LF_blob": "f2295f0f4b1d0e3d5e868b835b0f1e1745ce6591",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 22688
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-UK_Capital_Growth.png",
+      "baseline_blob": "9722b5de723fa41be3e1da51ee3485876d47e8b2",
+      "raw_blob": "9722b5de723fa41be3e1da51ee3485876d47e8b2",
+      "normalized_LF_blob": "ad554f44b66fc88b5a1a7a97042d3af7fd1606cb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 46767
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-UK_Output.png",
+      "baseline_blob": "e762ae7579b70d541f47646a4ec77ef32b07a8ba",
+      "raw_blob": "e762ae7579b70d541f47646a4ec77ef32b07a8ba",
+      "normalized_LF_blob": "d6b62eb1464a845195062a9a3a252d70cf18fa2c",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 20315
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-UK_Output_Adjusted.png",
+      "baseline_blob": "eb498026fcd0d3dd3878e5e84964a666ccb92960",
+      "raw_blob": "eb498026fcd0d3dd3878e5e84964a666ccb92960",
+      "normalized_LF_blob": "5d91a84024ebc748b298827c589eed5b3b12afcc",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 23572
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-UK_Productivity.png",
+      "baseline_blob": "d092b26a652f7fc77049693a6c782cfd6688d0b2",
+      "raw_blob": "d092b26a652f7fc77049693a6c782cfd6688d0b2",
+      "normalized_LF_blob": "3cacd4e1ed83b0d3417b69eda9c7a08d53a2125e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 31729
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-US_Economic_Growth.png",
+      "baseline_blob": "4933e602a8519d468a45bea955013b81aaa22e23",
+      "raw_blob": "4933e602a8519d468a45bea955013b81aaa22e23",
+      "normalized_LF_blob": "84c7d1e30c40cb84397db5efe43d3a3ef49c44f4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 54936
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Slowdown-Within_Labor_Productivity.png",
+      "baseline_blob": "24d36cd05345b0bd91100ded2fefc9525bc4a6e8",
+      "raw_blob": "24d36cd05345b0bd91100ded2fefc9525bc4a6e8",
+      "normalized_LF_blob": "dd3fd2e78369b2c9ba87650997ecdde328574b02",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 71252
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/Crecimiento-Economico-2-Nota.html",
+      "baseline_blob": "3c85661b5e46fabcd10b15517ab7853b1721beea",
+      "raw_blob": "a8b2501b290eff5ab78d7b5754a237f9084c028e",
+      "normalized_LF_blob": "3c85661b5e46fabcd10b15517ab7853b1721beea",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1031976
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/recuperado/grafica_42.html",
+      "baseline_blob": "19baacb335ce727236655efccd8acd823a49ec26",
+      "raw_blob": "19baacb335ce727236655efccd8acd823a49ec26",
+      "normalized_LF_blob": "19baacb335ce727236655efccd8acd823a49ec26",
+      "raw_identical": true,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 18224
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/recuperado/grafica_42.svg",
+      "baseline_blob": "9f660d58ac46f8644ff3d185eaf590b1949b91ee",
+      "raw_blob": "9f660d58ac46f8644ff3d185eaf590b1949b91ee",
+      "normalized_LF_blob": "9f660d58ac46f8644ff3d185eaf590b1949b91ee",
+      "raw_identical": true,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 14206
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento-Economico---Transformacion-sectorial-Nota.html",
+      "baseline_blob": "daff5a172719a680168efee581f36e5167a5561a",
+      "raw_blob": "af941bc91fc948722574afdbe931b0bb28b6f502",
+      "normalized_LF_blob": "daff5a172719a680168efee581f36e5167a5561a",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 3735962
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Aggregate_TFP.png",
+      "baseline_blob": "e1de11281580551c7a5d0db62138aad5ef67d252",
+      "raw_blob": "e1de11281580551c7a5d0db62138aad5ef67d252",
+      "normalized_LF_blob": "0da999f299ecf81a3a20491a361f325cdfeb15f4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30259
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Allocative_Efficiency.png",
+      "baseline_blob": "b8c909882c7caf443dff5edcf722460dc83a4fb4",
+      "raw_blob": "b8c909882c7caf443dff5edcf722460dc83a4fb4",
+      "normalized_LF_blob": "9d8b295f0943d633502aab987592b82d86479c5a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 82793
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Between_Within.png",
+      "baseline_blob": "eb1a944eca5cb824e22e3eb7ca948afaccc8a6cd",
+      "raw_blob": "eb1a944eca5cb824e22e3eb7ca948afaccc8a6cd",
+      "normalized_LF_blob": "f8bbb0bcd6189079bb4d662f3e0eb31f53894526",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 70221
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Contribution_Sector.png",
+      "baseline_blob": "8c27959065e5dda44e32a78df78d9c67dbebc439",
+      "raw_blob": "8c27959065e5dda44e32a78df78d9c67dbebc439",
+      "normalized_LF_blob": "fbe5c504b60d90002b8f4feaaff2fbe958ed8950",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 24191
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Cost_Education.png",
+      "baseline_blob": "0e5d22063faa0209daa14181bb91d2d04ada6d2c",
+      "raw_blob": "0e5d22063faa0209daa14181bb91d2d04ada6d2c",
+      "normalized_LF_blob": "7b6d0f2b0823dd33ff9807ba674f6e95ba32d07f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 120778
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Decomposition_Market_Share.png",
+      "baseline_blob": "b9ba12038d2aaf84f1afacb738f5145cf8566084",
+      "raw_blob": "b9ba12038d2aaf84f1afacb738f5145cf8566084",
+      "normalized_LF_blob": "19b9cf229c0a5cc34f1cde624b27a744ad15ab5f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 83111
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Disorted_Representative.png",
+      "baseline_blob": "4e56e3134d8d6c1c472b91789cc39b29e050bdcc",
+      "raw_blob": "4e56e3134d8d6c1c472b91789cc39b29e050bdcc",
+      "normalized_LF_blob": "ccaf66e7b16a29c7f0c14095a12299d1eff74384",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 59784
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Disorted_Solow_Residual.png",
+      "baseline_blob": "b3dbba0cdf7d358be6c5cc2dde4a2fb46afebe69",
+      "raw_blob": "b3dbba0cdf7d358be6c5cc2dde4a2fb46afebe69",
+      "normalized_LF_blob": "e54d75fc14000282288f332231599c1e3b0c10f8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 73606
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Distribution_Plant_Size.png",
+      "baseline_blob": "4fedf66f910342dc2be17f57177b85b93ca444b0",
+      "raw_blob": "4fedf66f910342dc2be17f57177b85b93ca444b0",
+      "normalized_LF_blob": "73b572d67499fe622abf1503f3472746ec4e4d90",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 59244
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Evolution_Capital_Share.png",
+      "baseline_blob": "3fa74278c5aa103437cc5515349f56eadbd11c76",
+      "raw_blob": "3fa74278c5aa103437cc5515349f56eadbd11c76",
+      "normalized_LF_blob": "b1144ef1ec830e94bc2facb8696c77fa1cd9e8f9",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 55165
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Evolution_Distribution_Markup.png",
+      "baseline_blob": "3241dae969772ec6669cba3e1ad10b1b4e31ec7e",
+      "raw_blob": "3241dae969772ec6669cba3e1ad10b1b4e31ec7e",
+      "normalized_LF_blob": "86b605b5218062df1791425391c78abcbe8362bd",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 96169
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Evolution_Labor_Share.png",
+      "baseline_blob": "a87357bd3ad2e0660c1d2fe58c6518d0847a8b87",
+      "raw_blob": "a87357bd3ad2e0660c1d2fe58c6518d0847a8b87",
+      "normalized_LF_blob": "a7d2818097c52c35103bb6d8c2d06cec870011c9",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 42550
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Evolution_Markup.png",
+      "baseline_blob": "801e8d62927c96dc1022a102015761fd2c6feac9",
+      "raw_blob": "801e8d62927c96dc1022a102015761fd2c6feac9",
+      "normalized_LF_blob": "a23d4516722961e3e8de549cb06f01f22e3f4aaf",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 52996
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Evolution_Median_Wages.png",
+      "baseline_blob": "5bd1bb39671aed459c674946416849a524aa1b4c",
+      "raw_blob": "5bd1bb39671aed459c674946416849a524aa1b4c",
+      "normalized_LF_blob": "b50bdc0201f9582d35174b1bdb396c4869d0d930",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 64062
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Gains_Eliminating_Markups.png",
+      "baseline_blob": "b9053525e1e97fa468439eb9e7311603755bcb12",
+      "raw_blob": "b9053525e1e97fa468439eb9e7311603755bcb12",
+      "normalized_LF_blob": "2798f506b260d9a80cd686c25259cc895f8a0b37",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 20898
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Gains_TFP_Markups.png",
+      "baseline_blob": "4375a50484413af0dd36d110e1c6091837e2c702",
+      "raw_blob": "4375a50484413af0dd36d110e1c6091837e2c702",
+      "normalized_LF_blob": "90c0a61c8f74414b9e022b8e82813e0a25165f01",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 80060
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Life_Expectancy_Healthcare.png",
+      "baseline_blob": "e56c83db841ee34219c488b602eae4c9c618799e",
+      "raw_blob": "e56c83db841ee34219c488b602eae4c9c618799e",
+      "normalized_LF_blob": "078adc7cb940953c9428bf0622fd4740cc885e16",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 73461
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Price_Changes.png",
+      "baseline_blob": "4d1c100608672f530143a08760b3b6d1df99623c",
+      "raw_blob": "4d1c100608672f530143a08760b3b6d1df99623c",
+      "normalized_LF_blob": "b3202feae74e890f5b762a98a030eb3cf686d7ae",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 186955
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Roy.png",
+      "baseline_blob": "154a2d760d8d8c5a6b8da08c60ae2bc6855ab101",
+      "raw_blob": "154a2d760d8d8c5a6b8da08c60ae2bc6855ab101",
+      "normalized_LF_blob": "470c6cd63aeb826fcd0eaf3821d57ab2c4b701e8",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 242358
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-Share_Employment_New.png",
+      "baseline_blob": "37fdba9ae6bc7582ca323d58b0f227aee2e24ec1",
+      "raw_blob": "37fdba9ae6bc7582ca323d58b0f227aee2e24ec1",
+      "normalized_LF_blob": "70b62cd733aba51e3ec0143f5ba1984cf5320547",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 29570
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-TFP_Gains.png",
+      "baseline_blob": "6a54bc3ebe1a3ec2191fc6aff0b706e0b204eb34",
+      "raw_blob": "6a54bc3ebe1a3ec2191fc6aff0b706e0b204eb34",
+      "normalized_LF_blob": "a65cd4a602a83780ea8526eb6728f7e9e3baed15",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 33368
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Structural_Transformation/Structural_Transformation-US_Productivity_Growth.png",
+      "baseline_blob": "a391442d89e23d5df97232631454a3dd978ac4b1",
+      "raw_blob": "a391442d89e23d5df97232631454a3dd978ac4b1",
+      "normalized_LF_blob": "291dabdebbce022bf4fcb919ec2d0b6f19c72fad",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 37256
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento-Economico---Politica-Fiscal-y-crecimiento-Nota.html",
+      "baseline_blob": "44400eb9f24fa0527324da2bca45397d7f51789f",
+      "raw_blob": "04f59a8b5709560831decfcd1e61cdb5494a371d",
+      "normalized_LF_blob": "44400eb9f24fa0527324da2bca45397d7f51789f",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 1921995
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-10_porc_share.png",
+      "baseline_blob": "97ed07e961b110ef6825e34a3e1b663b07068ade",
+      "raw_blob": "97ed07e961b110ef6825e34a3e1b663b07068ade",
+      "normalized_LF_blob": "8bd49bf78f0c8ce794b0352eb9953613a96927e3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 111573
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-1_porc_share.png",
+      "baseline_blob": "a8b75db82d2c38b488498336138851ff2faa56d6",
+      "raw_blob": "a8b75db82d2c38b488498336138851ff2faa56d6",
+      "normalized_LF_blob": "ed788162fe1647043931c4835697d78d59e68087",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 50867
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-Employment_GDP_Tax.png",
+      "baseline_blob": "6bd4967c19c6f6acd9dd74cb8e7bae8ad0ca14ff",
+      "raw_blob": "6bd4967c19c6f6acd9dd74cb8e7bae8ad0ca14ff",
+      "normalized_LF_blob": "da581ae27ec37c24af7c328c87f34e9429ee7187",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 57314
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-GDP_Tax_Rates.png",
+      "baseline_blob": "2f047f1a7afe7bd46bb78cd91bc1eebbfc2e7dd4",
+      "raw_blob": "2f047f1a7afe7bd46bb78cd91bc1eebbfc2e7dd4",
+      "normalized_LF_blob": "7911cb7217ebd77937f2a67aadee3803b253d518",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 141621
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-Supply_Elasticity.png",
+      "baseline_blob": "c5c24d2957a072ffdd0588dea4c1cee9c6fe392b",
+      "raw_blob": "c5c24d2957a072ffdd0588dea4c1cee9c6fe392b",
+      "normalized_LF_blob": "e548ae57b890e79e061f3b789125e184617198fe",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 48690
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-Tax_Changes.png",
+      "baseline_blob": "9e8dc8c9af1648f067f39f6cdd312c1b8184f0e8",
+      "raw_blob": "9e8dc8c9af1648f067f39f6cdd312c1b8184f0e8",
+      "normalized_LF_blob": "574d601e9bd609e05a9afac59ac9ccb788579048",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 67531
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-Tax_Cut.png",
+      "baseline_blob": "02a053d1794b44bbeea7f8f02fc23d31bdf0cf1a",
+      "raw_blob": "02a053d1794b44bbeea7f8f02fc23d31bdf0cf1a",
+      "normalized_LF_blob": "3945778f3bd4b56636d09cb909f83cf945480fa6",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 106315
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Taxes-Tax_Rates.png",
+      "baseline_blob": "46ec56a9f9d3af0ffa087c705b380d8319393ea5",
+      "raw_blob": "46ec56a9f9d3af0ffa087c705b380d8319393ea5",
+      "normalized_LF_blob": "9d6ece90d75b1a2a05098eb9d2d9e1c9389aee83",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 21216
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento-Economico---Difusión-tecnológica-Nota.html",
+      "baseline_blob": "905676b9eef3f590e4312f270376b8f88d368e97",
+      "raw_blob": "f1b33624b7fe5310ca571f5134e1d348ff9440fe",
+      "normalized_LF_blob": "905676b9eef3f590e4312f270376b8f88d368e97",
+      "raw_identical": false,
+      "normalized_LF_identical": true,
+      "preserved_git_content": true,
+      "bytes": 3976363
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Adoption_Lags.png",
+      "baseline_blob": "21867f7af9f127c0e2f822986d3e245a299afb36",
+      "raw_blob": "21867f7af9f127c0e2f822986d3e245a299afb36",
+      "normalized_LF_blob": "dcde86cf43e50b86e03bad2698ee842877fe512a",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 146423
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Average_Markup.png",
+      "baseline_blob": "eb5036769ffd576a1d7c3616a3b93bcefe7540e4",
+      "raw_blob": "eb5036769ffd576a1d7c3616a3b93bcefe7540e4",
+      "normalized_LF_blob": "3e8b46b35a3aa8865f0caa5c658c664d1ec533ad",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 37053
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Correlation_Concentration_Labor.png",
+      "baseline_blob": "d439eac4dbfec63e0791521433a72f975b3bea55",
+      "raw_blob": "d439eac4dbfec63e0791521433a72f975b3bea55",
+      "normalized_LF_blob": "3983a20fd692b7774d16b1010612de30217ff9d4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 45963
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Cummulative_Adopters.png",
+      "baseline_blob": "67cefbe0333bb81ef8dc3a07588194c762cae8f7",
+      "raw_blob": "67cefbe0333bb81ef8dc3a07588194c762cae8f7",
+      "normalized_LF_blob": "240f23728265e2d315a6f72d4af1c19a2535f6ee",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 10824
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Electricity_Production.png",
+      "baseline_blob": "90ed4259482cb93223fdc3b7b7ffddff2adb8e91",
+      "raw_blob": "90ed4259482cb93223fdc3b7b7ffddff2adb8e91",
+      "normalized_LF_blob": "526de44e8aabd281eab336ac7433949c6ed429d3",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 73708
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Employment_Share_Young.png",
+      "baseline_blob": "4d93699731ce78b03222d320c032efa23fe7604b",
+      "raw_blob": "4d93699731ce78b03222d320c032efa23fe7604b",
+      "normalized_LF_blob": "cf6fa9908c70271c753af069bf356782a44ca2a4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 36915
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Entry_Exit_Rates.png",
+      "baseline_blob": "10a3edfc81f0d5c16e4ff984b32018ed7a0ef67e",
+      "raw_blob": "10a3edfc81f0d5c16e4ff984b32018ed7a0ef67e",
+      "normalized_LF_blob": "b127940728d16ff28f4e4e368caccd37cc1ce2f4",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 60691
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Factor_Share.png",
+      "baseline_blob": "e2886128e503b178329172f9a7f43add36ad63d1",
+      "raw_blob": "e2886128e503b178329172f9a7f43add36ad63d1",
+      "normalized_LF_blob": "980aa9e965712f33e5a180c2ac4dae70806b2616",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 20890
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Griliches.png",
+      "baseline_blob": "ed70dc06106630c476c51129c4ccc164af6506b6",
+      "raw_blob": "ed70dc06106630c476c51129c4ccc164af6506b6",
+      "normalized_LF_blob": "32519771220b3df98e371ae93cb6beccb83a479f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 30782
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Growth_Dispersion.png",
+      "baseline_blob": "8e88c15c23b24a2c53ab17b7301e496423d58aa1",
+      "raw_blob": "8e88c15c23b24a2c53ab17b7301e496423d58aa1",
+      "normalized_LF_blob": "62bb13459bd3cb08a5d12a807fce2d96388ec3eb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 58890
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Growth_Rates_GDP.png",
+      "baseline_blob": "3545f8198d53ad093df3557b00b0956499e95350",
+      "raw_blob": "3545f8198d53ad093df3557b00b0956499e95350",
+      "normalized_LF_blob": "8f53df065c68d91da5a455fa92603c2983d6824f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 48816
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Growth_Westerns_Nonwesterns.png",
+      "baseline_blob": "fb00243e608548740c4a03ed569c4f79b0dd08b5",
+      "raw_blob": "fb00243e608548740c4a03ed569c4f79b0dd08b5",
+      "normalized_LF_blob": "50eb22e9124386a66e28322ad31056bdd4453e34",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 43553
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Job_Reallocation.png",
+      "baseline_blob": "e152adbd4787c540bcdc8e42f2950b23615559d3",
+      "raw_blob": "e152adbd4787c540bcdc8e42f2950b23615559d3",
+      "normalized_LF_blob": "97d403dbf33f9cf0c0120d93b67295ffe42fdd87",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 41866
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Labor_Productivity.png",
+      "baseline_blob": "f22ea39ced723c4fd980defff27c1ee969f2b557",
+      "raw_blob": "f22ea39ced723c4fd980defff27c1ee969f2b557",
+      "normalized_LF_blob": "3e45dca77dcfe95958f8cfdebe05e7a4cc374142",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 25034
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Labor_Share.png",
+      "baseline_blob": "d328f807c8a414b63c61ce70737197ad7a3749da",
+      "raw_blob": "d328f807c8a414b63c61ce70737197ad7a3749da",
+      "normalized_LF_blob": "18633d88c0177c9e280b3f623caa83d604e87f17",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 40281
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Market_Concentration.png",
+      "baseline_blob": "a041e982646e8a7c3dffb29c023a257b08791afd",
+      "raw_blob": "a041e982646e8a7c3dffb29c023a257b08791afd",
+      "normalized_LF_blob": "392ffe38a3c597a63b33f092fd4d4142455fc119",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 34353
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Profit_Fraction_GDP.png",
+      "baseline_blob": "534b933a4dfca337a928af93d55511e81733f156",
+      "raw_blob": "534b933a4dfca337a928af93d55511e81733f156",
+      "normalized_LF_blob": "fdcdb409d215fc8f262b5bee9ba3864eba8ae7d1",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 40747
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Real_GDP_Lags.png",
+      "baseline_blob": "8a505a4909ec88e09e988ca439b37234fffdc6a3",
+      "raw_blob": "8a505a4909ec88e09e988ca439b37234fffdc6a3",
+      "normalized_LF_blob": "85ba713ada66d99fac584d31b6ab99a9408af1ed",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 139363
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Reassignment_Patents.png",
+      "baseline_blob": "ebc32b110161c0499a667afe33213c0c32ee8ec4",
+      "raw_blob": "ebc32b110161c0499a667afe33213c0c32ee8ec4",
+      "normalized_LF_blob": "667af3ce9801675447a3f90185ff5bcd97aaa6fb",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 38937
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Registry_Patents.png",
+      "baseline_blob": "6d9d4f703539a7e64161e4b3a06596535b4631fa",
+      "raw_blob": "6d9d4f703539a7e64161e4b3a06596535b4631fa",
+      "normalized_LF_blob": "3689cd76d04658de95c732660f1f928602600296",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 37801
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Results.png",
+      "baseline_blob": "c649ec578b8347f0f667a14299c090275a6b26f3",
+      "raw_blob": "c649ec578b8347f0f667a14299c090275a6b26f3",
+      "normalized_LF_blob": "95906e5ae53de405870979ff8fc513d3bd6d0ec9",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 75870
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Shifts.png",
+      "baseline_blob": "300a26710c9bd0b29d35b5a0419d6445f34cc782",
+      "raw_blob": "300a26710c9bd0b29d35b5a0419d6445f34cc782",
+      "normalized_LF_blob": "44500311e9a1cb8174d98d923b1959a0b03d2e2e",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 13728
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Tech_Adoption.png",
+      "baseline_blob": "c30bfb296814799d416f8a0fd7e4f3fff1f1cb87",
+      "raw_blob": "c30bfb296814799d416f8a0fd7e4f3fff1f1cb87",
+      "normalized_LF_blob": "8b6255d744bc0e0113a6131a05a096062dfacb37",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 82740
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Correlation.png",
+      "baseline_blob": "0e2aa62f0eeab50aac318c5b8533925f716eea93",
+      "raw_blob": "0e2aa62f0eeab50aac318c5b8533925f716eea93",
+      "normalized_LF_blob": "0d870c7454c3144f69eb411dfb4d176593cf120f",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 237336
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Tech_Adoption_Sectors.png",
+      "baseline_blob": "bf1dd16fbb8c8ff4e7e862db0264bd2941067b0f",
+      "raw_blob": "bf1dd16fbb8c8ff4e7e862db0264bd2941067b0f",
+      "normalized_LF_blob": "d33a7d0072cbff875b95f86b319f35217e055e14",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 130040
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Technological_Diffusion-Year_Invention_Lags.png",
+      "baseline_blob": "99d38d099ccf1385398a4da5f0cd23b40248d3b4",
+      "raw_blob": "99d38d099ccf1385398a4da5f0cd23b40248d3b4",
+      "normalized_LF_blob": "1dbf058152cb276ec3e571138a2c1849d2b10a18",
+      "raw_identical": true,
+      "normalized_LF_identical": false,
+      "preserved_git_content": true,
+      "bytes": 50211
+    }
+  ],
+  "other_tracked_changes": [
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/recuperado/README.md",
+      "baseline_blob": "60b4c87f5b14feac798df958f7c248336ee0e1ea",
+      "current_blob": "354101e121ea96b5b12e34a6f600d91f18198787"
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/recuperado/README.md",
+      "baseline_blob": "af69e14cb726a65f66f9e0d0da91b199acf5a75a",
+      "current_blob": "5fec779ae8323a9599802f623bede65ebe0a7f46"
+    }
+  ],
+  "status_before": " M \"Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\"\n M \"Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd\"\n M \"Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd\"\n M Clases_Crecimiento_Economico/Labor_2/recuperado/README.md\n M \"Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd\"\n M \"Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd\"\n M \"Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd\"\n M \"Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd\"\n M Clases_Crecimiento_Economico/Solow/recuperado/README.md\n M \"Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd\"\n M \"Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd\"\n M \"Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd\"\n?? Clases_Crecimiento_Economico/curso.css\n?? scripts/modulos.csv\n?? scripts/renderizar_modulos.R\n",
+  "Rmd_executed": false,
+  "repo_modified_by_audit": false,
+  "stable_Rmd_snapshot": true,
+  "all_assets_preserved": true,
+  "asset_counts": {
+    ".png": 268,
+    ".html": 18,
+    ".xlsx": 1,
+    ".jpg": 2,
+    ".svg": 2
+  },
+  "body_changed_paths": [
+    "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+    "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd"
+  ],
+  "Rmd_changed_count": 34,
+  "status_after": " M \"Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\"\n M \"Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd\"\n M \"Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd\"\n M \"Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd\"\n M Clases_Crecimiento_Economico/Labor_2/recuperado/README.md\n M \"Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd\"\n M \"Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd\"\n M \"Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd\"\n M \"Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd\"\n M Clases_Crecimiento_Economico/Solow/recuperado/README.md\n M \"Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd\"\n M \"Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd\"\n M \"Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd\"\n M \"Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd\"\n M \"Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd\"\n?? Clases_Crecimiento_Economico/curso.css\n?? scripts/modulos.csv\n?? scripts/renderizar_modulos.R\n",
+  "still_markdown_recovery_paths": [],
+  "header_refresh": {
+    "header_changes": [
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "id": "09",
+        "prior_blob": "f27f4dd31e1746eb89f5fb475a8e876de20ffdf5",
+        "current_blob": "464e3a232fbd544af9c45d9a2653167871cf1202",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Energía\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "id": "10",
+        "prior_blob": "f10f94c122fba4ad71cd8b65d7dfdd5da660ef92",
+        "current_blob": "52ce29a8b423c6745c681230f65a95fa3a34ad1f",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Medio Ambiente\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "id": "20",
+        "prior_blob": "ad3468db0d7f1982a445c9881d7eee864008a5ed",
+        "current_blob": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Mercado Laboral - Género y migración\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      }
+    ],
+    "expected_ids": [
+      "09",
+      "10",
+      "20"
+    ],
+    "changed_headers_match_expected_ids": true,
+    "only_expected_css_insertions": true,
+    "body_changes_since_prior_snapshot": [],
+    "CSS_targets": [
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      }
+    ],
+    "CSS_reference_count": 37,
+    "CSS_all_exist": true,
+    "all_34_stable_after_refresh": true,
+    "script_sha256_normalized_LF": "ae94f2af9b1c9fa16a8aac3ef84943fe0b50514aa717ca3ee99c5241617e34de",
+    "manifest_sha256_normalized_LF": "a539f674a8ca33a0dd1c7dce4b06ff6b8534fdbca890096706ff3627273bed8a",
+    "manifest_rows": 34,
+    "manifest_unique_ids": 34,
+    "manifest_sources_exist": true,
+    "manifest_output_pairs_unique": true,
+    "manifest_selection_examples": {
+      "IDs09_10_20": [
+        "09",
+        "10",
+        "20"
+      ],
+      "Environment": [
+        "10",
+        "11"
+      ],
+      "Accounting_and03": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    "Rmd_executed": false,
+    "script_executed": false,
+    "XLSX_PWT_recompared": false
+  },
+  "asset_checks_reused_from_initial_snapshot": true,
+  "head_after_refresh": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "iframe_refresh": {
+    "changes": [
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "id": "10",
+        "prior_blob": "52ce29a8b423c6745c681230f65a95fa3a34ad1f",
+        "current_blob": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+        "new_block_occurrences": 1,
+        "body_matches_prior_after_removing_exact_closure": true,
+        "opening_line": 67,
+        "closing_line": 69,
+        "iframe_opens": 10,
+        "iframe_closes": 10,
+        "body_diff": [
+          "--- baseline_body",
+          "+++ working_body",
+          "@@ -57,6 +57,8 @@",
+          " ",
+          " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+          " ",
+          "+</iframe>",
+          "+",
+          " ## Factores",
+          " ",
+          " <span style=\"color:blue\">**Contaminación del aire**</span>"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "id": "11",
+        "prior_blob": "fd2103fde6efb5390be579b9ec38f0f937f12536",
+        "current_blob": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+        "new_block_occurrences": 1,
+        "body_matches_prior_after_removing_exact_closure": true,
+        "opening_line": 69,
+        "closing_line": 71,
+        "iframe_opens": 10,
+        "iframe_closes": 10,
+        "body_diff": [
+          "--- baseline_body",
+          "+++ working_body",
+          "@@ -56,6 +56,8 @@",
+          " ",
+          " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+          " ",
+          "+</iframe>",
+          "+",
+          " ## Factores",
+          " ",
+          " <span style=\"color:blue\">**Contaminación del aire**</span>"
+        ]
+      }
+    ],
+    "expected_ids": [
+      "10",
+      "11"
+    ],
+    "only_expected_documents": true,
+    "only_exact_closure_insertions": true,
+    "unexpected_header_changes": [],
+    "stable_all34_after_refresh": true,
+    "Rmd_executed": false,
+    "render_script_executed": false,
+    "assets_comparison_reused": true
+  }
+}

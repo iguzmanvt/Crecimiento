@@ -1,0 +1,1440 @@
+{
+  "repository": "iguzmanvt/Crecimiento",
+  "baseline": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "date": "2026-11-11",
+  "result": "PASS; sin defectos materiales detectados en el alcance de preservación de fuentes/recursos",
+  "scope": "34 Rmd fuera de Introduction, activos versionados e integración exacta de cinco referencias 42/223; comparación sólo lectura en Windows",
+  "head": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+  "Rmd_count": 34,
+  "changed_Rmd_count": 34,
+  "body_unchanged_count": 26,
+  "body_changed_paths": [
+    "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+    "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd"
+  ],
+  "all_changed_bodies_accounted_for": true,
+  "recovered_images": [
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+      "current_blob": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+      "baseline_block_occurrences": 1,
+      "exact_body_transformation_matches": true,
+      "html_img_count": 1,
+      "SVG_exists": true,
+      "HTML_exists": true
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+      "current_blob": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+      "baseline_block_occurrences": 1,
+      "exact_body_transformation_matches": true,
+      "html_img_count": 1,
+      "SVG_exists": true,
+      "HTML_exists": true
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "current_blob": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+      "baseline_block_occurrences": 1,
+      "exact_body_transformation_matches": true,
+      "html_img_count": 1,
+      "SVG_exists": true,
+      "HTML_exists": true
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "current_blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+      "baseline_block_occurrences": 1,
+      "exact_body_transformation_matches": true,
+      "html_img_count": 1,
+      "SVG_exists": true,
+      "HTML_exists": true
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+      "current_blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+      "baseline_block_occurrences": 1,
+      "exact_body_transformation_matches": true,
+      "html_img_count": 1,
+      "SVG_exists": true,
+      "HTML_exists": true
+    }
+  ],
+  "no_markdown_recovered_images": true,
+  "example": {
+    "repository": "iguzmanvt/Crecimiento",
+    "baseline": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+    "date": "2026-11-11",
+    "path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+    "baseline_blob": "94a026433aebb4e180fd7cc4fd670fec2a4c4bd4",
+    "working_blob": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc",
+    "clone_HEAD": "df1639e97f20b9e6b386b14d4edfe2ef3b84efac",
+    "scope": "Lectura de GitHub fijado y archivo/diff/hash-object Windows, sin ejecución de R ni modificación del repo",
+    "allowed_changes_exhaustive_match": true,
+    "calculations_chunk_identical": true,
+    "plot_construction_identical_except_publication_replaced_with_fig": true,
+    "data_call_explicit_pwt10_edition": true,
+    "plotly_explicit": true,
+    "labels": [
+      "datos",
+      "calculos",
+      "grafica"
+    ],
+    "labels_unique": true,
+    "chunk_headers": [
+      {
+        "line": 8,
+        "header": "```{r datos, include=FALSE}"
+      },
+      {
+        "line": 17,
+        "header": "```{r calculos, include=FALSE}"
+      },
+      {
+        "line": 45,
+        "header": "```{r grafica, echo=FALSE}"
+      }
+    ],
+    "final_plot_chunk_include_is_default_true": true,
+    "final_plot_chunk_echo_false": true,
+    "final_plot_value": "fig",
+    "api_create_count": 0,
+    "formula_checks": [
+      {
+        "id": "alpha_03",
+        "baseline": 21,
+        "current": 24,
+        "preserved": true,
+        "text": "p$acctky <- (.3/(1-.3))*log(p$ky) # completar K/Y"
+      },
+      {
+        "id": "post1959",
+        "baseline": 26,
+        "current": 29,
+        "preserved": true,
+        "text": "p <- p[which(p$year>1959),]"
+      },
+      {
+        "id": "reference1960_tfp",
+        "baseline": 27,
+        "current": 30,
+        "preserved": true,
+        "text": "p$inittfp <- with(p, accttfp[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+      },
+      {
+        "id": "reference1960_hc",
+        "baseline": 28,
+        "current": 31,
+        "preserved": true,
+        "text": "p$inithc <- with(p, accthc[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+      },
+      {
+        "id": "reference1960_ky",
+        "baseline": 29,
+        "current": 32,
+        "preserved": true,
+        "text": "p$initky <- with(p, acctky[year == \"1960\"][match(isocode, isocode[year == \"1960\"])])"
+      },
+      {
+        "id": "usa_filter",
+        "baseline": 38,
+        "current": 41,
+        "preserved": true,
+        "text": "usa <- p[which(p$isocode %in% c(\"USA\")),]"
+      }
+    ],
+    "rounding_lines": [
+      "p$lngdppc <- round(log(p$rgdpna) - log(p$pop),digits=2) # crear Log PIB per capita",
+      "p$ky <- round(p$rnna/p$rgdpna,digits=2) # crear ratio K/Y",
+      "p$kyonly <- round(p$inittfp + p$inithc + p$acctky,digits=2)",
+      "p$hconly <- round(p$inittfp + p$accthc + p$initky,digits=2)",
+      "p$tfponly <- round(p$accttfp + p$inithc + p$initky,digits=2)",
+      "p$input <- round(p$inittfp + p$accthc + p$acctky,digits=2)"
+    ],
+    "rounding_exact_unchanged": true,
+    "unchanged_trace_count": 4,
+    "unchanged_y_axis_range": [
+      9,
+      11.1
+    ],
+    "runtime_evaluated": false,
+    "repo_modified": false,
+    "result": "PASS: cambios limitados a configuración, dependencias explícitas, labels únicos y devolución local de fig; fórmulas/filtros/referencia/redondeos intactos.",
+    "limits": [
+      "No se ejecutó el Rmd ni se probó aquí disponibilidad/contenido de pwt10.0 en el paquete instalado.",
+      "No se verificó visualización o funcionamiento JS; el coordinador realiza ese render.",
+      "Preservar cálculos del baseline no constituye validación económica o estadística."
+    ],
+    "git_diff": "Process started with PID 15268 (shell: powershell.exe)\nInitial output:\nwarning: in the working copy of 'Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd', LF will be replaced by CRLF the next time Git touches it\ndiff --git a/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd b/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\nindex 94a0264..11b1ce3 100644\n--- a/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\t\n+++ b/Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd\t\n@@ -1,17 +1,20 @@\n ---\n-title: \"Untitled\"\n-output: html_document\n+title: \"Contabilidad del crecimiento: ejemplo de Estados Unidos\"\n+output:\n+  html_document:\n+    self_contained: false\n ---\n \n-```{r setup, include=FALSE}\n+```{r datos, include=FALSE}\n # Contabilidad del Crecimiento\n \n #########################################################################\n # Base de datos\n-data(\"pwt10.0\") # extraer PWT\n+library(plotly)\n+data(\"pwt10.0\", package=\"pwt10\") # extraer la edición 10.0 de PWT\n ```\n \n-```{r setup, include=FALSE}\n+```{r calculos, include=FALSE}\n #########################################################################\n # Cálculo de la contabilidad de crecimiento\n #########################################################################\n@@ -39,7 +42,7 @@ usa <- p[which(p$isocode %in% c(\"USA\")),]\n \n ```\n \n-```{r setup, include=FALSE}\n+```{r grafica, echo=FALSE}\n #########################################################################\n # Composición del PIB per cápita de Estados Unidos\n #########################################################################\n@@ -55,5 +58,5 @@ fig <- layout(fig, title = list(text = 'Contabilidad de crecimiento para Estados\n                xaxis = list(title = 'Año', tick0=1950, dtick=10),\n                yaxis = list (title = 'Log PIB per cápita',range=c(9,11.1)),\n                hovermode=\"x unified\")\n-api_create(fig, filename = \"pwt-account-usa\")\n+fig\n ```\n\\ No newline at end of file\n\n✅ Process 15268 has finished execution"
+  },
+  "asset_summary": {
+    "files": 291,
+    "counts": {
+      ".png": 268,
+      ".html": 18,
+      ".xlsx": 1,
+      ".jpg": 2,
+      ".svg": 2
+    },
+    "all_preserved_git_content": true,
+    "raw_byte_identical": 275,
+    "CRLF_LF_only_HTML": 16,
+    "all_PNG_JPG_SVG_XLSX_raw_byte_identical": true
+  },
+  "other_tracked_changes": [
+    {
+      "path": "Clases_Crecimiento_Economico/Labor_2/recuperado/README.md",
+      "baseline_blob": "60b4c87f5b14feac798df958f7c248336ee0e1ea",
+      "current_blob": "354101e121ea96b5b12e34a6f600d91f18198787"
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Solow/recuperado/README.md",
+      "baseline_blob": "af69e14cb726a65f66f9e0d0da91b199acf5a75a",
+      "current_blob": "5fec779ae8323a9599802f623bede65ebe0a7f46"
+    }
+  ],
+  "YAML": {
+    "all_parse": true,
+    "documents": [
+      {
+        "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Contabilidad del crecimiento",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+        "parsed_YAML": {
+          "title": "Contabilidad del crecimiento: ejemplo de Estados Unidos",
+          "output": {
+            "html_document": {
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Competencia",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Convergencia",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Energía",
+          "output": {
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Medio Ambiente",
+          "output": {
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Ideas, productividad e investigación y desarrollo",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Mercado Laboral",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Mercado Laboral",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Mercado Laboral - Género y migración",
+          "output": {
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Patentes",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Pensiones",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Desaceleración",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Transformación sectorial y crecimiento",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Política Fiscal y Crecimiento",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico",
+          "output": {
+            "ioslides_presentation": {
+              "css": "../curso.css",
+              "self_contained": false,
+              "smaller": true,
+              "widescreen": true
+            },
+            "html_document": {
+              "css": "../curso.css",
+              "self_contained": false
+            }
+          }
+        }
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd",
+        "parsed_YAML": {
+          "title": "Crecimiento Económico. Difusión tecnológica",
+          "output": {
+            "html_document": {
+              "self_contained": false,
+              "toc": true,
+              "theme": "flatly"
+            }
+          }
+        }
+      }
+    ],
+    "html_formats": 34,
+    "ioslides_formats": 17,
+    "CSS_targets": [
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      }
+    ],
+    "all_CSS_targets_exist": true,
+    "CSS_reference_count": 37
+  },
+  "stable_Rmd_snapshot": true,
+  "all_Rmd_blobs_rechecked_at_end": true,
+  "material_findings": [],
+  "Rmd_executed": false,
+  "repo_modified_by_audit": false,
+  "evidence_files": [
+    "final_source_snapshot.json",
+    "final_recovery_exact.json",
+    "final_example_review.json",
+    "final_header_refresh.json",
+    "final_iframe_refresh.json"
+  ],
+  "limitations": [
+    "Esta lectura no ejecuta Rmd, knitr o render ni acredita inspección visual de las 51 rendiciones.",
+    "El cotejo de activos preserva contenido Git; 16 HTML históricos usan CRLF en checkout frente a LF en blobs.",
+    "Se verifican entradas, fórmulas y límites del diff, no validez económica ni disponibilidad de iframes externos.",
+    "La auditoría corresponde a los blobs de trabajo registrados, antes del commit/publicación."
+  ],
+  "header_refresh": {
+    "header_changes": [
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "id": "09",
+        "prior_blob": "f27f4dd31e1746eb89f5fb475a8e876de20ffdf5",
+        "current_blob": "464e3a232fbd544af9c45d9a2653167871cf1202",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Energía\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "id": "10",
+        "prior_blob": "f10f94c122fba4ad71cd8b65d7dfdd5da660ef92",
+        "current_blob": "52ce29a8b423c6745c681230f65a95fa3a34ad1f",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Medio Ambiente\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "id": "20",
+        "prior_blob": "ad3468db0d7f1982a445c9881d7eee864008a5ed",
+        "current_blob": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+        "only_expected_css_insertion": true,
+        "header_diff": [
+          "--- ",
+          "+++ ",
+          "@@ -2,6 +2,7 @@",
+          " title: \"Crecimiento Económico. Mercado Laboral - Género y migración\"",
+          " output:",
+          "   html_document:",
+          "+    css: ../curso.css",
+          "     self_contained: false",
+          "     toc: true",
+          "     theme: flatly"
+        ]
+      }
+    ],
+    "expected_ids": [
+      "09",
+      "10",
+      "20"
+    ],
+    "changed_headers_match_expected_ids": true,
+    "only_expected_css_insertions": true,
+    "body_changes_since_prior_snapshot": [],
+    "CSS_targets": [
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      },
+      {
+        "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+        "literal": "../curso.css",
+        "target": "Clases_Crecimiento_Economico/curso.css",
+        "exists": true
+      }
+    ],
+    "CSS_reference_count": 37,
+    "CSS_all_exist": true,
+    "all_34_stable_after_refresh": true,
+    "script_sha256_normalized_LF": "ae94f2af9b1c9fa16a8aac3ef84943fe0b50514aa717ca3ee99c5241617e34de",
+    "manifest_sha256_normalized_LF": "a539f674a8ca33a0dd1c7dce4b06ff6b8534fdbca890096706ff3627273bed8a",
+    "manifest_rows": 34,
+    "manifest_unique_ids": 34,
+    "manifest_sources_exist": true,
+    "manifest_output_pairs_unique": true,
+    "manifest_selection_examples": {
+      "IDs09_10_20": [
+        "09",
+        "10",
+        "20"
+      ],
+      "Environment": [
+        "10",
+        "11"
+      ],
+      "Accounting_and03": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    "Rmd_executed": false,
+    "script_executed": false,
+    "XLSX_PWT_recompared": false
+  },
+  "asset_verification_reused": true,
+  "XLSX_PWT_recompared_on_refresh": false,
+  "render_script_static_review": {
+    "result": "Sin defectos materiales detectados en selección por módulo o ID para el manifiesto actual",
+    "script_sha256_normalized_LF": "ae94f2af9b1c9fa16a8aac3ef84943fe0b50514aa717ca3ee99c5241617e34de",
+    "manifest_sha256_normalized_LF": "a539f674a8ca33a0dd1c7dce4b06ff6b8534fdbca890096706ff3627273bed8a",
+    "checks": [
+      "CSV leído con colClasses character conserva IDs01–34.",
+      "Valida cada selector contra módulos e IDs antes de crear la salida.",
+      "Filtro OR selecciona unión; selectores repetidos o solapados no duplican filas.",
+      "34 IDs únicos, rutas de fuente existentes y destinos módulo/ID/formato únicos.",
+      "Rechaza salida dentro del repositorio o directorio no vacío.",
+      "Reconoce css en YAML, copia curso.css a destino y anula la ruta a curso.css local.",
+      "pwt10 sólo se exige si selección contiene el ejemplo USA.",
+      "Registra estados, errores y warnings por render; finaliza con error si hay salidas fallidas."
+    ],
+    "selector_examples": {
+      "IDs09_10_20": [
+        "09",
+        "10",
+        "20"
+      ],
+      "Environment": [
+        "10",
+        "11"
+      ],
+      "Accounting_and03": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    "executed": false,
+    "limitations": [
+      "No se ejecutó el script ni se verificaron sus salidas en esta revisión; revisión estática contra manifiesto actual."
+    ]
+  },
+  "iframe_refresh": {
+    "changes": [
+      {
+        "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+        "id": "10",
+        "prior_blob": "52ce29a8b423c6745c681230f65a95fa3a34ad1f",
+        "current_blob": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+        "new_block_occurrences": 1,
+        "body_matches_prior_after_removing_exact_closure": true,
+        "opening_line": 67,
+        "closing_line": 69,
+        "iframe_opens": 10,
+        "iframe_closes": 10,
+        "body_diff": [
+          "--- baseline_body",
+          "+++ working_body",
+          "@@ -57,6 +57,8 @@",
+          " ",
+          " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+          " ",
+          "+</iframe>",
+          "+",
+          " ## Factores",
+          " ",
+          " <span style=\"color:blue\">**Contaminación del aire**</span>"
+        ]
+      },
+      {
+        "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+        "id": "11",
+        "prior_blob": "fd2103fde6efb5390be579b9ec38f0f937f12536",
+        "current_blob": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+        "new_block_occurrences": 1,
+        "body_matches_prior_after_removing_exact_closure": true,
+        "opening_line": 69,
+        "closing_line": 71,
+        "iframe_opens": 10,
+        "iframe_closes": 10,
+        "body_diff": [
+          "--- baseline_body",
+          "+++ working_body",
+          "@@ -56,6 +56,8 @@",
+          " ",
+          " <iframe width=\"1300\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://ourworldindata.org/grapher/co-emissions-per-capita\">",
+          " ",
+          "+</iframe>",
+          "+",
+          " ## Factores",
+          " ",
+          " <span style=\"color:blue\">**Contaminación del aire**</span>"
+        ]
+      }
+    ],
+    "expected_ids": [
+      "10",
+      "11"
+    ],
+    "only_expected_documents": true,
+    "only_exact_closure_insertions": true,
+    "unexpected_header_changes": [],
+    "stable_all34_after_refresh": true,
+    "Rmd_executed": false,
+    "render_script_executed": false,
+    "assets_comparison_reused": true
+  },
+  "current_document_blobs": {
+    "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd": "f19a96bf93063893604710aa366be27dae2adf8e",
+    "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38",
+    "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc",
+    "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd": "713c857631f6f7a4a8ccebdf513ba7a30e3930bb",
+    "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd": "dd1cd808a67e0b171658064e8976572f7db628d2",
+    "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd": "9aa731f117844f11e3fd75870042aa34a643de7d",
+    "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd": "01636a86759498c24d3aa26acc0c73b6b27c1bea",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd": "8a1b009b6752923671c125229abf7e24f35299a3",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd": "464e3a232fbd544af9c45d9a2653167871cf1202",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd": "d0c8d8abbd4b8da0b1468f6507728be6da308374",
+    "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd": "f4c0ee519456f32d19fb87c53c0bcb8937cfa2d1",
+    "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd": "02793ad9e9190f075425a7152f6bd237588159d4",
+    "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd": "6b588211d52cdd200b1f38caac97fcd8f51e2d79",
+    "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd": "3d5e03a625f1ffd6b921b19dab735e36ff58c4db",
+    "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+    "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd": "1e8f633ce36ea161e2d428c0297927be5a9a9618",
+    "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd": "c048d7e3b0215e2270ed4b61cdcfd7473850e892",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd": "d0ae54452b5f1c9c9468e611a6f213728f4e99c1",
+    "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd": "edc662f6e679c29f5c4a52b3c8623eafb83b1b18",
+    "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd": "30d3d7314cabc0ffc3566e1ab375342bbf83743e",
+    "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd": "8b5fca7dd457c26db0cb818c5b274cebf0d8daa2",
+    "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd": "73c4cf480791e56e8636c46aa213f69682c83b6c",
+    "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd": "5de322540dffc3f60c697ecf0b53dbc2ebe00b95",
+    "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd": "0e02ed566babc784013c6a5aa8dfb9bf297f4435",
+    "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd": "e8593eea0d4e267ff155b898b392829ceb1cf8fa",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd": "d788b65ad4468e1385de9a92ccfb3b604845bd1e",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1",
+    "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd": "c2fdc1be4f05ca0b980459112ffe0f9434d10d80",
+    "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd": "c9cabaee497649c01929c3e99759e549919d8048",
+    "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd": "53818e4092fee5941b026e88106403e3021cc486",
+    "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd": "35151f9a713b2c567c3a8fce364e241201ae9473",
+    "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd": "630c19954775a152845cb0d2ee2dedcab9149192",
+    "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd": "ed5581c4f588f18e7fe223eeed0481cab37e4703"
+  }
+}

@@ -2,6 +2,8 @@
 title: "Crecimiento Económico. Mercado Laboral - Género y migración"
 output:
   html_document:
+    css: ../curso.css
+    self_contained: false
     toc: true
     theme: flatly
 ---
@@ -443,9 +445,9 @@ grid.raster(Labor_2_36, interpolate=FALSE)
 
 - Dado que la inmigración es un proceso continuo, tiene sentido pensar en ello en el contexto del modelo de Solow como un cambio en la tasa de crecimiento de la población en lugar de como un cambio único para el factor trabajo.
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/223.embed">
+<img src="recuperado/grafica_223.svg" alt="Tasa de crecimiento poblacional de Estados Unidos" />
 
-</iframe>
+[Vista local, datos y límites de la recuperación](recuperado/grafica_223.html)
 
 ## Migración y mercado laboral
 

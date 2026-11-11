@@ -1,17 +1,20 @@
 ---
-title: "Untitled"
-output: html_document
+title: "Contabilidad del crecimiento: ejemplo de Estados Unidos"
+output:
+  html_document:
+    self_contained: false
 ---
 
-```{r setup, include=FALSE}
+```{r datos, include=FALSE}
 # Contabilidad del Crecimiento
 
 #########################################################################
 # Base de datos
-data("pwt10.0") # extraer PWT
+library(plotly)
+data("pwt10.0", package="pwt10") # extraer la edición 10.0 de PWT
 ```
 
-```{r setup, include=FALSE}
+```{r calculos, include=FALSE}
 #########################################################################
 # Cálculo de la contabilidad de crecimiento
 #########################################################################
@@ -39,7 +42,7 @@ usa <- p[which(p$isocode %in% c("USA")),]
 
 ```
 
-```{r setup, include=FALSE}
+```{r grafica, echo=FALSE}
 #########################################################################
 # Composición del PIB per cápita de Estados Unidos
 #########################################################################
@@ -55,5 +58,5 @@ fig <- layout(fig, title = list(text = 'Contabilidad de crecimiento para Estados
                xaxis = list(title = 'Año', tick0=1950, dtick=10),
                yaxis = list (title = 'Log PIB per cápita',range=c(9,11.1)),
                hovermode="x unified")
-api_create(fig, filename = "pwt-account-usa")
+fig
 ```

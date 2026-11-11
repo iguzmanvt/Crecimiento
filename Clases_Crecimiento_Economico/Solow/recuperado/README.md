@@ -41,6 +41,6 @@ La aceptación requiere igualdad de los 70 pares entre el respaldo, JSON, CSV y 
 
 ## Pendiente
 
-La entrega recupera una gráfica. Las otras 17 referencias externas de la nota de Solow siguen pendientes de recuperar desde sus propios respaldos. La nota HTML y las fuentes R Markdown históricas se conservan intactas. Regenerar la nota directamente desde el Rmd podría reemplazar el respaldo incrustado, porque la fuente Rmd sólo conserva el enlace externo de la gráfica 42.
+La entrega recupera una gráfica. Las otras 17 referencias externas de la nota de Solow siguen pendientes de recuperar desde sus propios respaldos. La nota HTML histórica se conserva intacta. Desde el 11 de noviembre de 2026, las dos fuentes R Markdown enlazan esta vista local y muestran su SVG. El renderizador copia los recursos a una salida separada; no debe sobrescribirse el HTML histórico.
 
 Identificadores pendientes de `iguzmanvt` en la nota, en su orden original: `160`, `162`, `78`, `82`, `46`, `48`, `50`, `52`, `54`, `122`, `124`, `56`, `126`, `58`, `60`, `62`, `44`.

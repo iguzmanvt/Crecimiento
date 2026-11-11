@@ -2,6 +2,7 @@
 title: "Crecimiento Económico. Convergencia"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---

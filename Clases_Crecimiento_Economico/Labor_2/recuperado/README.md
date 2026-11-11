@@ -1,6 +1,6 @@
 # Gráfica 223 de Mercado Laboral 2 recuperada
 
-La [nota HTML histórica](../Crecimiento-Economico---Mercado-Laboral-2-Nota.html) conserva el respaldo de `iguzmanvt:223` dentro del iframe de la línea 903. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión, conservando el documento y las tres fuentes R Markdown originales.
+La [nota HTML histórica](../Crecimiento-Economico---Mercado-Laboral-2-Nota.html) conserva el respaldo de `iguzmanvt:223` dentro del iframe de la línea 903. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión, conservando el documento HTML histórico.
 
 ![Tasa de crecimiento poblacional](grafica_223.svg)
 
@@ -43,4 +43,4 @@ La aceptación requiere igualdad completa de los 58 pares entre respaldo, JSON, 
 
 ## Límites de esta entrega
 
-Se recupera una gráfica. La nota HTML y las tres fuentes R Markdown se conservan intactas. No debe sobrescribirse la nota histórica al regenerarla desde un Rmd, porque las fuentes sólo conservan el enlace externo a la gráfica 223. Los demás materiales y recursos externos del capítulo mantienen su estado anterior.
+Se recupera una gráfica. La nota HTML histórica se conserva intacta. Desde el 11 de noviembre de 2026, las tres fuentes R Markdown enlazan esta vista local y muestran su SVG. El renderizador copia los recursos a una salida separada; no debe sobrescribirse el HTML histórico. Los demás materiales y recursos externos del capítulo mantienen su estado anterior.

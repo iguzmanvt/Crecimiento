@@ -2,6 +2,7 @@
 title: "Crecimiento Económico"
 output:
   html_document:
+    self_contained: false
     toc: true
     theme: flatly
 ---
@@ -26,7 +27,11 @@ opts_chunk$set(echo = TRUE)
 
 ### **Estudios de caso usando el modelo de Solow**
 
-- [**Estados Unidos**](http://plotly.com/~iguzmanvt/42.embed)
+- **Estados Unidos**
+
+<img src="recuperado/grafica_42.svg" alt="Log PIB per cápita de Estados Unidos" />
+
+[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)
 
 - [**Estados Unidos**](http://plotly.com/~iguzmanvt/46.embed) - BGP 1
 

@@ -2,11 +2,13 @@
 title: "Crecimiento Económico"
 output:
   ioslides_presentation: 
-    css: air.css
+    css: ../curso.css
+    self_contained: false
     smaller: true
     widescreen: true
-  html_document: 
-  runtime: shiny
+  html_document:
+    css: ../curso.css
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -48,9 +50,9 @@ opts_chunk$set(echo = TRUE)
 
 ## Estudios de caso usando el modelo de Solow
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/42.embed">
+<img src="recuperado/grafica_42.svg" alt="Log PIB per cápita de Estados Unidos" />
 
-</iframe>
+[Vista local, datos y límites de la recuperación](recuperado/grafica_42.html)
 
 ## Estudios de caso usando el modelo de Solow
 

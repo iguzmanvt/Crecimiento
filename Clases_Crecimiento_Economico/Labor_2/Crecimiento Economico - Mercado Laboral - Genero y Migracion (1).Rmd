@@ -25,25 +25,19 @@ opts_chunk$set(echo = TRUE)
 
 - La participación de las mujeres tiende a ser menor que la de los hombres. Sin embargo, las diferencias son notables: en algunos, la proporción es inferior al 25% mientras que en otros la relación es del 100%.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/participacion_relativa_mujeres.html?embed=1" title="Participación laboral femenina respecto de la masculina" loading="lazy"></iframe>
 
 ## Género y mercado laboral
 
 - La participación de la mujer en la fuerza laboral es más alta en algunos de los países más pobres y ricos del mundo y es más bajo en países con ingresos nacionales promedio en algún punto intermedio.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/participacion_femenina_ingreso.html?embed=1" title="Participación laboral femenina e ingreso" loading="lazy"></iframe>
 
 ## Género y mercado laboral
 
 - En el período 1980-2016, la mayoría de los países experimentó un aumento en la proporción de mujeres empleadas. En general, la participación de las mujeres en el mercado laboral fue impulsada por el empleo, más que por el desempleo.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/female-employment-to-population-ratio">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/empleo_femenino.html?embed=1" title="Mujeres ocupadas respecto de la población femenina" loading="lazy"></iframe>
 
 ## Género y mercado laboral
 
@@ -139,7 +133,7 @@ grid.raster(Labor_2_32, interpolate=FALSE)
 
 - Podrían también aumentar el nivel de habilidad general en el área o introducir un set diferente de habilidades complementarias.
 
-- Al aumentar la participación de la mujer en 10%, el salario real incrementa en casi 10%. Un 10% de incremento en la participación masculina en el sector está asociado con una disminución de 3% en el salario real promedio. Esto debido a un cambio en la curva de oferta: más hombres compitiendo por los mismos trabajos.
+- El [resumen de Weinstein (2017)](https://doi.org/10.1111/jors.12336) relaciona un aumento de 10% de la tasa de participación femenina con salarios reales casi 5% mayores. Las magnitudes dependen de la especificación y no deben trasladarse entre regresiones o interpretarse como un cambio de 10 puntos porcentuales. Los mecanismos de oferta y productividad requieren un análisis separado.
 
 ## Género y mercado laboral
 
@@ -556,3 +550,4 @@ Labor_2_41 <- readPNG("Labor_2-Employment_High_Low.png", native= TRUE, info=TRUE
 
 grid.raster(Labor_2_41, interpolate=FALSE)
 ```
+<!-- RECURSOS_ESENCIALES_20261112 -->

@@ -1,0 +1,166 @@
+entity,code,year,value
+China,CHN,2000,65.295
+Germany,DEU,1983,37.089
+Germany,DEU,1984,37.351
+Germany,DEU,1985,37.634
+Germany,DEU,1986,38.144
+Germany,DEU,1987,38.164
+Germany,DEU,1988,38.784
+Germany,DEU,1989,39.35
+Germany,DEU,1990,42.579
+Germany,DEU,1991,44.997
+Germany,DEU,1992,43.929
+Germany,DEU,1993,43.167
+Germany,DEU,1994,42.852
+Germany,DEU,1995,43.086
+Germany,DEU,1996,43.251
+Germany,DEU,1997,43.078
+Germany,DEU,1998,43.356
+Germany,DEU,1999,44.441
+Germany,DEU,2000,44.817
+Germany,DEU,2001,45.458
+Germany,DEU,2002,45.306
+Germany,DEU,2003,45.121
+Germany,DEU,2004,44.451
+Germany,DEU,2005,45.479
+Germany,DEU,2006,46.834
+Germany,DEU,2007,48.051
+Germany,DEU,2008,48.507
+Germany,DEU,2009,49.356
+Germany,DEU,2010,49.25
+Germany,DEU,2011,51.211
+Germany,DEU,2012,51.232
+Germany,DEU,2013,51.878
+Germany,DEU,2014,52.29
+Germany,DEU,2015,52.414
+Germany,DEU,2016,53.546
+India,IND,1994,30.265
+India,IND,2000,29.957
+India,IND,2005,35.638
+India,IND,2010,27.805
+India,IND,2012,26.233
+Japan,JPN,1980,46.657
+Japan,JPN,1981,46.655
+Japan,JPN,1982,46.938
+Japan,JPN,1983,47.682
+Japan,JPN,1984,47.502
+Japan,JPN,1985,47.378
+Japan,JPN,1986,47.249
+Japan,JPN,1987,47.247
+Japan,JPN,1988,47.598
+Japan,JPN,1989,48.32
+Japan,JPN,1990,48.976
+Japan,JPN,1991,49.532
+Japan,JPN,1992,49.593
+Japan,JPN,1993,49.005
+Japan,JPN,1994,48.714
+Japan,JPN,1995,48.389
+Japan,JPN,1996,48.335
+Japan,JPN,1997,48.623
+Japan,JPN,1998,48.125
+Japan,JPN,1999,47.406
+Japan,JPN,2000,47.058
+Japan,JPN,2001,46.819
+Japan,JPN,2002,46.054
+Japan,JPN,2003,45.888
+Japan,JPN,2004,46.116
+Japan,JPN,2005,46.327
+Japan,JPN,2006,46.58
+Japan,JPN,2007,46.626
+Japan,JPN,2008,46.554
+Japan,JPN,2009,46.179
+Japan,JPN,2010,46.172
+Japan,JPN,2011,46.15
+Japan,JPN,2012,46.14
+Japan,JPN,2013,47.001
+Japan,JPN,2014,47.573
+Japan,JPN,2015,47.933
+Japan,JPN,2016,48.836
+Mexico,MEX,2001,36.267
+Mexico,MEX,2002,36.68
+Mexico,MEX,2003,37.042
+Mexico,MEX,2004,37.83
+Mexico,MEX,2005,39.309
+Mexico,MEX,2006,40.468
+Mexico,MEX,2007,40.743
+Mexico,MEX,2008,40.564
+Mexico,MEX,2009,40.473
+Mexico,MEX,2010,40.311
+Mexico,MEX,2011,40.702
+Mexico,MEX,2012,41.763
+Mexico,MEX,2013,41.763
+Mexico,MEX,2014,41.03
+Mexico,MEX,2015,41.493
+Mexico,MEX,2016,41.787
+United Kingdom,GBR,1980,35.092
+United Kingdom,GBR,1983,41.196
+United Kingdom,GBR,1984,42.433
+United Kingdom,GBR,1985,43.348
+United Kingdom,GBR,1986,43.807
+United Kingdom,GBR,1987,44.761
+United Kingdom,GBR,1988,46.258
+United Kingdom,GBR,1989,48.375
+United Kingdom,GBR,1990,48.972
+United Kingdom,GBR,1991,48.403
+United Kingdom,GBR,1992,48.502
+United Kingdom,GBR,1993,48.406
+United Kingdom,GBR,1994,48.626
+United Kingdom,GBR,1995,48.836
+United Kingdom,GBR,1996,49.55
+United Kingdom,GBR,1997,50.213
+United Kingdom,GBR,1998,50.474
+United Kingdom,GBR,1999,51.016
+United Kingdom,GBR,2000,51.558
+United Kingdom,GBR,2001,51.855
+United Kingdom,GBR,2002,52.255
+United Kingdom,GBR,2003,52.335
+United Kingdom,GBR,2004,52.63
+United Kingdom,GBR,2005,52.845
+United Kingdom,GBR,2006,52.972
+United Kingdom,GBR,2007,52.724
+United Kingdom,GBR,2008,52.943
+United Kingdom,GBR,2009,52.332
+United Kingdom,GBR,2010,51.976
+United Kingdom,GBR,2011,51.863
+United Kingdom,GBR,2012,51.971
+United Kingdom,GBR,2013,52.581
+United Kingdom,GBR,2014,53.453
+United Kingdom,GBR,2015,53.997
+United Kingdom,GBR,2016,54.693
+United States,USA,1980,47.7
+United States,USA,1981,48.0
+United States,USA,1982,47.7
+United States,USA,1983,48.0
+United States,USA,1984,49.5
+United States,USA,1985,50.4
+United States,USA,1986,51.4
+United States,USA,1987,52.5
+United States,USA,1988,53.4
+United States,USA,1989,54.3
+United States,USA,1990,54.3
+United States,USA,1991,53.7
+United States,USA,1992,53.8
+United States,USA,1993,54.1
+United States,USA,1994,55.299
+United States,USA,1995,55.699
+United States,USA,1996,56.097
+United States,USA,1997,56.859
+United States,USA,1998,57.082
+United States,USA,1999,57.43
+United States,USA,2000,57.485
+United States,USA,2001,57.005
+United States,USA,2002,56.275
+United States,USA,2003,56.134
+United States,USA,2004,55.97
+United States,USA,2005,56.235
+United States,USA,2006,56.616
+United States,USA,2007,56.638
+United States,USA,2008,56.247
+United States,USA,2009,54.418
+United States,USA,2010,53.568
+United States,USA,2011,53.186
+United States,USA,2012,53.131
+United States,USA,2013,53.158
+United States,USA,2014,53.521
+United States,USA,2015,53.742
+United States,USA,2016,54.081

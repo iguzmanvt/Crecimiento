@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "originals_authenticated": 0,
+  "functional_reconstructions": 17,
+  "entries": [
+    {
+      "identity": "iguzmanvt:150",
+      "slug": "iguzmanvt-150",
+      "original_url": "https://plotly.com/~iguzmanvt/150.embed",
+      "title": "PIB per cápita: trayectorias del grupo 1",
+      "module": "Introduction",
+      "units": "Logaritmo natural de US$ de 2017 a precios nacionales constantes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "ln(rgdpna/pop). Las dos variables están en millones, que se cancelan; cálculo sin redondeo previo.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Una línea aproximadamente recta en logaritmos sugiere crecimiento proporcional relativamente estable, sin excluir ciclos ni cambios de tendencia."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-150.json",
+      "spec_sha256": "72017dd17ec8e0bdb748ef255c05cd9bfae70e60f3d915eab3542d0bff8ac9cd",
+      "csv_sha256": "25ede63c6b9e8cfddec56275309a6ee912570f84f40296606f3d3ad8428e7ca1",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 350
+    },
+    {
+      "identity": "iguzmanvt:152",
+      "slug": "iguzmanvt-152",
+      "original_url": "https://plotly.com/~iguzmanvt/152.embed",
+      "title": "PIB per cápita: trayectorias del grupo 2",
+      "module": "Introduction",
+      "units": "Logaritmo natural de US$ de 2017 a precios nacionales constantes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "ln(rgdpna/pop). Las dos variables están en millones, que se cancelan; cálculo sin redondeo previo.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Una línea aproximadamente recta en logaritmos sugiere crecimiento proporcional relativamente estable, sin excluir ciclos ni cambios de tendencia."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-152.json",
+      "spec_sha256": "1e011e29a19af8f12324df1f25f57912a8633a426098e1ae7ad8232c247335da",
+      "csv_sha256": "ea7e2084b34afcc19e8cf1b3d443511e8700f203e4512108d5297ada68adc3ad",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 415
+    },
+    {
+      "identity": "iguzmanvt:66",
+      "slug": "iguzmanvt-66",
+      "original_url": "https://plotly.com/~iguzmanvt/66.embed",
+      "title": "PIB por habitante de regiones históricas, 1820–2008",
+      "module": "Introduction",
+      "units": "Logaritmo natural de dólares internacionales Geary-Khamis de 1990",
+      "period": [
+        1820,
+        2008
+      ],
+      "formula": "ln(gdppc) de agregados regionales archivados de la hoja PerCapita GDP; no se interpolan ausencias.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/md2010_horizontal.xlsx"
+      ],
+      "source_vintage": "Maddison Database 2010, consulta 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Los agregados y fronteras son los de la edición 2010. Esta escala de precios no se combina con PWT 2017.",
+        "Los huecos temporales se conservan como observaciones disponibles; los segmentos son guía visual."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "maddison2010_regiones.csv",
+        "data/md2010_horizontal.xlsx"
+      ],
+      "local_inputs": {
+        "maddison2010_regiones.csv": "b94a36cd9b2f13ef708fcf5563973239c22ab2ee982e6c37c2f643d6f8e107fd",
+        "data/md2010_horizontal.xlsx": "b855773a2632cb45950e357c043977a2957337399641775a8aa667880d84a3dc"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-66.json",
+      "spec_sha256": "a064c3b09e48e9fcfb9a9b2868d841c6090e1109f435578e99c7d99a6ddd47b1",
+      "csv_sha256": "1b56391ee04d6e7aa15c894f04e3983a032e81c985634e7cb0d1da30fb1ddbbe",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 437
+    },
+    {
+      "identity": "iguzmanvt:154",
+      "slug": "iguzmanvt-154",
+      "original_url": "https://plotly.com/~iguzmanvt/154.embed",
+      "title": "Ingreso inicial y crecimiento posterior: muestra de países",
+      "module": "Introduction",
+      "units": "Eje x: ln(US$ de 2017 por persona); eje y: variación logarítmica anual",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "x=ln(PIBpc[t−10]); y=(ln(PIBpc[t])−ln(PIBpc[t−10]))/10. Ventanas móviles por país y calendario exacto.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Correlación descriptiva en una muestra seleccionada. No prueba convergencia mundial incondicional ni efecto causal."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-154.json",
+      "spec_sha256": "28859007d0e3d12b4ceee25b69a780ee243de9bf41f5a5f2f898d5542a4d7223",
+      "csv_sha256": "624e420f8f2b0431edfaaef7e8e76b427b5fc06a82017a1d588f5835b9a1b496",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 355
+    },
+    {
+      "identity": "iguzmanvt:170",
+      "slug": "iguzmanvt-170",
+      "original_url": "https://plotly.com/~iguzmanvt/170.embed",
+      "title": "Consumo privado como proporción del PIB: grupo 1",
+      "module": "Introduction",
+      "units": "Proporción a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "v_c/v_gdp, sin redondeo previo, con numerador y denominador en la misma moneda y precios corrientes.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+        "https://github.com/dvollrath/StudyGuide/tree/3a8c79f20022ef7b985b392d73921839a4317883"
+      ],
+      "source_vintage": "Archivo de cuentas nacionales PWT 10.01 conservado por StudyGuide en commit 3a8c79f (2024); captura 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "v_i incluye la formación bruta de capital total, incluidas existencias. No se identifica con formación bruta de capital fijo.",
+        "Las series nacionales no se fuerzan a los intervalos narrativos de los originales. Las observaciones ausentes se omiten."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "data/pwt1001_na_data.csv"
+      ],
+      "local_inputs": {
+        "data/pwt1001_na_data.csv": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-170.json",
+      "spec_sha256": "b001956d7b33de689c8e831d5645e3254b04c8ed813e46115f9daf838c08bc0e",
+      "csv_sha256": "69bd56b5905d03bdd1c379d8c46934d025b608f8e231fa64ccbdb1b94d3b0ae9",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 350
+    },
+    {
+      "identity": "iguzmanvt:172",
+      "slug": "iguzmanvt-172",
+      "original_url": "https://plotly.com/~iguzmanvt/172.embed",
+      "title": "Consumo privado como proporción del PIB: grupo 2",
+      "module": "Introduction",
+      "units": "Proporción a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "v_c/v_gdp, sin redondeo previo, con numerador y denominador en la misma moneda y precios corrientes.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+        "https://github.com/dvollrath/StudyGuide/tree/3a8c79f20022ef7b985b392d73921839a4317883"
+      ],
+      "source_vintage": "Archivo de cuentas nacionales PWT 10.01 conservado por StudyGuide en commit 3a8c79f (2024); captura 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "v_i incluye la formación bruta de capital total, incluidas existencias. No se identifica con formación bruta de capital fijo.",
+        "Las series nacionales no se fuerzan a los intervalos narrativos de los originales. Las observaciones ausentes se omiten."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "data/pwt1001_na_data.csv"
+      ],
+      "local_inputs": {
+        "data/pwt1001_na_data.csv": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-172.json",
+      "spec_sha256": "bd6c83c5da03452bcbf56c8d70bc013873fb34ba67af52dce99b10b3c3fb08ad",
+      "csv_sha256": "f41e9b13414d2e1f83997beedd06eafd13dcd58b9e34a6c4644f09a0585d0d96",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 415
+    },
+    {
+      "identity": "iguzmanvt:174",
+      "slug": "iguzmanvt-174",
+      "original_url": "https://plotly.com/~iguzmanvt/174.embed",
+      "title": "Formación bruta de capital como proporción del PIB: grupo 1",
+      "module": "Introduction",
+      "units": "Proporción a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "v_i/v_gdp, sin redondeo previo, con numerador y denominador en la misma moneda y precios corrientes.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+        "https://github.com/dvollrath/StudyGuide/tree/3a8c79f20022ef7b985b392d73921839a4317883"
+      ],
+      "source_vintage": "Archivo de cuentas nacionales PWT 10.01 conservado por StudyGuide en commit 3a8c79f (2024); captura 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "v_i incluye la formación bruta de capital total, incluidas existencias. No se identifica con formación bruta de capital fijo.",
+        "Las series nacionales no se fuerzan a los intervalos narrativos de los originales. Las observaciones ausentes se omiten."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "data/pwt1001_na_data.csv"
+      ],
+      "local_inputs": {
+        "data/pwt1001_na_data.csv": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-174.json",
+      "spec_sha256": "956eafccd19dfb01e1dadc6428eee949436a73fa824a29923158eb5daf5ffaf1",
+      "csv_sha256": "a3b81a57f09b0f707f030b44c79ca9d07242739be8913080ecdee235b43a6533",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 350
+    },
+    {
+      "identity": "iguzmanvt:176",
+      "slug": "iguzmanvt-176",
+      "original_url": "https://plotly.com/~iguzmanvt/176.embed",
+      "title": "Formación bruta de capital como proporción del PIB: grupo 2",
+      "module": "Introduction",
+      "units": "Proporción a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "v_i/v_gdp, sin redondeo previo, con numerador y denominador en la misma moneda y precios corrientes.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+        "https://github.com/dvollrath/StudyGuide/tree/3a8c79f20022ef7b985b392d73921839a4317883"
+      ],
+      "source_vintage": "Archivo de cuentas nacionales PWT 10.01 conservado por StudyGuide en commit 3a8c79f (2024); captura 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "v_i incluye la formación bruta de capital total, incluidas existencias. No se identifica con formación bruta de capital fijo.",
+        "Las series nacionales no se fuerzan a los intervalos narrativos de los originales. Las observaciones ausentes se omiten."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "data/pwt1001_na_data.csv"
+      ],
+      "local_inputs": {
+        "data/pwt1001_na_data.csv": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-176.json",
+      "spec_sha256": "192f1768d54bce655e7c89398e0b946a3e60648e1b445cd5efb8807586f76b1f",
+      "csv_sha256": "fd630f0ed284a35e70c2212f85b6b52b1f2a2a1bde5adcd75933638f43d5b656",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 415
+    },
+    {
+      "identity": "iguzmanvt:202",
+      "slug": "iguzmanvt-202",
+      "original_url": "https://plotly.com/~iguzmanvt/202.embed",
+      "title": "Participación laboral en el PIB: grupo 1",
+      "module": "Introduction",
+      "units": "Proporción del PIB a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "labsh, sin transformación.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Los tramos constantes pueden provenir de extrapolación o supuestos de PWT, no de observaciones anuales idénticas."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-202.json",
+      "spec_sha256": "e3cf63176a5b8487ebbc1a24c945aec5de60191622114a02f252861a4a756b68",
+      "csv_sha256": "c21e638dbc324dd5866a122baa252da5d51ce25161ff7067f9214a52f825e09a",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 350
+    },
+    {
+      "identity": "iguzmanvt:205",
+      "slug": "iguzmanvt-205",
+      "original_url": "https://plotly.com/~iguzmanvt/205.embed",
+      "title": "Participación laboral en el PIB: grupo 2",
+      "module": "Introduction",
+      "units": "Proporción del PIB a precios nacionales corrientes",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "labsh, sin transformación.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Los tramos constantes pueden provenir de extrapolación o supuestos de PWT, no de observaciones anuales idénticas."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-205.json",
+      "spec_sha256": "e0ff2179ed322134d86beb2e61774a790765177008ab2bb3d26109904e8ab41f",
+      "csv_sha256": "17dd42505f87105ccd7f44ca388e223955363e945f5f4f0fb1d4d4f342a4065f",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 415
+    },
+    {
+      "identity": "iguzmanvt:207",
+      "slug": "iguzmanvt-207",
+      "original_url": "https://plotly.com/~iguzmanvt/207.embed",
+      "title": "Participación laboral en costos: aproximación del grupo 1",
+      "module": "Introduction",
+      "units": "Proporción calculada con rendimiento supuesto de 5%",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "phi_L=(labsh×rgdpna)/(labsh×rgdpna+0.05×rnna).",
+      "kind": "Aproximación con supuesto",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Aproximación del código docente: supone rendimiento del capital de 5% en todo país y año y combina labsh corriente con magnitudes a precios nacionales constantes. No es una participación de costos observada ni identifica beneficios."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-207.json",
+      "spec_sha256": "bae9d4d9e1a998123363a847ea6dcae8de5c4c77e58f4945512d0ccbea9b882e",
+      "csv_sha256": "d4ed59a9254c47f6b4d6bf87821be8c1109c2c3f9efddc47d2236fcbcd5e9ff2",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 350
+    },
+    {
+      "identity": "iguzmanvt:209",
+      "slug": "iguzmanvt-209",
+      "original_url": "https://plotly.com/~iguzmanvt/209.embed",
+      "title": "Participación laboral en costos: aproximación del grupo 2",
+      "module": "Introduction",
+      "units": "Proporción calculada con rendimiento supuesto de 5%",
+      "period": [
+        1950,
+        2019
+      ],
+      "formula": "phi_L=(labsh×rgdpna)/(labsh×rgdpna+0.05×rnna).",
+      "kind": "Aproximación con supuesto",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Aproximación del código docente: supone rendimiento del capital de 5% en todo país y año y combina labsh corriente con magnitudes a precios nacionales constantes. No es una participación de costos observada ni identifica beneficios."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-209.json",
+      "spec_sha256": "51793f8d1831f9d3118695fd80b9272f8683434c14413620ccffe4f558195adf",
+      "csv_sha256": "1ea59f4a2d745790f8d64c6e892dc5f9edbbd8aa7907e824981e0039d1faad9d",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 415
+    },
+    {
+      "identity": "iguzmanvt:156",
+      "slug": "iguzmanvt-156",
+      "original_url": "https://plotly.com/~iguzmanvt/156.embed",
+      "title": "Relación capital/producto: grupo 1",
+      "module": "Introduction",
+      "units": "Stock de capital / PIB anual (años de producto)",
+      "period": [
+        1960,
+        2019
+      ],
+      "formula": "rnna/rgdpna; ambas magnitudes a precios nacionales constantes de 2017.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Cociente de stock y flujo, no tasa de inversión. Se omiten 1950–1959 para reducir la influencia de la inicialización del capital."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-156.json",
+      "spec_sha256": "dba1b0fbfa04184a9dff86694668028953204c671ee54edd20de76248e1a34da",
+      "csv_sha256": "ae5912f2512a4ddc0edccb96633c4fcd869cff9b69e787968264117aebe0ebfb",
+      "traces": 5,
+      "frames": 0,
+      "points_initial": 300
+    },
+    {
+      "identity": "iguzmanvt:158",
+      "slug": "iguzmanvt-158",
+      "original_url": "https://plotly.com/~iguzmanvt/158.embed",
+      "title": "Relación capital/producto: grupo 2",
+      "module": "Introduction",
+      "units": "Stock de capital / PIB anual (años de producto)",
+      "period": [
+        1960,
+        2019
+      ],
+      "formula": "rnna/rgdpna; ambas magnitudes a precios nacionales constantes de 2017.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en"
+      ],
+      "source_vintage": "PWT 10.0, revisión de junio de 2021; datos 1950–2019; selección del Excel oficial conservado.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son muestras docentes del código conservado, no clasificaciones de desarrollo.",
+        "Cociente de stock y flujo, no tasa de inversión. Se omiten 1950–1959 para reducir la influencia de la inicialización del capital."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "pwt100_seleccion.csv"
+      ],
+      "local_inputs": {
+        "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-158.json",
+      "spec_sha256": "dbf04021a8cb360d3b2a300ef01d63f4f5d63fe3862b9f683ce72158838d61b9",
+      "csv_sha256": "0f2df196aa0e1796b790796dc68833a6b2b406c51f4e286e7de965b2f260dfe5",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 360
+    },
+    {
+      "identity": "iguzmanvt:168",
+      "slug": "iguzmanvt-168",
+      "original_url": "https://plotly.com/~iguzmanvt/168.embed",
+      "title": "Distribución entre países del promedio de escolaridad, 2010",
+      "module": "Introduction",
+      "units": "Países por intervalo de 2 años de escolaridad media",
+      "period": [
+        2010,
+        2010
+      ],
+      "formula": "Se agrupan los 150 promedios nacionales yr_sch disponibles en 2010 en intervalos [0,2), [2,4), …, [14,16). Cada país recibe el mismo peso.",
+      "kind": "Cálculo con datos publicados",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+        "https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf",
+        "https://github.com/dvollrath/StudyGuide/tree/3a8c79f20022ef7b985b392d73921839a4317883"
+      ],
+      "source_vintage": "PWT 10.01, detalle laboral archivado en StudyGuide commit 3a8c79f; consulta 12 de noviembre de 2026.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "La distribución compara promedios de países: no es una distribución de escolaridad entre personas ni usa ponderaciones de población.",
+        "yr_sch mide años medios de escolaridad, no el índice hc. PWT combina series de Barro-Lee y Cohen-Soto-Leker; se conserva el indicador de fuente por país."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "data/pwt1001_labor_detail.csv",
+        "manifest_escolaridad.json"
+      ],
+      "local_inputs": {
+        "data/pwt1001_labor_detail.csv": "139b2f8eea2f56738b9266ea7abad3229e3a9511b692b27e850d924c15b2fa1b",
+        "manifest_escolaridad.json": "c4e870c3afe35453b07b856a489e17f4a40350294376e0da69d670eaf970823d"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-168.json",
+      "spec_sha256": "5f28fdd3c9bf4ba6f24389c560909f9d7953119fca8c12059abdf0b20d34a809",
+      "csv_sha256": "a7ccda77d0869cfec300113438cc8f82a909d9467f61b198a9020de78d88fc30",
+      "traces": 1,
+      "frames": 0,
+      "points_initial": 8
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "slug": "iguzmanvt-118",
+      "original_url": "https://plotly.com/~iguzmanvt/118.embed",
+      "title": "Cambio de investigadores y crecimiento de productividad",
+      "module": "Introduction",
+      "units": "Valores decimales, mostrados como porcentajes. En x, la diferencia logarítmica se divide entre 10 aunque el rezago es de 10 observaciones: con huecos temporales no equivale necesariamente a 10 años. En y, crecimiento anual medio de productividad a 10 años según el código del curso.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "formula": "x = (ln(FTE_i) − ln(FTE_(i−10)))/10, con i como fila dentro del país; y = g10.accttfp archivado. El código utiliza rezagos de 10 observaciones; no se recalculan ni se imputan datos.",
+      "kind": "Reutilización de reconstrucción verificada",
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita.",
+        "El cambio de investigadores emplea un rezago de diez observaciones dividido entre diez, que puede abarcar más de diez años cuando hay huecos. El eje lo indica."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "reconstrucciones_locales/iguzmanvt-118.json",
+        "reconstrucciones_locales/catalogo_origen.json"
+      ],
+      "local_inputs": {
+        "reconstrucciones_locales/iguzmanvt-118.json": "9b6eced195ac6f81df19b014e9dcf9e4b7b13f7d86aafbf979a460a192967bbf",
+        "reconstrucciones_locales/catalogo_origen.json": "c5b645a2bbda3f8764014d8823102095b47813006392a631403fcb3c236effe6"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-118.json",
+      "reused_from": "graficas_reconstruidas/datos/iguzmanvt-118.json",
+      "origin_input_hashes": {
+        "fuentes/ideas_taxes/inputs/pwt-oecd-rd-gtfp.json": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+        "fuentes/ideas_taxes/inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "fuentes/ideas_taxes/inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "fuentes/ideas_taxes/inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "spec_sha256": "ce883ad5850e0497415ace969f7e83c2b2319fc925f752547f3eae7e78706cfe",
+      "csv_sha256": "54ba0267ada9098eb7afee96278623a9ef410ce402200b46a71511a579deb8ab",
+      "traces": 6,
+      "frames": 0,
+      "points_initial": 141
+    },
+    {
+      "identity": "iguzmanvt:160",
+      "slug": "iguzmanvt-160",
+      "original_url": "https://plotly.com/~iguzmanvt/160.embed",
+      "title": "Inversión y nivel del PIB per cápita",
+      "module": "Introduction",
+      "units": "x proporción o tasa anual; y log de US$2017/habitante; tamaño población en millones",
+      "period": [
+        1960,
+        2015
+      ],
+      "formula": "y=round(ln(rgdpna/pop),2); inversión=round(csh_i,2); g_L=[ln(pop_t)−ln(pop_(t−10))]/10. Filtros: 0<inversión<0.6 y −0.01<g_L<0.06.",
+      "kind": "Reutilización de reconstrucción verificada",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Correlation.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "captured_on": "2026-11-12",
+      "historical_identity_authenticated": false,
+      "limitations": [
+        "Sustitución docente por correspondencia temática. No se autentica la identidad numérica o visual del objeto Chart Studio desaparecido.",
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Correlación descriptiva, no efecto causal. Se omiten faltantes y observaciones fuera de los filtros declarados; no se rellenan países/años.",
+        "rgdpna a precios nacionales constantes puede limitar la comparación de niveles entre países; se conserva la convención didáctica del código de referencia.",
+        "La relación representada es inversión y nivel del PIB per cápita. No es una regresión causal sobre la tasa de crecimiento."
+      ],
+      "input_base": "fuentes",
+      "input_paths": [
+        "reconstrucciones_locales/iguzmanvt-160.json",
+        "reconstrucciones_locales/catalogo_origen.json"
+      ],
+      "local_inputs": {
+        "reconstrucciones_locales/iguzmanvt-160.json": "f54f59e10767d05bcd83c4a5f6b79e8667b41504da5800bca088cd9345c1de90",
+        "reconstrucciones_locales/catalogo_origen.json": "c5b645a2bbda3f8764014d8823102095b47813006392a631403fcb3c236effe6"
+      },
+      "generator": "scripts/generar_introduccion_chartstudio.py",
+      "spec_path": "datos/iguzmanvt-160.json",
+      "reused_from": "graficas_reconstruidas/datos/iguzmanvt-160.json",
+      "origin_input_hashes": {
+        "fuentes/solow_accounting/inputs/pwt100_cross_sections.csv": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+      },
+      "spec_sha256": "649eadd0e74da98f82a4938d2ff1a7e0a0aaf8e47c53b9470a76a3e7b85647f9",
+      "csv_sha256": "b3ab1ad74e6d8e2baccb4c39ea9837a3edc6ec9612540e7db4dba6a7fb4bee39",
+      "traces": 1,
+      "frames": 7,
+      "points_initial": 55
+    }
+  ]
+}

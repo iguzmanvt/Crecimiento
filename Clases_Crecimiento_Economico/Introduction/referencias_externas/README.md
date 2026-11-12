@@ -1,5 +1,11 @@
 # Referencias externas de Introducción
 
+## Estado posterior
+
+Las 32 referencias cuentan con [vistas locales, datos y fuentes](../../../introduccion_local/index.html) desde el 12 de noviembre. Las reconstrucciones de Chart Studio mantienen sin autenticar la identidad de los objetos originales. El inventario histórico y su auditor se conservan como evidencia del corte anterior; el auditor exige las fuentes de aquel commit y debe ejecutarse en una copia de ese corte. El material docente vigente se comprueba con `scripts/verificar_entrega.py`.
+
+## Registro del 11 de noviembre de 2026
+
 El [catálogo por recurso](catalogo.md) organiza las 32 referencias de las dos presentaciones de Introducción: 17 de Chart Studio y 15 de Our World in Data (OWID). Esta entrega conserva las configuraciones archivadas de 13 recursos OWID. **No se recuperaron series numéricas nuevas.**
 
 | Resultado al 11 de noviembre de 2026 | Cantidad | Alcance |

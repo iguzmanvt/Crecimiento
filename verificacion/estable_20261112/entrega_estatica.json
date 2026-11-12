@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "scope": "Catálogos, huellas y grafo local HTML/CSS de la entrega actualizada; originales históricos y disponibilidad editorial fuera del alcance.",
+  "materials": 33,
+  "topics": 16,
+  "assignments": 8,
+  "seed_htmls": 161,
+  "html_and_css_scanned": 276,
+  "local_link_references": 1773,
+  "active_resource_references": 1610,
+  "optional_external_links": 145,
+  "external_active": [],
+  "catalogs": [
+    {
+      "catalog": "graficas_reconstruidas/catalogo.json",
+      "entries": 40,
+      "html_views": 41,
+      "sha256": "87f198e7be1a69b69b51e33661e83e30f0747cbfead3ea796e44329746abb9f7"
+    },
+    {
+      "catalog": "introduccion_local/chartstudio/catalogo.json",
+      "entries": 17,
+      "html_views": 18,
+      "sha256": "12b0bef6919b60fdc5cb525314e1c8a7c07ffc3574696f4ee3e61b65a4194ff7"
+    },
+    {
+      "catalog": "introduccion_local/owid/catalogo.json",
+      "entries": 15,
+      "html_views": 16,
+      "sha256": "e913adaf3d8f71a997e29911109b5106e7c57d1f5f30c1dbb49074ee5977047d"
+    },
+    {
+      "catalog": "recursos_esenciales/catalogo.json",
+      "entries": 21,
+      "html_views": 22,
+      "sha256": "cc0c96da9d5b54726fd9db226bc7f2476cec3f4ab8994e8a5f48d1dfa2344894"
+    }
+  ],
+  "portal_generation_identical": true,
+  "tex_expressions": 165,
+  "math_by_material": [
+    {
+      "html": "materiales_actualizados/Accounting/notas/Material.html",
+      "tex_expressions": 6
+    },
+    {
+      "html": "materiales_actualizados/Accounting/presentacion/Material.html",
+      "tex_expressions": 6
+    },
+    {
+      "html": "materiales_actualizados/Accounting/ejemplo/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Energy/notas/Material.html",
+      "tex_expressions": 1
+    },
+    {
+      "html": "materiales_actualizados/Energy/presentacion/Material.html",
+      "tex_expressions": 1
+    },
+    {
+      "html": "materiales_actualizados/Ideas/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Ideas/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Solow/notas/Material.html",
+      "tex_expressions": 10
+    },
+    {
+      "html": "materiales_actualizados/Solow/presentacion/Material.html",
+      "tex_expressions": 9
+    },
+    {
+      "html": "materiales_actualizados/Taxes/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Taxes/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Competition/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Convergence/presentacion/Material.html",
+      "tex_expressions": 40
+    },
+    {
+      "html": "materiales_actualizados/Patents/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Pensions/presentacion/Material.html",
+      "tex_expressions": 22
+    },
+    {
+      "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
+      "tex_expressions": 4
+    },
+    {
+      "html": "materiales_actualizados/Environment/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Labor/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Introduction/presentacion/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Competition/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Convergence/notas/Material.html",
+      "tex_expressions": 40
+    },
+    {
+      "html": "materiales_actualizados/Patents/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Pensions/notas/Material.html",
+      "tex_expressions": 22
+    },
+    {
+      "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
+      "tex_expressions": 4
+    },
+    {
+      "html": "materiales_actualizados/Environment/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Labor/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Labor_2/notas/Material.html",
+      "tex_expressions": 0
+    },
+    {
+      "html": "materiales_actualizados/Introduction/notas/Material.html",
+      "tex_expressions": 0
+    }
+  ],
+  "errors": []
+}

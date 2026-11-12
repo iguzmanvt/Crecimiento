@@ -1,0 +1,2068 @@
+annotation,code,entity,region,status,x,y,year
+,ALB,Albania,Europe,estimación publicada,5563.77,2.9678411781787872,1996
+,ALB,Albania,Europe,estimación publicada,7590.4585,4.1947223246097565,2002
+,ALB,Albania,Europe,estimación publicada,8964.281,2.6502175256609917,2005
+,ALB,Albania,Europe,estimación publicada,11056.306,0.8273079060018063,2008
+,ALB,Albania,Europe,estimación publicada,12463.519,1.7945902422070503,2012
+,ALB,Albania,Europe,estimación publicada,13366.504,3.6761395633220673,2014
+,ALB,Albania,Europe,estimación publicada,13876.762,1.114864181727171,2015
+,ALB,Albania,Europe,estimación publicada,14643.429,1.140619721263647,2016
+,ALB,Albania,Europe,estimación publicada,15359.397,1.4444440603256226,2017
+,ALB,Albania,Europe,estimación publicada,16170.924,1.0100294835865498,2018
+,ALB,Albania,Europe,estimación publicada,16761.123,0.2723694546148181,2019
+,ALB,Albania,Europe,estimación publicada,16457.719,0.3409224562346935,2020
+,DZA,Algeria,Africa,estimación publicada,10588.443,11.806999891996384,1995
+,DZA,Algeria,Africa,estimación publicada,14641.964,0.0,2011
+,AGO,Angola,Africa,estimación publicada,6794.5303,26.954638957977295,2000
+,AGO,Angola,Africa,estimación publicada,11131.631,22.079582512378693,2008
+,AGO,Angola,Africa,estimación publicada,10154.839,39.29470479488373,2018
+,ARM,Armenia,Asia,estimación publicada,4406.9673,21.16912305355072,1999
+,ARM,Armenia,Asia,estimación publicada,5044.1167,24.141234159469604,2001
+,ARM,Armenia,Asia,estimación publicada,5731.3535,19.766227900981903,2002
+,ARM,Armenia,Asia,estimación publicada,6569.2603,14.845049381256104,2003
+,ARM,Armenia,Asia,estimación publicada,7299.4,10.347972810268402,2004
+,ARM,Armenia,Asia,estimación publicada,8362.9,6.114460155367851,2005
+,ARM,Armenia,Asia,estimación publicada,9525.231,4.513620585203171,2006
+,ARM,Armenia,Asia,estimación publicada,10898.849,3.690280020236969,2007
+,ARM,Armenia,Asia,estimación publicada,11727.482,2.0055044442415237,2008
+,ARM,Armenia,Asia,estimación publicada,10143.235,3.114195726811886,2009
+,ARM,Armenia,Asia,estimación publicada,10438.564,2.9445042833685875,2010
+,ARM,Armenia,Asia,estimación publicada,10990.177,3.1296055763959885,2011
+,ARM,Armenia,Asia,estimación publicada,11796.274,2.4987928569316864,2012
+,ARM,Armenia,Asia,estimación publicada,12194.019,2.9467811807990074,2013
+,ARM,Armenia,Asia,estimación publicada,12667.376,3.43758724629879,2014
+,ARM,Armenia,Asia,estimación publicada,13112.76,2.8523972257971764,2015
+,ARM,Armenia,Asia,estimación publicada,13192.994,2.515995129942894,2016
+,ARM,Armenia,Asia,estimación publicada,14243.875,2.3624777793884277,2017
+,ARM,Armenia,Asia,estimación publicada,15037.045,2.8966322541236877,2018
+,ARM,Armenia,Asia,estimación publicada,16215.36,2.4278003722429276,2019
+,ARM,Armenia,Asia,estimación publicada,15052.936,1.516591850668192,2020
+,ARM,Armenia,Asia,estimación publicada,15921.705,2.11808942258358,2021
+,ARM,Armenia,Asia,estimación publicada,17886.178,1.8968814983963966,2022
+,ARM,Armenia,Asia,estimación publicada,19402.752,1.9280258566141129,2023
+,ARM,Armenia,Asia,estimación publicada,20078.785,0.78427754342556,2024
+,AUS,Australia,Oceania,estimación publicada,38653.336,0.9999999776482582,1995
+,AUS,Australia,Oceania,estimación publicada,45428.2,0.8999999612569809,2001
+,AUS,Australia,Oceania,estimación publicada,47581.23,1.0999999940395355,2003
+,AUS,Australia,Oceania,estimación publicada,49061.277,0.7000000216066837,2004
+,AUS,Australia,Oceania,estimación publicada,52473.383,0.4999999888241291,2008
+,AUS,Australia,Oceania,estimación publicada,52739.27,0.4999999888241291,2010
+,AUS,Australia,Oceania,estimación publicada,55489.07,0.6000000052154064,2014
+,AUS,Australia,Oceania,estimación publicada,56529.953,0.4999999888241291,2016
+,AUS,Australia,Oceania,estimación publicada,57647.844,0.6000000052154064,2018
+,AUS,Australia,Oceania,estimación publicada,57260.465,0.8999999612569809,2020
+,AUT,Austria,Europe,estimación publicada,45497.074,0.20000000949949026,1994
+,AUT,Austria,Europe,estimación publicada,46639.465,0.10000000474974513,1995
+,AUT,Austria,Europe,estimación publicada,47608.562,0.10000000474974513,1996
+,AUT,Austria,Europe,estimación publicada,48575.09,0.20000000949949026,1997
+,AUT,Austria,Europe,estimación publicada,50216.63,0.20000000949949026,1998
+,AUT,Austria,Europe,estimación publicada,52004.46,0.20000000949949026,1999
+,AUT,Austria,Europe,estimación publicada,53534.266,0.10000000474974513,2000
+,AUT,Austria,Europe,estimación publicada,54919.71,0.37322661373764277,2003
+,AUT,Austria,Europe,estimación publicada,55980.152,0.0816528860013932,2004
+,AUT,Austria,Europe,estimación publicada,56890.2,0.15369009925052524,2005
+,AUT,Austria,Europe,estimación publicada,58460.156,0.14532717177644372,2006
+,AUT,Austria,Europe,estimación publicada,60470.824,0.3814211580902338,2007
+,AUT,Austria,Europe,estimación publicada,61157.902,0.5091001279652119,2008
+,AUT,Austria,Europe,estimación publicada,58810.36,0.6884822156280279,2009
+,AUT,Austria,Europe,estimación publicada,59730.47,0.5196233745664358,2010
+,AUT,Austria,Europe,estimación publicada,61272.17,0.4768217448145151,2011
+,AUT,Austria,Europe,estimación publicada,61376.633,0.6715151946991682,2012
+,AUT,Austria,Europe,estimación publicada,60862.97,0.3379978472366929,2013
+,AUT,Austria,Europe,estimación publicada,60845.574,0.22426021751016378,2014
+,AUT,Austria,Europe,estimación publicada,60951.605,0.684607308357954,2015
+,AUT,Austria,Europe,estimación publicada,61572.625,0.6640635430812836,2016
+,AUT,Austria,Europe,estimación publicada,62535.812,0.3497297875583172,2017
+,AUT,Austria,Europe,estimación publicada,63777.938,0.5683583673089743,2018
+,AUT,Austria,Europe,estimación publicada,64609.285,0.6466444581747055,2019
+,AUT,Austria,Europe,estimación publicada,60276.332,0.738606508821249,2020
+,AUT,Austria,Europe,estimación publicada,62968.855,0.4858221858739853,2021
+,AUT,Austria,Europe,estimación publicada,65694.46,0.6439737975597382,2022
+,AUT,Austria,Europe,estimación publicada,64536.207,0.5282233003526926,2023
+,AZE,Azerbaijan,Asia,estimación publicada,4211.721,19.65492218732834,1995
+,AZE,Azerbaijan,Asia,estimación publicada,6168.9854,11.398012191057205,2001
+,AZE,Azerbaijan,Asia,estimación publicada,6701.0815,0.24240217171609402,2002
+,AZE,Azerbaijan,Asia,estimación publicada,7329.4062,0.24874773807823658,2003
+,AZE,Azerbaijan,Asia,estimación publicada,7937.8594,0.046829687198624015,2004
+,AZE,Azerbaijan,Asia,estimación publicada,10054.101,0.0,2005
+,BGD,Bangladesh,Asia,estimación publicada,2101.3835,51.20784640312195,1991
+,BGD,Bangladesh,Asia,estimación publicada,2351.7039,43.39074790477753,1995
+,BGD,Bangladesh,Asia,estimación publicada,2712.935,41.37348830699921,2000
+,BGD,Bangladesh,Asia,estimación publicada,3231.6138,32.31632709503174,2005
+,BGD,Bangladesh,Asia,estimación publicada,4125.464,25.118589401245117,2010
+,BGD,Bangladesh,Asia,estimación publicada,5682.5356,19.511166214942932,2016
+,BGD,Bangladesh,Asia,estimación publicada,7888.164,5.909079313278198,2022
+,BRB,Barbados,North America,estimación publicada,19877.111,1.6773976385593414,2016
+,BLR,Belarus,Europe,estimación publicada,10128.156,38.24705183506012,1998
+,BLR,Belarus,Europe,estimación publicada,10519.749,33.7453693151474,1999
+,BLR,Belarus,Europe,estimación publicada,11182.455,26.505249738693237,2000
+,BLR,Belarus,Europe,estimación publicada,11771.087,14.723989367485046,2001
+,BLR,Belarus,Europe,estimación publicada,12443.933,10.437626391649246,2002
+,BLR,Belarus,Europe,estimación publicada,13413.927,8.68017002940178,2003
+,BLR,Belarus,Europe,estimación publicada,15052.118,4.262969642877579,2004
+,BLR,Belarus,Europe,estimación publicada,16579.873,2.4400223046541214,2005
+,BLR,Belarus,Europe,estimación publicada,18349.871,1.0611134581267834,2006
+,BLR,Belarus,Europe,estimación publicada,20019.611,1.0624936781823635,2007
+,BLR,Belarus,Europe,estimación publicada,22137.947,0.5179286003112793,2008
+,BLR,Belarus,Europe,estimación publicada,22236.838,0.5401618778705597,2009
+,BLR,Belarus,Europe,estimación publicada,24012.613,0.17213308019563556,2010
+,BLR,Belarus,Europe,estimación publicada,25404.756,0.054681324400007725,2011
+,BLR,Belarus,Europe,estimación publicada,25879.133,0.08120497805066407,2012
+,BLR,Belarus,Europe,estimación publicada,26147.625,0.02247345692012459,2013
+,BLR,Belarus,Europe,estimación publicada,26564.436,0.0,2014
+,BLR,Belarus,Europe,estimación publicada,25513.213,0.0,2015
+,BLR,Belarus,Europe,estimación publicada,24846.83,0.0,2016
+,BLR,Belarus,Europe,estimación publicada,25503.98,0.027521606534719467,2017
+,BLR,Belarus,Europe,estimación publicada,26363.463,0.022012188856024295,2018
+,BLR,Belarus,Europe,estimación publicada,26798.82,0.0,2019
+,BLR,Belarus,Europe,estimación publicada,26731.496,0.0,2020
+,BEL,Belgium,Europe,estimación publicada,42719.047,0.8999999612569809,1992
+,BEL,Belgium,Europe,estimación publicada,44310.63,0.6000000052154064,1995
+,BEL,Belgium,Europe,estimación publicada,46396.004,0.4000000189989805,1997
+,BEL,Belgium,Europe,estimación publicada,50455.734,0.3000000026077032,2000
+,BEL,Belgium,Europe,estimación publicada,51788.844,0.3932739607989788,2003
+,BEL,Belgium,Europe,estimación publicada,53406.69,0.05202195607125759,2004
+,BEL,Belgium,Europe,estimación publicada,54346.895,0.25260651018470526,2005
+,BEL,Belgium,Europe,estimación publicada,55367.62,0.19211492035537958,2006
+,BEL,Belgium,Europe,estimación publicada,56983.46,0.17048309091478586,2007
+,BEL,Belgium,Europe,estimación publicada,56787.74,0.11841666419059038,2008
+,BEL,Belgium,Europe,estimación publicada,55258.707,0.1180587918497622,2009
+,BEL,Belgium,Europe,estimación publicada,56240.203,0.1421017455868423,2010
+,BEL,Belgium,Europe,estimación publicada,56585.3,0.18409432377666235,2011
+,BEL,Belgium,Europe,estimación publicada,56356.824,0.1720727887004614,2012
+,BEL,Belgium,Europe,estimación publicada,56263.176,0.14450805028900504,2013
+,BEL,Belgium,Europe,estimación publicada,57002.91,0.07649596082046628,2014
+,BEL,Belgium,Europe,estimación publicada,57509.023,0.1371883787214756,2015
+,BEL,Belgium,Europe,estimación publicada,57901.496,0.05981615395285189,2016
+,BEL,Belgium,Europe,estimación publicada,58529.332,0.1749618910253048,2017
+,BEL,Belgium,Europe,estimación publicada,59357.69,0.08975118398666382,2018
+,BEL,Belgium,Europe,estimación publicada,60479.977,0.1068481127731502,2019
+,BEL,Belgium,Europe,estimación publicada,57333.543,0.08580288267694414,2020
+,BEL,Belgium,Europe,estimación publicada,60669.215,0.03657118941191584,2021
+,BEL,Belgium,Europe,estimación publicada,62602.926,0.020451888849493116,2022
+,BEL,Belgium,Europe,estimación publicada,63042.01,0.08690045215189457,2023
+,BLZ,Belize,North America,estimación publicada,9967.847,18.356598913669586,1995
+,BLZ,Belize,North America,estimación publicada,11451.897,1.0364782996475697,2018
+,BEN,Benin,Africa,estimación publicada,2639.0437,70.45722603797913,2003
+,BEN,Benin,Africa,estimación publicada,2732.0125,68.41086745262146,2011
+,BEN,Benin,Africa,estimación publicada,2952.0022,65.8208966255188,2015
+,BEN,Benin,Africa,estimación publicada,3155.4512,37.17653751373291,2018
+,BEN,Benin,Africa,estimación publicada,3464.2886,27.223417162895203,2021
+,BTN,Bhutan,Asia,estimación publicada,6323.541,23.091448843479156,2003
+,BTN,Bhutan,Asia,estimación publicada,8195.07,12.029659003019333,2007
+,BTN,Bhutan,Asia,estimación publicada,11143.944,3.646889701485634,2012
+,BTN,Bhutan,Asia,estimación publicada,13482.343,2.6142047718167305,2017
+,BTN,Bhutan,Asia,estimación publicada,14061.3125,0.006953538832021877,2022
+,BOL,Bolivia,South America,estimación publicada,7301.5093,18.60489845275879,1997
+,BOL,Bolivia,South America,estimación publicada,7435.7256,24.576732516288757,1999
+,BOL,Bolivia,South America,estimación publicada,7492.4336,28.253987431526184,2000
+,BOL,Bolivia,South America,estimación publicada,7491.1523,22.324231266975403,2001
+,BOL,Bolivia,South America,estimación publicada,7550.0156,23.8880455493927,2002
+,BOL,Bolivia,South America,estimación publicada,7811.5967,13.245265185832977,2004
+,BOL,Bolivia,South America,estimación publicada,8020.6357,18.680308759212494,2005
+,BOL,Bolivia,South America,estimación publicada,8263.319,15.909010171890259,2006
+,BOL,Bolivia,South America,estimación publicada,8493.948,12.068799138069153,2007
+,BOL,Bolivia,South America,estimación publicada,8865.272,10.567209124565125,2008
+,BOL,Bolivia,South America,estimación publicada,9011.557,10.03657877445221,2009
+,BOL,Bolivia,South America,estimación publicada,9554.445,6.934674084186554,2011
+,BOL,Bolivia,South America,estimación publicada,9884.462,7.876712083816528,2012
+,BOL,Bolivia,South America,estimación publicada,10391.384,6.757828593254089,2013
+,BOL,Bolivia,South America,estimación publicada,10790.848,5.598164722323418,2014
+,BOL,Bolivia,South America,estimación publicada,11144.642,6.209846958518028,2015
+,BOL,Bolivia,South America,estimación publicada,11448.021,7.172520458698273,2016
+,BOL,Bolivia,South America,estimación publicada,11755.256,6.4122796058654785,2017
+,BOL,Bolivia,South America,estimación publicada,11920.313,4.6958621591329575,2018
+,BOL,Bolivia,South America,estimación publicada,11930.916,3.1385939568281174,2019
+,BOL,Bolivia,South America,estimación publicada,10285.659,4.246918857097626,2020
+,BOL,Bolivia,South America,estimación publicada,11202.441,3.054680861532688,2021
+,BOL,Bolivia,South America,estimación publicada,11487.715,3.2671216875314713,2022
+,BOL,Bolivia,South America,estimación publicada,11616.157,2.817487344145775,2023
+,BOL,Bolivia,South America,estimación publicada,11329.151,2.050207182765007,2024
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,7982.519,0.6440633442252874,2001
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,9344.83,0.3954832907766104,2004
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,11178.682,0.7186696864664555,2007
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,12487.649,0.9230314753949642,2011
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,14220.09,1.1837590485811234,2015
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,18286.662,0.2674536546692252,2021
+,BWA,Botswana,Africa,estimación publicada,10902.951,42.12200045585632,1993
+,BWA,Botswana,Africa,estimación publicada,13479.696,34.809401631355286,2002
+,BWA,Botswana,Africa,estimación publicada,13489.951,21.07088416814804,2009
+,BWA,Botswana,Africa,estimación publicada,15994.964,21.36525958776474,2015
+,BRA,Brazil,South America,estimación publicada,12633.288,30.33752739429474,1990
+,BRA,Brazil,South America,estimación publicada,12271.979,29.40422296524048,1992
+,BRA,Brazil,South America,estimación publicada,12669.429,28.199797868728638,1993
+,BRA,Brazil,South America,estimación publicada,13550.439,19.514116644859314,1995
+,BRA,Brazil,South America,estimación publicada,13641.63,20.65027207136154,1996
+,BRA,Brazil,South America,estimación publicada,13896.625,20.380136370658875,1997
+,BRA,Brazil,South America,estimación publicada,13737.703,19.134345650672913,1998
+,BRA,Brazil,South America,estimación publicada,13602.414,20.020058751106262,1999
+,BRA,Brazil,South America,estimación publicada,14016.132,17.547114193439484,2001
+,BRA,Brazil,South America,estimación publicada,14265.905,16.19352102279663,2002
+,BRA,Brazil,South America,estimación publicada,14259.366,17.128704488277435,2003
+,BRA,Brazil,South America,estimación publicada,14911.261,15.330196917057037,2004
+,BRA,Brazil,South America,estimación publicada,15221.014,13.664847612380981,2005
+,BRA,Brazil,South America,estimación publicada,15657.4795,11.369175463914871,2006
+,BRA,Brazil,South America,estimación publicada,16440.584,10.790479183197021,2007
+,BRA,Brazil,South America,estimación publicada,17113.367,9.121086448431015,2008
+,BRA,Brazil,South America,estimación publicada,16939.441,8.444493263959885,2009
+,BRA,Brazil,South America,estimación publicada,18627.81,7.118549942970276,2011
+,BRA,Brazil,South America,estimación publicada,18832.219,6.385301053524017,2012
+,BRA,Brazil,South America,estimación publicada,19241.506,5.3765833377838135,2013
+,BRA,Brazil,South America,estimación publicada,19183.172,4.765261709690094,2014
+,BRA,Brazil,South America,estimación publicada,18357.068,5.376676097512245,2015
+,BRA,Brazil,South America,estimación publicada,17620.928,6.493394076824188,2016
+,BRA,Brazil,South America,estimación publicada,17724.48,6.957946717739105,2017
+,BRA,Brazil,South America,estimación publicada,17917.75,6.910514086484909,2018
+,BRA,Brazil,South America,estimación publicada,18018.621,7.032903283834457,2019
+,BRA,Brazil,South America,estimación publicada,17327.516,2.7663500979542732,2020
+,BRA,Brazil,South America,estimación publicada,18075.705,7.458674907684326,2021
+,BRA,Brazil,South America,estimación publicada,18554.047,4.853658005595207,2022
+,BRA,Brazil,South America,estimación publicada,19079.812,3.8030900061130524,2023
+,BRA,Brazil,South America,estimación publicada,19652.365,3.0075229704380035,2024
+,BGR,Bulgaria,Europe,estimación publicada,12960.322,0.0,1992
+,BGR,Bulgaria,Europe,estimación publicada,19024.543,8.020827919244766,2006
+,BGR,Bulgaria,Europe,estimación publicada,20440.252,2.4930525571107864,2007
+,BGR,Bulgaria,Europe,estimación publicada,21845.955,1.9363105297088623,2008
+,BGR,Bulgaria,Europe,estimación publicada,21251.217,1.7649868503212929,2009
+,BGR,Bulgaria,Europe,estimación publicada,21724.287,2.6657894253730774,2010
+,BGR,Bulgaria,Europe,estimación publicada,22321.033,3.44882532954216,2011
+,BGR,Bulgaria,Europe,estimación publicada,22618.81,3.012300096452236,2012
+,BGR,Bulgaria,Europe,estimación publicada,22954.396,3.2666992396116257,2013
+,BGR,Bulgaria,Europe,estimación publicada,23455.482,2.7208171784877777,2014
+,BGR,Bulgaria,Europe,estimación publicada,24562.648,4.580772668123245,2015
+,BGR,Bulgaria,Europe,estimación publicada,25636.744,3.0671726912260056,2016
+,BGR,Bulgaria,Europe,estimación publicada,26691.758,2.003164403140545,2017
+,BGR,Bulgaria,Europe,estimación publicada,27690.895,1.4946728013455868,2018
+,BGR,Bulgaria,Europe,estimación publicada,29149.922,1.631084829568863,2019
+,BGR,Bulgaria,Europe,estimación publicada,28521.207,0.7054354064166546,2020
+,BGR,Bulgaria,Europe,estimación publicada,30958.982,1.2280912138521671,2021
+,BGR,Bulgaria,Europe,estimación publicada,32433.658,1.0529679246246815,2022
+,BGR,Bulgaria,Europe,estimación publicada,33073.68,1.0110015980899334,2023
+,BFA,Burkina Faso,Africa,estimación publicada,1148.6072,87.64835596084595,1994
+,BFA,Burkina Faso,Africa,estimación publicada,1385.0931,86.4439070224762,1998
+,BFA,Burkina Faso,Africa,estimación publicada,1561.8331,69.63297128677368,2003
+,BFA,Burkina Faso,Africa,estimación publicada,1779.323,67.17336773872375,2009
+,BFA,Burkina Faso,Africa,estimación publicada,2083.1985,58.737462759017944,2014
+,BFA,Burkina Faso,Africa,estimación publicada,2316.3943,47.681063413619995,2018
+,BFA,Burkina Faso,Africa,estimación publicada,2486.431,42.06163287162781,2021
+,BDI,Burundi,Africa,estimación publicada,1472.4932,84.97700095176697,1992
+,BDI,Burundi,Africa,estimación publicada,1097.8645,87.62947916984558,1998
+,BDI,Burundi,Africa,estimación publicada,995.02783,81.50306940078735,2006
+,BDI,Burundi,Africa,estimación publicada,1011.43134,75.82435607910156,2013
+,BDI,Burundi,Africa,estimación publicada,1027.6289,74.19917583465576,2020
+,CMR,Cameroon,Africa,estimación publicada,3577.592,56.47928714752197,1996
+,CMR,Cameroon,Africa,estimación publicada,3884.873,30.816933512687683,2001
+,CMR,Cameroon,Africa,estimación publicada,4302.619,36.01539134979248,2007
+,CMR,Cameroon,Africa,estimación publicada,4588.4863,29.025930166244507,2014
+,CMR,Cameroon,Africa,estimación publicada,4793.556,26.691800355911255,2021
+,CAN,Canada,North America,estimación publicada,40475.098,1.0999999940395355,1990
+,CAN,Canada,North America,estimación publicada,39139.297,1.3000000268220901,1991
+,CAN,Canada,North America,estimación publicada,39023.168,0.800000037997961,1992
+,CAN,Canada,North America,estimación publicada,39622.465,1.2000000104308128,1993
+,CAN,Canada,North America,estimación publicada,40952.12,0.8999999612569809,1994
+,CAN,Canada,North America,estimación publicada,41617.707,0.800000037997961,1995
+,CAN,Canada,North America,estimación publicada,41880.535,0.4000000189989805,1996
+,CAN,Canada,North America,estimación publicada,43241.223,0.4000000189989805,1997
+,CAN,Canada,North America,estimación publicada,44553.266,0.4999999888241291,1998
+,CAN,Canada,North America,estimación publicada,46464.527,0.4000000189989805,1999
+,CAN,Canada,North America,estimación publicada,48399.285,0.4000000189989805,2000
+,CAN,Canada,North America,estimación publicada,48774.15,0.3000000026077032,2001
+,CAN,Canada,North America,estimación publicada,49694.99,0.3000000026077032,2002
+,CAN,Canada,North America,estimación publicada,50139.766,0.3000000026077032,2003
+,CAN,Canada,North America,estimación publicada,51210.66,0.3000000026077032,2004
+,CAN,Canada,North America,estimación publicada,52356.54,0.3000000026077032,2005
+,CAN,Canada,North America,estimación publicada,53195.76,0.3000000026077032,2006
+,CAN,Canada,North America,estimación publicada,53761.84,0.20000000949949026,2007
+,CAN,Canada,North America,estimación publicada,53711.656,0.3000000026077032,2008
+,CAN,Canada,North America,estimación publicada,51552.402,0.3000000026077032,2009
+,CAN,Canada,North America,estimación publicada,52558.42,0.3000000026077032,2010
+,CAN,Canada,North America,estimación publicada,53681.11,0.3000000026077032,2011
+,CAN,Canada,North America,estimación publicada,54034.78,0.3000000026077032,2012
+,CAN,Canada,North America,estimación publicada,54712.156,0.4999999888241291,2013
+,CAN,Canada,North America,estimación publicada,55723.46,0.3000000026077032,2014
+,CAN,Canada,North America,estimación publicada,55660.844,0.4000000189989805,2015
+,CAN,Canada,North America,estimación publicada,55606.133,0.4000000189989805,2016
+,CAN,Canada,North America,estimación publicada,56612.305,0.4000000189989805,2017
+,CAN,Canada,North America,estimación publicada,57337.47,0.4000000189989805,2018
+,CAN,Canada,North America,estimación publicada,57583.824,0.4000000189989805,2019
+,CAN,Canada,North America,estimación publicada,54092.86,0.10000000474974513,2020
+,CAN,Canada,North America,estimación publicada,56995.094,0.20000000949949026,2021
+,CAN,Canada,North America,estimación publicada,58583.13,0.3000000026077032,2022
+,CPV,Cape Verde,Africa,estimación publicada,4540.907,37.103426456451416,2001
+,CPV,Cape Verde,Africa,estimación publicada,6767.4067,26.158002018928528,2007
+,CPV,Cape Verde,Africa,estimación publicada,7560.1367,14.604078233242035,2015
+,CAF,Central African Republic,Africa,estimación publicada,1294.2025,84.75000262260437,1992
+,CAF,Central African Republic,Africa,estimación publicada,1283.2728,67.26301312446594,2008
+,CAF,Central African Republic,Africa,estimación publicada,1128.5524,71.61734700202942,2021
+,TCD,Chad,Africa,estimación publicada,1878.5858,66.70019030570984,2003
+,TCD,Chad,Africa,estimación publicada,2741.0708,45.19765377044678,2011
+,TCD,Chad,Africa,estimación publicada,2552.3704,41.8614536523819,2018
+,TCD,Chad,Africa,estimación publicada,2449.4824,39.47537541389465,2022
+,CHL,Chile,South America,estimación publicada,10955.249,16.030238568782806,1990
+,CHL,Chile,South America,estimación publicada,12738.616,11.069239675998688,1992
+,CHL,Chile,South America,estimación publicada,13849.626,10.48511192202568,1994
+,CHL,Chile,South America,estimación publicada,15748.466,7.955515384674072,1996
+,CHL,Chile,South America,estimación publicada,17161.033,7.396566867828369,1998
+,CHL,Chile,South America,estimación publicada,17529.42,8.604806661605835,2000
+,CHL,Chile,South America,estimación publicada,18907.346,7.94084295630455,2003
+,CHL,Chile,South America,estimación publicada,21973.738,3.3363517373800278,2006
+,CHL,Chile,South America,estimación publicada,23019.03,2.648301236331463,2009
+,CHL,Chile,South America,estimación publicada,25372.273,1.6561191529035568,2011
+,CHL,Chile,South America,estimación publicada,27297.818,0.7804124150425196,2013
+,CHL,Chile,South America,estimación publicada,27817.959,0.6747478153556585,2015
+,CHL,Chile,South America,estimación publicada,27899.598,0.48276446759700775,2017
+,CHL,Chile,South America,estimación publicada,26258.404,1.722036488354206,2020
+,CHL,Chile,South America,estimación publicada,29560.451,0.6472909357398748,2022
+,CHL,Chile,South America,estimación publicada,30267.645,0.39967475458979607,2024
+,CHN,China,Asia,estimación publicada,1666.8141,83.10968279838562,1990
+,CHN,China,Asia,estimación publicada,2286.7957,77.28332877159119,1993
+,CHN,China,Asia,estimación publicada,3055.7283,62.62493133544922,1996
+,CHN,China,Asia,estimación publicada,3774.4275,58.47401022911072,1999
+,CHN,China,Asia,estimación publicada,4744.382,47.79286980628967,2002
+,CHN,China,Asia,estimación publicada,6298.2993,32.907119393348694,2005
+,CHN,China,Asia,estimación publicada,8743.702,26.061424612998962,2008
+,CHN,China,Asia,estimación publicada,10476.152,20.58367282152176,2010
+,CHN,China,Asia,estimación publicada,11404.918,15.288496017456055,2011
+,CHN,China,Asia,estimación publicada,12217.935,12.875372171401978,2012
+,CHN,China,Asia,estimación publicada,13080.879,6.041635572910309,2013
+,CHN,China,Asia,estimación publicada,13968.519,4.605518653988838,2014
+,CHN,China,Asia,estimación publicada,14857.108,2.8571976348757744,2015
+,CHN,China,Asia,estimación publicada,15772.837,2.091343514621258,2016
+,CHN,China,Asia,estimación publicada,16758.047,1.5748828649520874,2017
+,CHN,China,Asia,estimación publicada,17807.049,0.7495911326259375,2018
+,CHN,China,Asia,estimación publicada,18820.588,0.0,2019
+,CHN,China,Asia,estimación publicada,19215.102,0.0,2020
+,CHN,China,Asia,estimación publicada,20843.297,0.0,2021
+,CHN,China,Asia,estimación publicada,21499.312,0.0,2022
+,COL,Colombia,South America,estimación publicada,10196.433,16.03003442287445,1992
+,COL,Colombia,South America,estimación publicada,11303.131,24.79020059108734,1996
+,COL,Colombia,South America,estimación publicada,10679.709,28.187084197998047,1999
+,COL,Colombia,South America,estimación publicada,10813.494,23.91810566186905,2000
+,COL,Colombia,South America,estimación publicada,10823.45,29.555028676986694,2001
+,COL,Colombia,South America,estimación publicada,10925.148,21.23478204011917,2002
+,COL,Colombia,South America,estimación publicada,11183.291,19.763050973415375,2003
+,COL,Colombia,South America,estimación publicada,11607.938,19.20861005783081,2004
+,COL,Colombia,South America,estimación publicada,11999.255,16.800351440906525,2005
+,COL,Colombia,South America,estimación publicada,13591.061,16.252224147319794,2008
+,COL,Colombia,South America,estimación publicada,13586.752,15.104058384895325,2009
+,COL,Colombia,South America,estimación publicada,14037.064,13.340957462787628,2010
+,COL,Colombia,South America,estimación publicada,14852.37,11.282236129045486,2011
+,COL,Colombia,South America,estimación publicada,15279.479,12.734779715538025,2012
+,COL,Colombia,South America,estimación publicada,15912.247,11.821693927049637,2013
+,COL,Colombia,South America,estimación publicada,16480.363,10.943087935447693,2014
+,COL,Colombia,South America,estimación publicada,16821.38,10.204365104436874,2015
+,COL,Colombia,South America,estimación publicada,17003.244,10.054032504558563,2016
+,COL,Colombia,South America,estimación publicada,16986.033,9.527941048145294,2017
+,COL,Colombia,South America,estimación publicada,17104.13,9.828609228134155,2018
+,COL,Colombia,South America,estimación publicada,17336.771,11.28934696316719,2019
+,COL,Colombia,South America,estimación publicada,15861.5,15.764915943145752,2020
+,COL,Colombia,South America,estimación publicada,17383.09,11.228373646736145,2021
+,COL,Colombia,South America,estimación publicada,18458.72,9.26620215177536,2022
+,COL,Colombia,South America,estimación publicada,18406.625,8.631685376167297,2023
+,COL,Colombia,South America,estimación publicada,18481.838,8.500736206769943,2024
+,COM,Comoros,Africa,estimación publicada,3121.5168,24.2783784866333,2004
+,COM,Comoros,Africa,estimación publicada,3403.4128,31.356963515281677,2014
+,COM,Comoros,Africa,estimación publicada,3447.4727,8.933122456073761,2020
+,COM,Comoros,Africa,estimación publicada,3556.0383,5.066828802227974,2024
+,COG,Congo,Africa,estimación publicada,7876.118,54.452913999557495,2005
+,COG,Congo,Africa,estimación publicada,8492.421,39.2168790102005,2011
+,CRI,Costa Rica,North America,estimación publicada,10979.788,13.883034884929657,1990
+,CRI,Costa Rica,North America,estimación publicada,10946.381,17.141106724739075,1991
+,CRI,Costa Rica,North America,estimación publicada,11654.818,13.801230490207672,1992
+,CRI,Costa Rica,North America,estimación publicada,12173.677,11.798690259456635,1993
+,CRI,Costa Rica,North America,estimación publicada,12415.263,9.390194714069366,1994
+,CRI,Costa Rica,North America,estimación publicada,12623.534,10.598238557577133,1995
+,CRI,Costa Rica,North America,estimación publicada,12497.627,11.749160289764404,1996
+,CRI,Costa Rica,North America,estimación publicada,12887.525,9.0693898499012,1997
+,CRI,Costa Rica,North America,estimación publicada,13505.084,7.475000619888306,1998
+,CRI,Costa Rica,North America,estimación publicada,13776.583,9.287099540233612,1999
+,CRI,Costa Rica,North America,estimación publicada,14025.69,9.776751697063446,2000
+,CRI,Costa Rica,North America,estimación publicada,14257.525,7.60335698723793,2001
+,CRI,Costa Rica,North America,estimación publicada,14503.177,6.5660156309604645,2002
+,CRI,Costa Rica,North America,estimación publicada,14898.72,6.873222440481186,2003
+,CRI,Costa Rica,North America,estimación publicada,15330.883,6.5921105444431305,2004
+,CRI,Costa Rica,North America,estimación publicada,15711.745,5.042462795972824,2005
+,CRI,Costa Rica,North America,estimación publicada,16628.373,5.160284787416458,2006
+,CRI,Costa Rica,North America,estimación publicada,17752.416,3.1409792602062225,2007
+,CRI,Costa Rica,North America,estimación publicada,18343.1,3.373982757329941,2008
+,CRI,Costa Rica,North America,estimación publicada,17941.502,3.608841821551323,2009
+,CRI,Costa Rica,North America,estimación publicada,18670.168,2.2089725360274315,2010
+,CRI,Costa Rica,North America,estimación publicada,19264.457,2.7238452807068825,2011
+,CRI,Costa Rica,North America,estimación publicada,19970.686,2.5627970695495605,2012
+,CRI,Costa Rica,North America,estimación publicada,20242.293,2.6420895010232925,2013
+,CRI,Costa Rica,North America,estimación publicada,20735.193,2.3871447890996933,2014
+,CRI,Costa Rica,North America,estimación publicada,21265.318,2.4401484057307243,2015
+,CRI,Costa Rica,North America,estimación publicada,21936.467,2.4028999730944633,2016
+,CRI,Costa Rica,North America,estimación publicada,22633.766,1.7488792538642883,2017
+,CRI,Costa Rica,North America,estimación publicada,23069.861,2.320723980665207,2018
+,CRI,Costa Rica,North America,estimación publicada,23496.83,1.729835756123066,2019
+,CRI,Costa Rica,North America,estimación publicada,22368.139,3.3517811447381973,2020
+,CRI,Costa Rica,North America,estimación publicada,24083.6,2.159622870385647,2021
+,CRI,Costa Rica,North America,estimación publicada,25290.008,1.598765142261982,2022
+,CRI,Costa Rica,North America,estimación publicada,26378.541,1.5395533293485641,2023
+,CRI,Costa Rica,North America,estimación publicada,27325.047,1.283707655966282,2024
+,CRI,Costa Rica,North America,estimación publicada,28443.412,0.7546557113528252,2025
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4843.329,38.40171694755554,1992
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4638.7915,39.82123136520386,1995
+,CIV,Cote d'Ivoire,Africa,estimación publicada,5093.1694,42.90018379688263,1998
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4096.754,46.9812273979187,2008
+,CIV,Cote d'Ivoire,Africa,estimación publicada,5110.9004,46.597206592559814,2015
+,CIV,Cote d'Ivoire,Africa,estimación publicada,5670.242,21.671074628829956,2018
+,CIV,Cote d'Ivoire,Africa,estimación publicada,6045.2046,20.82609534263611,2021
+,HRV,Croatia,Europe,estimación publicada,29024.664,1.0073662735521793,2009
+,HRV,Croatia,Europe,estimación publicada,28701.875,1.4384204521775246,2010
+,HRV,Croatia,Europe,estimación publicada,28769.023,0.9928041137754917,2011
+,HRV,Croatia,Europe,estimación publicada,28259.164,1.0719465091824532,2012
+,HRV,Croatia,Europe,estimación publicada,28397.982,1.2065837159752846,2013
+,HRV,Croatia,Europe,estimación publicada,28456.336,1.1621528305113316,2014
+,HRV,Croatia,Europe,estimación publicada,29466.451,0.6963191088289022,2015
+,HRV,Croatia,Europe,estimación publicada,30820.805,0.857175700366497,2016
+,HRV,Croatia,Europe,estimación publicada,32348.588,0.6165375933051109,2017
+,HRV,Croatia,Europe,estimación publicada,33729.547,0.5039287265390158,2018
+,HRV,Croatia,Europe,estimación publicada,35122.797,0.36413732450455427,2019
+,HRV,Croatia,Europe,estimación publicada,32493.402,0.4439274314790964,2020
+,HRV,Croatia,Europe,estimación publicada,36930.074,0.3408130258321762,2021
+,HRV,Croatia,Europe,estimación publicada,39863.91,0.3977399319410324,2022
+,HRV,Croatia,Europe,estimación publicada,41320.258,0.2627608831971884,2023
+,CYP,Cyprus,Europe,estimación publicada,40019.926,0.09406794561073184,2004
+,CYP,Cyprus,Europe,estimación publicada,41362.094,0.054130255011841655,2005
+,CYP,Cyprus,Europe,estimación publicada,42595.203,0.018198818725068122,2006
+,CYP,Cyprus,Europe,estimación publicada,43823.76,0.025159187498502433,2007
+,CYP,Cyprus,Europe,estimación publicada,44295.63,0.008470222383039072,2008
+,CYP,Cyprus,Europe,estimación publicada,42253.387,0.11196495033800602,2009
+,CYP,Cyprus,Europe,estimación publicada,42102.28,0.058818102115765214,2010
+,CYP,Cyprus,Europe,estimación publicada,41212.688,0.03207128029316664,2011
+,CYP,Cyprus,Europe,estimación publicada,39190.223,0.004237799294060096,2012
+,CYP,Cyprus,Europe,estimación publicada,36650.57,0.09701856761239469,2013
+,CYP,Cyprus,Europe,estimación publicada,36104.902,0.09797888342291117,2014
+,CYP,Cyprus,Europe,estimación publicada,37258.5,0.04528051940724254,2015
+,CYP,Cyprus,Europe,estimación publicada,39500.85,0.07623450364917517,2016
+,CYP,Cyprus,Europe,estimación publicada,41417.99,0.051302468637004495,2017
+,CYP,Cyprus,Europe,estimación publicada,43510.03,0.07818159647285938,2018
+,CYP,Cyprus,Europe,estimación publicada,45454.176,0.1747171045280993,2019
+,CYP,Cyprus,Europe,estimación publicada,43402.36,0.022083695512264967,2020
+,CYP,Cyprus,Europe,estimación publicada,47632.57,0.04930884460918605,2021
+,CYP,Cyprus,Europe,estimación publicada,50840.914,0.005062279524281621,2022
+,CYP,Cyprus,Europe,estimación publicada,51674.902,0.013168177974876016,2023
+,CZE,Czechia,Europe,estimación publicada,24584.33,0.0,1992
+,CZE,Czechia,Europe,estimación publicada,24573.992,0.0,1993
+,CZE,Czechia,Europe,estimación publicada,28021.67,0.10000000474974513,1996
+,CZE,Czechia,Europe,estimación publicada,30919.549,0.0,2002
+,CZE,Czechia,Europe,estimación publicada,33452.34,0.01805480133043602,2004
+,CZE,Czechia,Europe,estimación publicada,35535.746,0.03393067454453558,2005
+,CZE,Czechia,Europe,estimación publicada,37786.88,0.07572811446152627,2006
+,CZE,Czechia,Europe,estimación publicada,39629.008,0.12798340758308768,2007
+,CZE,Czechia,Europe,estimación publicada,40328.344,0.08416250930167735,2008
+,CZE,Czechia,Europe,estimación publicada,38175.14,0.04626479640137404,2009
+,CZE,Czechia,Europe,estimación publicada,39097.387,0.036178334266878664,2010
+,CZE,Czechia,Europe,estimación publicada,39708.164,0.07170473108999431,2011
+,CZE,Czechia,Europe,estimación publicada,39347.05,0.08467658190056682,2012
+,CZE,Czechia,Europe,estimación publicada,39317.555,0.04569092998281121,2013
+,CZE,Czechia,Europe,estimación publicada,40158.016,0.010326948540750891,2014
+,CZE,Czechia,Europe,estimación publicada,42066.574,0.008764511585468426,2015
+,CZE,Czechia,Europe,estimación publicada,43069.465,0.0,2016
+,CZE,Czechia,Europe,estimación publicada,45177.523,0.0,2017
+,CZE,Czechia,Europe,estimación publicada,46301.082,0.008861815149430186,2018
+,CZE,Czechia,Europe,estimación publicada,47763.617,0.0,2019
+,CZE,Czechia,Europe,estimación publicada,45119.938,0.008142160368151963,2020
+,CZE,Czechia,Europe,estimación publicada,47796.035,0.05985058378428221,2021
+,CZE,Czechia,Europe,estimación publicada,48390.66,0.0,2022
+,CZE,Czechia,Europe,estimación publicada,47558.41,0.0,2023
+,COD,Democratic Republic of Congo,Africa,estimación publicada,987.74695,94.88975405693054,2004
+,COD,Democratic Republic of Congo,Africa,estimación publicada,1182.1407,78.90076637268066,2012
+,COD,Democratic Republic of Congo,Africa,estimación publicada,1361.028,85.31767129898071,2020
+,DNK,Denmark,Europe,estimación publicada,47276.895,0.6000000052154064,1992
+,DNK,Denmark,Europe,estimación publicada,50644.707,0.10000000474974513,1995
+,DNK,Denmark,Europe,estimación publicada,57585.9,0.10000000474974513,2000
+,DNK,Denmark,Europe,estimación publicada,58101.48,0.36886795423924923,2003
+,DNK,Denmark,Europe,estimación publicada,59560.46,0.3149806521832943,2004
+,DNK,Denmark,Europe,estimación publicada,60798.137,0.2781513147056103,2005
+,DNK,Denmark,Europe,estimación publicada,62911.395,0.19500699127092957,2006
+,DNK,Denmark,Europe,estimación publicada,63251.316,0.08515859371982515,2007
+,DNK,Denmark,Europe,estimación publicada,62618.45,0.2967254491522908,2008
+,DNK,Denmark,Europe,estimación publicada,59185.97,0.5658648908138275,2009
+,DNK,Denmark,Europe,estimación publicada,59856.348,0.05729401018470526,2010
+,DNK,Denmark,Europe,estimación publicada,60391.78,0.0,2011
+,DNK,Denmark,Europe,estimación publicada,60161.7,0.0,2012
+,DNK,Denmark,Europe,estimación publicada,60745.777,0.310915638692677,2013
+,DNK,Denmark,Europe,estimación publicada,61210.95,0.24332005996257067,2014
+,DNK,Denmark,Europe,estimación publicada,62059.13,0.17542586429044604,2015
+,DNK,Denmark,Europe,estimación publicada,63468.99,0.27838696260005236,2016
+,DNK,Denmark,Europe,estimación publicada,64989.445,0.1425427501089871,2017
+,DNK,Denmark,Europe,estimación publicada,65870.83,0.2265287097543478,2018
+,DNK,Denmark,Europe,estimación publicada,66758.63,0.2692090580239892,2019
+,DNK,Denmark,Europe,estimación publicada,65379.305,0.16499130288138986,2020
+,DNK,Denmark,Europe,estimación publicada,69328.0,0.153679633513093,2021
+,DNK,Denmark,Europe,estimación publicada,69089.47,0.2444789046421647,2022
+,DNK,Denmark,Europe,estimación publicada,68993.91,0.3592246910557151,2023
+,DJI,Djibouti,Africa,estimación publicada,4469.074,31.24915063381195,2013
+,DJI,Djibouti,Africa,estimación publicada,5421.9565,25.36087930202484,2017
+,DOM,Dominican Republic,North America,estimación publicada,7900.768,9.978000074625015,1992
+,DOM,Dominican Republic,North America,estimación publicada,9036.884,7.958775758743286,1996
+,DOM,Dominican Republic,North America,estimación publicada,9671.148,8.143425732851028,1997
+,DOM,Dominican Republic,North America,estimación publicada,10896.318,8.262825012207031,2000
+,DOM,Dominican Republic,North America,estimación publicada,10991.137,6.583978980779648,2001
+,DOM,Dominican Republic,North America,estimación publicada,11313.069,9.004073590040207,2002
+,DOM,Dominican Republic,North America,estimación publicada,11000.868,10.675137490034103,2003
+,DOM,Dominican Republic,North America,estimación publicada,11131.2705,14.634865522384644,2004
+,DOM,Dominican Republic,North America,estimación publicada,12022.508,9.854727983474731,2005
+,DOM,Dominican Republic,North America,estimación publicada,12961.918,8.117018640041351,2006
+,DOM,Dominican Republic,North America,estimación publicada,13754.921,7.826349139213562,2007
+,DOM,Dominican Republic,North America,estimación publicada,14030.141,7.142870128154755,2008
+,DOM,Dominican Republic,North America,estimación publicada,13992.41,6.326563656330109,2009
+,DOM,Dominican Republic,North America,estimación publicada,14975.001,5.546935275197029,2010
+,DOM,Dominican Republic,North America,estimación publicada,15258.086,5.337237939238548,2011
+,DOM,Dominican Republic,North America,estimación publicada,15487.277,5.4305072873830795,2012
+,DOM,Dominican Republic,North America,estimación publicada,16054.768,4.425707086920738,2013
+,DOM,Dominican Republic,North America,estimación publicada,16993.588,4.128704592585564,2014
+,DOM,Dominican Republic,North America,estimación publicada,17973.188,3.2675568014383316,2015
+,DOM,Dominican Republic,North America,estimación publicada,18968.975,2.9633386060595512,2016
+,DOM,Dominican Republic,North America,estimación publicada,19501.875,1.5202537178993225,2017
+,DOM,Dominican Republic,North America,estimación publicada,20662.848,1.101230550557375,2018
+,DOM,Dominican Republic,North America,estimación publicada,21451.287,1.0089830495417118,2019
+,DOM,Dominican Republic,North America,estimación publicada,19545.41,1.3026447035372257,2020
+,DOM,Dominican Republic,North America,estimación publicada,22053.459,1.2714582495391369,2021
+,DOM,Dominican Republic,North America,estimación publicada,22986.959,0.9554829448461533,2022
+,DOM,Dominican Republic,North America,estimación publicada,23282.49,1.2726033106446266,2023
+,DOM,Dominican Republic,North America,estimación publicada,24229.889,0.7753300946205854,2024
+,TLS,East Timor,Asia,estimación publicada,4038.3357,55.70628643035889,2001
+,TLS,East Timor,Asia,estimación publicada,3256.5698,60.12592315673828,2007
+,TLS,East Timor,Asia,estimación publicada,4445.3594,44.03270781040192,2014
+,ECU,Ecuador,South America,estimación publicada,9494.175,21.52518928050995,1994
+,ECU,Ecuador,South America,estimación publicada,9242.967,26.93343162536621,1999
+,ECU,Ecuador,South America,estimación publicada,9183.052,34.05278027057648,2000
+,ECU,Ecuador,South America,estimación publicada,9802.814,18.855589628219604,2003
+,ECU,Ecuador,South America,estimación publicada,10290.663,19.4386824965477,2004
+,ECU,Ecuador,South America,estimación publicada,10660.205,15.378598868846893,2005
+,ECU,Ecuador,South America,estimación publicada,10933.49,10.859648138284683,2006
+,ECU,Ecuador,South America,estimación publicada,10952.822,10.939806699752808,2007
+,ECU,Ecuador,South America,estimación publicada,11474.525,9.786150604486465,2008
+,ECU,Ecuador,South America,estimación publicada,11403.527,9.332508593797684,2009
+,ECU,Ecuador,South America,estimación publicada,11665.698,7.774475961923599,2010
+,ECU,Ecuador,South America,estimación publicada,12449.078,6.444078683853149,2011
+,ECU,Ecuador,South America,estimación publicada,12961.026,6.029471382498741,2012
+,ECU,Ecuador,South America,estimación publicada,13689.152,4.490239545702934,2013
+,ECU,Ecuador,South America,estimación publicada,14064.799,3.9699282497167587,2014
+,ECU,Ecuador,South America,estimación publicada,13881.57,4.770790413022041,2015
+,ECU,Ecuador,South America,estimación publicada,13586.516,4.970064759254456,2016
+,ECU,Ecuador,South America,estimación publicada,14179.153,4.279494658112526,2017
+,ECU,Ecuador,South America,estimación publicada,14083.507,4.692842438817024,2018
+,ECU,Ecuador,South America,estimación publicada,13870.489,4.647916555404663,2019
+,ECU,Ecuador,South America,estimación publicada,12440.326,8.438638597726822,2020
+,ECU,Ecuador,South America,estimación publicada,13507.444,5.27593232691288,2021
+,ECU,Ecuador,South America,estimación publicada,14186.639,4.4449180364608765,2022
+,ECU,Ecuador,South America,estimación publicada,14321.165,4.6807412058115005,2023
+,ECU,Ecuador,South America,estimación publicada,13922.422,7.313263416290283,2024
+,ECU,Ecuador,South America,estimación publicada,14319.24,3.4184567630290985,2025
+,EGY,Egypt,Africa,estimación publicada,8006.6216,7.142999768257141,1990
+,EGY,Egypt,Africa,estimación publicada,8423.578,4.080000147223473,1995
+,EGY,Egypt,Africa,estimación publicada,9588.859,0.0,1999
+,EGY,Egypt,Africa,estimación publicada,10451.821,4.122805595397949,2004
+,EGY,Egypt,Africa,estimación publicada,12391.585,3.7294454872608185,2008
+,EGY,Egypt,Africa,estimación publicada,13128.988,1.5437169931828976,2010
+,EGY,Egypt,Africa,estimación publicada,13076.806,1.2466962449252605,2012
+,EGY,Egypt,Africa,estimación publicada,13425.912,1.2087135575711727,2015
+,EGY,Egypt,Africa,estimación publicada,14018.36,3.1126536428928375,2017
+,EGY,Egypt,Africa,estimación publicada,15026.568,1.9851136952638626,2019
+,EGY,Egypt,Africa,estimación publicada,15579.016,1.3737847097218037,2021
+,SLV,El Salvador,North America,estimación publicada,5960.059,28.933972120285034,1991
+,SLV,El Salvador,North America,estimación publicada,7057.9204,19.31421309709549,1995
+,SLV,El Salvador,North America,estimación publicada,7062.3003,21.244850754737854,1996
+,SLV,El Salvador,North America,estimación publicada,7381.1147,26.348376274108887,1998
+,SLV,El Salvador,North America,estimación publicada,7498.4673,22.4332258105278,1999
+,SLV,El Salvador,North America,estimación publicada,7545.4478,18.444018065929413,2000
+,SLV,El Salvador,North America,estimación publicada,7580.323,19.400213658809662,2001
+,SLV,El Salvador,North America,estimación publicada,7675.671,19.535629451274872,2002
+,SLV,El Salvador,North America,estimación publicada,7780.272,20.941367745399475,2003
+,SLV,El Salvador,North America,estimación publicada,7841.532,16.315171122550964,2004
+,SLV,El Salvador,North America,estimación publicada,8050.5347,16.431662440299988,2005
+,SLV,El Salvador,North America,estimación publicada,8404.247,12.618882954120636,2006
+,SLV,El Salvador,North America,estimación publicada,8548.835,9.190637618303299,2007
+,SLV,El Salvador,North America,estimación publicada,8704.806,12.627856433391571,2008
+,SLV,El Salvador,North America,estimación publicada,8494.498,12.356539815664291,2009
+,SLV,El Salvador,North America,estimación publicada,8648.93,11.360518634319305,2010
+,SLV,El Salvador,North America,estimación publicada,8945.932,10.093274712562561,2011
+,SLV,El Salvador,North America,estimación publicada,9162.5625,8.544308692216873,2012
+,SLV,El Salvador,North America,estimación publicada,9329.462,7.141387462615967,2013
+,SLV,El Salvador,North America,estimación publicada,9451.744,6.953331083059311,2014
+,SLV,El Salvador,North America,estimación publicada,9646.154,5.301443487405777,2015
+,SLV,El Salvador,North America,estimación publicada,9863.761,5.774856358766556,2016
+,SLV,El Salvador,North America,estimación publicada,10064.794,4.550999402999878,2017
+,SLV,El Salvador,North America,estimación publicada,10297.203,4.067107662558556,2018
+,SLV,El Salvador,North America,estimación publicada,10543.938,2.9840348288416862,2019
+,SLV,El Salvador,North America,estimación publicada,10809.714,5.130908265709877,2021
+,SLV,El Salvador,North America,estimación publicada,11085.616,5.206789076328278,2022
+,SLV,El Salvador,North America,estimación publicada,11404.334,4.636839404702187,2023
+,GNQ,Equatorial Guinea,Africa,estimación publicada,16932.771,8.79419893026352,2022
+,EST,Estonia,Europe,estimación publicada,13757.016,1.6249999403953552,1993
+,EST,Estonia,Europe,estimación publicada,25485.162,3.552428260445595,2003
+,EST,Estonia,Europe,estimación publicada,27381.535,1.5936588868498802,2004
+,EST,Estonia,Europe,estimación publicada,30161.2,1.083072740584612,2005
+,EST,Estonia,Europe,estimación publicada,33301.496,1.0864190757274628,2006
+,EST,Estonia,Europe,estimación publicada,35986.516,0.596354017034173,2007
+,EST,Estonia,Europe,estimación publicada,34233.766,0.5535272415727377,2008
+,EST,Estonia,Europe,estimación publicada,29281.68,0.7585304789245129,2009
+,EST,Estonia,Europe,estimación publicada,30067.502,1.0475494898855686,2010
+,EST,Estonia,Europe,estimación publicada,32453.102,1.1560694314539433,2011
+,EST,Estonia,Europe,estimación publicada,33765.43,1.0474346578121185,2012
+,EST,Estonia,Europe,estimación publicada,34481.016,1.0759389959275723,2013
+,EST,Estonia,Europe,estimación publicada,35720.3,0.9919047355651855,2014
+,EST,Estonia,Europe,estimación publicada,36353.06,0.6605012807995081,2015
+,EST,Estonia,Europe,estimación publicada,37466.555,0.585230765864253,2016
+,EST,Estonia,Europe,estimación publicada,39529.785,0.5189627408981323,2017
+,EST,Estonia,Europe,estimación publicada,40849.848,0.4170029889792204,2018
+,EST,Estonia,Europe,estimación publicada,42215.035,0.7201876491308212,2019
+,EST,Estonia,Europe,estimación publicada,40916.72,0.41403151117265224,2020
+,EST,Estonia,Europe,estimación publicada,44247.418,0.3491605632007122,2021
+,EST,Estonia,Europe,estimación publicada,43124.62,0.4982525948435068,2022
+,EST,Estonia,Europe,estimación publicada,41284.773,0.3169490024447441,2023
+,SWZ,Eswatini,Africa,estimación publicada,5427.35,89.301997423172,1994
+,SWZ,Eswatini,Africa,estimación publicada,6106.0747,64.99142646789551,2000
+,SWZ,Eswatini,Africa,estimación publicada,7988.5977,58.216190338134766,2009
+,SWZ,Eswatini,Africa,estimación publicada,9402.509,44.53093111515045,2016
+,ETH,Ethiopia,Africa,estimación publicada,760.26434,73.51546883583069,1995
+,ETH,Ethiopia,Africa,estimación publicada,787.67957,65.88854193687439,1999
+,ETH,Ethiopia,Africa,estimación publicada,877.1145,41.32879078388214,2004
+,ETH,Ethiopia,Africa,estimación publicada,1381.1904,37.40920126438141,2010
+,ETH,Ethiopia,Africa,estimación publicada,1957.4146,32.99904465675354,2015
+,ETH,Ethiopia,Africa,estimación publicada,2588.413,38.636115193367004,2021
+,FJI,Fiji,Oceania,estimación publicada,9357.754,5.366970971226692,2002
+,FJI,Fiji,Oceania,estimación publicada,9711.966,3.787539526820183,2008
+,FJI,Fiji,Oceania,estimación publicada,10604.156,1.551996823400259,2013
+,FJI,Fiji,Oceania,estimación publicada,13056.331,4.653071612119675,2019
+,FIN,Finland,Europe,estimación publicada,36326.082,0.0,1991
+,FIN,Finland,Europe,estimación publicada,37069.63,0.0,1995
+,FIN,Finland,Europe,estimación publicada,46968.84,0.10000000474974513,2000
+,FIN,Finland,Europe,estimación publicada,49655.547,0.04927503759972751,2003
+,FIN,Finland,Europe,estimación publicada,51494.707,0.045620722812600434,2004
+,FIN,Finland,Europe,estimación publicada,52744.047,0.07667819154448807,2005
+,FIN,Finland,Europe,estimación publicada,54653.98,0.09183198562823236,2006
+,FIN,Finland,Europe,estimación publicada,57313.293,0.06374258664436638,2007
+,FIN,Finland,Europe,estimación publicada,57494.586,0.08081315318122506,2008
+,FIN,Finland,Europe,estimación publicada,52599.15,0.052470085211098194,2009
+,FIN,Finland,Europe,estimación publicada,54017.945,0.0690984248649329,2010
+,FIN,Finland,Europe,estimación publicada,55053.39,0.05338229238986969,2011
+,FIN,Finland,Europe,estimación publicada,53957.668,0.0527251570019871,2012
+,FIN,Finland,Europe,estimación publicada,53183.43,0.08569766650907695,2013
+,FIN,Finland,Europe,estimación publicada,52710.734,0.06852940423414111,2014
+,FIN,Finland,Europe,estimación publicada,52782.49,0.0744739081710577,2015
+,FIN,Finland,Europe,estimación publicada,53984.633,0.047236145474016666,2016
+,FIN,Finland,Europe,estimación publicada,55637.227,0.076250487472862,2017
+,FIN,Finland,Europe,estimación publicada,56226.336,0.07705909083597362,2018
+,FIN,Finland,Europe,estimación publicada,56922.49,0.04109301371499896,2019
+,FIN,Finland,Europe,estimación publicada,55424.86,0.030100689036771655,2020
+,FIN,Finland,Europe,estimación publicada,56790.375,0.021342962281778455,2021
+,FIN,Finland,Europe,estimación publicada,57068.305,0.1059781527146697,2022
+,FIN,Finland,Europe,estimación publicada,56051.77,0.19506416283547878,2023
+,FRA,France,Europe,estimación publicada,38655.887,0.20000000949949026,1990
+,FRA,France,Europe,estimación publicada,40990.74,0.20000000949949026,1996
+,FRA,France,Europe,estimación publicada,41876.934,0.10000000474974513,1997
+,FRA,France,Europe,estimación publicada,43162.543,0.10000000474974513,1998
+,FRA,France,Europe,estimación publicada,44400.137,0.10000000474974513,1999
+,FRA,France,Europe,estimación publicada,45922.48,0.10000000474974513,2000
+,FRA,France,Europe,estimación publicada,46454.87,0.10000000474974513,2001
+,FRA,France,Europe,estimación publicada,46610.78,0.10000000474974513,2002
+,FRA,France,Europe,estimación publicada,46730.977,0.17248074291273952,2003
+,FRA,France,Europe,estimación publicada,47720.44,0.07176916697062552,2004
+,FRA,France,Europe,estimación publicada,48257.465,0.05289957043714821,2005
+,FRA,France,Europe,estimación publicada,49223.246,0.029277539579197764,2006
+,FRA,France,Europe,estimación publicada,50157.785,0.018264558457303792,2007
+,FRA,France,Europe,estimación publicada,50068.297,0.009692239109426737,2008
+,FRA,France,Europe,estimación publicada,48404.965,0.10793342953547835,2009
+,FRA,France,Europe,estimación publicada,49130.42,0.08997435215860605,2010
+,FRA,France,Europe,estimación publicada,50085.684,0.036160441231913865,2011
+,FRA,France,Europe,estimación publicada,49935.625,0.060952414060011506,2012
+,FRA,France,Europe,estimación publicada,50066.53,0.08262797491624951,2013
+,FRA,France,Europe,estimación publicada,50326.566,0.029181429999880493,2014
+,FRA,France,Europe,estimación publicada,50682.895,0.1451841671951115,2015
+,FRA,France,Europe,estimación publicada,50984.074,0.064708391437307,2016
+,FRA,France,Europe,estimación publicada,51895.566,0.018483544408809394,2017
+,FRA,France,Europe,estimación publicada,52560.953,0.021168054081499577,2018
+,FRA,France,Europe,estimación publicada,53448.555,0.051448994781821966,2019
+,FRA,France,Europe,estimación publicada,49311.332,0.11489582248032093,2020
+,FRA,France,Europe,estimación publicada,52517.336,0.07056646863929927,2021
+,FRA,France,Europe,estimación publicada,53673.812,0.05485616275109351,2022
+,FRA,France,Europe,estimación publicada,54296.723,0.0697234645485878,2023
+,GAB,Gabon,Africa,estimación publicada,20385.29,9.175252169370651,2005
+,GAB,Gabon,Africa,estimación publicada,19555.707,3.810487315058708,2017
+,GMB,Gambia,Africa,estimación publicada,2502.765,78.00599336624146,1998
+,GMB,Gambia,Africa,estimación publicada,2682.48,55.17241358757019,2003
+,GMB,Gambia,Africa,estimación publicada,2824.2126,34.22618508338928,2010
+,GMB,Gambia,Africa,estimación publicada,2495.9575,17.09534078836441,2015
+,GMB,Gambia,Africa,estimación publicada,2702.319,22.00188785791397,2020
+,GEO,Georgia,Asia,estimación publicada,4339.005,12.2079998254776,1996
+,GEO,Georgia,Asia,estimación publicada,4951.813,28.2465398311615,1997
+,GEO,Georgia,Asia,estimación publicada,5233.2886,26.800259947776794,1998
+,GEO,Georgia,Asia,estimación publicada,5495.245,32.71108567714691,1999
+,GEO,Georgia,Asia,estimación publicada,5706.2725,35.034140944480896,2000
+,GEO,Georgia,Asia,estimación publicada,6074.0864,36.72480285167694,2001
+,GEO,Georgia,Asia,estimación publicada,6464.325,22.29786217212677,2002
+,GEO,Georgia,Asia,estimación publicada,7227.737,22.284911572933197,2003
+,GEO,Georgia,Asia,estimación publicada,7693.915,20.93828022480011,2004
+,GEO,Georgia,Asia,estimación publicada,8485.587,22.32622802257538,2005
+,GEO,Georgia,Asia,estimación publicada,9337.989,22.47667908668518,2006
+,GEO,Georgia,Asia,estimación publicada,10567.274,23.894719779491425,2007
+,GEO,Georgia,Asia,estimación publicada,10856.104,21.662111580371857,2008
+,GEO,Georgia,Asia,estimación publicada,10553.09,21.14884704351425,2009
+,GEO,Georgia,Asia,estimación publicada,11294.368,23.61784130334854,2010
+,GEO,Georgia,Asia,estimación publicada,12288.683,21.62451148033142,2011
+,GEO,Georgia,Asia,estimación publicada,13193.96,18.782144784927368,2012
+,GEO,Georgia,Asia,estimación publicada,13913.002,14.889509975910187,2013
+,GEO,Georgia,Asia,estimación publicada,14475.313,12.035513669252396,2014
+,GEO,Georgia,Asia,estimación publicada,14936.844,10.603465884923935,2015
+,GEO,Georgia,Asia,estimación publicada,15442.956,10.47130599617958,2016
+,GEO,Georgia,Asia,estimación publicada,16237.624,11.065368354320526,2017
+,GEO,Georgia,Asia,estimación publicada,17228.68,10.991109907627106,2018
+,GEO,Georgia,Asia,estimación publicada,18186.88,9.702693670988083,2019
+,GEO,Georgia,Asia,estimación publicada,17031.145,11.976327747106552,2020
+,GEO,Georgia,Asia,estimación publicada,18915.654,10.790028423070908,2021
+,GEO,Georgia,Asia,estimación publicada,20966.527,7.733272016048431,2022
+,GEO,Georgia,Asia,estimación publicada,22590.53,5.826692283153534,2023
+,GEO,Georgia,Asia,estimación publicada,24146.623,4.229260981082916,2024
+,DEU,Germany,Europe,estimación publicada,44195.715,0.10000000474974513,1991
+,DEU,Germany,Europe,estimación publicada,44744.14,0.10000000474974513,1992
+,DEU,Germany,Europe,estimación publicada,44018.438,0.10000000474974513,1993
+,DEU,Germany,Europe,estimación publicada,45005.16,0.20000000949949026,1994
+,DEU,Germany,Europe,estimación publicada,45548.418,0.20000000949949026,1995
+,DEU,Germany,Europe,estimación publicada,45888.13,0.10000000474974513,1996
+,DEU,Germany,Europe,estimación publicada,46670.707,0.10000000474974513,1997
+,DEU,Germany,Europe,estimación publicada,47641.527,0.10000000474974513,1998
+,DEU,Germany,Europe,estimación publicada,48624.65,0.10000000474974513,1999
+,DEU,Germany,Europe,estimación publicada,49955.645,0.10000000474974513,2000
+,DEU,Germany,Europe,estimación publicada,50687.65,0.10000000474974513,2001
+,DEU,Germany,Europe,estimación publicada,50487.0,0.10000000474974513,2002
+,DEU,Germany,Europe,estimación publicada,50191.723,0.10000000474974513,2003
+,DEU,Germany,Europe,estimación publicada,50786.02,0.10000000474974513,2004
+,DEU,Germany,Europe,estimación publicada,51264.82,0.10000000474974513,2005
+,DEU,Germany,Europe,estimación publicada,53307.164,0.0,2006
+,DEU,Germany,Europe,estimación publicada,54920.66,0.10000000474974513,2007
+,DEU,Germany,Europe,estimación publicada,55513.758,0.10000000474974513,2008
+,DEU,Germany,Europe,estimación publicada,52568.797,0.10000000474974513,2009
+,DEU,Germany,Europe,estimación publicada,54826.254,0.10000000474974513,2010
+,DEU,Germany,Europe,estimación publicada,57950.957,0.10000000474974513,2011
+,DEU,Germany,Europe,estimación publicada,58110.375,0.10000000474974513,2012
+,DEU,Germany,Europe,estimación publicada,58182.08,0.10000000474974513,2013
+,DEU,Germany,Europe,estimación publicada,59203.234,0.10000000474974513,2014
+,DEU,Germany,Europe,estimación publicada,59668.99,0.10000000474974513,2015
+,DEU,Germany,Europe,estimación publicada,60504.586,0.10000000474974513,2016
+,DEU,Germany,Europe,estimación publicada,61965.434,0.20000000949949026,2017
+,DEU,Germany,Europe,estimación publicada,62481.117,0.10000000474974513,2018
+,DEU,Germany,Europe,estimación publicada,62949.895,0.20000000949949026,2019
+,DEU,Germany,Europe,estimación publicada,60299.58,0.3000000026077032,2020
+,DEU,Germany,Europe,estimación publicada,62630.773,0.6000000052154064,2021
+,DEU,Germany,Europe,estimación publicada,63777.93,0.7000000216066837,2022
+,GHA,Ghana,Africa,estimación publicada,2859.827,80.36236763000488,1991
+,GHA,Ghana,Africa,estimación publicada,3229.4822,65.34857749938965,1998
+,GHA,Ghana,Africa,estimación publicada,3721.3079,60.886943340301514,2005
+,GHA,Ghana,Africa,estimación publicada,5339.7134,41.76550209522247,2012
+,GHA,Ghana,Africa,estimación publicada,5666.078,39.025792479515076,2016
+,GRC,Greece,Europe,estimación publicada,27646.148,1.2000000104308128,1995
+,GRC,Greece,Europe,estimación publicada,31386.64,0.3000000026077032,2000
+,GRC,Greece,Europe,estimación publicada,34081.027,0.4000000189989805,2002
+,GRC,Greece,Europe,estimación publicada,35970.703,0.5592209752649069,2003
+,GRC,Greece,Europe,estimación publicada,37811.492,0.912261288613081,2004
+,GRC,Greece,Europe,estimación publicada,38146.965,0.447055883705616,2005
+,GRC,Greece,Europe,estimación publicada,40483.156,0.6532314699143171,2006
+,GRC,Greece,Europe,estimación publicada,41796.234,0.6173904985189438,2007
+,GRC,Greece,Europe,estimación publicada,41709.387,0.3650398226454854,2008
+,GRC,Greece,Europe,estimación publicada,39886.215,0.6387006025761366,2009
+,GRC,Greece,Europe,estimación publicada,37566.75,1.066692266613245,2010
+,GRC,Greece,Europe,estimación publicada,33906.492,1.4706450514495373,2011
+,GRC,Greece,Europe,estimación publicada,31250.227,2.1395428106188774,2012
+,GRC,Greece,Europe,estimación publicada,30762.443,1.52428625151515,2013
+,GRC,Greece,Europe,estimación publicada,31213.377,1.96773000061512,2014
+,GRC,Greece,Europe,estimación publicada,31347.977,1.9816221669316292,2015
+,GRC,Greece,Europe,estimación publicada,31468.62,1.3920055702328682,2016
+,GRC,Greece,Europe,estimación publicada,31995.41,1.0717371478676796,2017
+,GRC,Greece,Europe,estimación publicada,32722.33,0.1598766539245844,2018
+,GRC,Greece,Europe,estimación publicada,33502.75,0.972695741802454,2019
+,GRC,Greece,Europe,estimación publicada,30487.113,1.0963271372020245,2020
+,GRC,Greece,Europe,estimación publicada,33528.227,0.7014273200184107,2021
+,GRC,Greece,Europe,estimación publicada,35828.176,0.6239609327167273,2022
+,GRC,Greece,Europe,estimación publicada,36700.51,0.5942829418927431,2023
+,GRD,Grenada,North America,estimación publicada,16964.852,0.7673545274883509,2018
+,GTM,Guatemala,North America,estimación publicada,8559.99,13.39000016450882,1998
+,GTM,Guatemala,North America,estimación publicada,8770.408,8.796336501836777,2000
+,GTM,Guatemala,North America,estimación publicada,9386.006,10.515568405389786,2006
+,GTM,Guatemala,North America,estimación publicada,10553.564,7.9611413180828094,2014
+,GTM,Guatemala,North America,estimación publicada,12380.371,9.660949558019638,2023
+,GIN,Guinea,Africa,estimación publicada,2075.992,86.36900186538696,1991
+,GIN,Guinea,Africa,estimación publicada,2134.8977,37.4605268239975,1994
+,GIN,Guinea,Africa,estimación publicada,2498.1318,50.28161406517029,2002
+,GIN,Guinea,Africa,estimación publicada,2587.005,44.025918841362,2007
+,GIN,Guinea,Africa,estimación publicada,2762.9036,21.259526908397675,2012
+,GIN,Guinea,Africa,estimación publicada,3455.645,11.650444567203522,2018
+,GNB,Guinea-Bissau,Africa,estimación publicada,2024.8538,50.83000063896179,1991
+,GNB,Guinea-Bissau,Africa,estimación publicada,1963.5623,52.815765142440796,1993
+,GNB,Guinea-Bissau,Africa,estimación publicada,2054.0898,68.22612285614014,2002
+,GNB,Guinea-Bissau,Africa,estimación publicada,2164.2683,75.70624947547913,2010
+,GNB,Guinea-Bissau,Africa,estimación publicada,2373.6494,37.095049023628235,2018
+,GNB,Guinea-Bissau,Africa,estimación publicada,2522.1287,39.86110985279083,2021
+,GUY,Guyana,South America,estimación publicada,5799.2183,33.28000009059906,1992
+,GUY,Guyana,South America,estimación publicada,7915.2295,13.011032342910767,1998
+,HTI,Haiti,North America,estimación publicada,3168.1445,75.10814666748047,2001
+,HTI,Haiti,North America,estimación publicada,3266.4382,65.0974452495575,2012
+,HND,Honduras,North America,estimación publicada,1172.0798,51.6730010509491,1990
+,HND,Honduras,North America,estimación publicada,1436.0507,41.269347071647644,1991
+,HND,Honduras,North America,estimación publicada,1521.9473,36.488473415374756,1992
+,HND,Honduras,North America,estimación publicada,1681.0824,31.29476308822632,1993
+,HND,Honduras,North America,estimación publicada,2108.2742,32.938721776008606,1994
+,HND,Honduras,North America,estimación publicada,2555.0261,34.42178964614868,1995
+,HND,Honduras,North America,estimación publicada,3054.1577,38.15779089927673,1996
+,HND,Honduras,North America,estimación publicada,3635.9807,27.518832683563232,1997
+,HND,Honduras,North America,estimación publicada,3950.835,32.3060005903244,1998
+,HND,Honduras,North America,estimación publicada,4293.827,32.12149739265442,1999
+,HND,Honduras,North America,estimación publicada,4578.9478,26.542213559150696,2001
+,HND,Honduras,North America,estimación publicada,4627.023,28.954806923866272,2002
+,HND,Honduras,North America,estimación publicada,4714.867,34.0004563331604,2003
+,HND,Honduras,North America,estimación publicada,4885.343,33.29382836818695,2004
+,HND,Honduras,North America,estimación publicada,5056.6753,31.339815258979797,2005
+,HND,Honduras,North America,estimación publicada,5263.1504,27.306681871414185,2006
+,HND,Honduras,North America,estimación publicada,5461.9014,22.013849020004272,2007
+,HND,Honduras,North America,estimación publicada,5566.7065,20.879866182804108,2008
+,HND,Honduras,North America,estimación publicada,5313.756,18.06202232837677,2009
+,HND,Honduras,North America,estimación publicada,5396.0723,19.558432698249817,2010
+,HND,Honduras,North America,estimación publicada,5488.4336,20.084045827388763,2011
+,HND,Honduras,North America,estimación publicada,5600.608,23.968513309955597,2012
+,HND,Honduras,North America,estimación publicada,5644.134,20.793457329273224,2013
+,HND,Honduras,North America,estimación publicada,5705.1626,20.594994723796844,2014
+,HND,Honduras,North America,estimación publicada,5812.5347,19.933633506298065,2015
+,HND,Honduras,North America,estimación publicada,5926.49,19.842039048671722,2016
+,HND,Honduras,North America,estimación publicada,6099.6074,19.327454268932343,2017
+,HND,Honduras,North America,estimación publicada,6219.28,19.846250116825104,2018
+,HND,Honduras,North America,estimación publicada,6264.019,18.779030442237854,2019
+,HND,Honduras,North America,estimación publicada,6467.88,17.02127605676651,2023
+,HND,Honduras,North America,estimación publicada,6590.8438,15.717370808124542,2024
+,HUN,Hungary,Europe,estimación publicada,18765.416,2.0999999716877937,1991
+,HUN,Hungary,Europe,estimación publicada,18113.336,0.0,1993
+,HUN,Hungary,Europe,estimación publicada,18672.707,1.899999938905239,1994
+,HUN,Hungary,Europe,estimación publicada,21128.889,0.6000000052154064,1999
+,HUN,Hungary,Europe,estimación publicada,26568.12,0.26315595023334026,2004
+,HUN,Hungary,Europe,estimación publicada,27765.79,1.020275428891182,2005
+,HUN,Hungary,Europe,estimación publicada,28903.047,0.1999382395297289,2006
+,HUN,Hungary,Europe,estimación publicada,29044.066,0.2452888758853078,2007
+,HUN,Hungary,Europe,estimación publicada,29384.008,0.08974195225164294,2008
+,HUN,Hungary,Europe,estimación publicada,27445.959,0.11273605050519109,2009
+,HUN,Hungary,Europe,estimación publicada,27801.834,0.1668813405558467,2010
+,HUN,Hungary,Europe,estimación publicada,28415.117,0.1706693903543055,2011
+,HUN,Hungary,Europe,estimación publicada,28179.656,0.4758299794048071,2012
+,HUN,Hungary,Europe,estimación publicada,28891.021,0.46090069226920605,2013
+,HUN,Hungary,Europe,estimación publicada,30264.95,0.9814091958105564,2014
+,HUN,Hungary,Europe,estimación publicada,31485.568,0.9690301492810249,2015
+,HUN,Hungary,Europe,estimación publicada,32378.967,1.5732795000076294,2016
+,HUN,Hungary,Europe,estimación publicada,33828.715,0.9179572574794292,2017
+,ISL,Iceland,Europe,estimación publicada,52095.64,0.037692830665037036,2003
+,ISL,Iceland,Europe,estimación publicada,55576.61,0.17006549751386046,2004
+,ISL,Iceland,Europe,estimación publicada,58549.137,0.037019659066572785,2005
+,ISL,Iceland,Europe,estimación publicada,60434.383,0.18427962204441428,2006
+,ISL,Iceland,Europe,estimación publicada,64075.31,0.08061417029239237,2007
+,ISL,Iceland,Europe,estimación publicada,63963.76,0.060815003234893084,2008
+,ISL,Iceland,Europe,estimación publicada,58441.273,0.09720067027956247,2009
+,ISL,Iceland,Europe,estimación publicada,57225.1,0.14938449021428823,2010
+,ISL,Iceland,Europe,estimación publicada,57837.86,0.1882955664768815,2011
+,ISL,Iceland,Europe,estimación publicada,58203.637,0.03355581720825285,2012
+,ISL,Iceland,Europe,estimación publicada,59729.543,0.08820933289825916,2013
+,ISL,Iceland,Europe,estimación publicada,60199.2,0.0,2014
+,ISL,Iceland,Europe,estimación publicada,61820.363,0.0344901840435341,2015
+,ISL,Iceland,Europe,estimación publicada,64759.227,0.0,2016
+,ISL,Iceland,Europe,estimación publicada,65462.504,0.0,2017
+,ISL,Iceland,Europe,estimación publicada,66703.02,0.2681578975170851,2018
+,ISL,Iceland,Europe,estimación publicada,65994.984,0.0799420231487602,2019
+,IND,India,Asia,estimación publicada,2241.2854,47.48263359069824,1993
+,IND,India,Asia,estimación publicada,3551.0474,46.42416834831238,2004
+,IND,India,Asia,estimación publicada,4595.38,34.575578570365906,2009
+,IND,India,Asia,estimación publicada,5098.675,27.124691009521484,2011
+,IND,India,Asia,estimación publicada,8347.385,5.25164008140564,2022
+,IND,India,Asia,estimación publicada,8870.55,2.572406642138958,2023
+,IDN,Indonesia,Asia,estimación publicada,4873.0537,78.58341932296753,1990
+,IDN,Indonesia,Asia,estimación publicada,5609.152,78.00337076187134,1993
+,IDN,Indonesia,Asia,estimación publicada,6695.4097,68.14606785774231,1996
+,IDN,Indonesia,Asia,estimación publicada,5897.6855,82.83239006996155,1998
+,IDN,Indonesia,Asia,estimación publicada,5855.658,66.20951890945435,1999
+,IDN,Indonesia,Asia,estimación publicada,6056.382,65.67724347114563,2000
+,IDN,Indonesia,Asia,estimación publicada,6190.5195,62.27348446846008,2001
+,IDN,Indonesia,Asia,estimación publicada,6381.9497,46.83908820152283,2002
+,IDN,Indonesia,Asia,estimación publicada,6599.092,45.548611879348755,2003
+,IDN,Indonesia,Asia,estimación publicada,6843.5464,45.41439414024353,2004
+,IDN,Indonesia,Asia,estimación publicada,7140.8545,41.0938024520874,2005
+,IDN,Indonesia,Asia,estimación publicada,7434.488,46.82924151420593,2006
+,IDN,Indonesia,Asia,estimación publicada,7802.464,41.07808768749237,2007
+,IDN,Indonesia,Asia,estimación publicada,8165.0615,38.00511360168457,2008
+,IDN,Indonesia,Asia,estimación publicada,8435.456,37.87674307823181,2009
+,IDN,Indonesia,Asia,estimación publicada,8848.225,34.102827310562134,2010
+,IDN,Indonesia,Asia,estimación publicada,9274.97,31.216058135032654,2011
+,IDN,Indonesia,Asia,estimación publicada,9708.612,26.578262448310852,2012
+,IDN,Indonesia,Asia,estimación publicada,10121.814,27.16655135154724,2013
+,IDN,Indonesia,Asia,estimación publicada,10504.387,25.6611168384552,2014
+,IDN,Indonesia,Asia,estimación publicada,10893.662,21.58610373735428,2015
+,IDN,Indonesia,Asia,estimación publicada,11319.663,18.046635389328003,2016
+,IDN,Indonesia,Asia,estimación publicada,11772.574,14.756742119789124,2017
+,IDN,Indonesia,Asia,estimación publicada,12262.231,12.466634064912796,2018
+,IDN,Indonesia,Asia,estimación publicada,12757.785,10.85021197795868,2019
+,IDN,Indonesia,Asia,estimación publicada,12388.545,9.847770631313324,2020
+,IDN,Indonesia,Asia,estimación publicada,12757.074,8.564434945583344,2021
+,IDN,Indonesia,Asia,estimación publicada,13334.266,7.8536346554756165,2022
+,IDN,Indonesia,Asia,estimación publicada,13889.949,6.716166436672211,2023
+,IDN,Indonesia,Asia,estimación publicada,14470.718,5.3940583020448685,2024
+,IDN,Indonesia,Asia,estimación publicada,15091.009,3.6915570497512817,2025
+,IRN,Iran,Asia,estimación publicada,9656.001,21.613000333309174,1990
+,IRN,Iran,Asia,estimación publicada,10333.433,15.760999917984009,1994
+,IRN,Iran,Asia,estimación publicada,11101.508,15.158000588417053,1998
+,IRN,Iran,Asia,estimación publicada,13935.774,4.463858902454376,2005
+,IRN,Iran,Asia,estimación publicada,14320.657,4.45968434214592,2006
+,IRN,Iran,Asia,estimación publicada,15055.149,4.93493489921093,2009
+,IRN,Iran,Asia,estimación publicada,15947.766,2.2578731179237366,2011
+,IRN,Iran,Asia,estimación publicada,15159.295,1.7671139910817146,2012
+,IRN,Iran,Asia,estimación publicada,14734.74,1.9017428159713745,2013
+,IRN,Iran,Asia,estimación publicada,15262.852,3.2981891185045242,2014
+,IRN,Iran,Asia,estimación publicada,14841.905,2.9927799478173256,2015
+,IRN,Iran,Asia,estimación publicada,15920.372,2.9715513810515404,2016
+,IRN,Iran,Asia,estimación publicada,16167.968,2.6673316955566406,2017
+,IRN,Iran,Asia,estimación publicada,15364.805,3.1507305800914764,2018
+,IRN,Iran,Asia,estimación publicada,14841.075,4.280261322855949,2019
+,IRN,Iran,Asia,estimación publicada,15381.585,4.642350226640701,2020
+,IRN,Iran,Asia,estimación publicada,15884.428,3.7086840718984604,2021
+,IRN,Iran,Asia,estimación publicada,16377.961,2.805306576192379,2022
+,IRN,Iran,Asia,estimación publicada,17044.816,2.4873051792383194,2023
+,IRQ,Iraq,Asia,estimación publicada,10568.914,0.5700509995222092,2006
+,IRQ,Iraq,Asia,estimación publicada,13357.015,0.5591267719864845,2012
+,IRQ,Iraq,Asia,estimación publicada,13202.323,0.5494187586009502,2023
+,IRL,Ireland,Europe,estimación publicada,33035.234,0.4000000189989805,1994
+,IRL,Ireland,Europe,estimación publicada,36032.777,0.4000000189989805,1995
+,IRL,Ireland,Europe,estimación publicada,38386.91,0.20000000949949026,1996
+,IRL,Ireland,Europe,estimación publicada,53582.832,0.20000000949949026,2000
+,IRL,Ireland,Europe,estimación publicada,57828.01,0.3000000026077032,2002
+,IRL,Ireland,Europe,estimación publicada,58608.336,0.2256395062431693,2003
+,IRL,Ireland,Europe,estimación publicada,61452.867,0.08494932553730905,2004
+,IRL,Ireland,Europe,estimación publicada,63579.715,0.06269225850701332,2005
+,IRL,Ireland,Europe,estimación publicada,64975.41,0.47204140573740005,2006
+,IRL,Ireland,Europe,estimación publicada,66475.84,0.12933309189975262,2007
+,IRL,Ireland,Europe,estimación publicada,62213.645,0.2007195958867669,2008
+,IRL,Ireland,Europe,estimación publicada,58446.727,0.5775791592895985,2009
+,IRL,Ireland,Europe,estimación publicada,59107.42,0.7488450966775417,2010
+,IRL,Ireland,Europe,estimación publicada,59797.055,0.6732483394443989,2011
+,IRL,Ireland,Europe,estimación publicada,59303.03,0.5379514303058386,2012
+,IRL,Ireland,Europe,estimación publicada,60285.24,0.7410096935927868,2013
+,IRL,Ireland,Europe,estimación publicada,65463.195,0.4454242531210184,2014
+,IRL,Ireland,Europe,estimación publicada,80815.64,0.427800789475441,2015
+,IRL,Ireland,Europe,estimación publicada,80760.09,0.34023337066173553,2016
+,IRL,Ireland,Europe,estimación publicada,87731.79,0.3040496725589037,2017
+,IRL,Ireland,Europe,estimación publicada,93115.836,0.09870750363916159,2018
+,IRL,Ireland,Europe,estimación publicada,96205.8,0.056351948296651244,2019
+,IRL,Ireland,Europe,estimación publicada,101793.445,0.18253658199682832,2020
+,IRL,Ireland,Europe,estimación publicada,116702.86,0.13113999739289284,2021
+,IRL,Ireland,Europe,estimación publicada,123007.48,0.20084574352949858,2022
+,IRL,Ireland,Europe,estimación publicada,117659.73,0.08230576640926301,2023
+,ISR,Israel,Asia,estimación publicada,26758.43,0.20000000949949026,1992
+,ISR,Israel,Asia,estimación publicada,30713.16,0.6000000052154064,1997
+,ISR,Israel,Asia,estimación publicada,32591.21,0.4000000189989805,2001
+,ISR,Israel,Asia,estimación publicada,31892.54,0.800000037997961,2002
+,ISR,Israel,Asia,estimación publicada,31771.21,0.8999999612569809,2003
+,ISR,Israel,Asia,estimación publicada,32665.854,0.9999999776482582,2004
+,ISR,Israel,Asia,estimación publicada,33491.992,0.8999999612569809,2005
+,ISR,Israel,Asia,estimación publicada,34744.867,0.4999999888241291,2006
+,ISR,Israel,Asia,estimación publicada,36288.066,0.6000000052154064,2007
+,ISR,Israel,Asia,estimación publicada,36795.48,0.7000000216066837,2008
+,ISR,Israel,Asia,estimación publicada,36364.785,0.8999999612569809,2009
+,ISR,Israel,Asia,estimación publicada,37686.344,0.6000000052154064,2010
+,ISR,Israel,Asia,estimación publicada,39036.023,0.3000000026077032,2011
+,ISR,Israel,Asia,estimación publicada,39245.508,0.800000037997961,2012
+,ISR,Israel,Asia,estimación publicada,40095.477,0.6000000052154064,2013
+,ISR,Israel,Asia,estimación publicada,40795.63,0.6000000052154064,2014
+,ISR,Israel,Asia,estimación publicada,40889.598,0.4999999888241291,2015
+,ISR,Israel,Asia,estimación publicada,41914.582,0.4999999888241291,2016
+,ISR,Israel,Asia,estimación publicada,42895.586,0.7000000216066837,2017
+,ISR,Israel,Asia,estimación publicada,43782.652,0.7000000216066837,2018
+,ISR,Israel,Asia,estimación publicada,44492.12,0.8999999612569809,2019
+,ISR,Israel,Asia,estimación publicada,42926.543,0.7000000216066837,2020
+,ISR,Israel,Asia,estimación publicada,46151.1,0.6000000052154064,2021
+,ISR,Israel,Asia,estimación publicada,48132.363,0.4000000189989805,2022
+,ITA,Italy,Europe,estimación publicada,43283.02,0.3000000026077032,1991
+,ITA,Italy,Europe,estimación publicada,43216.11,1.4999999664723873,1993
+,ITA,Italy,Europe,estimación publicada,45410.14,0.7000000216066837,1995
+,ITA,Italy,Europe,estimación publicada,47701.4,1.7000000923871994,1998
+,ITA,Italy,Europe,estimación publicada,50353.42,1.3000000268220901,2000
+,ITA,Italy,Europe,estimación publicada,51369.113,1.7000000923871994,2002
+,ITA,Italy,Europe,estimación publicada,51126.258,0.8816183544695377,2003
+,ITA,Italy,Europe,estimación publicada,51495.004,0.7906819693744183,2004
+,ITA,Italy,Europe,estimación publicada,51585.645,0.7962184026837349,2005
+,ITA,Italy,Europe,estimación publicada,52304.242,0.7647414691746235,2006
+,ITA,Italy,Europe,estimación publicada,52747.19,0.7882039994001389,2007
+,ITA,Italy,Europe,estimación publicada,51806.39,0.8526028133928776,2008
+,ITA,Italy,Europe,estimación publicada,48774.39,1.0790740139782429,2009
+,ITA,Italy,Europe,estimación publicada,49301.695,1.4104554429650307,2010
+,ITA,Italy,Europe,estimación publicada,49473.016,1.264796033501625,2011
+,ITA,Italy,Europe,estimación publicada,47795.957,1.4115521684288979,2012
+,ITA,Italy,Europe,estimación publicada,46833.363,1.613183505833149,2013
+,ITA,Italy,Europe,estimación publicada,46825.652,1.4488130807876587,2014
+,ITA,Italy,Europe,estimación publicada,47311.824,2.0502882078289986,2015
+,ITA,Italy,Europe,estimación publicada,47987.84,1.7778951674699783,2016
+,ITA,Italy,Europe,estimación publicada,48849.22,1.5411753207445145,2017
+,ITA,Italy,Europe,estimación publicada,49355.875,1.7016388475894928,2018
+,ITA,Italy,Europe,estimación publicada,49690.63,1.0350133292376995,2019
+,ITA,Italy,Europe,estimación publicada,45505.07,0.8764220401644707,2020
+,ITA,Italy,Europe,estimación publicada,49825.395,0.8676233701407909,2021
+,ITA,Italy,Europe,estimación publicada,52333.33,0.6849132943898439,2022
+,ITA,Italy,Europe,estimación publicada,52842.63,0.927226897329092,2023
+,JAM,Jamaica,North America,estimación publicada,8879.653,11.632737517356873,1990
+,JAM,Jamaica,North America,estimación publicada,10088.232,20.54000049829483,1993
+,JAM,Jamaica,North America,estimación publicada,10147.464,8.28307718038559,1996
+,JAM,Jamaica,North America,estimación publicada,9650.4375,5.721438676118851,1999
+,JAM,Jamaica,North America,estimación publicada,9869.713,6.409000605344772,2002
+,JAM,Jamaica,North America,estimación publicada,10244.207,4.540699347853661,2004
+,JAM,Jamaica,North America,estimación publicada,10636.093,0.424889475107193,2018
+,JAM,Jamaica,North America,estimación publicada,10430.691,1.3869243673980236,2021
+,JPN,Japan,Asia,estimación publicada,42518.844,1.0999999940395355,2008
+,JPN,Japan,Asia,estimación publicada,39999.945,0.800000037997961,2009
+,JPN,Japan,Asia,estimación publicada,41647.047,0.6000000052154064,2010
+,JPN,Japan,Asia,estimación publicada,41640.66,0.4999999888241291,2011
+,JPN,Japan,Asia,estimación publicada,42394.94,1.4000000432133675,2012
+,JPN,Japan,Asia,estimación publicada,43304.117,0.8999999612569809,2013
+,JPN,Japan,Asia,estimación publicada,43754.438,0.7000000216066837,2014
+,JPN,Japan,Asia,estimación publicada,44589.305,0.4000000189989805,2015
+,JPN,Japan,Asia,estimación publicada,44926.62,0.7000000216066837,2016
+,JPN,Japan,Asia,estimación publicada,45693.38,0.6000000052154064,2017
+,JPN,Japan,Asia,estimación publicada,46133.023,0.9999999776482582,2018
+,JPN,Japan,Asia,estimación publicada,46055.35,1.3000000268220901,2019
+,JPN,Japan,Asia,estimación publicada,44212.55,1.2000000104308128,2020
+,JOR,Jordan,Asia,estimación publicada,8402.681,1.1370000429451466,1992
+,JOR,Jordan,Asia,estimación publicada,8443.481,0.0,1997
+,JOR,Jordan,Asia,estimación publicada,9380.113,1.0321078822016716,2002
+,JOR,Jordan,Asia,estimación publicada,10834.874,0.2890516771003604,2006
+,JOR,Jordan,Asia,estimación publicada,11555.729,0.11823337990790606,2008
+,JOR,Jordan,Asia,estimación publicada,11942.572,0.10412249248474836,2010
+,KAZ,Kazakhstan,Asia,estimación publicada,12795.875,14.643000066280365,1993
+,KAZ,Kazakhstan,Asia,estimación publicada,10857.436,14.617468416690826,1996
+,KAZ,Kazakhstan,Asia,estimación publicada,14612.029,20.67834734916687,2001
+,KAZ,Kazakhstan,Asia,estimación publicada,15960.874,16.20383709669113,2002
+,KAZ,Kazakhstan,Asia,estimación publicada,17344.752,12.265744060277939,2003
+,KAZ,Kazakhstan,Asia,estimación publicada,18886.582,7.555720955133438,2004
+,KAZ,Kazakhstan,Asia,estimación publicada,20565.53,14.564739167690277,2005
+,KAZ,Kazakhstan,Asia,estimación publicada,22574.344,2.384844981133938,2006
+,KAZ,Kazakhstan,Asia,estimación publicada,24351.346,1.0521824471652508,2007
+,KAZ,Kazakhstan,Asia,estimación publicada,24895.664,0.7873444817960262,2008
+,KAZ,Kazakhstan,Asia,estimación publicada,24901.354,0.776642793789506,2009
+,KAZ,Kazakhstan,Asia,estimación publicada,26374.84,0.5220831371843815,2010
+,KAZ,Kazakhstan,Asia,estimación publicada,27946.16,0.23234968539327383,2011
+,KAZ,Kazakhstan,Asia,estimación publicada,28881.242,0.14608309138566256,2012
+,KAZ,Kazakhstan,Asia,estimación publicada,30177.488,0.07501505315303802,2013
+,KAZ,Kazakhstan,Asia,estimación publicada,30986.438,0.06996662123128772,2014
+,KAZ,Kazakhstan,Asia,estimación publicada,30893.76,0.10493453592061996,2015
+,KAZ,Kazakhstan,Asia,estimación publicada,30758.322,0.16936121974140406,2016
+,KAZ,Kazakhstan,Asia,estimación publicada,31524.441,0.1154723227955401,2017
+,KAZ,Kazakhstan,Asia,estimación publicada,32330.227,0.0611302035395056,2018
+,KAZ,Kazakhstan,Asia,estimación publicada,33298.21,0.07967437850311399,2019
+,KAZ,Kazakhstan,Asia,estimación publicada,32011.549,0.03744455170817673,2020
+,KAZ,Kazakhstan,Asia,estimación publicada,32945.85,0.040175646427087486,2021
+,KEN,Kenya,Africa,estimación publicada,3946.8408,32.036998867988586,1992
+,KEN,Kenya,Africa,estimación publicada,3833.2236,31.994888186454773,1994
+,KEN,Kenya,Africa,estimación publicada,3853.3713,32.57809579372406,1997
+,KEN,Kenya,Africa,estimación publicada,3844.7356,44.55765187740326,2005
+,KEN,Kenya,Africa,estimación publicada,4679.622,37.65190839767456,2015
+,KEN,Kenya,Africa,estimación publicada,5057.4014,44.42771673202515,2020
+,KEN,Kenya,Africa,estimación publicada,5338.8525,46.449849009513855,2021
+,KEN,Kenya,Africa,estimación publicada,5491.694,45.48266530036926,2022
+,KIR,Kiribati,Oceania,estimación publicada,2264.4517,21.281155943870544,2006
+,KIR,Kiribati,Oceania,estimación publicada,2926.5938,6.133309006690979,2019
+,KIR,Kiribati,Oceania,estimación publicada,3175.0247,0.929071381688118,2023
+,KGZ,Kyrgyzstan,Asia,estimación publicada,3638.4631,66.17277264595032,2000
+,KGZ,Kyrgyzstan,Asia,estimación publicada,3795.8906,61.51018738746643,2001
+,KGZ,Kyrgyzstan,Asia,estimación publicada,3760.5325,58.11769962310791,2002
+,KGZ,Kyrgyzstan,Asia,estimación publicada,3982.9272,56.63772225379944,2003
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4211.5225,32.53961503505707,2004
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4156.9585,36.57313585281372,2005
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4240.1704,26.003238558769226,2006
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4558.713,23.345211148262024,2007
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4894.943,13.812392950057983,2008
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4969.9614,9.814831614494324,2009
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4876.4795,12.600289285182953,2010
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5092.8516,9.347806870937347,2011
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4993.3945,10.505858063697815,2012
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5418.5405,13.473586738109589,2013
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5513.7544,8.060649037361145,2014
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5600.2144,10.989859700202942,2015
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5715.0103,7.972700148820877,2016
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5861.222,8.193760365247726,2017
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5951.8286,5.908497050404549,2018
+,KGZ,Kyrgyzstan,Asia,estimación publicada,6087.602,4.919715225696564,2019
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5537.7954,9.384728968143463,2020
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5736.479,5.648483708500862,2021
+,KGZ,Kyrgyzstan,Asia,estimación publicada,6139.778,4.549306258559227,2022
+,KGZ,Kyrgyzstan,Asia,estimación publicada,6575.7754,2.7435172349214554,2023
+,KGZ,Kyrgyzstan,Asia,estimación publicada,7210.5767,2.1876486018300056,2024
+,LAO,Laos,Asia,estimación publicada,2088.02,42.140549421310425,1992
+,LAO,Laos,Asia,estimación publicada,2589.2075,61.985599994659424,1997
+,LAO,Laos,Asia,estimación publicada,3143.2234,43.13264489173889,2002
+,LAO,Laos,Asia,estimación publicada,4112.253,35.95314621925354,2007
+,LAO,Laos,Asia,estimación publicada,5608.9697,21.706390380859375,2012
+,LAO,Laos,Asia,estimación publicada,7775.086,15.656700730323792,2018
+,LAO,Laos,Asia,estimación publicada,8600.324,7.126891613006592,2024
+,LVA,Latvia,Europe,estimación publicada,10255.142,0.0,1993
+,LVA,Latvia,Europe,estimación publicada,10707.515,2.1539999172091484,1995
+,LVA,Latvia,Europe,estimación publicada,11077.862,3.773000091314316,1996
+,LVA,Latvia,Europe,estimación publicada,20574.12,3.6543481051921844,2004
+,LVA,Latvia,Europe,estimación publicada,23213.354,3.1104354187846184,2005
+,LVA,Latvia,Europe,estimación publicada,26431.814,1.9456051290035248,2006
+,LVA,Latvia,Europe,estimación publicada,29423.736,0.8321030996739864,2007
+,LVA,Latvia,Europe,estimación publicada,28726.973,1.586533896625042,2008
+,LVA,Latvia,Europe,estimación publicada,24520.68,2.598576992750168,2009
+,LVA,Latvia,Europe,estimación publicada,24119.73,2.5962991639971733,2010
+,LVA,Latvia,Europe,estimación publicada,25308.732,1.657223328948021,2011
+,LVA,Latvia,Europe,estimación publicada,27496.545,1.4388630166649818,2012
+,LVA,Latvia,Europe,estimación publicada,28375.184,1.5389972366392612,2013
+,LVA,Latvia,Europe,estimación publicada,29243.742,1.1159605346620083,2014
+,LVA,Latvia,Europe,estimación publicada,30599.613,1.0333017446100712,2015
+,LVA,Latvia,Europe,estimación publicada,31668.516,0.9612309746444225,2016
+,LVA,Latvia,Europe,estimación publicada,33036.39,0.9826288558542728,2017
+,LVA,Latvia,Europe,estimación publicada,34729.707,0.5591617897152901,2018
+,LVA,Latvia,Europe,estimación publicada,35208.195,0.3374785650521517,2019
+,LVA,Latvia,Europe,estimación publicada,34225.9,0.5121096968650818,2020
+,LVA,Latvia,Europe,estimación publicada,36912.01,0.4906545393168926,2021
+,LVA,Latvia,Europe,estimación publicada,37718.71,0.42414148338139057,2022
+,LVA,Latvia,Europe,estimación publicada,37277.723,0.44409683905541897,2023
+,LBN,Lebanon,Asia,estimación publicada,17353.195,0.06112976116128266,2011
+,LBN,Lebanon,Asia,estimación publicada,11474.751,5.780612304806709,2022
+,LSO,Lesotho,Africa,estimación publicada,1675.5978,59.74653363227844,1994
+,LSO,Lesotho,Africa,estimación publicada,2024.7872,74.85839128494263,2002
+,LSO,Lesotho,Africa,estimación publicada,2924.681,41.85849130153656,2017
+,LBR,Liberia,Africa,estimación publicada,1422.1002,61.0701322555542,2007
+,LBR,Liberia,Africa,estimación publicada,1750.1438,31.745001673698425,2014
+,LBR,Liberia,Africa,estimación publicada,1653.3105,33.558934926986694,2016
+,LTU,Lithuania,Europe,estimación publicada,12866.59,14.270000159740448,1993
+,LTU,Lithuania,Europe,estimación publicada,21875.61,3.9777971804142,2004
+,LTU,Lithuania,Europe,estimación publicada,23953.814,2.7466924861073494,2005
+,LTU,Lithuania,Europe,estimación publicada,26139.283,1.8495289608836174,2006
+,LTU,Lithuania,Europe,estimación publicada,29381.951,1.601506769657135,2007
+,LTU,Lithuania,Europe,estimación publicada,30457.37,1.8110504373908043,2008
+,LTU,Lithuania,Europe,estimación publicada,26227.523,2.722611092031002,2009
+,LTU,Lithuania,Europe,estimación publicada,26897.725,1.983855478465557,2010
+,LTU,Lithuania,Europe,estimación publicada,29251.877,0.890258327126503,2011
+,LTU,Lithuania,Europe,estimación publicada,30932.098,1.050138846039772,2012
+,LTU,Lithuania,Europe,estimación publicada,32487.0,1.199724618345499,2013
+,LTU,Lithuania,Europe,estimación publicada,33988.016,1.716150902211666,2014
+,LTU,Lithuania,Europe,estimación publicada,35264.715,1.0457230731844902,2015
+,LTU,Lithuania,Europe,estimación publicada,36632.082,1.4791508205235004,2016
+,LTU,Lithuania,Europe,estimación publicada,38789.246,1.1671779677271843,2017
+,LTU,Lithuania,Europe,estimación publicada,41035.402,0.9812001138925552,2018
+,LTU,Lithuania,Europe,estimación publicada,43078.71,0.6033841986209154,2019
+,LTU,Lithuania,Europe,estimación publicada,43108.2,0.4728084895759821,2020
+,LTU,Lithuania,Europe,estimación publicada,45897.37,0.3185262205079198,2021
+,LTU,Lithuania,Europe,estimación publicada,46642.594,0.8017552085220814,2022
+,LTU,Lithuania,Europe,estimación publicada,46333.902,1.0979139246046543,2023
+,LUX,Luxembourg,Europe,estimación publicada,81455.03,0.0,1990
+,LUX,Luxembourg,Europe,estimación publicada,87318.5,0.0,1991
+,LUX,Luxembourg,Europe,estimación publicada,87734.2,0.0,1992
+,LUX,Luxembourg,Europe,estimación publicada,90200.6,0.0,1993
+,LUX,Luxembourg,Europe,estimación publicada,92380.414,0.0,1994
+,LUX,Luxembourg,Europe,estimación publicada,92396.4,0.0,1995
+,LUX,Luxembourg,Europe,estimación publicada,92421.58,0.10000000474974513,1996
+,LUX,Luxembourg,Europe,estimación publicada,96216.91,0.0,1997
+,LUX,Luxembourg,Europe,estimación publicada,101369.82,0.0,1998
+,LUX,Luxembourg,Europe,estimación publicada,108186.85,0.0,1999
+,LUX,Luxembourg,Europe,estimación publicada,114148.35,0.0,2000
+,LUX,Luxembourg,Europe,estimación publicada,116265.23,0.0,2001
+,LUX,Luxembourg,Europe,estimación publicada,118764.33,0.0,2002
+,LUX,Luxembourg,Europe,estimación publicada,120403.0,0.07174669299274683,2003
+,LUX,Luxembourg,Europe,estimación publicada,123725.76,0.018192331481259316,2004
+,LUX,Luxembourg,Europe,estimación publicada,124871.95,0.04124880360905081,2005
+,LUX,Luxembourg,Europe,estimación publicada,130290.17,0.003730512617039494,2006
+,LUX,Luxembourg,Europe,estimación publicada,138683.31,0.021916223340667784,2007
+,LUX,Luxembourg,Europe,estimación publicada,135814.61,0.0,2008
+,LUX,Luxembourg,Europe,estimación publicada,129004.51,0.04776188579853624,2009
+,LUX,Luxembourg,Europe,estimación publicada,131434.36,0.032836414175108075,2010
+,LUX,Luxembourg,Europe,estimación publicada,129887.625,0.1379186869598925,2011
+,LUX,Luxembourg,Europe,estimación publicada,128897.41,0.04361894680187106,2012
+,LUX,Luxembourg,Europe,estimación publicada,129947.336,0.08910330943763256,2013
+,LUX,Luxembourg,Europe,estimación publicada,130249.55,0.160386529751122,2014
+,LUX,Luxembourg,Europe,estimación publicada,130097.336,0.3098733490332961,2015
+,LUX,Luxembourg,Europe,estimación publicada,133661.73,0.1172195072285831,2016
+,LUX,Luxembourg,Europe,estimación publicada,132169.83,0.2910417038947344,2017
+,LUX,Luxembourg,Europe,estimación publicada,131733.89,0.3040011040866375,2018
+,LUX,Luxembourg,Europe,estimación publicada,132724.75,0.10118747595697641,2019
+,LUX,Luxembourg,Europe,estimación publicada,129865.63,0.0,2020
+,LUX,Luxembourg,Europe,estimación publicada,136772.44,0.08239360759034753,2021
+,LUX,Luxembourg,Europe,estimación publicada,132570.83,0.10437327437102795,2022
+,LUX,Luxembourg,Europe,estimación publicada,130048.92,0.08513763314113021,2023
+,MDG,Madagascar,Africa,estimación publicada,1740.2952,83.059161901474,1993
+,MDG,Madagascar,Africa,estimación publicada,1649.4481,80.66996932029724,1997
+,MDG,Madagascar,Africa,estimación publicada,1681.3594,78.52082252502441,1999
+,MDG,Madagascar,Africa,estimación publicada,1748.5035,57.46007561683655,2001
+,MDG,Madagascar,Africa,estimación publicada,1648.1763,55.312150716781616,2005
+,MDG,Madagascar,Africa,estimación publicada,1635.2451,65.29480218887329,2010
+,MDG,Madagascar,Africa,estimación publicada,1617.7908,67.31981039047241,2012
+,MDG,Madagascar,Africa,estimación publicada,1577.4325,69.17263865470886,2021
+,MWI,Malawi,Africa,estimación publicada,1221.094,64.56102728843689,1997
+,MWI,Malawi,Africa,estimación publicada,1208.2197,74.39579963684082,2004
+,MWI,Malawi,Africa,estimación publicada,1504.3751,72.88591861724854,2010
+,MWI,Malawi,Africa,estimación publicada,1593.5955,71.65248990058899,2016
+,MWI,Malawi,Africa,estimación publicada,1687.2894,75.43821930885315,2019
+,MYS,Malaysia,Asia,estimación publicada,13567.894,5.0039999186992645,1992
+,MYS,Malaysia,Asia,estimación publicada,16568.516,5.232999846339226,1995
+,MYS,Malaysia,Asia,estimación publicada,18604.514,1.7139999195933342,1997
+,MYS,Malaysia,Asia,estimación publicada,19329.006,3.172922134399414,2003
+,MYS,Malaysia,Asia,estimación publicada,21444.486,1.6615137457847595,2006
+,MYS,Malaysia,Asia,estimación publicada,22898.002,1.482559833675623,2008
+,MYS,Malaysia,Asia,estimación publicada,24115.818,0.36412072367966175,2011
+,MYS,Malaysia,Asia,estimación publicada,25736.354,0.1086721196770668,2013
+,MYS,Malaysia,Asia,estimación publicada,27699.627,0.05229481612332165,2015
+,MYS,Malaysia,Asia,estimación publicada,30459.965,0.030152557883411646,2018
+,MYS,Malaysia,Asia,estimación publicada,29822.85,0.01308294158661738,2021
+,MDV,Maldives,Asia,estimación publicada,13689.807,18.796709179878235,2002
+,MDV,Maldives,Asia,estimación publicada,16230.009,13.10831755399704,2009
+,MDV,Maldives,Asia,estimación publicada,19345.18,0.08725210791453719,2016
+,MDV,Maldives,Asia,estimación publicada,21855.502,0.0,2019
+,MLI,Mali,Africa,estimación publicada,2051.755,89.35871124267578,1994
+,MLI,Mali,Africa,estimación publicada,2458.4617,68.55166554450989,2001
+,MLI,Mali,Africa,estimación publicada,2555.0747,63.97586464881897,2006
+,MLI,Mali,Africa,estimación publicada,2575.5454,63.340455293655396,2009
+,MLI,Mali,Africa,estimación publicada,2862.4072,29.38244342803955,2018
+,MLI,Mali,Africa,estimación publicada,2796.228,36.103078722953796,2021
+,MLT,Malta,Europe,estimación publicada,33420.715,0.5492242984473705,2006
+,MLT,Malta,Europe,estimación publicada,34981.703,0.5275414790958166,2007
+,MLT,Malta,Europe,estimación publicada,36287.727,0.17917501972988248,2008
+,MLT,Malta,Europe,estimación publicada,35512.676,0.47916299663484097,2009
+,MLT,Malta,Europe,estimación publicada,37528.734,0.2585859503597021,2010
+,MLT,Malta,Europe,estimación publicada,37740.848,0.20960366819053888,2011
+,MLT,Malta,Europe,estimación publicada,38937.15,0.18709468422457576,2012
+,MLT,Malta,Europe,estimación publicada,40921.316,0.029666145564988256,2013
+,MLT,Malta,Europe,estimación publicada,43163.15,0.0,2014
+,MLT,Malta,Europe,estimación publicada,46171.89,0.08437796495854855,2015
+,MLT,Malta,Europe,estimación publicada,46967.348,0.11352591682225466,2016
+,MLT,Malta,Europe,estimación publicada,51628.27,0.16486417734995484,2017
+,MLT,Malta,Europe,estimación publicada,53419.004,0.15923338942229748,2018
+,MLT,Malta,Europe,estimación publicada,53393.42,0.3046817844733596,2019
+,MLT,Malta,Europe,estimación publicada,50389.695,0.39383950643241405,2020
+,MLT,Malta,Europe,estimación publicada,56823.996,0.12168417451903224,2021
+,MLT,Malta,Europe,estimación publicada,56874.434,0.11005144333466887,2022
+,MLT,Malta,Europe,estimación publicada,60459.766,0.3938834182918072,2023
+,MHL,Marshall Islands,Oceania,estimación publicada,6405.8965,2.100958488881588,2019
+,MRT,Mauritania,Africa,estimación publicada,5439.8223,54.13600206375122,1993
+,MRT,Mauritania,Africa,estimación publicada,5446.2695,31.713920831680298,1995
+,MRT,Mauritania,Africa,estimación publicada,5008.608,30.671554803848267,2000
+,MRT,Mauritania,Africa,estimación publicada,5139.2256,28.480660915374756,2004
+,MRT,Mauritania,Africa,estimación publicada,5813.356,19.243700802326202,2008
+,MRT,Mauritania,Africa,estimación publicada,5837.852,11.705704778432846,2014
+,MRT,Mauritania,Africa,estimación publicada,6162.2104,10.221504420042038,2019
+,MUS,Mauritius,Africa,estimación publicada,15932.819,1.1172140948474407,2006
+,MUS,Mauritius,Africa,estimación publicada,20313.033,1.0737178847193718,2012
+,MUS,Mauritius,Africa,estimación publicada,24258.988,0.5401915870606899,2017
+,MEX,Mexico,North America,estimación publicada,17796.406,13.321229815483093,1992
+,MEX,Mexico,North America,estimación publicada,18422.82,13.647697865962982,1994
+,MEX,Mexico,North America,estimación publicada,17775.873,21.694375574588776,1996
+,MEX,Mexico,North America,estimación publicada,19573.066,21.89234048128128,1998
+,MEX,Mexico,North America,estimación publicada,20470.494,16.342836618423462,2000
+,MEX,Mexico,North America,estimación publicada,19744.793,12.801218032836914,2002
+,MEX,Mexico,North America,estimación publicada,20127.225,11.04823723435402,2004
+,MEX,Mexico,North America,estimación publicada,20277.256,11.661190539598465,2005
+,MEX,Mexico,North America,estimación publicada,20965.826,9.043003618717194,2006
+,MEX,Mexico,North America,estimación publicada,20992.56,10.083377361297607,2008
+,MEX,Mexico,North America,estimación publicada,20058.385,8.409082889556885,2010
+,MEX,Mexico,North America,estimación publicada,20898.936,7.291141152381897,2012
+,MEX,Mexico,North America,estimación publicada,21069.766,7.198523730039597,2014
+,MEX,Mexico,North America,estimación publicada,21578.264,4.43689301609993,2016
+,MEX,Mexico,North America,estimación publicada,21997.773,3.894040361046791,2018
+,MEX,Mexico,North America,estimación publicada,19728.482,4.256034642457962,2020
+,MEX,Mexico,North America,estimación publicada,21391.857,2.3303961381316185,2022
+,MEX,Mexico,North America,estimación publicada,21970.352,1.64585430175066,2024
+,FSM,Micronesia (country),Oceania,estimación publicada,3710.1985,15.752290189266205,2005
+,FSM,Micronesia (country),Oceania,estimación publicada,3696.7456,26.147079467773438,2013
+,MDA,Moldova,Europe,estimación publicada,6185.8394,19.097189605236053,1997
+,MDA,Moldova,Europe,estimación publicada,5783.486,31.90571963787079,1998
+,MDA,Moldova,Europe,estimación publicada,5597.4653,43.97496283054352,1999
+,MDA,Moldova,Europe,estimación publicada,5727.079,40.997639298439026,2000
+,MDA,Moldova,Europe,estimación publicada,6090.0347,32.191202044487,2001
+,MDA,Moldova,Europe,estimación publicada,6580.2783,19.92954909801483,2002
+,MDA,Moldova,Europe,estimación publicada,7034.358,10.031995922327042,2003
+,MDA,Moldova,Europe,estimación publicada,7573.6177,11.55218631029129,2004
+,MDA,Moldova,Europe,estimación publicada,8161.4736,16.58066362142563,2005
+,MDA,Moldova,Europe,estimación publicada,8577.028,3.4036539494991302,2006
+,MDA,Moldova,Europe,estimación publicada,8854.834,1.5820829197764397,2007
+,MDA,Moldova,Europe,estimación publicada,9563.698,1.6971195116639137,2008
+,MDA,Moldova,Europe,estimación publicada,9001.234,1.4702771790325642,2009
+,MDA,Moldova,Europe,estimación publicada,9649.951,0.8351475931704044,2010
+,MDA,Moldova,Europe,estimación publicada,10217.309,0.46494631096720695,2011
+,MDA,Moldova,Europe,estimación publicada,10158.386,0.5213617347180843,2012
+,MDA,Moldova,Europe,estimación publicada,11080.063,0.14760500052943826,2013
+,MDA,Moldova,Europe,estimación publicada,11641.121,0.00498558692925144,2014
+,MDA,Moldova,Europe,estimación publicada,11691.08,0.05494513898156583,2015
+,MDA,Moldova,Europe,estimación publicada,12377.366,0.1648900331929326,2016
+,MDA,Moldova,Europe,estimación publicada,13118.822,0.061244412790983915,2017
+,MDA,Moldova,Europe,estimación publicada,13895.504,0.01823872298700735,2018
+,MDA,Moldova,Europe,estimación publicada,14621.24,0.028645139536820352,2019
+,MDA,Moldova,Europe,estimación publicada,13559.26,0.016078559565357864,2020
+,MDA,Moldova,Europe,estimación publicada,15682.07,0.16464781947433949,2021
+,MDA,Moldova,Europe,estimación publicada,15350.3125,0.03955306310672313,2022
+,MDA,Moldova,Europe,estimación publicada,15980.566,0.12922239257022738,2023
+,MDA,Moldova,Europe,estimación publicada,16393.863,0.0,2024
+,MNG,Mongolia,Asia,estimación publicada,5457.685,22.137999534606934,1995
+,MNG,Mongolia,Asia,estimación publicada,5735.8438,39.70699906349182,1998
+,MNG,Mongolia,Asia,estimación publicada,6117.9824,18.70258003473282,2002
+,MNG,Mongolia,Asia,estimación publicada,8750.134,4.000159725546837,2007
+,MNG,Mongolia,Asia,estimación publicada,9507.119,3.500484675168991,2010
+,MNG,Mongolia,Asia,estimación publicada,10960.096,2.1910548210144043,2011
+,MNG,Mongolia,Asia,estimación publicada,12078.919,1.0826794430613518,2012
+,MNG,Mongolia,Asia,estimación publicada,13943.428,0.7806010544300079,2014
+,MNG,Mongolia,Asia,estimación publicada,13898.1455,1.938369870185852,2016
+,MNG,Mongolia,Asia,estimación publicada,15230.241,1.69113390147686,2018
+,MNG,Mongolia,Asia,estimación publicada,15310.435,0.4398250952363014,2022
+,MNE,Montenegro,Europe,estimación publicada,19576.412,5.601728707551956,2012
+,MNE,Montenegro,Europe,estimación publicada,20201.291,5.165570229291916,2013
+,MNE,Montenegro,Europe,estimación publicada,20641.764,3.8606949150562286,2014
+,MNE,Montenegro,Europe,estimación publicada,21131.842,3.614705428481102,2015
+,MNE,Montenegro,Europe,estimación publicada,21834.092,3.317847102880478,2016
+,MNE,Montenegro,Europe,estimación publicada,22513.781,4.646662622690201,2017
+,MNE,Montenegro,Europe,estimación publicada,23562.176,3.9086416363716125,2018
+,MNE,Montenegro,Europe,estimación publicada,24585.115,2.4932585656642914,2019
+,MNE,Montenegro,Europe,estimación publicada,20904.6,2.243258059024811,2020
+,MNE,Montenegro,Europe,estimación publicada,23689.979,2.4937989190220833,2021
+,MAR,Morocco,Africa,estimación publicada,4418.66,11.247625201940536,1990
+,MAR,Morocco,Africa,estimación publicada,5033.9233,17.493830621242523,1998
+,MAR,Morocco,Africa,estimación publicada,5100.1157,16.794082522392273,2000
+,MAR,Morocco,Africa,estimación publicada,6488.674,9.374068677425385,2006
+,MAR,Morocco,Africa,estimación publicada,7839.032,3.6758679896593094,2013
+,MOZ,Mozambique,Africa,estimación publicada,562.8575,87.69320249557495,1996
+,MOZ,Mozambique,Africa,estimación publicada,842.64526,87.566077709198,2002
+,MOZ,Mozambique,Africa,estimación publicada,1141.9425,81.12763166427612,2008
+,MOZ,Mozambique,Africa,estimación publicada,1449.9293,74.38780069351196,2014
+,MOZ,Mozambique,Africa,estimación publicada,1528.8899,81.63159489631653,2019
+,MOZ,Mozambique,Africa,estimación publicada,1476.7344,81.3613772392273,2022
+,MMR,Myanmar,Asia,estimación publicada,5313.886,18.24069917201996,2015
+,MMR,Myanmar,Asia,estimación publicada,5877.8745,10.266228765249252,2017
+,NAM,Namibia,Africa,estimación publicada,7541.561,60.28100252151489,1993
+,NAM,Namibia,Africa,estimación publicada,8237.366,47.609129548072815,2003
+,NAM,Namibia,Africa,estimación publicada,10166.29,38.590121269226074,2009
+,NAM,Namibia,Africa,estimación publicada,12166.565,22.863061726093292,2015
+,NRU,Nauru,Oceania,estimación publicada,9640.802,9.718574583530426,2012
+,NPL,Nepal,Asia,estimación publicada,2043.6052,71.14987373352051,1995
+,NPL,Nepal,Asia,estimación publicada,2439.4949,55.892544984817505,2003
+,NPL,Nepal,Asia,estimación publicada,3085.314,22.067803144454956,2010
+,NPL,Nepal,Asia,estimación publicada,4763.3877,2.4363145232200623,2022
+,NLD,Netherlands,Europe,estimación publicada,43128.31,1.0999999940395355,1990
+,NLD,Netherlands,Europe,estimación publicada,44490.75,1.4000000432133675,1993
+,NLD,Netherlands,Europe,estimación publicada,54134.35,0.3000000026077032,1999
+,NLD,Netherlands,Europe,estimación publicada,57391.35,0.34075838048011065,2004
+,NLD,Netherlands,Europe,estimación publicada,58422.03,0.14832004671916366,2005
+,NLD,Netherlands,Europe,estimación publicada,60391.516,0.04579285450745374,2006
+,NLD,Netherlands,Europe,estimación publicada,62601.66,0.028631329769268632,2007
+,NLD,Netherlands,Europe,estimación publicada,63678.402,0.17444691620767117,2008
+,NLD,Netherlands,Europe,estimación publicada,61029.734,0.22817014250904322,2009
+,NLD,Netherlands,Europe,estimación publicada,61518.58,0.04743890604004264,2010
+,NLD,Netherlands,Europe,estimación publicada,62318.14,0.13945084065198898,2011
+,NLD,Netherlands,Europe,estimación publicada,61480.84,0.07584218983538449,2012
+,NLD,Netherlands,Europe,estimación publicada,61281.312,0.0908140791580081,2013
+,NLD,Netherlands,Europe,estimación publicada,62045.848,0.1491274917498231,2014
+,NLD,Netherlands,Europe,estimación publicada,63081.41,0.06825689924880862,2015
+,NLD,Netherlands,Europe,estimación publicada,64267.746,0.057693757116794586,2016
+,NLD,Netherlands,Europe,estimación publicada,65665.99,0.20608892664313316,2017
+,NLD,Netherlands,Europe,estimación publicada,66758.24,0.11213845573365688,2018
+,NLD,Netherlands,Europe,estimación publicada,67847.88,0.09572870330885053,2019
+,NLD,Netherlands,Europe,estimación publicada,64862.188,0.04079756618011743,2020
+,NLD,Netherlands,Europe,estimación publicada,68573.56,0.09726311545819044,2021
+,NIC,Nicaragua,North America,estimación publicada,3934.0925,47.13586866855621,1993
+,NIC,Nicaragua,North America,estimación publicada,4502.598,34.746286273002625,1998
+,NIC,Nicaragua,North America,estimación publicada,4958.3276,26.310056447982788,2001
+,NIC,Nicaragua,North America,estimación publicada,5356.958,16.497966647148132,2005
+,NIC,Nicaragua,North America,estimación publicada,5538.3657,13.91410380601883,2009
+,NIC,Nicaragua,North America,estimación publicada,6712.2173,6.570377945899963,2014
+,NER,Niger,Africa,estimación publicada,1355.3309,88.0370020866394,1992
+,NER,Niger,Africa,estimación publicada,1299.35,88.91248106956482,1994
+,NER,Niger,Africa,estimación publicada,1241.2007,83.84852409362793,2005
+,NER,Niger,Africa,estimación publicada,1260.1854,82.92745351791382,2007
+,NER,Niger,Africa,estimación publicada,1325.9265,68.84093284606934,2011
+,NER,Niger,Africa,estimación publicada,1471.5055,60.30374765396118,2014
+,NER,Niger,Africa,estimación publicada,1565.0197,59.01250243186951,2018
+,NER,Niger,Africa,estimación publicada,1587.8479,60.489869117736816,2021
+,NGA,Nigeria,Africa,estimación publicada,5403.1533,55.16522526741028,1992
+,NGA,Nigeria,Africa,estimación publicada,4869.8213,60.907912254333496,1996
+,NGA,Nigeria,Africa,estimación publicada,5905.315,51.09695792198181,2003
+,NGA,Nigeria,Africa,estimación publicada,7962.6396,38.48505914211273,2010
+,NGA,Nigeria,Africa,estimación publicada,8265.905,37.443411350250244,2012
+,NGA,Nigeria,Africa,estimación publicada,8892.058,35.76658070087433,2015
+,NGA,Nigeria,Africa,estimación publicada,8362.623,34.19290482997894,2018
+,NGA,Nigeria,Africa,estimación publicada,7752.262,41.81954860687256,2022
+,MKD,North Macedonia,Europe,estimación publicada,16084.228,12.120988965034485,2009
+,MKD,North Macedonia,Europe,estimación publicada,16731.09,12.817779183387756,2010
+,MKD,North Macedonia,Europe,estimación publicada,17201.236,10.932924598455429,2011
+,MKD,North Macedonia,Europe,estimación publicada,17189.996,9.110046923160553,2012
+,MKD,North Macedonia,Europe,estimación publicada,17758.229,7.380896806716919,2013
+,MKD,North Macedonia,Europe,estimación publicada,18452.207,6.444036960601807,2014
+,MKD,North Macedonia,Europe,estimación publicada,19215.074,7.004491239786148,2015
+,MKD,North Macedonia,Europe,estimación publicada,19825.773,5.688680708408356,2016
+,MKD,North Macedonia,Europe,estimación publicada,20121.05,5.639727413654327,2017
+,MKD,North Macedonia,Europe,estimación publicada,20805.922,4.279974848031998,2018
+,MKD,North Macedonia,Europe,estimación publicada,21766.885,3.9403513073921204,2019
+,NOR,Norway,Europe,estimación publicada,57949.7,0.4000000189989805,1991
+,NOR,Norway,Europe,estimación publicada,66033.88,0.4000000189989805,1995
+,NOR,Norway,Europe,estimación publicada,76775.945,0.3000000026077032,2000
+,NOR,Norway,Europe,estimación publicada,79150.4,0.2188037382438779,2003
+,NOR,Norway,Europe,estimación publicada,82091.195,0.29486294370144606,2004
+,NOR,Norway,Europe,estimación publicada,83955.336,0.2120723482221365,2005
+,NOR,Norway,Europe,estimación publicada,85653.14,0.16450223047286272,2006
+,NOR,Norway,Europe,estimación publicada,87670.86,0.15434334054589272,2007
+,NOR,Norway,Europe,estimación publicada,87297.4,0.2401510253548622,2008
+,NOR,Norway,Europe,estimación publicada,84812.69,0.0869477225933224,2009
+,NOR,Norway,Europe,estimación publicada,84604.516,0.15098813455551863,2010
+,NOR,Norway,Europe,estimación publicada,84670.836,0.12849997729063034,2011
+,NOR,Norway,Europe,estimación publicada,85925.875,0.1271743094548583,2012
+,NOR,Norway,Europe,estimación publicada,85973.766,0.1649020821787417,2013
+,NOR,Norway,Europe,estimación publicada,86790.79,0.11292123235762119,2014
+,NOR,Norway,Europe,estimación publicada,87688.12,0.17004923429340124,2015
+,NOR,Norway,Europe,estimación publicada,88041.64,0.2806733129546046,2016
+,NOR,Norway,Europe,estimación publicada,89664.91,0.2916524652391672,2017
+,NOR,Norway,Europe,estimación publicada,90064.07,0.2818009117618203,2018
+,NOR,Norway,Europe,estimación publicada,90772.9,0.19042723579332232,2019
+,NOR,Norway,Europe,estimación publicada,89012.27,0.29495805501937866,2020
+,NOR,Norway,Europe,estimación publicada,92205.77,0.1702402369119227,2021
+,NOR,Norway,Europe,estimación publicada,95109.82,0.2946596359834075,2022
+,NOR,Norway,Europe,estimación publicada,94364.96,0.19705931190401316,2023
+,PAK,Pakistan,Asia,estimación publicada,3199.7297,79.46473956108093,1990
+,PAK,Pakistan,Asia,estimación publicada,3526.1416,45.318883657455444,1996
+,PAK,Pakistan,Asia,estimación publicada,3454.1768,50.28413534164429,1998
+,PAK,Pakistan,Asia,estimación publicada,3559.7278,56.24518394470215,2001
+,PAK,Pakistan,Asia,estimación publicada,3859.646,40.866103768348694,2004
+,PAK,Pakistan,Asia,estimación publicada,4042.1545,40.808090567588806,2005
+,PAK,Pakistan,Asia,estimación publicada,4257.926,34.86794829368591,2007
+,PAK,Pakistan,Asia,estimación publicada,4228.7817,26.655596494674683,2010
+,PAK,Pakistan,Asia,estimación publicada,4246.067,25.93352198600769,2011
+,PAK,Pakistan,Asia,estimación publicada,4407.147,21.246376633644104,2013
+,PAK,Pakistan,Asia,estimación publicada,4645.286,16.91145747900009,2015
+,PAK,Pakistan,Asia,estimación publicada,5255.0635,16.516171395778656,2018
+,PAK,Pakistan,Asia,estimación publicada,5502.0737,22.956307232379913,2024
+,PSE,Palestine,Asia,estimación publicada,4503.0806,1.7528541386127472,2004
+,PSE,Palestine,Asia,estimación publicada,4885.0728,1.2593001127243042,2005
+,PSE,Palestine,Asia,estimación publicada,4714.3735,0.47396933659911156,2006
+,PSE,Palestine,Asia,estimación publicada,4769.5234,2.9273198917508125,2007
+,PSE,Palestine,Asia,estimación publicada,5270.663,0.6099957507103682,2009
+,PSE,Palestine,Asia,estimación publicada,5432.2437,0.647669518366456,2010
+,PSE,Palestine,Asia,estimación publicada,5805.3213,0.3743926761671901,2011
+,PSE,Palestine,Asia,estimación publicada,6464.1333,1.3776546344161034,2016
+,PSE,Palestine,Asia,estimación publicada,5562.4243,2.0733127370476723,2023
+,PAN,Panama,North America,estimación publicada,10994.554,27.12312340736389,1991
+,PAN,Panama,North America,estimación publicada,12086.648,21.116676926612854,1995
+,PAN,Panama,North America,estimación publicada,13013.8955,19.907796382904053,1997
+,PAN,Panama,North America,estimación publicada,13826.538,19.769038259983063,1998
+,PAN,Panama,North America,estimación publicada,14261.746,17.71557927131653,1999
+,PAN,Panama,North America,estimación publicada,14572.98,16.345101594924927,2000
+,PAN,Panama,North America,estimación publicada,14427.836,20.784202218055725,2001
+,PAN,Panama,North America,estimación publicada,14507.149,17.210353910923004,2002
+,PAN,Panama,North America,estimación publicada,14957.559,16.7966291308403,2003
+,PAN,Panama,North America,estimación publicada,15875.119,15.543670952320099,2004
+,PAN,Panama,North America,estimación publicada,16867.967,14.542023837566376,2005
+,PAN,Panama,North America,estimación publicada,18190.281,15.718889236450195,2006
+,PAN,Panama,North America,estimación publicada,20208.83,12.97214925289154,2007
+,PAN,Panama,North America,estimación publicada,21867.828,9.001661092042923,2008
+,PAN,Panama,North America,estimación publicada,21822.996,6.645666807889938,2009
+,PAN,Panama,North America,estimación publicada,22739.12,7.658606022596359,2010
+,PAN,Panama,North America,estimación publicada,24999.47,6.081222742795944,2011
+,PAN,Panama,North America,estimación publicada,26926.896,7.438281923532486,2012
+,PAN,Panama,North America,estimación publicada,28135.338,5.91789074242115,2013
+,PAN,Panama,North America,estimación publicada,28931.816,6.379958242177963,2014
+,PAN,Panama,North America,estimación publicada,29933.168,4.784474149346352,2015
+,PAN,Panama,North America,estimación publicada,30765.25,4.798021912574768,2016
+,PAN,Panama,North America,estimación publicada,31979.824,4.27657775580883,2017
+,PAN,Panama,North America,estimación publicada,32681.473,3.7465032190084457,2018
+,PAN,Panama,North America,estimación publicada,33163.72,2.9157351702451706,2019
+,PAN,Panama,North America,estimación publicada,30932.764,3.3005017787218094,2021
+,PAN,Panama,North America,estimación publicada,35872.973,3.732369840145111,2023
+,PAN,Panama,North America,estimación publicada,36394.92,3.1258318573236465,2024
+,PNG,Papua New Guinea,Oceania,estimación publicada,4167.5703,62.80415058135986,1996
+,PNG,Papua New Guinea,Oceania,estimación publicada,3350.0728,52.21028923988342,2009
+,PRY,Paraguay,South America,estimación publicada,9961.222,2.5467464700341225,1990
+,PRY,Paraguay,South America,estimación publicada,10906.895,18.30466240644455,1995
+,PRY,Paraguay,South America,estimación publicada,11031.622,14.908437430858612,1997
+,PRY,Paraguay,South America,estimación publicada,10434.08,15.035843849182129,1999
+,PRY,Paraguay,South America,estimación publicada,9748.027,13.47045749425888,2001
+,PRY,Paraguay,South America,estimación publicada,9609.533,19.587045907974243,2002
+,PRY,Paraguay,South America,estimación publicada,9902.199,13.827893137931824,2003
+,PRY,Paraguay,South America,estimación publicada,10185.907,10.718931257724762,2004
+,PRY,Paraguay,South America,estimación publicada,10288.801,10.052330791950226,2005
+,PRY,Paraguay,South America,estimación publicada,10671.645,14.076843857765198,2006
+,PRY,Paraguay,South America,estimación publicada,11140.463,12.561173737049103,2007
+,PRY,Paraguay,South America,estimación publicada,11749.654,7.913157343864441,2008
+,PRY,Paraguay,South America,estimación publicada,11599.82,9.12901684641838,2009
+,PRY,Paraguay,South America,estimación publicada,12736.968,9.382183849811554,2010
+,PRY,Paraguay,South America,estimación publicada,13107.811,8.943326026201248,2011
+,PRY,Paraguay,South America,estimación publicada,12833.18,6.437838077545166,2012
+,PRY,Paraguay,South America,estimación publicada,13698.973,4.112850874662399,2013
+,PRY,Paraguay,South America,estimación publicada,14217.558,4.266789928078651,2014
+,PRY,Paraguay,South America,estimación publicada,14425.777,4.21115979552269,2015
+,PRY,Paraguay,South America,estimación publicada,14824.791,4.169227182865143,2016
+,PRY,Paraguay,South America,estimación publicada,15318.401,2.375072054564953,2017
+,PRY,Paraguay,South America,estimación publicada,15591.015,3.0729101970791817,2018
+,PRY,Paraguay,South America,estimación publicada,15319.389,2.443896234035492,2019
+,PRY,Paraguay,South America,estimación publicada,14989.767,2.5551214814186096,2020
+,PRY,Paraguay,South America,estimación publicada,15400.944,1.8594976514577866,2021
+,PRY,Paraguay,South America,estimación publicada,15222.892,3.232261911034584,2022
+,PRY,Paraguay,South America,estimación publicada,15831.585,2.392931655049324,2023
+,PRY,Paraguay,South America,estimación publicada,16367.494,2.105332911014557,2024
+,PER,Peru,South America,estimación publicada,7772.7783,26.864558458328247,1997
+,PER,Peru,South America,estimación publicada,7602.7837,25.71415901184082,1998
+,PER,Peru,South America,estimación publicada,7584.3047,26.296240091323853,1999
+,PER,Peru,South America,estimación publicada,7668.0605,25.54161548614502,2000
+,PER,Peru,South America,estimación publicada,7610.6396,27.397075295448303,2001
+,PER,Peru,South America,estimación publicada,7930.51,24.39258098602295,2002
+,PER,Peru,South America,estimación publicada,8173.277,22.456727921962738,2003
+,PER,Peru,South America,estimación publicada,8494.84,23.548194766044617,2004
+,PER,Peru,South America,estimación publicada,8948.747,25.375208258628845,2005
+,PER,Peru,South America,estimación publicada,9546.625,21.847257018089294,2006
+,PER,Peru,South America,estimación publicada,10284.967,18.89331191778183,2007
+,PER,Peru,South America,estimación publicada,11150.026,15.808908641338348,2008
+,PER,Peru,South America,estimación publicada,11202.865,13.673301041126251,2009
+,PER,Peru,South America,estimación publicada,12057.392,11.200562864542007,2010
+,PER,Peru,South America,estimación publicada,12724.883,10.339926183223724,2011
+,PER,Peru,South America,estimación publicada,13393.593,9.527238458395004,2012
+,PER,Peru,South America,estimación publicada,14050.242,8.616562932729721,2013
+,PER,Peru,South America,estimación publicada,14242.645,7.993311434984207,2014
+,PER,Peru,South America,estimación publicada,14540.831,7.958061993122101,2015
+,PER,Peru,South America,estimación publicada,14915.437,7.469327747821808,2016
+,PER,Peru,South America,estimación publicada,15067.489,7.314062118530273,2017
+,PER,Peru,South America,estimación publicada,15384.185,6.07524998486042,2018
+,PER,Peru,South America,estimación publicada,15461.457,5.419251695275307,2019
+,PER,Peru,South America,estimación publicada,13607.764,10.308156907558441,2020
+,PER,Peru,South America,estimación publicada,15285.7705,5.189844593405724,2021
+,PER,Peru,South America,estimación publicada,15566.524,4.840824007987976,2022
+,PER,Peru,South America,estimación publicada,15342.274,5.878738686442375,2023
+,PER,Peru,South America,estimación publicada,15708.833,5.1405638456344604,2024
+,PHL,Philippines,Asia,estimación publicada,4378.3955,40.6360000371933,1991
+,PHL,Philippines,Asia,estimación publicada,4374.0674,38.752999901771545,1994
+,PHL,Philippines,Asia,estimación publicada,4758.7085,30.728331208229065,1997
+,PHL,Philippines,Asia,estimación publicada,4740.439,28.786373138427734,2000
+,PHL,Philippines,Asia,estimación publicada,5003.3833,26.25730037689209,2003
+,PHL,Philippines,Asia,estimación publicada,5578.5723,27.857786417007446,2006
+,PHL,Philippines,Asia,estimación publicada,5965.307,23.43825399875641,2009
+,PHL,Philippines,Asia,estimación publicada,6697.556,24.937525391578674,2012
+,PHL,Philippines,Asia,estimación publicada,7691.763,18.938851356506348,2015
+,PHL,Philippines,Asia,estimación publicada,9016.286,13.409879803657532,2018
+,PHL,Philippines,Asia,estimación publicada,8857.79,15.695744752883911,2021
+,PHL,Philippines,Asia,estimación publicada,9898.533,11.531732976436615,2023
+,POL,Poland,Europe,estimación publicada,12141.235,0.20000000949949026,1992
+,POL,Poland,Europe,estimación publicada,14227.566,2.6000000536441803,1995
+,POL,Poland,Europe,estimación publicada,17556.002,0.8999999612569809,1999
+,POL,Poland,Europe,estimación publicada,20878.654,2.8489118441939354,2004
+,POL,Poland,Europe,estimación publicada,21568.947,1.3787447474896908,2005
+,POL,Poland,Europe,estimación publicada,22921.197,0.931171141564846,2006
+,POL,Poland,Europe,estimación publicada,24484.066,0.5808548536151648,2007
+,POL,Poland,Europe,estimación publicada,25553.906,0.32259945292025805,2008
+,POL,Poland,Europe,estimación publicada,26204.41,0.5511034280061722,2009
+,POL,Poland,Europe,estimación publicada,27112.133,0.5707803647965193,2010
+,POL,Poland,Europe,estimación publicada,28521.662,0.5596259143203497,2011
+,POL,Poland,Europe,estimación publicada,28952.916,0.42736632749438286,2012
+,POL,Poland,Europe,estimación publicada,29168.625,0.5683810450136662,2013
+,POL,Poland,Europe,estimación publicada,30334.879,0.5662562325596809,2014
+,POL,Poland,Europe,estimación publicada,31700.37,0.5236506462097168,2015
+,POL,Poland,Europe,estimación publicada,32675.305,0.36105550825595856,2016
+,POL,Poland,Europe,estimación publicada,34354.598,0.4231835249811411,2017
+,POL,Poland,Europe,estimación publicada,36500.41,0.30601273756474257,2018
+,POL,Poland,Europe,estimación publicada,38181.62,0.10246086167171597,2019
+,POL,Poland,Europe,estimación publicada,37852.8,0.18906849436461926,2020
+,POL,Poland,Europe,estimación publicada,41059.586,0.11429502628743649,2021
+,POL,Poland,Europe,estimación publicada,43405.023,0.3239148762077093,2022
+,POL,Poland,Europe,estimación publicada,43672.766,0.2441274467855692,2023
+,PRT,Portugal,Europe,estimación publicada,35115.38,1.082614716142416,2003
+,PRT,Portugal,Europe,estimación publicada,35658.13,0.664884690195322,2004
+,PRT,Portugal,Europe,estimación publicada,35870.31,0.7043591700494289,2005
+,PRT,Portugal,Europe,estimación publicada,36387.535,0.17538971733301878,2006
+,PRT,Portugal,Europe,estimación publicada,37226.47,0.6144971586763859,2007
+,PRT,Portugal,Europe,estimación publicada,37291.504,0.34787796903401613,2008
+,PRT,Portugal,Europe,estimación publicada,36092.812,0.17034399788826704,2009
+,PRT,Portugal,Europe,estimación publicada,36703.113,0.21967499051243067,2010
+,PRT,Portugal,Europe,estimación publicada,36127.297,0.6235755514353514,2011
+,PRT,Portugal,Europe,estimación publicada,34804.633,0.8823910728096962,2012
+,PRT,Portugal,Europe,estimación publicada,34651.773,1.0437044315040112,2013
+,PRT,Portugal,Europe,estimación publicada,35097.41,0.7766962517052889,2014
+,PRT,Portugal,Europe,estimación publicada,35803.36,0.7302582263946533,2015
+,PRT,Portugal,Europe,estimación publicada,36636.297,0.4100628662854433,2016
+,PRT,Portugal,Europe,estimación publicada,37943.113,0.44082943350076675,2017
+,PRT,Portugal,Europe,estimación publicada,39123.613,0.38238859269768,2018
+,PRT,Portugal,Europe,estimación publicada,40188.285,0.18491470254957676,2019
+,PRT,Portugal,Europe,estimación publicada,36852.23,0.6367834750562906,2020
+,PRT,Portugal,Europe,estimación publicada,38657.668,0.327434204518795,2021
+,PRT,Portugal,Europe,estimación publicada,41070.86,0.2247450640425086,2022
+,PRT,Portugal,Europe,estimación publicada,41768.258,0.41326326318085194,2023
+,QAT,Qatar,Asia,estimación publicada,115064.945,0.0,2017
+,ROU,Romania,Europe,estimación publicada,13195.042,0.0,1992
+,ROU,Romania,Europe,estimación publicada,13962.773,18.411999940872192,1994
+,ROU,Romania,Europe,estimación publicada,14863.186,3.500000014901161,1995
+,ROU,Romania,Europe,estimación publicada,14779.998,4.1999999433755875,1997
+,ROU,Romania,Europe,estimación publicada,22354.564,11.075025051832199,2006
+,ROU,Romania,Europe,estimación publicada,24328.393,8.143267035484314,2007
+,ROU,Romania,Europe,estimación publicada,27039.6,6.045683100819588,2008
+,ROU,Romania,Europe,estimación publicada,25761.63,5.345325544476509,2009
+,ROU,Romania,Europe,estimación publicada,24902.904,6.291244179010391,2010
+,ROU,Romania,Europe,estimación publicada,26150.748,7.11706355214119,2011
+,ROU,Romania,Europe,estimación publicada,26767.455,8.368191123008728,2012
+,ROU,Romania,Europe,estimación publicada,26941.932,8.744312822818756,2013
+,ROU,Romania,Europe,estimación publicada,28156.13,8.885923027992249,2014
+,ROU,Romania,Europe,estimación publicada,29181.879,7.599744200706482,2015
+,ROU,Romania,Europe,estimación publicada,30189.148,5.2223630249500275,2016
+,ROU,Romania,Europe,estimación publicada,32852.637,4.895263537764549,2017
+,ROU,Romania,Europe,estimación publicada,34828.895,3.7382539361715317,2018
+,ROU,Romania,Europe,estimación publicada,36399.473,3.0924562364816666,2019
+,ROU,Romania,Europe,estimación publicada,35283.605,2.429254539310932,2020
+,ROU,Romania,Europe,estimación publicada,37534.0,2.0289815962314606,2021
+,ROU,Romania,Europe,estimación publicada,39256.824,1.452808827161789,2022
+,ROU,Romania,Europe,estimación publicada,40116.688,0.7001521531492472,2023
+,RUS,Russia,Europe,estimación publicada,21899.518,6.221000105142593,1993
+,RUS,Russia,Europe,estimación publicada,17699.87,7.12599977850914,1996
+,RUS,Russia,Europe,estimación publicada,17977.352,2.7285583317279816,1997
+,RUS,Russia,Europe,estimación publicada,17052.756,3.999406471848488,1998
+,RUS,Russia,Europe,estimación publicada,18200.32,7.218095660209656,1999
+,RUS,Russia,Europe,estimación publicada,20104.75,5.125544220209122,2000
+,RUS,Russia,Europe,estimación publicada,21219.904,3.1842056661844254,2001
+,RUS,Russia,Europe,estimación publicada,22319.678,2.033495716750622,2002
+,RUS,Russia,Europe,estimación publicada,24057.928,2.1288027986884117,2003
+,RUS,Russia,Europe,estimación publicada,25894.146,1.81412473320961,2004
+,RUS,Russia,Europe,estimación publicada,27656.658,1.415033545345068,2005
+,RUS,Russia,Europe,estimación publicada,30022.672,0.910931546241045,2006
+,RUS,Russia,Europe,estimación publicada,32630.37,0.44557233341038227,2007
+,RUS,Russia,Europe,estimación publicada,34342.227,0.18337552901357412,2008
+,RUS,Russia,Europe,estimación publicada,31654.004,0.16066284151747823,2009
+,RUS,Russia,Europe,estimación publicada,33063.586,0.1922926283441484,2010
+,RUS,Russia,Europe,estimación publicada,34444.645,0.09720118250697851,2011
+,RUS,Russia,Europe,estimación publicada,35740.7,0.09354451904073358,2012
+,RUS,Russia,Europe,estimación publicada,36260.066,0.05873444024473429,2013
+,RUS,Russia,Europe,estimación publicada,35853.246,0.05444817943498492,2014
+,RUS,Russia,Europe,estimación publicada,35037.152,0.08843381656333804,2015
+,RUS,Russia,Europe,estimación publicada,35005.445,0.0639630132354796,2016
+,RUS,Russia,Europe,estimación publicada,35570.703,0.10117447236552835,2017
+,RUS,Russia,Europe,estimación publicada,36536.695,0.09523156913928688,2018
+,RUS,Russia,Europe,estimación publicada,37319.32,0.07635302026756108,2019
+,RUS,Russia,Europe,estimación publicada,36376.336,0.04168040177319199,2020
+,RWA,Rwanda,Africa,estimación publicada,1055.3505,82.31382966041565,2000
+,RWA,Rwanda,Africa,estimación publicada,1412.061,74.16061162948608,2005
+,RWA,Rwanda,Africa,estimación publicada,1846.8633,70.1623260974884,2010
+,RWA,Rwanda,Africa,estimación publicada,2109.7466,65.24099707603455,2013
+,RWA,Rwanda,Africa,estimación publicada,2386.7483,63.84381651878357,2016
+,RWA,Rwanda,Africa,estimación publicada,3168.0308,38.55049014091492,2023
+,LCA,Saint Lucia,North America,estimación publicada,17875.41,41.523998975753784,1995
+,LCA,Saint Lucia,North America,estimación publicada,20939.88,6.403649598360062,2015
+,WSM,Samoa,Oceania,estimación publicada,5184.1187,5.888090282678604,2002
+,WSM,Samoa,Oceania,estimación publicada,6183.5557,3.7428565323352814,2008
+,WSM,Samoa,Oceania,estimación publicada,6263.126,4.4585637748241425,2013
+,STP,Sao Tome and Principe,Africa,estimación publicada,3852.8904,17.276760935783386,2000
+,STP,Sao Tome and Principe,Africa,estimación publicada,4882.048,18.94974857568741,2010
+,STP,Sao Tome and Principe,Africa,estimación publicada,5521.2026,13.006116449832916,2017
+,SEN,Senegal,Africa,estimación publicada,2917.0142,77.32599973678589,1991
+,SEN,Senegal,Africa,estimación publicada,2757.8608,72.20500111579895,1994
+,SEN,Senegal,Africa,estimación publicada,3149.331,63.8954758644104,2001
+,SEN,Senegal,Africa,estimación publicada,3301.8208,53.57222557067871,2005
+,SEN,Senegal,Africa,estimación publicada,3362.8794,53.28752398490906,2011
+,SEN,Senegal,Africa,estimación publicada,3998.2864,19.149698317050934,2018
+,SEN,Senegal,Africa,estimación publicada,4173.6772,17.887471616268158,2021
+,SRB,Serbia,Europe,estimación publicada,17993.814,7.145950198173523,2012
+,SRB,Serbia,Europe,estimación publicada,18163.205,7.834584265947342,2013
+,SRB,Serbia,Europe,estimación publicada,17922.436,8.878854662179947,2014
+,SRB,Serbia,Europe,estimación publicada,18247.809,8.409901708364487,2015
+,SRB,Serbia,Europe,estimación publicada,18889.38,8.092960715293884,2016
+,SRB,Serbia,Europe,estimación publicada,19438.992,6.646014750003815,2017
+,SRB,Serbia,Europe,estimación publicada,20454.227,4.154009371995926,2018
+,SRB,Serbia,Europe,estimación publicada,21541.127,2.724273130297661,2019
+,SRB,Serbia,Europe,estimación publicada,21479.078,2.0365921780467033,2020
+,SRB,Serbia,Europe,estimación publicada,23406.307,1.6963208094239235,2021
+,SRB,Serbia,Europe,estimación publicada,24651.848,2.0390721037983894,2022
+,SRB,Serbia,Europe,estimación publicada,25735.133,1.0941900312900543,2023
+,SYC,Seychelles,Africa,estimación publicada,19969.352,1.7591750249266624,1999
+,SYC,Seychelles,Africa,estimación publicada,21341.86,0.6121243815869093,2006
+,SYC,Seychelles,Africa,estimación publicada,24770.652,1.5764601528644562,2013
+,SYC,Seychelles,Africa,estimación publicada,32841.426,0.6736329291015863,2018
+,SLE,Sierra Leone,Africa,estimación publicada,2196.2812,72.35435247421265,2003
+,SLE,Sierra Leone,Africa,estimación publicada,2590.5283,53.697580099105835,2011
+,SLE,Sierra Leone,Africa,estimación publicada,2767.3801,41.485199332237244,2018
+,SVK,Slovakia,Europe,estimación publicada,13946.163,0.10000000474974513,1992
+,SVK,Slovakia,Europe,estimación publicada,16737.172,1.7999999225139618,1996
+,SVK,Slovakia,Europe,estimación publicada,21842.957,0.2022742759436369,2004
+,SVK,Slovakia,Europe,estimación publicada,23257.176,0.25429625529795885,2005
+,SVK,Slovakia,Europe,estimación publicada,25331.873,0.3203051630407572,2006
+,SVK,Slovakia,Europe,estimación publicada,28064.246,0.5687791388481855,2007
+,SVK,Slovakia,Europe,estimación publicada,29544.09,0.5168622825294733,2008
+,SVK,Slovakia,Europe,estimación publicada,27880.41,0.6093630101531744,2009
+,SVK,Slovakia,Europe,estimación publicada,29745.92,0.5963418167084455,2010
+,SVK,Slovakia,Europe,estimación publicada,30468.826,0.6057309452444315,2011
+,SVK,Slovakia,Europe,estimación publicada,30894.312,0.504585076123476,2012
+,SVK,Slovakia,Europe,estimación publicada,31078.186,0.43969741091132164,2013
+,SVK,Slovakia,Europe,estimación publicada,31888.805,0.8893993683159351,2014
+,SVK,Slovakia,Europe,estimación publicada,33507.793,0.7978781126439571,2015
+,SVK,Slovakia,Europe,estimación publicada,34116.45,1.543812733143568,2016
+,SVK,Slovakia,Europe,estimación publicada,35042.785,0.5761574488133192,2017
+,SVK,Slovakia,Europe,estimación publicada,36415.793,0.5082215182483196,2018
+,SVK,Slovakia,Europe,estimación publicada,37194.21,0.23158940020948648,2019
+,SVK,Slovakia,Europe,estimación publicada,36201.49,0.2950256923213601,2020
+,SVK,Slovakia,Europe,estimación publicada,38330.305,0.3440258791670203,2021
+,SVK,Slovakia,Europe,estimación publicada,38648.984,0.6956504192203283,2022
+,SVK,Slovakia,Europe,estimación publicada,39501.95,0.4521372728049755,2023
+,SVN,Slovenia,Europe,estimación publicada,22524.959,0.0,1993
+,SVN,Slovenia,Europe,estimación publicada,26811.488,0.10000000474974513,1997
+,SVN,Slovenia,Europe,estimación publicada,29131.352,0.20000000949949026,1999
+,SVN,Slovenia,Europe,estimación publicada,34304.555,0.11315412120893598,2004
+,SVN,Slovenia,Europe,estimación publicada,35565.043,0.12446742039173841,2005
+,SVN,Slovenia,Europe,estimación publicada,37546.496,0.07895565358921885,2006
+,SVN,Slovenia,Europe,estimación publicada,40002.703,0.035381619818508625,2007
+,SVN,Slovenia,Europe,estimación publicada,41286.348,0.0,2008
+,SVN,Slovenia,Europe,estimación publicada,37809.17,0.016037245222833008,2009
+,SVN,Slovenia,Europe,estimación publicada,38063.316,0.009157744352705777,2010
+,SVN,Slovenia,Europe,estimación publicada,38233.29,0.0,2011
+,SVN,Slovenia,Europe,estimación publicada,37040.707,0.0262544461293146,2012
+,SVN,Slovenia,Europe,estimación publicada,36685.75,0.02175685513066128,2013
+,SVN,Slovenia,Europe,estimación publicada,37662.258,0.0,2014
+,SVN,Slovenia,Europe,estimación publicada,38534.645,0.004852958227274939,2015
+,SVN,Slovenia,Europe,estimación publicada,39674.895,0.0,2016
+,SVN,Slovenia,Europe,estimación publicada,41700.652,0.0,2017
+,SVN,Slovenia,Europe,estimación publicada,43369.223,0.0,2018
+,SVN,Slovenia,Europe,estimación publicada,44577.94,0.0,2019
+,SVN,Slovenia,Europe,estimación publicada,42471.523,0.0,2020
+,SVN,Slovenia,Europe,estimación publicada,45922.664,0.0,2021
+,SVN,Slovenia,Europe,estimación publicada,47058.887,0.0,2022
+,SVN,Slovenia,Europe,estimación publicada,47986.418,0.0,2023
+,SLB,Solomon Islands,Oceania,estimación publicada,2287.5667,62.18736171722412,2005
+,SLB,Solomon Islands,Oceania,estimación publicada,2743.81,40.30148684978485,2012
+,ZAF,South Africa,Africa,estimación publicada,9976.965,44.6179986000061,1993
+,ZAF,South Africa,Africa,estimación publicada,11183.825,47.90999889373779,2000
+,ZAF,South Africa,Africa,estimación publicada,12861.563,40.699803829193115,2005
+,ZAF,South Africa,Africa,estimación publicada,14297.688,37.00636923313141,2008
+,ZAF,South Africa,Africa,estimación publicada,14164.996,27.83951759338379,2010
+,ZAF,South Africa,Africa,estimación publicada,14643.339,27.900180220603943,2014
+,ZAF,South Africa,Africa,estimación publicada,13767.497,17.435920238494873,2022
+,KOR,South Korea,Asia,estimación publicada,34429.62,0.4999999888241291,2006
+,KOR,South Korea,Asia,estimación publicada,37064.152,0.4999999888241291,2008
+,KOR,South Korea,Asia,estimación publicada,39574.05,0.4999999888241291,2010
+,KOR,South Korea,Asia,estimación publicada,41537.67,0.4999999888241291,2012
+,KOR,South Korea,Asia,estimación publicada,43806.926,0.3000000026077032,2014
+,KOR,South Korea,Asia,estimación publicada,46088.242,0.20000000949949026,2016
+,KOR,South Korea,Asia,estimación publicada,47536.79,0.20000000949949026,2017
+,KOR,South Korea,Asia,estimación publicada,48834.445,0.20000000949949026,2018
+,KOR,South Korea,Asia,estimación publicada,49790.867,0.20000000949949026,2019
+,KOR,South Korea,Asia,estimación publicada,49374.094,0.10000000474974513,2020
+,KOR,South Korea,Asia,estimación publicada,51718.25,0.10000000474974513,2021
+,ESP,Spain,Europe,estimación publicada,31773.227,0.6000000052154064,1990
+,ESP,Spain,Europe,estimación publicada,32137.314,1.4000000432133675,1993
+,ESP,Spain,Europe,estimación publicada,32746.93,1.3000000268220901,1994
+,ESP,Spain,Europe,estimación publicada,33501.73,1.600000075995922,1995
+,ESP,Spain,Europe,estimación publicada,34232.38,1.600000075995922,1996
+,ESP,Spain,Europe,estimación publicada,35312.086,0.9999999776482582,1997
+,ESP,Spain,Europe,estimación publicada,36679.094,1.0999999940395355,1998
+,ESP,Spain,Europe,estimación publicada,38141.316,0.7000000216066837,1999
+,ESP,Spain,Europe,estimación publicada,39945.9,0.8999999612569809,2000
+,ESP,Spain,Europe,estimación publicada,42223.13,0.9082441218197346,2003
+,ESP,Spain,Europe,estimación publicada,42793.39,1.0159495286643505,2004
+,ESP,Spain,Europe,estimación publicada,43570.766,0.8567684330046177,2005
+,ESP,Spain,Europe,estimación publicada,44572.68,0.8842268027365208,2006
+,ESP,Spain,Europe,estimación publicada,45301.285,0.5590894259512424,2007
+,ESP,Spain,Europe,estimación publicada,44926.348,0.5587315652519464,2008
+,ESP,Spain,Europe,estimación publicada,42852.223,0.8649964816868305,2009
+,ESP,Spain,Europe,estimación publicada,42695.527,0.7495137397199869,2010
+,ESP,Spain,Europe,estimación publicada,42271.836,1.2902318499982357,2011
+,ESP,Spain,Europe,estimación publicada,41034.047,1.019078865647316,2012
+,ESP,Spain,Europe,estimación publicada,40594.914,1.309105008840561,2013
+,ESP,Spain,Europe,estimación publicada,41339.41,0.9475359693169594,2014
+,ESP,Spain,Europe,estimación publicada,43053.76,1.054392009973526,2015
+,ESP,Spain,Europe,estimación publicada,44274.668,1.2991789728403091,2016
+,ESP,Spain,Europe,estimación publicada,45446.25,0.8333411067724228,2017
+,ESP,Spain,Europe,estimación publicada,46325.21,0.9773517958819866,2018
+,ESP,Spain,Europe,estimación publicada,46896.418,0.8941992186009884,2019
+,ESP,Spain,Europe,estimación publicada,41553.45,1.0968449525535107,2020
+,ESP,Spain,Europe,estimación publicada,44251.664,0.6577910389751196,2021
+,ESP,Spain,Europe,estimación publicada,46733.48,0.7852282375097275,2022
+,ESP,Spain,Europe,estimación publicada,47322.594,0.8134083822369576,2023
+,LKA,Sri Lanka,Asia,estimación publicada,4561.579,23.37159812450409,1990
+,LKA,Sri Lanka,Asia,estimación publicada,5523.312,23.032215237617493,1995
+,LKA,Sri Lanka,Asia,estimación publicada,6409.863,20.707987248897552,2002
+,LKA,Sri Lanka,Asia,estimación publicada,7970.665,12.160678207874298,2006
+,LKA,Sri Lanka,Asia,estimación publicada,9156.319,7.806097716093063,2009
+,LKA,Sri Lanka,Asia,estimación publicada,11447.693,6.362118571996689,2012
+,LKA,Sri Lanka,Asia,estimación publicada,13845.614,3.8126643747091293,2016
+,LKA,Sri Lanka,Asia,estimación publicada,14637.444,2.7054540812969208,2019
+,SDN,Sudan,Africa,estimación publicada,4188.0547,13.089297711849213,2009
+,SDN,Sudan,Africa,estimación publicada,4207.5005,10.099956393241882,2014
+,SUR,Suriname,South America,estimación publicada,18742.588,2.1780425682663918,2022
+,SWE,Sweden,Europe,estimación publicada,38783.64,0.20000000949949026,1992
+,SWE,Sweden,Europe,estimación publicada,40385.215,0.4999999888241291,1995
+,SWE,Sweden,Europe,estimación publicada,47868.508,0.10000000474974513,2000
+,SWE,Sweden,Europe,estimación publicada,48389.82,0.20000000949949026,2001
+,SWE,Sweden,Europe,estimación publicada,49331.203,0.10000000474974513,2002
+,SWE,Sweden,Europe,estimación publicada,50072.473,0.3536416217684746,2003
+,SWE,Sweden,Europe,estimación publicada,51960.53,0.4543750546872616,2004
+,SWE,Sweden,Europe,estimación publicada,53198.67,1.1382970958948135,2005
+,SWE,Sweden,Europe,estimación publicada,55373.934,0.4128701984882355,2006
+,SWE,Sweden,Europe,estimación publicada,56737.367,0.45739165507256985,2007
+,SWE,Sweden,Europe,estimación publicada,55777.4,0.6590727716684341,2008
+,SWE,Sweden,Europe,estimación publicada,52950.71,0.527056260034442,2009
+,SWE,Sweden,Europe,estimación publicada,55520.434,0.6387345492839813,2010
+,SWE,Sweden,Europe,estimación publicada,56846.137,0.6580606568604708,2011
+,SWE,Sweden,Europe,estimación publicada,56193.33,0.474748807027936,2012
+,SWE,Sweden,Europe,estimación publicada,56353.086,0.6508714519441128,2013
+,SWE,Sweden,Europe,estimación publicada,57077.668,0.5263103637844324,2014
+,SWE,Sweden,Europe,estimación publicada,58955.64,0.649191252887249,2015
+,SWE,Sweden,Europe,estimación publicada,59460.29,0.4226093180477619,2016
+,SWE,Sweden,Europe,estimación publicada,59769.01,0.2654955955222249,2017
+,SWE,Sweden,Europe,estimación publicada,60124.57,0.8583864197134972,2018
+,SWE,Sweden,Europe,estimación publicada,61070.523,0.3600929630920291,2019
+,SWE,Sweden,Europe,estimación publicada,59458.28,0.4512476269155741,2020
+,SWE,Sweden,Europe,estimación publicada,62190.85,0.6434689741581678,2021
+,SWE,Sweden,Europe,estimación publicada,62544.5,1.2714953161776066,2022
+,SWE,Sweden,Europe,estimación publicada,62122.51,0.8379480801522732,2023
+,CHE,Switzerland,Europe,estimación publicada,61004.742,0.6000000052154064,1992
+,CHE,Switzerland,Europe,estimación publicada,68834.82,0.10000000474974513,2000
+,CHE,Switzerland,Europe,estimación publicada,69228.37,0.0,2002
+,CHE,Switzerland,Europe,estimación publicada,69812.375,0.10000000474974513,2004
+,CHE,Switzerland,Europe,estimación publicada,73901.62,0.07607727311551571,2006
+,CHE,Switzerland,Europe,estimación publicada,76161.56,0.07089547580108047,2007
+,CHE,Switzerland,Europe,estimación publicada,77103.72,0.07835181895643473,2008
+,CHE,Switzerland,Europe,estimación publicada,74672.95,0.03805773158092052,2009
+,CHE,Switzerland,Europe,estimación publicada,76308.805,0.07125037955120206,2010
+,CHE,Switzerland,Europe,estimación publicada,76527.336,0.01051437429850921,2011
+,CHE,Switzerland,Europe,estimación publicada,76570.234,0.008965495362645015,2012
+,CHE,Switzerland,Europe,estimación publicada,77084.664,0.04218374378979206,2013
+,CHE,Switzerland,Europe,estimación publicada,78086.68,0.032768063829280436,2014
+,CHE,Switzerland,Europe,estimación publicada,78325.75,0.03054255503229797,2015
+,CHE,Switzerland,Europe,estimación publicada,78956.07,0.044919009087607265,2016
+,CHE,Switzerland,Europe,estimación publicada,79333.74,0.021825938893016428,2017
+,CHE,Switzerland,Europe,estimación publicada,81371.89,0.035259383730590343,2018
+,CHE,Switzerland,Europe,estimación publicada,81694.63,0.01738684659358114,2019
+,CHE,Switzerland,Europe,estimación publicada,79270.875,0.07052665459923446,2020
+,CHE,Switzerland,Europe,estimación publicada,83524.984,0.038140988908708096,2021
+,CHE,Switzerland,Europe,estimación publicada,85762.28,0.2086946740746498,2022
+,CHE,Switzerland,Europe,estimación publicada,85383.36,0.06956272409297526,2023
+,SYR,Syria,Asia,estimación publicada,8112.374,1.160987839102745,1996
+,SYR,Syria,Asia,estimación publicada,8351.465,0.4599067382514477,2003
+,SYR,Syria,Asia,estimación publicada,9074.772,0.0,2006
+,SYR,Syria,Asia,estimación publicada,9481.57,0.0,2009
+,SYR,Syria,Asia,estimación publicada,4579.44,17.96185076236725,2022
+,TJK,Tajikistan,Asia,estimación publicada,1275.8225,79.43605780601501,1999
+,TJK,Tajikistan,Asia,estimación publicada,1736.6404,56.00924491882324,2003
+,TJK,Tajikistan,Asia,estimación publicada,1878.287,37.15609014034271,2004
+,TJK,Tajikistan,Asia,estimación publicada,2181.898,24.19077455997467,2007
+,TJK,Tajikistan,Asia,estimación publicada,2349.5002,15.707685053348541,2009
+,TJK,Tajikistan,Asia,estimación publicada,3041.4448,13.330253958702087,2015
+,TJK,Tajikistan,Asia,estimación publicada,3985.9126,9.067149460315704,2021
+,TJK,Tajikistan,Asia,estimación publicada,4213.7563,8.85283574461937,2022
+,TJK,Tajikistan,Asia,estimación publicada,4472.324,7.291276007890701,2023
+,TJK,Tajikistan,Asia,estimación publicada,4755.933,6.133540719747543,2024
+,TZA,Tanzania,Africa,estimación publicada,1785.664,73.45619797706604,1991
+,TZA,Tanzania,Africa,estimación publicada,1839.9366,86.9373619556427,2000
+,TZA,Tanzania,Africa,estimación publicada,2423.616,61.875176429748535,2007
+,TZA,Tanzania,Africa,estimación publicada,2779.7078,51.532453298568726,2011
+,TZA,Tanzania,Africa,estimación publicada,3392.6887,51.34686827659607,2018
+,THA,Thailand,Asia,estimación publicada,8702.899,21.051672101020813,1990
+,THA,Thailand,Asia,estimación publicada,9887.974,16.214731335639954,1992
+,THA,Thailand,Asia,estimación publicada,11216.255,9.249986708164215,1994
+,THA,Thailand,Asia,estimación publicada,12457.682,6.424815207719803,1996
+,THA,Thailand,Asia,estimación publicada,10898.337,5.716953426599503,1998
+,THA,Thailand,Asia,estimación publicada,11254.609,8.320630341768265,1999
+,THA,Thailand,Asia,estimación publicada,11623.787,8.432362228631973,2000
+,THA,Thailand,Asia,estimación publicada,12513.542,4.6585168689489365,2002
+,THA,Thailand,Asia,estimación publicada,13998.521,3.0930886045098305,2004
+,THA,Thailand,Asia,estimación publicada,15052.695,2.219007909297943,2006
+,THA,Thailand,Asia,estimación publicada,15744.365,1.2836677953600883,2007
+,THA,Thailand,Asia,estimación publicada,15893.509,0.9915566071867943,2008
+,THA,Thailand,Asia,estimación publicada,15667.6045,0.7856126874685287,2009
+,THA,Thailand,Asia,estimación publicada,16732.188,0.7086166646331549,2010
+,THA,Thailand,Asia,estimación publicada,16768.168,0.3031060565263033,2011
+,THA,Thailand,Asia,estimación publicada,17871.578,0.38783245254307985,2012
+,THA,Thailand,Asia,estimación publicada,18244.406,0.21261502988636494,2013
+,THA,Thailand,Asia,estimación publicada,18326.605,0.22882029879838228,2014
+,THA,Thailand,Asia,estimación publicada,18814.041,0.13188179582357407,2015
+,THA,Thailand,Asia,estimación publicada,19372.713,0.13783772010356188,2016
+,THA,Thailand,Asia,estimación publicada,20096.861,0.1001059077680111,2017
+,THA,Thailand,Asia,estimación publicada,20882.17,0.1064360374584794,2018
+,THA,Thailand,Asia,estimación publicada,21280.15,0.13463360955938697,2019
+,THA,Thailand,Asia,estimación publicada,19950.285,0.063043407863006,2020
+,THA,Thailand,Asia,estimación publicada,20236.977,0.02860082604456693,2021
+,THA,Thailand,Asia,estimación publicada,20768.48,0.02026936417678371,2022
+,THA,Thailand,Asia,estimación publicada,21245.271,0.004842254929826595,2023
+,THA,Thailand,Asia,estimación publicada,21882.215,0.014684569032397121,2024
+,TGO,Togo,Africa,estimación publicada,2158.9438,67.6499605178833,2006
+,TGO,Togo,Africa,estimación publicada,2246.562,65.494304895401,2011
+,TGO,Togo,Africa,estimación publicada,2588.2727,61.69734001159668,2015
+,TGO,Togo,Africa,estimación publicada,2787.564,35.3081613779068,2018
+,TGO,Togo,Africa,estimación publicada,2952.0974,34.66113209724426,2021
+,TON,Tonga,Oceania,estimación publicada,5809.0093,4.574519768357277,2000
+,TON,Tonga,Oceania,estimación publicada,5454.5737,3.6400873214006424,2009
+,TON,Tonga,Oceania,estimación publicada,6195.433,3.990159183740616,2015
+,TON,Tonga,Oceania,estimación publicada,6930.065,0.4088190384209156,2021
+,TTO,Trinidad and Tobago,North America,estimación publicada,13267.978,3.237999975681305,1992
+,TUN,Tunisia,Africa,estimación publicada,6742.5845,16.294999420642853,1990
+,TUN,Tunisia,Africa,estimación publicada,7406.239,17.357000708580017,1995
+,TUN,Tunisia,Africa,estimación publicada,9134.415,10.512000322341919,2000
+,TUN,Tunisia,Africa,estimación publicada,10529.16,5.900107324123383,2005
+,TUN,Tunisia,Africa,estimación publicada,12458.271,3.128933161497116,2010
+,TUN,Tunisia,Africa,estimación publicada,12802.792,0.6576976738870144,2015
+,TUN,Tunisia,Africa,estimación publicada,12444.326,0.6540433503687382,2021
+,TUR,Turkey,Asia,estimación publicada,12343.004,10.051999986171722,1994
+,TUR,Turkey,Asia,estimación publicada,14587.895,7.626911252737045,2002
+,TUR,Turkey,Asia,estimación publicada,15255.718,10.018395632505417,2003
+,TUR,Turkey,Asia,estimación publicada,16583.883,6.583942472934723,2004
+,TUR,Turkey,Asia,estimación publicada,17902.596,6.54209777712822,2005
+,TUR,Turkey,Asia,estimación publicada,18972.01,4.824867844581604,2006
+,TUR,Turkey,Asia,estimación publicada,19909.084,3.9673734456300735,2007
+,TUR,Turkey,Asia,estimación publicada,19839.584,3.270171955227852,2008
+,TUR,Turkey,Asia,estimación publicada,18612.193,2.9779793694615364,2009
+,TUR,Turkey,Asia,estimación publicada,19897.447,2.8138360008597374,2010
+,TUR,Turkey,Asia,estimación publicada,21760.43,1.9965069368481636,2011
+,TUR,Turkey,Asia,estimación publicada,22517.715,1.702161319553852,2012
+,TUR,Turkey,Asia,estimación publicada,24117.312,1.518368162214756,2013
+,TUR,Turkey,Asia,estimación publicada,24888.852,1.0181622579693794,2014
+,TUR,Turkey,Asia,estimación publicada,25984.803,1.3328120112419128,2015
+,TUR,Turkey,Asia,estimación publicada,26489.645,0.8960857056081295,2016
+,TUR,Turkey,Asia,estimación publicada,28194.688,1.1253557167947292,2017
+,TUR,Turkey,Asia,estimación publicada,28780.303,0.996036920696497,2018
+,TUR,Turkey,Asia,estimación publicada,28741.053,1.2772818095982075,2019
+,TUR,Turkey,Asia,estimación publicada,28976.719,1.141093485057354,2020
+,TUR,Turkey,Asia,estimación publicada,32105.547,0.9449698030948639,2021
+,TUR,Turkey,Asia,estimación publicada,33520.812,0.5295797251164913,2022
+,TUR,Turkey,Asia,estimación publicada,35069.17,0.17505723517388105,2023
+,TKM,Turkmenistan,Asia,estimación publicada,4282.5073,35.07585823535919,1998
+,TUV,Tuvalu,Oceania,estimación publicada,3664.4504,8.990787714719772,2010
+,UGA,Uganda,Africa,estimación publicada,1102.73,79.8879325389862,1992
+,UGA,Uganda,Africa,estimación publicada,1367.9457,78.547203540802,1996
+,UGA,Uganda,Africa,estimación publicada,1487.7579,80.60728907585144,1999
+,UGA,Uganda,Africa,estimación publicada,1598.5829,78.57561111450195,2002
+,UGA,Uganda,Africa,estimación publicada,1765.0378,72.40359783172607,2005
+,UGA,Uganda,Africa,estimación publicada,2188.299,63.54987621307373,2009
+,UGA,Uganda,Africa,estimación publicada,2405.0945,56.16211295127869,2012
+,UGA,Uganda,Africa,estimación publicada,2554.2278,60.10531783103943,2016
+,UGA,Uganda,Africa,estimación publicada,2689.4102,59.78437662124634,2019
+,UGA,Uganda,Africa,estimación publicada,2791.0557,54.3621301651001,2023
+,UKR,Ukraine,Europe,estimación publicada,18671.873,8.074187487363815,1992
+,UKR,Ukraine,Europe,estimación publicada,16012.372,5.111637711524963,1993
+,UKR,Ukraine,Europe,estimación publicada,10983.009,14.497999846935272,1995
+,UKR,Ukraine,Europe,estimación publicada,9969.501,15.238776803016663,1996
+,UKR,Ukraine,Europe,estimación publicada,12092.789,6.256462633609772,2002
+,UKR,Ukraine,Europe,estimación publicada,13342.88,3.237609565258026,2003
+,UKR,Ukraine,Europe,estimación publicada,15021.066,2.792077884078026,2004
+,UKR,Ukraine,Europe,estimación publicada,15610.573,1.1141378432512283,2005
+,UKR,Ukraine,Europe,estimación publicada,16901.508,0.6670841481536627,2006
+,UKR,Ukraine,Europe,estimación publicada,18374.014,0.4617693368345499,2007
+,UKR,Ukraine,Europe,estimación publicada,18883.986,0.12728716246783733,2008
+,UKR,Ukraine,Europe,estimación publicada,16092.796,0.31702264677733183,2009
+,UKR,Ukraine,Europe,estimación publicada,16811.795,0.13373865513131022,2010
+,UKR,Ukraine,Europe,estimación publicada,17783.957,0.07094680913724005,2011
+,UKR,Ukraine,Europe,estimación publicada,17848.74,0.13678426621481776,2012
+,UKR,Ukraine,Europe,estimación publicada,17889.092,0.05296205054037273,2013
+,UKR,Ukraine,Europe,estimación publicada,16978.812,0.026385983801446855,2014
+,UKR,Ukraine,Europe,estimación publicada,15403.71,0.27308138087391853,2015
+,UKR,Ukraine,Europe,estimación publicada,15856.8125,0.24907405022531748,2016
+,UKR,Ukraine,Europe,estimación publicada,16310.36,0.08330420823767781,2017
+,UKR,Ukraine,Europe,estimación publicada,16978.984,0.23609516210854053,2018
+,UKR,Ukraine,Europe,estimación publicada,17636.555,0.18007750622928143,2019
+,UKR,Ukraine,Europe,estimación publicada,17092.54,0.03376775130163878,2020
+,ARE,United Arab Emirates,Asia,estimación publicada,74237.2,0.0,2013
+,ARE,United Arab Emirates,Asia,estimación publicada,72671.08,0.0,2018
+,GBR,United Kingdom,Europe,estimación publicada,33530.957,0.10000000474974513,1990
+,GBR,United Kingdom,Europe,estimación publicada,32995.395,0.10000000474974513,1991
+,GBR,United Kingdom,Europe,estimación publicada,33332.332,0.10000000474974513,1992
+,GBR,United Kingdom,Europe,estimación publicada,34413.19,0.20000000949949026,1993
+,GBR,United Kingdom,Europe,estimación publicada,36025.984,0.4000000189989805,1994
+,GBR,United Kingdom,Europe,estimación publicada,37200.38,0.3000000026077032,1995
+,GBR,United Kingdom,Europe,estimación publicada,38076.062,0.20000000949949026,1996
+,GBR,United Kingdom,Europe,estimación publicada,39831.45,0.20000000949949026,1997
+,GBR,United Kingdom,Europe,estimación publicada,41004.84,0.3000000026077032,1998
+,GBR,United Kingdom,Europe,estimación publicada,42071.707,0.3000000026077032,1999
+,GBR,United Kingdom,Europe,estimación publicada,43818.348,0.3000000026077032,2000
+,GBR,United Kingdom,Europe,estimación publicada,44693.66,0.3000000026077032,2001
+,GBR,United Kingdom,Europe,estimación publicada,45265.457,0.3000000026077032,2002
+,GBR,United Kingdom,Europe,estimación publicada,46505.28,0.3000000026077032,2003
+,GBR,United Kingdom,Europe,estimación publicada,47317.027,0.3000000026077032,2004
+,GBR,United Kingdom,Europe,estimación publicada,48304.676,0.3000000026077032,2005
+,GBR,United Kingdom,Europe,estimación publicada,49000.953,0.3000000026077032,2006
+,GBR,United Kingdom,Europe,estimación publicada,50045.918,0.3000000026077032,2007
+,GBR,United Kingdom,Europe,estimación publicada,49629.05,0.4000000189989805,2008
+,GBR,United Kingdom,Europe,estimación publicada,46995.547,0.4000000189989805,2009
+,GBR,United Kingdom,Europe,estimación publicada,47682.652,0.3000000026077032,2010
+,GBR,United Kingdom,Europe,estimación publicada,47714.29,0.3000000026077032,2011
+,GBR,United Kingdom,Europe,estimación publicada,48099.66,0.4000000189989805,2012
+,GBR,United Kingdom,Europe,estimación publicada,48600.51,0.20000000949949026,2013
+,GBR,United Kingdom,Europe,estimación publicada,49763.176,0.4000000189989805,2014
+,GBR,United Kingdom,Europe,estimación publicada,50462.832,0.3000000026077032,2015
+,GBR,United Kingdom,Europe,estimación publicada,51168.293,0.4000000189989805,2016
+,GBR,United Kingdom,Europe,estimación publicada,52429.13,0.4000000189989805,2017
+,GBR,United Kingdom,Europe,estimación publicada,52983.04,0.4000000189989805,2018
+,GBR,United Kingdom,Europe,estimación publicada,53374.094,0.4000000189989805,2019
+,GBR,United Kingdom,Europe,estimación publicada,47930.55,0.4999999888241291,2020
+,GBR,United Kingdom,Europe,estimación publicada,51840.44,0.4000000189989805,2021
+,USA,United States,North America,estimación publicada,44384.21,0.4999999888241291,1990
+,USA,United States,North America,estimación publicada,43747.63,0.6000000052154064,1991
+,USA,United States,North America,estimación publicada,44664.875,0.6000000052154064,1992
+,USA,United States,North America,estimación publicada,45292.74,0.6000000052154064,1993
+,USA,United States,North America,estimación publicada,46543.32,0.7000000216066837,1994
+,USA,United States,North America,estimación publicada,47227.008,0.7000000216066837,1995
+,USA,United States,North America,estimación publicada,48441.906,0.7000000216066837,1996
+,USA,United States,North America,estimación publicada,49990.676,0.800000037997961,1997
+,USA,United States,North America,estimación publicada,51626.484,0.8999999612569809,1998
+,USA,United States,North America,estimación publicada,53480.9,0.7000000216066837,1999
+,USA,United States,North America,estimación publicada,55045.676,0.800000037997961,2000
+,USA,United States,North America,estimación publicada,55024.355,0.8999999612569809,2001
+,USA,United States,North America,estimación publicada,55443.22,0.8999999612569809,2002
+,USA,United States,North America,estimación publicada,56505.445,0.9999999776482582,2003
+,USA,United States,North America,estimación publicada,58139.082,1.0999999940395355,2004
+,USA,United States,North America,estimación publicada,59612.39,0.9999999776482582,2005
+,USA,United States,North America,estimación publicada,60684.34,1.0999999940395355,2006
+,USA,United States,North America,estimación publicada,61314.453,0.9999999776482582,2007
+,USA,United States,North America,estimación publicada,60806.223,1.0999999940395355,2008
+,USA,United States,North America,estimación publicada,58722.496,0.9999999776482582,2009
+,USA,United States,North America,estimación publicada,59797.074,1.0999999940395355,2010
+,USA,United States,North America,estimación publicada,60253.203,1.0999999940395355,2011
+,USA,United States,North America,estimación publicada,61142.363,1.0999999940395355,2012
+,USA,United States,North America,estimación publicada,61966.664,1.0999999940395355,2013
+,USA,United States,North America,estimación publicada,63026.88,1.3000000268220901,2014
+,USA,United States,North America,estimación publicada,64367.72,1.2000000104308128,2015
+,USA,United States,North America,estimación publicada,65025.984,1.2000000104308128,2016
+,USA,United States,North America,estimación publicada,66164.03,1.3000000268220901,2017
+,USA,United States,North America,estimación publicada,67728.445,1.0999999940395355,2018
+,USA,United States,North America,estimación publicada,69121.46,0.9999999776482582,2019
+,USA,United States,North America,estimación publicada,67406.83,0.4000000189989805,2020
+,USA,United States,North America,estimación publicada,71441.234,0.3000000026077032,2021
+,USA,United States,North America,estimación publicada,72828.74,1.4000000432133675,2022
+,USA,United States,North America,estimación publicada,74351.67,1.2000000104308128,2023
+,USA,United States,North America,estimación publicada,75698.18,1.0999999940395355,2024
+,URY,Uruguay,South America,estimación publicada,19560.074,1.0247956961393356,2006
+,URY,Uruguay,South America,estimación publicada,20803.885,0.740960193797946,2007
+,URY,Uruguay,South America,estimación publicada,22249.375,0.41025280952453613,2008
+,URY,Uruguay,South America,estimación publicada,23138.074,0.43807378970086575,2009
+,URY,Uruguay,South America,estimación publicada,24879.826,0.2916022436693311,2010
+,URY,Uruguay,South America,estimación publicada,26099.312,0.24554182309657335,2011
+,URY,Uruguay,South America,estimación publicada,26953.271,0.2694946713745594,2012
+,URY,Uruguay,South America,estimación publicada,28119.473,0.3063146024942398,2013
+,URY,Uruguay,South America,estimación publicada,28935.086,0.21153709385544062,2014
+,URY,Uruguay,South America,estimación publicada,28941.62,0.21638309117406607,2015
+,URY,Uruguay,South America,estimación publicada,29332.557,0.12539629824459553,2016
+,URY,Uruguay,South America,estimación publicada,29762.422,0.11754421284422278,2017
+,URY,Uruguay,South America,estimación publicada,29757.928,0.09022135054692626,2018
+,URY,Uruguay,South America,estimación publicada,30010.562,0.13172690523788333,2019
+,URY,Uruguay,South America,estimación publicada,27788.176,0.2766145160421729,2020
+,URY,Uruguay,South America,estimación publicada,29431.873,0.1543295686133206,2021
+,URY,Uruguay,South America,estimación publicada,30840.07,0.24023405276238918,2022
+,URY,Uruguay,South America,estimación publicada,31100.969,0.16938969492912292,2023
+,URY,Uruguay,South America,estimación publicada,32149.48,0.16715977108106017,2024
+,UZB,Uzbekistan,Asia,estimación publicada,9705.601,4.373622685670853,2021
+,UZB,Uzbekistan,Asia,estimación publicada,10091.388,4.392937570810318,2022
+,UZB,Uzbekistan,Asia,estimación publicada,10514.096,4.066276550292969,2023
+,UZB,Uzbekistan,Asia,estimación publicada,10997.171,2.718403935432434,2024
+,UZB,Uzbekistan,Asia,estimación publicada,11622.855,2.3006621748209,2025
+,VUT,Vanuatu,Oceania,estimación publicada,3825.7566,25.711265206336975,2010
+,VUT,Vanuatu,Oceania,estimación publicada,3986.6562,19.495603442192078,2019
+,VNM,Vietnam,Asia,estimación publicada,2726.4736,57.464659214019775,1992
+,VNM,Vietnam,Asia,estimación publicada,3820.3025,38.14493119716644,1997
+,VNM,Vietnam,Asia,estimación publicada,4809.6216,43.30837428569794,2002
+,VNM,Vietnam,Asia,estimación publicada,5421.097,30.854490399360657,2004
+,VNM,Vietnam,Asia,estimación publicada,6098.245,23.741069436073303,2006
+,VNM,Vietnam,Asia,estimación publicada,6659.1357,17.55138486623764,2008
+,VNM,Vietnam,Asia,estimación publicada,7274.733,5.216893181204796,2010
+,VNM,Vietnam,Asia,estimación publicada,7979.868,3.7219103425741196,2012
+,VNM,Vietnam,Asia,estimación publicada,8751.883,3.4136109054088593,2014
+,VNM,Vietnam,Asia,estimación publicada,9743.188,2.507314085960388,2016
+,VNM,Vietnam,Asia,estimación publicada,10936.894,2.243572473526001,2018
+,VNM,Vietnam,Asia,estimación publicada,11851.396,1.3027536682784557,2020
+,VNM,Vietnam,Asia,estimación publicada,12979.764,1.60335972905159,2022
+,ZMB,Zambia,Africa,estimación publicada,2364.8623,62.984102964401245,1991
+,ZMB,Zambia,Africa,estimación publicada,2365.6296,67.05899834632874,1993
+,ZMB,Zambia,Africa,estimación publicada,2197.1956,56.06018304824829,1996
+,ZMB,Zambia,Africa,estimación publicada,2157.5735,56.623685359954834,1998
+,ZMB,Zambia,Africa,estimación publicada,2299.333,67.98156499862671,2002
+,ZMB,Zambia,Africa,estimación publicada,2471.7207,68.93101930618286,2004
+,ZMB,Zambia,Africa,estimación publicada,2673.4614,71.96303009986877,2006
+,ZMB,Zambia,Africa,estimación publicada,3266.5076,71.36719226837158,2010
+,ZMB,Zambia,Africa,estimación publicada,3576.9255,67.89283752441406,2015
+,ZMB,Zambia,Africa,estimación publicada,3585.1238,71.6561496257782,2022
+,ZWE,Zimbabwe,Africa,estimación publicada,4358.945,35.71699857711792,2011
+,ZWE,Zimbabwe,Africa,estimación publicada,5234.4067,44.65687274932861,2017
+,ZWE,Zimbabwe,Africa,estimación publicada,4993.865,49.21989440917969,2019

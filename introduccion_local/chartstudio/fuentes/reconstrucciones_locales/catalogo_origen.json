@@ -1,0 +1,261 @@
+{
+  "entries": [
+    {
+      "identity": "iguzmanvt:96",
+      "slug": "iguzmanvt-96",
+      "title": "Investigadores en I+D",
+      "module": "Ideas",
+      "description": "Evolución del personal investigador en seis países, conservando todos los años y valores del objeto gráfico archivado.",
+      "formula": "x = Time; y = ObsValue. Los comentarios del código OECD documentan filtros FTE, investigadores, todos los sectores y ambos géneros; el eje archivado indica FTE.",
+      "units": "Investigadores equivalentes a tiempo completo (FTE); no son necesariamente personas físicas.",
+      "period": "1981–2021; cobertura desigual por país",
+      "period_by_series": {
+        "China": [
+          1991,
+          2021
+        ],
+        "Alemania": [
+          1981,
+          2021
+        ],
+        "Reino Unido": [
+          1981,
+          2017
+        ],
+        "Japón": [
+          1981,
+          2021
+        ],
+        "Corea del Sur": [
+          1995,
+          2021
+        ],
+        "Estados Unidos": [
+          1981,
+          2020
+        ]
+      },
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r"
+      ],
+      "source_paths": [
+        "fuentes/ideas_taxes/inputs/oecd-rd-fte.json",
+        "fuentes/ideas_taxes/inputs/Guide_OECD_RD.r",
+        "fuentes/ideas_taxes/inputs/source_catalog.json",
+        "fuentes/ideas_taxes/inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/oecd-rd-fte.json": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+        "inputs/Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 210,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 31,
+            "effective_pairs": 31
+          },
+          {
+            "series": "Alemania",
+            "array_length": 34,
+            "effective_pairs": 34
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 37,
+            "effective_pairs": 37
+          },
+          {
+            "series": "Japón",
+            "array_length": 41,
+            "effective_pairs": 41
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 27,
+            "effective_pairs": 27
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 40,
+            "effective_pairs": 40
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "caa8734e1a88de21488a5d0cb81b96f88a074e2b",
+      "source_file_sha256": "8e3019730e7d3b7bbcba394d1cb8bb9451d4d8890f72d07eef12709b7e4baae4",
+      "output_sha256": "521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7",
+      "spec_sha256": "521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7",
+      "generator": "fuentes/ideas_taxes/generar.py",
+      "method_folder": "fuentes/ideas_taxes",
+      "spec_path": "datos/iguzmanvt-96.json",
+      "source_paths_originales": [
+        "inputs/oecd-rd-fte.json",
+        "inputs/Guide_OECD_RD.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "local_inputs": {
+        "fuentes/ideas_taxes/inputs/oecd-rd-fte.json": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+        "fuentes/ideas_taxes/inputs/Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+        "fuentes/ideas_taxes/inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "fuentes/ideas_taxes/inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      }
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "slug": "iguzmanvt-118",
+      "title": "Cambio de investigadores y crecimiento de productividad",
+      "module": "Ideas",
+      "description": "Variante específica de dispersión que compara tasas de crecimiento, en lugar de niveles. Se conserva la muestra de seis países del archivo fuente.",
+      "formula": "x = (ln(FTE_i) − ln(FTE_(i−10)))/10, con i como fila dentro del país; y = g10.accttfp archivado. El código utiliza rezagos de 10 observaciones; no se recalculan ni se imputan datos.",
+      "units": "Valores decimales, mostrados como porcentajes. En x, la diferencia logarítmica se divide entre 10 aunque el rezago es de 10 observaciones: con huecos temporales no equivale necesariamente a 10 años. En y, crecimiento anual medio de productividad a 10 años según el código del curso.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_paths": [
+        "fuentes/ideas_taxes/inputs/pwt-oecd-rd-gtfp.json",
+        "fuentes/ideas_taxes/inputs/Guide_PWT_Account.r",
+        "fuentes/ideas_taxes/inputs/source_catalog.json",
+        "fuentes/ideas_taxes/inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-oecd-rd-gtfp.json": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+        "inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 141,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 19,
+            "effective_pairs": 19
+          },
+          {
+            "series": "Alemania",
+            "array_length": 22,
+            "effective_pairs": 22
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 27,
+            "effective_pairs": 27
+          },
+          {
+            "series": "Japón",
+            "array_length": 29,
+            "effective_pairs": 29
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 15,
+            "effective_pairs": 15
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 29,
+            "effective_pairs": 29
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+      "source_file_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+      "output_sha256": "9b6eced195ac6f81df19b014e9dcf9e4b7b13f7d86aafbf979a460a192967bbf",
+      "spec_sha256": "9b6eced195ac6f81df19b014e9dcf9e4b7b13f7d86aafbf979a460a192967bbf",
+      "generator": "fuentes/ideas_taxes/generar.py",
+      "method_folder": "fuentes/ideas_taxes",
+      "spec_path": "datos/iguzmanvt-118.json",
+      "source_paths_originales": [
+        "inputs/pwt-oecd-rd-gtfp.json",
+        "inputs/Guide_PWT_Account.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "local_inputs": {
+        "fuentes/ideas_taxes/inputs/pwt-oecd-rd-gtfp.json": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+        "fuentes/ideas_taxes/inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "fuentes/ideas_taxes/inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "fuentes/ideas_taxes/inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      }
+    },
+    {
+      "identity": "iguzmanvt:160",
+      "slug": "iguzmanvt-160",
+      "title": "Inversión y nivel del PIB per cápita",
+      "module": "Solow",
+      "description": "Cortes internacionales animados; tamaño de burbuja según población. Selección igual para las dos correlaciones.",
+      "formula": "y=round(ln(rgdpna/pop),2); inversión=round(csh_i,2); g_L=[ln(pop_t)−ln(pop_(t−10))]/10. Filtros: 0<inversión<0.6 y −0.01<g_L<0.06.",
+      "units": "x proporción o tasa anual; y log de US$2017/habitante; tamaño población en millones",
+      "period": [
+        1960,
+        2015
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Correlation.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Correlación descriptiva, no efecto causal. Se omiten faltantes y observaciones fuera de los filtros declarados; no se rellenan países/años.",
+        "rgdpna a precios nacionales constantes puede limitar la comparación de niveles entre países; se conserva la convención didáctica del código de referencia."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cross_sections.csv": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+      },
+      "output_sha256": "f54f59e10767d05bcd83c4a5f6b79e8667b41504da5800bca088cd9345c1de90",
+      "sample_sizes_by_frame": {
+        "1960": 55,
+        "1970": 110,
+        "1980": 147,
+        "1990": 155,
+        "2000": 171,
+        "2010": 176,
+        "2015": 179
+      },
+      "spec_sha256": "f54f59e10767d05bcd83c4a5f6b79e8667b41504da5800bca088cd9345c1de90",
+      "generator": "fuentes/solow_accounting/generar.py",
+      "method_folder": "fuentes/solow_accounting",
+      "spec_path": "datos/iguzmanvt-160.json",
+      "source_paths_originales": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "local_inputs": {
+        "fuentes/solow_accounting/inputs/pwt100_cross_sections.csv": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+      }
+    }
+  ]
+}

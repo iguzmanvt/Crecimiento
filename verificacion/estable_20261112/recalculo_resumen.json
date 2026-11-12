@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-12T18:05:59.934215+00:00",
+  "current_views": 93,
+  "recalculated_numeric_views": 92,
+  "historical_image_views": 1,
+  "reports": [
+    "recalculo40.json",
+    "recalculo_chartstudio.json",
+    "recalculo_owid.json",
+    "recalculo_esenciales.json"
+  ],
+  "figures40_maximum_numeric_difference": 0.0,
+  "owid_maximum_numeric_difference": 0.0,
+  "chartstudio_identical_files": 58,
+  "essential_identical_files": 65,
+  "scope": "Reproduccion desde insumos archivados; FRED conserva su imagen historica exacta. No autentica los objetos remotos originales ni valida todas las fuentes upstream."
+}

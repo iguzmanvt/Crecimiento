@@ -90,7 +90,7 @@ grid.raster(Labor_Labor_Force_Statistics, interpolate=FALSE)
 
 -   **La preocupación es que la tecnología reemplazará ciertos trabajos** (especialmente los que producen bienes) y que no habrá nada para que hagan estas personas. **Presumiblemente saldrán completamente del mercado laboral** y posiblemente necesitarán un apoyo permanente para mantener los ingresos.
 
--   **Esto tratado así, es falso:** la tecnología reduce la demanda de mano de obra en algunas industrias, por lo que hay menos trabajadores empleados ahí, lo que **aumenta la oferta de mano de obra en todas las demás industrias**. 
+-   **El desplazamiento en un sector no basta para predecir desempleo masivo permanente:** la tecnología reduce la demanda de mano de obra en algunas industrias, por lo que hay menos trabajadores empleados ahí, lo que **aumenta la oferta de mano de obra en todas las demás industrias**.
 
 ## Implicaciones del cambio tecnológico
 
@@ -98,7 +98,7 @@ grid.raster(Labor_Labor_Force_Statistics, interpolate=FALSE)
 
 -   **Entre 1950 y 2013, el mercado laboral de Estados Unidos se expandió de 28 millones a 117 millones de empleos de servicio (BLS).**
 
--   Así que la economía va a encontrar algo que estas personas puedan hacer. 
+-   La creación histórica de empleos muestra capacidad de ajuste, pero no garantiza que cada trabajador desplazado encuentre de inmediato un empleo equivalente.
 
 -   La pregunta es **qué tipo de trabajos serán estos.**
 
@@ -437,7 +437,7 @@ grid.raster(Labor_Cats_Neural, interpolate=FALSE)
 
 - Gran parte del optimismo de Autor proviene de lo que él llama "la paradoja de Polyani“ que esencialmente dice: **las personas somos incapaces de explicar por completo lo que sabemos, por lo que no podemos programar una máquina para hacerlo**. 
 
-- Por lo tanto, pone un **límite de las máquinas pues no tienen conocimiento tácito.** Todo debe especificarse con precisión para que funcionen. Mientras haya tareas como esa, los robots no pueden reemplazar a los trabajadores, y requerirá que estos, junto con las máquinas, realicen juntos el trabajo. 
+- Por lo tanto, pone un **obstáculo para automatizar mediante instrucciones explícitas**. El propio [Autor (2014), resumen](https://www.nber.org/papers/w20485), considera el aprendizaje a partir de ejemplos como vía para superar parte de ese obstáculo. La complementariedad y la sustitución dependen de las tareas.
 
 ## Cambio tecnológico: sustituto o complemento
 

@@ -21,56 +21,46 @@ opts_chunk$set(echo = TRUE)
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  La contaminación del aire es uno de los mayores problemas ambientales y de salud del mundo. Se desarrolla en dos contextos: interior (doméstico) y exterior. 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor">
-
-</iframe>
+-  La contaminación del aire afecta la salud. Las partículas finas se asocian con daños cardiovasculares y respiratorios, según la [OMS](https://www.who.int/health-topics/air-pollution). La vista local muestra exposición media anual a PM2.5, en µg/m³; las estimaciones de mortalidad permanecen como consulta externa.
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/pm25_mundo.html?embed=1" title="Exposición mundial a partículas finas" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  La contaminación del aire contribuye al 9% de las muertes a nivel mundial, esto varía del 2% al 15% según el país.
+-  La exposición a PM2.5 difiere entre los países seleccionados. La concentración media ponderada por población no equivale a un porcentaje de muertes.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-deaths-air-pollution">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/pm25_comparacion.html?embed=1" title="Exposición a PM2.5 en países seleccionados" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  La contaminación del aire contribuye al 9% de las muertes a nivel mundial, esto varía del 2% al 15% según el país.
+-  Las trayectorias de exposición también difieren entre países. Se comparan Emiratos Árabes Unidos, Guinea Ecuatorial y el mundo; esta vista sustituye los grupos SDI por una selección con datos abiertos.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-deaths-air-pollution?tab=chart&country=ARE~High-middle+SDI~Middle+SDI~GNQ~High+SDI~Low+SDI~Low-middle+SDI">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/pm25_trayectorias.html?embed=1" title="Trayectorias de exposición a PM2.5" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Las tasas de mortalidad por contaminación del aire son más altas en los países de ingresos bajos y medios.
+-  La dispersión cruza exposición media anual a PM2.5 y PIB por habitante del mismo año. Permite comparar países sin estimar muertes atribuibles ni identificar una relación causal.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000?tab=map">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/pm25_ingreso.html?embed=1" title="Exposición a PM2.5 e ingreso por habitante" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Los países desarrollados son los que más contaminan.
+-  La figura compara emisiones territoriales de CO₂ por habitante. Debe distinguirse esta medida de las emisiones totales y de la contaminación local del aire.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/co-emissions-per-capita">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/co2_por_persona.html?embed=1" title="Emisiones territoriales de CO₂ por persona" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -82,47 +72,39 @@ grid.raster(Environment_Emissions_Income_Group, interpolate=FALSE)
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Las tasas de mortalidad por contaminación del aire son más altas en los países de ingresos bajos y medios.
+-  Las emisiones territoriales anuales de CO₂ de estos países se expresan en millones de toneladas. Un total nacional y una cantidad por habitante responden a preguntas diferentes.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=chart&country=CHN~USA~IND~GBR~KOR~JPN">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/co2_total.html?embed=1" title="Emisiones territoriales anuales de CO₂" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Instituciones y políticas influyen en emisiones.
+-  Estas series permiten comparar emisiones de SO₂ y el registro de metas ambientales. Una meta anunciada, un cambio de emisiones y el efecto causal de una política son objetos distintos.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/so-emissions-tonnes-per-year">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/so2_paises.html?embed=1" title="Emisiones de dióxido de azufre por país" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Instituciones y políticas influyen en emisiones.
+-  Estas series permiten comparar emisiones de SO₂ y el registro de metas ambientales. Una meta anunciada, un cambio de emisiones y el efecto causal de una política son objetos distintos.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/so2_regiones.html?embed=1" title="Emisiones de dióxido de azufre por región" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**Contaminación del aire**</span>
+<span style="color:blue">**Contaminación, exposición y emisiones**</span>
 
--  Instituciones y políticas influyen en emisiones.
+-  Estas series permiten comparar emisiones de SO₂ y el registro de metas ambientales. Una meta anunciada, un cambio de emisiones y el efecto causal de una política son objetos distintos.
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/net-zero-targets?country=SVN~MCO~ECU~AFG~GMB~PER~BGR~SEN">
-
-</iframe>
+<iframe width="100%" height="650" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1" title="Situación de metas de emisiones netas cero" loading="lazy"></iframe>
 
 ## Factores
 
-<span style="color:blue">**La contaminación del aire exterior tiende a aumentar con la industrialización antes de disminuir**</span>
+<span style="color:blue">**Hipótesis de la curva ambiental de Kuznets**</span>
 
 - El concepto se basa en la relación entre la desigualdad de ingresos y el desarrollo económico descrita por Simon Kuznets. 
 
@@ -136,11 +118,9 @@ grid.raster(Environment_Kuznetz, interpolate=FALSE)
 
 ## Factores
 
-<span style="color:blue">**La contaminación del aire exterior tiende a aumentar con la industrialización antes de disminuir**</span>
+<span style="color:blue">**Hipótesis de la curva ambiental de Kuznets**</span>
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/air-pollution-london-vs-delhi">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/londres_delhi_particulas.html?embed=1" title="Partículas suspendidas: Londres y Delhi" loading="lazy"></iframe>
 
 ## Preferencias
 
@@ -208,7 +188,7 @@ grid.raster(Environment_China_India_Greening, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 - Análisis teórico y cuantitativo de regulación del medio ambiente
 - ¿Cómo asegurar consumo y crecimiento económico?
@@ -216,14 +196,13 @@ grid.raster(Environment_China_India_Greening, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 - Modelo de crecimiento con restricciones medioambientales, donde se produce un
 único bien con insumos sucios y limpios e introducen un cambio tecnológico
 endógeno y dirigido
 
-- La política óptima consiste en impuestos al carbón y subsidios a la I&D de
-energías limpias temporales que dirigen la innovación al sector limpio
+- En el modelo, impuestos al carbono y subsidios a la I+D orientan la innovación al sector limpio. Cuando los insumos son suficientemente sustituibles, una intervención temporal puede sostener el crecimiento. [Acemoglu et al. (2012), resumen](https://www.aeaweb.org/articles?id=10.1257/aer.102.1.131).
 
     -    Crecimiento sustentable es posible
     -    Los insumos son sustitutos
@@ -232,7 +211,7 @@ energías limpias temporales que dirigen la innovación al sector limpio
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -244,7 +223,7 @@ grid.raster(Environment_Acemoglu_1, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -256,7 +235,7 @@ grid.raster(Environment_Acemoglu_2, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 - Herramientas: impuesto de carbono (carbon tax) y subsidio a la investigación
 
@@ -268,7 +247,7 @@ grid.raster(Environment_Acemoglu_2, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -280,7 +259,7 @@ grid.raster(Environment_Optimal_Policy, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
     
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -292,7 +271,7 @@ grid.raster(Environment_Welfare_Costs, interpolate=FALSE)
 
 ## Políticas
 
-<span style="color:blue">**The Environment and Directed Climate Change (Acemoglu, Aghion; 2012)**</span>
+<span style="color:blue">**The Environment and Directed Technical Change (Acemoglu, Aghion, Bursztyn y Hemous; 2012)**</span>
 
 - Es más costoso intervenir mañana que intervenir hoy
 
@@ -375,3 +354,5 @@ grid.raster(Environment_Tax_Strategies, interpolate=FALSE)
     -    Ventaja: es fácil de implementar y existe cierta diferenciación entre emisores
     -    Desventaja: no es la mejor opción para identificar a los mayores emisores
 
+
+<!-- RECURSOS_ESENCIALES_20261112 -->

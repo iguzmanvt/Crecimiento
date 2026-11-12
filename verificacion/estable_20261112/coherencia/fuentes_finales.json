@@ -1,0 +1,164 @@
+[
+  {
+    "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+    "baseline_sha256": "bd8b84e1108c08b4648209778053c2e8798f9131cff9d77be9be2267a09507d4",
+    "final_sha256": "682503d5beb6e17f5c8f0075290ce3dc3f71299b097790ab85e713b9446bf6bc",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+    "baseline_sha256": "0315cbe8875e1f0fe0158b66d031681ea5cb754dc4f99a86ea1b3e95061b9318",
+    "final_sha256": "cace57cd02c6a58445cbf03f665c71341b47224208ec2ebe11a498f2894037b4",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+    "baseline_sha256": "44b85260dd1bfea7fb6bd59ccef8a27f6edf2fec9302835506601842c1d004ad",
+    "final_sha256": "3e1204c32e7868d1f6f15e607bcc9d3fa790e5b53ec6f6c05b56e223dd3a73e7",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+    "baseline_sha256": "57e0fad1a025094e72f06a6bad6d29327ec8026345a5fb51893a29c3f5960e37",
+    "final_sha256": "b36f0b8cdc238f171de9ff05b4c78a9de037244bacdd1bf3656f1c783858b88a",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+    "baseline_sha256": "b5b50975d937139bdd1a08dcdd54ac591eba82fe6b20bdbd64e78fbfe5169066",
+    "final_sha256": "ac5632195cd645ca417de8190cfda7722caae45ae7d6c180c0deb9aa7894a4d7",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+    "baseline_sha256": "022c380094d168c191ec1c2f85ee6c0763e177600ac70117937ad87095cdead7",
+    "final_sha256": "8e1293cd9e02b77262307fba907e9448629b31a95ab6795ad287144df616e04e",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+    "baseline_sha256": "5b57dbb892233273d58b2cdf362fc4875f71cfc2cbca087e5c519f17bec35f9b",
+    "final_sha256": "004846644744f0a3deac7b8d77fd52eadee3f110a0bb527fbce495089da2ef7e",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+    "baseline_sha256": "87cd1bb05ba39c5ffcf157b0f81148ca410033aec05772d800d4e1529b952dbf",
+    "final_sha256": "b0d7c3b7dbf7b0f65cea4812a4e21f3d2d64fbebbcc8f3a6b3ec313aeae15e39",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "baseline_sha256": "5b595cbb264527aa90f95d843faca968836df2518fda16654695daf88822dff8",
+    "final_sha256": "13ec228b651a4c37d6f1eec47ad66621992b83445b7e2a23609b0effd2a58238",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "baseline_sha256": "781c9eaa8e14b929a8f56e702313dd848fe20f28c41c4551c0135fbc41f3ee89",
+    "final_sha256": "3e77a8e74109a6f4408d4cf64a4c1e74a4604a0239b12f5d02f6ca0ab1ba5bd9",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "baseline_sha256": "67ce6f836410f84f8d1fe0c40f9cfbf30cc90f6ac766b4eda2199a4770cb79e5",
+    "final_sha256": "3f0610bb8dd75c39d32ace3c12c6d51a26f02b3e7ef1a970cdb7fbe767146f7b",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "baseline_sha256": "038b08dfae6cf64de17b651c5e8bd0706e82a360d3a4476cc745910ab2afadc9",
+    "final_sha256": "e227644275f6d50ecf0487ba24ec04eaf2cfd05ff3d3b785d2e15b4bbb6841a0",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+    "baseline_sha256": "038b08dfae6cf64de17b651c5e8bd0706e82a360d3a4476cc745910ab2afadc9",
+    "final_sha256": "e227644275f6d50ecf0487ba24ec04eaf2cfd05ff3d3b785d2e15b4bbb6841a0",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+    "baseline_sha256": "85b564bd13e77c4b3171a9dad2bd8ac14577324d92f807d8172963f7781b7249",
+    "final_sha256": "650e54c92a426db35ca83c67db3f4227c25b14130fbc55ec50750e9590f912d6",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+    "baseline_sha256": "610aa1333d5c641f3adce6e4bde20625abab56ec6107db58d8c3584cf62d6af1",
+    "final_sha256": "c68078815e38455bea9a28af40c5315073c57340976f364be96dc1fa0db24484",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+    "baseline_sha256": "610aa1333d5c641f3adce6e4bde20625abab56ec6107db58d8c3584cf62d6af1",
+    "final_sha256": "c68078815e38455bea9a28af40c5315073c57340976f364be96dc1fa0db24484",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "baseline_sha256": "55f59ec426eb3297a18255a01d095f206870fca2d35584414ca3c43b5bf16c30",
+    "final_sha256": "82e341e95e122fe396e9139f5735b02641f4059aa06950bbdb78119b485ebff3",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+    "baseline_sha256": "d883e1976add82df00f45e29bf1cd12e0b25de878b07653d5f63ad5bd89223e6",
+    "final_sha256": "3030cbd86eaa846127833a035e479799a38063b8f3d509eaa3d1174be5d8f09d",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+    "baseline_sha256": "1bf8cae68a70638c4c952bdaf49aa649e8702c0ac0b9ffd760325c719ffbf988",
+    "final_sha256": "70ba3af1573f06af4824e0dde089a8c02109098e71468549dec1f4ec5e52c0dd",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+    "baseline_sha256": "2a0bfc6ba70cba3b78ac47bab9c75584bf3833c6840d4fa6b12735493f53bc9e",
+    "final_sha256": "6fcd1e8c41d09055f05ce12a4bed804eb7d5acf3943dd18574b1d674862b7fc2",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+    "baseline_sha256": "473d686d3571915baa3d78d2ded0f878a0f583cc418de2b73e78b46d7121bebe",
+    "final_sha256": "ad0da86bcc8d5e49656520b19b38cb5415b139e18f887bdf5b89afb2078a47ff",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+    "baseline_sha256": "148ff0b11f548de34717a824e51bf5fe66e90082ed42ecdf5208803b58fda3dc",
+    "final_sha256": "d4921e29692797e429f62b92336843c676adde4d622e66898ebb803e5fd8b884",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+    "baseline_sha256": "fbc14bdee0df19d58460245fc262169d39e0816e4405c70948c320521828ca71",
+    "final_sha256": "71a2851731225b59043d00ab090b7d2fda5885eb2d8d6a096fe5e1bb8745a683",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+    "baseline_sha256": "1b965b5427b53d51402dcdf2ef92c39ae8444ac4f7cc6813b8b0cd52ed1a4bf5",
+    "final_sha256": "60995b7acf2191fc4aebe4561f42354df9f5a5956a3c0d7072a68178c85f148b",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+    "baseline_sha256": "0ead03215e6337c3b734faa36ab33a7db4162d0a89b98273b074082faded70e8",
+    "final_sha256": "8a385b9e192f9cb42a6d42330030cbec428da42f04d54fd98da2af4ebd7f906b",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "baseline_sha256": "107ea4a4ca40a8841d22375e3495ce32e5b2b0819e3b4956bd74e3ba2b9105ab",
+    "final_sha256": "8191b00cf43d66645f752b1b5dc890b85ed11fc4ed3e08ff8eb0b68b26b0bb26",
+    "R_chunks_preserved_from_baseline": true
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "baseline_sha256": "fb94b2f11c16ed8bf49fea68ccbea14842b8a8bb108a941333238d254fd2cb3a",
+    "final_sha256": "8564ec7505acf074cbeeb23f1b0aa4876a6c88f210d3dac4301d5770d0fb1c80",
+    "R_chunks_preserved_from_baseline": true
+  }
+]

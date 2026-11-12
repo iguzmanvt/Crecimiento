@@ -140,7 +140,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Estas dos tendencias se vinculan a través de la forma en que se mide el crecimiento de la productividad.</p>
 
 <ul>
-<li><p><strong>Una participación laboral decreciente</strong> (y una participación de ganancias creciente en el PIB) necesariamente conducirá a una <strong>disminución en el crecimiento de la medición de la productividad, incluso si la innovación no cambia.</strong></p></li>
+<li><p><strong>Una participación laboral decreciente</strong> puede modificar el <strong>residuo de productividad calculado con participaciones del ingreso, aun manteniendo fija la innovación. La dirección depende del crecimiento de los insumos y de los demás supuestos.</strong></p></li>
 <li><p>La razón es que, <strong>si las empresas tienen un poder de mercado cada vez mayor</strong>, entonces están <strong>utilizando los insumos de manera menos eficiente desde una perspectiva agregada</strong>, y la medida de la productividad en la contabilidad del crecimiento refleja la eficiencia con la que las empresas usan esos insumos.</p></li>
 <li><p><strong>Por lo tanto, un mayor poder de mercado, influyendo en la disminución de la participación laboral afectará en la medición del crecimiento de la productividad.</strong></p></li>
 </ul></li>
@@ -154,7 +154,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>La <strong>productividad medida</strong> está <strong>influenciada mecánicamente por la cantidad de trabajo y capital que utilizamos</strong>.</p></li>
 <li><p><strong>La función de producción del PIB utiliza insumos de forma distinta a como se incorpora en la fórmula de contabilidad de crecimiento para obtener la productividad.</strong></p></li>
 <li><p>La baja participación del trabajo implica que la <strong>contabilidad del crecimiento subestima el papel del trabajo en la producción</strong>, por lo que se sobreestima el rol del capital, atribuyendo erróneamente algo del crecimiento de la productividad a la acumulación de capital y, por lo tanto, el crecimiento medido de la productividad es menor.</p></li>
-<li><p>Por último, <strong>a medida que la participación laboral en los ingresos disminuye, también lo hace el crecimiento de la productividad medida porque que el capital tiende a acumularse más rápido que la mano de obra.</strong></p></li>
+<li><p>En la contabilidad convencional, \(g_{A}^{med}=g_Y-(1-s_L)g_K-s_Lg_L\). Manteniendo fijas las tasas de crecimiento de producto e insumos, \(\partial g_{A}^{med}/\partial s_L=g_K-g_L\). Por ello, si \(g_K&gt;g_L\), una menor participación laboral reduce ese residuo. Esta comparación mecánica no determina el efecto total de una reforma ni equivale a un cambio tecnológico.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Propiedad de invarianza del Residuo de Solow</h2></hgroup><article  id="propiedad-de-invarianza-del-residuo-de-solow-2" class="smaller ">
@@ -567,14 +567,13 @@ Manufacturing and Service Sector Roles in the Evolution of Innovation and Produc
 </slides>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+<!-- CRECIMIENTO_MATHJAX_LOCAL_BEGIN -->
+<script id="crecimiento-mathjax-config">
+window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]], "processEscapes": true}, "svg": {"fontCache": "local"}, "options": {"enableMenu": false}};
 </script>
+<script id="MathJax-script" defer src="../../../vendor/mathjax/es5/tex-svg-full.js"></script>
+<style id="crecimiento-mathjax-style">mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}</style>
+<!-- CRECIMIENTO_MATHJAX_LOCAL_END -->
 
 <!-- map slide visiblity events into shiny -->
 <script>

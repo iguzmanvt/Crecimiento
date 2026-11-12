@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "markdown": "material_consulta/Accounting.md",
+      "html": "material_consulta/Accounting.html",
+      "sha256": "9a78dc693e4ec3327996e40693232283d0ab39ae34bcabcd4f35fc8e3be7e1a4"
+    },
+    {
+      "markdown": "material_consulta/Competition.md",
+      "html": "material_consulta/Competition.html",
+      "sha256": "cd1323c2f4fa2358bfa7b8082159dfeafc47da329c50b053f0cf96c5c077b3e8"
+    },
+    {
+      "markdown": "material_consulta/Convergence.md",
+      "html": "material_consulta/Convergence.html",
+      "sha256": "e91b7c429fd2b3d06169c42f064bb96a9a03f116afc562a2f08890e7f88c40e7"
+    },
+    {
+      "markdown": "material_consulta/EDICION_ENUNCIADOS.md",
+      "html": "material_consulta/EDICION_ENUNCIADOS.html",
+      "sha256": "e4d9bee5007a77b0df164462b5b07497a3587b53c6326508d277d5ebdcf79144"
+    },
+    {
+      "markdown": "material_consulta/Energy.md",
+      "html": "material_consulta/Energy.html",
+      "sha256": "ed42ba4d7124f9a5e06537dd703dda1700007dacb9e64eb9639608f6fa2fd0f5"
+    },
+    {
+      "markdown": "material_consulta/Environment.md",
+      "html": "material_consulta/Environment.html",
+      "sha256": "ac6d6602d0478e179d5e00e45ffd672db09b381deb67c9e0fca0e49a7b48b60d"
+    },
+    {
+      "markdown": "material_consulta/Ideas.md",
+      "html": "material_consulta/Ideas.html",
+      "sha256": "5334019150d8f162fb53cf706b58ad896d20085c428e0aa460e472cc1f0eb1d5"
+    },
+    {
+      "markdown": "material_consulta/Introduction.md",
+      "html": "material_consulta/Introduction.html",
+      "sha256": "1d36b085b7d75434bd878c1d0b557f271212cf9a1ffebb1774706b025b204af5"
+    },
+    {
+      "markdown": "material_consulta/Labor.md",
+      "html": "material_consulta/Labor.html",
+      "sha256": "a41565c4560d6578aaf81a609ec269d0e5d2dd18dc2a7694f57b2c29b92ebd81"
+    },
+    {
+      "markdown": "material_consulta/Labor_2.md",
+      "html": "material_consulta/Labor_2.html",
+      "sha256": "1fa955793dea1aaf76e412d52f142a3f6c142345b6a5f0580561d4cf1f457abb"
+    },
+    {
+      "markdown": "material_consulta/Patents.md",
+      "html": "material_consulta/Patents.html",
+      "sha256": "f260f91abaf5627a73ee2a112cc1e553357e5637da0946062ea357b02bc6e204"
+    },
+    {
+      "markdown": "material_consulta/Pensions.md",
+      "html": "material_consulta/Pensions.html",
+      "sha256": "bbe2dad8ac2a0b6b221baf58b2db6fcc2ab61a487228911c5e3ee0c9d9ae98b5"
+    },
+    {
+      "markdown": "material_consulta/README.md",
+      "html": "material_consulta/index.html",
+      "sha256": "1bbb59c1adf9d3e179de26862683ad585e5836604a1bf6441734b42c35263f09"
+    },
+    {
+      "markdown": "material_consulta/Slowdown.md",
+      "html": "material_consulta/Slowdown.html",
+      "sha256": "cc822e861093e2414dec17334182892182e9b73d87e44cb49359d7f0446e151b"
+    },
+    {
+      "markdown": "material_consulta/Solow.md",
+      "html": "material_consulta/Solow.html",
+      "sha256": "7b3f212abcab6a7812954058a0742e470d27c0df638f7b30e4209cf84c4602a8"
+    },
+    {
+      "markdown": "material_consulta/Structural_Transformation.md",
+      "html": "material_consulta/Structural_Transformation.html",
+      "sha256": "8040bf6d66a11c56d051968dcaa13e9324672e4f544e976078f8bf48ebd1fbd4"
+    },
+    {
+      "markdown": "material_consulta/tareas/README.md",
+      "html": "material_consulta/tareas/index.html",
+      "sha256": "fd0c518d4a1637d1bcc6452283289fae0e297eb93165e532f1f87d1836af3d63"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_1.md",
+      "html": "material_consulta/tareas/Tarea_1.html",
+      "sha256": "8738f3d214aeb5d3e4353b48f68b0a4d20c9f6f2082b1ad2697f283bc249073e"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_2.md",
+      "html": "material_consulta/tareas/Tarea_2.html",
+      "sha256": "f720b3d19f000ee56b3b040b3c9173ea4cd978afcfc8f5f46d1f568b5dcbda34"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_3.md",
+      "html": "material_consulta/tareas/Tarea_3.html",
+      "sha256": "85a9936bc38506deeaf26a0acb28708d5ad30af1feb6e8243be6c113dd0084a5"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_4.md",
+      "html": "material_consulta/tareas/Tarea_4.html",
+      "sha256": "07c9ca7e6b851e4ad4f2aa3393ce4df2c90ec38c6f2069043109dcb945106c59"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_5.md",
+      "html": "material_consulta/tareas/Tarea_5.html",
+      "sha256": "c21fbbd0f700e3033cb3630f6dfb85af51ec9d29a18daff9f478f6a1471a81e1"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_5_variante.md",
+      "html": "material_consulta/tareas/Tarea_5_variante.html",
+      "sha256": "5b7b5ed440e0cb7e943e64f7a63244349aef85f37b01ddda8e50192779afeb43"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_6.md",
+      "html": "material_consulta/tareas/Tarea_6.html",
+      "sha256": "ab243798b2d02af2296afa5c45899b1fabd402b330f8dec99fb5c3edab0547b8"
+    },
+    {
+      "markdown": "material_consulta/tareas/Tarea_7.md",
+      "html": "material_consulta/tareas/Tarea_7.html",
+      "sha256": "77576b3036cb4c4de757ea306fd866787a680b73196202c78078310f22a3a4a7"
+    },
+    {
+      "markdown": "material_consulta/Taxes.md",
+      "html": "material_consulta/Taxes.html",
+      "sha256": "9c558dd93110ed40a35df2f35391783080ed2683e1aad4b467314c1f593093da"
+    },
+    {
+      "markdown": "material_consulta/Technological_Diffusion.md",
+      "html": "material_consulta/Technological_Diffusion.html",
+      "sha256": "e9f37134880b2015cc302beec6e8e3ac4e2dac004ee3d76e5be248b083202ac2"
+    }
+  ]
+}

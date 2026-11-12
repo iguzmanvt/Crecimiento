@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-12",
+  "count": 17,
+  "environment": "Windows, Chromium Playwright, file://, solicitudes HTTP(S) bloqueadas",
+  "records": [
+    {
+      "slug": "iguzmanvt-150",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "686b20df12d25b09007beebb08a7c1fe6f5da9364610cedaf84e64882fdbdb6c",
+      "svg_sha256": "b601251ea8f2ec6709bf180c18c07205e0bae13837178607786f536a86038988",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-152",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "fec049cfc988354e747c33bcb8d29f6308721d53ed119185ba6d37ac2bfb6c16",
+      "svg_sha256": "007ebaed02425b4b3ee4791c61e8e19815d615f6a81510260634cfa8f15f43e4",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-66",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "c8ba0cc45f6dc03db6735a907bdda15a801faeab51f4829cb936bdcf05c7fb02",
+      "svg_sha256": "a35d955bad04f2beb66f7a63f947c630da60eea540c70148bda6b19f3725c98a",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-154",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "4009eaf60bd51709fe234a679b5c7c29b28cdb5d1fda496d812ce6322275d6d9",
+      "svg_sha256": "6d89b42bc642450b0fd6e19e8c772d5d926efe5ff6071bc3f3ba2b4cb06a4162",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-170",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "04c0b6beffedd6a7509fdbb179a7e918544183c6e7018285d1c06af62c7cc836",
+      "svg_sha256": "cd9c5a7764232d4300aafeaa1a6de0475f2b3830fdb418be813a0b9f6a139454",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-172",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "147774e6e524ea9f50bae3c6d80badbb12d06fb4d72304503281a038d8d23a51",
+      "svg_sha256": "d5892998586b482b4368be3ae8af1a0c49497ba0a5fa8e2b5c85e3e258d926b0",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-174",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "a03e45def6f0bda61c7873cedb4741ff4023794a5d18ec34bf99e6f45f69875d",
+      "svg_sha256": "9dca5e04ef05241ebdfdd572f6d71b841a6eced7d478ffdd86c4e2f107de77a1",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-176",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "8065339199fd26085349ad97cd7410b0c3eba3950e79265c44b9994032925d55",
+      "svg_sha256": "7cd3dc9daefd22247ac8048cf8140734110d92328351c34ceea7c0100d52e5a5",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-202",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "6baf7c9f3ec3aa4a44f634588d0073c6e13a92d1884d7313635d2dc09ecf6f04",
+      "svg_sha256": "e67f2d18e942164ef0a3da3ee5a6b412d195088bf4dfd424712515d11370eef0",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-205",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "9951b0d3e5d98173a85ebae4341c1dda94b441644011f8fd36653da4d4291442",
+      "svg_sha256": "830fe8eef9a31660e5f8c116d187e2102ef76587407dcf32ac3b5de5134c30d1",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-207",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "3b0f442862406047c13780d4568082b1f25e67d42732d973565382cc24251554",
+      "svg_sha256": "8ce944237b685ff60a5721fce9cca534e05560df220c2c2ba499f87226344845",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-209",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "48d824b5d7644e8f3e028d7b5a448538b98efeaad12be7f532acc611e8f20b83",
+      "svg_sha256": "2c01f6cbe34b2aba1f8b1d26a7dd29081aff7520de1c8b6a70c50a7e35c05093",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-156",
+      "traces": 5,
+      "frames": 0,
+      "png_sha256": "3900a59629f9bc95216ba71d2df7d16c09d7f908b01dbe50715ac4811a0c999f",
+      "svg_sha256": "3593c5b5cb9267f2e7548a15156eeab55f2e7a8fcb411b4e92dc2f26f9e179fa",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-158",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "8584a0fcecd6f664a8a6931a1d3e1415676c581062d164cfcdac776a33af9283",
+      "svg_sha256": "e1856e668d0fde5db4ca41448a3593ec84163e8862e60298b3fb1f4242218c9a",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-168",
+      "traces": 1,
+      "frames": 0,
+      "png_sha256": "f353c12e7855e150b300967c7c341b52e090022d78c98956c9db96761d564cdb",
+      "svg_sha256": "9122bee3dc5810e5bcd13a5f2350ff85a1acf39ca62287f0063869d33c66f3d0",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-118",
+      "traces": 6,
+      "frames": 0,
+      "png_sha256": "397faa812864f6ae675269be29a597ad27fa438407ad8ecc8f76b881418ecac2",
+      "svg_sha256": "3854599cc97579af043045b51e2bee228b4384598525ea1a2d0ba0eeea4e2b44",
+      "network_blocked": true
+    },
+    {
+      "slug": "iguzmanvt-160",
+      "traces": 1,
+      "frames": 7,
+      "png_sha256": "41b50a162a5a5686c4f99db834546399ac4eeb4e2b96e433e40be061ed67a0ca",
+      "svg_sha256": "ecee9478c367695ae4c03f0e95bb20fc2b70d8216969b509e96361272e24d8b5",
+      "network_blocked": true
+    }
+  ]
+}

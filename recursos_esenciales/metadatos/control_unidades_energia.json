@@ -1,0 +1,54 @@
+{
+  "url": "https://api.ourworldindata.org/v1/indicators/1293798.data.json",
+  "retrieved_utc": "2026-11-12T17:54:40.097098+00:00",
+  "sha256": "5b347e4ad477c42095a2bd923357e2a74939e0992cb82a2d57a9e2fed177cb46",
+  "indicator": 1293798,
+  "entity_id": 13,
+  "observations": [
+    {
+      "year": 2015,
+      "entity": 13,
+      "value": 6789.6475
+    },
+    {
+      "year": 2022,
+      "entity": 13,
+      "value": 6512.098
+    },
+    {
+      "year": 2023,
+      "entity": 13,
+      "value": 6364.4673
+    }
+  ],
+  "graph_csv": [
+    {
+      "Entity": "United States",
+      "Code": "USA",
+      "Year": "2015",
+      "Energy use per capita": "78963.60042500001",
+      "GDP per capita": "64367.72",
+      "Population": "326126496",
+      "World region according to OWID": "North America"
+    },
+    {
+      "Entity": "United States",
+      "Code": "USA",
+      "Year": "2022",
+      "Energy use per capita": "75735.69974000001",
+      "GDP per capita": "72828.74",
+      "Population": "341534041",
+      "World region according to OWID": "North America"
+    },
+    {
+      "Entity": "United States",
+      "Code": "USA",
+      "Year": "2023",
+      "Energy use per capita": "74018.75469900001",
+      "GDP per capita": "74351.67",
+      "Population": "343477330",
+      "World region according to OWID": "North America"
+    }
+  ],
+  "method": "CSV del grapher convertido por factor 11.63 a kWh; datos del indicador base se mantienen en kg de equivalente de petróleo."
+}

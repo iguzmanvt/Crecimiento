@@ -1,0 +1,335 @@
+{
+  "status": "passed",
+  "views": 21,
+  "files_compared": 65,
+  "network_used": false,
+  "environment": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "scope": "Regeneración de datos y vistas esenciales desde insumos archivados; no autentica objetos remotos históricos ni vuelve a exportar PNG/SVG.",
+  "results": [
+    {
+      "path": "README.md",
+      "bytes_identical": true,
+      "sha256": "17e20a89833df8e8b03eb0e9bf24f1970aa31bfa8a757a3fe32c0292030bf212"
+    },
+    {
+      "path": "catalogo.json",
+      "bytes_identical": true,
+      "sha256": "cc0c96da9d5b54726fd9db226bc7f2476cec3f4ab8994e8a5f48d1dfa2344894"
+    },
+    {
+      "path": "datos/co2_por_persona.csv",
+      "bytes_identical": true,
+      "sha256": "2c204e9a1a2d7e3e5b462e8727cdd008a8ca3d85981a465b066622fbf9703904"
+    },
+    {
+      "path": "datos/co2_por_persona.json",
+      "bytes_identical": true,
+      "sha256": "26872cffa4273d694cba06061ff4cfb5daafc3899cc18b1786b0507c4e2fbe58"
+    },
+    {
+      "path": "datos/co2_total.csv",
+      "bytes_identical": true,
+      "sha256": "62e3b4697d7a163c111e0f0a3e9d2d82ebf3c41ae5cafed4a474b96dd6b70338"
+    },
+    {
+      "path": "datos/co2_total.json",
+      "bytes_identical": true,
+      "sha256": "2a23de6719e35e1c1627adedf8f8f39824123f95c61edb5b003fdbcecc827f9a"
+    },
+    {
+      "path": "datos/empleo_femenino.csv",
+      "bytes_identical": true,
+      "sha256": "b3237547c199b15dc1edee09895c78259c90a2289d88a5efc2e66b511d698183"
+    },
+    {
+      "path": "datos/empleo_femenino.json",
+      "bytes_identical": true,
+      "sha256": "fa6f6ab47ca8e0328b5d60c3503334d69748ed1d6fe0857064574cb2f1fd12d6"
+    },
+    {
+      "path": "datos/energia_ingreso.csv",
+      "bytes_identical": true,
+      "sha256": "6eb6645d75d3bf51480b4b70c2df34c9a24ef295788e5913fbf0115df183b3c4"
+    },
+    {
+      "path": "datos/energia_ingreso.json",
+      "bytes_identical": true,
+      "sha256": "e08b2dc81d0087b96851874332cae1a5d8c49890039c58fb3a9a93746452eb9d"
+    },
+    {
+      "path": "datos/energia_por_persona.csv",
+      "bytes_identical": true,
+      "sha256": "c3ef5f63a3164790c6119d372f26687f94dd66891ffe46e8873c14f5acc26656"
+    },
+    {
+      "path": "datos/energia_por_persona.json",
+      "bytes_identical": true,
+      "sha256": "a6a815fe658102bbb57fd148cad4ffd2a6a9828c1c0fd8911dba5baeed38bb11"
+    },
+    {
+      "path": "datos/energia_total.csv",
+      "bytes_identical": true,
+      "sha256": "fb6db7de74c461fb036bcd9d15a4ace77a4c03d492df085c11991a145e95138c"
+    },
+    {
+      "path": "datos/energia_total.json",
+      "bytes_identical": true,
+      "sha256": "cd566e1b4d6470e3617818f49ce870586bb45fd6d979a95fba48a37b973d2443"
+    },
+    {
+      "path": "datos/fecundidad.csv",
+      "bytes_identical": true,
+      "sha256": "78c90292e3f2be8e542243d36e63243aa6f9dc1e5c874064ae013be8f0ad6ebf"
+    },
+    {
+      "path": "datos/fecundidad.json",
+      "bytes_identical": true,
+      "sha256": "91d0682ff3f76b3a7929e32c5db2a93d6ac2dd84f1fb62a96b490e30f8008613"
+    },
+    {
+      "path": "datos/fecundidad_ingreso.csv",
+      "bytes_identical": true,
+      "sha256": "9b80a99810625ddd3aa56436ebead9af6b80299272c85152c285d1351b9cc9c9"
+    },
+    {
+      "path": "datos/fecundidad_ingreso.json",
+      "bytes_identical": true,
+      "sha256": "6f84d76b4591a963b889fdc2d58f1bfc87eeeaa9656a161a1c0a0c3a9d786cc9"
+    },
+    {
+      "path": "datos/londres_delhi_particulas.csv",
+      "bytes_identical": true,
+      "sha256": "3991822c8950fd4d33c91a780ad5326342405a3d47dad29b41456d6e2884d4f2"
+    },
+    {
+      "path": "datos/londres_delhi_particulas.json",
+      "bytes_identical": true,
+      "sha256": "936e22bc6c64fa2fdcaf37dd443dd49adb67efd2b44f80a65989c8db8b59cd95"
+    },
+    {
+      "path": "datos/longevidad_ingreso.csv",
+      "bytes_identical": true,
+      "sha256": "4e96c95f3c295601375eff243ee89d3fc604c3a1aad7465c8e143abaceab8c32"
+    },
+    {
+      "path": "datos/longevidad_ingreso.json",
+      "bytes_identical": true,
+      "sha256": "940d40b2114775482bca564e6cd0adee719b446c48b4a03313ce1c5be6673b65"
+    },
+    {
+      "path": "datos/metas_neto_cero.csv",
+      "bytes_identical": true,
+      "sha256": "e0845046416d50346671bea727cc5612c133d0c32b9fc7b25824bcb99ea3a3f6"
+    },
+    {
+      "path": "datos/metas_neto_cero.json",
+      "bytes_identical": true,
+      "sha256": "197c0bbc21ac48264b2a3c102ba8c24a5e4d312a251396e134066b137d2b4e29"
+    },
+    {
+      "path": "datos/natalidad.csv",
+      "bytes_identical": true,
+      "sha256": "8c34b658307e71b0b34092f28cee7e7e57389c0d8662749959e3556e7fec6770"
+    },
+    {
+      "path": "datos/natalidad.json",
+      "bytes_identical": true,
+      "sha256": "3bae7eab4449149a84c1fc9c71b4e5f0ca66301bbc9060d995b7ad1f402c4e84"
+    },
+    {
+      "path": "datos/participacion_femenina_ingreso.csv",
+      "bytes_identical": true,
+      "sha256": "463c929c73655cda61fdafc933a3cd4340c13e9f4bb7c31bdb1beedc09c2b0ab"
+    },
+    {
+      "path": "datos/participacion_femenina_ingreso.json",
+      "bytes_identical": true,
+      "sha256": "20ea7bfe87a04291a4798b456a4737d75938a1b09de17f4a85902636f0ecbe44"
+    },
+    {
+      "path": "datos/participacion_relativa_mujeres.csv",
+      "bytes_identical": true,
+      "sha256": "a9058d5fe54080ff7e614c2b03e9899dd4df5cdea9aad151241842184598f848"
+    },
+    {
+      "path": "datos/participacion_relativa_mujeres.json",
+      "bytes_identical": true,
+      "sha256": "64e3aa0c05f4165db4f118cd906e3a73af7e8e1ee75c52f2ad8a6e7a185bac9d"
+    },
+    {
+      "path": "datos/pm25_comparacion.csv",
+      "bytes_identical": true,
+      "sha256": "52d150fa93029950226c46a6f9f4b1882c53138bb6438d1f8567c918d9befa9b"
+    },
+    {
+      "path": "datos/pm25_comparacion.json",
+      "bytes_identical": true,
+      "sha256": "a216bb61af55bd5ef0022d59f673e360a8bf6f3300a6923e44e0fd56d773f76d"
+    },
+    {
+      "path": "datos/pm25_ingreso.csv",
+      "bytes_identical": true,
+      "sha256": "2655342640b46f3528383995faf94e6343f7702aaa7be8f6882abf25e3c0d2af"
+    },
+    {
+      "path": "datos/pm25_ingreso.json",
+      "bytes_identical": true,
+      "sha256": "e8959cdedf644af7848f61796c5daa2a482c071f1f27618a803867554480646d"
+    },
+    {
+      "path": "datos/pm25_mundo.csv",
+      "bytes_identical": true,
+      "sha256": "5331f86df33267ee97430abbe4fb82b91ca7759161afa133333da267d6c47edf"
+    },
+    {
+      "path": "datos/pm25_mundo.json",
+      "bytes_identical": true,
+      "sha256": "71eef2fbce2a614b6d457d35c8279cd21c5f5f1ef9a0fa5bf55c8e40293ef335"
+    },
+    {
+      "path": "datos/pm25_trayectorias.csv",
+      "bytes_identical": true,
+      "sha256": "fc41741a1ca730b02387541350e8a8482a51eaa936aa42499cd258948b3360d5"
+    },
+    {
+      "path": "datos/pm25_trayectorias.json",
+      "bytes_identical": true,
+      "sha256": "10e998cd9bfbcc95f941fe3cd75c47062c6e9a484bbb505a38ec06427a2ce753"
+    },
+    {
+      "path": "datos/so2_paises.csv",
+      "bytes_identical": true,
+      "sha256": "b331ba48be076f15aa397f903f96a667c404db1dc4ff1277f17e4ff642fd7c25"
+    },
+    {
+      "path": "datos/so2_paises.json",
+      "bytes_identical": true,
+      "sha256": "2ea9307f1f337bc7ad2950aada44c34ac974a4b1488fd948e8722aa56ba9da9c"
+    },
+    {
+      "path": "datos/so2_regiones.csv",
+      "bytes_identical": true,
+      "sha256": "e6368078291d202e1172819301456cf4b9320ca7cbd31207f9daad8471ae73b1"
+    },
+    {
+      "path": "datos/so2_regiones.json",
+      "bytes_identical": true,
+      "sha256": "f6a26c866f0bb4cb9ed311430049e40ee752746a8b165f0364f6f83adece12fa"
+    },
+    {
+      "path": "graficas/co2_por_persona.html",
+      "bytes_identical": true,
+      "sha256": "cd4c76e579b8c506a59e9f8724fdf50adb060e56576fbbcc4c4661dd050606ca"
+    },
+    {
+      "path": "graficas/co2_total.html",
+      "bytes_identical": true,
+      "sha256": "4abec5eb5861481c11899c554e1e2ed45d45a3fc05091d0c706417417a113ec9"
+    },
+    {
+      "path": "graficas/empleo_femenino.html",
+      "bytes_identical": true,
+      "sha256": "2e6d4166ca0a7fe786b42363afe6dbcb5c52f5adbf6f5f7b8bccdde5b5f5495b"
+    },
+    {
+      "path": "graficas/energia_ingreso.html",
+      "bytes_identical": true,
+      "sha256": "80c17ac9bce75af51823decbab84d32e12e73a634be0c678ae2f95cd37398b6d"
+    },
+    {
+      "path": "graficas/energia_por_persona.html",
+      "bytes_identical": true,
+      "sha256": "5a17fc468b6e84a6b6aab69025e46e77c53643ae2fc0277d1eaafc97ba4f370a"
+    },
+    {
+      "path": "graficas/energia_total.html",
+      "bytes_identical": true,
+      "sha256": "b12204694dcd0aecfbbd75ab4640e629d8e157826c2ba469f751c78810571018"
+    },
+    {
+      "path": "graficas/fecundidad.html",
+      "bytes_identical": true,
+      "sha256": "ee859d5f71426f69057375f9e8125601524ee0cb24c81d77a99d1c25a1750e6c"
+    },
+    {
+      "path": "graficas/fecundidad_ingreso.html",
+      "bytes_identical": true,
+      "sha256": "be1aaff41b6c30a5a91ddd476f9c83f297d226046c50ebf2ce83892704430ad5"
+    },
+    {
+      "path": "graficas/londres_delhi_particulas.html",
+      "bytes_identical": true,
+      "sha256": "6625fddb90255f44f0c07ea4c79cb23b2939f097e56925360c36bdb32851792a"
+    },
+    {
+      "path": "graficas/longevidad_ingreso.html",
+      "bytes_identical": true,
+      "sha256": "e495542f24076eca7c3730b052f6fe6eaa96c0c6dd1f9d5ce24d2a364be2cfc3"
+    },
+    {
+      "path": "graficas/metas_neto_cero.html",
+      "bytes_identical": true,
+      "sha256": "f2be1b8dd212dddb5ab47ec1cf40e3081cf7d190c5fcf0d1513ae7d5502b3ccb"
+    },
+    {
+      "path": "graficas/natalidad.html",
+      "bytes_identical": true,
+      "sha256": "5e4bba97518fc09224a9cb2f34a97b0922ec847ac429b2f2a07fdff764c6f749"
+    },
+    {
+      "path": "graficas/participacion_femenina_ingreso.html",
+      "bytes_identical": true,
+      "sha256": "cd2a28fc6c25795bfba424ec486a51120d698668f6b41d24e79c2df3c14539d5"
+    },
+    {
+      "path": "graficas/participacion_relativa_mujeres.html",
+      "bytes_identical": true,
+      "sha256": "754091dce1aaee5007a5a1927cfe72b5d17824bd364920f6d32721a432a5960c"
+    },
+    {
+      "path": "graficas/pm25_comparacion.html",
+      "bytes_identical": true,
+      "sha256": "6fc99bfd690b582c287472e1085844e67ef2f8054c72f43f52c91b1c983439ab"
+    },
+    {
+      "path": "graficas/pm25_ingreso.html",
+      "bytes_identical": true,
+      "sha256": "9054e3975908aedef6907e5ce9b255d783b2f8b5eefe84065c8ed58db6b7b7d0"
+    },
+    {
+      "path": "graficas/pm25_mundo.html",
+      "bytes_identical": true,
+      "sha256": "3a0af726a1a10d895aace8d7c5bb2cb5157a5cababecaecda9c5115ee2587534"
+    },
+    {
+      "path": "graficas/pm25_trayectorias.html",
+      "bytes_identical": true,
+      "sha256": "11adea1aed62320c77e67e2f0824f1ed24913a3e5dcf2151d6eca07d9cea5756"
+    },
+    {
+      "path": "graficas/so2_paises.html",
+      "bytes_identical": true,
+      "sha256": "9519155440484ddfda904f275beb161db76352df7f33f6d17626e573eaed6f5d"
+    },
+    {
+      "path": "graficas/so2_regiones.html",
+      "bytes_identical": true,
+      "sha256": "5169cc4d02865c6ba1025e010b8f4ad9c39e8be22fb92dc852f07f627bc76c55"
+    },
+    {
+      "path": "graficas/tasa_marginal_maxima_historica.html",
+      "bytes_identical": true,
+      "sha256": "aea847e2976c02d8e1a2a97a9f2562cc189486543fda69252de02cde58accf67"
+    },
+    {
+      "path": "index.html",
+      "bytes_identical": true,
+      "sha256": "c81bd7f054b9e5ab2679be01c4489ae1f1d015ac7d0f4117bdcd2b7c35f7f7d1"
+    },
+    {
+      "path": "recursos.css",
+      "bytes_identical": true,
+      "sha256": "ed711cf840557954ec4ae411f30821c92dc5107e7916cfaca9e5d587f5ac27f4"
+    }
+  ]
+}

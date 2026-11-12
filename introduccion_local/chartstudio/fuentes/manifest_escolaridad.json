@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "primary_source": "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt1001?lang=en",
+  "documentation": "https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf",
+  "source_note": "PWT yr_sch es promedio de años de escolaridad, no índice hc ni distribución individual; la captura es copia de StudyGuide del autor docente.",
+  "files": [
+    {
+      "path": "data/pwt1001_labor_detail.csv",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/data/pwt1001_labor_detail.csv",
+      "git_blob": "ee7a7c8017ff7ebce24bc03316493188db3f829c",
+      "sha256": "139b2f8eea2f56738b9266ea7abad3229e3a9511b692b27e850d924c15b2fa1b",
+      "bytes": 2479747
+    },
+    {
+      "path": "code/Guide_PWT_Human.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Human.r",
+      "git_blob": "43ea87d0388186e885399c8baa326ab0697218d8",
+      "sha256": "d2c0cbc90a2667d1a1c555e21e4098fad4384d7cfffa318ec06df39f836a51b3",
+      "bytes": 2510
+    }
+  ]
+}

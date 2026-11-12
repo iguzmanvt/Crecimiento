@@ -22,7 +22,7 @@ opts_chunk$set(echo = TRUE)
 
 - Es un conjunto de derechos.
 - Reconoce a alguien una invención y los derechos que de ella se derivan.
-- Otorga un monopolio temporal.
+- Otorga un derecho temporal y territorial de excluir usos de la invención protegida; su existencia no garantiza por sí sola un monopolio en el mercado.
 - **Relación con el crecimiento económico:**
     -    Permiten desarrollo de la ciencia.
     -    Motivan la inversión de algunas empresas.
@@ -83,9 +83,9 @@ grid.raster(Patents_Patents_Markups, interpolate=FALSE)
 
 - En el mundo:**Trade-Related Aspects of Intellectual Property Rights (TRIPS, 1995):**
 
-    - Acuerdo sobre aspectos de derecho de propiedad intelectual relacionados con el comercio que garantiza que el proceso para otorgar patentes sea igual en todo el mundo para cualquier producto en cualquier campo de la tecnología.
+    - El [Acuerdo sobre los ADPIC (TRIPS), artículo 27](https://www.wto.org/english/docs_e/legal_e/trips_e.htm), establece requisitos mínimos de patentabilidad y no discriminación, con las excepciones que prevé el propio acuerdo. Los procedimientos y el alcance territorial dependen de cada jurisdicción.
 
-    - El plazo de protección por un periodo de 20 años mínimo.
+    - El artículo 33 de los ADPIC exige que el plazo disponible no termine antes de 20 años contados desde la fecha de presentación de la solicitud.
 
 - Anteriores: 
 
@@ -99,11 +99,11 @@ grid.raster(Patents_Patents_Markups, interpolate=FALSE)
 
 - **America Invents Act (2011)**: Es el cambio más significativo en la ley de patentes en EEUU con la finalidad de acelerar el proceso de patentes para que el proceso sea lo más eficiente posible.
 
-- **Objetivo**: dar prioridad al aplicante que concibió primero el invento si es que dos aplican para la misma patente.
+- **Cambio de prioridad**: la AIA sustituyó el sistema de primero en inventar por el de **primer inventor en presentar la solicitud**, aplicable según la fecha efectiva de presentación de la invención reivindicada.
 
 - AIA le dio a Oficina de Patentes y Marcas de EEUU (USPTO) la autoridad para priorizar aplicaciones de patentes para productos, tecnologías, o procesos que son importantes para la economía y la competencia económica.
 
-- **First to file (primer aplicante en hacer el registro tiene prioridad)** - afecta diferente a las compañías dependiendo del tamaño, industria y otras variables. 
+- **First-inventor-to-file**: las disposiciones entraron en vigor el 16 de marzo de 2013. Se aplican los requisitos de autoría, prioridad y excepciones correspondientes; véase [USPTO, recursos FITF](https://www.uspto.gov/patents/first-inventor-file-fitf-resources).
 
 - **Examinación suplemental:** nuevo procedimiento después de la emisión de la patente donde se pide al USPTO considerar, reconsiderar o corregir una examinación relevante de la patente para que puedan corregir omisiones o errores hechos durante la aplicación de la patente. 
 
@@ -200,7 +200,7 @@ grid.raster(Patents_Backward_Forward_Citations, interpolate=FALSE)
 
 - Si una patente pertenece a muchas clases, dicha patente tiene un mayor alcance.
 
-- Las patentes pueden pertenecer hasta a 7 clases del IPC.
+- La IPC tiene ocho secciones principales y múltiples niveles de clasificación. Una patente puede recibir varios símbolos según sus características; el número de símbolos no mide por sí solo el alcance jurídico. [OMPI, estructura de la IPC](https://www.wipo.int/en/web/classification-ipc/preface).
 
 ## Valuación de patentes
 

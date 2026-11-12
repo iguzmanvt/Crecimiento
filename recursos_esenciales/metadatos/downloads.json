@@ -1,0 +1,370 @@
+[
+  {
+    "url": "https://ourworldindata.org/grapher/primary-energy-cons.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-mix.csv?metric=total&source=total",
+    "bytes": 347323,
+    "sha256": "d0be59ece4013ede9dbcc2dadc9272cdb5cb8da123bd82c03c173b9a8686ac9f",
+    "path": "repo\\recursos_esenciales\\originales\\primary-energy-cons.csv",
+    "retrieved_utc": "2026-11-12T17:31:51.075147+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/primary-energy-cons.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-mix.metadata.json?metric=total&source=total",
+    "bytes": 2051,
+    "sha256": "9cb49a26afcaecc0144edd84f1f5a9e87d7097ea077a826c601b3f1f74538d52",
+    "path": "repo\\recursos_esenciales\\metadatos\\primary-energy-cons.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:51.125762+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/per-capita-energy-use.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-mix.csv?metric=per_capita&source=total",
+    "bytes": 328029,
+    "sha256": "aa7b00ea301cd922f150b7b0221a2e7bad4aa512ec6e64c94597c610d55e3f21",
+    "path": "repo\\recursos_esenciales\\originales\\per-capita-energy-use.csv",
+    "retrieved_utc": "2026-11-12T17:31:50.232030+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/per-capita-energy-use.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-mix.metadata.json?metric=per_capita&source=total",
+    "bytes": 2155,
+    "sha256": "b76ed74e52f015d34776619efdde033ca07569840c603d84a073077b004f0122",
+    "path": "repo\\recursos_esenciales\\metadatos\\per-capita-energy-use.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:52.304578+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita.csv",
+    "bytes": 433312,
+    "sha256": "7c34aa51fb981a4e36289d70d4e71c04b777ee2321851cb97875479ab4841a69",
+    "path": "repo\\recursos_esenciales\\originales\\energy-use-per-capita-vs-gdp-per-capita.csv",
+    "retrieved_utc": "2026-11-12T17:31:51.876826+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita.metadata.json",
+    "bytes": 8029,
+    "sha256": "f017d9105b387a54ee9ae5b75bb8050ec96b2df2f3722dcc88b580c18e84d1b0",
+    "path": "repo\\recursos_esenciales\\metadatos\\energy-use-per-capita-vs-gdp-per-capita.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:53.216527+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/long-run-birth-rate.csv",
+    "bytes": 548987,
+    "sha256": "4d7a62664617ca235f6c7f175a4eb64c90e1caa313e15757c6bccffb5a18fc0f",
+    "path": "repo\\recursos_esenciales\\originales\\birth-rate-the-number-of-births-per-1000-people-in-the-population.csv",
+    "retrieved_utc": "2026-11-12T17:31:53.900096+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/long-run-birth-rate.metadata.json",
+    "bytes": 1929,
+    "sha256": "5719d2ad2d18419fb6635d657c0c02ef85bcf1e744e66dd9f1370617a85d835d",
+    "path": "repo\\recursos_esenciales\\metadatos\\birth-rate-the-number-of-births-per-1000-people-in-the-population.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:53.828585+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/children-per-woman-un.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/children-per-woman-un.csv",
+    "bytes": 504624,
+    "sha256": "9043a1bf4f21969b81953bdffee871fc87ae7f25bbed245bdb18699b6f59402e",
+    "path": "repo\\recursos_esenciales\\originales\\children-per-woman-un.csv",
+    "retrieved_utc": "2026-11-12T17:31:53.566394+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/children-per-woman-un.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/children-per-woman-un.metadata.json",
+    "bytes": 2412,
+    "sha256": "0fa4d88d4861d8d17f453685f2e16510c6b1a00f425db77df75fad77ff0ddffa",
+    "path": "repo\\recursos_esenciales\\metadatos\\children-per-woman-un.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:54.861067+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.csv",
+    "bytes": 765308,
+    "sha256": "a0ee582b563c32fbe4690c61db28eddd72822df13ce38d830247bb6591754c11",
+    "path": "repo\\recursos_esenciales\\originales\\children-per-woman-by-gdp-per-capita.csv",
+    "retrieved_utc": "2026-11-12T17:31:55.114359+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.metadata.json",
+    "bytes": 5790,
+    "sha256": "d757630bb1456e7978e211e43204a4f15ed818db36210505694322d4534c4f12",
+    "path": "repo\\recursos_esenciales\\metadatos\\children-per-woman-by-gdp-per-capita.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:56.018571+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.csv",
+    "bytes": 1414428,
+    "sha256": "815842d77e389fa20f7ccab4a4fe30d1b0cb8ccd7722aebdf716e8c0aabc971c",
+    "path": "repo\\recursos_esenciales\\originales\\life-expectancy-vs-gdp-per-capita.csv",
+    "retrieved_utc": "2026-11-12T17:31:55.481409+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.metadata.json",
+    "bytes": 12599,
+    "sha256": "dd66819d61dbeb1271f1a8825227a23df8b957ae6819341ad04537381f8b0994",
+    "path": "repo\\recursos_esenciales\\metadatos\\life-expectancy-vs-gdp-per-capita.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:01.238564+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv",
+    "bytes": 823234,
+    "sha256": "95b2a79d143adaa3cfee68332ac09a0223cc3e6bbb483c7c78d1db119bb97d39",
+    "path": "repo\\recursos_esenciales\\originales\\co-emissions-per-capita.csv",
+    "retrieved_utc": "2026-11-12T17:31:56.733096+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/co-emissions-per-capita.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/co-emissions-per-capita.metadata.json",
+    "bytes": 4115,
+    "sha256": "aa5d4c016b1fbb687eb675fc1b35516c2af067b3cdd36afbab0b4377e7307393",
+    "path": "repo\\recursos_esenciales\\metadatos\\co-emissions-per-capita.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:57.422934+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv",
+    "bytes": 856579,
+    "sha256": "14eaa272941c02599f0b682f44c8f325a9ae34f78113c1e389e0aa5341baad7d",
+    "path": "repo\\recursos_esenciales\\originales\\annual-co2-emissions-per-country.csv",
+    "retrieved_utc": "2026-11-12T17:31:57.639751+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.metadata.json",
+    "bytes": 2333,
+    "sha256": "4a3898c9c046065b1ed477185cdec1e9832c23f33205149d083daa6365bc7f21",
+    "path": "repo\\recursos_esenciales\\metadatos\\annual-co2-emissions-per-country.metadata.json",
+    "retrieved_utc": "2026-11-12T17:31:58.578471+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year.csv",
+    "error": "404 Client Error: Not Found for url: https://ourworldindata.org/grapher/so-emissions-tonnes-per-year.csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year.metadata.json",
+    "error": "404 Client Error: Not Found for url: https://ourworldindata.org/grapher/so-emissions-tonnes-per-year.metadata.json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes.csv",
+    "bytes": 1869154,
+    "sha256": "5604d5384c042f35bf7a4613fdaa5b8918203b6fb9e0668f4f0838e808c69bf7",
+    "path": "repo\\recursos_esenciales\\originales\\so-emissions-by-world-region-in-million-tonnes.csv",
+    "retrieved_utc": "2026-11-12T17:32:01.887300+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes.metadata.json",
+    "bytes": 6125,
+    "sha256": "6db8a84c4a171f94ed2d78fa4f8b0b4daac75d0ae0feefa7841418d48ea972b8",
+    "path": "repo\\recursos_esenciales\\metadatos\\so-emissions-by-world-region-in-million-tonnes.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:01.547322+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/net-zero-targets.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/net-zero-targets.csv",
+    "bytes": 8531,
+    "sha256": "8d4c81c29c11ac3cdacad50484f4812423d5fbdba62af3d0e47c5bed8eb830fd",
+    "path": "repo\\recursos_esenciales\\originales\\net-zero-targets.csv",
+    "retrieved_utc": "2026-11-12T17:32:02.619652+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/net-zero-targets.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/net-zero-targets.metadata.json",
+    "bytes": 2337,
+    "sha256": "e25b551529cd274d9fc45f51aee784724ea8ceda6cc62515c04df3c0fde16b04",
+    "path": "repo\\recursos_esenciales\\metadatos\\net-zero-targets.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:02.758578+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi.csv",
+    "bytes": 6962,
+    "sha256": "d42d577c04c9bbbcdd80fc6b750aa0f0ace0c2b66de797a166915ccade9b3111",
+    "path": "repo\\recursos_esenciales\\originales\\air-pollution-london-vs-delhi.csv",
+    "retrieved_utc": "2026-11-12T17:32:03.309331+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi.metadata.json",
+    "bytes": 1160,
+    "sha256": "9b8def4a11b5b076ccdb943406efc25ad8b6d4c1d06aa99cecbf73e89ba2509b",
+    "path": "repo\\recursos_esenciales\\metadatos\\air-pollution-london-vs-delhi.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:04.112541+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.csv",
+    "bytes": 262157,
+    "sha256": "3a0a8128f9e15bfaa00be54991a2784d000ffb703cc6d69fe4746573007fb9e7",
+    "path": "repo\\recursos_esenciales\\originales\\ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.csv",
+    "retrieved_utc": "2026-11-12T17:32:04.183054+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.metadata.json",
+    "bytes": 4068,
+    "sha256": "7e1f175442296e37aeee25232cc056bc1a47bbc0e3b4c4ce7a3901980c1501f1",
+    "path": "repo\\recursos_esenciales\\metadatos\\ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:04.236560+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income.csv",
+    "bytes": 340661,
+    "sha256": "e181265d7d3e851c9dd9588ecced3f79b3d86d627a445bd314d886a9ddc6a68c",
+    "path": "repo\\recursos_esenciales\\originales\\female-labor-force-participation-rates-by-national-per-capita-income.csv",
+    "retrieved_utc": "2026-11-12T17:32:05.236037+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income.metadata.json",
+    "bytes": 6744,
+    "sha256": "276da73782541a6f1bec7252a4f9cb984272b852f7f8d157c7209f10e60bdebc",
+    "path": "repo\\recursos_esenciales\\metadatos\\female-labor-force-participation-rates-by-national-per-capita-income.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:05.849171+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio.csv",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio.csv",
+    "bytes": 115906,
+    "sha256": "84e762f8142d50b8bbd4764618610a56c394920dcfd29362d48304b0c4287251",
+    "path": "repo\\recursos_esenciales\\originales\\female-employment-to-population-ratio.csv",
+    "retrieved_utc": "2026-11-12T17:32:05.952384+00:00",
+    "content_type": "text/csv"
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio.metadata.json",
+    "status": 200,
+    "final_url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio.metadata.json",
+    "bytes": 3195,
+    "sha256": "6ed3c7fe23fff62434e783f8dcb162ac2402e57acff0d0e187ec62916756d530",
+    "path": "repo\\recursos_esenciales\\metadatos\\female-employment-to-population-ratio.metadata.json",
+    "retrieved_utc": "2026-11-12T17:32:05.777251+00:00",
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf",
+    "bytes": 4667,
+    "sha256": "08ec2cff97031642e479419d592a00be88f52caf619d6d5e1dda772de5132434",
+    "path": "estable_20261112\\otros_recursos\\fred_landing.html",
+    "retrieved_utc": "2026-11-12T17:32:06.619870+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/?g=FOJf",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/?g=FOJf",
+    "bytes": 85608,
+    "sha256": "e9f6fe3608cfc172b67a08b8f41d5bf4619138cc5a712065ba1874f263bf2a23",
+    "path": "estable_20261112\\otros_recursos\\fred_graph.html",
+    "retrieved_utc": "2026-11-12T17:32:07.337177+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/?g=FOJf&cosd=&coed=",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/?g=FOJf&cosd=&coed=",
+    "bytes": 85608,
+    "sha256": "e9f6fe3608cfc172b67a08b8f41d5bf4619138cc5a712065ba1874f263bf2a23",
+    "path": "estable_20261112\\otros_recursos\\fred_other.html",
+    "retrieved_utc": "2026-11-12T17:32:07.544448+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&width=1000&height=475",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&width=1000&height=475",
+    "bytes": 4667,
+    "sha256": "5a39d9c90dae75ceb5fbd2e531c4c905f96629f2e0bf91749f8c027f32a02ec3",
+    "path": "estable_20261112\\otros_recursos\\fred_iframe.html",
+    "retrieved_utc": "2026-11-12T17:32:07.332286+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/?g=FOJf",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/?g=FOJf",
+    "bytes": 85608,
+    "sha256": "e9f6fe3608cfc172b67a08b8f41d5bf4619138cc5a712065ba1874f263bf2a23",
+    "path": "estable_20261112\\otros_recursos\\fred_graph.html",
+    "retrieved_utc": "2026-11-12T17:32:07.753043+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&output=csv",
+    "status": 200,
+    "final_url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&output=csv",
+    "bytes": 4667,
+    "sha256": "08ec2cff97031642e479419d592a00be88f52caf619d6d5e1dda772de5132434",
+    "path": "estable_20261112\\otros_recursos\\fred_output.txt",
+    "retrieved_utc": "2026-11-12T17:32:08.666257+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  }
+]

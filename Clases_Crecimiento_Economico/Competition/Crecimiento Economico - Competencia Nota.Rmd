@@ -38,7 +38,7 @@ grid.raster(Competition_Innovation_Competition, interpolate=FALSE)
 
 - **Industria aérea:** concentrada que genera innovación.
 
-    -    **Productores de aviones**: Boeing y Airbus en Estados Unidos y Europa, Estructura de monopsonio.
+    -    **Productores de aviones**: Boeing y Airbus en Estados Unidos y Europa, Ejemplo de duopolio de oferentes, no de un único comprador.
 
     -    **Aerolíneas grandes**: monopolización de rutas hizo que se redujera la innovación desde el punto de vista del consumidor (reducción de asientos, servicios).
 
@@ -67,7 +67,7 @@ grid.raster(Competition_Innovation_Competition, interpolate=FALSE)
 
     -    Si la empresa A cobra menos de 3, la empresa B no puede igualar el precio porque incurrirá en una pérdida. 
 
-    -    Entonces, la empresa A cobrará menos de 3 y obtendrá a todos los clientes. La empresa A quiere maximizar las ganancias, por lo que cobrará 2.9, tomará todo el negocio y, por lo tanto, cobrará un margen de beneficio de aproximadamente 3/2 = 1.5. 
+    -    Entonces, la empresa A cobrará menos de 3 y obtendrá a todos los clientes. La empresa A quiere maximizar las ganancias, por lo que podría cobrar 2.9 y obtener un markup precio/costo de 2.9/2 = 1.45. En el límite, con un precio apenas inferior a 3, ese cociente se aproxima a 1.5.
 
 - De manera más general, el markup cobrado por una empresa es igual a la relación del costo marginal de la empresa seguidora (por ejemplo, 3) al costo marginal de la empresa líder (por ejemplo, 2).
 

@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-12",
+  "checks": [
+    {
+      "check": "Condicion inicial lambda=0",
+      "passed": true,
+      "actual": 16.0
+    },
+    {
+      "check": "Recurrencia t=0,lambda=0",
+      "passed": true,
+      "actual": {
+        "closed_form": 16.32,
+        "recurrence": 16.32
+      }
+    },
+    {
+      "check": "Recurrencia t=1,lambda=0",
+      "passed": true,
+      "actual": {
+        "closed_form": 16.6464,
+        "recurrence": 16.6464
+      }
+    },
+    {
+      "check": "Recurrencia t=5,lambda=0",
+      "passed": true,
+      "actual": {
+        "closed_form": 18.018598708224,
+        "recurrence": 18.018598708224
+      }
+    },
+    {
+      "check": "Recurrencia t=50,lambda=0",
+      "passed": true,
+      "actual": {
+        "closed_form": 43.92671663448128,
+        "recurrence": 43.92671663448128
+      }
+    },
+    {
+      "check": "Condicion inicial lambda=0.02",
+      "passed": true,
+      "actual": 16.0
+    },
+    {
+      "check": "Recurrencia t=0,lambda=0.02",
+      "passed": true,
+      "actual": {
+        "closed_form": 16.3404,
+        "recurrence": 16.3404
+      }
+    },
+    {
+      "check": "Recurrencia t=1,lambda=0.02",
+      "passed": true,
+      "actual": {
+        "closed_form": 16.68759984,
+        "recurrence": 16.687599839999997
+      }
+    },
+    {
+      "check": "Recurrencia t=5,lambda=0.02",
+      "passed": true,
+      "actual": {
+        "closed_form": 18.147158728767618,
+        "recurrence": 18.147158728767614
+      }
+    },
+    {
+      "check": "Recurrencia t=50,lambda=0.02",
+      "passed": true,
+      "actual": {
+        "closed_form": 45.6923337505629,
+        "recurrence": 45.69233375056291
+      }
+    },
+    {
+      "check": "Condicion inicial lambda=0.3",
+      "passed": true,
+      "actual": 16.0
+    },
+    {
+      "check": "Recurrencia t=0,lambda=0.3",
+      "passed": true,
+      "actual": {
+        "closed_form": 16.626,
+        "recurrence": 16.626
+      }
+    },
+    {
+      "check": "Recurrencia t=1,lambda=0.3",
+      "passed": true,
+      "actual": {
+        "closed_form": 17.177003999999997,
+        "recurrence": 17.177004
+      }
+    },
+    {
+      "check": "Recurrencia t=5,lambda=0.3",
+      "passed": true,
+      "actual": {
+        "closed_form": 19.01226924502401,
+        "recurrence": 19.01226924502401
+      }
+    },
+    {
+      "check": "Recurrencia t=50,lambda=0.3",
+      "passed": true,
+      "actual": {
+        "closed_form": 46.672136389573566,
+        "recurrence": 46.67213638957357
+      }
+    },
+    {
+      "check": "Condicion inicial lambda=1",
+      "passed": true,
+      "actual": 16.0
+    },
+    {
+      "check": "Recurrencia t=0,lambda=1",
+      "passed": true,
+      "actual": {
+        "closed_form": 17.34,
+        "recurrence": 17.34
+      }
+    },
+    {
+      "check": "Recurrencia t=1,lambda=1",
+      "passed": true,
+      "actual": {
+        "closed_form": 17.686799999999998,
+        "recurrence": 17.6868
+      }
+    },
+    {
+      "check": "Recurrencia t=5,lambda=1",
+      "passed": true,
+      "actual": {
+        "closed_form": 19.144761127488,
+        "recurrence": 19.144761127488
+      }
+    },
+    {
+      "check": "Recurrencia t=50,lambda=1",
+      "passed": true,
+      "actual": {
+        "closed_form": 46.67213642413636,
+        "recurrence": 46.67213642413636
+      }
+    },
+    {
+      "check": "Sin ajuste lambda=0 conserva distancia relativa",
+      "passed": true,
+      "actual": 16.0
+    },
+    {
+      "check": "Ajuste completo lambda=1 alcanza senda al primer paso",
+      "passed": true,
+      "actual": 17.34
+    },
+    {
+      "check": "Crecimiento supuesto 17",
+      "passed": true,
+      "actual": 2.1274999999999933
+    },
+    {
+      "check": "Crecimiento supuesto 18",
+      "passed": true,
+      "actual": 2.255000000000007
+    },
+    {
+      "check": "Incremento en puntos porcentuales",
+      "passed": true,
+      "actual": 0.1275000000000137
+    },
+    {
+      "check": "Brecha 10% a 90% bajo velocidad supuesta",
+      "passed": true,
+      "actual": {
+        "years": 616.8799545120803,
+        "ratio": 0.9,
+        "b": 0.005
+      }
+    },
+    {
+      "check": "Pension sin rendimiento conserva principal",
+      "passed": true,
+      "actual": 110
+    },
+    {
+      "check": "Pension con rendimiento y aportacion final",
+      "passed": true,
+      "actual": 115.0
+    },
+    {
+      "check": "Ahorro t paga en t+1",
+      "passed": true,
+      "actual": {
+        "b_t": 100,
+        "R": 1.05,
+        "z_t_plus_1": 105.0
+      }
+    },
+    {
+      "check": "Derivada residuo sL, gK=0.04,gL=0.01",
+      "passed": true,
+      "actual": 0.029999999999999992,
+      "expected": 0.03
+    },
+    {
+      "check": "Derivada residuo sL, gK=0.01,gL=0.04",
+      "passed": true,
+      "actual": -0.030000000000000165,
+      "expected": -0.03
+    }
+  ],
+  "all_passed": true
+}

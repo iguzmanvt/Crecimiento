@@ -1,0 +1,28 @@
+{
+  "baseline": "8baa89bc7297cebdabff7196296ed4fb2704986f",
+  "local_validation": "passed",
+  "materials": 33,
+  "topics": 16,
+  "assignments": 8,
+  "Introduction_views": 32,
+  "other_essential_views": 21,
+  "all_catalogued_views": 93,
+  "numeric_views_recalculated": 92,
+  "historical_image_views": 1,
+  "TeX_expressions": 165,
+  "publication_workflow": ".github/workflows/curso.yml",
+  "publication_status": "Estado efectivo en la ejecución de GitHub Actions correspondiente al commit publicado.",
+  "reports": {
+    "structural": "entrega_estatica.json",
+    "browser": "entrega_navegador.json",
+    "recalculation": "recalculo_resumen.json",
+    "conservation": "conservacion.json",
+    "rendering": "renderizado.json"
+  },
+  "limits": [
+    "Las ediciones y sustituciones de variables están identificadas por vista.",
+    "No se autentican los originales Chart Studio desaparecidos.",
+    "Los textos externos conservan sus condiciones de acceso.",
+    "La revisión semántica focalizada no reestima todas las figuras históricas ni acredita lectura completa de todos los libros."
+  ]
+}

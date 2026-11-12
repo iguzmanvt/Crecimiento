@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "life-expectancy-years-vs-real-gdp-per-capita-2011us",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us.csv",
+    "actual_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.csv",
+    "status": 200,
+    "bytes": 1414428
+  },
+  {
+    "slug": "life-expectancy-years-vs-real-gdp-per-capita-2011us",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita.metadata.json",
+    "status": 200,
+    "bytes": 12599,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Life expectancy vs. GDP per capita"
+  },
+  {
+    "slug": "child-mortality-gdp-per-capita",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita.csv",
+    "actual_url": "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita.csv",
+    "status": 200,
+    "bytes": 724115
+  },
+  {
+    "slug": "child-mortality-gdp-per-capita",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita.metadata.json",
+    "status": 200,
+    "bytes": 12292,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Child mortality rate vs. GDP per capita"
+  },
+  {
+    "slug": "children-per-woman-by-gdp-per-capita",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita.csv",
+    "actual_url": "https://ourworldindata.org/grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.csv",
+    "status": 200,
+    "bytes": 765308
+  },
+  {
+    "slug": "children-per-woman-by-gdp-per-capita",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.metadata.json",
+    "status": 200,
+    "bytes": 5790,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Fertility rate vs. GDP per capita"
+  },
+  {
+    "slug": "urbanization-vs-gdp",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/urbanization-vs-gdp.csv",
+    "actual_url": "https://ourworldindata.org/grapher/urbanization-vs-gdp.csv",
+    "status": 200,
+    "bytes": 1034933
+  },
+  {
+    "slug": "urbanization-vs-gdp",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/urbanization-vs-gdp.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/urbanization-vs-gdp.metadata.json",
+    "status": 200,
+    "bytes": 9296,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Share of population living in urban areas vs. GDP per capita"
+  },
+  {
+    "slug": "outdoor-pollution-rate-vs-gdp",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp.csv",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "slug": "outdoor-pollution-rate-vs-gdp",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp.metadata.json",
+    "status": 200,
+    "bytes": 8354,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Death rate from outdoor air pollution vs. GDP per capita"
+  },
+  {
+    "slug": "co-emissions-per-capita-vs-gdp-per-capita-international-",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-.csv",
+    "actual_url": "https://ourworldindata.org/grapher/co2-emissions-vs-gdp.csv",
+    "status": 200,
+    "bytes": 1655649
+  },
+  {
+    "slug": "co-emissions-per-capita-vs-gdp-per-capita-international-",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/co2-emissions-vs-gdp.metadata.json",
+    "status": 200,
+    "bytes": 12362,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "CO₂ emissions per capita vs. GDP per capita"
+  },
+  {
+    "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita.csv",
+    "actual_url": "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita.csv",
+    "status": 200,
+    "bytes": 407232
+  },
+  {
+    "slug": "the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita.metadata.json",
+    "status": 200,
+    "bytes": 11730,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Share of population living in extreme poverty vs. GDP per capita"
+  },
+  {
+    "slug": "gdp-per-capita-maddison-2020",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.csv",
+    "actual_url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database.csv",
+    "status": 200,
+    "bytes": 567430
+  },
+  {
+    "slug": "gdp-per-capita-maddison-2020",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database.metadata.json",
+    "status": 200,
+    "bytes": 4385,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "GDP per capita"
+  },
+  {
+    "slug": "share-of-population-in-extreme-poverty",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty.csv",
+    "actual_url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty.csv",
+    "status": 200,
+    "bytes": 2167564
+  },
+  {
+    "slug": "share-of-population-in-extreme-poverty",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty.metadata.json",
+    "status": 200,
+    "bytes": 9563,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Share of population living in extreme poverty"
+  },
+  {
+    "slug": "global-hunger-index-vs-gdp-per-capita",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita.csv",
+    "actual_url": "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita.csv",
+    "status": 200,
+    "bytes": 354381
+  },
+  {
+    "slug": "global-hunger-index-vs-gdp-per-capita",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita.metadata.json",
+    "status": 200,
+    "bytes": 8178,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Global Hunger Index vs. GDP per capita"
+  },
+  {
+    "slug": "share-of-adults-defined-as-obese",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese.csv",
+    "actual_url": "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese.csv",
+    "status": 200,
+    "bytes": 337323
+  },
+  {
+    "slug": "share-of-adults-defined-as-obese",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese.metadata.json",
+    "status": 200,
+    "bytes": 2333,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Share of adults who are obese"
+  },
+  {
+    "slug": "gdppercapita-vs-annual-hours-worked",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked.csv",
+    "actual_url": "https://ourworldindata.org/grapher/annual-working-hours-vs-gdp-per-capita-pwt.csv",
+    "status": 200,
+    "bytes": 529396
+  },
+  {
+    "slug": "gdppercapita-vs-annual-hours-worked",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/annual-working-hours-vs-gdp-per-capita-pwt.metadata.json",
+    "status": 200,
+    "bytes": 8239,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Annual working hours vs. GDP per capita"
+  },
+  {
+    "slug": "employment-by-economic-sector",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/employment-by-economic-sector.csv",
+    "actual_url": "https://ourworldindata.org/grapher/employment-by-economic-sector.csv",
+    "status": 200,
+    "bytes": 30905
+  },
+  {
+    "slug": "employment-by-economic-sector",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/employment-by-economic-sector.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/employment-by-economic-sector.metadata.json",
+    "status": 200,
+    "bytes": 2456,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Employment by economic sector"
+  },
+  {
+    "slug": "historical-and-projected-population-by-region",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/historical-and-projected-population-by-region.csv",
+    "actual_url": "https://ourworldindata.org/grapher/population-regions-with-projections.csv",
+    "status": 200,
+    "bytes": 2149665
+  },
+  {
+    "slug": "historical-and-projected-population-by-region",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/historical-and-projected-population-by-region.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/population-regions-with-projections.metadata.json",
+    "status": 200,
+    "bytes": 4306,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Population by world region"
+  },
+  {
+    "slug": "dependency-age-groups-to-2100",
+    "ext": "csv",
+    "url": "https://ourworldindata.org/grapher/dependency-age-groups-to-2100.csv",
+    "actual_url": "https://ourworldindata.org/grapher/population-young-working-elderly-with-projections.csv",
+    "status": 200,
+    "bytes": 1820920
+  },
+  {
+    "slug": "dependency-age-groups-to-2100",
+    "ext": "metadata.json",
+    "url": "https://ourworldindata.org/grapher/dependency-age-groups-to-2100.metadata.json",
+    "actual_url": "https://ourworldindata.org/grapher/population-young-working-elderly-with-projections.metadata.json",
+    "status": 200,
+    "bytes": 8872,
+    "metadata_keys": [
+      "chart",
+      "columns",
+      "dateDownloaded"
+    ],
+    "title": "Number of children, working-age adults, and older people"
+  }
+]

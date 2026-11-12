@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-12",
+  "environment": "Windows isaacguzman, Python, Playwright Chromium",
+  "network_requests": [],
+  "page_errors": [],
+  "figures": 15,
+  "recalculated_files_identical": 31,
+  "records": [
+    {
+      "slug": "owid-01-vida",
+      "traces": 7,
+      "points": 165,
+      "frames": 73,
+      "title": "Esperanza de vida y PIB por habitante · 2022",
+      "initial_png_sha256": "ae51e1606536413470b2f21c663d20919a4eaf7f41848ef85afa47bfa587e141"
+    },
+    {
+      "slug": "owid-02-mortalidad-infantil",
+      "traces": 7,
+      "points": 162,
+      "frames": 73,
+      "title": "Mortalidad de menores de 5 años y PIB por habitante · 2022",
+      "initial_png_sha256": "ee70b51a6cac119855377b65092af5e3b25e59cf52495ed12d4e26b70c0cfb07"
+    },
+    {
+      "slug": "owid-03-fecundidad",
+      "traces": 7,
+      "points": 181,
+      "frames": 74,
+      "title": "Fecundidad y PIB por habitante · 2023",
+      "initial_png_sha256": "3c37248d26a7f0dea6e9ab67bb2a8813b2ce29117922da4ce887583e43fd65f2"
+    },
+    {
+      "slug": "owid-04-urbanizacion",
+      "traces": 7,
+      "points": 184,
+      "frames": 36,
+      "title": "Urbanización y PIB por habitante · 2025",
+      "initial_png_sha256": "dc9d16b53a6aecb8747ff8659c56c92bf6634e99e4cb588cb945d10d6e477066"
+    },
+    {
+      "slug": "owid-05-exposicion-pm25",
+      "traces": 7,
+      "points": 163,
+      "frames": 33,
+      "title": "Exposición a PM2.5 y PIB por habitante · 2022",
+      "initial_png_sha256": "62077d6118562052f56871927ce818b10ed5c116bef6492b3694ec9a0e6b2572"
+    },
+    {
+      "slug": "owid-06-co2",
+      "traces": 7,
+      "points": 164,
+      "frames": 73,
+      "title": "Emisiones de CO₂ y PIB por habitante · 2022",
+      "initial_png_sha256": "42d8e858dc801278f4123106a5a21f99eb464ccb089cab04898a9f01fe357f4f"
+    },
+    {
+      "slug": "owid-07-pobreza-pib",
+      "traces": 7,
+      "points": 58,
+      "frames": 22,
+      "title": "Pobreza extrema y PIB por habitante · 2023",
+      "initial_png_sha256": "5b1df3d40efb05b9d65806a40062c4f2bf04de5691ce163db1a787e758603b5f"
+    },
+    {
+      "slug": "owid-08-pib-regiones",
+      "traces": 3,
+      "points": 119,
+      "frames": 0,
+      "title": "PIB por habitante · China, India y África subsahariana",
+      "initial_png_sha256": "6edd3ce4ad661b82c0de19f32dcd0ac659313ddaf607155f1dec15b193249845"
+    },
+    {
+      "slug": "owid-09-pobreza-regiones",
+      "traces": 3,
+      "points": 123,
+      "frames": 0,
+      "title": "Pobreza extrema · China, India y África subsahariana",
+      "initial_png_sha256": "d7f5666353bd1c6120921cd6bc1b966ccbbb87ced3c0d0389a806baf8f3daa7b"
+    },
+    {
+      "slug": "owid-10-hambre",
+      "traces": 7,
+      "points": 123,
+      "frames": 4,
+      "title": "Índice Global del Hambre y PIB por habitante · 2021",
+      "initial_png_sha256": "94aae15e13111f008adf1d74409cf559bcc1ec1c707ed49db28813b4edeb999e"
+    },
+    {
+      "slug": "owid-11-obesidad",
+      "traces": 6,
+      "points": 270,
+      "frames": 0,
+      "title": "Obesidad en adultos de 18 años o más",
+      "initial_png_sha256": "5dcf73f0461d15cffab98dfdf7d6c0723c2bc69ba5eacb607816b4dd7ec88294"
+    },
+    {
+      "slug": "owid-12-horas",
+      "traces": 7,
+      "points": 129,
+      "frames": 38,
+      "title": "Horas anuales trabajadas y PIB por habitante · 2023",
+      "initial_png_sha256": "de2760852eac7caaf9d2bc8f86bbfc7cb5f22cdeb8865424cf75bf0f3607225e"
+    },
+    {
+      "slug": "owid-13-empleo-sectores",
+      "traces": 3,
+      "points": 288,
+      "frames": 0,
+      "title": "Empleo por sector · Estados Unidos",
+      "initial_png_sha256": "a2a89cee7a1b7aeb642e3dfaedc37e4dc3229cbdacc2b24ba2c4627c475c9726"
+    },
+    {
+      "slug": "owid-14-poblacion-regiones",
+      "traces": 6,
+      "points": 906,
+      "frames": 0,
+      "title": "Población mundial por región",
+      "initial_png_sha256": "1e3d13625cd293439c924316577e1c096176883440a267171df9cdb7358a33fe"
+    },
+    {
+      "slug": "owid-15-poblacion-edades",
+      "traces": 3,
+      "points": 453,
+      "frames": 0,
+      "title": "Población mundial por grupos de edad",
+      "initial_png_sha256": "1316bb5c8e1b95fcfaf47c3a7122d6668f7f358ab641b6a245a4fe4cecefb422"
+    }
+  ]
+}

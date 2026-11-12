@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-12",
+  "count": 17,
+  "identity_set_exact": true,
+  "data_finite": true,
+  "input_hashes": true,
+  "exports_dimensions": [
+    1200,
+    700
+  ],
+  "recalculated_files_identical": 58,
+  "independent_numeric_checks": [
+    {
+      "id": 150,
+      "year": 2019,
+      "USA": 11.042777644052219,
+      "independent_check": true
+    },
+    {
+      "id": 202,
+      "year": 2019,
+      "USA": 0.5970911383628845,
+      "independent_check": true
+    },
+    {
+      "id": 207,
+      "year": 2019,
+      "USA": 0.7805041535346962,
+      "independent_check": true
+    },
+    {
+      "id": 156,
+      "year": 2019,
+      "USA": 3.3583171656002513,
+      "independent_check": true
+    },
+    {
+      "id": 170,
+      "year": 2019,
+      "USA": 0.6786005989019105,
+      "independent_check": true
+    },
+    {
+      "id": 174,
+      "year": 2019,
+      "USA": 0.21014288749626397,
+      "independent_check": true
+    }
+  ],
+  "schooling_countries": 150,
+  "browser_record": "verificacion_navegador.json",
+  "status": "PASS"
+}

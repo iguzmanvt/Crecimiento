@@ -1,0 +1,836 @@
+{
+  "date": "2026-11-12",
+  "files": [
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+      "before_sha256": "107ea4a4ca40a8841d22375e3495ce32e5b2b0819e3b4956bd74e3ba2b9105ab",
+      "after_sha256": "47141ad4ff7fbf5151b886168d54d6da006803c17446b517fe3e5e6a61ec178b",
+      "r_chunks_preserved": 7,
+      "images_preserved": 9,
+      "changes": [
+        {
+          "reason": "El grupo sigue siendo 1% de las unidades; cambia su participación del ingreso",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir asociación temporal de identificación causal",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir definición C/S y alcance del resultado de Yagan",
+          "matches": 1
+        },
+        {
+          "reason": "Ufuk Akcigit es un autor, no dos",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir efectos ingreso y sustitución",
+          "matches": 1
+        },
+        {
+          "reason": "Evitar regla universal sobre efectos de recortes",
+          "matches": 1
+        },
+        {
+          "reason": "Evitar respuesta laboral nula universal",
+          "matches": 1
+        },
+        {
+          "reason": "Explicar mecanismo como hipótesis condicional",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+      "before_sha256": "fb94b2f11c16ed8bf49fea68ccbea14842b8a8bb108a941333238d254fd2cb3a",
+      "after_sha256": "a96f11283365719c1f2bfab5aab242d9817792e468b4c130971eabf9d7d5e08a",
+      "r_chunks_preserved": 8,
+      "images_preserved": 7,
+      "changes": [
+        {
+          "reason": "El grupo sigue siendo 1% de las unidades; cambia su participación del ingreso",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir asociación temporal de identificación causal",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir definición C/S y alcance del resultado de Yagan",
+          "matches": 1
+        },
+        {
+          "reason": "Ufuk Akcigit es un autor, no dos",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir efectos ingreso y sustitución",
+          "matches": 1
+        },
+        {
+          "reason": "Evitar regla universal sobre efectos de recortes",
+          "matches": 1
+        },
+        {
+          "reason": "Evitar respuesta laboral nula universal",
+          "matches": 1
+        },
+        {
+          "reason": "Explicar mecanismo como hipótesis condicional",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+      "before_sha256": "bd8b84e1108c08b4648209778053c2e8798f9131cff9d77be9be2267a09507d4",
+      "after_sha256": "685c6f36d1e0b6c66820b0c74c40d65cf8fa0233127d34ed8e489821def1d21c",
+      "r_chunks_preserved": 8,
+      "images_preserved": 7,
+      "changes": [
+        {
+          "reason": "Distinguir monopsonio y duopolio",
+          "matches": 1
+        },
+        {
+          "reason": "Markup exacto frente a límite",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+      "before_sha256": "0315cbe8875e1f0fe0158b66d031681ea5cb754dc4f99a86ea1b3e95061b9318",
+      "after_sha256": "a3329b2be7870a97e9e616939eec11b46904f60657deb9f1f7e8e2158c35bc70",
+      "r_chunks_preserved": 8,
+      "images_preserved": 7,
+      "changes": [
+        {
+          "reason": "Distinguir monopsonio y duopolio",
+          "matches": 1
+        },
+        {
+          "reason": "Markup exacto frente a límite",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+      "before_sha256": "d883e1976add82df00f45e29bf1cd12e0b25de878b07653d5f63ad5bd89223e6",
+      "after_sha256": "c80681ad4a4970b53a2ccaac4292141b0642755b2c2e75d3d09e2245254eecbf",
+      "r_chunks_preserved": 16,
+      "images_preserved": 15,
+      "changes": [
+        {
+          "reason": "Derecho de exclusión y poder de mercado son distintos",
+          "matches": 1
+        },
+        {
+          "reason": "ADPIC no unifica todos los procedimientos",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar inicio del plazo ADPIC",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir dirección del cambio de AIA",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar fecha y alcance first-inventor-to-file",
+          "matches": 1
+        },
+        {
+          "reason": "Eliminar supuesto límite universal de siete clases",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+      "before_sha256": "1bf8cae68a70638c4c952bdaf49aa649e8702c0ac0b9ffd760325c719ffbf988",
+      "after_sha256": "3f5cd2ceccbfbaedb5d29e8cc0a68fce81be4ab79fbe949a42ca152f5ef58e2d",
+      "r_chunks_preserved": 16,
+      "images_preserved": 15,
+      "changes": [
+        {
+          "reason": "Derecho de exclusión y poder de mercado son distintos",
+          "matches": 1
+        },
+        {
+          "reason": "ADPIC no unifica todos los procedimientos",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar inicio del plazo ADPIC",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir dirección del cambio de AIA",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar fecha y alcance first-inventor-to-file",
+          "matches": 1
+        },
+        {
+          "reason": "Eliminar supuesto límite universal de siete clases",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "before_sha256": "5b595cbb264527aa90f95d843faca968836df2518fda16654695daf88822dff8",
+      "after_sha256": "558fbb325715bfbbac22f597ed42d9a0c8ed429dc6f440322900965a75847e81",
+      "r_chunks_preserved": 7,
+      "images_preserved": 6,
+      "changes": [
+        {
+          "reason": "Separar no rivalidad de exclusión",
+          "matches": 1
+        },
+        {
+          "reason": "No convertir supuesto de modelo en ausencia universal de innovación",
+          "matches": 1
+        },
+        {
+          "reason": "Enunciar correctamente agotamiento del producto",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir lógica Euler y remuneración de ideas",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir capital humano rival y externalidad",
+          "matches": 1
+        },
+        {
+          "reason": "Autores y edición publicada",
+          "matches": 7
+        },
+        {
+          "reason": "Corregir 78 a más de 18 según fuente primaria",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir dirección de predicción semiendógena",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "before_sha256": "781c9eaa8e14b929a8f56e702313dd848fe20f28c41c4551c0135fbc41f3ee89",
+      "after_sha256": "9bce8da9dc2e9b4fa1a8a7689bf2e1f7f04e52cd9dcf76d4da50636a603433e9",
+      "r_chunks_preserved": 7,
+      "images_preserved": 15,
+      "changes": [
+        {
+          "reason": "Separar no rivalidad de exclusión",
+          "matches": 1
+        },
+        {
+          "reason": "No convertir supuesto de modelo en ausencia universal de innovación",
+          "matches": 1
+        },
+        {
+          "reason": "Enunciar correctamente agotamiento del producto",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir lógica Euler y remuneración de ideas",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir capital humano rival y externalidad",
+          "matches": 1
+        },
+        {
+          "reason": "Autores y edición publicada",
+          "matches": 7
+        },
+        {
+          "reason": "Corregir 78 a más de 18 según fuente primaria",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir dirección de predicción semiendógena",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "before_sha256": "67ce6f836410f84f8d1fe0c40f9cfbf30cc90f6ac766b4eda2199a4770cb79e5",
+      "after_sha256": "59da9441356fae3703cad94a99455e479ecc91721eb2788b52c729ce7c2b7fcc",
+      "r_chunks_preserved": 7,
+      "images_preserved": 6,
+      "changes": [
+        {
+          "reason": "Separar no rivalidad de exclusión",
+          "matches": 1
+        },
+        {
+          "reason": "No convertir supuesto de modelo en ausencia universal de innovación",
+          "matches": 1
+        },
+        {
+          "reason": "Enunciar correctamente agotamiento del producto",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir lógica Euler y remuneración de ideas",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir capital humano rival y externalidad",
+          "matches": 1
+        },
+        {
+          "reason": "Autores y edición publicada",
+          "matches": 7
+        },
+        {
+          "reason": "Corregir 78 a más de 18 según fuente primaria",
+          "matches": 1
+        },
+        {
+          "reason": "Corregir dirección de predicción semiendógena",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+      "before_sha256": "2a0bfc6ba70cba3b78ac47bab9c75584bf3833c6840d4fa6b12735493f53bc9e",
+      "after_sha256": "4a71d71e49a2b1958d5b568dd6383544822494d51de571952eeafcda9f2d2f67",
+      "r_chunks_preserved": 33,
+      "images_preserved": 32,
+      "changes": [
+        {
+          "reason": "Incluir reparto en definición de pensiones",
+          "matches": 1
+        },
+        {
+          "reason": "Conservar principal y precisar momento de aporte",
+          "matches": 1
+        },
+        {
+          "reason": "El ahorro realizado en t genera pago en t+1",
+          "matches": 1
+        },
+        {
+          "reason": "Semanas reconocidas no diez años consecutivos",
+          "matches": 1
+        },
+        {
+          "reason": "Eliminar exigencia falsa de cotización consecutiva",
+          "matches": 1
+        },
+        {
+          "reason": "Alinear descripción con unidad legal",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir diseño histórico de requisito vigente",
+          "matches": 1
+        },
+        {
+          "reason": "No presentar agregado histórico como tasa universal actual",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+      "before_sha256": "473d686d3571915baa3d78d2ded0f878a0f583cc418de2b73e78b46d7121bebe",
+      "after_sha256": "6d13b702dd49720ae3e97ed1254ad65bab2a9c9b31299e13b32fc9d9b372e3a9",
+      "r_chunks_preserved": 33,
+      "images_preserved": 32,
+      "changes": [
+        {
+          "reason": "Incluir reparto en definición de pensiones",
+          "matches": 1
+        },
+        {
+          "reason": "Conservar principal y precisar momento de aporte",
+          "matches": 1
+        },
+        {
+          "reason": "El ahorro realizado en t genera pago en t+1",
+          "matches": 1
+        },
+        {
+          "reason": "Semanas reconocidas no diez años consecutivos",
+          "matches": 1
+        },
+        {
+          "reason": "Eliminar exigencia falsa de cotización consecutiva",
+          "matches": 1
+        },
+        {
+          "reason": "Alinear descripción con unidad legal",
+          "matches": 1
+        },
+        {
+          "reason": "Distinguir diseño histórico de requisito vigente",
+          "matches": 1
+        },
+        {
+          "reason": "No presentar agregado histórico como tasa universal actual",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "before_sha256": "038b08dfae6cf64de17b651c5e8bd0706e82a360d3a4476cc745910ab2afadc9",
+      "after_sha256": "41989560889957bca155add35e8c250f3cd855ebdc0fa81c5403216e5361bb88",
+      "r_chunks_preserved": 30,
+      "images_preserved": 29,
+      "changes": [
+        {
+          "reason": "Evitar negar fricciones o pérdidas individuales",
+          "matches": 1
+        },
+        {
+          "reason": "No deducir garantía individual de una serie agregada",
+          "matches": 1
+        },
+        {
+          "reason": "Polanyi no constituye imposibilidad permanente frente al aprendizaje automático",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+      "before_sha256": "038b08dfae6cf64de17b651c5e8bd0706e82a360d3a4476cc745910ab2afadc9",
+      "after_sha256": "41989560889957bca155add35e8c250f3cd855ebdc0fa81c5403216e5361bb88",
+      "r_chunks_preserved": 30,
+      "images_preserved": 29,
+      "changes": [
+        {
+          "reason": "Evitar negar fricciones o pérdidas individuales",
+          "matches": 1
+        },
+        {
+          "reason": "No deducir garantía individual de una serie agregada",
+          "matches": 1
+        },
+        {
+          "reason": "Polanyi no constituye imposibilidad permanente frente al aprendizaje automático",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+      "before_sha256": "85b564bd13e77c4b3171a9dad2bd8ac14577324d92f807d8172963f7781b7249",
+      "after_sha256": "7e28504a28491c5e1043375be329d9ec7434cb072f996b684381bf0a0f56bcd3",
+      "r_chunks_preserved": 30,
+      "images_preserved": 29,
+      "changes": [
+        {
+          "reason": "Evitar negar fricciones o pérdidas individuales",
+          "matches": 1
+        },
+        {
+          "reason": "No deducir garantía individual de una serie agregada",
+          "matches": 1
+        },
+        {
+          "reason": "Polanyi no constituye imposibilidad permanente frente al aprendizaje automático",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "before_sha256": "87cd1bb05ba39c5ffcf157b0f81148ca410033aec05772d800d4e1529b952dbf",
+      "after_sha256": "b0d7c3b7dbf7b0f65cea4812a4e21f3d2d64fbebbcc8f3a6b3ec313aeae15e39",
+      "r_chunks_preserved": 13,
+      "images_preserved": 12,
+      "changes": [
+        {
+          "reason": "Título y autores de fuente primaria",
+          "matches": 8
+        },
+        {
+          "reason": "Evitar confundir CO2 per cápita con contaminación total",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar condición suficiente de sustitución",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+      "before_sha256": "b5b50975d937139bdd1a08dcdd54ac591eba82fe6b20bdbd64e78fbfe5169066",
+      "after_sha256": "ac5632195cd645ca417de8190cfda7722caae45ae7d6c180c0deb9aa7894a4d7",
+      "r_chunks_preserved": 3,
+      "images_preserved": 2,
+      "changes": [
+        {
+          "reason": "Distinguir reservas económicas y recurso físico descubierto",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+      "before_sha256": "022c380094d168c191ec1c2f85ee6c0763e177600ac70117937ad87095cdead7",
+      "after_sha256": "8e1293cd9e02b77262307fba907e9448629b31a95ab6795ad287144df616e04e",
+      "r_chunks_preserved": 3,
+      "images_preserved": 4,
+      "changes": [
+        {
+          "reason": "Distinguir reservas económicas y recurso físico descubierto",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "before_sha256": "5b57dbb892233273d58b2cdf362fc4875f71cfc2cbca087e5c519f17bec35f9b",
+      "after_sha256": "004846644744f0a3deac7b8d77fd52eadee3f110a0bb527fbce495089da2ef7e",
+      "r_chunks_preserved": 13,
+      "images_preserved": 12,
+      "changes": [
+        {
+          "reason": "Título y autores de fuente primaria",
+          "matches": 8
+        },
+        {
+          "reason": "Evitar confundir CO2 per cápita con contaminación total",
+          "matches": 1
+        },
+        {
+          "reason": "Precisar condición suficiente de sustitución",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "before_sha256": "148ff0b11f548de34717a824e51bf5fe66e90082ed42ecdf5208803b58fda3dc",
+      "after_sha256": "0a5457eb0a74345f115ce45d4542d4a8208be9d00c5405df1da96370db3462c2",
+      "r_chunks_preserved": 31,
+      "images_preserved": 32,
+      "changes": [
+        {
+          "reason": "Traducir trillion anglosajón a billón español",
+          "matches": 2
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "before_sha256": "fbc14bdee0df19d58460245fc262169d39e0816e4405c70948c320521828ca71",
+      "after_sha256": "116c9fbe6a93b49a76ec8223bd4da8f9e184e8d3812bb7e0c469d563392bf47c",
+      "r_chunks_preserved": 31,
+      "images_preserved": 37,
+      "changes": [
+        {
+          "reason": "Traducir trillion anglosajón a billón español",
+          "matches": 2
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        },
+        {
+          "reason": "Traducir billions anglosajones",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+      "before_sha256": "44b85260dd1bfea7fb6bd59ccef8a27f6edf2fec9302835506601842c1d004ad",
+      "after_sha256": "7cb9b042f932148084ff2a3102c6a2193bc25d282e9dc7cf17b60acf77abfa40",
+      "r_chunks_preserved": 28,
+      "images_preserved": 28,
+      "changes": [
+        {
+          "reason": "Corregir cancelación de intercepto y distinguir coeficiente transversal de dinámica de convergencia",
+          "matches": 1
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Correlación entre PIB per cápita inicial y final es 0 - predice la convergencia condicional."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Las políticas públicas no influenciarán fácilmente el ingreso de las economías que están en el BGP."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Sustentando así que la divergencia regional no se explique por diferencias en  factores estructurales."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 2,
+          "old": "$(\\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})="
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Las políticas públicas aumentan el PIB potencial, no el PIB real, abriendo una brecha entre estos dos. ¿Por qué?"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Para dar una idea de lo poco que un efecto de las políticas públicas en el crecimiento, utilicemos la siguiente ecuación:"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 3,
+          "old": "$y_t=(1+g)^t[\\lambda^t y_0^* + (1-\\lambda^t)y_0]$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$\\lambda$ es la velocidad de convergencia (asumimos la velocidad de la literatura: 2% anual)"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_{t+1}=(1+g)^t[ y_t +\\lambda (y_t^* -y_t)]$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$\\lambda=2$ (por la literatura)"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "16 trillones"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "17 trillones"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 2,
+          "old": "1 trillón"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "]-1=2.13$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "]-1=2.25$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "0.12 puntos porcentuales mayor en el periodo."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Pero ninguna reforma hará una diferencia realmente apreciable para el crecimiento económico de un año a otro."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Esa es la única forma de aumentar considerablemente la tasa de crecimiento a corto plazo. **¿Es lo deseable? No:**"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "El efecto sólo es en un periodo."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Incremento en el gasto público de 2019 suficiente para que el PIB potencial sea igual al PIB real."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_1=(1+0.02)^t[0.02^1 (17) + (1-0.021)(17)]=17.34$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_1=(1+0.02)^t[0.02^1 (18) + (1-0.021)(16)]=16.36$"
+        }
+      ]
+    },
+    {
+      "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+      "before_sha256": "57e0fad1a025094e72f06a6bad6d29327ec8026345a5fb51893a29c3f5960e37",
+      "after_sha256": "4888542459ab6b3d1deb937c1ce0dd736d1bbd3254f3dc8c7e67ae77c16c5466",
+      "r_chunks_preserved": 29,
+      "images_preserved": 28,
+      "changes": [
+        {
+          "reason": "Corregir cancelación de intercepto y distinguir coeficiente transversal de dinámica de convergencia",
+          "matches": 1
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Correlación entre PIB per cápita inicial y final es 0 - predice la convergencia condicional."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Las políticas públicas no influenciarán fácilmente el ingreso de las economías que están en el BGP."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Sustentando así que la divergencia regional no se explique por diferencias en  factores estructurales."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 2,
+          "old": "$(\\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})="
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Las políticas públicas aumentan el PIB potencial, no el PIB real, abriendo una brecha entre estos dos. ¿Por qué?"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Para dar una idea de lo poco que un efecto de las políticas públicas en el crecimiento, utilicemos la siguiente ecuación:"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 3,
+          "old": "$y_t=(1+g)^t[\\lambda^t y_0^* + (1-\\lambda^t)y_0]$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$\\lambda$ es la velocidad de convergencia (asumimos la velocidad de la literatura: 2% anual)"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_{t+1}=(1+g)^t[ y_t +\\lambda (y_t^* -y_t)]$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$\\lambda=2$ (por la literatura)"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "16 trillones"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "17 trillones"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 2,
+          "old": "1 trillón"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "]-1=2.13$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "]-1=2.25$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "0.12 puntos porcentuales mayor en el periodo."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Pero ninguna reforma hará una diferencia realmente apreciable para el crecimiento económico de un año a otro."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Esa es la única forma de aumentar considerablemente la tasa de crecimiento a corto plazo. **¿Es lo deseable? No:**"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "El efecto sólo es en un periodo."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "Incremento en el gasto público de 2019 suficiente para que el PIB potencial sea igual al PIB real."
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_1=(1+0.02)^t[0.02^1 (17) + (1-0.021)(17)]=17.34$"
+        },
+        {
+          "reason": "Coherencia algebraica, unidades y alcance del ejemplo de convergencia",
+          "matches": 1,
+          "old": "$y_1=(1+0.02)^t[0.02^1 (18) + (1-0.021)(16)]=16.36$"
+        }
+      ]
+    }
+  ],
+  "invariants": "Bloques R completos y llamadas/etiquetas de imagen idénticos antes y después"
+}

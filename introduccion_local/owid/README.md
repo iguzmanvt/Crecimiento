@@ -1,0 +1,19 @@
+# Gráficas OWID de Introducción
+
+Abrir `index.html` desde una copia completa del repositorio. Las vistas y los datos funcionan sin conexión. Los enlaces a la procedencia se consultan por internet. Las 15 vistas son adaptaciones de los destinos de las tres fuentes R Markdown de Introducción. La edición descargada el 12 de noviembre de 2026 sustituye las cifras históricas enlazadas; no certifica igualdad con ellas.
+
+Repetir el cálculo desde la raíz: `python scripts/generar_introduccion_owid.py`. El script sólo lee CSV y metadatos archivados en esta carpeta y usa la biblioteca estándar de Python. `--output` genera una copia alternativa. Con `--export`, el mismo comando exporta PNG y SVG de la vista inicial con Plotly.js local y Playwright Chromium instalado. La generación de datos sólo requiere la biblioteca estándar de Python; la exportación requiere Playwright y su navegador.
+
+Las dispersiones emparejan país y año, excluyen PIB no positivo y filas sin ambas variables. El tamaño del punto es uniforme. El selector incluye años desde 1950 con al menos 50 países; el corte inicial es el último que cumple esa regla y el CSV conserva todos los pares válidos. La elección prioriza una muestra amplia y evita mezclar fechas. Las líneas no interpolan años faltantes. La composición del empleo divide cada sector entre la suma de los tres sectores disponibles. Las poblaciones se expresan en miles de millones y separan estimaciones hasta 2023 del escenario medio UN WPP 2024 a partir de 2024.
+
+PM2.5 muestra exposición media anual en µg/m³ y PIB Maddison del mismo país-año. Sustituye una gráfica de mortalidad por contaminación cuyos metadatos impiden redistribuir observaciones. La serie restringida no forma parte de los datos locales. La fecundidad no se denomina crecimiento poblacional. La mortalidad infantil se define como probabilidad de morir antes de cinco años, no mortalidad de menores de un año. La población de 15 a 64 años no equivale al empleo.
+
+La pobreza usa la definición vigente de US$3 diarios a PPA de 2021. La serie Maddison descargada bajo un nombre que incluye `2020` contiene en sus metadatos la edición Maddison Project Database 2023, en dólares internacionales de 2011. El catálogo conserva esa diferencia. Los agregados de África subsahariana de Maddison y del Banco Mundial tienen sus propias delimitaciones. Las dispersiones con PWT o Banco Mundial usan dólares internacionales de 2021 según su metadato. No se combinan esas bases como si fueran iguales.
+
+## Fuentes y reutilización
+
+Los CSV originales y los metadatos completos se conservan en `originales/` y `metadatos/`; `catalogo.json` identifica fuente, versión, unidad, fecha, licencia y transformación por figura. Se atribuye cada serie al productor y a Our World in Data como procesador. Las condiciones son específicas de cada origen, y no se sustituye su licencia por una licencia general del repositorio. La adaptación de obesidad de la OMS se ofrece para uso no comercial bajo CC BY-NC-SA 4.0, con atribución a World Health Organization – Global Health Observatory (2026) y OWID. La serie PM2.5 obtenida del Banco Mundial figura como CC BY 4.0 en los metadatos. UN WPP usa CC BY 3.0 IGO. Los demás detalles y enlaces de condiciones constan en el catálogo.
+
+El archivo de esperanza de vida contiene un dato atípico para República Centroafricana en 2022 (18,8177 años), confirmado también en WDI/DataBank y FRED (18,8). Se mantiene con advertencia visible: el contraste acredita lo publicado, no explica ni valida sustantivamente ese valor. El registro de contraste está en `metadatos/control_calidad_vida.json`.
+
+El gráfico de hambre mantiene la edición 2021: los componentes del índice pueden referirse a ventanas de años diferentes. Las asociaciones descriptivas no identifican efectos causales. Las imágenes exportadas representan el corte inicial, y el JSON conserva los años del selector.

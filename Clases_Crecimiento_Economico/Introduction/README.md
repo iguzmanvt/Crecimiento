@@ -1,5 +1,16 @@
 # Introducción: consulta y generación
 
+## Uso vigente
+
+Las tres fuentes editables usan ahora 32 vistas locales y corrigen las interpretaciones que no correspondían a las variables. [Abrir las figuras, datos y fuentes](../../introduccion_local/index.html). La entrega canónica usa la variante con tabla tanto para notas como presentación, con fórmulas y recursos locales; véase la [generación vigente](../../REPRODUCCION_MODULOS.md).
+
+Los 17 destinos Chart Studio son reconstrucciones por contexto docente, con límites explícitos. Las 15 vistas OWID identifican la edición descargada y la sustitución de mortalidad por exposición PM2.5. Se corrigieron el enlace duplicado 172 por 176, la extensión `.embe`, el umbral de pobreza y las interpretaciones de fecundidad, obesidad, población por edad, grupos de países y costos laborales. Los HTML históricos permanecen intactos.
+
+## Registro técnico anterior
+
+Lo que sigue documenta las comprobaciones del 11 de noviembre de 2026, anteriores a las sustituciones y correcciones docentes. Sus pendientes y declaraciones de contenido sin cambios describen aquel corte.
+
+
 ## Materiales del tema
 
 [Notas](../../materiales_actualizados/Introduction/notas/Material.html) · [Presentación](../../materiales_actualizados/Introduction/presentacion/Material.html) · [Material de consulta](../../material_consulta/Introduction.md).

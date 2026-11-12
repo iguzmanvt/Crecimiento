@@ -43,7 +43,7 @@ opts_chunk$set(echo = TRUE)
 
     -    Ideas son bienes no rivales
     
-    -    Bienes no rivales producen rendimientos crecientes a escala al ser excluibles
+    -    La no rivalidad permite reutilizar una idea y genera rendimientos crecientes al considerar conjuntamente ideas e insumos rivales. La exclusión parcial afecta la posibilidad de apropiarse de rendimientos e incentivar su producción
 
 - Ejemplos:
 
@@ -67,7 +67,7 @@ opts_chunk$set(echo = TRUE)
 
 - Paradoja:
 
-    -    Sin protección de patentes nadie querrá innovar.
+    -    Sin patentes puede haber innovación por otros incentivos, como la ventaja de entrar primero, el secreto o la financiación pública. En el modelo, la apropiación de rendimientos sostiene la inversión privada en ideas.
 
     -    Con demasiada protección de patentes será demasiado difícil reemplazar a las empresas existentes.
 
@@ -79,15 +79,15 @@ opts_chunk$set(echo = TRUE)
 
 - Sólo dos de los siguientes tres argumentos pueden ser ciertos:
 
-    -    Los factores rivales de la producción no tienen retornos constantes o crecientes a escala.
+    -    Manteniendo fijas las ideas, la producción tiene rendimientos constantes a escala en los factores rivales.
     
     -    Los factores no rivales reciben algún pago de la producción.
 
     -    Los factores rivales reciben un pago de la producción igual a su producto marginal.
 
-- Para Romer, las primeras dos son ciertas: (1) ejemplo de replicación de la fábrica; (2) sustenta su teoría; (3) no puede ser verdad. Si los propietarios de los factores no rivales son compensados de alguna manera, será menos que su producto marginal.
+- Con rendimientos constantes en los factores rivales, pagar a cada uno su producto marginal agota el producto (teorema de Euler). Un pago positivo adicional a las ideas exige apartarse de alguna de esas condiciones. Romer utiliza competencia monopolística y apropiación parcial de las rentas de innovación.
 
-- Para Lucas, la 1 y la 3 son verdaderas: Esto puede ser verdadero si sólo hay factores rivales y el crecimiento balanceado se explica con la adquisición de conocimiento.
+- En la lectura de Lucas con externalidades del capital humano, las empresas pueden remunerar los factores rivales a su producto marginal privado, mientras el efecto externo del conocimiento no recibe un pago separado.
 
 ## Investigación y crecimiento de la productividad
 
@@ -179,7 +179,7 @@ grid.raster(Ideas_1, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - En muchos modelos, el crecimiento económico surge de las personas que crean ideas, y la tasa de crecimiento a largo plazo es el producto de dos términos: el número efectivo de investigadores y su productividad de investigación. 
 
@@ -189,7 +189,7 @@ grid.raster(Ideas_1, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - Un buen ejemplo es la ley de Moore: el número de investigadores requeridos hoy para lograr la famosa duplicación cada dos años de la densidad de los chips de computadora es más de 18 veces mayor que el número requerido a principios de los años setenta. 
 
@@ -203,7 +203,7 @@ grid.raster(Ideas_2, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - BJvRW examinan industrias individuales o tipos de productos para establecer que la “productividad ideal" cae. 
 
@@ -221,7 +221,7 @@ grid.raster(Ideas_3, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - No hay disminución en la tasa de crecimiento de los transistores, pero tampoco hay un aumento, a pesar del mayor número de investigadores. 
 
@@ -235,9 +235,9 @@ grid.raster(Ideas_4, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
-- Lo que esto significa es que la "idea de productividad del transistor" está cayendo aproximadamente el 10% por año. La Ley de Moore sigue vigente, pero se necesitan 78 veces más investigadores para descubrir cómo duplicar la densidad de los transistores que en 1970.
+- La productividad de la investigación en semiconductores cae durante el periodo estudiado. La Ley de Moore sigue vigente, pero el esfuerzo de investigación de semiconductores es más de 18 veces mayor que a principios de los años setenta para sostener la duplicación de densidad estudiada. [Bloom et al. (2020), resumen](https://www.aeaweb.org/articles?id=10.1257/aer.20180338).
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -249,7 +249,7 @@ grid.raster(Ideas_5, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - Implicaciones para el crecimiento:
 
@@ -267,11 +267,11 @@ grid.raster(Ideas_5, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):
+- “Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reenen y Webb (BJVW), AER 2020):
 
 - Implicaciones para el crecimiento:
 
-    - La tasa de crecimiento de la población efectiva ha disminuido: si la población que proporciona investigadores comienza a crecer más lentamente, entonces el esfuerzo crece más lentamente y la tasa de crecimiento a largo plazo de las ideas continúa. 
+    - La tasa de crecimiento de la población efectiva ha disminuido: si la población que proporciona investigadores crece más lentamente, el esfuerzo aumenta más despacio y el crecimiento de largo plazo de las ideas disminuye bajo los supuestos del modelo semiendógeno.
 
     - Una disminución en la proporción de la población que está haciendo investigación: esto generaría una tasa de crecimiento de ideas a corto plazo más baja, ya que el esfuerzo tendría una tasa de crecimiento a corto plazo más baja por un tiempo a medida que avanzábamos hacia una menor proporción de personas que realizan investigaciones. 
 

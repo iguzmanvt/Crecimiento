@@ -209,7 +209,8 @@ Inverted-U Relationship” (Aghion, Bloom, Blundell, Griffith y Howitt,
 innovación.</p>
 <ul>
 <li><p><strong>Productores de aviones</strong>: Boeing y Airbus en
-Estados Unidos y Europa, Estructura de monopsonio.</p></li>
+Estados Unidos y Europa, Ejemplo de duopolio de oferentes, no de un
+único comprador.</p></li>
 <li><p><strong>Aerolíneas grandes</strong>: monopolización de rutas hizo
 que se redujera la innovación desde el punto de vista del consumidor
 (reducción de asientos, servicios).</p></li>
@@ -246,9 +247,10 @@ empresa B tiene un costo marginal de 3</p></li>
 <li><p>Si la empresa A cobra menos de 3, la empresa B no puede igualar
 el precio porque incurrirá en una pérdida.</p></li>
 <li><p>Entonces, la empresa A cobrará menos de 3 y obtendrá a todos los
-clientes. La empresa A quiere maximizar las ganancias, por lo que
-cobrará 2.9, tomará todo el negocio y, por lo tanto, cobrará un margen
-de beneficio de aproximadamente 3/2 = 1.5.</p></li>
+clientes. La empresa A quiere maximizar las ganancias, por lo que podría
+cobrar 2.9 y obtener un markup precio/costo de 2.9/2 = 1.45. En el
+límite, con un precio apenas inferior a 3, ese cociente se aproxima a
+1.5.</p></li>
 </ul></li>
 <li><p>De manera más general, el markup cobrado por una empresa es igual
 a la relación del costo marginal de la empresa seguidora (por ejemplo,
@@ -386,14 +388,13 @@ $(document).ready(function () {
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+<!-- CRECIMIENTO_MATHJAX_LOCAL_BEGIN -->
+<script id="crecimiento-mathjax-config">
+window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]], "processEscapes": true}, "svg": {"fontCache": "local"}, "options": {"enableMenu": false}};
 </script>
+<script id="MathJax-script" defer src="../../../vendor/mathjax/es5/tex-svg-full.js"></script>
+<style id="crecimiento-mathjax-style">mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}</style>
+<!-- CRECIMIENTO_MATHJAX_LOCAL_END -->
 
 </body>
 </html>

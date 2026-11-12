@@ -40,7 +40,7 @@ grid.raster(Pensions_34, interpolate=FALSE)
 
 ## Tipos de pensiones
 
--   **¿Qué son las pensiones?**: son un pago entregado de manera regular por un gobierno o empresa a una persona de un fondo de inversión a la que la persona (o su patrón) contribuyó durante sus años laborales.
+-   **¿Qué son las pensiones?**: son pagos regulares durante el retiro. Pueden financiarse con contribuciones de trabajadores activos, recursos presupuestarios o activos acumulados; la definición no presupone una cuenta de inversión individual.
 
 -   **Dos tipos de plan de pensiones:**
 
@@ -364,7 +364,7 @@ grid.raster(Pensions_10, interpolate=FALSE)
 
     -   Consumo en edad laboral de cada integrante de la generación t: $c_t=1-b_t^{k}-b_t^{p}$
 
-    -   Sin costos de transacción, los pagos de pensiones para la misma generación a la edad de retirarse son: $z^{p}_{t+1}=Gb^{p}_{t+1}$ y $z^{k}_{t+1}=Rb^{k}_{t+1}$
+    -   Sin costos de transacción, los pagos de pensiones para la misma generación a la edad de retirarse son: $z^{p}_{t+1}=Gb^{p}_{t+1}$ y $z^{k}_{t+1}=Rb^{k}_{t}$
 
 ## Eficiencia en redistribución de pensiones
 
@@ -408,7 +408,7 @@ grid.raster(Pensions_12, interpolate=FALSE)
 
     -   Operó como un esquema PAYG.
 
-    -   Pensión mínima garantizada tras 10 años de contribuciones.
+    -   La Ley de 1973 requiere un mínimo de 500 semanas reconocidas, además de los requisitos de edad, baja y conservación de derechos. [IMSS, pensión de vejez](https://www.imss.gob.mx/pensiones/preguntas-frecuentes/quien-puede-solicitar-pension-de-vejez).
 
     -   Aportaciones del 8.5% de los salarios.
 
@@ -424,7 +424,7 @@ grid.raster(Pensions_12, interpolate=FALSE)
 
     -   La base se calculaba cómo un porcentaje del salario promedio de los últimos 5 años trabajados.
 
-    -   Se añade una fracción por cada año adicional de contribuciones después del mínimo (10 años).
+    -   Se añaden incrementos por cotizaciones reconocidas posteriores a las primeras 500 semanas, según las reglas del esquema.
 
     -   A mayores salarios , el porcentaje se reduce (efecto redistributivo).
 
@@ -436,11 +436,11 @@ grid.raster(Pensions_12, interpolate=FALSE)
 
 -   **Pensiones inadecuadas:**
 
-    -   Trabajadores con alta rotación perdían derecho a una pensión (no acumulaban 10 años seguidos de contribuciones).
+    -   Trabajadores con alta rotación perdían derecho a una pensión (no reunían las semanas reconocidas requeridas o no conservaban vigentes sus derechos).
 
-    -   Existían incentivos para contribuir únicamente el mínimo de 10 años, ya que la mayor parte de una pensión estaba asegurada por ese periodo de contribuciones.
+    -   El requisito mínimo de 500 semanas y la pensión mínima podían afectar los incentivos a cotizar. La pensión individual también depende de los requisitos de edad, derechos y de su fórmula de cálculo.
 
-    -   Existían incentivos para sub-reportar ingresos para recibir una pensión mayor. De esta manera trabajadores con ingresos altos recibían la misma pensión que aquellos con ingresos bajos.
+    -   El subregistro salarial reduce las contribuciones y altera la base de cálculo de la pensión. Su interacción con la pensión mínima debe analizarse sin suponer que declarar un menor salario eleva automáticamente la pensión.
 
 ## Sistema de pensiones en México
 
@@ -492,9 +492,9 @@ grid.raster(Pensions_14, interpolate=FALSE)
 
     -   Contribuciones tripartitas (trabajador, empleador, gobierno).
 
--   Pensión mínima garantizada después de 25 años de contribuciones.
+-   En el diseño original de 1997, el requisito era de 1,250 semanas de cotización. Este parámetro es histórico: fue modificado por la reforma de 2020.
 
--   El total de contribuciones para el retiro, ahora representa alrededor del 13.5% del salario del trabajador promedio.
+-   La referencia histórica al 13.5% depende de los conceptos incluidos y del salario considerado; no debe usarse como una tasa uniforme de aportación al retiro ni como parámetro vigente.
 
 -   El fondo administrado por el INFONAVIT se mantiene de forma separada.
 
@@ -568,7 +568,7 @@ grid.raster(Pensions_16, interpolate=FALSE)
 
 [**"Modelo para el sistema de pensiones en México: diagnóstico y recomendaciones" (BBVA; 2014)**]{style="color:blue"}
 
--   Nuevo saldo = (Saldo anterior x tasa de interés) + Nueva aportación
+-   Nuevo saldo = Saldo anterior × (1 + tasa de rendimiento neta) + Nueva aportación. Se supone que la aportación se realiza al final del periodo.
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)

@@ -137,7 +137,7 @@ kbl(Tabla1, centering = TRUE) %>%
 
     -   Otras: difícil de medir y actualizar.
 
--   **Teorema de imposibilidad de Arrow:** No se pueden modelar las preferencias agregadas sin violar alguno de los principios de transitividad, eficiencia o exclusión.
+-   **Teorema de imposibilidad de Arrow:** Con al menos tres alternativas, ninguna regla de agregación puede producir siempre un orden social completo y transitivo y satisfacer a la vez dominio irrestricto, unanimidad de Pareto, independencia de alternativas irrelevantes y ausencia de dictador. El resultado concierne a la agregación de preferencias, no a la medición del PIB. [Arrow, 1950](https://doi.org/10.1086/256963).
 
 ## Medición del PIB
 
@@ -152,98 +152,79 @@ grid.arrange(Introduction_Macro_Welfare, Introduction_Macro_Welfare_2, ncol = 2)
 
 ## Expectativa de vida
 
-<iframe width="1300" height="300" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us?time=latest">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-01-vida.html?embed=1" title="life-expectancy-years-vs-real-gdp-per-capita-2011us" loading="lazy"></iframe>
 
-</iframe>
+-   Los países con mayor PIB por habitante tienden a mostrar una mayor esperanza de vida. El acceso a la atención médica y los efectos de la salud sobre la productividad son posibles canales que requieren evidencia adicional para establecer causalidad.
 
--   Los países que tienen un mayor PIB per cápita también tienden a tener una mayor esperanza de vida: los países más ricos pueden proporcionar una mejor atención médica y los países más saludables también pueden producir más bienes y servicios.
+## Mortalidad en menores de cinco años
 
-## Mortalidad infantil
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-02-mortalidad-infantil.html?embed=1" title="child-mortality-gdp-per-capita" loading="lazy"></iframe>
 
-<iframe width="1300" height="100" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/child-mortality-gdp-per-capita">
+-   La figura compara el PIB por habitante con la probabilidad de morir antes de cumplir cinco años. Esta medida incluye a todos los menores de cinco y difiere de la mortalidad infantil, que se refiere a menores de un año.
 
-</iframe>
+## Fecundidad
 
--   Un mayor PIB per cápita también se asocia con menores tasas de mortalidad, particularmente entre los niños.
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-03-fecundidad.html?embed=1" title="children-per-woman-by-gdp-per-capita" loading="lazy"></iframe>
 
-## Crecimiento Poblacional
-
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita">
-
-</iframe>
-
--   A medida que los países se hacen más ricos, parecen favorecer invertir más en cada niño y menos en invertir en tener más hijos.
+-   Los países con mayor PIB por habitante tienden a mostrar menor fecundidad en esta comparación. El número de hijos por mujer difiere de la tasa de crecimiento poblacional, que depende también de la mortalidad y la migración. La figura no identifica por sí sola el mecanismo causal.
 
 ## Población urbana
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/urbanization-vs-gdp">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-04-urbanizacion.html?embed=1" title="urbanization-vs-gdp" loading="lazy"></iframe>
 
-</iframe>
+-   Los países con mayor PIB por habitante tienden a mostrar una mayor proporción de población urbana. Esta asociación es compatible con transformaciones de la estructura económica, pero la figura no demuestra una causa única ni un efecto causal de la urbanización.
 
--   Los países más ricos tienden a ser más urbanos. Una parte importante de esto se debe a las innovaciones tecnológicas que permiten que cada vez menos personas satisfagan las necesidades alimentarias de la población.
+## Exposición a PM2.5
 
-## Contaminación
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-05-exposicion-pm25.html?embed=1" title="outdoor-pollution-rate-vs-gdp" loading="lazy"></iframe>
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp">
-
-</iframe>
-
--   A medida que los países muy pobres se hacen más ricos, ven niveles más altos de contaminación del aire. Pero a medida que los países continúan enriqueciéndose, la contaminación del aire disminuye a medida que los países exigen cielos más limpios.
+-   La figura relaciona la exposición media anual a partículas PM2.5, en microgramos por metro cúbico, con el PIB por habitante. Sustituye la antigua referencia de mortalidad por contaminación. La exposición es una medida ambiental distinta de las muertes atribuibles y esta comparación no demuestra una curva ambiental universal ni una relación causal.
 
 ## Emisiones de dióxido de carbono
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-06-co2.html?embed=1" title="co-emissions-per-capita-vs-gdp-per-capita-international-" loading="lazy"></iframe>
 
 -   Las emisiones de CO2 parecen aumentar con el PIB per cápita, en línea con un mayor uso de energía en los países más ricos. Por lo tanto, una de las preocupaciones que rodean el mayor PIB per cápita en es que generará aún más emisiones de CO2.
 
 ## Pobreza extrema
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-07-pobreza-pib.html?embed=1" title="the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita" loading="lazy"></iframe>
 
-</iframe>
+-   La figura compara el PIB por habitante y la proporción de población con menos de US\$3 al día, a paridad de poder adquisitivo de 2021. Ese es el umbral de la edición descargada en noviembre de 2026 y difiere del umbral histórico de US\$1.90. La relación entre países es descriptiva y depende también de la distribución del ingreso.
 
--   Si nos centramos solo en la pobreza extrema, la proporción de personas que viven con menos de \$ 1.90 por día, entonces hay una fuerte relación negativa del PIB per cápita y la pobreza.
+## PIB por habitante: China, India y África subsahariana
 
-## Pobreza extrema: países / regiones con más de mil millones de habitantes
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-08-pib-regiones.html?embed=1" title="gdp-per-capita-maddison-2020" loading="lazy"></iframe>
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&time=1979..2018&country=CHN~IND~Sub-Sahara+Africa">
+## Pobreza extrema: China, India y África subsahariana
 
-</iframe>
-
-## Pobreza extrema: países / regiones con más de mil millones de habitantes
-
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=CHN~IND~Sub-Saharan+Africa">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-09-pobreza-regiones.html?embed=1" title="share-of-population-in-extreme-poverty" loading="lazy"></iframe>
 
 
 ## Índice de hambre global
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-10-hambre.html?embed=1" title="global-hunger-index-vs-gdp-per-capita" loading="lazy"></iframe>
 
-</iframe>
-
--   Los países que tienen un mayor PIB per cápita tienen menos personas expuestas al hambre severa.
+-   El Índice Global del Hambre resume varios indicadores de desnutrición y salud infantil. Un valor menor indica menor gravedad en ese índice, no un conteo directo de personas con hambre. La comparación con el PIB por habitante es descriptiva.
 
 ## Obesidad
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-11-obesidad.html?embed=1" title="share-of-adults-defined-as-obese" loading="lazy"></iframe>
 
-</iframe>
-
--   Los países que tienen un mayor PIB per cápita tienen menos personas expuestas al hambre severa.
+-   La figura muestra la prevalencia de obesidad entre adultos de la selección de países, según la definición y estandarización indicadas en los metadatos. No mide hambre ni permite por sí sola inferir una relación con el PIB.
 
 ## Número de horas trabajadas
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-12-horas.html?embed=1" title="gdppercapita-vs-annual-hours-worked" loading="lazy"></iframe>
 
-</iframe>
-
--   A medida que los países se han enriquecido, han traducido eso en una disminución en el número de horas que las personas trabajan por año.
+-   La figura relaciona el PIB por habitante con las horas anuales promedio por persona ocupada. Una asociación entre países no demuestra que elevar el ingreso reduzca las horas trabajadas, y las horas por ocupado difieren de las horas por habitante.
 
 ## "Hechos" del crecimiento
+<!-- INTRODUCCION_LOCAL_20261112 -->
+
+Los datos de las figuras locales corresponden a las ediciones identificadas en cada vista. Grupo 1: Australia, Canadá, Reino Unido, México y Estados Unidos. Grupo 2: China, Alemania, Japón, Corea del Sur, Nigeria y Estados Unidos. Son selecciones del código docente, no clasificaciones homogéneas por nivel de desarrollo. Las comparaciones son descriptivas. [Fuentes y datos locales](../../introduccion_local/index.html).
+
+
 
 -   Este tema contiene una serie de cifras destinadas a establecer algunos de los hechos estilizados clave sobre el crecimiento económico.
 
@@ -259,19 +240,15 @@ grid.arrange(Introduction_Macro_Welfare, Introduction_Macro_Welfare_2, ncol = 2)
 
 ## "Hechos" del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/150.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-150.html?embed=1" title="Evolución del PIB per cápita del grupo 1: una pendiente logarítmica aproximadamente constante indica crecimiento sostenido, con fluctuaciones." loading="lazy"></iframe>
 
 -   **Crecimiento estable**
 
-    -   La tasa de crecimiento del PIB per cápita en las economías desarrolladas parece ser estable a largo plazo.
+    -   Evolución del PIB per cápita del grupo 1: una pendiente logarítmica aproximadamente constante indica crecimiento sostenido, con fluctuaciones.
 
 ## "Hechos" del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/152.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-152.html?embed=1" title="Evolución del PIB per cápita del grupo 2: comparar aceleraciones, desaceleraciones y cambios de trayectoria." loading="lazy"></iframe>
 
 -   **Estabilidad del crecimiento en periodos prolongados**
 
@@ -279,23 +256,19 @@ grid.arrange(Introduction_Macro_Welfare, Introduction_Macro_Welfare_2, ncol = 2)
 
     ## "Hechos" del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/66.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-66.html?embed=1" title="Evolución histórica del PIB per cápita regional: las pendientes y los niveles permiten distinguir crecimiento y brechas iniciales." loading="lazy"></iframe>
 
 -   **Convergencia y divergencia**
 
-    -   ¿La tasa de crecimiento es la responsable de la diferencia en el nivel de ingresos? No. Ya existía una brecha muy grande, por ejemplo, entre Estados Unidos, por un lado, e India y Nigeria, por el otro.
+    -   Las brechas de ingreso dependen del nivel inicial y del crecimiento acumulado. Incluso diferencias pequeñas de crecimiento, sostenidas durante décadas, pueden ampliar o reducir considerablemente una brecha inicial.
 
     ## "Hechos" del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/154.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-154.html?embed=1" title="Convergencia: relacionar el ingreso inicial con el crecimiento posterior de la muestra, sin confundir una asociación con una ley universal." loading="lazy"></iframe>
 
 -   **Convergencia y divergencia**
 
-    -   Las diferencias en la tasa de crecimiento del PIB per cápita entre las economías desarrolladas parecen ser temporales.
+    -   Convergencia: relacionar el ingreso inicial con el crecimiento posterior de la muestra, sin confundir una asociación con una ley universal.
 
 ## Convergencia
 
@@ -309,7 +282,7 @@ Introduction_Convergence_OECD <- readPNG("Introduction-Convergence_OECD.png", na
 grid.raster(Introduction_Convergence_OECD, interpolate=FALSE)
 ```
 
--   Entre mayor PIB en 1960, menor tasa de crecimiento promedio en el periodo, lo que sí indica convergencia. ¿Porqué sucede esto?
+-   En la muestra histórica de la figura, un mayor PIB por habitante inicial se asocia con menor crecimiento posterior. Esta evidencia de convergencia beta no basta para probar una reducción de la dispersión del ingreso ni un mecanismo causal.
 
 ## Convergencia
 
@@ -327,9 +300,9 @@ grid.raster(Introduction_Inconditional_Convergence, interpolate=FALSE)
 
 -   *Convergencia condicional e incondicional*
 
-    -   No hay evidencia de convergencia (incondicional) en la distribución del ingreso mundial (de hecho, la evidencia sugiere cierta divergencia en los ingresos entre las naciones).
+    -   La gráfica histórica de la muestra mundial no establece una convergencia incondicional general. La conclusión debe referirse a los países, años y medida de ingreso mostrados, y puede cambiar con la muestra o el periodo.
 
-    -   Pero existe cierta evidencia de convergencia condicional, lo que significa que la brecha de ingresos entre países que tienen características similares observables.
+    -   La convergencia condicional pregunta si una economía crece más rápido cuanto más lejos se encuentra de su propio estado estacionario, considerando las características que lo determinan. No implica que todas alcancen el mismo nivel de ingreso.
 
     -   Esta última observación es relevante tanto para reconocer entre qué países ha ocurrido la divergencia económica como para determinar qué tipos de modelos debemos considerar para comprender el proceso de crecimiento económico y las diferencias en el desempeño económico entre las naciones.
 
@@ -363,89 +336,67 @@ grid.raster(Introduction_Convergence_Schooling, interpolate=FALSE)
 
 ## Correlación con la inversión
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/160.embed">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-160.html?embed=1" title="Correlación entre la participación de la inversión y el nivel logarítmico del PIB por habitante. Esta vista no estima el efecto de invertir sobre la tasa de crecimiento." loading="lazy"></iframe>
 
-</iframe>
+## "Hechos" del crecimiento: grupo 1
 
-## "Hechos" del crecimiento: Países desarrollados
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-170.html?embed=1" title="Consumo / PIB en el grupo 1: comparar niveles y variación temporal de las participaciones." loading="lazy"></iframe>
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/170.embed">
+-   Consumo / PIB en el grupo 1: comparar niveles y variación temporal de las participaciones.
 
-</iframe>
+## "Hechos" del crecimiento: grupo 1
 
--   Las participaciones en el consumo tienden a ser consistentes a lo largo del tiempo para los países desarrollados.
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-174.html?embed=1" title="Inversión / PIB en el grupo 1: observar los rangos de cada país y sus cambios, sin imponer una banda común de 20–25%." loading="lazy"></iframe>
 
-## "Hechos" del crecimiento: Países desarrollados
+-   Inversión / PIB en el grupo 1: observar los rangos de cada país y sus cambios, sin imponer una banda común de 20–25%.
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/174.embed">
+## "Hechos" del crecimiento: grupo 1
 
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-202.html?embed=1" title="Remuneración laboral / PIB en el grupo 1: la serie representa una participación en el ingreso." loading="lazy"></iframe>
 
--   Para los países desarrollados, las participaciones de la inversión se encuentran en un rango entre 20 y 25%.
+-   La relación W/Y describe la participación de la remuneración laboral en el PIB. Su evolución y rango varían según el país y el periodo.
 
-## "Hechos" del crecimiento: Países desarrollados
+## "Hechos" del crecimiento: grupo 1
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/202.embed">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-207.html?embed=1" title="Remuneración laboral / (remuneración laboral + costo del capital) en el grupo 1: cálculo ilustrativo con costo del capital de 5% anual." loading="lazy"></iframe>
 
-</iframe>
+## "Hechos" del crecimiento: grupo 1
 
--   Durante las últimas décadas ha habido una tendencia de la relación W / Y a disminuir en la mayoría de estos países.
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-156.html?embed=1" title="Capital / producto en el grupo 1: comparar las trayectorias de K/Y sin atribuir a todos los países un rango común." loading="lazy"></iframe>
 
-## "Hechos" del crecimiento: Países desarrollados
+-   Capital / producto en el grupo 1: comparar las trayectorias de K/Y sin atribuir a todos los países un rango común.
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/207.embed">
+-   La participación laboral en los costos usa una imputación de costo del capital de 5% anual. Sus niveles dependen de ese supuesto y no son la participación laboral observada en el PIB.
 
-</iframe>
+## "Hechos" del crecimiento: grupo 2
 
-## "Hechos" del crecimiento: Países desarrollados
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-172.html?embed=1" title="Consumo / PIB en el grupo 2: comparar niveles y variación temporal de las participaciones." loading="lazy"></iframe>
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/156.embed">
+-   Consumo / PIB en el grupo 2: comparar niveles y variación temporal de las participaciones.
 
-</iframe>
+## "Hechos" del crecimiento: grupo 2
 
--   Existen tendencias diferentes entre los países, pero en su mayor parte la relación capital / producto se mantiene dentro de un rango de aproximadamente 3 a 4 durante décadas.
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-176.html?embed=1" title="Inversión / PIB en el grupo 2: comparar niveles y variación temporal de las participaciones." loading="lazy"></iframe>
 
--   En su mayor parte, la proporción de la mano de obra en los costos tienden a mantenerse alrededor de 0.7-0.8 todo el tiempo.
+-   Inversión / PIB en el grupo 2: comparar niveles y variación temporal de las participaciones.
 
-## "Hechos" del crecimiento: Países en desarrollo
+## "Hechos" del crecimiento: grupo 2
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/172.embed">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-205.html?embed=1" title="Remuneración laboral / PIB en el grupo 2: la serie representa una participación en el ingreso." loading="lazy"></iframe>
 
-</iframe>
+-   La relación W/Y describe la participación de la remuneración laboral en el PIB. Su evolución y rango varían según el país y el periodo.
 
--   Para los países en desarrollo, las participaciones en el consumo son más inconsistentes.
+## "Hechos" del crecimiento: grupo 2
 
-## "Hechos" del crecimiento: Países en desarrollo
-
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/176.embed">
-
-</iframe>
-
--   Para los países en desarrollo, estas participaciones son más inestables.
-
-## "Hechos" del crecimiento: Países en desarrollo
-
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/205.embed">
-
-</iframe>
-
--   Durante las últimas décadas ha habido una tendencia de la relación W / Y a disminuir en la mayoría de estos países.
-
-## "Hechos" del crecimiento: Países en desarrollo
-
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/209.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-209.html?embed=1" title="Remuneración laboral / (remuneración laboral + costo del capital) en el grupo 2: cálculo ilustrativo con costo del capital de 5% anual." loading="lazy"></iframe>
 
 -   En los países en desarrollo, esta proporción de está entre .75 y .85.
 
-## "Hechos" del crecimiento: Países en desarrollo
+## "Hechos" del crecimiento: grupo 2
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/158.embed">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-158.html?embed=1" title="Capital / producto en el grupo 2: examinar los cambios de K/Y durante las transiciones." loading="lazy"></iframe>
 
-</iframe>
-
--   Con el grupo de países que están experimentando un crecimiento de recuperación, hay menos estabilidad involucrada.
+-   Capital / producto en el grupo 2: examinar los cambios de K/Y durante las transiciones.
 
 ## Convergencia
 
@@ -455,7 +406,7 @@ grid.raster(Introduction_Convergence_Schooling, interpolate=FALSE)
 
     -   La tasa de crecimiento del PIB per cápita (g) es estable
     -   La relación entre la formación bruta de capital y el PIB (I / Y) es estable
-    -   La parte de los costos laborales (ϕL) es estable
+    -   La participación laboral es estable bajo la definición del modelo. En los datos se distingue remuneración / PIB de remuneración / costo total de los factores
     -   La relación capital / producto (K / Y) es estable
 
 -   Entender el BGP es útil porque nos permite centrarnos en algunas regularidades clave en los datos.
@@ -466,33 +417,23 @@ grid.raster(Introduction_Convergence_Schooling, interpolate=FALSE)
 
 ## "Hechos" modernos del crecimiento
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/employment-by-economic-sector?stackMode=relative&amp;country=~USA">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-13-empleo-sectores.html?embed=1" title="employment-by-economic-sector" loading="lazy"></iframe>
 
 ## "Hechos" modernos del crecimiento
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/historical-and-projected-population-by-region">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-14-poblacion-regiones.html?embed=1" title="historical-and-projected-population-by-region" loading="lazy"></iframe>
 
 ## "Hechos" modernos del crecimiento
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/dependency-age-groups-to-2100?country=~OWID_WRL">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/owid/graficas/owid-15-poblacion-edades.html?embed=1" title="dependency-age-groups-to-2100" loading="lazy"></iframe>
 
 ## "Hechos" modernos del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/168.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-168.html?embed=1" title="Distribución entre países de los años promedio de escolaridad en 2010: cada país recibe el mismo peso. No representa la distribución de escolaridad entre personas." loading="lazy"></iframe>
 
 ## "Hechos" modernos del crecimiento
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/118.embed">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../introduccion_local/chartstudio/graficas/iguzmanvt-118.html?embed=1" title="Cambio en investigadores y crecimiento de productividad: comparación descriptiva con rezago de diez observaciones, que puede diferir de diez años calendario." loading="lazy"></iframe>
 
 ## "Hechos" modernos del crecimiento
 

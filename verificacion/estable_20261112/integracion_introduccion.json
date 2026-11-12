@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1 Nota.Rmd",
+      "R_chunks_preserved": 16,
+      "chartstudio_destinations": 17,
+      "owid_destinations": 15
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+      "R_chunks_preserved": 16,
+      "chartstudio_destinations": 17,
+      "owid_destinations": 15
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico Intro.Rmd",
+      "R_chunks_preserved": 15,
+      "chartstudio_destinations": 17,
+      "owid_destinations": 15
+    }
+  ],
+  "chunks_unchanged": true
+}

@@ -1,0 +1,273 @@
+{
+  "sources": [
+    {
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+      "R_chunks_preserved": 3,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/primary-energy-cons?tab=chart&country=USA~CHN~IND~KOR~GBR~JPN~MEX~DEU",
+          "resource_id": "energia_total",
+          "html": "recursos_esenciales/graficas/energia_total.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/per-capita-energy-use?tab=chart&country=CHN~IND~JPN~GBR~USA~KOR~OWID_WRL~MEX~DEU",
+          "resource_id": "energia_por_persona",
+          "html": "recursos_esenciales/graficas/energia_por_persona.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita?yScale=log&time=1990..2015",
+          "resource_id": "energia_ingreso",
+          "html": "recursos_esenciales/graficas/energia_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=CHN~USA+%28blacks%29~USA+%28whites%29~MEX~FRA~JPN~England+and+Wales",
+          "resource_id": "natalidad",
+          "html": "recursos_esenciales/graficas/natalidad.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/children-per-woman-un?tab=chart&time=1950..latest&country=OWID_WRL~BGD~NGA~GHA~DEU~IND~GBR~USA~CHN~KOR~JPN",
+          "resource_id": "fecundidad",
+          "html": "recursos_esenciales/graficas/fecundidad.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita",
+          "resource_id": "fecundidad_ingreso",
+          "html": "recursos_esenciales/graficas/fecundidad_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita",
+          "resource_id": "longevidad_ingreso",
+          "html": "recursos_esenciales/graficas/longevidad_ingreso.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+      "R_chunks_preserved": 3,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/primary-energy-cons?tab=chart&country=USA~CHN~IND~KOR~GBR~JPN~MEX~DEU",
+          "resource_id": "energia_total",
+          "html": "recursos_esenciales/graficas/energia_total.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/per-capita-energy-use?tab=chart&country=CHN~IND~JPN~GBR~USA~KOR~OWID_WRL~MEX~DEU",
+          "resource_id": "energia_por_persona",
+          "html": "recursos_esenciales/graficas/energia_por_persona.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita?yScale=log&time=1990..2015",
+          "resource_id": "energia_ingreso",
+          "html": "recursos_esenciales/graficas/energia_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=CHN~USA+%28blacks%29~USA+%28whites%29~MEX~FRA~JPN~England+and+Wales",
+          "resource_id": "natalidad",
+          "html": "recursos_esenciales/graficas/natalidad.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/children-per-woman-un?tab=chart&time=1950..latest&country=OWID_WRL~BGD~NGA~GHA~DEU~IND~GBR~USA~CHN~KOR~JPN",
+          "resource_id": "fecundidad",
+          "html": "recursos_esenciales/graficas/fecundidad.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita",
+          "resource_id": "fecundidad_ingreso",
+          "html": "recursos_esenciales/graficas/fecundidad_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita",
+          "resource_id": "longevidad_ingreso",
+          "html": "recursos_esenciales/graficas/longevidad_ingreso.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "R_chunks_preserved": 13,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor",
+          "resource_id": "pm25_mundo",
+          "html": "recursos_esenciales/graficas/pm25_mundo.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/share-deaths-air-pollution",
+          "resource_id": "pm25_comparacion",
+          "html": "recursos_esenciales/graficas/pm25_comparacion.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/share-deaths-air-pollution?tab=chart&country=ARE~High-middle+SDI~Middle+SDI~GNQ~High+SDI~Low+SDI~Low-middle+SDI",
+          "resource_id": "pm25_trayectorias",
+          "html": "recursos_esenciales/graficas/pm25_trayectorias.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000?tab=map",
+          "resource_id": "pm25_ingreso",
+          "html": "recursos_esenciales/graficas/pm25_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
+          "resource_id": "co2_por_persona",
+          "html": "recursos_esenciales/graficas/co2_por_persona.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=chart&country=CHN~USA~IND~GBR~KOR~JPN",
+          "resource_id": "co2_total",
+          "html": "recursos_esenciales/graficas/co2_total.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year",
+          "resource_id": "so2_paises",
+          "html": "recursos_esenciales/graficas/so2_paises.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes",
+          "resource_id": "so2_regiones",
+          "html": "recursos_esenciales/graficas/so2_regiones.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/net-zero-targets?country=SVN~MCO~ECU~AFG~GMB~PER~BGR~SEN",
+          "resource_id": "metas_neto_cero",
+          "html": "recursos_esenciales/graficas/metas_neto_cero.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi",
+          "resource_id": "londres_delhi_particulas",
+          "html": "recursos_esenciales/graficas/londres_delhi_particulas.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "R_chunks_preserved": 13,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor",
+          "resource_id": "pm25_mundo",
+          "html": "recursos_esenciales/graficas/pm25_mundo.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/share-deaths-air-pollution",
+          "resource_id": "pm25_comparacion",
+          "html": "recursos_esenciales/graficas/pm25_comparacion.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/share-deaths-air-pollution?tab=chart&country=ARE~High-middle+SDI~Middle+SDI~GNQ~High+SDI~Low+SDI~Low-middle+SDI",
+          "resource_id": "pm25_trayectorias",
+          "html": "recursos_esenciales/graficas/pm25_trayectorias.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000?tab=map",
+          "resource_id": "pm25_ingreso",
+          "html": "recursos_esenciales/graficas/pm25_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/co-emissions-per-capita",
+          "resource_id": "co2_por_persona",
+          "html": "recursos_esenciales/graficas/co2_por_persona.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=chart&country=CHN~USA~IND~GBR~KOR~JPN",
+          "resource_id": "co2_total",
+          "html": "recursos_esenciales/graficas/co2_total.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year",
+          "resource_id": "so2_paises",
+          "html": "recursos_esenciales/graficas/so2_paises.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes",
+          "resource_id": "so2_regiones",
+          "html": "recursos_esenciales/graficas/so2_regiones.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/net-zero-targets?country=SVN~MCO~ECU~AFG~GMB~PER~BGR~SEN",
+          "resource_id": "metas_neto_cero",
+          "html": "recursos_esenciales/graficas/metas_neto_cero.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi",
+          "resource_id": "londres_delhi_particulas",
+          "html": "recursos_esenciales/graficas/londres_delhi_particulas.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+      "R_chunks_preserved": 26,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi",
+          "resource_id": "participacion_relativa_mujeres",
+          "html": "recursos_esenciales/graficas/participacion_relativa_mujeres.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income",
+          "resource_id": "participacion_femenina_ingreso",
+          "html": "recursos_esenciales/graficas/participacion_femenina_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio",
+          "resource_id": "empleo_femenino",
+          "html": "recursos_esenciales/graficas/empleo_femenino.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+      "R_chunks_preserved": 26,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi",
+          "resource_id": "participacion_relativa_mujeres",
+          "html": "recursos_esenciales/graficas/participacion_relativa_mujeres.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income",
+          "resource_id": "participacion_femenina_ingreso",
+          "html": "recursos_esenciales/graficas/participacion_femenina_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio",
+          "resource_id": "empleo_femenino",
+          "html": "recursos_esenciales/graficas/empleo_femenino.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "R_chunks_preserved": 26,
+      "replacements": [
+        {
+          "source_url": "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi",
+          "resource_id": "participacion_relativa_mujeres",
+          "html": "recursos_esenciales/graficas/participacion_relativa_mujeres.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income",
+          "resource_id": "participacion_femenina_ingreso",
+          "html": "recursos_esenciales/graficas/participacion_femenina_ingreso.html"
+        },
+        {
+          "source_url": "https://ourworldindata.org/grapher/female-employment-to-population-ratio",
+          "resource_id": "empleo_femenino",
+          "html": "recursos_esenciales/graficas/empleo_femenino.html"
+        }
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+      "R_chunks_preserved": 8,
+      "replacements": [
+        {
+          "source_url": "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&width=1000&height=475",
+          "resource_id": "tasa_marginal_maxima_historica",
+          "html": "recursos_esenciales/graficas/tasa_marginal_maxima_historica.html"
+        }
+      ]
+    }
+  ],
+  "unique_resources": 21
+}

@@ -1,0 +1,181 @@
+{
+  "data": [
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "marker": {
+        "size": 2.5
+      },
+      "name": "Mundo",
+      "x": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "y": [
+        36.67,
+        36.279804,
+        36.29143,
+        36.30434,
+        36.317307,
+        35.508453,
+        36.348804,
+        36.366554,
+        36.385246,
+        36.40514,
+        36.849155,
+        36.21648,
+        36.813454,
+        36.70675,
+        36.39298,
+        36.384983,
+        35.946835,
+        35.99501,
+        36.27635,
+        36.09217,
+        36.03034,
+        37.363174,
+        35.998547,
+        36.00464,
+        35.895126,
+        36.535892,
+        35.477192,
+        35.014496,
+        34.74262,
+        33.38451,
+        32.501842,
+        33.198826,
+        32.732143,
+        32.872383
+      ],
+      "line": {
+        "width": 2.5
+      },
+      "connectgaps": false,
+      "hovertemplate": "%{x}: %{y:,.2f}<extra>%{fullData.name}</extra>"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Exposición mundial a partículas finas",
+      "x": 0.03,
+      "xanchor": "left",
+      "font": {
+        "size": 21
+      }
+    },
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 14,
+      "color": "#253746"
+    },
+    "paper_bgcolor": "white",
+    "plot_bgcolor": "white",
+    "colorway": [
+      "#1368a4",
+      "#cb4b16",
+      "#21825e",
+      "#774da0",
+      "#b57d10",
+      "#199a9b",
+      "#b53c69",
+      "#596572",
+      "#8c652f",
+      "#6b8e23",
+      "#d46b4e",
+      "#6172b8"
+    ],
+    "margin": {
+      "l": 90,
+      "r": 30,
+      "t": 88,
+      "b": 200
+    },
+    "height": 620,
+    "autosize": true,
+    "xaxis": {
+      "title": {
+        "text": "Año"
+      },
+      "type": "linear",
+      "gridcolor": "#e5e9ec",
+      "zeroline": false
+    },
+    "yaxis": {
+      "title": {
+        "text": "PM2.5: exposición media anual (µg/m³)"
+      },
+      "gridcolor": "#e5e9ec",
+      "zeroline": false,
+      "automargin": true
+    },
+    "legend": {
+      "orientation": "h",
+      "y": -0.22,
+      "x": 0,
+      "font": {
+        "size": 12
+      }
+    },
+    "annotations": [
+      {
+        "xref": "paper",
+        "yref": "paper",
+        "x": 0,
+        "y": 1.075,
+        "text": "1990–2023",
+        "showarrow": false,
+        "xanchor": "left",
+        "font": {
+          "size": 13,
+          "color": "#556575"
+        }
+      },
+      {
+        "xref": "paper",
+        "yref": "paper",
+        "x": 0,
+        "y": -0.4,
+        "text": "Fuente: Banco Mundial, WDI (2026) / OWID · insumos 2026-11-12",
+        "showarrow": false,
+        "xanchor": "left",
+        "font": {
+          "size": 10,
+          "color": "#556575"
+        }
+      }
+    ],
+    "hovermode": "closest"
+  }
+}

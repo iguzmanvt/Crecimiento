@@ -245,18 +245,15 @@ desarrollados se obtendrían resultados similares.</p></li>
 <li><p>Para hacer esto, vamos a construir algunas sendas hipotéticas
 para el logaritmo del PIB per cápita:</p></li>
 </ul>
-<p><span class="math display">\[
-\ln y_t = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_t + \ln A_t.
-\]</span></p>
+<p><span class="math display">\[\ln y_t = \frac{\alpha}{1-\alpha} (\ln
+K_t/Y_t) + \ln h_t + \ln A_t.\]</span></p>
 <ul>
 <li>Con esa información, podemos construir una serie de PIB per cápita
 hipotética que dependa solo de lo que sucedió con la relación capital /
 producción de 1960 a 2019. Esto será:</li>
 </ul>
-<p><span class="math display">\[
-\ln y_t^{KY} = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_{1960} +
-\ln A_{1960}
-\]</span></p>
+<p><span class="math display">\[\ln y_t^{KY} = \frac{\alpha}{1-\alpha}
+(\ln K_t/Y_t) + \ln h_{1960} + \ln A_{1960}\]</span></p>
 <ul>
 <li><p>Esto nos dice qué logaritmo del PIB per cápita habría sido en un
 mundo hipotético donde lo único que cambió con el tiempo fue la relación
@@ -269,15 +266,11 @@ productividad no es importante.</p></li>
 <li><p>Podemos hacer lo mismo para el capital humano y la
 productividad:</p></li>
 </ul>
-<p><span class="math display">\[
-\ln y_t^{HC} = \frac{\alpha}{1-\alpha} (\ln K_{1960}/Y_{1960}) + \ln
-h_{t} + \ln A_{1960}
-\]</span></p>
+<p><span class="math display">\[\ln y_t^{HC} = \frac{\alpha}{1-\alpha}
+(\ln K_{1960}/Y_{1960}) + \ln h_{t} + \ln A_{1960}\]</span></p>
 <p>y</p>
-<p><span class="math display">\[
-\ln y_t^{Prod} = \frac{\alpha}{1-\alpha} (\ln K_{1960}/Y_{1960}) + \ln
-h_{1960} + \ln A_{t}.
-\]</span></p>
+<p><span class="math display">\[\ln y_t^{Prod} = \frac{\alpha}{1-\alpha}
+(\ln K_{1960}/Y_{1960}) + \ln h_{1960} + \ln A_{t}.\]</span></p>
 <ul>
 <li><a
 href="../../../graficas_reconstruidas/graficas/iguzmanvt-104.html"><strong>Calculo
@@ -302,11 +295,9 @@ la productividad de 1990 a 2000.</p></li>
 <li><p>Esto nos da una forma de contabilizar el crecimiento del PIB per
 cápita durante cualquier período de 10 años.</p></li>
 </ul>
-<p><span class="math display">\[
-(\ln y_t - \ln y_{t-10})/10 = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t - \ln
-K_{t-10}/Y_{t-10})/10 + (\ln h_t - \ln h_{t-10})/10 + (\ln A_t - \ln
-A_{t-10})/10.
-\]</span></p>
+<p><span class="math display">\[(\ln y_t - \ln y_{t-10})/10 =
+\frac{\alpha}{1-\alpha} (\ln K_t/Y_t - \ln K_{t-10}/Y_{t-10})/10 + (\ln
+h_t - \ln h_{t-10})/10 + (\ln A_t - \ln A_{t-10})/10.\]</span></p>
 <ul>
 <li><p>Esto descompone la tasa de crecimiento anualizada de 10 años del
 PIB per cápita en contribuciones de la relación capital/producto, el
@@ -502,14 +493,13 @@ $(document).ready(function () {
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+<!-- CRECIMIENTO_MATHJAX_LOCAL_BEGIN -->
+<script id="crecimiento-mathjax-config">
+window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]], "processEscapes": true}, "svg": {"fontCache": "local"}, "options": {"enableMenu": false}};
 </script>
+<script id="MathJax-script" defer src="../../../vendor/mathjax/es5/tex-svg-full.js"></script>
+<style id="crecimiento-mathjax-style">mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}</style>
+<!-- CRECIMIENTO_MATHJAX_LOCAL_END -->
 
 </body>
 </html>

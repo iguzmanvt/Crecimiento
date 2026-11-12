@@ -1,0 +1,202 @@
+{
+  "commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+  "captured_on": "2026-11-12",
+  "files": [
+    {
+      "path": "plotly/pwt-stable-lngdppc.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-lngdppc.html",
+      "git_blob": "ca1ad2f5b9b234bbc7f746fe78cb17880c60837e",
+      "sha256": "699082fb5fbbe2f0efe98d355a562df05a0a327693c92ca72f69879e0d46c18d",
+      "bytes": 7567
+    },
+    {
+      "path": "plotly/mad-stable-lngdppc.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/mad-stable-lngdppc.html",
+      "git_blob": "6c4671d49084c7e4a80c8c047cbd16514dc6fff3",
+      "sha256": "1f2ecf5826367bc186c9994320331d5bbf1b42090ce9212c832de73ba281cc24",
+      "bytes": 11580
+    },
+    {
+      "path": "plotly/pwt-catchup-lngdppc.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-lngdppc.html",
+      "git_blob": "65074bb8c9c59258ad1236a7e6a6818fed1a7d1c",
+      "sha256": "cf48e2cec1bd6d971877cc407bc3af7fee3c28a3f2ae1b8968d45216058982c7",
+      "bytes": 8475
+    },
+    {
+      "path": "plotly/pwt-catchup-convergence.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-convergence.html",
+      "git_blob": "15881df596b24ff1e78ce177b0b0a59c5fe1cd96",
+      "sha256": "f3f26ba06c8ef13531ddd7a98f5812805c649ff7f86828d095e911506ac711eb",
+      "bytes": 45226
+    },
+    {
+      "path": "plotly/pwt-stable-scon.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-scon.html",
+      "git_blob": "e03b6dbd1121cbe452d30958cab30b872a0c297c",
+      "sha256": "2620ab3188d3b59f9d37a782a8860e75c861be354bde835024966f6e5fd38d16",
+      "bytes": 12279
+    },
+    {
+      "path": "plotly/pwt-catchup-scon.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-scon.html",
+      "git_blob": "2e4b8cf09256c1f3d9dc3a91607b789cb067318b",
+      "sha256": "0f9663b19acc7a44167cbc6ac6c822766cd5daf2bb74c6b5ac668b77e7f2c2e4",
+      "bytes": 13864
+    },
+    {
+      "path": "plotly/pwt-stable-sgfcf.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-sgfcf.html",
+      "git_blob": "ce0b222e79fb71526eb3cd8cc440b0d4c88e33b6",
+      "sha256": "28efcf4c36bc2a5000a7dbd64f740ed5e1468a7c7e023a7e087a276cd9f7bef5",
+      "bytes": 11343
+    },
+    {
+      "path": "plotly/pwt-catchup-sgfcf.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-sgfcf.html",
+      "git_blob": "bd360a1e40b3a9cbdfaea9a75c8a206d6d7af2bc",
+      "sha256": "45a9f226dbad7a53bda020e91db6c68d0c063cd22b67a90564dbd543e91a3905",
+      "bytes": 13194
+    },
+    {
+      "path": "plotly/pwt-stable-labs.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-labs.html",
+      "git_blob": "77a647b904c837b635ca807a979900633817e778",
+      "sha256": "ee44bf3fcce081eaf1c534d67453c393634721577d46d0246e6ad735c254f2ed",
+      "bytes": 11882
+    },
+    {
+      "path": "plotly/pwt-catchup-labsh.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-labsh.html",
+      "git_blob": "dd9d643f42b62d5345013ec6f8c80cb65c67d024",
+      "sha256": "1bca66f44286e3f0b459a007d6e72dc7640096e5d0d7336bcb19619cf4c0ffb5",
+      "bytes": 13733
+    },
+    {
+      "path": "plotly/pwt-stable-phil.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-phil.html",
+      "git_blob": "fecc442493a66e4a6b0a31ad4dbdfcecb151d829",
+      "sha256": "7d5352e2231e9fdcbf3afa18842d7ef8eae4538e87eaf030e5e6324603495f2b",
+      "bytes": 7353
+    },
+    {
+      "path": "plotly/pwt-catchup-phil.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-phil.html",
+      "git_blob": "e6f30086773d915064392f1aa474d688f438ec04",
+      "sha256": "008aab45ac716872aea156259313948d9cc29cd0992618df5492680297cfd65b",
+      "bytes": 8285
+    },
+    {
+      "path": "plotly/pwt-stable-ky.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-stable-ky.html",
+      "git_blob": "d3606ebc08730c138cb60164b2a590ea199ceb37",
+      "sha256": "0c4252bed87dcb1a47b004468007708f25d3a1e8fefe96d9d5916c0d36c53d5e",
+      "bytes": 6850
+    },
+    {
+      "path": "plotly/pwt-catchup-ky.html",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-catchup-ky.html",
+      "git_blob": "8be3f069faa99c96d6d6abeefaba809b2a761016",
+      "sha256": "75434c3d09cd33374995a5d3dd0ad2f838f99231ea5f7423ef31f2d3b71e0c81",
+      "bytes": 7763
+    },
+    {
+      "path": "code/Guide_PWT_BGP.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_BGP.r",
+      "git_blob": "38681ca99b774be43964eab5a9d293a9d45f5857",
+      "sha256": "4512620157caf525a7e838fbd553523d2e60d7dac356c9f18690a9268f77102b",
+      "bytes": 12359
+    },
+    {
+      "path": "code/Guide_PWTNA_Facts.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWTNA_Facts.r",
+      "git_blob": "c57d743dfa0641966ba3365033575e0bf1f09ad6",
+      "sha256": "d31ff450255d3b5f4242c74e8d2743e087d80c849eddb46b2bd46a5f50d108f6",
+      "bytes": 4580
+    },
+    {
+      "path": "code/Guide_MAD_Facts.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_MAD_Facts.r",
+      "git_blob": "fa1ce5c8ca81727e9b8d78590417953f50e963ba",
+      "sha256": "0de7dbc2f7b826c1c095c4c9b480dd130667e39a706a98be1cf1bb0dd6245e9d",
+      "bytes": 6559
+    },
+    {
+      "path": "dump/Guide_PWT_Facts.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/dump/Guide_PWT_Facts.r",
+      "git_blob": "05fa9912d31e2e2be47d121c254332a154056caa",
+      "sha256": "a6c29b01bb605b4abed6048616415d0a46928358c46422b92d56cb1843f03632",
+      "bytes": 9264
+    },
+    {
+      "path": "facts/stable.md",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/facts/stable.md",
+      "git_blob": "42b282b49aa009fb824bd0a538ff9340daca8ddb",
+      "sha256": "0cfb16248cc22ed4f83dc5da548bfd77636684a9797aae1746fb8493579fa6de",
+      "bytes": 7657
+    },
+    {
+      "path": "facts/convergence.md",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/facts/convergence.md",
+      "git_blob": "fbf422ebf896fb7616d30aedd928e730f72a21fc",
+      "sha256": "3e9a1855b94eb5f205f9e60ef6499fd6e7c56502866466de35ae74bfb24171bb",
+      "bytes": 5649
+    },
+    {
+      "path": "facts/expenditure.md",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/facts/expenditure.md",
+      "git_blob": "996f3464f327a7d678bbc91e932ae4c9aba4f83c",
+      "sha256": "a98133b0675277a33b6c16a659fdacef59b251a83357c855d19a6c7c6b14333c",
+      "bytes": 5085
+    },
+    {
+      "path": "facts/income.md",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/facts/income.md",
+      "git_blob": "f2016ab3b0ce8425eaa1bcb3a0da552aee47bdc6",
+      "sha256": "75542d73ffb3d2c420351a0d5e57568c0673405615e97b46f5463b34d8123c5a",
+      "bytes": 8670
+    },
+    {
+      "path": "facts/capital.md",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/facts/capital.md",
+      "git_blob": "9596682f45a9f63046edee80d7790b4481658d9f",
+      "sha256": "08e560201c058a1f491d7bd720c1fa8814684bfe1a4d020f0c5bbb473cceb7ca",
+      "bytes": 4610
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/LICENSE",
+      "git_blob": "cd77803a2e7d3dfed8eb74c1fee27027d0258077",
+      "sha256": "165d77bbd664a2ccdaa4ac9e95e7cafa59d69710789c69036ce0cc402d5cea17",
+      "bytes": 1071
+    },
+    {
+      "path": "data/maddison2010.csv",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/data/maddison2010.csv",
+      "git_blob": "7b7a94da833b7a2a917f5536f2a9ab6698b1a631",
+      "sha256": "2b828cd28ce6356580a5f9333aaf70a9c8563f974f1386b8bd97626d9bd1976d",
+      "bytes": 102845
+    },
+    {
+      "path": "data/pwt1001_na_data.csv",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/data/pwt1001_na_data.csv",
+      "git_blob": "1fbb381472f8a771992e61d5ef39edcc7c3909f0",
+      "sha256": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a",
+      "bytes": 1241165
+    },
+    {
+      "path": "code/Guide_OECD_RD.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r",
+      "git_blob": "0e9218a44a8d2da0edc7dadebc9baa4955f13215",
+      "sha256": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+      "bytes": 4743
+    },
+    {
+      "path": "code/Guide_PWT_Account.r",
+      "url": "https://raw.githubusercontent.com/dvollrath/StudyGuide/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r",
+      "git_blob": "0eeb8c314b6184191c45d1a087fd01bcf6707c64",
+      "sha256": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+      "bytes": 9934
+    }
+  ]
+}

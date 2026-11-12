@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://ourworldindata.org/grapher/average-exposure-pm25-pollution.csv?v=1&csvType=full&useColumnShortNames=false",
+    "actual_url": "https://ourworldindata.org/grapher/average-exposure-pm25-pollution.csv?v=1&csvType=full&useColumnShortNames=false",
+    "bytes": 214368
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/average-exposure-pm25-pollution.metadata.json?v=1&csvType=full&useColumnShortNames=false",
+    "actual_url": "https://ourworldindata.org/grapher/average-exposure-pm25-pollution.metadata.json?v=1&csvType=full&useColumnShortNames=false",
+    "bytes": 2008
+  }
+]

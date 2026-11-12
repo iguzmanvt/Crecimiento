@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "figures": 15,
+  "network_used": false,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "environment": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "win32",
+  "scope": "Recálculo de CSV y especificaciones de las vistas OWID desde los insumos archivados; exportaciones visuales y conclusiones académicas se comprueban por separado.",
+  "results": [
+    {
+      "slug": "owid-01-vida",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "dd35318649aff57c4cb660f0c0a8f94e46c1cdfb81c9875c935a05b479288e44"
+    },
+    {
+      "slug": "owid-02-mortalidad-infantil",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "9ef7f1e5cc108b42fb08fd4899cee3be4cb6a047937aa63a7cdaa0cd105b9b97"
+    },
+    {
+      "slug": "owid-03-fecundidad",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "3e3247fbc94dbec8e1d65cb2b06dc0959c0117cf02b2c3c874a23afd4e8d2922"
+    },
+    {
+      "slug": "owid-04-urbanizacion",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "980d43dd89fc5dfa2d2e54d98b5641713510278b7c441486cf7beb27b646270a"
+    },
+    {
+      "slug": "owid-05-exposicion-pm25",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "85b583dc82469805077ac0451be4e25700a264e817738734edb097dd51faa2fb"
+    },
+    {
+      "slug": "owid-06-co2",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "86257493f5ca1dd8c409885f4ba7a942cea9132e4aa7626a114feb2dcc5f4c33"
+    },
+    {
+      "slug": "owid-07-pobreza-pib",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "9ba0e677e6a52fb6f57eb0a9d8d369189aa4e143ad11e0cff5862be888e07175"
+    },
+    {
+      "slug": "owid-08-pib-regiones",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "2442a36093166f53f9c217483a9a2b6adf88dd215224e5bb02f93516a3965b96"
+    },
+    {
+      "slug": "owid-09-pobreza-regiones",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "5cccb30f19e7f9eec2f14f0ab5a0594d84d758d557604d5ecba8b710d2ef955b"
+    },
+    {
+      "slug": "owid-10-hambre",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "ab31d313ea782d31515e96659891cdb3280aa11a3d671864bb26db85f2542e2d"
+    },
+    {
+      "slug": "owid-11-obesidad",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "0684715e735e33dc71c7e4b5df3f0b4515b16195c11eeb6d668f7d29628a5319"
+    },
+    {
+      "slug": "owid-12-horas",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "c9b356e18ba7949d552ecbb5191ae8815230546e79a6371728c91c1eb508df08"
+    },
+    {
+      "slug": "owid-13-empleo-sectores",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "9070fe3a1c9af7ce61ac33b057acf44a912ccf44d4dbeecd4a503531f2948699"
+    },
+    {
+      "slug": "owid-14-poblacion-regiones",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "d3bcec7188844e58f1b8936fe5024b8f7353858fb5a13f4a904db6fe3f2238ba"
+    },
+    {
+      "slug": "owid-15-poblacion-edades",
+      "spec_equivalent_within_tolerance": true,
+      "spec_bytes_identical": true,
+      "csv_bytes_identical": true,
+      "maximum_numeric_difference": 0.0,
+      "spec_sha256": "ebb4902c9b0ad659c42f5bf97e2408f5ac90b3a41ecbcb6a96f7a3a86a43e5fc"
+    }
+  ]
+}

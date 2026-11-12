@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-12",
+  "modules": [
+    {
+      "module": "Introduction",
+      "title": "IntroducciÃ³n al curso",
+      "objective": "PIB per cápita, bienestar y hechos del crecimiento",
+      "figures": "32 vistas locales: 17 Chart Studio y 15 OWID; correspondencias revisadas por la integración de Introducción.",
+      "readings": [
+        "Barro y Sala-i-Martin, IntroducciÃ³n",
+        "Sala-i-Martin, IntroducciÃ³n",
+        "Jones y Klenow (2016), Beyond GDP?",
+        "Acemoglu y Robinson (2012), prefacio y capÃ­tulo 2; clase 2"
+      ],
+      "assignments": [
+        {
+          "task_id": "T1",
+          "sections": "1. DocumentaciÃ³n PWT; 3. Series y crecimiento",
+          "relation": "directa"
+        }
+      ],
+      "review": "PIB en PPA2021 y pobreza US$3/día en la edición nueva; obesidad distinta de hambre; Arrow, grupos de países explícitos y costo laboral con r supuesto.",
+      "limit": "La integración final y la prueba de sus nuevas vistas se documentan por separado."
+    },
+    {
+      "module": "Solow",
+      "title": "Estudios de caso con el modelo de Solow",
+      "objective": "Transición y senda de crecimiento balanceado",
+      "figures": "Casos USA, Alemania, Corea, China y Japón; rectas OLS separadas de observaciones y simulaciones.",
+      "readings": [
+        "Barro y Sala-i-Martin, 1.1 y 1.2",
+        "Sala-i-Martin, capÃ­tulo 1",
+        "Solow (1956), A contribution to the theory of economic growth; complementaria",
+        "Solow (1957), Technical change and the aggregate production function; clase 3"
+      ],
+      "assignments": [
+        {
+          "task_id": "T2",
+          "sections": "1.1. Senda de crecimiento balanceado; 2. Ejercicios de Solow",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. Caso Cambodia y LTGM",
+          "relation": "directa"
+        }
+      ],
+      "review": "Conservar la diferencia entre tasa logarítmica ajustada, extrapolación y pronóstico; A0 es una escala calibrada.",
+      "limit": "Sin cambio sustantivo nuevo en esta lectura."
+    },
+    {
+      "module": "Convergence",
+      "title": "Convergencia y polÃ­ticas pÃºblicas para el crecimiento",
+      "objective": "Convergencia beta/sigma, condicional e incondicional",
+      "figures": "Regresiones entre países y regiones; ejemplos de transición.",
+      "readings": [
+        "Barro y Sala-i-Martin, capÃ­tulo 11",
+        "Chiquiar (2005), Why Mexico's regional income convergence broke down",
+        "Johnson y Papageorgiou (2018), What remains of cross-country convergence?"
+      ],
+      "assignments": [
+        {
+          "task_id": "T1",
+          "sections": "2. Convergencia entre paÃ­ses de la OCDE",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "1. RegresiÃ³n a la media",
+          "relation": "directa"
+        }
+      ],
+      "review": "Se corrigieron coeficiente frente a velocidad, cancelación del intercepto, ponderaciones de la trayectoria y unidades; 617 años es un supuesto ilustrativo, no pronóstico.",
+      "limit": "No se reestimaron las regresiones empíricas archivadas."
+    },
+    {
+      "module": "Accounting",
+      "title": "Contabilidad del crecimiento",
+      "objective": "Descomposición de crecimiento y residuo",
+      "figures": "Ejemplo USA; K/Y, capital humano, productividad y participaciones en costos/PIB.",
+      "readings": [
+        "Barro y Sala-i-Martin, capÃ­tulo 10",
+        "Solow (1957), Technical change and the aggregate production function",
+        "Krugman (1994), The myth of Asia's miracle",
+        "Lucas (2003), The industrial revolution: past and future"
+      ],
+      "assignments": [
+        {
+          "task_id": "T1",
+          "sections": "1. DocumentaciÃ³n de las PWT",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T2",
+          "sections": "1.1. Contabilidad del crecimiento para MÃ©xico",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. Caso Cambodia y LTGM",
+          "relation": "directa"
+        }
+      ],
+      "review": "Mantener la interpretación residual y las unidades del ejemplo; participación en costos distinta de 1−labsh.",
+      "limit": "La conciliación PWT y Excel pertenece a la verificación precedente; no se presenta como nueva estimación."
+    },
+    {
+      "module": "Ideas",
+      "title": "Ideas, productividad e investigaciÃ³n y desarrollo",
+      "objective": "No rivalidad e incentivos para I+D",
+      "figures": "Índices de gasto, investigadores FTE, niveles/crecimiento y simulación semiendógena.",
+      "readings": [
+        "Romer, Endogenous technological change, NBER WP3210 (1989), clase 28",
+        "Jones y Summers, A Calculation of the Social Returns to Innovation (2021 en programa), clase 30",
+        "Bloom, Van Reenen y Williams (2019), A Toolkit of Policies to Promote Innovation"
+      ],
+      "assignments": [
+        {
+          "task_id": "T6",
+          "sections": "1. Romer y bienes no rivales; 2. Entradas del blog de Romer",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T7",
+          "sections": "2. Retornos sociales de I+D",
+          "relation": "directa"
+        }
+      ],
+      "review": "Se corrigieron exclusión frente a no rivalidad, Euler, incentivos sin patentes, 18 frente a78 investigadores y crecimiento poblacional.",
+      "limit": "No se identifica causalidad con las dispersiones; FTE y cobertura temporal son las de los catálogos."
+    },
+    {
+      "module": "Patents",
+      "title": "Patentes",
+      "objective": "Exclusión, incentivos, valor y difusión",
+      "figures": "Figuras de patentes y casos de innovación.",
+      "readings": [
+        "Lerner y Tirole (2000), The Simple Economics of Open Source",
+        "Nelson (2009), Measuring knowledge spillovers; complementaria",
+        "Fischer y Leidinger (2014), Testing patent value indicators; complementaria"
+      ],
+      "assignments": [
+        {
+          "task_id": "T7",
+          "sections": "1. Derechos de autor, exclusividad e incentivos en mÃºsica",
+          "relation": "relacionada: propiedad intelectual; no patentes tÃ©cnicas"
+        },
+        {
+          "task_id": "T6",
+          "sections": "1. Exclusividad parcial de diseÃ±os",
+          "relation": "relacionada"
+        }
+      ],
+      "review": "Se corrigieron ADPIC, plazo desde presentación, AIA/FITF y clasificación IPC; derecho exclusivo distinto de monopolio de mercado.",
+      "limit": "Revisión de conceptos, no asesoría sobre una patente o jurisdicción particular."
+    },
+    {
+      "module": "Competition",
+      "title": "Competencia y modelo schumpeteriano",
+      "objective": "Competencia, innovación y destrucción creativa",
+      "figures": "U invertida, ejemplo de precios Bertrand y contabilidad de innovación.",
+      "readings": [
+        "Aghion y Howitt (1992), modelo de crecimiento por destrucciÃ³n creativa",
+        "Barro y Sala-i-Martin, capÃ­tulos 5 y 6; marco de modelos endÃ³genos"
+      ],
+      "assignments": [
+        {
+          "task_id": "T7",
+          "sections": "1. Propiedad intelectual y barreras a la creatividad",
+          "relation": "relacionada: incentivos; no desarrolla el modelo schumpeteriano"
+        }
+      ],
+      "review": "Se corrigieron duopolio frente a monopsonio y markup exacto frente a límite.",
+      "limit": "Los ejemplos sectoriales no demuestran por sí solos una relación causal universal."
+    },
+    {
+      "module": "Technological_Diffusion",
+      "title": "DifusiÃ³n tecnolÃ³gica",
+      "objective": "Adopción, rezagos y difusión del conocimiento",
+      "figures": "Curvas de adopción y hechos de dinamismo empresarial.",
+      "readings": [
+        "Caselli y Coleman (2001), Cross-country technology diffusion: the case of computers",
+        "Comin y Hobijn (2004), Cross-country technology adoption: making the theories face the facts",
+        "Akcigit y Ates (2019), Ten Facts on Declining Business Dynamism",
+        "Akcigit y Ates (2019), What Happened to U.S. Business Dynamism?"
+      ],
+      "assignments": [
+        {
+          "task_id": "T3",
+          "sections": "1. Atlas de Complejidad EconÃ³mica",
+          "relation": "relacionada: aprendizaje y conocimiento productivo; no modelo formal de difusiÃ³n"
+        }
+      ],
+      "review": "Conservar diferencia entre difusión en el modelo y descripción de rezagos; no equiparar adopción rápida con igual nivel de ingreso.",
+      "limit": "No se autenticó de nuevo la atribución de cada imagen histórica a la publicación exacta; las referencias del programa permanecen diferenciadas."
+    },
+    {
+      "module": "Structural_Transformation",
+      "title": "TransformaciÃ³n sectorial y crecimiento",
+      "objective": "Asignación, poder de mercado y servicios",
+      "figures": "Hsieh–Klenow, Baqaee–Farhi y enfermedad de costos.",
+      "readings": [
+        "Hsieh y Klenow (2009), Misallocation and manufacturing TFP in China and India",
+        "Baumol (2012), The cost disease",
+        "Young (2014), Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services; complementaria"
+      ],
+      "assignments": [
+        {
+          "task_id": "T3",
+          "sections": "1. Complejidad econÃ³mica; 2. AsignaciÃ³n de recursos en MÃ©xico",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. TransformaciÃ³n estructural de Cambodia, reporte pp. 35â€“38",
+          "relation": "directa"
+        }
+      ],
+      "review": "Se hace condicional el efecto de sL sobre el residuo: depende de gK−gL con las demás tasas fijas.",
+      "limit": "No se recalcularon estimaciones de mala asignación ni se identifica cambio tecnológico a partir del residuo solo."
+    },
+    {
+      "module": "Slowdown",
+      "title": "DesaceleraciÃ³n del crecimiento en paÃ­ses desarrollados",
+      "objective": "Desaceleración, medición y demografía",
+      "figures": "Productividad frente a PIBpc; natalidad, dependencia y ocupados/población.",
+      "readings": [
+        "Gordon (2013), U.S. productivity growth: the slowdown has returned after a temporary revival",
+        "Pritchett y Summers (2014), Growth slowdowns: middle-income trap vs. regression to the mean",
+        "Liu (2015), Is China's growth miracle over?"
+      ],
+      "assignments": [
+        {
+          "task_id": "T1",
+          "sections": "3. Series de tiempo y desaceleraciÃ³n de Estados Unidos",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "1. RegresiÃ³n a la media",
+          "relation": "directa"
+        }
+      ],
+      "review": "Se corrigieron unidades anglosajonas billion/trillion al español; conservar muestras/ediciones históricas.",
+      "limit": "Los montos de Syverson corresponden a la versión histórica de trabajo; no se actualizan a2026."
+    },
+    {
+      "module": "Labor",
+      "title": "Cambio tecnolÃ³gico y sustituciÃ³n laboral",
+      "objective": "Automatización y sustitución/complementariedad por tareas",
+      "figures": "Empleo, tareas y evidencia laboral de artículos.",
+      "readings": [
+        "Moretti, The new geography of jobs, capÃ­tulo 1",
+        "Cortes, Jaimovich, Nekarda y Siu (2014), The micro and macro of disappearing routine jobs",
+        "Beaudry, Green y Sand (2016), The great reversal in the demand for skill and cognitive tasks",
+        "Autor, Dorn, Katz, Patterson y Van Reenen (2020), The fall of labor share and the rise of superstar firms"
+      ],
+      "assignments": [
+        {
+          "task_id": "T5_variante",
+          "sections": "3. Acemoglu (2002), cambio tecnolÃ³gico, desigualdad y mercado laboral",
+          "relation": "directa"
+        }
+      ],
+      "review": "Se eliminaron garantías automáticas de reempleo y la interpretación de Polanyi como imposibilidad permanente de aprendizaje por máquinas.",
+      "limit": "La evidencia archivada no es una proyección laboral contemporánea."
+    },
+    {
+      "module": "Labor_2",
+      "title": "Cambio tecnolÃ³gico, gÃ©nero y migraciÃ³n",
+      "objective": "Género, participación y migración",
+      "figures": "Género y salarios urbanos; pandemia y migración.",
+      "readings": [
+        "Duflo (2012), Women empowerment and economic development",
+        "Acemoglu y Autor (2011), Skills, Tasks and Technologies: Implications for Employment and Earnings; complementaria de IV.iii"
+      ],
+      "assignments": [],
+      "review": "Se sustituyó la magnitud general10%→10% no respaldada por el resultado10%→casi5% del resumen de Weinstein; distinguir porcentaje y puntos porcentuales.",
+      "limit": "No se leyó el texto completo de Weinstein: el cotejo de ese resultado es con su resumen editorial."
+    },
+    {
+      "module": "Pensions",
+      "title": "Sistemas de pensiones y crecimiento econÃ³mico",
+      "objective": "OLG, reparto y capitalización",
+      "figures": "Modelos demográficos y casos México/Japón.",
+      "readings": [
+        "Romer, Advanced Macroeconomics, capÃ­tulo 2-B",
+        "Abel, Mankiw, Summers y Zeckhauser (1989), Assessing Dynamic Efficiency: Theory and Evidence",
+        "Bodie, Marcus y Merton (1988), Defined benefit versus defined contribution pension plans: what are the real trade-offs?"
+      ],
+      "assignments": [],
+      "review": "Se corrigieron principal más rendimiento, fecha del ahorro, semanas reconocidas y parámetros históricos.",
+      "limit": "Las figuras de reformas son ejercicios históricos; no se sustituyen por una simulación de la legislación de2026."
+    },
+    {
+      "module": "Energy",
+      "title": "EnergÃ­a, poblaciÃ³n y crecimiento",
+      "objective": "Acervo, flujo, intensidad y gasto",
+      "figures": "Consumo agregado/per cápita, energía/PIB real y gasto nominal/PIB nominal.",
+      "readings": [
+        "Barro y Sala-i-Martin, capÃ­tulos 1.1â€“1.2 y 10; marco del modelo y contabilidad"
+      ],
+      "assignments": [
+        {
+          "task_id": "T2",
+          "sections": "1.1. Modelo de Solow y contabilidad",
+          "relation": "relacionada: modelo de base, sin ejercicio especÃ­fico de energÃ­a"
+        }
+      ],
+      "review": "Se distingue aumento reservas/producción de descubrimientos; conservar unidades físicas frente a nominales.",
+      "limit": "No se estima agotamiento físico a partir de reservas económicas."
+    },
+    {
+      "module": "Environment",
+      "title": "Medio ambiente y crecimiento",
+      "objective": "Exposición, emisiones y cambio técnico dirigido",
+      "figures": "Contaminación local frente a CO2 territorial; sustitución de riesgo/IHME documentada en recursos esenciales.",
+      "readings": [
+        "Banerjee y Duflo (2019), Good Economics for Hard Times, capÃ­tulo 6",
+        "Barro y Sala-i-Martin, capÃ­tulos 2 y 3; marco de Ramsey"
+      ],
+      "assignments": [],
+      "review": "Se corrigieron fuente de Acemoglu, condición de sustituibilidad e interpretación de CO2 por habitante.",
+      "limit": "Los indicadores de exposición no son estimaciones de muertes. La integración de esos reemplazos tiene su propia evidencia."
+    },
+    {
+      "module": "Taxes",
+      "title": "PolÃ­tica fiscal y crecimiento",
+      "objective": "Impuestos, inversión, empleo y crecimiento",
+      "figures": "Dispersiones consumo público/PIB y figuras fiscales de estudios.",
+      "readings": [
+        "Pritchett y Summers (2014), Growth slowdowns: middle-income trap vs. regression to the mean; listado de clase 10",
+        "Yagan (2015), Capital Tax Reform and the Real Economy; complementaria en p. 8",
+        "Barro (1987), Government spending, interest rates, prices and budget deficits in the United Kingdom, 1701â€“1918; clase de Ramsey en p.17"
+      ],
+      "assignments": [
+        {
+          "task_id": "T5",
+          "sections": "1. Gasto pÃºblico, guerras, tasas de interÃ©s y Ramsey",
+          "relation": "directa para gasto pÃºblico y crecimiento"
+        }
+      ],
+      "review": "Se corrigieron ingreso del top1%, C/S, autores, causalidad, oferta laboral y alcance del resultado de Zidar.",
+      "limit": "Los resultados se refieren a las muestras/reformas estudiadas; no son reglas para toda reforma fiscal."
+    }
+  ],
+  "scope": "Revisión narrativa y correspondencias, con cotejo primario focalizado. No reestimación integral ni lectura completa de toda bibliografía."
+}

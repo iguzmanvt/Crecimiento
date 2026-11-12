@@ -1,0 +1,12 @@
+# Código y documentación portables entre Windows y los verificadores de Linux.
+*.Rmd text eol=lf
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+index.html text eol=lf
+*.css text eol=lf

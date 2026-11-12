@@ -1,0 +1,207 @@
+{
+  "materials_processed": 2,
+  "mathjax_version": "3.2.2",
+  "tex_expressions": 165,
+  "results": [
+    {
+      "html": "materiales_actualizados/Accounting/notas/Material.html",
+      "tex_expressions": 6,
+      "source_tex_unchanged": true,
+      "sha256": "a8ba5e952d264847037dd35dda7ace5dde3496769610896df23bb1c31fae15e5"
+    },
+    {
+      "html": "materiales_actualizados/Accounting/presentacion/Material.html",
+      "tex_expressions": 6,
+      "source_tex_unchanged": true,
+      "sha256": "7a43cadd44b5c3e717ff5124d75977d3ab9ec2d953384a984d6b5e974b858b0c"
+    },
+    {
+      "html": "materiales_actualizados/Accounting/ejemplo/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "cf55812ecd4b89fd46fffcb813cb45ce2f3d9613caf0cd160e198e7c4d5e0b7a"
+    },
+    {
+      "html": "materiales_actualizados/Energy/notas/Material.html",
+      "tex_expressions": 1,
+      "source_tex_unchanged": true,
+      "sha256": "cfb5ec80110c1cf1bc5685957b4b8fe42117606e040e58dfce8dcbc614a12faa"
+    },
+    {
+      "html": "materiales_actualizados/Energy/presentacion/Material.html",
+      "tex_expressions": 1,
+      "source_tex_unchanged": true,
+      "sha256": "12a4ea8343c039a76f00397cc8272c538caee847a9feb5265e2f18087f010259"
+    },
+    {
+      "html": "materiales_actualizados/Ideas/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "fcb962d9f4b0cf09aa89b0296980001fab85cca0481e94771770b7a9ca8b030c"
+    },
+    {
+      "html": "materiales_actualizados/Ideas/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "a939c15b10ab3e87d7874f10826b03118b7f7f012493aeb6d18f6e73ced1adfc"
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "7c5340273b752139dfdad635aa1dd1ce592bfb4a932206649987512dc0e0576b"
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "4e79a1e5690d9364267d069d82fe87589ef885351901524b3f55a38f2bbbb929"
+    },
+    {
+      "html": "materiales_actualizados/Solow/notas/Material.html",
+      "tex_expressions": 10,
+      "source_tex_unchanged": true,
+      "sha256": "e47d6fed6920e479125ba472cf6607d3b97ac20c71efa15c81e10924fa8f3554"
+    },
+    {
+      "html": "materiales_actualizados/Solow/presentacion/Material.html",
+      "tex_expressions": 9,
+      "source_tex_unchanged": true,
+      "sha256": "c5f0e9afa60467e1c5303ee2fc305b5484c15736107e89ed7ddd9f4498265299"
+    },
+    {
+      "html": "materiales_actualizados/Taxes/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "8993ff02e35096dad02469698e7a468ca01db53be29533d03f131f7f4bbe7a48"
+    },
+    {
+      "html": "materiales_actualizados/Taxes/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "038e1eecb075b83278637dd8b54596502caa040934c88bc182abea8f8f3561e4"
+    },
+    {
+      "html": "materiales_actualizados/Competition/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "8bd13dd2ef9d1cab33277bb16571c926a7985309ad0a397fa4bac4c4f6dd74f8"
+    },
+    {
+      "html": "materiales_actualizados/Convergence/presentacion/Material.html",
+      "tex_expressions": 40,
+      "source_tex_unchanged": true,
+      "sha256": "f8d36bb0d145a99d467fd0b9b10fdb60dd90d423ac3845676fcae5b8a60f3a00"
+    },
+    {
+      "html": "materiales_actualizados/Patents/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "a7bef5e3e17973fbe9fbf4990240f448af0b80d3b29c49a3bbdda843d09e64af"
+    },
+    {
+      "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "3c6ffef01bd49b9de1d3a68de0106a4810de611913f8e9d73aac8956ba9c3433"
+    },
+    {
+      "html": "materiales_actualizados/Pensions/presentacion/Material.html",
+      "tex_expressions": 22,
+      "source_tex_unchanged": true,
+      "sha256": "dc25c9ccd8f13d716bde3449671ddda97d6e9889286c37419de494dcc36052f7"
+    },
+    {
+      "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
+      "tex_expressions": 4,
+      "source_tex_unchanged": true,
+      "sha256": "411e30b32b828f2b1421385704a61ef0a17c134aa19893405cb75423de39fe95"
+    },
+    {
+      "html": "materiales_actualizados/Environment/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "d3bae3a49f9eb4e0313edc6a593129668695ec3c61f6a1fb99bf2f29f1bb387d"
+    },
+    {
+      "html": "materiales_actualizados/Labor/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "92cd6ddf92d1ad55c05704a27c202aee25a056aded2ee5a2236c63cd5ad96677"
+    },
+    {
+      "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "1a883016f91c18ccc10d5245ea1f794766c7f13dca44775b1ef4dc298ef8b5ef"
+    },
+    {
+      "html": "materiales_actualizados/Introduction/presentacion/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "518be917c7d44fffbe56499bf753700697006eeec208a420123f58bfefa01dc7"
+    },
+    {
+      "html": "materiales_actualizados/Competition/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "3d3cd0cf54506357da74338545e2e60e91ccafe591d3286a4e276eabd5032bfe"
+    },
+    {
+      "html": "materiales_actualizados/Convergence/notas/Material.html",
+      "tex_expressions": 40,
+      "source_tex_unchanged": true,
+      "sha256": "8b0a497027492f75fc81b1f017fa4f29f96541b00bd5694243cce7fe8c7b5a7c"
+    },
+    {
+      "html": "materiales_actualizados/Patents/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "b10c01d05ef4c02c40511400fe2e1a5db2fb49945224e63b5b6a27ef3372178a"
+    },
+    {
+      "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "102ff2201fc0e9aa9fc102c566ab414579c64f08f9b6cbf9992b94ae07295d63"
+    },
+    {
+      "html": "materiales_actualizados/Pensions/notas/Material.html",
+      "tex_expressions": 22,
+      "source_tex_unchanged": true,
+      "sha256": "bd53dc5701ea8cfad81b6478036637e259766c48d835d6867e7641439968622e"
+    },
+    {
+      "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
+      "tex_expressions": 4,
+      "source_tex_unchanged": true,
+      "sha256": "3e561af6179f9fabe012406ea09a1c219f2f88bba93408d65ee9b8fe79e7ca3d"
+    },
+    {
+      "html": "materiales_actualizados/Environment/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "a2c6d8cd01d4588debbb1535f70451f4ce8dc80ff0befcba28345a9690e379b3"
+    },
+    {
+      "html": "materiales_actualizados/Labor/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "e395ec9fc36c6b82a640e934c355bcd9f7139c0a582ec02537e017206e84b7b0"
+    },
+    {
+      "html": "materiales_actualizados/Labor_2/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "e4c8ca8e0385d2d74d4b86d8fd71dfb6e8f73108e6e2a176a00748b6e44e8f8c"
+    },
+    {
+      "html": "materiales_actualizados/Introduction/notas/Material.html",
+      "tex_expressions": 0,
+      "source_tex_unchanged": true,
+      "sha256": "24aeb198320ab326a90bda642964ca13bb0cb9b6af8491eab002a2bc5a5126ae"
+    }
+  ],
+  "materials_in_report": 33,
+  "aggregation": "Informe completo anterior de los 33 materiales y revalidación de las 2 salidas de Environment tras ajustar la altura del iframe; no reejecuta R de los demás."
+}

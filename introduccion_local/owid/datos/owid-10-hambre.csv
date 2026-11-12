@@ -1,0 +1,452 @@
+annotation,code,entity,region,status,x,y,year
+,AFG,Afghanistan,Asia,estimación publicada,1617.8264,50.9,2000
+,AFG,Afghanistan,Asia,estimación publicada,1929.7239,42.7,2006
+,AFG,Afghanistan,Asia,estimación publicada,2985.319,34.3,2012
+,AFG,Afghanistan,Asia,estimación publicada,2144.1665,28.3,2021
+,ALB,Albania,Europe,estimación publicada,6581.9893,20.7,2000
+,ALB,Albania,Europe,estimación publicada,9563.989,15.9,2006
+,ALB,Albania,Europe,estimación publicada,12463.519,8.8,2012
+,ALB,Albania,Europe,estimación publicada,18212.795,6.2,2021
+,DZA,Algeria,Africa,estimación publicada,11558.221,14.5,2000
+,DZA,Algeria,Africa,estimación publicada,13920.694,11.7,2006
+,DZA,Algeria,Africa,estimación publicada,14697.54,8.9,2012
+,DZA,Algeria,Africa,estimación publicada,14496.865,6.9,2021
+,AGO,Angola,Africa,estimación publicada,6794.5303,65.0,2000
+,AGO,Angola,Africa,estimación publicada,9586.176,46.9,2006
+,AGO,Angola,Africa,estimación publicada,11516.813,27.8,2012
+,AGO,Angola,Africa,estimación publicada,8720.1875,26.0,2021
+,ARG,Argentina,South America,estimación publicada,22281.38,6.4,2000
+,ARG,Argentina,South America,estimación publicada,24877.25,5.6,2006
+,ARG,Argentina,South America,estimación publicada,28825.967,5.2,2012
+,ARG,Argentina,South America,estimación publicada,26300.273,5.3,2021
+,ARM,Armenia,Asia,estimación publicada,4589.0083,19.3,2000
+,ARM,Armenia,Asia,estimación publicada,9525.231,13.3,2006
+,ARM,Armenia,Asia,estimación publicada,11796.274,10.4,2012
+,ARM,Armenia,Asia,estimación publicada,15921.705,7.2,2021
+,AZE,Azerbaijan,Asia,estimación publicada,5656.9297,25.0,2000
+,AZE,Azerbaijan,Asia,estimación publicada,13371.658,15.9,2006
+,AZE,Azerbaijan,Asia,estimación publicada,19523.373,10.6,2012
+,AZE,Azerbaijan,Asia,estimación publicada,20111.375,7.5,2021
+,BGD,Bangladesh,Asia,estimación publicada,2712.935,34.0,2000
+,BGD,Bangladesh,Asia,estimación publicada,3407.4272,28.9,2006
+,BGD,Bangladesh,Asia,estimación publicada,4592.0483,28.6,2012
+,BGD,Bangladesh,Asia,estimación publicada,7441.0693,19.1,2021
+,BLR,Belarus,Europe,estimación publicada,11182.455,2.5,2000
+,BLR,Belarus,Europe,estimación publicada,18349.871,2.5,2006
+,BLR,Belarus,Europe,estimación publicada,25879.133,2.5,2012
+,BLR,Belarus,Europe,estimación publicada,27611.18,2.5,2021
+,BEN,Benin,Africa,estimación publicada,2536.169,34.0,2000
+,BEN,Benin,Africa,estimación publicada,2652.2185,27.7,2006
+,BEN,Benin,Africa,estimación publicada,2779.7266,24.0,2012
+,BEN,Benin,Africa,estimación publicada,3464.2886,22.2,2021
+,BOL,Bolivia,South America,estimación publicada,7492.4336,27.7,2000
+,BOL,Bolivia,South America,estimación publicada,8263.319,23.3,2006
+,BOL,Bolivia,South America,estimación publicada,9884.462,15.6,2012
+,BOL,Bolivia,South America,estimación publicada,11202.441,12.7,2021
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,7830.502,9.3,2000
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,10430.412,6.7,2006
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,12626.927,2.5,2012
+,BIH,Bosnia and Herzegovina,Europe,estimación publicada,18286.662,2.5,2021
+,BWA,Botswana,Africa,estimación publicada,13185.817,26.7,2000
+,BWA,Botswana,Africa,estimación publicada,15275.583,26.2,2006
+,BWA,Botswana,Africa,estimación publicada,14957.619,24.3,2012
+,BWA,Botswana,Africa,estimación publicada,17960.625,23.2,2021
+,BRA,Brazil,South America,estimación publicada,14005.348,11.5,2000
+,BRA,Brazil,South America,estimación publicada,15657.4795,7.4,2006
+,BRA,Brazil,South America,estimación publicada,18832.219,5.5,2012
+,BRA,Brazil,South America,estimación publicada,18075.705,2.5,2021
+,BGR,Bulgaria,Europe,estimación publicada,12563.836,8.6,2000
+,BGR,Bulgaria,Europe,estimación publicada,19024.543,8.1,2006
+,BGR,Bulgaria,Europe,estimación publicada,22618.81,7.8,2012
+,BGR,Bulgaria,Europe,estimación publicada,30958.982,6.1,2021
+,BFA,Burkina Faso,Africa,estimación publicada,1428.574,44.9,2000
+,BFA,Burkina Faso,Africa,estimación publicada,1714.7604,35.8,2006
+,BFA,Burkina Faso,Africa,estimación publicada,2003.6647,29.7,2012
+,BFA,Burkina Faso,Africa,estimación publicada,2486.431,24.5,2021
+Value represents the mid-point of its group in the GHI severity scale,BDI,Burundi,Africa,estimación publicada,1032.3827,42.5,2021
+,KHM,Cambodia,Asia,estimación publicada,1922.0317,41.1,2000
+,KHM,Cambodia,Asia,estimación publicada,3041.1047,27.1,2006
+,KHM,Cambodia,Asia,estimación publicada,4159.1636,24.2,2012
+,KHM,Cambodia,Asia,estimación publicada,6225.5327,17.0,2021
+,CMR,Cameroon,Africa,estimación publicada,3822.9443,35.7,2000
+,CMR,Cameroon,Africa,estimación publicada,4241.5176,30.9,2006
+,CMR,Cameroon,Africa,estimación publicada,4382.1113,23.1,2012
+,CMR,Cameroon,Africa,estimación publicada,4793.556,18.6,2021
+,CPV,Cape Verde,Africa,estimación publicada,4510.1357,15.4,2000
+,CPV,Cape Verde,Africa,estimación publicada,5941.3823,11.9,2006
+,CPV,Cape Verde,Africa,estimación publicada,7397.8223,12.3,2012
+,CPV,Cape Verde,Africa,estimación publicada,7685.4194,10.8,2021
+,CAF,Central African Republic,Africa,estimación publicada,1245.814,48.9,2000
+,CAF,Central African Republic,Africa,estimación publicada,1251.8708,48.0,2006
+,CAF,Central African Republic,Africa,estimación publicada,1577.9806,40.5,2012
+,CAF,Central African Republic,Africa,estimación publicada,1128.5524,43.0,2021
+,TCD,Chad,Africa,estimación publicada,1506.7158,50.8,2000
+,TCD,Chad,Africa,estimación publicada,2596.0325,51.2,2006
+,TCD,Chad,Africa,estimación publicada,2886.2747,45.7,2012
+,TCD,Chad,Africa,estimación publicada,2435.0728,39.6,2021
+,CHL,Chile,South America,estimación publicada,17529.42,2.5,2000
+,CHL,Chile,South America,estimación publicada,21973.738,2.5,2006
+,CHL,Chile,South America,estimación publicada,26676.81,2.5,2012
+,CHL,Chile,South America,estimación publicada,29106.635,2.5,2021
+,CHN,China,Asia,estimación publicada,4065.8672,13.3,2000
+,CHN,China,Asia,estimación publicada,7057.1113,9.0,2006
+,CHN,China,Asia,estimación publicada,12217.935,2.5,2012
+,CHN,China,Asia,estimación publicada,20843.297,2.5,2021
+,COL,Colombia,South America,estimación publicada,10813.494,10.9,2000
+,COL,Colombia,South America,estimación publicada,12636.625,11.4,2006
+,COL,Colombia,South America,estimación publicada,15279.479,9.3,2012
+,COL,Colombia,South America,estimación publicada,17383.09,8.9,2021
+Value represents the mid-point of its group in the GHI severity scale,COM,Comoros,Africa,estimación publicada,3449.0435,42.5,2021
+,COG,Congo,Africa,estimación publicada,7570.583,34.9,2000
+,COG,Congo,Africa,estimación publicada,8192.58,34.6,2006
+,COG,Congo,Africa,estimación publicada,9079.687,28.5,2012
+,COG,Congo,Africa,estimación publicada,6263.2114,30.3,2021
+,CRI,Costa Rica,North America,estimación publicada,14025.69,7.0,2000
+,CRI,Costa Rica,North America,estimación publicada,16628.373,5.5,2006
+,CRI,Costa Rica,North America,estimación publicada,19970.686,2.5,2012
+,CRI,Costa Rica,North America,estimación publicada,24083.6,5.3,2021
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4838.376,33.3,2000
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4049.2903,37.1,2006
+,CIV,Cote d'Ivoire,Africa,estimación publicada,4234.212,30.0,2012
+,CIV,Cote d'Ivoire,Africa,estimación publicada,6045.2046,22.3,2021
+,HRV,Croatia,Europe,estimación publicada,21302.412,2.5,2000
+,HRV,Croatia,Europe,estimación publicada,29035.676,2.5,2006
+,HRV,Croatia,Europe,estimación publicada,28259.164,2.5,2012
+,HRV,Croatia,Europe,estimación publicada,36930.074,2.5,2021
+,COD,Democratic Republic of Congo,Africa,estimación publicada,981.42206,50.6,2000
+,COD,Democratic Republic of Congo,Africa,estimación publicada,1036.1333,45.3,2006
+,COD,Democratic Republic of Congo,Africa,estimación publicada,1182.1407,42.3,2012
+,COD,Democratic Republic of Congo,Africa,estimación publicada,1402.3856,39.0,2021
+,DJI,Djibouti,Africa,estimación publicada,5960.108,27.4,2021
+,DOM,Dominican Republic,North America,estimación publicada,10896.318,15.1,2000
+,DOM,Dominican Republic,North America,estimación publicada,12961.918,13.2,2006
+,DOM,Dominican Republic,North America,estimación publicada,15487.277,10.2,2012
+,DOM,Dominican Republic,North America,estimación publicada,22053.459,8.0,2021
+,TLS,East Timor,Asia,estimación publicada,3038.9524,46.1,2006
+,TLS,East Timor,Asia,estimación publicada,4297.915,36.2,2012
+,TLS,East Timor,Asia,estimación publicada,6825.046,32.4,2021
+,ECU,Ecuador,South America,estimación publicada,9183.052,19.7,2000
+,ECU,Ecuador,South America,estimación publicada,10933.49,18.9,2006
+,ECU,Ecuador,South America,estimación publicada,12961.026,12.8,2012
+,ECU,Ecuador,South America,estimación publicada,13507.444,14.0,2021
+,EGY,Egypt,Africa,estimación publicada,9981.628,16.3,2000
+,EGY,Egypt,Africa,estimación publicada,11211.832,14.4,2006
+,EGY,Egypt,Africa,estimación publicada,13076.806,15.2,2012
+,EGY,Egypt,Africa,estimación publicada,15579.016,12.5,2021
+,SLV,El Salvador,North America,estimación publicada,7545.4478,14.7,2000
+,SLV,El Salvador,North America,estimación publicada,8404.247,12.0,2006
+,SLV,El Salvador,North America,estimación publicada,9162.5625,10.4,2012
+,SLV,El Salvador,North America,estimación publicada,10809.714,8.9,2021
+,EST,Estonia,Europe,estimación publicada,20526.66,2.5,2000
+,EST,Estonia,Europe,estimación publicada,33301.496,2.5,2006
+,EST,Estonia,Europe,estimación publicada,33765.43,2.5,2012
+,EST,Estonia,Europe,estimación publicada,44247.418,2.5,2021
+,SWZ,Eswatini,Africa,estimación publicada,6106.0747,24.5,2000
+,SWZ,Eswatini,Africa,estimación publicada,7584.72,23.2,2006
+,SWZ,Eswatini,Africa,estimación publicada,8645.845,21.8,2012
+,SWZ,Eswatini,Africa,estimación publicada,9990.435,17.0,2021
+,ETH,Ethiopia,Africa,estimación publicada,810.27075,53.5,2000
+,ETH,Ethiopia,Africa,estimación publicada,1024.7291,43.4,2006
+,ETH,Ethiopia,Africa,estimación publicada,1576.7688,33.5,2012
+,ETH,Ethiopia,Africa,estimación publicada,2588.413,24.1,2021
+,FJI,Fiji,Oceania,estimación publicada,9070.993,9.6,2000
+,FJI,Fiji,Oceania,estimación publicada,9837.086,9.0,2006
+,FJI,Fiji,Oceania,estimación publicada,10140.693,8.1,2012
+,FJI,Fiji,Oceania,estimación publicada,10322.428,8.6,2021
+,GAB,Gabon,Africa,estimación publicada,21717.225,21.0,2000
+,GAB,Gabon,Africa,estimación publicada,19224.127,20.2,2006
+,GAB,Gabon,Africa,estimación publicada,19450.402,18.6,2012
+,GAB,Gabon,Africa,estimación publicada,18523.58,16.6,2021
+,GMB,Gambia,Africa,estimación publicada,2658.6177,29.0,2000
+,GMB,Gambia,Africa,estimación publicada,2564.6865,27.5,2006
+,GMB,Gambia,Africa,estimación publicada,2574.935,22.1,2012
+,GMB,Gambia,Africa,estimación publicada,2777.7961,17.6,2021
+,GEO,Georgia,Asia,estimación publicada,5706.2725,12.3,2000
+,GEO,Georgia,Asia,estimación publicada,9337.989,8.8,2006
+,GEO,Georgia,Asia,estimación publicada,13193.96,2.5,2012
+,GEO,Georgia,Asia,estimación publicada,18915.654,6.3,2021
+,GHA,Ghana,Africa,estimación publicada,3327.352,28.4,2000
+,GHA,Ghana,Africa,estimación publicada,3857.8616,22.0,2006
+,GHA,Ghana,Africa,estimación publicada,5339.7134,17.9,2012
+,GHA,Ghana,Africa,estimación publicada,6607.503,14.9,2021
+,GTM,Guatemala,North America,estimación publicada,8770.408,28.4,2000
+,GTM,Guatemala,North America,estimación publicada,9386.006,24.6,2006
+,GTM,Guatemala,North America,estimación publicada,10126.833,22.0,2012
+,GTM,Guatemala,North America,estimación publicada,11825.142,19.6,2021
+Value represents the mid-point of its group in the GHI severity scale,GIN,Guinea,Africa,estimación publicada,3738.8052,27.5,2021
+Value represents the mid-point of its group in the GHI severity scale,GNB,Guinea-Bissau,Africa,estimación publicada,2522.1287,27.5,2021
+,GUY,Guyana,South America,estimación publicada,8025.2935,17.1,2000
+,GUY,Guyana,South America,estimación publicada,8702.331,15.6,2006
+,GUY,Guyana,South America,estimación publicada,11534.999,12.1,2012
+,GUY,Guyana,South America,estimación publicada,22865.928,10.7,2021
+,HTI,Haiti,North America,estimación publicada,3237.5308,42.0,2000
+,HTI,Haiti,North America,estimación publicada,3146.2634,43.6,2006
+,HTI,Haiti,North America,estimación publicada,3266.4382,35.2,2012
+,HTI,Haiti,North America,estimación publicada,3116.565,32.8,2021
+,HND,Honduras,North America,estimación publicada,4579.6895,21.8,2000
+,HND,Honduras,North America,estimación publicada,5263.1504,19.6,2006
+,HND,Honduras,North America,estimación publicada,5600.608,13.8,2012
+,HND,Honduras,North America,estimación publicada,6202.981,12.8,2021
+,IND,India,Asia,estimación publicada,3010.4216,38.8,2000
+,IND,India,Asia,estimación publicada,4011.0864,37.4,2006
+,IND,India,Asia,estimación publicada,5303.502,28.8,2012
+,IND,India,Asia,estimación publicada,7818.657,27.5,2021
+,IDN,Indonesia,Asia,estimación publicada,6056.382,26.1,2000
+,IDN,Indonesia,Asia,estimación publicada,7434.488,29.5,2006
+,IDN,Indonesia,Asia,estimación publicada,9708.612,23.0,2012
+,IDN,Indonesia,Asia,estimación publicada,12757.074,18.0,2021
+,IRN,Iran,Asia,estimación publicada,11643.122,13.5,2000
+,IRN,Iran,Asia,estimación publicada,14320.657,8.9,2006
+,IRN,Iran,Asia,estimación publicada,15159.295,8.1,2012
+,IRN,Iran,Asia,estimación publicada,15884.428,7.7,2021
+,IRQ,Iraq,Asia,estimación publicada,12702.164,23.9,2000
+,IRQ,Iraq,Asia,estimación publicada,10568.914,23.9,2006
+,IRQ,Iraq,Asia,estimación publicada,13357.015,27.5,2012
+,IRQ,Iraq,Asia,estimación publicada,12731.754,22.8,2021
+,JAM,Jamaica,North America,estimación publicada,9667.925,8.6,2000
+,JAM,Jamaica,North America,estimación publicada,10522.236,9.0,2006
+,JAM,Jamaica,North America,estimación publicada,9829.035,9.1,2012
+,JAM,Jamaica,North America,estimación publicada,10430.691,8.6,2021
+,JOR,Jordan,Asia,estimación publicada,8781.609,10.8,2000
+,JOR,Jordan,Asia,estimación publicada,10834.874,8.1,2006
+,JOR,Jordan,Asia,estimación publicada,12104.122,8.5,2012
+,JOR,Jordan,Asia,estimación publicada,10056.562,8.3,2021
+,KAZ,Kazakhstan,Asia,estimación publicada,12935.864,11.2,2000
+,KAZ,Kazakhstan,Asia,estimación publicada,22574.344,12.3,2006
+,KAZ,Kazakhstan,Asia,estimación publicada,28881.242,8.1,2012
+,KAZ,Kazakhstan,Asia,estimación publicada,32945.85,6.4,2021
+,KEN,Kenya,Africa,estimación publicada,3756.6362,36.7,2000
+,KEN,Kenya,Africa,estimación publicada,3970.7334,31.2,2006
+,KEN,Kenya,Africa,estimación publicada,4387.938,25.4,2012
+,KEN,Kenya,Africa,estimación publicada,5338.8525,23.0,2021
+,KWT,Kuwait,Asia,estimación publicada,60585.3,2.5,2000
+,KWT,Kuwait,Asia,estimación publicada,79521.35,2.5,2006
+,KWT,Kuwait,Asia,estimación publicada,64908.26,2.5,2012
+,KWT,Kuwait,Asia,estimación publicada,50651.957,2.5,2021
+,KGZ,Kyrgyzstan,Asia,estimación publicada,3638.4631,18.3,2000
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4240.1704,13.9,2006
+,KGZ,Kyrgyzstan,Asia,estimación publicada,4993.3945,11.7,2012
+,KGZ,Kyrgyzstan,Asia,estimación publicada,5736.479,8.6,2021
+,LAO,Laos,Asia,estimación publicada,2899.0195,44.1,2000
+,LAO,Laos,Asia,estimación publicada,3881.5374,31.9,2006
+,LAO,Laos,Asia,estimación publicada,5608.9697,25.7,2012
+,LAO,Laos,Asia,estimación publicada,8080.4355,19.5,2021
+,LVA,Latvia,Europe,estimación publicada,14554.213,5.5,2000
+,LVA,Latvia,Europe,estimación publicada,26431.814,2.5,2006
+,LVA,Latvia,Europe,estimación publicada,27496.545,2.5,2012
+,LVA,Latvia,Europe,estimación publicada,36912.01,2.5,2021
+,LBN,Lebanon,Asia,estimación publicada,11571.732,11.6,2000
+,LBN,Lebanon,Asia,estimación publicada,13003.681,13.2,2006
+,LBN,Lebanon,Asia,estimación publicada,17323.3,12.3,2012
+,LBN,Lebanon,Asia,estimación publicada,11599.775,9.7,2021
+,LSO,Lesotho,Africa,estimación publicada,1932.158,32.5,2000
+,LSO,Lesotho,Africa,estimación publicada,2381.0203,29.6,2006
+,LSO,Lesotho,Africa,estimación publicada,2894.227,24.6,2012
+,LSO,Lesotho,Africa,estimación publicada,2544.7825,27.4,2021
+,LBR,Liberia,Africa,estimación publicada,1868.1798,48.1,2000
+,LBR,Liberia,Africa,estimación publicada,1364.6035,40.0,2006
+,LBR,Liberia,Africa,estimación publicada,1668.9729,35.0,2012
+,LBR,Liberia,Africa,estimación publicada,1539.2089,33.3,2021
+,LTU,Lithuania,Europe,estimación publicada,15777.43,2.5,2000
+,LTU,Lithuania,Europe,estimación publicada,26139.283,2.5,2006
+,LTU,Lithuania,Europe,estimación publicada,30932.098,2.5,2012
+,LTU,Lithuania,Europe,estimación publicada,45897.37,2.5,2021
+,MDG,Madagascar,Africa,estimación publicada,1701.4432,42.8,2000
+,MDG,Madagascar,Africa,estimación publicada,1686.8634,41.6,2006
+,MDG,Madagascar,Africa,estimación publicada,1617.7908,34.3,2012
+,MDG,Madagascar,Africa,estimación publicada,1577.4325,36.3,2021
+,MWI,Malawi,Africa,estimación publicada,1239.3917,43.1,2000
+,MWI,Malawi,Africa,estimación publicada,1237.2739,33.5,2006
+,MWI,Malawi,Africa,estimación publicada,1518.1481,26.2,2012
+,MWI,Malawi,Africa,estimación publicada,1687.5936,21.3,2021
+,MYS,Malaysia,Asia,estimación publicada,18532.91,15.4,2000
+,MYS,Malaysia,Asia,estimación publicada,21444.486,13.7,2006
+,MYS,Malaysia,Asia,estimación publicada,25006.36,12.4,2012
+,MYS,Malaysia,Asia,estimación publicada,29822.85,12.8,2021
+,MLI,Mali,Africa,estimación publicada,2187.719,41.7,2000
+,MLI,Mali,Africa,estimación publicada,2555.0747,36.8,2006
+,MLI,Mali,Africa,estimación publicada,2520.5293,24.8,2012
+,MLI,Mali,Africa,estimación publicada,2796.228,24.7,2021
+,MRT,Mauritania,Africa,estimación publicada,5008.608,31.9,2000
+,MRT,Mauritania,Africa,estimación publicada,6284.702,28.9,2006
+,MRT,Mauritania,Africa,estimación publicada,5716.252,23.6,2012
+,MRT,Mauritania,Africa,estimación publicada,5836.566,22.6,2021
+,MUS,Mauritius,Africa,estimación publicada,13373.656,15.2,2000
+,MUS,Mauritius,Africa,estimación publicada,15932.819,14.0,2006
+,MUS,Mauritius,Africa,estimación publicada,20313.033,13.0,2012
+,MUS,Mauritius,Africa,estimación publicada,23010.201,12.2,2021
+,MEX,Mexico,North America,estimación publicada,20470.494,10.2,2000
+,MEX,Mexico,North America,estimación publicada,20965.826,8.6,2006
+,MEX,Mexico,North America,estimación publicada,20898.936,7.8,2012
+,MEX,Mexico,North America,estimación publicada,20782.588,8.5,2021
+Value represents the mid-point of its group in the GHI severity scale,MDA,Moldova,Europe,estimación publicada,15682.07,5.0,2021
+,MNG,Mongolia,Asia,estimación publicada,5818.243,30.2,2000
+,MNG,Mongolia,Asia,estimación publicada,8043.9966,23.4,2006
+,MNG,Mongolia,Asia,estimación publicada,12078.919,12.8,2012
+,MNG,Mongolia,Asia,estimación publicada,14792.251,6.1,2021
+,MNE,Montenegro,Europe,estimación publicada,17727.365,6.5,2006
+,MNE,Montenegro,Europe,estimación publicada,19576.412,2.5,2012
+,MNE,Montenegro,Europe,estimación publicada,23689.979,2.5,2021
+,MAR,Morocco,Africa,estimación publicada,5100.1157,15.5,2000
+,MAR,Morocco,Africa,estimación publicada,6488.674,17.5,2006
+,MAR,Morocco,Africa,estimación publicada,7628.644,9.6,2012
+,MAR,Morocco,Africa,estimación publicada,8623.266,8.8,2021
+,MOZ,Mozambique,Africa,estimación publicada,711.9764,48.0,2000
+,MOZ,Mozambique,Africa,estimación publicada,1041.8047,38.2,2006
+,MOZ,Mozambique,Africa,estimación publicada,1338.516,31.5,2012
+,MOZ,Mozambique,Africa,estimación publicada,1457.2354,31.3,2021
+,MMR,Myanmar,Asia,estimación publicada,1359.9304,39.8,2000
+,MMR,Myanmar,Asia,estimación publicada,2669.327,31.6,2006
+,MMR,Myanmar,Asia,estimación publicada,4340.9995,22.9,2012
+,MMR,Myanmar,Asia,estimación publicada,5178.4473,17.5,2021
+,NAM,Namibia,Africa,estimación publicada,7858.3877,25.3,2000
+,NAM,Namibia,Africa,estimación publicada,9773.298,25.8,2006
+,NAM,Namibia,Africa,estimación publicada,11266.609,26.6,2012
+,NAM,Namibia,Africa,estimación publicada,9709.1,20.2,2021
+,NPL,Nepal,Asia,estimación publicada,2340.8157,37.4,2000
+,NPL,Nepal,Asia,estimación publicada,2641.348,30.9,2006
+,NPL,Nepal,Asia,estimación publicada,3316.5007,23.1,2012
+,NPL,Nepal,Asia,estimación publicada,4546.2295,19.1,2021
+,NIC,Nicaragua,North America,estimación publicada,4878.2476,22.3,2000
+,NIC,Nicaragua,North America,estimación publicada,5500.4053,17.4,2006
+,NIC,Nicaragua,North America,estimación publicada,6275.787,14.9,2012
+,NIC,Nicaragua,North America,estimación publicada,7119.169,14.0,2021
+Value represents the mid-point of its group in the GHI severity scale,NER,Niger,Africa,estimación publicada,1587.8479,27.5,2021
+,NGA,Nigeria,Africa,estimación publicada,4889.0034,39.5,2000
+,NGA,Nigeria,Africa,estimación publicada,6702.9453,32.5,2006
+,NGA,Nigeria,Africa,estimación publicada,8265.905,30.4,2012
+,NGA,Nigeria,Africa,estimación publicada,7588.479,28.3,2021
+,MKD,North Macedonia,Europe,estimación publicada,11988.245,7.5,2000
+,MKD,North Macedonia,Europe,estimación publicada,14118.2295,7.7,2006
+,MKD,North Macedonia,Europe,estimación publicada,17189.996,2.5,2012
+,MKD,North Macedonia,Europe,estimación publicada,22144.193,2.5,2021
+,OMN,Oman,Asia,estimación publicada,42086.043,14.7,2000
+,OMN,Oman,Asia,estimación publicada,42540.44,13.8,2006
+,OMN,Oman,Asia,estimación publicada,41964.082,11.6,2012
+,OMN,Oman,Asia,estimación publicada,38719.457,12.3,2021
+,PAK,Pakistan,Asia,estimación publicada,3531.713,36.7,2000
+,PAK,Pakistan,Asia,estimación publicada,4185.8667,33.1,2006
+,PAK,Pakistan,Asia,estimación publicada,4292.021,32.1,2012
+,PAK,Pakistan,Asia,estimación publicada,5367.2734,24.7,2021
+,PAN,Panama,North America,estimación publicada,14572.98,18.7,2000
+,PAN,Panama,North America,estimación publicada,18190.281,15.0,2006
+,PAN,Panama,North America,estimación publicada,26926.896,10.1,2012
+,PAN,Panama,North America,estimación publicada,30932.764,8.9,2021
+,PNG,Papua New Guinea,Oceania,estimación publicada,3327.2249,33.6,2000
+,PNG,Papua New Guinea,Oceania,estimación publicada,3202.8977,30.3,2006
+,PNG,Papua New Guinea,Oceania,estimación publicada,3577.9102,33.7,2012
+,PNG,Papua New Guinea,Oceania,estimación publicada,3977.4429,27.8,2021
+,PRY,Paraguay,South America,estimación publicada,9997.33,11.7,2000
+,PRY,Paraguay,South America,estimación publicada,10671.645,11.6,2006
+,PRY,Paraguay,South America,estimación publicada,12833.18,9.5,2012
+,PRY,Paraguay,South America,estimación publicada,15400.944,7.5,2021
+,PER,Peru,South America,estimación publicada,7668.0605,20.6,2000
+,PER,Peru,South America,estimación publicada,9546.625,16.4,2006
+,PER,Peru,South America,estimación publicada,13393.593,9.2,2012
+,PER,Peru,South America,estimación publicada,15285.7705,8.0,2021
+,PHL,Philippines,Asia,estimación publicada,4740.439,25.0,2000
+,PHL,Philippines,Asia,estimación publicada,5578.5723,20.4,2006
+,PHL,Philippines,Asia,estimación publicada,6697.556,20.5,2012
+,PHL,Philippines,Asia,estimación publicada,8857.79,16.8,2021
+,ROU,Romania,Europe,estimación publicada,14853.606,7.9,2000
+,ROU,Romania,Europe,estimación publicada,22354.564,5.9,2006
+,ROU,Romania,Europe,estimación publicada,26767.455,5.0,2012
+,ROU,Romania,Europe,estimación publicada,37534.0,2.5,2021
+,RUS,Russia,Europe,estimación publicada,20104.75,10.1,2000
+,RUS,Russia,Europe,estimación publicada,30022.672,7.1,2006
+,RUS,Russia,Europe,estimación publicada,35740.7,6.4,2012
+,RUS,Russia,Europe,estimación publicada,38638.43,6.2,2021
+,RWA,Rwanda,Africa,estimación publicada,1055.3505,49.3,2000
+,RWA,Rwanda,Africa,estimación publicada,1501.7646,38.3,2006
+,RWA,Rwanda,Africa,estimación publicada,2063.6648,31.0,2012
+,RWA,Rwanda,Africa,estimación publicada,2776.3928,26.4,2021
+,SAU,Saudi Arabia,Asia,estimación publicada,55962.266,11.0,2000
+,SAU,Saudi Arabia,Asia,estimación publicada,54373.74,12.1,2006
+,SAU,Saudi Arabia,Asia,estimación publicada,59471.7,8.2,2012
+,SAU,Saudi Arabia,Asia,estimación publicada,62690.496,6.8,2021
+,SEN,Senegal,Africa,estimación publicada,3093.2878,34.0,2000
+,SEN,Senegal,Africa,estimación publicada,3301.0315,24.1,2006
+,SEN,Senegal,Africa,estimación publicada,3405.1086,19.2,2012
+,SEN,Senegal,Africa,estimación publicada,4173.6772,16.3,2021
+,SRB,Serbia,Europe,estimación publicada,15727.403,6.1,2006
+,SRB,Serbia,Europe,estimación publicada,17993.814,5.3,2012
+,SRB,Serbia,Europe,estimación publicada,23406.307,2.5,2021
+,SLE,Sierra Leone,Africa,estimación publicada,1981.5061,57.7,2000
+,SLE,Sierra Leone,Africa,estimación publicada,2342.7546,52.7,2006
+,SLE,Sierra Leone,Africa,estimación publicada,2792.9263,34.7,2012
+,SLE,Sierra Leone,Africa,estimación publicada,2849.3887,31.3,2021
+,SVK,Slovakia,Europe,estimación publicada,18335.684,6.0,2000
+,SVK,Slovakia,Europe,estimación publicada,25331.873,5.3,2006
+,SVK,Slovakia,Europe,estimación publicada,30894.312,2.5,2012
+,SVK,Slovakia,Europe,estimación publicada,38330.305,2.5,2021
+,SLB,Solomon Islands,Oceania,estimación publicada,2277.1135,20.0,2000
+,SLB,Solomon Islands,Oceania,estimación publicada,2340.9514,18.2,2006
+,SLB,Solomon Islands,Oceania,estimación publicada,2743.81,20.2,2012
+,SLB,Solomon Islands,Oceania,estimación publicada,2450.184,18.8,2021
+,SOM,Somalia,Africa,estimación publicada,702.8501,58.1,2000
+,SOM,Somalia,Africa,estimación publicada,857.99365,57.9,2006
+,SOM,Somalia,Africa,estimación publicada,1114.8042,65.1,2012
+,SOM,Somalia,Africa,estimación publicada,1392.3179,50.8,2021
+,ZAF,South Africa,Africa,estimación publicada,11183.825,18.1,2000
+,ZAF,South Africa,Africa,estimación publicada,13444.233,17.6,2006
+,ZAF,South Africa,Africa,estimación publicada,14563.763,12.7,2012
+,ZAF,South Africa,Africa,estimación publicada,13681.955,12.9,2021
+,LKA,Sri Lanka,Asia,estimación publicada,6428.6133,21.9,2000
+,LKA,Sri Lanka,Asia,estimación publicada,7970.665,20.0,2006
+,LKA,Sri Lanka,Asia,estimación publicada,11447.693,20.6,2012
+,LKA,Sri Lanka,Asia,estimación publicada,14316.135,16.0,2021
+,SDN,Sudan,Africa,estimación publicada,4145.9316,29.8,2012
+,SDN,Sudan,Africa,estimación publicada,3248.9756,25.1,2021
+,SUR,Suriname,South America,estimación publicada,16220.179,15.1,2000
+,SUR,Suriname,South America,estimación publicada,20113.67,11.4,2006
+,SUR,Suriname,South America,estimación publicada,24193.842,10.4,2012
+,SUR,Suriname,South America,estimación publicada,18458.234,10.4,2021
+Value represents the mid-point of its group in the GHI severity scale,SYR,Syria,Asia,estimación publicada,4765.5293,42.5,2021
+Value represents the mid-point of its group in the GHI severity scale,TJK,Tajikistan,Asia,estimación publicada,3985.9126,15.0,2021
+,TZA,Tanzania,Africa,estimación publicada,1839.9366,40.6,2000
+,TZA,Tanzania,Africa,estimación publicada,2334.1045,33.6,2006
+,TZA,Tanzania,Africa,estimación publicada,2822.4854,29.1,2012
+,TZA,Tanzania,Africa,estimación publicada,3493.083,24.7,2021
+,THA,Thailand,Asia,estimación publicada,11623.787,18.5,2000
+,THA,Thailand,Asia,estimación publicada,15052.695,12.3,2006
+,THA,Thailand,Asia,estimación publicada,17871.578,12.4,2012
+,THA,Thailand,Asia,estimación publicada,20236.977,11.7,2021
+,TGO,Togo,Africa,estimación publicada,2321.9504,39.1,2000
+,TGO,Togo,Africa,estimación publicada,2158.9438,36.5,2006
+,TGO,Togo,Africa,estimación publicada,2333.1929,25.3,2012
+,TGO,Togo,Africa,estimación publicada,2952.0974,23.7,2021
+,TTO,Trinidad and Tobago,North America,estimación publicada,19637.555,11.0,2000
+,TTO,Trinidad and Tobago,North America,estimación publicada,33348.75,11.3,2006
+,TTO,Trinidad and Tobago,North America,estimación publicada,36903.69,10.8,2012
+,TTO,Trinidad and Tobago,North America,estimación publicada,30482.121,8.9,2021
+,TUN,Tunisia,Africa,estimación publicada,9134.415,10.3,2000
+,TUN,Tunisia,Africa,estimación publicada,10983.922,7.8,2006
+,TUN,Tunisia,Africa,estimación publicada,12436.3955,7.0,2012
+,TUN,Tunisia,Africa,estimación publicada,12444.326,6.0,2021
+,TUR,Turkey,Asia,estimación publicada,14856.915,10.2,2000
+,TUR,Turkey,Asia,estimación publicada,18972.01,6.5,2006
+,TUR,Turkey,Asia,estimación publicada,22517.715,5.0,2012
+,TUR,Turkey,Asia,estimación publicada,32105.547,2.5,2021
+,TKM,Turkmenistan,Asia,estimación publicada,5064.2876,20.1,2000
+,TKM,Turkmenistan,Asia,estimación publicada,6415.713,14.8,2006
+,TKM,Turkmenistan,Asia,estimación publicada,10689.354,11.9,2012
+,TKM,Turkmenistan,Asia,estimación publicada,16259.87,9.7,2021
+Value represents the mid-point of its group in the GHI severity scale,UGA,Uganda,Africa,estimación publicada,2684.9204,27.5,2021
+,UKR,Ukraine,Europe,estimación publicada,10364.0625,13.0,2000
+,UKR,Ukraine,Europe,estimación publicada,16901.508,7.1,2006
+,UKR,Ukraine,Europe,estimación publicada,17848.74,6.9,2012
+,UKR,Ukraine,Europe,estimación publicada,17846.408,6.8,2021
+,URY,Uruguay,South America,estimación publicada,18752.05,7.4,2000
+,URY,Uruguay,South America,estimación publicada,19560.074,6.7,2006
+,URY,Uruguay,South America,estimación publicada,26953.271,5.0,2012
+,URY,Uruguay,South America,estimación publicada,29431.873,2.5,2021
+,UZB,Uzbekistan,Asia,estimación publicada,3430.8838,24.3,2000
+,UZB,Uzbekistan,Asia,estimación publicada,4439.9067,16.6,2006
+,UZB,Uzbekistan,Asia,estimación publicada,6525.497,9.5,2012
+,UZB,Uzbekistan,Asia,estimación publicada,9705.601,5.9,2021
+,VNM,Vietnam,Asia,estimación publicada,4349.2236,26.3,2000
+,VNM,Vietnam,Asia,estimación publicada,6098.245,21.8,2006
+,VNM,Vietnam,Asia,estimación publicada,7979.868,16.0,2012
+,VNM,Vietnam,Asia,estimación publicada,12048.902,13.6,2021
+Value represents the mid-point of its group in the GHI severity scale,ZMB,Zambia,Africa,estimación publicada,3503.035,27.5,2021
+Value represents the mid-point of its group in the GHI severity scale,ZWE,Zimbabwe,Africa,estimación publicada,4827.1094,27.5,2021

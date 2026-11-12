@@ -1,0 +1,124 @@
+[
+  {
+    "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+    "changes": [
+      {
+        "old": "Una participación laboral decreciente** (y una participación de ganancias creciente en el PIB) necesariamente conducirá a una **disminución en el crecimiento de la medición de la productividad, incluso si la innovación no cambia.",
+        "count": 1
+      },
+      {
+        "old": "Por último, **a medida que la participación laboral en los ingresos disminuye, también lo hace el crecimiento de la productividad medida porque que el capital tiende a acumularse más rápido que la mano de obra.**",
+        "count": 1
+      }
+    ],
+    "sha256_after": "d6176c7d169d0c31df0ec40106e94271b2b8d54d6fb60c3b05ed53ccfe9dbeff"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+    "changes": [
+      {
+        "old": "Una participación laboral decreciente** (y una participación de ganancias creciente en el PIB) necesariamente conducirá a una **disminución en el crecimiento de la medición de la productividad, incluso si la innovación no cambia.",
+        "count": 1
+      },
+      {
+        "old": "Por último, **a medida que la participación laboral en los ingresos disminuye, también lo hace el crecimiento de la productividad medida porque que el capital tiende a acumularse más rápido que la mano de obra.**",
+        "count": 1
+      }
+    ],
+    "sha256_after": "97045d3b0a4d945d314eef3d990a20e987f5ac31fa91995c6fdc7ce04269cacc"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+    "changes": [
+      {
+        "old": "Existían incentivos para contribuir únicamente el mínimo de 10 años, ya que la mayor parte de una pensión estaba asegurada por ese periodo de contribuciones.",
+        "count": 1
+      },
+      {
+        "old": "Existían incentivos para sub-reportar ingresos para recibir una pensión mayor. De esta manera trabajadores con ingresos altos recibían la misma pensión que aquellos con ingresos bajos.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "6fcd1e8c41d09055f05ce12a4bed804eb7d5acf3943dd18574b1d674862b7fc2"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+    "changes": [
+      {
+        "old": "Existían incentivos para contribuir únicamente el mínimo de 10 años, ya que la mayor parte de una pensión estaba asegurada por ese periodo de contribuciones.",
+        "count": 1
+      },
+      {
+        "old": "Existían incentivos para sub-reportar ingresos para recibir una pensión mayor. De esta manera trabajadores con ingresos altos recibían la misma pensión que aquellos con ingresos bajos.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "ad0da86bcc8d5e49656520b19b38cb5415b139e18f887bdf5b89afb2078a47ff"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion (1).Rmd",
+    "changes": [
+      {
+        "old": "Al aumentar la participación de la mujer en 10%, el salario real incrementa en casi 10%. Un 10% de incremento en la participación masculina en el sector está asociado con una disminución de 3% en el salario real promedio. Esto debido a un cambio en la curva de oferta: más hombres compitiendo por los mismos trabajos.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "c68078815e38455bea9a28af40c5315073c57340976f364be96dc1fa0db24484"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+    "changes": [
+      {
+        "old": "Al aumentar la participación de la mujer en 10%, el salario real incrementa en casi 10%. Un 10% de incremento en la participación masculina en el sector está asociado con una disminución de 3% en el salario real promedio. Esto debido a un cambio en la curva de oferta: más hombres compitiendo por los mismos trabajos.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "c68078815e38455bea9a28af40c5315073c57340976f364be96dc1fa0db24484"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+    "changes": [
+      {
+        "old": "Al aumentar la participación de la mujer en 10%, el salario real incrementa en casi 10%. Un 10% de incremento en la participación masculina en el sector está asociado con una disminución de 3% en el salario real promedio. Esto debido a un cambio en la curva de oferta: más hombres compitiendo por los mismos trabajos.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "82e341e95e122fe396e9139f5735b02641f4059aa06950bbdb78119b485ebff3"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+    "changes": [
+      {
+        "old": "Esto es explicable, según el modelo, debido al comportamiento del PIB regional en los años posteriores al 2008, como se puede apreciar en la no significancia de los coeficientes de la regresión.",
+        "count": 1
+      },
+      {
+        "old": "La literatura indica coeficientes de convergencia condicional de $\\beta=-0.02$.",
+        "count": 1
+      },
+      {
+        "old": "con una estimación de $\\beta=-0.02$, aproximadamente.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "94519dd3522b21fd409e711f2a004a5fa9ab3a09c45ec7f47bacc8cd463fb8b2"
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+    "changes": [
+      {
+        "old": "Esto es explicable, según el modelo, debido al comportamiento del PIB regional en los años posteriores al 2008, como se puede apreciar en la no significancia de los coeficientes de la regresión.",
+        "count": 1
+      },
+      {
+        "old": "La literatura indica coeficientes de convergencia condicional de $\\beta=-0.02$.",
+        "count": 1
+      },
+      {
+        "old": "con una estimación de $\\beta=-0.02$, aproximadamente.",
+        "count": 1
+      }
+    ],
+    "sha256_after": "eeba2dd76d853a681863b703af6d8dd2f9215fcb14d94a2f56d4a0e2a5eb2955"
+  }
+]

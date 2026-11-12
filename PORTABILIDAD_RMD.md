@@ -1,5 +1,9 @@
 # Rutas e imágenes de las fuentes R Markdown
 
+## Actualización de la entrega estable
+
+La entrega del 12 de noviembre añade fórmulas y figuras esenciales locales, 32 vistas de Introducción, recursos de otros temas y correcciones docentes. [La guía vigente](REPRODUCCION_MODULOS.md) describe la generación de los 33 materiales canónicos y sus comprobaciones. Los límites descritos a continuación corresponden a las verificaciones del 11 de noviembre y se conservan como registro histórico.
+
 Las fuentes utilizaban rutas del Escritorio del equipo original para cargar sus imágenes. La corrección del 11 de noviembre de 2026 sustituye 604 literales de `readPNG` y `readJPEG` en 34 Rmd por rutas relativas al directorio de cada documento. Se conservaron contenido docente, código restante, opciones, variantes, imágenes y notas HTML históricas.
 
 ## Alcance

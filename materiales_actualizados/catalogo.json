@@ -8,7 +8,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
       "html": "materiales_actualizados/Accounting/notas/Material.html",
-      "sha256": "7c17580a4fe7a3f00bb19c7feb7a623333f1c5ac27c20f6da989be43f2ff5b68"
+      "sha256": "a8ba5e952d264847037dd35dda7ace5dde3496769610896df23bb1c31fae15e5",
+      "source_sha256": "8b99cda733f1cf016d581f23a5df5c5440e7d1c8af8fbad78a534353bee6ed86",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "02",
@@ -17,7 +19,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
       "html": "materiales_actualizados/Accounting/presentacion/Material.html",
-      "sha256": "c954255280d738f2a2cbedaec14677d7c4fb5bc486e27d4da26414b53c36ddcb"
+      "sha256": "7a43cadd44b5c3e717ff5124d75977d3ab9ec2d953384a984d6b5e974b858b0c",
+      "source_sha256": "42121008b47109e292027f3126221eab8fa6c7fb283b9607ba52460ef6ff184f",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "03",
@@ -26,7 +30,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
       "html": "materiales_actualizados/Accounting/ejemplo/Material.html",
-      "sha256": "657820f844f6d71de86a5a7b75dcfbf306dabbc8dca9630ba2f5c18dec7c05bf"
+      "sha256": "cf55812ecd4b89fd46fffcb813cb45ce2f3d9613caf0cd160e198e7c4d5e0b7a",
+      "source_sha256": "ca7803acdee41f044466c311c90d187caf961c4e4a34bd05ae82ff502e0658f0",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "09",
@@ -35,7 +41,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
       "html": "materiales_actualizados/Energy/notas/Material.html",
-      "sha256": "bba980933c75d751bfdefb05b46c237a1c6ab6ee92e4d5effc95cb77645723ca"
+      "sha256": "cfb5ec80110c1cf1bc5685957b4b8fe42117606e040e58dfce8dcbc614a12faa",
+      "source_sha256": "b813a16284d00d59803a8d30526e70a9b832004ccd00b116e858b9365a8ee551",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "08",
@@ -44,7 +52,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
       "html": "materiales_actualizados/Energy/presentacion/Material.html",
-      "sha256": "034cec7644c892e5fe6ca2fa3aee0b4eca7c3ba4cbe0e23cb1c156cbfdd83e27"
+      "sha256": "12a4ea8343c039a76f00397cc8272c538caee847a9feb5265e2f18087f010259",
+      "source_sha256": "b00493af6f090c0cb1737e407a79dff4dd7595baf7720d9394ce139daa59f08d",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "13",
@@ -53,7 +63,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
       "html": "materiales_actualizados/Ideas/notas/Material.html",
-      "sha256": "b1cd8f68b98692a5bfe9b4476fc4b4c543d290c1fcc75bf3fe6c6accd7f4954e"
+      "sha256": "fcb962d9f4b0cf09aa89b0296980001fab85cca0481e94771770b7a9ca8b030c",
+      "source_sha256": "3361959654ef0fc5415e35b819be49dc8bb654b7f538c24f4889291fbfa69301",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "14",
@@ -62,7 +74,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
       "html": "materiales_actualizados/Ideas/presentacion/Material.html",
-      "sha256": "68330f1d6ebc34cfd1aba5f7d44559122f677631ec9c6c1714e4abbf1535a111"
+      "sha256": "a939c15b10ab3e87d7874f10826b03118b7f7f012493aeb6d18f6e73ced1adfc",
+      "source_sha256": "c985077f6d2db8becbd088424bf0d493954689373acd8f2ce9de562c96e96130",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "26",
@@ -71,7 +85,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
       "html": "materiales_actualizados/Slowdown/notas/Material.html",
-      "sha256": "beefaa9340d4454f1b806244a8fec82a5836e4a7c65c2d400809628cebb2cb56"
+      "sha256": "7c5340273b752139dfdad635aa1dd1ce592bfb4a932206649987512dc0e0576b",
+      "source_sha256": "71a2851731225b59043d00ab090b7d2fda5885eb2d8d6a096fe5e1bb8745a683",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "25",
@@ -80,7 +96,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
       "html": "materiales_actualizados/Slowdown/presentacion/Material.html",
-      "sha256": "c8faa75c17763e7a3e7db6a847ac420064adb28af4d4e941d784278f4c09be15"
+      "sha256": "4e79a1e5690d9364267d069d82fe87589ef885351901524b3f55a38f2bbbb929",
+      "source_sha256": "d4921e29692797e429f62b92336843c676adde4d622e66898ebb803e5fd8b884",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "27",
@@ -89,7 +107,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
       "html": "materiales_actualizados/Solow/notas/Material.html",
-      "sha256": "f07440da14d5564f93a7c362e2db02ca4f1fa587efd46e194d111a0b6ffa04e1"
+      "sha256": "e47d6fed6920e479125ba472cf6607d3b97ac20c71efa15c81e10924fa8f3554",
+      "source_sha256": "2d8a4212c2bd62ed6c4287a2199fdd3716ac1c7b6fa91a64a9a2966b9db243ce",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "28",
@@ -98,7 +118,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
       "html": "materiales_actualizados/Solow/presentacion/Material.html",
-      "sha256": "8e9ae9b7b5611ce8ed5405e5761e0c6d06cd69bef838bb4a9fd6d059f141c939"
+      "sha256": "c5f0e9afa60467e1c5303ee2fc305b5484c15736107e89ed7ddd9f4498265299",
+      "source_sha256": "ffc1a81bc6e6938fa9988cda2eb03048213eb89e4b1382d756b2a0c6c0c2361c",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "31",
@@ -107,7 +129,9 @@
       "format": "html_document",
       "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
       "html": "materiales_actualizados/Taxes/notas/Material.html",
-      "sha256": "b15259b05c7b934ada620ef33649ce770d0a66b8ca3f0aeb9704d78cca4f70fa"
+      "sha256": "8993ff02e35096dad02469698e7a468ca01db53be29533d03f131f7f4bbe7a48",
+      "source_sha256": "8191b00cf43d66645f752b1b5dc890b85ed11fc4ed3e08ff8eb0b68b26b0bb26",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "32",
@@ -116,7 +140,9 @@
       "format": "ioslides_presentation",
       "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
       "html": "materiales_actualizados/Taxes/presentacion/Material.html",
-      "sha256": "00727029ce4047b13eb0b473c90ebdcdd2da5f536c84548699c1365119132d82"
+      "sha256": "038e1eecb075b83278637dd8b54596502caa040934c88bc182abea8f8f3561e4",
+      "source_sha256": "6cd86e4713501319851c6844e59428a5acd5eebf9fe58413623751d7fd1f28e8",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "05",
@@ -125,7 +151,9 @@
       "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Competition/presentacion/Material.html",
-      "sha256": "c32206c1131e8e25e340f5151dac05220ab58e4118f484c3899c1ff0eef21512"
+      "sha256": "8bd13dd2ef9d1cab33277bb16571c926a7985309ad0a397fa4bac4c4f6dd74f8",
+      "source_sha256": "cace57cd02c6a58445cbf03f665c71341b47224208ec2ebe11a498f2894037b4",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "07",
@@ -134,7 +162,9 @@
       "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Convergence/presentacion/Material.html",
-      "sha256": "2d6df96adeb1ff5fb658d446f7b9668f687a93565e5678ad187eb2611455654f"
+      "sha256": "f8d36bb0d145a99d467fd0b9b10fdb60dd90d423ac3845676fcae5b8a60f3a00",
+      "source_sha256": "e1e05c82dab1c862a9b2a71fb72fc46768ddf2351872aa392ac03e8b5ddc618a",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "22",
@@ -143,7 +173,9 @@
       "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Patents/presentacion/Material.html",
-      "sha256": "8dde984c3ba5f777a6ca63e0da968228a81fac102edce40fa66aff46c31b142d"
+      "sha256": "a7bef5e3e17973fbe9fbf4990240f448af0b80d3b29c49a3bbdda843d09e64af",
+      "source_sha256": "70ba3af1573f06af4824e0dde089a8c02109098e71468549dec1f4ec5e52c0dd",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "33",
@@ -152,7 +184,9 @@
       "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
-      "sha256": "d771e6a1c9225f39dd00be838adb0c4eca28ad5b5751a3f5b1b097e47d9cd303"
+      "sha256": "3c6ffef01bd49b9de1d3a68de0106a4810de611913f8e9d73aac8956ba9c3433",
+      "source_sha256": "96fc1eaf97d2b661c5ceefccdfef39d418600727588f38cbed349e0a7470524f",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "24",
@@ -161,7 +195,9 @@
       "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Pensions/presentacion/Material.html",
-      "sha256": "efff7c6b0bd7067cd24b9335cd856d7289f28083fb2345fe24fdae99b034c339"
+      "sha256": "dc25c9ccd8f13d716bde3449671ddda97d6e9889286c37419de494dcc36052f7",
+      "source_sha256": "ad0da86bcc8d5e49656520b19b38cb5415b139e18f887bdf5b89afb2078a47ff",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "30",
@@ -170,7 +206,9 @@
       "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
-      "sha256": "010ddd89b829ac32a9ef836eea53ff5cbe2e1b79291c63f46f95f5a6ac0e7968"
+      "sha256": "411e30b32b828f2b1421385704a61ef0a17c134aa19893405cb75423de39fe95",
+      "source_sha256": "8a385b9e192f9cb42a6d42330030cbec428da42f04d54fd98da2af4ebd7f906b",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "11",
@@ -179,7 +217,9 @@
       "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Environment/presentacion/Material.html",
-      "sha256": "d827aaf6e8bcc018997e18360490899c0828abb8b27e2b01b8062f0119c04c9d"
+      "sha256": "d3bae3a49f9eb4e0313edc6a593129668695ec3c61f6a1fb99bf2f29f1bb387d",
+      "source_sha256": "bbdc82af89cb78a17fe05e0d0918c6ad111ce7f7a27930112f0cc3e244c8cbfa",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "17",
@@ -188,7 +228,9 @@
       "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Labor/presentacion/Material.html",
-      "sha256": "cc1436569494690830129d3982deb777a8949faee3be5a66a2c22d507a87a594"
+      "sha256": "92cd6ddf92d1ad55c05704a27c202aee25a056aded2ee5a2236c63cd5ad96677",
+      "source_sha256": "650e54c92a426db35ca83c67db3f4227c25b14130fbc55ec50750e9590f912d6",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "19",
@@ -197,7 +239,9 @@
       "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
-      "sha256": "c0b65c7ef32d4e9db167a279f3cd74048cf029c638e5fa841067e9f6bedf1bdf"
+      "sha256": "1a883016f91c18ccc10d5245ea1f794766c7f13dca44775b1ef4dc298ef8b5ef",
+      "source_sha256": "28c302e1b4bbc3e243e72ed12da6f8d1da203909a7bbd641784948baa57e4e39",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "I01",
@@ -206,7 +250,9 @@
       "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
       "kind": "presentacion",
       "html": "materiales_actualizados/Introduction/presentacion/Material.html",
-      "sha256": "072e0f5e505f8bf115aad7f9c82d4ea7bd59945d4662a1cc8c72765a9e4a5fe5"
+      "sha256": "518be917c7d44fffbe56499bf753700697006eeec208a420123f58bfefa01dc7",
+      "source_sha256": "7c4bc2367a5da9f87a940e30f3c4cea8085e0f47c054579c058bf0cc38beb5cb",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "04",
@@ -215,7 +261,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Competition/notas/Material.html",
-      "sha256": "2402503da6a8f7f8c4ee1310889d0c84c2f123d86235fc59429c96ea4c2360ab"
+      "sha256": "3d3cd0cf54506357da74338545e2e60e91ccafe591d3286a4e276eabd5032bfe",
+      "source_sha256": "682503d5beb6e17f5c8f0075290ce3dc3f71299b097790ab85e713b9446bf6bc",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "06",
@@ -224,7 +272,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Convergence/notas/Material.html",
-      "sha256": "355d58de832c07b432f7e5de77a99b9327e83bc76b11b0e29874f63119ed9c0f"
+      "sha256": "8b0a497027492f75fc81b1f017fa4f29f96541b00bd5694243cce7fe8c7b5a7c",
+      "source_sha256": "5a3e811577500e968c67809b62cc993692c4a0fc4ca097c3ae8f591cd479fd6a",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "21",
@@ -233,7 +283,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Patents/notas/Material.html",
-      "sha256": "e326d17d33781b29f9710c012a2a54c153d9d3ca0077b1df5f930c43987424c2"
+      "sha256": "b10c01d05ef4c02c40511400fe2e1a5db2fb49945224e63b5b6a27ef3372178a",
+      "source_sha256": "3030cbd86eaa846127833a035e479799a38063b8f3d509eaa3d1174be5d8f09d",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "34",
@@ -242,7 +294,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
-      "sha256": "3c4b14153f3706def9f2cc80aaa9d5e54cf3f03b49681ed97e150431c6621d12"
+      "sha256": "102ff2201fc0e9aa9fc102c566ab414579c64f08f9b6cbf9992b94ae07295d63",
+      "source_sha256": "d4cbcc1dcd6da146cc24856b08ee86fef96ad5d7bbfe8ad048d12cd72afacdca",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "23",
@@ -251,7 +305,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Pensions/notas/Material.html",
-      "sha256": "0ed047461f8328ccb894363bbf78baed9387a2701c31455362273491696dec74"
+      "sha256": "bd53dc5701ea8cfad81b6478036637e259766c48d835d6867e7641439968622e",
+      "source_sha256": "6fcd1e8c41d09055f05ce12a4bed804eb7d5acf3943dd18574b1d674862b7fc2",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "29",
@@ -260,7 +316,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
-      "sha256": "490093d266af56ebf951561e8ff3c4028ad316574341af49442d10749d1115e0"
+      "sha256": "3e561af6179f9fabe012406ea09a1c219f2f88bba93408d65ee9b8fe79e7ca3d",
+      "source_sha256": "60995b7acf2191fc4aebe4561f42354df9f5a5956a3c0d7072a68178c85f148b",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "10",
@@ -269,7 +327,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Environment/notas/Material.html",
-      "sha256": "7c7e8dcde942bd006a659cd74df65f5165191d5c8365cd1b593881f07efd2559"
+      "sha256": "a2c6d8cd01d4588debbb1535f70451f4ce8dc80ff0befcba28345a9690e379b3",
+      "source_sha256": "e302c268ee333d2479ad0c0d30fc70c48e992ed785c920fbe3125d5bb9bd2a37",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "16",
@@ -278,7 +338,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Labor/notas/Material.html",
-      "sha256": "4c5b5ea1af301d578dc6070dc70b6fa4e2d97fe8da8af96e10422f78ab673b00"
+      "sha256": "e395ec9fc36c6b82a640e934c355bcd9f7139c0a582ec02537e017206e84b7b0",
+      "source_sha256": "e227644275f6d50ecf0487ba24ec04eaf2cfd05ff3d3b785d2e15b4bbb6841a0",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "20",
@@ -287,7 +349,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Labor_2/notas/Material.html",
-      "sha256": "d75c2fb46f3fee9410854e2807a03acfdc90c189ae6115ebf31d444a7d136ffd"
+      "sha256": "e4c8ca8e0385d2d74d4b86d8fd71dfb6e8f73108e6e2a176a00748b6e44e8f8c",
+      "source_sha256": "0b9c6510673d3de2ed63f0492b31849c0ae8362be499d34ff223a7e732725e8e",
+      "source_hash_line_endings": "LF"
     },
     {
       "id": "I01",
@@ -296,7 +360,9 @@
       "format": "html_document",
       "kind": "notas",
       "html": "materiales_actualizados/Introduction/notas/Material.html",
-      "sha256": "a7bb3bee5224c62a7a62530a53813fcc714167360f1c7f0730b9aa3c3d80a2c5"
+      "sha256": "24aeb198320ab326a90bda642964ca13bb0cb9b6af8491eab002a2bc5a5126ae",
+      "source_sha256": "7c4bc2367a5da9f87a940e30f3c4cea8085e0f47c054579c058bf0cc38beb5cb",
+      "source_hash_line_endings": "LF"
     }
   ]
 }

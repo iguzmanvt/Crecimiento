@@ -1,0 +1,11 @@
+{
+  "source_catalogs": {
+    "introduccion_local/chartstudio/catalogo.json": "12b0bef6919b60fdc5cb525314e1c8a7c07ffc3574696f4ee3e61b65a4194ff7",
+    "introduccion_local/owid/catalogo.json": "e913adaf3d8f71a997e29911109b5106e7c57d1f5f30c1dbb49074ee5977047d"
+  },
+  "views": 32,
+  "files": {
+    "index.html": "119ff92b238c7e9e54b5df8614560f1a40d75c65f768ebd3c16a535bda9afd69"
+  },
+  "generator": "scripts/generar_portal.py"
+}

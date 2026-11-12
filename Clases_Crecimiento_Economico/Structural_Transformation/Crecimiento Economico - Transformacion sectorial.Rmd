@@ -63,7 +63,7 @@ grid.raster(Structural_Transformation_Share_Employment_New, interpolate=FALSE)
 
 - Estas dos tendencias se vinculan a través de la forma en que se mide el crecimiento de la productividad. 
 
-    -    **Una participación laboral decreciente** (y una participación de ganancias creciente en el PIB) necesariamente conducirá a una **disminución en el crecimiento de la medición de la productividad, incluso si la innovación no cambia.** 
+    -    **Una participación laboral decreciente** puede modificar el **residuo de productividad calculado con participaciones del ingreso, aun manteniendo fija la innovación. La dirección depende del crecimiento de los insumos y de los demás supuestos.**
 
     -    La razón es que, **si las empresas tienen un poder de mercado cada vez mayor**, entonces están **utilizando los insumos de manera menos eficiente desde una perspectiva agregada**, y la medida de la productividad en la contabilidad del crecimiento refleja la eficiencia con la que las empresas usan esos insumos. 
 
@@ -79,7 +79,7 @@ grid.raster(Structural_Transformation_Share_Employment_New, interpolate=FALSE)
 
 - La baja participación del trabajo implica que la **contabilidad del crecimiento subestima el papel del trabajo en la producción**, por lo que se sobreestima el rol del capital, atribuyendo erróneamente algo del crecimiento de la productividad a la acumulación de capital y, por lo tanto, el crecimiento medido de la productividad es menor.
 
-- Por último, **a medida que la participación laboral en los ingresos disminuye, también lo hace el crecimiento de la productividad medida porque que el capital tiende a acumularse más rápido que la mano de obra.**
+- En la contabilidad convencional, $g_{A}^{med}=g_Y-(1-s_L)g_K-s_Lg_L$. Manteniendo fijas las tasas de crecimiento de producto e insumos, $\partial g_{A}^{med}/\partial s_L=g_K-g_L$. Por ello, si $g_K>g_L$, una menor participación laboral reduce ese residuo. Esta comparación mecánica no determina el efecto total de una reforma ni equivale a un cambio tecnológico.
 
 ## Propiedad de invarianza del Residuo de Solow
 

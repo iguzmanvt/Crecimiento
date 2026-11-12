@@ -286,10 +286,9 @@ Solow, midiendo t desde 1950. Es una calibración ilustrativa, no una
 estimación estructural:</p></li>
 </ul></li>
 </ul>
-<p><span class="math display">\[
-\ln y_t^{BGP} = \frac{\alpha}{1-\alpha} \left(\ln s_I - \ln(\delta + g_A
-+ g_L) \right) + \ln A_0 + g_A t.
-\]</span></p>
+<p><span class="math display">\[\ln y_t^{BGP} = \frac{\alpha}{1-\alpha}
+\left(\ln s_I - \ln(\delta + g_A + g_L) \right) + \ln A_0 + g_A
+t.\]</span></p>
 <ul>
 <li>La recta naranja ajustada a 1950–2000 tiene la siguiente pendiente,
 usada como g_A en esta calibración:</li>
@@ -313,19 +312,17 @@ class="math inline">\(s_I = 0.247932\)</span></p>
 <ul>
 <li>El resultado es:</li>
 </ul>
-<p><span class="math display">\[
-9.679118 \approx \frac{0.3}{1-0.3} \left(\ln 0.247932 - \ln(0.05 +
-0.022647 + 0.011874) \right) + \ln A_0
-\]</span></p>
+<p><span class="math display">\[9.679118 \approx \frac{0.3}{1-0.3}
+\left(\ln 0.247932 - \ln(0.05 + 0.022647 + 0.011874) \right) + \ln
+A_0\]</span></p>
 <ul>
 <li>Lo único que no sabemos aquí es <span
 class="math inline">\(A_0\)</span>, el nivel de tecnología en 1950.
 Despejando:</li>
 </ul>
-<p><span class="math display">\[
-\ln A_0 \approx 9.679118 - \frac{0.3}{1-0.3} \left(\ln 0.247932 -
-\ln(0.05 + 0.022647 + 0.011874) \right) \approx 9.217909.
-\]</span></p>
+<p><span class="math display">\[\ln A_0 \approx 9.679118 -
+\frac{0.3}{1-0.3} \left(\ln 0.247932 - \ln(0.05 + 0.022647 + 0.011874)
+\right) \approx 9.217909.\]</span></p>
 <ul>
 <li>Lo que implica que:</li>
 </ul>
@@ -528,14 +525,13 @@ $(document).ready(function () {
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+<!-- CRECIMIENTO_MATHJAX_LOCAL_BEGIN -->
+<script id="crecimiento-mathjax-config">
+window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]], "processEscapes": true}, "svg": {"fontCache": "local"}, "options": {"enableMenu": false}};
 </script>
+<script id="MathJax-script" defer src="../../../vendor/mathjax/es5/tex-svg-full.js"></script>
+<style id="crecimiento-mathjax-style">mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}</style>
+<!-- CRECIMIENTO_MATHJAX_LOCAL_END -->
 
 </body>
 </html>

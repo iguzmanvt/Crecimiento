@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checker_sha256": "29ca07452a68fec91245b5f048cfeba088a3ad037dd534fefa0d57781303c7cd",
+  "scope": "Revalidacion de tabla categorica de ocho paises en disco y subruta, mas control negativo de tabla vacia; los datos publicados no se modifican.",
+  "results": [
+    {
+      "path": "recursos_esenciales/graficas/metas_neto_cero.html",
+      "mode": "file",
+      "category": "graph",
+      "status": "passed",
+      "metrics": {
+        "plots": [
+          {
+            "data": 1,
+            "layout": true,
+            "width": 1200,
+            "height": 620,
+            "svg": 3,
+            "numeric": 0,
+            "categorical_pairs": 0,
+            "categorical_marks": 0,
+            "tables": [
+              {
+                "columns": 2,
+                "rows": 8,
+                "nonempty_rows": 8
+              }
+            ],
+            "rendered_table_cells": 18
+          }
+        ],
+        "images": 0,
+        "animation_selection": []
+      },
+      "sha256": "f2be1b8dd212dddb5ab47ec1cf40e3081cf7d190c5fcf0d1513ae7d5502b3ccb",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": [],
+      "eight_country_status_pairs_verified": true,
+      "empty_table_rejected": true
+    },
+    {
+      "path": "recursos_esenciales/graficas/metas_neto_cero.html",
+      "mode": "subpath",
+      "category": "graph",
+      "status": "passed",
+      "metrics": {
+        "plots": [
+          {
+            "data": 1,
+            "layout": true,
+            "width": 1200,
+            "height": 620,
+            "svg": 3,
+            "numeric": 0,
+            "categorical_pairs": 0,
+            "categorical_marks": 0,
+            "tables": [
+              {
+                "columns": 2,
+                "rows": 8,
+                "nonempty_rows": 8
+              }
+            ],
+            "rendered_table_cells": 18
+          }
+        ],
+        "images": 0,
+        "animation_selection": []
+      },
+      "sha256": "f2be1b8dd212dddb5ab47ec1cf40e3081cf7d190c5fcf0d1513ae7d5502b3ccb",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": [],
+      "eight_country_status_pairs_verified": true,
+      "empty_table_rejected": true
+    }
+  ]
+}

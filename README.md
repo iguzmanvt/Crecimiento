@@ -2,6 +2,8 @@
 
 Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 2023. El índice reúne las notas, presentaciones y materiales de consulta por tema. [Programa del curso](Clases_Crecimiento_Economico/Crecimiento_Econ%C3%B3mico_Programa.pdf).
 
+**[Abrir el portal del curso](https://iguzmanvt.github.io/Crecimiento/)** · [Guía de uso y generación](REPRODUCCION_MODULOS.md)
+
 ## Materiales por tema
 
 | Tema | Carpeta | Notas | Presentación | Material de consulta |
@@ -31,8 +33,10 @@ Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 202
 
 ## Abrir y editar
 
-Descarga o clona el repositorio y abre `materiales_actualizados/index.html` para consultar las notas, presentaciones y lecturas. Conserva las carpetas que acompañan a los HTML. GitHub muestra su código fuente.
+Descarga o clona el repositorio y abre `portal/index.html` para consultar las notas, presentaciones y lecturas. Conserva las carpetas que acompañan a los HTML. GitHub muestra su código fuente.
 
-Las páginas de consulta y sus fórmulas se pueden leer desde disco. Las referencias externas y algunos recursos de las clases, como MathJax, mantienen sus dependencias de conexión y acceso editorial o institucional.
+Las notas, presentaciones, fórmulas y figuras esenciales de la selección vigente se pueden leer desde disco con los recursos que acompañan al repositorio. Las lecturas externas conservan su acceso editorial o institucional. Las vistas nuevas identifican edición, unidades y cambios respecto del material histórico.
 
 Las fuentes R Markdown siguen disponibles en las carpetas del curso. [Generación de notas y presentaciones](REPRODUCCION_MODULOS.md) · [Figuras, datos y método](RECONSTRUCCION_GRAFICAS.md) · [Verificación del índice](verificacion/indice_20261111/estado.json).
+
+[Revisión docente](COHERENCIA_DOCENTE.md) · [Figuras de Introducción](introduccion_local/index.html) · [Recursos esenciales](recursos_esenciales/index.html) · [Comprobaciones de la entrega](verificacion/estable_20261112/).

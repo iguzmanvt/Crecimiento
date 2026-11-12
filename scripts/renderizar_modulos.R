@@ -6,7 +6,7 @@ if (length(script_arg) != 1) stop("Ejecutar mediante Rscript.")
 script <- normalizePath(sub("^--file=", "", script_arg), winslash = "/", mustWork = TRUE)
 repo <- dirname(dirname(script))
 manifest <- read.csv(file.path(repo, "scripts", "modulos.csv"), stringsAsFactors = FALSE,
-                     colClasses = "character", fileEncoding = "UTF-8")
+                    colClasses = "character", fileEncoding = "UTF-8")
 modules <- unique(manifest$module)
 if (length(args) > 1) {
   selected <- args[-1]
@@ -26,12 +26,28 @@ required <- c("rmarkdown", "knitr", "png", "gridExtra", "plotly", "shiny", "json
 if (any(grepl("Ejemplo Estados Unidos", manifest$source, fixed = TRUE))) required <- c(required, "pwt10")
 missing <- required[!vapply(required, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing)) stop("Faltan paquetes: ", paste(missing, collapse = ", "))
-reconstruction <- file.path(repo, "graficas_reconstruidas")
-uses_reconstruction <- any(manifest$module %in% c("Accounting", "Energy", "Ideas", "Slowdown", "Solow", "Taxes"))
-if (uses_reconstruction) {
-  if (!dir.exists(reconstruction)) stop("Faltan las gráficas reconstruidas.")
-  if (!file.copy(reconstruction, out, recursive = TRUE)) stop("No se pudieron copiar las gráficas reconstruidas.")
+# Detecta Pandoc ya instalado con RStudio cuando no está en PATH.
+if (!rmarkdown::pandoc_available()) {
+  if (.Platform$OS.type == "windows") {
+    candidate <- file.path(Sys.getenv("ProgramFiles"), "RStudio", "resources", "app", "bin", "quarto", "bin", "tools", "pandoc.exe")
+    if (file.exists(candidate)) {
+      Sys.setenv(RSTUDIO_PANDOC = dirname(candidate))
+      rmarkdown::find_pandoc(cache = FALSE)
+    }
+  }
+  if (!rmarkdown::pandoc_available()) stop("Se requiere Pandoc; agregar su carpeta a PATH o configurar RSTUDIO_PANDOC.")
 }
+
+python <- Sys.which(if (.Platform$OS.type == "windows") "python" else "python3")
+if (!nzchar(python)) stop("Se requiere Python 3 para preparar las rutas y fórmulas locales.")
+helper <- file.path(repo, "scripts", "postprocesar_render.py")
+postprocess <- function(parameters) {
+  output <- system2(python, c(shQuote(helper), shQuote(repo), shQuote(out), parameters), stdout = TRUE, stderr = TRUE)
+  if (length(output)) cat(paste(output, collapse = "\n"), "\n")
+  status <- attr(output, "status")
+  if (!is.null(status) && status != 0) stop("Falló la preparación o revisión de recursos locales.")
+}
+postprocess("--prepare")
 results <- list()
 for (i in seq_len(nrow(manifest))) {
   row <- manifest[i, ]
@@ -44,9 +60,13 @@ for (i in seq_len(nrow(manifest))) {
     dir.create(intermediates)
     metadata <- rmarkdown::yaml_front_matter(input)
     options <- list(self_contained = FALSE)
-    if (!is.null(metadata$output[[format]]$css)) {
-      if (!file.copy(file.path(repo, "Clases_Crecimiento_Economico", "curso.css"), destination)) stop("No se pudo copiar el CSS.")
-      options$css <- "curso.css"
+    css <- metadata$output[[format]]$css
+    if (!is.null(css)) {
+      css_source <- file.path(dirname(input), css)
+      if (!file.exists(css_source)) css_source <- file.path(repo, "Clases_Crecimiento_Economico", css)
+      if (!file.exists(css_source)) stop("No se encontró el CSS: ", css_source)
+      if (!file.copy(css_source, destination)) stop("No se pudo copiar el CSS.")
+      options$css <- basename(css_source)
     }
     if (nzchar(row$recovered)) {
       resources <- file.path(dirname(input), "recuperado")
@@ -56,10 +76,12 @@ for (i in seq_len(nrow(manifest))) {
     started <- Sys.time()
     warnings <- character()
     result <- tryCatch(withCallingHandlers({
-      rmarkdown::render(input, output_format = format, output_file = "Material.html",
+      html <- rmarkdown::render(input, output_format = format, output_file = "Material.html",
         output_dir = destination, intermediates_dir = intermediates,
         knit_root_dir = dirname(input), output_options = options,
         envir = new.env(parent = globalenv()), clean = TRUE, quiet = TRUE)
+      postprocess(c("--html", shQuote(html)))
+      html
     }, warning = function(w) { warnings <<- c(warnings, conditionMessage(w)); invokeRestart("muffleWarning") }),
     error = function(e) e)
     record <- list(module = row$module, id = row$id, source = row$source, format = format,
@@ -72,13 +94,8 @@ for (i in seq_len(nrow(manifest))) {
       session = list(R = R.version.string, pandoc = as.character(rmarkdown::pandoc_version()),
         packages = setNames(lapply(required, function(p) as.character(packageVersion(p))), required))),
       file.path(out, "resultados.json"), pretty = TRUE, auto_unbox = TRUE, null = "null")
-    if (!inherits(result, "error") && uses_reconstruction) {
-      html <- readLines(result, warn = FALSE, encoding = "UTF-8")
-      html <- gsub("(?:\\.\\./)+graficas_reconstruidas/", "../../../graficas_reconstruidas/", html, perl = TRUE)
-      writeLines(html, result, useBytes = TRUE)
-    }
     if (inherits(result, "error")) cat("FAILED", record$error, "\n") else cat("OK", record$output, "\n")
   }
 }
 if (any(vapply(results, function(r) r$status != "passed", logical(1)))) stop("Hay salidas fallidas; revisar resultados.json.")
-cat("Conservar cada carpeta completa. Las referencias externas requieren conexión y comprobación separada.\n")
+cat("Conservar la carpeta de salida completa, incluidos recursos compartidos y vendor/mathjax.\n")

@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-11-12",
+  "variable_id": 1118466,
+  "entity": "Central African Republic",
+  "code": "CAF",
+  "year": 2022,
+  "downloaded_value_years": 18.8177,
+  "world_bank_fred_published_value_years": 18.818,
+  "sources_consulted": [
+    {
+      "url": "https://databank.worldbank.org/reports.aspx?country=CAF&series=SP.DYN.LE00.IN&source=2",
+      "locator": "Central African Republic / 2022 / 18.8"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/SPDYNLE00INCAF",
+      "locator": "Observation 2022 / 18.818; Source indicator SP.DYN.LE00.IN"
+    }
+  ],
+  "decision": "Conservar valor publicado con advertencia visible. El contraste verifica lo que publican las fuentes, no explica ni valida la plausibilidad sustantiva del extremo. No sustituir por cifra inferida.",
+  "source_original_preserved": true
+}

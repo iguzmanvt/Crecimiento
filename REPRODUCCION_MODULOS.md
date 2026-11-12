@@ -1,4 +1,40 @@
-# Generación de los 15 módulos de Crecimiento
+# Generación de los materiales de Crecimiento
+
+<!-- DOCUMENTACION_ESTABLE_VIGENTE -->
+
+## Entrega estable del 12 de noviembre de 2026
+
+La selección vigente del curso contiene 16 notas, 16 presentaciones y el ejemplo de Estados Unidos. Abrir [el portal](portal/index.html) desde una copia completa del repositorio. Las fórmulas y figuras esenciales de los materiales canónicos usan recursos locales. Las lecturas externas conservan sus condiciones de acceso. Las notas HTML, imágenes y Excel históricos se mantienen como archivo del curso; sus dependencias se distinguen de esta entrega.
+
+Los 32 destinos de Introducción tienen vistas locales: 17 reconstrucciones temáticas de Chart Studio y 15 adaptaciones de OWID. No se autentica la identidad numérica ni visual de los objetos Chart Studio desaparecidos. La edición de cada dato, su unidad, transformación y límite de correspondencia se documentan en [Introducción local](introduccion_local/README.md) y en los catálogos de cada grupo. [Los recursos esenciales de otros temas](recursos_esenciales/README.md) distinguen actualizaciones, sustituciones de medida y figuras históricas.
+
+La [revisión docente](COHERENCIA_DOCENTE.md) cubre las correspondencias de los 16 temas y corrige los errores demostrados. Conserva la distinción entre una revisión focalizada, la verificación de cálculos y la reestimación de figuras históricas.
+
+### Generación de la entrega canónica
+
+Desde una copia completa, con Python 3.10+, R, Pandoc y los paquetes usados por las fuentes (`rmarkdown`, `knitr`, `plotly`, `shiny`, `png`, `jpeg`, `gridExtra`, `kableExtra`, `jsonlite`, `pwt10`):
+
+```sh
+python scripts/construir_entrega.py --output /ruta/externa/vacia --consultation
+python scripts/verificar_entrega.py
+```
+
+En el Windows comprobado se pueden especificar los ejecutables:
+
+```powershell
+python scripts/construir_entrega.py --rscript 'C:\Program Files\R\R-4.3.3\bin\Rscript.exe' --pandoc 'C:\Users\IsaacGuzman\AppData\Local\Programs\Pandoc-3.13\pandoc.exe' --output "$env:TEMP\Crecimiento_render_nuevo" --consultation
+```
+
+El procedimiento renderiza fuera del repositorio y luego sustituye sólo los directorios generados de `materiales_actualizados`. Recalcula las rutas de las figuras, aplica el MathJax local fijado en `vendor/mathjax`, actualiza las huellas del catálogo y genera el portal. `--module` selecciona un tema; `--skip-render` sólo repite el postproceso de los HTML existentes y no acredita regeneración desde R. Las páginas de consulta se convierten desde su Markdown publicado, conservando MathML local para las fórmulas de tareas.
+
+Las figuras nuevas se regeneran sin red con sus generadores en `scripts/generar_introduccion_chartstudio.py`, `scripts/generar_introduccion_owid.py` y `scripts/generar_recursos_esenciales.py`. Las exportaciones visuales usan Playwright y el Plotly.js archivado. Los verificadores contrastan el recálculo con los datos y especificaciones conservados.
+
+La comprobación de navegador usa Playwright según `scripts/requirements_verificacion.txt`. Revisa la copia real con solicitudes externas bloqueadas, fórmulas SVG, navegación, recursos locales y el portal desde disco y subruta. [Los registros de este corte](verificacion/estable_20261112/) conservan los resultados efectivos. El flujo de GitHub comprueba los materiales antes de desplegar el sitio; sus ejecuciones permiten verificar el estado de cada publicación.
+
+### Registro de entregas anteriores
+
+Los apartados del 11 de noviembre que siguen son registros de aquel corte. Las limitaciones antiguas sobre Chart Studio, OWID y MathJax describen las pruebas de entonces. Para utilizar las clases se recomienda la entrega canónica anterior y su verificador vigente.
+
 
 ## Índice completo del curso
 
@@ -118,3 +154,29 @@ python scripts/verificar_recalculo_graficas.py graficas_reconstruidas /salida/in
 El control comprueba las huellas de los insumos, vuelve a calcular los tres grupos y compara coordenadas, fotogramas y especificaciones. Registra por separado igualdad numérica e igualdad del archivo después de normalizar LF. La tolerancia general es 1e-12; la ejecución final guardada en Windows tuvo diferencia numérica cero.
 
 Si R no detecta un Pandoc ya instalado, definir la variable de la sesión `RSTUDIO_PANDOC` con la carpeta que contiene su ejecutable antes de renderizar. La generación final usó R 4.3.3 y Pandoc 3.13.
+
+<!-- ENTREGA_ESTABLE_20261112 -->
+
+## Entrega estable: alcance y aceptación del 12 de noviembre de 2026
+
+La continuación parte de 8baa89bc7297cebdabff7196296ed4fb2704986f. Su propósito es que alumnos y docente puedan abrir los materiales por tema, leer las fórmulas y utilizar las figuras esenciales desde una copia local, además de consultar el portal web. Se mantienen los originales históricos y las restricciones de uso de cada fuente.
+
+| Requisito | Criterio de aceptación | Entrega y evidencia | Estado |
+| --- | --- | --- | --- |
+| R-014: completar Introducción | AC-014: los 17 destinos Chart Studio y los 15 destinos OWID tienen una vista local con datos, fuente, edición, unidades y límite de equivalencia | introduccion_local/, fuentes Rmd y comprobación de sus dos formatos | Verificado; alcance documentado |
+| R-015: fórmulas locales | AC-015: las expresiones TeX editables de los 33 materiales se representan sin solicitudes de red, con versión y licencia del motor archivadas | vendor/mathjax/, postprocesador y prueba sin red | Verificado; alcance documentado |
+| R-016: coherencia docente | AC-016: una matriz cubre los 16 temas y vincula notas, presentación, gráficas, lectura y ejercicio; los errores sustantivos demostrados tienen corrección verificable | Revisión semántica, parches mínimos y cotejo de fuentes | Verificado; alcance documentado |
+| R-017: acceso al curso | AC-017: portal con 16 temas, 33 materiales y banco de 8 enunciados, navegable por teclado y desde una subruta web o disco | Portal estático, revisión de enlaces y navegador | Verificado; alcance documentado |
+| R-018: generación y comprobación | AC-018: un procedimiento genera la entrega y comprueba enlaces, recursos y catálogos; la publicación registra el resultado real de sus controles | Scripts, flujo de GitHub y registro de publicación | Validación local completa; publicación y ejecuciones en Actions |
+
+Los datos actuales descargados para sustituir referencias externas se identifican como una edición nueva; no se atribuyen al semestre de 2023 ni se promete igualdad con los objetos Chart Studio desaparecidos. Las comparaciones conservan las variables del contexto cuando hay evidencia suficiente. Una sustitución por otra variable exige cambiar también el título y la explicación de clase.
+
+La mortalidad por contaminación del aire no se redistribuye cuando la fuente impide descargar sus observaciones. Se prepara una alternativa abierta de exposición a PM2.5, con unidades y alcance propios. La correspondencia final se documentará junto al gráfico. Los libros y artículos externos conservan su enlace y condiciones de acceso; no se incluyen copias sin respaldo.
+
+### Evidencia final de la entrega estable
+
+Los 33 materiales se generaron con R 4.3.3 y Pandoc 3.13. La comprobación registra 165 expresiones TeX, recursos activos locales, 16 temas y 8 enunciados. Las 93 vistas comprenden 92 reconstrucciones o adaptaciones numéricas y una imagen histórica de FRED conservada exactamente. El recálculo reproduce los insumos archivados; no autentica los objetos Chart Studio desaparecidos ni actualiza las imágenes históricas.
+
+Los renderizadores alternativos también quedaron adaptados y requieren Python 3 además de R. Sus paquetes externos incluyen `introduccion_local`, `recursos_esenciales`, `graficas_reconstruidas`, `recursos_graficas` y `vendor/mathjax`. La [comprobación de siete salidas alternativas](verificacion/estable_20261112/renderizadores_alternativos.json) incluye ambas variantes de Introducción, CE-Ideas y la nota de Solow.
+
+[Controles estructurales](verificacion/estable_20261112/entrega_estatica.json) · [Navegador y revalidaciones](verificacion/estable_20261112/entrega_navegador.json) · [Recálculo de las 93 vistas](verificacion/estable_20261112/recalculo_resumen.json) · [Conservación de originales y 632 bloques R](verificacion/estable_20261112/conservacion.json). [Publicación y controles en GitHub Actions](https://github.com/iguzmanvt/Crecimiento/actions/workflows/curso.yml).

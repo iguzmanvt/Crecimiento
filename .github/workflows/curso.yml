@@ -1,0 +1,79 @@
+name: Verificar y publicar curso
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curso-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: scripts/requirements_verificacion.txt
+      - name: Comprobar catálogos y recursos locales
+        run: python scripts/verificar_entrega.py --report "$RUNNER_TEMP/entrega_estatica.json"
+      - name: Recalcular figuras desde datos archivados
+        run: |
+          python scripts/verificar_recalculo_graficas.py graficas_reconstruidas "$RUNNER_TEMP/recalculo40.json"
+          python introduccion_local/chartstudio/verificar.py --report "$RUNNER_TEMP/recalculo_chartstudio.json"
+          python scripts/verificar_recalculo_introduccion.py --report "$RUNNER_TEMP/recalculo_owid.json"
+          python scripts/verificar_recalculo_recursos.py --report "$RUNNER_TEMP/recalculo_esenciales.json"
+      - name: Instalar navegador de comprobación
+        run: |
+          python -m pip install -r scripts/requirements_verificacion.txt
+          python -m playwright install --with-deps chromium
+      - name: Comprobar vistas sin conexión externa
+        run: python scripts/verificar_entrega_navegador.py --report "$RUNNER_TEMP/entrega_navegador.json"
+      - name: Conservar resultados de las comprobaciones
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: comprobaciones-curso
+          path: |
+            ${{ runner.temp }}/entrega_estatica.json
+            ${{ runner.temp }}/entrega_navegador.json
+            ${{ runner.temp }}/recalculo40.json
+            ${{ runner.temp }}/recalculo_chartstudio.json
+            ${{ runner.temp }}/recalculo_owid.json
+            ${{ runner.temp }}/recalculo_esenciales.json
+          if-no-files-found: warn
+      - name: Preparar sitio
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          mkdir -p "$RUNNER_TEMP/sitio"
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='__pycache__/' --exclude='*.pyc' --exclude='.pytest_cache/' --exclude='.cache/' --exclude='node_modules/' ./ "$RUNNER_TEMP/sitio/"
+      - name: Empaquetar sitio comprobado
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/sitio
+
+  publicar:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: verificar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacion.outputs.page_url }}
+    steps:
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar sitio comprobado
+        id: publicacion
+        uses: actions/deploy-pages@v4

@@ -3,3 +3,6 @@ iframe { max-width: 100%; }
 slides > slide { overflow-y: auto; overflow-x: hidden; }
 slides > slide img { max-width: 100%; height: auto; }
 slides > slide pre { max-width: 100%; box-sizing: border-box; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* La tabla ambiental requiere mostrar sus ocho filas dentro de ioslides. */
+iframe[src*="metas_neto_cero.html"] { height:650px; min-height:650px; max-height:none; border:0; }

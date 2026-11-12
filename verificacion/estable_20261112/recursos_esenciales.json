@@ -1,0 +1,207 @@
+{
+  "verified_utc": "2026-11-12T18:00:05.265909+00:00",
+  "count": 21,
+  "generated_figures": 20,
+  "historical_png_exact": true,
+  "png_and_svg_checked": 20,
+  "unique_country_years": true,
+  "same_year_scatter": true,
+  "unit_conversion_kwh_to_kg_verified": 11.63,
+  "base_indicator_observations_matched": 306,
+  "energy_total_reconciled": 272,
+  "million_tonne_conversions_checked": true,
+  "source_anomaly_caf_preserved_and_flagged": true,
+  "deterministic_generation": true,
+  "browser_tests": [
+    {
+      "id": "energia_total",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "energia_por_persona",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "energia_ingreso",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "natalidad",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "fecundidad",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "fecundidad_ingreso",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "longevidad_ingreso",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "pm25_mundo",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "pm25_comparacion",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "pm25_trayectorias",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "pm25_ingreso",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "co2_por_persona",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "co2_total",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "so2_paises",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "so2_regiones",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "metas_neto_cero",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "londres_delhi_particulas",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "participacion_relativa_mujeres",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "participacion_femenina_ingreso",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "empleo_femenino",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    },
+    {
+      "id": "tasa_marginal_maxima_historica",
+      "offline": true,
+      "standalone": true,
+      "embedded_height": 440,
+      "external_requests": 0,
+      "missing_resources": 0,
+      "javascript_errors": 0
+    }
+  ],
+  "scope": "Vistas propias de recursos_esenciales y sus datos. No valida libros completos ni autenticidad pixel a pixel de iframes históricos. Navegador Chrome en Windows, con solicitudes externas bloqueadas."
+}

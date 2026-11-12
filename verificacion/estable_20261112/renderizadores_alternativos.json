@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-12",
+  "environment": "Windows R4.3.3, Pandoc3.10, Chromium Playwright, file:// sin HTTP(S)",
+  "count": 7,
+  "remote_requests": [],
+  "records": [
+    {
+      "html": "legacy_intro_r03\\con_tabla_html_document\\Introduccion.html",
+      "sha256": "274e2388d6ac661f293be3089a91332b41efbbae4ce3fab3fd8b7d5d8a1b4fc8",
+      "local_references": 61,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 32,
+      "sample_frames_opened": [
+        "legacy_intro_r03\\introduccion_local\\owid\\graficas\\owid-01-vida.html",
+        "legacy_intro_r03\\introduccion_local\\chartstudio\\graficas\\iguzmanvt-118.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_intro_r03\\con_tabla_ioslides_presentation\\Introduccion.html",
+      "sha256": "71e2ac21af96beab453c064b521bbe7eab2faaf406951be67df60596de404e95",
+      "local_references": 64,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 32,
+      "sample_frames_opened": [
+        "legacy_intro_r03\\introduccion_local\\owid\\graficas\\owid-01-vida.html",
+        "legacy_intro_r03\\introduccion_local\\chartstudio\\graficas\\iguzmanvt-118.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_intro_r03\\sin_tabla_html_document\\Introduccion.html",
+      "sha256": "ae831fd77463c2760543ba23aa0c16d4e46496824522937200c06eebac8524ef",
+      "local_references": 61,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 32,
+      "sample_frames_opened": [
+        "legacy_intro_r03\\introduccion_local\\owid\\graficas\\owid-01-vida.html",
+        "legacy_intro_r03\\introduccion_local\\chartstudio\\graficas\\iguzmanvt-118.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_intro_r03\\sin_tabla_ioslides_presentation\\Introduccion.html",
+      "sha256": "9c9d16fbb862323751d33e4e18bfdb539f5dee1ab546e0bea5057e924bcb1162",
+      "local_references": 64,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 32,
+      "sample_frames_opened": [
+        "legacy_intro_r03\\introduccion_local\\owid\\graficas\\owid-01-vida.html",
+        "legacy_intro_r03\\introduccion_local\\chartstudio\\graficas\\iguzmanvt-118.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_ideas_r03\\Ideas\\12\\html_document\\Material.html",
+      "sha256": "e87d986e5dbf0697d6d93e47bc6f8549c5a83503142b67f23360365dffb730e5",
+      "local_references": 26,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 9,
+      "sample_frames_opened": [
+        "legacy_ideas_r03\\graficas_reconstruidas\\graficas\\iguzmanvt-96.html",
+        "legacy_ideas_r03\\graficas_reconstruidas\\graficas\\iguzmanvt-72.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_ideas_r03\\Ideas\\12\\ioslides_presentation\\Material.html",
+      "sha256": "a939c15b10ab3e87d7874f10826b03118b7f7f012493aeb6d18f6e73ced1adfc",
+      "local_references": 28,
+      "missing_local_references": [],
+      "mathjax_containers": 0,
+      "broken_images": [],
+      "frames": 9,
+      "sample_frames_opened": [
+        "legacy_ideas_r03\\graficas_reconstruidas\\graficas\\iguzmanvt-96.html",
+        "legacy_ideas_r03\\graficas_reconstruidas\\graficas\\iguzmanvt-72.html"
+      ],
+      "javascript_errors": []
+    },
+    {
+      "html": "legacy_solow_r03\\Solow\\27\\html_document\\Material.html",
+      "sha256": "f18c35dc4b162b53ba5244d0b91fadde5ca6d8fe5180a1b2cd73cd140f04becf",
+      "local_references": 46,
+      "missing_local_references": [],
+      "mathjax_containers": 10,
+      "broken_images": [],
+      "frames": 0,
+      "sample_frames_opened": [],
+      "javascript_errors": []
+    }
+  ],
+  "parent_iframe_documents_deferred": true,
+  "scripts_sha256": {
+    "renderizar_introduccion.R": "ea3d3382ae9416ddcf92ed9b9bfc0d07e06d791022124c8587ab847b0e265642",
+    "renderizar_modulos.R": "44f15dc1ddd0216f452fbaf5fdaea6d560d6179aa1e0accaa64842cbaff8d302",
+    "postprocesar_render.py": "c44cfe582f2412178feab5214b8ea2b98fd8eaef53a509c1741e6a28e23a1600"
+  },
+  "status": "PASS",
+  "protection_checks": [
+    {
+      "script": "renderizar_introduccion.R",
+      "case": "inside_repository",
+      "rejected": true,
+      "existing_html_unchanged": true
+    },
+    {
+      "script": "renderizar_introduccion.R",
+      "case": "nonempty_output",
+      "rejected": true,
+      "existing_html_unchanged": true
+    },
+    {
+      "script": "renderizar_modulos.R",
+      "case": "inside_repository",
+      "rejected": true,
+      "existing_html_unchanged": true
+    },
+    {
+      "script": "renderizar_modulos.R",
+      "case": "nonempty_output",
+      "rejected": true,
+      "existing_html_unchanged": true
+    }
+  ]
+}

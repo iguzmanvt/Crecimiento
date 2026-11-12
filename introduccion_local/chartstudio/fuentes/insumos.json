@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-12",
+  "inputs_sha256": {
+    "pwt100_seleccion.csv": "78c98d1b0edb0c316ba800c8cd12e77fc1ded38a0f147a18df3272a4cdd0c897",
+    "data/pwt1001_na_data.csv": "0dc8348163291239045f4bda7e7b38b9b33ffb67d918ce59283af0d3ac2a9d0a",
+    "maddison2010_regiones.csv": "b94a36cd9b2f13ef708fcf5563973239c22ab2ee982e6c37c2f643d6f8e107fd",
+    "reconstrucciones_locales/catalogo_origen.json": "c5b645a2bbda3f8764014d8823102095b47813006392a631403fcb3c236effe6",
+    "reconstrucciones_locales/iguzmanvt-118.json": "9b6eced195ac6f81df19b014e9dcf9e4b7b13f7d86aafbf979a460a192967bbf",
+    "reconstrucciones_locales/iguzmanvt-160.json": "f54f59e10767d05bcd83c4a5f6b79e8667b41504da5800bca088cd9345c1de90",
+    "reconstrucciones_locales/iguzmanvt-96.json": "521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7"
+  },
+  "pwt": {
+    "workbook": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+    "workbook_sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+    "sheet": "Data",
+    "rows": 770,
+    "countries": [
+      "AUS",
+      "CAN",
+      "CHN",
+      "DEU",
+      "GBR",
+      "IND",
+      "JPN",
+      "KOR",
+      "MEX",
+      "NGA",
+      "USA"
+    ],
+    "years": [
+      1950,
+      2019
+    ],
+    "edition": "PWT 10.0, revisión de junio de 2021; libro oficial conciliado en verificacion/pendientes_20261111/pwt/pwt_discrepancy_audit.md",
+    "units_source": "Legend: rgdpna y rnna en millones de US$ de 2017 a precios nacionales constantes; pop en millones; labsh proporción del PIB a precios nacionales corrientes."
+  },
+  "national_accounts": {
+    "archive": "data/pwt1001_na_data.csv",
+    "provenance": "Archivo identificado como PWT 10.01 de cuentas nacionales en StudyGuide, commit 3a8c79f20022ef7b985b392d73921839a4317883; las proporciones nominales se recalculan desde v_c, v_i y v_gdp sin redondear",
+    "source_code": "code/Guide_PWTNA_Facts.r",
+    "warning": "v_i mide formación bruta de capital, no sólo formación bruta de capital fijo (v_gfcf). No se usan csh_* a PPA corrientes como si fueran proporciones nominales."
+  },
+  "maddison": {
+    "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/md2010_horizontal.xlsx",
+    "release_url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010?lang=en",
+    "download_date": "2026-11-12",
+    "sha256": "b855773a2632cb45950e357c043977a2957337399641775a8aa667880d84a3dc",
+    "sheet": "PerCapita GDP",
+    "unit_cell": "A2",
+    "unit": "1990 International Geary-Khamis dollars",
+    "regions": {
+      "23": {
+        "code": "weurope",
+        "label": "Europa occidental (30 países)",
+        "source_label": "Total 30  Western Europe "
+      },
+      "29": {
+        "code": "offshoots",
+        "label": "Economías de poblamiento europeo",
+        "source_label": "Total Western Offshoots "
+      },
+      "94": {
+        "code": "latam",
+        "label": "América Latina",
+        "source_label": "Total Latin America"
+      },
+      "139": {
+        "code": "asia",
+        "label": "Asia",
+        "source_label": "Total Asia "
+      },
+      "194": {
+        "code": "africa",
+        "label": "África",
+        "source_label": "Total Africa "
+      }
+    },
+    "years": [
+      1820,
+      2008
+    ],
+    "disclaimer": "Cortes y agregados históricos de la edición 2010. No se actualizan a fronteras ni cifras de 2026; no se interpolan ausencias."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "original_url": "https://fred.stlouisfed.org/graph/?g=FOJf",
+  "series": [
+    "IITTRHB",
+    "IITTRLB"
+  ],
+  "visible_range": {
+    "cosd": "1953-06-26",
+    "coed": "2018-01-01"
+  },
+  "historic_image": "Clases_Crecimiento_Economico/Taxes/Taxes-Tax_Rates.png",
+  "historic_image_sha256": "3e240afa6fb53729c52f2af748fb51490b9f9b7ee62ced06905891bc59b33054",
+  "verified_utc": "2026-11-12T17:34:32.600689+00:00",
+  "limit": "El PNG conservado es historico; no se fecha como 2026 ni se equipara su ventana con la configuracion FRED actual."
+}

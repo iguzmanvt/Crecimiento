@@ -19,11 +19,11 @@ output:
 
       -    Si el capital es muy escaso, no se puede estimar la convergencia – países antes del siglo XIX.
 
-      -    Correlación entre PIB per cápita inicial y final es 0 - predice la convergencia condicional.
+      -    La convergencia condicional relaciona el crecimiento con el ingreso inicial al controlar por determinantes del estado estacionario; no exige correlación cero entre los niveles inicial y final.
 
 3. **Existen diferencias de crecimiento hacia distintos BGP** debido a las dinámicas de transición. Una vez que la economía alcanza el BGP, la tasa de crecimiento del PIB per cápita entre los países relativamente ricos puede no ser muy diferente.
 
--  **4 . Las políticas públicas no influenciarán fácilmente el ingreso de las economías que están en el BGP.**
+-  **4 . En Solow, un cambio permanente en la tasa de ahorro modifica el nivel de la senda y el crecimiento durante la transición; la tasa de crecimiento de largo plazo depende del progreso tecnológico exógeno.**
 
     -    **Solow se pregunta qué impulsa la actualización tecnológica en países desarrollados, que ya están a la vanguardia tecnológica.** Presumiblemente, el flujo de nuevas ideas es una gran parte del crecimiento para estos países, y no está claro por qué las ideas deberían detenerse en la frontera de posibilidades de innovación.
     
@@ -106,52 +106,41 @@ grid.raster(Convergence_Beta_Convergence, interpolate=FALSE)
 
 <span style="color:blue">**Velocidad de convergencia**</span>
 
--  Concentrémonos en la convergencia $\beta$ (asumiendo que los shocks de convergencia σ son pequeños): la siguiente pregunta es **cuánto tiempo le tomará a un país pobre cerrar la brecha con un país rico**. El coeficiente de la estimación de PSS estima esto. Este es definido como la **“regresión de Barro”**:
+- La regresión de Barro relaciona el crecimiento anual medio durante una ventana fija $T$ con el ingreso inicial:
 
-$\frac{Ln (y_t) - Ln (y_0)}{t}=\alpha + \beta Ln(y_0)$
+$$\frac{\ln y_T-\ln y_0}{T}=a+\beta_T\ln y_0.$$
 
--  A la izquierda está la tasa de crecimiento del PIB per cápita, 𝑦, desde algún año inicial 0 hasta el año 𝑡. Esto está relacionado con el nivel inicial del PIB per cápita, $𝑦_0$, en el lado derecho. La fuerza de esa relación se mide por el coeficiente $\beta$.
+- Un coeficiente $\beta_T<0$ describe convergencia beta en esa muestra. No garantiza por sí solo convergencia futura ni una reducción de la dispersión sigma.
 
--  La convergencia $\beta$ significa que $\beta<0$, o que la tasa de crecimiento disminuye a medida que aumenta el nivel inicial de ingresos. Qué tan grande (en valor absoluto) $\beta$ determina qué tan fuerte es ese efecto. El parámetro extra α es una tasa de referencia. 
+<span style="color:blue">**Coeficiente y velocidad**</span>
 
-<span style="color:blue">**Velocidad de convergencia**</span>
+- Si dos economías comparten intercepto, al restar sus ecuaciones desaparece $aT$:
 
-- Despejando, nos queda:
+$$\ln(y_T^p/y_T^r)=(1+T\beta_T)\ln(y_0^p/y_0^r).$$
 
-$Ln (y_t)=\alpha t + (1+\beta t) Ln(y_0)$
+- El coeficiente depende de la ventana. Bajo el supuesto adicional de una brecha logarítmica que se cierra a velocidad constante $b$, $1+T\beta_T=e^{-bT}$ y $b=-\ln(1+T\beta_T)/T$. Esta conversión exige $0<1+T\beta_T<1$.
 
--  que es el nivel de PIB per cápita en el tiempo $t$, dado el PIB inicial per cápita en el tiempo 0. El término multiplicativo $\beta t$ es el efecto de la convergencia $\beta$ en el tiempo. 
+<span style="color:blue">**Ejemplo de cierre de una brecha**</span>
 
--  Usando esto, aquí hay una pregunta que podríamos hacer. Dado que un país pobre tiene $𝑦_0^{pobre}$, es solo el 10% del valor en un país rico, $𝑦_0^{rico}$, ¿cuánto tiempo tomará (es decir, qué tan grande tiene que ser el coeficiente) antes de que $𝑦_t^{pobre}$ sea el 90% del valor en el país rico, $𝑦_t^{rico}$? Dada la ecuación, esto sucederá en algún momento.
+- Supongamos, sólo para ilustrar, $b=0.005$ al año y ausencia de nuevos choques o diferencias de tendencia:
 
--  Aún agregando los shocks mencionados anteriormente que podrían seguir separando estos dos países, la convergencia $\beta$ eventualmente garantizará lo anterior.
+$$\ln(y_t^p/y_t^r)=e^{-bt}\ln(0.1).$$
 
--  En este tiempo $t$, queremos que $\frac{𝑦_t^{pobre}}{𝑦_t^{rico}}= 0.9$
+- Llegar de una razón de ingreso de 0.1 a 0.9 requiere:
 
-<span style="color:blue">**Velocidad de convergencia**</span>
+$$t=-\frac{1}{b}\ln\left(\frac{\ln(0.9)}{\ln(0.1)}\right)\approx617\text{ años}.$$
 
--  Lo que da:
+<span style="color:blue">**Límite de la extrapolación**</span>
 
-$Ln (0.9)=\alpha t + (1+\beta t) Ln(y_0^{pobre})-(\alpha t + (1+\beta t) Ln(y_0^{rico}))$
--  Lo que implica que:
+- Los 617 años son el resultado de un supuesto ilustrativo de velocidad constante, no una predicción del estudio empírico.
 
-$Ln (0.9)=\alpha t + (1+\beta t) (Ln(y_0^{pobre})- Ln(y_0^{rico}))$
-
--  Establecimos 𝑦$\frac{𝑦_0^{pobre}}{𝑦_0^{rico}}= 0.1$:
-
-$Ln (0.9)=\alpha t + (1+\beta t) Ln (0.1)$
-
--  Lo que da:
-
-$t=\frac{\frac{Ln (0.9)}{Ln(0.1)}-1}{\beta}$ 
-
--  El valor estimado de convergencia incondicional es $\beta=-0.005$, lo cual no es muy grande. Insertar eso en la ecuación anterior implica que $t=190$, o tomará alrededor de 190 años para que un país pase del 10% del PIB per cápita de los países ricos al 90%. Esto es mucho tiempo. 
+- Sustituir un coeficiente transversal fijo $\beta=-0.005$ en una fórmula lineal para cualquier horizonte producía aproximadamente 190 años. Esa extrapolación confunde el coeficiente de una ventana con una ley dinámica permanente.
 
 <span style="color:blue">**Convergencia condicional:**</span>
 
--  La literatura indica coeficientes de convergencia condicional de $\beta=-0.02$. Esto significa que si observa solo grupos de países que tienen características similares (tasa de ahorro, niveles de capital humano, etc.), entonces encontrará convergencia $\beta$ en esos grupos.
+-  La literatura suele discutir velocidades de convergencia condicional cercanas al 2% anual en determinadas muestras. La velocidad dinámica y el coeficiente de la regresión transversal son parámetros distintos. Esto significa que si observa solo grupos de países que tienen características similares (tasa de ahorro, niveles de capital humano, etc.), entonces encontrará convergencia $\beta$ en esos grupos.
 
--  **Pero a través de los grupos, no hay tendencia a la convergencia $\beta$. Por ejemplo, si solo observara los países de la OCDE, vería una evidencia bastante fuerte de convergencia $\beta$, con una estimación de $\beta=-0.02$, aproximadamente. Y si solo observara el conjunto de países del África subsahariana, vería evidencia similar de convergencia $\beta$.**
+-  **Pero a través de los grupos, no hay tendencia a la convergencia $\beta$. Por ejemplo, si solo observara los países de la OCDE, vería una evidencia bastante fuerte de convergencia $\beta$, con una velocidad de convergencia cercana al 2% anual en ciertas estimaciones. Y si solo observara el conjunto de países del África subsahariana, vería evidencia similar de convergencia $\beta$.**
 
 -  Pero, no hay una tendencia a que los países africanos como grupo crezcan más rápido que los países de la OCDE. Solo que, dentro del grupo de países de la ASS, los más pobres crecen más rápido, y dentro del grupo de países de la OCDE, los más pobres crecen más rápido. 
 
@@ -279,7 +268,7 @@ grid.raster(Convergence_Absolute_Convergence_2, interpolate=FALSE)
 ```
 
 
-Modelo: $(\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \delta_t + \epsilon_{i,t}$
+Modelo: $\ln(y_{i,t}/y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \delta_t + \epsilon_{i,t}$
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -291,15 +280,15 @@ grid.raster(Convergence_Absolute_Convergence_Periods, interpolate=FALSE)
 
 -  En línea con la evidencia gráfica, la brecha de niveles de ingreso creció a un ritmo anual de 0.44% para el periodo analizado, reforzando la tesis de un patrón de divergencia absoluta. 
 
--  Esto es explicable, según el modelo, debido al comportamiento del PIB regional en los años posteriores al 2008, como se puede apreciar en la no significancia de los coeficientes de la regresión.
+-  En el estudio de Banco de México, el coeficiente de divergencia absoluta de 2009–2015 es positivo y significativo; los de los dos subperiodos anteriores no son significativos. Véase el Cuadro 1 del recuadro de junio de 2017.
 
 -  Ahondando en la explicación de Banco de México propone que la estructura económica, la dotación de capital humano, el nivel y la calidad de la infraestructura y el grado de desarrollo institucional influyan en el crecimiento económico. 
 
--  Sustentando así que la divergencia regional no se explique por diferencias en  factores estructurales. 
+-  Esto motiva controlar las diferencias estructurales al distinguir convergencia condicional de convergencia absoluta.
 
 <span style="color:blue">**Convergencia condicional**</span>
 
-Modelo: $(\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \gamma X_{i,t-1}+\delta_t + \epsilon_{i,t}$
+Modelo: $\ln(y_{i,t}/y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \gamma X_{i,t-1}+\delta_t + \epsilon_{i,t}$
 
 -  Se incorpora la variable $X_{i,t-1}$ para capturar la heterogeneidad de las entidades.
 
@@ -587,17 +576,17 @@ Etiquetar el problema de mantener el crecimiento como la "trampa de ingresos med
 
 <span style="color:blue">**Cálculo de efectos**</span>
 
--  Las políticas públicas aumentan el PIB potencial, no el PIB real, abriendo una brecha entre estos dos. ¿Por qué?
+-  Para ilustrar una reforma de oferta, supondremos un aumento de la senda potencial y una aproximación gradual del PIB observado. Otras políticas pueden afectar también la demanda y el producto en el corto plazo.
 
--  Para dar una idea de lo poco que un efecto de las políticas públicas en el crecimiento, utilicemos la siguiente ecuación:
-$y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]$
+-  Utilicemos una trayectoria ilustrativa de ajuste, con $0\leq\lambda\leq1$ y $y_t^*=(1+g)^t y_0^*$:
+$y_t=(1+g)^t[(1-\lambda)^t y_0 + (1-(1-\lambda)^t)y_0^*]$
 -  En donde:
 
     -    $g$ es la tendencia de crecimiento de la economía.
-    -    $\lambda$ es la velocidad de convergencia (asumimos la velocidad de la literatura: 2% anual)
+    -    $\lambda$ es la fracción de la brecha que se cierra por periodo; usamos 0.02 como supuesto ilustrativo
     -    $y_0^*$ es el PIB potencial en el periodo 0.
 Para cambios de un periodo a otro:
-    -    $y_{t+1}=(1+g)^t[ y_t +\lambda (y_t^* -y_t)]$
+    -    $y_{t+1}=(1+g)[y_t+\lambda(y_t^*-y_t)]$
 
 -  Despejando:
 
@@ -605,36 +594,36 @@ $\frac{y_{t+1}-y_t}{y_t}=(1+g)[\lambda \frac{y_t^*}{y_t}+(1-\lambda)]-1$
 
 -  Asumiendo: 
 
-    -    $\lambda=2$ (por la literatura);
-    -    $g=2%$; y 
-    -    el PIB real en 16 trillones (para EEUU) y el PIB potencial lo suponemos en 17 trillones.
+    -    $\lambda=0.02$ (2% por año, supuesto del ejercicio);
+    -    $g=2\%$; y
+    -    el PIB real en 16 billones de dólares (millones de millones) (para EEUU) y el PIB potencial lo suponemos en 17 billones de dólares.
     
-$\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{17}{16}+(1-0.02)]-1=2.13$
+$\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{17}{16}+(1-0.02)]-1=0.021275=2.1275\%$
 
--  Suponiendo la aplicación de una política pública efectiva, que incremente en 1 trillón el PIB potencial, entonces la tasa de crecimiento de la economía será:
-$\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{18}{16}+(1-0.02)]-1=2.25$
+-  Suponiendo la aplicación de una política pública efectiva, que incremente en 1 billón el PIB potencial, entonces la tasa de crecimiento de la economía será:
+$\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{18}{16}+(1-0.02)]-1=0.02255=2.255\%$
 
--  0.12 puntos porcentuales mayor en el periodo.
+-  0.1275 puntos porcentuales más en el periodo. Son valores supuestos, no cifras observadas de Estados Unidos.
 
 -  ¿Esto es mucho o es poco?
 -  El efecto depende de la política pública, de su trascendencia y su efecto en el largo plazo.
 
 -  La mayoría de las políticas públicas no tendrá un impacto directo en el PIB de un periodo a otro, pero una serie de políticas públicas en el tiempo pueden articularse en **reformas estructurales consistentes en el tiempo, teniendo un impacto mayor**, o abriendo la brecha entre el PIB potencial y el real.
 
--  Pero ninguna reforma hará una diferencia realmente apreciable para el crecimiento económico de un año a otro. 
+-  La velocidad del efecto depende de la reforma y de los canales de transmisión. Este ejemplo de ajuste gradual no establece un límite general a sus efectos de corto plazo.
 
 -  Un país puede revolucionar la educación, los impuestos corporativos, la planificación urbana o la inmigración, pero **los beneficios que esos cambios inducen probablemente tardarán décadas en manifestarse**.
 
--  Por otro lado, un **incremento en el gasto público o de los hogares** aumentará el PIB real de un año a otro. No da para decisiones marginales. Esa es la única forma de aumentar considerablemente la tasa de crecimiento a corto plazo. **¿Es lo deseable? No:**
+-  Por otro lado, un **incremento en el gasto público o de los hogares** aumentará el PIB real de un año a otro. No da para decisiones marginales. Su efecto depende de la capacidad ociosa, la financiación y la respuesta de precios y política monetaria. Para evaluarlo deben considerarse:
 
     -    Costo de oportunidad del gasto público
     -    Distorsiones en los mercados.
-    -    El efecto sólo es en un periodo.
+    -    La duración del efecto y su relación con la senda potencial.
 
 -  **Ejemplo:** Dos políticas públicas. Con los mismos supuestos para la economía de EEUU.
-    -    **Política A:** Incremento en el gasto público de 2019 suficiente para que el PIB potencial sea igual al PIB real.
-    -    **Política B:** Política pública que incrementa permanentemente el PIB potencial en 1 trillón de dólares.
-    -    **Política A:** $y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]$
-$y_1=(1+0.02)^t[0.02^1 (17) + (1-0.021)(17)]=17.34$
-    -    **Política B:** $y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]$
-$y_1=(1+0.02)^t[0.02^1 (18) + (1-0.021)(16)]=16.36$
+    -    **Política A:** Se supone un cierre inicial de la brecha de producto: $y_0=y_0^*=17$. El ejercicio no calcula el gasto necesario para conseguirlo.
+    -    **Política B:** Política pública que incrementa permanentemente el PIB potencial en 1 billón de dólares.
+    -    **Política A:** $y_t=(1+g)^t[(1-\lambda)^t y_0 + (1-(1-\lambda)^t)y_0^*]$
+$y_1=1.02[(1-0.02)17+0.02(17)]=17.34$
+    -    **Política B:** $y_t=(1+g)^t[(1-\lambda)^t y_0 + (1-(1-\lambda)^t)y_0^*]$
+$y_1=1.02[(1-0.02)16+0.02(18)]=16.3608$

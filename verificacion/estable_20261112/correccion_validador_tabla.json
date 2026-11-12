@@ -1,0 +1,36 @@
+{
+  "kind": "Correccion del criterio del validador para tablas categoricas",
+  "checked_utc": "2026-11-12T18:14:10.133849+00:00",
+  "initial_report_status": "failed",
+  "initial_report_sha256": "caf071acfa7ddde6030447fde94e7ec0af355fa60417b123798d9a869ef3a049",
+  "initial_report_preserved_at": "C:\\Users\\IsaacGuzman\\AppData\\Local\\Temp\\github-crecimiento-regeneracion-20261111\\estable_20261112\\qa\\entrega_navegador_corrida_inicial.json",
+  "initial_failures": [
+    {
+      "path": "recursos_esenciales/graficas/metas_neto_cero.html",
+      "mode": "file",
+      "category": "graph",
+      "error": "Gráfica vacía o sin datos numéricos: file:///C:/Users/IsaacGuzman/AppData/Local/Temp/github-crecimiento-regeneracion-20261111/repo/recursos_esenciales/graficas/metas_neto_cero.html [{'data': 1, 'layout': True, 'width': 1200, 'height': 620, 'svg': 3, 'numeric': 0}]",
+      "javascript": [],
+      "failed_requests": [],
+      "remote_requests": []
+    },
+    {
+      "path": "recursos_esenciales/graficas/metas_neto_cero.html",
+      "mode": "subpath",
+      "category": "graph",
+      "error": "Gráfica vacía o sin datos numéricos: http://127.0.0.1:60481/Crecimiento/recursos_esenciales/graficas/metas_neto_cero.html [{'data': 1, 'layout': True, 'width': 1200, 'height': 620, 'svg': 3, 'numeric': 0}]",
+      "javascript": [],
+      "failed_requests": [],
+      "remote_requests": []
+    }
+  ],
+  "reason": "El criterio inicial exigia valores numericos x/y a todas las vistas. Metas de neto cero es una tabla Plotly de ocho paises y estados normativos, con dos columnas y 18 celdas renderizadas contando los encabezados.",
+  "change": "El inspector conserva el criterio numerico existente y agrega criterios para tablas con filas no vacias y geometria renderizada, y pares categoricos con marcas renderizadas.",
+  "revalidation_report": "revalidacion_tabla_categorica.json",
+  "revalidated_cases": 2,
+  "previously_passed_cases_retained": 279,
+  "all_html_hashes_unchanged": true,
+  "empty_table_negative_control_rejected": true,
+  "final_checker_sha256": "29ca07452a68fec91245b5f048cfeba088a3ad037dd534fefa0d57781303c7cd",
+  "scope": "Se repiten las dos vistas afectadas en disco y subruta. No se modifican datos ni HTML de produccion. El flujo CI ejecuta todas las vistas con el inspector actualizado."
+}

@@ -1,0 +1,596 @@
+{
+  "validated_at_utc": "2026-11-12T18:36:26.852795+00:00",
+  "count": 17,
+  "environment": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "identity_set_exact": true,
+  "data_finite": true,
+  "input_hashes": true,
+  "published_spec_and_csv_hashes": true,
+  "exports_dimensions": [
+    1200,
+    700
+  ],
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "files_compared": 58,
+  "recalculated_files_equivalent": 58,
+  "recalculated_files_identical": 58,
+  "byte_equal_after_LF_normalization": 58,
+  "maximum_numeric_difference": 0.0,
+  "independent_numeric_checks": [
+    {
+      "id": 150,
+      "year": 2019,
+      "USA": 11.042777644052219,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "id": 202,
+      "year": 2019,
+      "USA": 0.5970911383628845,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "id": 207,
+      "year": 2019,
+      "USA": 0.7805041535346962,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "id": 156,
+      "year": 2019,
+      "USA": 3.3583171656002513,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "id": 170,
+      "year": 2019,
+      "USA": 0.6786005989019105,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    },
+    {
+      "id": 174,
+      "year": 2019,
+      "USA": 0.21014288749626397,
+      "independent_check": true,
+      "maximum_numeric_difference": 0.0
+    }
+  ],
+  "schooling_countries": 150,
+  "browser_record": "verificacion_navegador.json",
+  "network_used": false,
+  "ignored_repository_metadata": [
+    "assets/.gitattributes"
+  ],
+  "results": [
+    {
+      "path": "README.md",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 0,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "assets/clase.css",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 0,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "assets/clase.js",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 0,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "assets/plotly.min.js",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 0,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "catalogo.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 86,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-118.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 282,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-118.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 323,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-150.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 700,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-150.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 723,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-152.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 830,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-152.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 855,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-154.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 710,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-154.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 735,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-156.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 600,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-156.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 623,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-158.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 720,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-158.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 745,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-160.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 220,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-160.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 5306,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-168.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 8,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-168.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 21,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-168_paises.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 150,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-170.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 700,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-170.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 723,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-172.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 830,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-172.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 855,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-174.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 700,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-174.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 723,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-176.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 830,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-176.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 855,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-202.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 700,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-202.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 723,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-205.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 830,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-205.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 855,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-207.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 700,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-207.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 723,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-209.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 830,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-209.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 855,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-66.csv",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 874,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "datos/iguzmanvt-66.json",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 897,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-118.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 326,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-150.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 728,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-152.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 860,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-154.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 740,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-156.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 628,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-158.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 750,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-160.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 5311,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-168.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 26,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-170.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 728,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-172.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 860,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-174.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 728,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-176.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 860,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-202.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 728,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-205.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 860,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-207.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 728,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-209.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 860,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "graficas/iguzmanvt-66.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 902,
+      "derived_hash_fields_changed_and_verified": 0
+    },
+    {
+      "path": "index.html",
+      "equivalent_within_tolerance": true,
+      "byte_identical": true,
+      "byte_equal_after_LF_normalization": true,
+      "maximum_numeric_difference": 0.0,
+      "numeric_values_compared": 0,
+      "derived_hash_fields_changed_and_verified": 0
+    }
+  ],
+  "status": "PASS"
+}

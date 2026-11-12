@@ -1,0 +1,700 @@
+[
+  {
+    "id": 1293799,
+    "name": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+    "nonRedistributable": false,
+    "version": "2026-07-27",
+    "licenses": [
+      {
+        "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1293799.metadata.json"
+  },
+  {
+    "id": 1271844,
+    "name": "Child mortality rate",
+    "nonRedistributable": false,
+    "version": "2026-06-09",
+    "licenses": [
+      {
+        "url": "https://www.unicef.org/legal#copyright",
+        "name": "Copyright © UNICEF"
+      },
+      {
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://docs.google.com/document/d/1-RmthhS2EPMK_HIpnPctcXpB0n7ADSWnXa5Hb3PxNq4/edit",
+        "name": "CC BY 4.0# License (same as origin.license, for backwards compatibility)"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1271844.metadata.json"
+  },
+  {
+    "id": 900793,
+    "name": "GDP per capita",
+    "nonRedistributable": false,
+    "version": "2024-04-26",
+    "licenses": [
+      {
+        "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/900793.metadata.json"
+  },
+  {
+    "id": 953903,
+    "name": "Population (historical)",
+    "nonRedistributable": false,
+    "version": "2024-07-15",
+    "licenses": [
+      {
+        "url": "https://doi.org/10.24416/UU01-AEZZIT",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://docs.google.com/document/d/1-RmthhS2EPMK_HIpnPctcXpB0n7ADSWnXa5Hb3PxNq4/edit?usp=sharing",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://github.com/open-numbers/ddf--gapminder--systema_globalis",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/953903.metadata.json"
+  },
+  {
+    "id": 900801,
+    "name": "World region according to OWID",
+    "nonRedistributable": false,
+    "version": "2023-01-01",
+    "licenses": [
+      null
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+  },
+  {
+    "id": 950920,
+    "name": "Fertility rate - Sex: all - Age: all - Variant: estimates",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/950920.metadata.json"
+  },
+  {
+    "id": 1108541,
+    "name": "GDP per capita (output, multiple price benchmarks)",
+    "nonRedistributable": false,
+    "version": "2025-10-09",
+    "licenses": [
+      {
+        "url": "https://www.rug.nl/ggdc/productivity/pwt/",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1108541.metadata.json"
+  },
+  {
+    "id": 1356786,
+    "name": "Annual CO₂ emissions (per capita)",
+    "nonRedistributable": false,
+    "version": "2026-11-10",
+    "licenses": [
+      {
+        "url": "https://doi.org/10.5281/zenodo.5569234",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://www.icos-cp.eu/data-services/about-data-portal/data-license",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1356786.metadata.json"
+  },
+  {
+    "id": 951485,
+    "name": "Population - Sex: all - Age: 65+ - Variant: estimates",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/951485.metadata.json"
+  },
+  {
+    "id": 951495,
+    "name": "Population - Sex: all - Age: 65+ - Variant: medium",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/951495.metadata.json"
+  },
+  {
+    "id": 951160,
+    "name": "Population - Sex: all - Age: 15-64 - Variant: estimates",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/951160.metadata.json"
+  },
+  {
+    "id": 951169,
+    "name": "Population - Sex: all - Age: 15-64 - Variant: medium",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/951169.metadata.json"
+  },
+  {
+    "id": 950993,
+    "name": "Population - Sex: all - Age: 0-14 - Variant: estimates",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/950993.metadata.json"
+  },
+  {
+    "id": 951000,
+    "name": "Population - Sex: all - Age: 0-14 - Variant: medium",
+    "nonRedistributable": false,
+    "version": "2024-07-12",
+    "licenses": [
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/951000.metadata.json"
+  },
+  {
+    "id": 1108397,
+    "name": "Number of people employed in services (Herrendorf et al. data)",
+    "nonRedistributable": false,
+    "version": "2017-04-24",
+    "licenses": [
+      null
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1108397.metadata.json"
+  },
+  {
+    "id": 1108395,
+    "name": "Number of people employed in industry  (Herrendorf et al. data)",
+    "nonRedistributable": false,
+    "version": "2017-04-24",
+    "licenses": [
+      null
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1108395.metadata.json"
+  },
+  {
+    "id": 1108396,
+    "name": "Number of people employed in agriculture  (Herrendorf et al. data)",
+    "nonRedistributable": false,
+    "version": "2017-04-24",
+    "licenses": [
+      null
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1108396.metadata.json"
+  },
+  {
+    "id": 1108500,
+    "name": "Average working hours per worker",
+    "nonRedistributable": false,
+    "version": "2025-10-09",
+    "licenses": [
+      {
+        "url": "https://www.rug.nl/ggdc/productivity/pwt/",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1108500.metadata.json"
+  },
+  {
+    "id": 1206526,
+    "name": "Global Hunger Index (2021)",
+    "nonRedistributable": false,
+    "version": "2021",
+    "licenses": [
+      null
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1206526.metadata.json"
+  },
+  {
+    "id": 1294305,
+    "name": "GDP per capita, PPP (constant 2021 international $)",
+    "nonRedistributable": false,
+    "version": "2026-07-27",
+    "licenses": [
+      {
+        "url": "https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1294305.metadata.json"
+  },
+  {
+    "id": 953899,
+    "name": "Population",
+    "nonRedistributable": false,
+    "version": "2024-07-15",
+    "licenses": [
+      {
+        "url": "https://doi.org/10.24416/UU01-AEZZIT",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://docs.google.com/document/d/1-RmthhS2EPMK_HIpnPctcXpB0n7ADSWnXa5Hb3PxNq4/edit?usp=sharing",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://github.com/open-numbers/ddf--gapminder--systema_globalis",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/953899.metadata.json"
+  },
+  {
+    "id": 1118466,
+    "name": "Period life expectancy at birth",
+    "nonRedistributable": false,
+    "version": "2025-10-22",
+    "licenses": [
+      {
+        "url": "https://www.mortality.org/Data/UserAgreement",
+        "name": "CC BY 4.0"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://population.un.org/wpp/downloads/",
+        "name": "CC BY 3.0 IGO"
+      },
+      {
+        "url": "https://datasets.iisg.amsterdam/dataset.xhtml?persistentId=hdl:10622/LKYT53",
+        "name": "CC0 1.0 Universal"
+      },
+      {
+        "url": "https://about.jstor.org/terms/",
+        "name": "JSTOR terms"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1118466.metadata.json"
+  },
+  {
+    "id": 1173301,
+    "name": "Age-standardized Deaths from all causes attributed to ambient particulate matter pollution per 100,000 people",
+    "nonRedistributable": true,
+    "version": "2026-02-07",
+    "licenses": [
+      {
+        "url": "https://www.healthdata.org/Data-tools-practices/data-practices/ihme-free-charge-non-commercial-user-agreement",
+        "name": "Free-of-Charge Non-commercial User Agreement"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1173301.metadata.json"
+  },
+  {
+    "id": 1248813,
+    "name": "Obesity among adults, BMI >= 30 kg/m2 (crude estimate) (%) - Sex: both sexes - Age group: 18+  years of age",
+    "nonRedistributable": false,
+    "version": "2026-05-22",
+    "licenses": [
+      {
+        "url": "https://www.who.int/about/policies/publishing/copyright",
+        "name": "CC BY-NC-SA 4.0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1248813.metadata.json"
+  },
+  {
+    "id": 1317781,
+    "name": "Share of population in poverty ($3 a day, 2021 prices)",
+    "nonRedistributable": false,
+    "version": "2026-09-22",
+    "licenses": [
+      {
+        "url": "https://datacatalog.worldbank.org/search/dataset/0063646",
+        "name": "CC0"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1317781.metadata.json"
+  },
+  {
+    "id": 1195724,
+    "name": "Share of the population living in urban areas by national definition",
+    "nonRedistributable": false,
+    "version": "2026-02-17",
+    "licenses": [
+      {
+        "url": "http://creativecommons.org/licenses/by/3.0/igo/",
+        "name": "CC BY 3.0 IGO"
+      }
+    ],
+    "url": "https://api.ourworldindata.org/v1/indicators/1195724.metadata.json"
+  }
+]

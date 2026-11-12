@@ -1,0 +1,122 @@
+{
+  "topics": 16,
+  "assignments": 8,
+  "local_targets_checked": 64,
+  "same_page_anchors_checked": true,
+  "generator_deterministic": true,
+  "no_javascript_fallback_checked": true,
+  "tests": [
+    {
+      "mode": "file",
+      "topics": 16,
+      "assignments": 8,
+      "searches": [
+        {
+          "query": "SOLÓW",
+          "topics": 3,
+          "assignments": 2
+        },
+        {
+          "query": "innovación",
+          "topics": 1,
+          "assignments": 2
+        },
+        {
+          "query": "mercado laboral",
+          "topics": 1,
+          "assignments": 1
+        },
+        {
+          "query": "Tarea 2",
+          "topics": 3,
+          "assignments": 1
+        },
+        {
+          "query": "zxqsinresultados",
+          "topics": 0,
+          "assignments": 0
+        }
+      ],
+      "clear_search_checked": true,
+      "keyboard_skip_link_checked": true,
+      "details_checked": true,
+      "widths": [
+        {
+          "width": 1440,
+          "content": 1440
+        },
+        {
+          "width": 900,
+          "content": 900
+        },
+        {
+          "width": 390,
+          "content": 390
+        }
+      ],
+      "javascript_errors": [],
+      "missing_resources": [],
+      "external_requests": 0
+    },
+    {
+      "mode": "subpath",
+      "topics": 16,
+      "assignments": 8,
+      "searches": [
+        {
+          "query": "SOLÓW",
+          "topics": 3,
+          "assignments": 2
+        },
+        {
+          "query": "innovación",
+          "topics": 1,
+          "assignments": 2
+        },
+        {
+          "query": "mercado laboral",
+          "topics": 1,
+          "assignments": 1
+        },
+        {
+          "query": "Tarea 2",
+          "topics": 3,
+          "assignments": 1
+        },
+        {
+          "query": "zxqsinresultados",
+          "topics": 0,
+          "assignments": 0
+        }
+      ],
+      "clear_search_checked": true,
+      "keyboard_skip_link_checked": true,
+      "details_checked": true,
+      "widths": [
+        {
+          "width": 1440,
+          "content": 1440
+        },
+        {
+          "width": 900,
+          "content": 900
+        },
+        {
+          "width": 390,
+          "content": 390
+        }
+      ],
+      "javascript_errors": [],
+      "missing_resources": [],
+      "external_requests": 0
+    }
+  ],
+  "scope": "Portal estático y sus destinos de enlace; no se ejecuta ni valida el contenido docente de los documentos enlazados. Chrome local en Windows; file: y subruta HTTP /Crecimiento/.",
+  "files_sha256": {
+    "index.html": "a3e25657ec9dcdc28213d852c734945705898b256995bd521a2b6b75062ed71b",
+    "manifest.json": "05d913cea528e84823a7301c843f8da167ebefc322301a022a31d991c6a8cc68",
+    "portal.css": "31d91ad94694bc13129721172045931431bfc871a37a99a2e24969b1186eadf8",
+    "portal.js": "d192500c6b0397c2a5a0b7caa420cc7a8f25400a9c06cbb24799b3a04e96f4e1",
+    "README.md": "7ac7bb14081d0a36d8ed90f89ce31827ba30b3b53d48116f2403f47bb549c10b"
+  }
+}

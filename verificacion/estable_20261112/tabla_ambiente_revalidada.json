@@ -1,0 +1,1057 @@
+{
+  "status": "passed",
+  "checker_sha256": "d9a0b105842cf22156f9dda0e57eea6a4ab0c1b40641e06920515dd128566ae2",
+  "reason": "Iframe ampliado de390a650px en notas y presentacionEnvironment para mostrar ocho filas completas.",
+  "results": [
+    {
+      "path": "materiales_actualizados/Environment/presentacion/Material.html",
+      "mode": "file",
+      "category": "material",
+      "status": "passed",
+      "metrics": {
+        "images": 12,
+        "math": {
+          "version": "3.2.2",
+          "expressions": 0,
+          "svg": 0,
+          "errors": 0,
+          "mathml": 0
+        },
+        "slides": 34,
+        "navigation": true,
+        "scrollable_slides": 12,
+        "iframe_sources": [
+          "../../../recursos_esenciales/graficas/pm25_mundo.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_comparacion.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_trayectorias.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_ingreso.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_por_persona.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_total.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_paises.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_regiones.html?embed=1",
+          "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+          "../../../recursos_esenciales/graficas/londres_delhi_particulas.html?embed=1"
+        ],
+        "embedded_tables": [
+          {
+            "src": "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+            "frame_height": "650",
+            "metrics": {
+              "width": 980,
+              "height": 650,
+              "tables": [
+                {
+                  "rows": 8,
+                  "columns": 2,
+                  "required_px": 308,
+                  "available_px": 440
+                }
+              ],
+              "rendered_cells": 18,
+              "all_text_within_frame": true,
+              "cells": [
+                {
+                  "text": "Eslovenia",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 93,
+                  "right": 153.9169921875
+                },
+                {
+                  "text": "Mónaco",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 93,
+                  "right": 143.0205078125
+                },
+                {
+                  "text": "Ecuador",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 93,
+                  "right": 146.482421875
+                },
+                {
+                  "text": "Afganistán",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 92,
+                  "right": 159.3720703125
+                },
+                {
+                  "text": "Gambia",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 93,
+                  "right": 142.234375
+                },
+                {
+                  "text": "Perú",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 93,
+                  "right": 122.7861328125
+                },
+                {
+                  "text": "Bulgaria",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 93,
+                  "right": 144.5791015625
+                },
+                {
+                  "text": "Senegal",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 93,
+                  "right": 144.390625
+                },
+                {
+                  "text": "País",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 93,
+                  "right": 123.5146484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "Propuesta / en discusión (2050)",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 324.6176452636719,
+                  "right": 522.63037109375
+                },
+                {
+                  "text": "Propuesta / en discusión (2030)",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 324.6176452636719,
+                  "right": 522.63037109375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En ley (2050)",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 324.6176452636719,
+                  "right": 408.2240905761719
+                },
+                {
+                  "text": "En documento de política (2030)",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "Situación del compromiso (fuente)",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 324.6176452636719,
+                  "right": 552.22998046875
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sha256": "d3bae3a49f9eb4e0313edc6a593129668695ec3c61f6a1fb99bf2f29f1bb387d",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": []
+    },
+    {
+      "path": "materiales_actualizados/Environment/notas/Material.html",
+      "mode": "file",
+      "category": "material",
+      "status": "passed",
+      "metrics": {
+        "images": 12,
+        "math": {
+          "version": "3.2.2",
+          "expressions": 0,
+          "svg": 0,
+          "errors": 0,
+          "mathml": 0
+        },
+        "slides": 0,
+        "navigation": null,
+        "scrollable_slides": 0,
+        "iframe_sources": [
+          "../../../recursos_esenciales/graficas/pm25_mundo.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_comparacion.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_trayectorias.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_ingreso.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_por_persona.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_total.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_paises.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_regiones.html?embed=1",
+          "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+          "../../../recursos_esenciales/graficas/londres_delhi_particulas.html?embed=1"
+        ],
+        "embedded_tables": [
+          {
+            "src": "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+            "frame_height": "650",
+            "metrics": {
+              "width": 910,
+              "height": 650,
+              "tables": [
+                {
+                  "rows": 8,
+                  "columns": 2,
+                  "required_px": 308,
+                  "available_px": 440
+                }
+              ],
+              "rendered_cells": 18,
+              "all_text_within_frame": true,
+              "cells": [
+                {
+                  "text": "Eslovenia",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 93,
+                  "right": 153.9169921875
+                },
+                {
+                  "text": "Mónaco",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 93,
+                  "right": 143.0205078125
+                },
+                {
+                  "text": "Ecuador",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 93,
+                  "right": 146.482421875
+                },
+                {
+                  "text": "Afganistán",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 92,
+                  "right": 159.3720703125
+                },
+                {
+                  "text": "Gambia",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 93,
+                  "right": 142.234375
+                },
+                {
+                  "text": "Perú",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 93,
+                  "right": 122.7861328125
+                },
+                {
+                  "text": "Bulgaria",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 93,
+                  "right": 144.5791015625
+                },
+                {
+                  "text": "Senegal",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 93,
+                  "right": 144.390625
+                },
+                {
+                  "text": "País",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 93,
+                  "right": 123.5146484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "Propuesta / en discusión (2050)",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 306.0882568359375,
+                  "right": 504.1009521484375
+                },
+                {
+                  "text": "Propuesta / en discusión (2030)",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 306.0882568359375,
+                  "right": 504.1009521484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En ley (2050)",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 306.0882568359375,
+                  "right": 389.6947021484375
+                },
+                {
+                  "text": "En documento de política (2030)",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "Situación del compromiso (fuente)",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 306.0882568359375,
+                  "right": 533.7005615234375
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sha256": "a2c6d8cd01d4588debbb1535f70451f4ce8dc80ff0befcba28345a9690e379b3",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": []
+    },
+    {
+      "path": "materiales_actualizados/Environment/presentacion/Material.html",
+      "mode": "subpath",
+      "category": "material",
+      "status": "passed",
+      "metrics": {
+        "images": 12,
+        "math": {
+          "version": "3.2.2",
+          "expressions": 0,
+          "svg": 0,
+          "errors": 0,
+          "mathml": 0
+        },
+        "slides": 34,
+        "navigation": true,
+        "scrollable_slides": 12,
+        "iframe_sources": [
+          "../../../recursos_esenciales/graficas/pm25_mundo.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_comparacion.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_trayectorias.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_ingreso.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_por_persona.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_total.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_paises.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_regiones.html?embed=1",
+          "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+          "../../../recursos_esenciales/graficas/londres_delhi_particulas.html?embed=1"
+        ],
+        "embedded_tables": [
+          {
+            "src": "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+            "frame_height": "650",
+            "metrics": {
+              "width": 980,
+              "height": 650,
+              "tables": [
+                {
+                  "rows": 8,
+                  "columns": 2,
+                  "required_px": 308,
+                  "available_px": 440
+                }
+              ],
+              "rendered_cells": 18,
+              "all_text_within_frame": true,
+              "cells": [
+                {
+                  "text": "Eslovenia",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 93,
+                  "right": 153.9169921875
+                },
+                {
+                  "text": "Mónaco",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 93,
+                  "right": 143.0205078125
+                },
+                {
+                  "text": "Ecuador",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 93,
+                  "right": 146.482421875
+                },
+                {
+                  "text": "Afganistán",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 92,
+                  "right": 159.3720703125
+                },
+                {
+                  "text": "Gambia",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 93,
+                  "right": 142.234375
+                },
+                {
+                  "text": "Perú",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 93,
+                  "right": 122.7861328125
+                },
+                {
+                  "text": "Bulgaria",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 93,
+                  "right": 144.5791015625
+                },
+                {
+                  "text": "Senegal",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 93,
+                  "right": 144.390625
+                },
+                {
+                  "text": "País",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 93,
+                  "right": 123.5146484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "Propuesta / en discusión (2050)",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 324.6176452636719,
+                  "right": 522.63037109375
+                },
+                {
+                  "text": "Propuesta / en discusión (2030)",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 324.6176452636719,
+                  "right": 522.63037109375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "En ley (2050)",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 324.6176452636719,
+                  "right": 408.2240905761719
+                },
+                {
+                  "text": "En documento de política (2030)",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 324.6176452636719,
+                  "right": 527.30615234375
+                },
+                {
+                  "text": "Situación del compromiso (fuente)",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 324.6176452636719,
+                  "right": 552.22998046875
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sha256": "d3bae3a49f9eb4e0313edc6a593129668695ec3c61f6a1fb99bf2f29f1bb387d",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": []
+    },
+    {
+      "path": "materiales_actualizados/Environment/notas/Material.html",
+      "mode": "subpath",
+      "category": "material",
+      "status": "passed",
+      "metrics": {
+        "images": 12,
+        "math": {
+          "version": "3.2.2",
+          "expressions": 0,
+          "svg": 0,
+          "errors": 0,
+          "mathml": 0
+        },
+        "slides": 0,
+        "navigation": null,
+        "scrollable_slides": 0,
+        "iframe_sources": [
+          "../../../recursos_esenciales/graficas/pm25_mundo.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_comparacion.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_trayectorias.html?embed=1",
+          "../../../recursos_esenciales/graficas/pm25_ingreso.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_por_persona.html?embed=1",
+          "../../../recursos_esenciales/graficas/co2_total.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_paises.html?embed=1",
+          "../../../recursos_esenciales/graficas/so2_regiones.html?embed=1",
+          "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+          "../../../recursos_esenciales/graficas/londres_delhi_particulas.html?embed=1"
+        ],
+        "embedded_tables": [
+          {
+            "src": "../../../recursos_esenciales/graficas/metas_neto_cero.html?embed=1",
+            "frame_height": "650",
+            "metrics": {
+              "width": 910,
+              "height": 650,
+              "tables": [
+                {
+                  "rows": 8,
+                  "columns": 2,
+                  "required_px": 308,
+                  "available_px": 440
+                }
+              ],
+              "rendered_cells": 18,
+              "all_text_within_frame": true,
+              "cells": [
+                {
+                  "text": "Eslovenia",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 93,
+                  "right": 153.9169921875
+                },
+                {
+                  "text": "Mónaco",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 93,
+                  "right": 143.0205078125
+                },
+                {
+                  "text": "Ecuador",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 93,
+                  "right": 146.482421875
+                },
+                {
+                  "text": "Afganistán",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 92,
+                  "right": 159.3720703125
+                },
+                {
+                  "text": "Gambia",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 93,
+                  "right": 142.234375
+                },
+                {
+                  "text": "Perú",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 93,
+                  "right": 122.7861328125
+                },
+                {
+                  "text": "Bulgaria",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 93,
+                  "right": 144.5791015625
+                },
+                {
+                  "text": "Senegal",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 93,
+                  "right": 144.390625
+                },
+                {
+                  "text": "País",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 93,
+                  "right": 123.5146484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 111.5,
+                  "bottom": 127.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 145.5,
+                  "bottom": 161.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "Propuesta / en discusión (2050)",
+                  "top": 179.5,
+                  "bottom": 195.5,
+                  "left": 306.0882568359375,
+                  "right": 504.1009521484375
+                },
+                {
+                  "text": "Propuesta / en discusión (2030)",
+                  "top": 213.5,
+                  "bottom": 229.5,
+                  "left": 306.0882568359375,
+                  "right": 504.1009521484375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 247.5,
+                  "bottom": 263.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En documento de política (2050)",
+                  "top": 281.5,
+                  "bottom": 297.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "En ley (2050)",
+                  "top": 315.5,
+                  "bottom": 331.5,
+                  "left": 306.0882568359375,
+                  "right": 389.6947021484375
+                },
+                {
+                  "text": "En documento de política (2030)",
+                  "top": 349.5,
+                  "bottom": 365.5,
+                  "left": 306.0882568359375,
+                  "right": 508.7767333984375
+                },
+                {
+                  "text": "Situación del compromiso (fuente)",
+                  "top": 75.25,
+                  "bottom": 92.25,
+                  "left": 306.0882568359375,
+                  "right": 533.7005615234375
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sha256": "a2c6d8cd01d4588debbb1535f70451f4ce8dc80ff0befcba28345a9690e379b3",
+      "javascript_errors": [],
+      "failed_requests": [],
+      "remote_requests": []
+    }
+  ],
+  "embed650": [
+    {
+      "mode": "file",
+      "viewport_height": 650,
+      "status": "passed",
+      "metrics": {
+        "width": 900,
+        "height": 650,
+        "tables": [
+          {
+            "rows": 8,
+            "columns": 2,
+            "required_px": 308,
+            "available_px": 440
+          }
+        ],
+        "rendered_cells": 18,
+        "all_text_within_frame": true,
+        "cells": [
+          {
+            "text": "Eslovenia",
+            "top": 111.5,
+            "bottom": 127.5,
+            "left": 93,
+            "right": 153.9169921875
+          },
+          {
+            "text": "Mónaco",
+            "top": 145.5,
+            "bottom": 161.5,
+            "left": 93,
+            "right": 143.0205078125
+          },
+          {
+            "text": "Ecuador",
+            "top": 179.5,
+            "bottom": 195.5,
+            "left": 93,
+            "right": 146.482421875
+          },
+          {
+            "text": "Afganistán",
+            "top": 213.5,
+            "bottom": 229.5,
+            "left": 92,
+            "right": 159.3720703125
+          },
+          {
+            "text": "Gambia",
+            "top": 247.5,
+            "bottom": 263.5,
+            "left": 93,
+            "right": 142.234375
+          },
+          {
+            "text": "Perú",
+            "top": 281.5,
+            "bottom": 297.5,
+            "left": 93,
+            "right": 122.7861328125
+          },
+          {
+            "text": "Bulgaria",
+            "top": 315.5,
+            "bottom": 331.5,
+            "left": 93,
+            "right": 144.5791015625
+          },
+          {
+            "text": "Senegal",
+            "top": 349.5,
+            "bottom": 365.5,
+            "left": 93,
+            "right": 144.390625
+          },
+          {
+            "text": "País",
+            "top": 75.25,
+            "bottom": 92.25,
+            "left": 93,
+            "right": 123.5146484375
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 111.5,
+            "bottom": 127.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 145.5,
+            "bottom": 161.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "Propuesta / en discusión (2050)",
+            "top": 179.5,
+            "bottom": 195.5,
+            "left": 303.441162109375,
+            "right": 501.453857421875
+          },
+          {
+            "text": "Propuesta / en discusión (2030)",
+            "top": 213.5,
+            "bottom": 229.5,
+            "left": 303.441162109375,
+            "right": 501.453857421875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 247.5,
+            "bottom": 263.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 281.5,
+            "bottom": 297.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En ley (2050)",
+            "top": 315.5,
+            "bottom": 331.5,
+            "left": 303.441162109375,
+            "right": 387.047607421875
+          },
+          {
+            "text": "En documento de política (2030)",
+            "top": 349.5,
+            "bottom": 365.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "Situación del compromiso (fuente)",
+            "top": 75.25,
+            "bottom": 92.25,
+            "left": 303.441162109375,
+            "right": 531.053466796875
+          }
+        ]
+      }
+    },
+    {
+      "mode": "subpath",
+      "viewport_height": 650,
+      "status": "passed",
+      "metrics": {
+        "width": 900,
+        "height": 650,
+        "tables": [
+          {
+            "rows": 8,
+            "columns": 2,
+            "required_px": 308,
+            "available_px": 440
+          }
+        ],
+        "rendered_cells": 18,
+        "all_text_within_frame": true,
+        "cells": [
+          {
+            "text": "Eslovenia",
+            "top": 111.5,
+            "bottom": 127.5,
+            "left": 93,
+            "right": 153.9169921875
+          },
+          {
+            "text": "Mónaco",
+            "top": 145.5,
+            "bottom": 161.5,
+            "left": 93,
+            "right": 143.0205078125
+          },
+          {
+            "text": "Ecuador",
+            "top": 179.5,
+            "bottom": 195.5,
+            "left": 93,
+            "right": 146.482421875
+          },
+          {
+            "text": "Afganistán",
+            "top": 213.5,
+            "bottom": 229.5,
+            "left": 92,
+            "right": 159.3720703125
+          },
+          {
+            "text": "Gambia",
+            "top": 247.5,
+            "bottom": 263.5,
+            "left": 93,
+            "right": 142.234375
+          },
+          {
+            "text": "Perú",
+            "top": 281.5,
+            "bottom": 297.5,
+            "left": 93,
+            "right": 122.7861328125
+          },
+          {
+            "text": "Bulgaria",
+            "top": 315.5,
+            "bottom": 331.5,
+            "left": 93,
+            "right": 144.5791015625
+          },
+          {
+            "text": "Senegal",
+            "top": 349.5,
+            "bottom": 365.5,
+            "left": 93,
+            "right": 144.390625
+          },
+          {
+            "text": "País",
+            "top": 75.25,
+            "bottom": 92.25,
+            "left": 93,
+            "right": 123.5146484375
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 111.5,
+            "bottom": 127.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 145.5,
+            "bottom": 161.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "Propuesta / en discusión (2050)",
+            "top": 179.5,
+            "bottom": 195.5,
+            "left": 303.441162109375,
+            "right": 501.453857421875
+          },
+          {
+            "text": "Propuesta / en discusión (2030)",
+            "top": 213.5,
+            "bottom": 229.5,
+            "left": 303.441162109375,
+            "right": 501.453857421875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 247.5,
+            "bottom": 263.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En documento de política (2050)",
+            "top": 281.5,
+            "bottom": 297.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "En ley (2050)",
+            "top": 315.5,
+            "bottom": 331.5,
+            "left": 303.441162109375,
+            "right": 387.047607421875
+          },
+          {
+            "text": "En documento de política (2030)",
+            "top": 349.5,
+            "bottom": 365.5,
+            "left": 303.441162109375,
+            "right": 506.129638671875
+          },
+          {
+            "text": "Situación del compromiso (fuente)",
+            "top": 75.25,
+            "bottom": 92.25,
+            "left": 303.441162109375,
+            "right": 531.053466796875
+          }
+        ]
+      }
+    }
+  ],
+  "negative390": [
+    {
+      "mode": "file",
+      "height": 390,
+      "clipping_detected": true,
+      "reason": "Filas de tabla recortadas por el marco o su ventana SVG: {\"width\": 900, \"height\": 390, \"tables\": [{\"rows\": 8, \"columns\": 2, \"required_px\": 308, \"available_px\": 180}], \"rendered_cells\": 18, \"all_text_within_frame\": true, \"cells\": [{\"text\": \"Eslovenia\", \"top\": 111.5, \"bottom\": 127.5, \"left\": 93, \"right\": 153.9169921875}, {\"text\": \"M\\u00f3naco\", \"top\": 145.5, \"bottom\": 161.5, \"left\": 93, \"right\": 143.0205078125}, {\"text\": \"Ecuador\", \"top\": 179.5, \"bottom\": 195.5, \"left\": 93, \"right\": 146.482421875}, {\"text\": \"Afganist\\u00e1n\", \"top\": 213.5, \"bottom\": 229.5, \"left\": 92, \"right\": 159.3720703125}, {\"text\": \"Gambia\", \"top\": 247.5, \"bottom\": 263.5, \"left\": 93, \"right\": 142.234375}, {\"text\": \"Per\\u00fa\", \"top\": 281.5, \"bottom\": 297.5, \"left\": 93, \"right\": 122.7861328125}, {\"text\": \"Bulgaria\", \"top\": 315.5, \"bottom\": 331.5, \"left\": 93, \"right\": 144.5791015625}, {\"text\": \"Senegal\", \"top\": 349.5, \"bottom\": 365.5, \"left\": 93, \"right\": 144.390625}, {\"text\": \"Pa\\u00eds\", \"top\": 75.25, \"bottom\": 92.25, \"left\": 93, \"right\": 123.5146484375}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 111.5, \"bottom\": 127.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 145.5, \"bottom\": 161.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"Propuesta / en discusi\\u00f3n (2050)\", \"top\": 179.5, \"bottom\": 195.5, \"left\": 303.441162109375, \"right\": 501.453857421875}, {\"text\": \"Propuesta / en discusi\\u00f3n (2030)\", \"top\": 213.5, \"bottom\": 229.5, \"left\": 303.441162109375, \"right\": 501.453857421875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 247.5, \"bottom\": 263.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 281.5, \"bottom\": 297.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En ley (2050)\", \"top\": 315.5, \"bottom\": 331.5, \"left\": 303.441162109375, \"right\": 387.047607421875}, {\"text\": \"En documento de pol\\u00edtica (2030)\", \"top\": 349.5, \"bottom\": 365.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"Situaci\\u00f3n del compromiso (fuente)\", \"top\": 75.25, \"bottom\": 92.25, \"left\": 303.441162109375, \"right\": 531.053466796875}]}"
+    },
+    {
+      "mode": "subpath",
+      "height": 390,
+      "clipping_detected": true,
+      "reason": "Filas de tabla recortadas por el marco o su ventana SVG: {\"width\": 900, \"height\": 390, \"tables\": [{\"rows\": 8, \"columns\": 2, \"required_px\": 308, \"available_px\": 180}], \"rendered_cells\": 18, \"all_text_within_frame\": true, \"cells\": [{\"text\": \"Eslovenia\", \"top\": 111.5, \"bottom\": 127.5, \"left\": 93, \"right\": 153.9169921875}, {\"text\": \"M\\u00f3naco\", \"top\": 145.5, \"bottom\": 161.5, \"left\": 93, \"right\": 143.0205078125}, {\"text\": \"Ecuador\", \"top\": 179.5, \"bottom\": 195.5, \"left\": 93, \"right\": 146.482421875}, {\"text\": \"Afganist\\u00e1n\", \"top\": 213.5, \"bottom\": 229.5, \"left\": 92, \"right\": 159.3720703125}, {\"text\": \"Gambia\", \"top\": 247.5, \"bottom\": 263.5, \"left\": 93, \"right\": 142.234375}, {\"text\": \"Per\\u00fa\", \"top\": 281.5, \"bottom\": 297.5, \"left\": 93, \"right\": 122.7861328125}, {\"text\": \"Bulgaria\", \"top\": 315.5, \"bottom\": 331.5, \"left\": 93, \"right\": 144.5791015625}, {\"text\": \"Senegal\", \"top\": 349.5, \"bottom\": 365.5, \"left\": 93, \"right\": 144.390625}, {\"text\": \"Pa\\u00eds\", \"top\": 75.25, \"bottom\": 92.25, \"left\": 93, \"right\": 123.5146484375}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 111.5, \"bottom\": 127.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 145.5, \"bottom\": 161.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"Propuesta / en discusi\\u00f3n (2050)\", \"top\": 179.5, \"bottom\": 195.5, \"left\": 303.441162109375, \"right\": 501.453857421875}, {\"text\": \"Propuesta / en discusi\\u00f3n (2030)\", \"top\": 213.5, \"bottom\": 229.5, \"left\": 303.441162109375, \"right\": 501.453857421875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 247.5, \"bottom\": 263.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En documento de pol\\u00edtica (2050)\", \"top\": 281.5, \"bottom\": 297.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"En ley (2050)\", \"top\": 315.5, \"bottom\": 331.5, \"left\": 303.441162109375, \"right\": 387.047607421875}, {\"text\": \"En documento de pol\\u00edtica (2030)\", \"top\": 349.5, \"bottom\": 365.5, \"left\": 303.441162109375, \"right\": 506.129638671875}, {\"text\": \"Situaci\\u00f3n del compromiso (fuente)\", \"top\": 75.25, \"bottom\": 92.25, \"left\": 303.441162109375, \"right\": 531.053466796875}]}"
+    }
+  ],
+  "production_fix": "Regla especifica para iframe metas_neto_cero: height650px,min-height650px,max-heightnone,border0. La regla supera los510px de ioslides; viewport interno650px.",
+  "styles_sha256": {
+    "Clases_Crecimiento_Economico/curso.css": "1efd674dc407ebd71ff2f72a713455d81e6f511922e2a48cd5e76f36a51c365f",
+    "materiales_actualizados/Environment/notas/curso.css": "1efd674dc407ebd71ff2f72a713455d81e6f511922e2a48cd5e76f36a51c365f",
+    "materiales_actualizados/Environment/presentacion/curso.css": "1efd674dc407ebd71ff2f72a713455d81e6f511922e2a48cd5e76f36a51c365f"
+  },
+  "previous_report_sha256": "8f8f9a5b9336e7704d37359ffc89e467c7d4891a1a8d80e1da25623874266bac",
+  "all_other_html_unchanged": true
+}

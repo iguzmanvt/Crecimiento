@@ -121,7 +121,7 @@ slide:not(.current) .plotly.html-widget{
 </article></slide><slide class=""><hgroup><h2>Tipos de pensiones</h2></hgroup><article  id="tipos-de-pensiones" class="smaller ">
 
 <ul>
-<li><p><strong>¿Qué son las pensiones?</strong>: son un pago entregado de manera regular por un gobierno o empresa a una persona de un fondo de inversión a la que la persona (o su patrón) contribuyó durante sus años laborales.</p></li>
+<li><p><strong>¿Qué son las pensiones?</strong>: son pagos regulares durante el retiro. Pueden financiarse con contribuciones de trabajadores activos, recursos presupuestarios o activos acumulados; la definición no presupone una cuenta de inversión individual.</p></li>
 <li><p><strong>Dos tipos de plan de pensiones:</strong></p></li>
 <li><p>Contribuciones Definidas:</p>
 
@@ -422,7 +422,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Cada trabajador está dotado de una unidad de un bien único</p></li>
 <li><p>Mercados de capitales perfectos</p></li>
 <li><p>Consumo en edad laboral de cada integrante de la generación t: \(c_t=1-b_t^{k}-b_t^{p}\)</p></li>
-<li><p>Sin costos de transacción, los pagos de pensiones para la misma generación a la edad de retirarse son: \(z^{p}_{t+1}=Gb^{p}_{t+1}\) y \(z^{k}_{t+1}=Rb^{k}_{t+1}\)</p></li>
+<li><p>Sin costos de transacción, los pagos de pensiones para la misma generación a la edad de retirarse son: \(z^{p}_{t+1}=Gb^{p}_{t+1}\) y \(z^{k}_{t+1}=Rb^{k}_{t}\)</p></li>
 </ul></li>
 </ul>
 
@@ -462,7 +462,7 @@ slide:not(.current) .plotly.html-widget{
 
 <ul>
 <li><p>Operó como un esquema PAYG.</p></li>
-<li><p>Pensión mínima garantizada tras 10 años de contribuciones.</p></li>
+<li><p>La Ley de 1973 requiere un mínimo de 500 semanas reconocidas, además de los requisitos de edad, baja y conservación de derechos. <a href='https://www.imss.gob.mx/pensiones/preguntas-frecuentes/quien-puede-solicitar-pension-de-vejez' title=''>IMSS, pensión de vejez</a>.</p></li>
 <li><p>Aportaciones del 8.5% de los salarios.</p></li>
 <li><p>Las reservas actuariales eran utilizadas para financiar otros rubros de la seguridad social, principalmente la salud (estructura demográfica y entorno macroeconómico lo permitían).</p></li>
 </ul></li>
@@ -480,7 +480,7 @@ slide:not(.current) .plotly.html-widget{
 
 <ul>
 <li><p>La base se calculaba cómo un porcentaje del salario promedio de los últimos 5 años trabajados.</p></li>
-<li><p>Se añade una fracción por cada año adicional de contribuciones después del mínimo (10 años).</p></li>
+<li><p>Se añaden incrementos por cotizaciones reconocidas posteriores a las primeras 500 semanas, según las reglas del esquema.</p></li>
 <li><p>A mayores salarios , el porcentaje se reduce (efecto redistributivo).</p></li>
 <li><p>Para compensar la erosión del valor real de las pensiones, estas se indexaron al salario mínimo en 1989.</p></li>
 </ul></li>
@@ -493,9 +493,9 @@ slide:not(.current) .plotly.html-widget{
 <li><p><strong>Pensiones inadecuadas:</strong></p>
 
 <ul>
-<li><p>Trabajadores con alta rotación perdían derecho a una pensión (no acumulaban 10 años seguidos de contribuciones).</p></li>
-<li><p>Existían incentivos para contribuir únicamente el mínimo de 10 años, ya que la mayor parte de una pensión estaba asegurada por ese periodo de contribuciones.</p></li>
-<li><p>Existían incentivos para sub-reportar ingresos para recibir una pensión mayor. De esta manera trabajadores con ingresos altos recibían la misma pensión que aquellos con ingresos bajos.</p></li>
+<li><p>Trabajadores con alta rotación perdían derecho a una pensión (no reunían las semanas reconocidas requeridas o no conservaban vigentes sus derechos).</p></li>
+<li><p>El requisito mínimo de 500 semanas y la pensión mínima podían afectar los incentivos a cotizar. La pensión individual también depende de los requisitos de edad, derechos y de su fórmula de cálculo.</p></li>
+<li><p>El subregistro salarial reduce las contribuciones y altera la base de cálculo de la pensión. Su interacción con la pensión mínima debe analizarse sin suponer que declarar un menor salario eleva automáticamente la pensión.</p></li>
 </ul></li>
 </ul>
 
@@ -544,8 +544,8 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Administrado por fondos privados (AFORE) e invertidos por SIEFORES.</p></li>
 <li><p>Contribuciones tripartitas (trabajador, empleador, gobierno).</p></li>
 </ul></li>
-<li><p>Pensión mínima garantizada después de 25 años de contribuciones.</p></li>
-<li><p>El total de contribuciones para el retiro, ahora representa alrededor del 13.5% del salario del trabajador promedio.</p></li>
+<li><p>En el diseño original de 1997, el requisito era de 1,250 semanas de cotización. Este parámetro es histórico: fue modificado por la reforma de 2020.</p></li>
+<li><p>La referencia histórica al 13.5% depende de los conceptos incluidos y del salario considerado; no debe usarse como una tasa uniforme de aportación al retiro ni como parámetro vigente.</p></li>
 <li><p>El fondo administrado por el INFONAVIT se mantiene de forma separada.</p></li>
 <li><p>Se crea un órgano regulador (CONSAR).</p></li>
 </ul>
@@ -622,7 +622,7 @@ slide:not(.current) .plotly.html-widget{
 <strong>&ldquo;Modelo para el sistema de pensiones en México: diagnóstico y recomendaciones&rdquo; (BBVA; 2014)</strong></span></p>
 
 <ul>
-<li>Nuevo saldo = (Saldo anterior x tasa de interés) + Nueva aportación</li>
+<li>Nuevo saldo = Saldo anterior × (1 + tasa de rendimiento neta) + Nueva aportación. Se supone que la aportación se realiza al final del periodo.</li>
 </ul>
 
 <p><img src="Material_files/figure-html/unnamed-chunk-19-1.png" width="672" style="display: block; margin: auto;" /></p>
@@ -802,14 +802,13 @@ slide:not(.current) .plotly.html-widget{
 </slides>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+<!-- CRECIMIENTO_MATHJAX_LOCAL_BEGIN -->
+<script id="crecimiento-mathjax-config">
+window.MathJax = {"tex": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"], ["$$", "$$"]], "processEscapes": true}, "svg": {"fontCache": "local"}, "options": {"enableMenu": false}};
 </script>
+<script id="MathJax-script" defer src="../../../vendor/mathjax/es5/tex-svg-full.js"></script>
+<style id="crecimiento-mathjax-style">mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}</style>
+<!-- CRECIMIENTO_MATHJAX_LOCAL_END -->
 
 <!-- map slide visiblity events into shiny -->
 <script>

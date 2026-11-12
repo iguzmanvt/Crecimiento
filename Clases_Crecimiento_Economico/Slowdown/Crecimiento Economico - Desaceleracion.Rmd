@@ -558,7 +558,7 @@ grid.arrange(Slowdown_UK_Output_Adjusted, Slowdown_UK_Capital_Growth, ncol = 2)
 
 <span style="color:blue">**"Challenges to mismeasurement explanations for the US productivity slowdown" (Chad Syverson; 2017)**</span> 
 
-- Si la desaceleración de la productividad medida no hubiera ocurrido, el PIB medido en 2015 sería, conservadoramente, 2.7 trillones (15%) más alto de lo que fue.
+- Si la desaceleración de la productividad medida no hubiera ocurrido, el PIB medido en 2015 sería, conservadoramente, 2.7 billones (millones de millones) (15%) más alto de lo que fue.
 
 ## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición
 
@@ -598,7 +598,7 @@ grid.raster(Slowdown_Labor_Productivity_Change, interpolate=FALSE)
 
 - Realiza cuatro análisis dispares, cada uno de los cuales ofrece desafíos empíricos a la "hipótesis de la mala medición". 
 
-    -    Las estimaciones de la literatura de investigación existente sobre el excedente creado por las tecnologías digitales vinculadas a Internet están muy por debajo de los 2.7 trillones o más de "producción perdida" como resultado de la desaceleración del crecimiento de la productividad. El más grande, a cierta distancia, es menos de un tercio del PIB supuestamente mal medido. 
+    -    Las estimaciones de la literatura de investigación existente sobre el excedente creado por las tecnologías digitales vinculadas a Internet están muy por debajo de los 2.7 billones (millones de millones) o más de "producción perdida" como resultado de la desaceleración del crecimiento de la productividad. El más grande, a cierta distancia, es menos de un tercio del PIB supuestamente mal medido.
 
     -    Si los problemas de medición tuvieran en cuenta incluso una parte modesta de este producto perdido, las tasas de crecimiento de la producción y la productividad adecuadamente medidas de las industrias que producen y prestan servicios a las TIC tendrían que haber sido múltiplos de su crecimiento medido en los datos. 
 
@@ -608,11 +608,11 @@ grid.raster(Slowdown_Labor_Productivity_Change, interpolate=FALSE)
 
 - Estimación del excedente de tecnologías ligadas a internet
 
-    -    Greenstein y McDevitt(2009): $17-26 billones de dólares en 2015
-    -    Dutz, Orzag, Willing(2009): $96 billones de dólares en 2015
-    -    Rosston, Savage y Waldam(2010): $54-73 billones de dólares en 2015
-    -    Nevo, Turner y Williams (2015):$132 billones de dólares en 2015
-    -    Goolsbee y Klenow(2006): tiempo empleado en el uso: 3% del ingreso es excedente de consumidor, en el agregado $995 billones de dólares en 2015
+    -    Greenstein y McDevitt(2009): $17–26 mil millones de dólares en 2015
+    -    Dutz, Orzag, Willing(2009): $96 mil millones de dólares en 2015
+    -    Rosston, Savage y Waldam(2010): $54–73 mil millones de dólares en 2015
+    -    Nevo, Turner y Williams (2015):$132 mil millones de dólares en 2015
+    -    Goolsbee y Klenow(2006): tiempo empleado en el uso: 3% del ingreso es excedente de consumidor, en el agregado $995 mil millones de dólares en 2015
     -    Sectores más implicados en falta de medición (mismeasurement): Productos informáticos y electrónicos; Sector completo de información(telecomunicaciones,etc)
 
 ## Teoría sobre la desaceleración: No contemplar cambio tecnológico en la medición

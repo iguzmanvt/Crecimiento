@@ -25,21 +25,19 @@ opts_chunk$set(echo = TRUE)
 
 ## Datos sobre el uso de energía
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/primary-energy-cons?tab=chart&country=USA~CHN~IND~KOR~GBR~JPN~MEX~DEU">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/energia_total.html?embed=1" title="Uso total de energía" loading="lazy"></iframe>
 
 ## Datos sobre el uso de energía
+
+-  Las dos primeras vistas usan el indicador abierto del Banco Mundial de energía antes de transformación, 1990–2023: kilogramos equivalentes de petróleo por persona y total calculado en millones de toneladas equivalentes de petróleo. Se cambia la fuente, la unidad y el periodo respecto del enlace histórico.
 
 -  En términos per cápita, las cosas se ven diferente. 
 
--  En particular, para países más ricos como Estados Unidos, Reino Unido o Japón, el uso de energía per cápita comenzó a caer en las últimas décadas. 
+-  Comparar las trayectorias por habitante permite distinguir los cambios de uso de energía de los cambios de población. El periodo y la cobertura de cada país aparecen en la vista local.
 
 ## Datos sobre el uso de energía
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/per-capita-energy-use?tab=chart&country=CHN~IND~JPN~GBR~USA~KOR~OWID_WRL~MEX~DEU">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/energia_por_persona.html?embed=1" title="Uso de energía por persona" loading="lazy"></iframe>
 
 ## Datos sobre el uso de energía
 
@@ -47,13 +45,11 @@ opts_chunk$set(echo = TRUE)
 
 ## Datos sobre el uso de energía
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita?yScale=log&time=1990..2015">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/energia_ingreso.html?embed=1" title="Energía e ingreso por habitante" loading="lazy"></iframe>
 
 ## Datos sobre el uso de energía
 
--  La relación entre reservas y producción aumentó, lo que indica que los descubrimientos de reservas de combustibles fósiles aumentaban más rápido que el uso de energía.
+-  La relación entre reservas y producción aumentó en el periodo de la figura. El cambio puede reflejar descubrimientos, reclasificación económica de reservas o cambios en la extracción; esa razón no identifica por sí sola nuevos descubrimientos.
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -100,24 +96,20 @@ grid.raster(Energy_Energy_Expenditure, interpolate=FALSE)
 
 ## Demografía y población
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=CHN~USA+%28blacks%29~USA+%28whites%29~MEX~FRA~JPN~England+and+Wales">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/natalidad.html?embed=1" title="Tasa bruta de natalidad" loading="lazy"></iframe>
 
-</iframe>
-
-## Demografía y población
-
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/children-per-woman-un?tab=chart&time=1950..latest&country=OWID_WRL~BGD~NGA~GHA~DEU~IND~GBR~USA~CHN~KOR~JPN">
-
-</iframe>
+La tasa bruta de natalidad se expresa por cada mil habitantes. Estados Unidos se muestra como total nacional; el desglose racial del enlace histórico no forma parte de esta adaptación.
 
 ## Demografía y población
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita">
-
-</iframe>
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/fecundidad.html?embed=1" title="Tasa global de fecundidad" loading="lazy"></iframe>
 
 ## Demografía y población
 
-<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita">
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/fecundidad_ingreso.html?embed=1" title="Fecundidad e ingreso por habitante" loading="lazy"></iframe>
 
-</iframe>
+## Demografía y población
+
+<iframe width="100%" height="390" frameborder="0" scrolling="no" src="../../recursos_esenciales/graficas/longevidad_ingreso.html?embed=1" title="Esperanza de vida e ingreso por habitante" loading="lazy"></iframe>
+
+<!-- RECURSOS_ESENCIALES_20261112 -->

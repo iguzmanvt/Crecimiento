@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "type": "bar",
+      "orientation": "h",
+      "x": [
+        6.9680448,
+        8.81223,
+        9.46283,
+        11.451939,
+        16.60996,
+        21.894024,
+        31.991575,
+        54.052223,
+        65.740616
+      ],
+      "y": [
+        "Estados Unidos",
+        "Alemania",
+        "Reino Unido",
+        "Japón",
+        "México",
+        "Corea del Sur",
+        "China",
+        "India",
+        "Nigeria"
+      ],
+      "marker": {
+        "color": "#1368a4"
+      },
+      "hovertemplate": "%{y}: %{x:.2f} µg/m³<extra></extra>"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Exposición a PM2.5 en países seleccionados",
+      "x": 0.03,
+      "xanchor": "left",
+      "font": {
+        "size": 21
+      }
+    },
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 14,
+      "color": "#253746"
+    },
+    "paper_bgcolor": "white",
+    "plot_bgcolor": "white",
+    "colorway": [
+      "#1368a4",
+      "#cb4b16",
+      "#21825e",
+      "#774da0",
+      "#b57d10",
+      "#199a9b",
+      "#b53c69",
+      "#596572",
+      "#8c652f",
+      "#6b8e23",
+      "#d46b4e",
+      "#6172b8"
+    ],
+    "margin": {
+      "l": 90,
+      "r": 30,
+      "t": 88,
+      "b": 200
+    },
+    "height": 620,
+    "autosize": true,
+    "xaxis": {
+      "title": {
+        "text": "PM2.5: exposición media anual (µg/m³)"
+      },
+      "type": "linear",
+      "gridcolor": "#e5e9ec",
+      "zeroline": false
+    },
+    "yaxis": {
+      "title": {
+        "text": ""
+      },
+      "gridcolor": "#e5e9ec",
+      "zeroline": false,
+      "automargin": true
+    },
+    "legend": {
+      "orientation": "h",
+      "y": -0.22,
+      "x": 0,
+      "font": {
+        "size": 12
+      }
+    },
+    "annotations": [
+      {
+        "xref": "paper",
+        "yref": "paper",
+        "x": 0,
+        "y": 1.075,
+        "text": "2023; selección docente",
+        "showarrow": false,
+        "xanchor": "left",
+        "font": {
+          "size": 13,
+          "color": "#556575"
+        }
+      },
+      {
+        "xref": "paper",
+        "yref": "paper",
+        "x": 0,
+        "y": -0.4,
+        "text": "Fuente: Banco Mundial, WDI (2026) / OWID · insumos 2026-11-12",
+        "showarrow": false,
+        "xanchor": "left",
+        "font": {
+          "size": 10,
+          "color": "#556575"
+        }
+      }
+    ],
+    "hovermode": "closest"
+  }
+}

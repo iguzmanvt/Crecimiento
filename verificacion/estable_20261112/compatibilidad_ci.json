@@ -1,0 +1,12 @@
+{
+  "initial_commit": "37b835c43a2e3385b7c2069961052ace4ef0b171",
+  "initial_run_id": 43281875061,
+  "initial_run_conclusion": "failure",
+  "failed_step": "Instalar navegador de comprobación",
+  "cause": "Playwright1.58.0 no soporta Ubuntu26.04 seleccionado por ubuntu-latest",
+  "structural_checks_linux": "passed",
+  "numeric_recalculations_linux": "passed",
+  "numeric_difference_old40": 2.220446049250313e-16,
+  "correction": "Fijar ubuntu-24.04 para verificación y publicación; conservar la versión de Playwright comprobada en Windows.",
+  "effective_result": "Consultar la ejecución posterior del workflow en GitHub Actions."
+}

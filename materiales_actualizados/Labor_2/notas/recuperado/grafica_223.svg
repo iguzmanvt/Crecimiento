@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+<title id="title">Tasa de crecimiento poblacional</title>
+<desc id="desc">United States of America. 58 observaciones de 1950 a 2007. Valores decimales originales recuperados. Rango vertical de 0 a 0.02.</desc>
+<rect width="960" height="440" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#243447">
+<text x="90" y="29" font-size="23">Tasa de crecimiento poblacional</text>
+<line x1="90" x2="915" y1="370.000000" y2="370.000000" stroke="#e0e5eb"/>
+<text x="74" y="375.000000" font-size="14" text-anchor="end">0</text>
+<line x1="90" x2="915" y1="292.500000" y2="292.500000" stroke="#e0e5eb"/>
+<text x="74" y="297.500000" font-size="14" text-anchor="end">0.005</text>
+<line x1="90" x2="915" y1="215.000000" y2="215.000000" stroke="#e0e5eb"/>
+<text x="74" y="220.000000" font-size="14" text-anchor="end">0.01</text>
+<line x1="90" x2="915" y1="137.500000" y2="137.500000" stroke="#e0e5eb"/>
+<text x="74" y="142.500000" font-size="14" text-anchor="end">0.015</text>
+<line x1="90" x2="915" y1="60.000000" y2="60.000000" stroke="#e0e5eb"/>
+<text x="74" y="65.000000" font-size="14" text-anchor="end">0.02</text>
+<text x="134.990931" y="395" font-size="14" text-anchor="middle">1950</text>
+<text x="263.941482" y="395" font-size="14" text-anchor="middle">1960</text>
+<text x="392.892032" y="395" font-size="14" text-anchor="middle">1970</text>
+<text x="521.842583" y="395" font-size="14" text-anchor="middle">1980</text>
+<text x="650.793133" y="395" font-size="14" text-anchor="middle">1990</text>
+<text x="779.743684" y="395" font-size="14" text-anchor="middle">2000</text>
+<text x="908.694234" y="395" font-size="14" text-anchor="middle">2010</text>
+<text x="500" y="426" text-anchor="middle" font-size="16">Año</text>
+<text x="24" y="220" text-anchor="middle" font-size="16" transform="rotate(-90 24 220)">Tasa de crecimiento a 10 años</text>
+<polyline id="serie-usa" points="134.990931,106.500000 147.885986,91.000000 160.781041,106.500000 173.676096,122.000000 186.571151,122.000000 199.466206,122.000000 212.361261,137.500000 225.256316,153.000000 238.151371,168.500000 251.046427,168.500000 263.941482,168.500000 276.836537,199.500000 289.731592,199.500000 302.626647,199.500000 315.521702,215.000000 328.416757,215.000000 341.311812,215.000000 354.206867,215.000000 367.101922,215.000000 379.996977,215.000000 392.892032,230.500000 405.787087,215.000000 418.682142,215.000000 431.577197,215.000000 444.472252,230.500000 457.367307,230.500000 470.262362,230.500000 483.157417,230.500000 496.052472,230.500000 508.947528,230.500000 521.842583,230.500000 534.737638,230.500000 547.632693,230.500000 560.527748,230.500000 573.422803,215.000000 586.317858,215.000000 599.212913,215.000000 612.107968,199.500000 625.003023,199.500000 637.898078,199.500000 650.793133,199.500000 663.688188,199.500000 676.583243,199.500000 689.478298,199.500000 702.373353,199.500000 715.268408,199.500000 728.163463,199.500000 741.058518,215.000000 753.953573,230.500000 766.848629,230.500000 779.743684,230.500000 792.638739,230.500000 805.533794,230.500000 818.428849,246.000000 831.323904,246.000000 844.218959,246.000000 857.114014,246.000000 870.009069,261.500000" stroke="#c092a8" stroke-width="2" fill="none"/>
+<circle class="observation" cx="134.990931" cy="106.500000" r="3" fill="#c092a8" data-year="1950" data-value="0.017"><title>1950 · 0.017</title></circle>
+<circle class="observation" cx="147.885986" cy="91.000000" r="3" fill="#c092a8" data-year="1951" data-value="0.0180000000000001"><title>1951 · 0.0180000000000001</title></circle>
+<circle class="observation" cx="160.781041" cy="106.500000" r="3" fill="#c092a8" data-year="1952" data-value="0.017"><title>1952 · 0.017</title></circle>
+<circle class="observation" cx="173.676096" cy="122.000000" r="3" fill="#c092a8" data-year="1953" data-value="0.016"><title>1953 · 0.016</title></circle>
+<circle class="observation" cx="186.571151" cy="122.000000" r="3" fill="#c092a8" data-year="1954" data-value="0.016"><title>1954 · 0.016</title></circle>
+<circle class="observation" cx="199.466206" cy="122.000000" r="3" fill="#c092a8" data-year="1955" data-value="0.016"><title>1955 · 0.016</title></circle>
+<circle class="observation" cx="212.361261" cy="137.500000" r="3" fill="#c092a8" data-year="1956" data-value="0.0149999999999999"><title>1956 · 0.0149999999999999</title></circle>
+<circle class="observation" cx="225.256316" cy="153.000000" r="3" fill="#c092a8" data-year="1957" data-value="0.014"><title>1957 · 0.014</title></circle>
+<circle class="observation" cx="238.151371" cy="168.500000" r="3" fill="#c092a8" data-year="1958" data-value="0.013"><title>1958 · 0.013</title></circle>
+<circle class="observation" cx="251.046427" cy="168.500000" r="3" fill="#c092a8" data-year="1959" data-value="0.013"><title>1959 · 0.013</title></circle>
+<circle class="observation" cx="263.941482" cy="168.500000" r="3" fill="#c092a8" data-year="1960" data-value="0.013"><title>1960 · 0.013</title></circle>
+<circle class="observation" cx="276.836537" cy="199.500000" r="3" fill="#c092a8" data-year="1961" data-value="0.0109999999999999"><title>1961 · 0.0109999999999999</title></circle>
+<circle class="observation" cx="289.731592" cy="199.500000" r="3" fill="#c092a8" data-year="1962" data-value="0.011"><title>1962 · 0.011</title></circle>
+<circle class="observation" cx="302.626647" cy="199.500000" r="3" fill="#c092a8" data-year="1963" data-value="0.011"><title>1963 · 0.011</title></circle>
+<circle class="observation" cx="315.521702" cy="215.000000" r="3" fill="#c092a8" data-year="1964" data-value="0.00999999999999996"><title>1964 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="328.416757" cy="215.000000" r="3" fill="#c092a8" data-year="1965" data-value="0.00999999999999996"><title>1965 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="341.311812" cy="215.000000" r="3" fill="#c092a8" data-year="1966" data-value="0.0100000000000001"><title>1966 · 0.0100000000000001</title></circle>
+<circle class="observation" cx="354.206867" cy="215.000000" r="3" fill="#c092a8" data-year="1967" data-value="0.0100000000000001"><title>1967 · 0.0100000000000001</title></circle>
+<circle class="observation" cx="367.101922" cy="215.000000" r="3" fill="#c092a8" data-year="1968" data-value="0.00999999999999996"><title>1968 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="379.996977" cy="215.000000" r="3" fill="#c092a8" data-year="1969" data-value="0.00999999999999996"><title>1969 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="392.892032" cy="230.500000" r="3" fill="#c092a8" data-year="1970" data-value="0.00900000000000007"><title>1970 · 0.00900000000000007</title></circle>
+<circle class="observation" cx="405.787087" cy="215.000000" r="3" fill="#c092a8" data-year="1971" data-value="0.0100000000000001"><title>1971 · 0.0100000000000001</title></circle>
+<circle class="observation" cx="418.682142" cy="215.000000" r="3" fill="#c092a8" data-year="1972" data-value="0.00999999999999996"><title>1972 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="431.577197" cy="215.000000" r="3" fill="#c092a8" data-year="1973" data-value="0.00999999999999996"><title>1973 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="444.472252" cy="230.500000" r="3" fill="#c092a8" data-year="1974" data-value="0.00899999999999999"><title>1974 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="457.367307" cy="230.500000" r="3" fill="#c092a8" data-year="1975" data-value="0.00900000000000007"><title>1975 · 0.00900000000000007</title></circle>
+<circle class="observation" cx="470.262362" cy="230.500000" r="3" fill="#c092a8" data-year="1976" data-value="0.00899999999999999"><title>1976 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="483.157417" cy="230.500000" r="3" fill="#c092a8" data-year="1977" data-value="0.00899999999999999"><title>1977 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="496.052472" cy="230.500000" r="3" fill="#c092a8" data-year="1978" data-value="0.00899999999999999"><title>1978 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="508.947528" cy="230.500000" r="3" fill="#c092a8" data-year="1979" data-value="0.00899999999999999"><title>1979 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="521.842583" cy="230.500000" r="3" fill="#c092a8" data-year="1980" data-value="0.00899999999999999"><title>1980 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="534.737638" cy="230.500000" r="3" fill="#c092a8" data-year="1981" data-value="0.00899999999999999"><title>1981 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="547.632693" cy="230.500000" r="3" fill="#c092a8" data-year="1982" data-value="0.00899999999999999"><title>1982 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="560.527748" cy="230.500000" r="3" fill="#c092a8" data-year="1983" data-value="0.00899999999999999"><title>1983 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="573.422803" cy="215.000000" r="3" fill="#c092a8" data-year="1984" data-value="0.0100000000000001"><title>1984 · 0.0100000000000001</title></circle>
+<circle class="observation" cx="586.317858" cy="215.000000" r="3" fill="#c092a8" data-year="1985" data-value="0.00999999999999996"><title>1985 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="599.212913" cy="215.000000" r="3" fill="#c092a8" data-year="1986" data-value="0.00999999999999996"><title>1986 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="612.107968" cy="199.500000" r="3" fill="#c092a8" data-year="1987" data-value="0.011"><title>1987 · 0.011</title></circle>
+<circle class="observation" cx="625.003023" cy="199.500000" r="3" fill="#c092a8" data-year="1988" data-value="0.011"><title>1988 · 0.011</title></circle>
+<circle class="observation" cx="637.898078" cy="199.500000" r="3" fill="#c092a8" data-year="1989" data-value="0.011"><title>1989 · 0.011</title></circle>
+<circle class="observation" cx="650.793133" cy="199.500000" r="3" fill="#c092a8" data-year="1990" data-value="0.0109999999999999"><title>1990 · 0.0109999999999999</title></circle>
+<circle class="observation" cx="663.688188" cy="199.500000" r="3" fill="#c092a8" data-year="1991" data-value="0.011"><title>1991 · 0.011</title></circle>
+<circle class="observation" cx="676.583243" cy="199.500000" r="3" fill="#c092a8" data-year="1992" data-value="0.011"><title>1992 · 0.011</title></circle>
+<circle class="observation" cx="689.478298" cy="199.500000" r="3" fill="#c092a8" data-year="1993" data-value="0.011"><title>1993 · 0.011</title></circle>
+<circle class="observation" cx="702.373353" cy="199.500000" r="3" fill="#c092a8" data-year="1994" data-value="0.0109999999999999"><title>1994 · 0.0109999999999999</title></circle>
+<circle class="observation" cx="715.268408" cy="199.500000" r="3" fill="#c092a8" data-year="1995" data-value="0.011"><title>1995 · 0.011</title></circle>
+<circle class="observation" cx="728.163463" cy="199.500000" r="3" fill="#c092a8" data-year="1996" data-value="0.011"><title>1996 · 0.011</title></circle>
+<circle class="observation" cx="741.058518" cy="215.000000" r="3" fill="#c092a8" data-year="1997" data-value="0.00999999999999996"><title>1997 · 0.00999999999999996</title></circle>
+<circle class="observation" cx="753.953573" cy="230.500000" r="3" fill="#c092a8" data-year="1998" data-value="0.00899999999999999"><title>1998 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="766.848629" cy="230.500000" r="3" fill="#c092a8" data-year="1999" data-value="0.00899999999999999"><title>1999 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="779.743684" cy="230.500000" r="3" fill="#c092a8" data-year="2000" data-value="0.00900000000000007"><title>2000 · 0.00900000000000007</title></circle>
+<circle class="observation" cx="792.638739" cy="230.500000" r="3" fill="#c092a8" data-year="2001" data-value="0.00899999999999999"><title>2001 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="805.533794" cy="230.500000" r="3" fill="#c092a8" data-year="2002" data-value="0.00899999999999999"><title>2002 · 0.00899999999999999</title></circle>
+<circle class="observation" cx="818.428849" cy="246.000000" r="3" fill="#c092a8" data-year="2003" data-value="0.00800000000000001"><title>2003 · 0.00800000000000001</title></circle>
+<circle class="observation" cx="831.323904" cy="246.000000" r="3" fill="#c092a8" data-year="2004" data-value="0.00800000000000001"><title>2004 · 0.00800000000000001</title></circle>
+<circle class="observation" cx="844.218959" cy="246.000000" r="3" fill="#c092a8" data-year="2005" data-value="0.00799999999999992"><title>2005 · 0.00799999999999992</title></circle>
+<circle class="observation" cx="857.114014" cy="246.000000" r="3" fill="#c092a8" data-year="2006" data-value="0.00800000000000001"><title>2006 · 0.00800000000000001</title></circle>
+<circle class="observation" cx="870.009069" cy="261.500000" r="3" fill="#c092a8" data-year="2007" data-value="0.00700000000000003"><title>2007 · 0.00700000000000003</title></circle>
+</g>
+</svg>

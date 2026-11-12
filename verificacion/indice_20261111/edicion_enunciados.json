@@ -1,0 +1,215 @@
+{
+  "count": 8,
+  "entries": [
+    {
+      "id": "T1",
+      "title": "Medición, PWT, convergencia y series de tiempo",
+      "source_name": "Tarea 1.Rmd",
+      "source_sha256": "d72e60d5f9c7fc4378916b1e4b46897b70ca10e447f607770e4f7e6a803f18bb",
+      "public_file": "material_consulta/tareas/Tarea_1.md",
+      "changes": [
+        {
+          "kind": "metadata",
+          "old": "`rgdpe` (PIB real a precios nacionales de 2017)",
+          "new": "`rgdpe` (PIB real por el lado del gasto a PPA encadenadas, en millones de US$ de 2017)",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "method",
+          "section": "3",
+          "reason": "Corregir crecimiento medio de niveles, frecuencia anual, límites de ventana e índice de cambios absolutos; retirar una cifra histórica no comprobada."
+        }
+      ],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T2",
+      "title": "México: modelo de Solow y contabilidad del crecimiento",
+      "source_name": "Tarea 2.Rmd",
+      "source_sha256": "92d66f334ffc75ef5e45f3ec0a121a8df6fb17551e409423d308943f8c760fba",
+      "public_file": "material_consulta/tareas/Tarea_2.md",
+      "changes": [
+        {
+          "kind": "metadata",
+          "old": "`rgdpe` (PIB a precios nacionales de 2019)",
+          "new": "`rgdpe` (PIB real por el lado del gasto a PPA encadenadas, en millones de US$ de 2017)",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "metadata",
+          "old": "`rgdpe` como el PIB a precios nacionales de 2019",
+          "new": "`rgdpe` como el PIB real por el lado del gasto a PPA encadenadas, en millones de US$ de 2017",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "metadata",
+          "old": "`cn` como el acervo de capital",
+          "new": "`cn` como el acervo de capital a PPA corrientes, en millones de US$ de 2017",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "metadata",
+          "old": "`labsh` como la participación de la productividad laboral ajustada con el capital humano en el PIB",
+          "new": "`labsh` como la participación de la remuneración laboral en el PIB a precios nacionales corrientes",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "metadata",
+          "old": "`1-labsh` como la participación del capital en el PIB",
+          "new": "`1-labsh` como la participación no laboral del PIB, usada en este ejercicio como aproximación a la participación del capital",
+          "evidence": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx, hoja Legend"
+        },
+        {
+          "kind": "method",
+          "section": "1.1",
+          "reason": "Usar rgdpna/rnna constantes2017, alfa fijo y contribuciones ponderadas coherentes con tecnología aumentadora del trabajo. Explicitar el tramo final de nueve años y los límites del residuo."
+        }
+      ],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T3",
+      "title": "Complejidad económica y asignación de recursos en México",
+      "source_name": "Tarea 3_P2023.Rmd",
+      "source_sha256": "e73e6cde4088312a23477feb1412cabce00752cfe6ff79e14dabbd4225f4a521",
+      "public_file": "material_consulta/tareas/Tarea_3.md",
+      "changes": [],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T4",
+      "title": "Regresión a la media, Cambodia y optimización dinámica",
+      "source_name": "Tarea 4_P2023.Rmd",
+      "source_sha256": "0a71160bcc3725777a02fdd9b9aa98e52e7becf6d09965e8b4579d7ecee74de7",
+      "public_file": "material_consulta/tareas/Tarea_4.md",
+      "changes": [],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T5",
+      "title": "Gasto público, tasas de interés y modelo de Lucas",
+      "source_name": "Tarea-5.html",
+      "source_sha256": "ad7d2d7da48af21dbcfec03d58cff27ac723a4022f689b28f414938610aa4b1a",
+      "public_file": "material_consulta/tareas/Tarea_5.md",
+      "changes": [
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(\\dot\nk_t=f(k_t)-c_t-\\gamma-(\\delta+g_a+n)k_t\\)</span>",
+          "new": "<span class=\"math inline\">\\(\\dot k_t=f(k_t)-c_t-\\gamma-(\\delta+g_A+n)k_t\\)</span>",
+          "reason": "Unificar g_a y g_A para el mismo crecimiento de tecnología en la parte Ramsey."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(\\displaystyle \\lim_{t \\to \\infty}\nk_t e^{\\left[\\int_{0}^{s} [(f^\\prime (k_s)-\\delta) -g_a-n] \\;\nds\\right]}\\)</span>",
+          "new": "<span class=\"math inline\">\\(\\displaystyle \\lim_{t\\to\\infty} k_t\\exp\\left\\{-\\int_0^t\\left[f^\\prime(k_s)-\\delta-g_A-n\\right]\\,ds\\right\\}=0\\)</span>",
+          "reason": "La TVC usa descuento con signo negativo, integra hasta t y debe incluir igualdad a cero."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(U=\\int_0^T u(c_t)\ne^{-(\\rho-g_L)t}dt\\)</span>",
+          "new": "<span class=\"math inline\">\\(U=\\int_0^\\infty u(c_t) e^{-(\\rho-g_L)t}dt\\)</span>",
+          "reason": "Hacer consistente el límite superior con el horizonte infinito descrito."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(c(u_t)=\\frac{c_t^{1-\\theta}}{1-\\theta}\\)</span>",
+          "new": "<span class=\"math inline\">\\(u(c_t)=\\frac{c_t^{1-\\theta}}{1-\\theta}\\)</span>",
+          "reason": "u(c_t) es utilidad del consumo; u_t es la proporción de trabajo y no su argumento."
+        },
+        {
+          "kind": "text",
+          "old": "que es la proporción de personas que\ntrabajan en este sector.",
+          "new": "que es la fracción del trabajo destinada a producir bienes y servicios; la fracción <span class=\"math inline\">\\(1-u_t\\)</span> se dedica a formar capital humano.",
+          "reason": "La producción depende de u_t h_t y la acumulación de B(1-u_t)h_t; la descripción original invertía los sectores."
+        },
+        {
+          "kind": "text",
+          "old": "como el hamiltoneano (precio\nsombra en un modelo continuo) de la primera restricción",
+          "new": "como la variable de coestado de valor presente asociada a la primera restricción",
+          "reason": "Una variable de coestado no es el Hamiltoniano; se declara valor presente para conservar las CPO escritas."
+        },
+        {
+          "kind": "text",
+          "old": "Plantee el Hamiltoneano.",
+          "new": "Plantee el Hamiltoniano de valor presente. Suponga una solución interior, con <span class=\"math inline\">\\(c_t&gt;0\\)</span> y <span class=\"math inline\">\\(0&lt;u_t&lt;1\\)</span>, y defina <span class=\"math inline\">\\(r_t=\\partial F/\\partial k_t\\)</span> como el producto marginal bruto del capital, donde <span class=\"math inline\">\\(F=A k_t^\\alpha(u_t h_t)^{1-\\alpha}\\)</span>.",
+          "reason": "Las ecuaciones de Euler dadas son coherentes con coestados de valor presente y r_t bruto."
+        }
+      ],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T6",
+      "title": "Innovación, ideas y productividad",
+      "source_name": "Tarea-6.html",
+      "source_sha256": "66a08b282d359eb1a2cfa2ace928060ba97f85abec06c7f2a887dfa7993c06a0",
+      "public_file": "material_consulta/tareas/Tarea_6.md",
+      "changes": [],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T7",
+      "title": "Propiedad intelectual y retornos sociales a la innovación",
+      "source_name": "Tarea-7.html",
+      "source_sha256": "68d66e991f5711ca3df53316fb10f91de82d6173c0ab16d82c31feb8e7adbd15",
+      "public_file": "material_consulta/tareas/Tarea_7.md",
+      "changes": [
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(V_I=y+y\\frac{(1tg)}{(1+r)}+y\\frac{(1tg)^2}{(1+r)^2}+y\\frac{(1tg)^3}{(1+r)^3}+...\\)</span>",
+          "new": "<span class=\"math inline\">\\(V_I=y+y\\frac{(1+g)}{(1+r)}+y\\frac{(1+g)^2}{(1+r)^2}+y\\frac{(1+g)^3}{(1+r)^3}+...\\)</span>",
+          "reason": "Corregir los factores de crecimiento mal transcritos como 1tg/itg."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(\\frac{(1tg)}{(1+r)}\\)</span>",
+          "new": "<span class=\"math inline\">\\(\\frac{(1+g)}{(1+r)}\\)</span>",
+          "reason": "Corregir los factores de crecimiento mal transcritos como 1tg/itg."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(V_I=y+\\frac{(1tg)}{(1+r)}[y+y\\frac{(1tg)^2}{(1+r)^2}+y\\frac{(1tg)^3}{(1+r)^3}+...]\\)</span>",
+          "new": "<span class=\"math inline\">\\(V_I=y+\\frac{1+g}{1+r}\\left[y+y\\frac{1+g}{1+r}+y\\frac{(1+g)^2}{(1+r)^2}+\\cdots\\right]\\)</span>",
+          "reason": "Corregir los factores de crecimiento mal transcritos como 1tg/itg. Tras extraer q=(1+g)/(1+r), el corchete vuelve a ser V_I con potencias 0,1,2,...; no 0,2,3,..."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(V_N=y+y\\frac{1}{(1+r)}+y\\frac{(itg)}{(1+r)^2}+y\\frac{(itg)^2}{(1+r)^3}+...\\)</span>",
+          "new": "<span class=\"math inline\">\\(V_N=y+y\\frac{1}{(1+r)}+y\\frac{(1+g)}{(1+r)^2}+y\\frac{(1+g)^2}{(1+r)^3}+...\\)</span>",
+          "reason": "Corregir los factores de crecimiento mal transcritos como 1tg/itg."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(V_{CI}=sV\\)</span>",
+          "new": "<span class=\"math inline\">\\(V_{CI}=sV_I\\)</span>",
+          "reason": "El valor presente del costo en la economía innovadora es s V_I; V no estaba definido."
+        },
+        {
+          "kind": "math_span",
+          "old": "<span class=\"math inline\">\\(V_{CN}=0+sy\\frac{1}{(1+r)}+sy\\frac{(itg)}{(1+r)^2}+sy\\frac{(itg)^2}{(1+r)^3}+...\\)</span>",
+          "new": "<span class=\"math inline\">\\(V_{CN}=0+sy\\frac{1}{(1+r)}+sy\\frac{(1+g)}{(1+r)^2}+sy\\frac{(1+g)^2}{(1+r)^3}+...\\)</span>",
+          "reason": "Corregir los factores de crecimiento mal transcritos como 1tg/itg."
+        }
+      ],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    },
+    {
+      "id": "T5_variante",
+      "title": "Financiamiento, educación y cambio tecnológico en el mercado laboral",
+      "source_name": "Tarea 5_.Rmd",
+      "source_sha256": null,
+      "public_file": "material_consulta/tareas/Tarea_5_variante.md",
+      "changes": [],
+      "source_contains_student_submission": false,
+      "hidden_setup_excluded": true
+    }
+  ],
+  "known_sensitive_values_checked_without_disclosure": 2,
+  "math_review": "Sustituciones exactas y comprobación algebraica de consistencia; no soluciones completas de las tareas."
+}

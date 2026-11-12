@@ -1,5 +1,9 @@
 # Competencia y modelo schumpeteriano
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Competition/notas/Material.html) · [Presentación](../../materiales_actualizados/Competition/presentacion/Material.html) · [Material de consulta](../../material_consulta/Competition.md).
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

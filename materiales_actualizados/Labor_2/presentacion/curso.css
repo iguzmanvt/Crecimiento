@@ -1,0 +1,5 @@
+/* Ajuste local de lectura; no sustituye un air.css recuperado. */
+iframe { max-width: 100%; }
+slides > slide { overflow-y: auto; overflow-x: hidden; }
+slides > slide img { max-width: 100%; height: auto; }
+slides > slide pre { max-width: 100%; box-sizing: border-box; white-space: pre-wrap; overflow-wrap: anywhere; }

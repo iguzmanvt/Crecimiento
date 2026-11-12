@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crecimiento Económico</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Crecimiento Económico',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <script src="Material_files/header-attrs-2.28/header-attrs.js"></script>
+  <link href="Material_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="Material_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    details > summary > p:only-child {
+      display: inline;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
+
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            
+  </style>
+
+  <link rel="stylesheet" href="curso.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Crecimiento Económico </h2><h3> Temas de convergencia y políticas públicas para el crecimiento</h3></hgroup><article  id="crecimiento-económico-temas-de-convergencia-y-políticas-públicas-para-el-crecimiento" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“Good Economics for bad times” (Banerjee – Duflo; 2019):</strong></span></p>
+
+<ul>
+<li><strong>Una serie de implicaciones se derivan de la teoría de Solow.</strong></li>
+</ul>
+
+<ol>
+<li><p><strong>Es probable que el crecimiento se desacelere después de una fase de rápido crecimiento</strong> (que sigue a una transformación dramática) una vez que la economía vuelva a la Senda de Crecimiento Balanceado (BGP) – Europa después de 1973.</p></li>
+<li><p>Los países con capital escaso y mano de obra relativamente abundante, como la mayoría de los países en desarrollo, <strong>crecerán más rápido porque aún no han alcanzado su camino al BGP</strong>- todavía pueden crecer mejorando el equilibrio entre su trabajo y capital… Esperaríamos que la diferencia en el PIB por trabajador entre países se reduzca con el tiempo… poniéndose al día con sus homólogos más ricos.</p>
+
+<ul>
+<li><p>Si el capital es muy escaso, no se puede estimar la convergencia – países antes del siglo XIX.</p></li>
+<li><p>Correlación entre PIB per cápita inicial y final es 0 - predice la convergencia condicional.</p></li>
+</ul></li>
+<li><p><strong>Existen diferencias de crecimiento hacia distintos BGP</strong> debido a las dinámicas de transición. Una vez que la economía alcanza el BGP, la tasa de crecimiento del PIB per cápita entre los países relativamente ricos puede no ser muy diferente.</p></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-1" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“Good Economics for bad times” (Banerjee – Duflo; 2019):</strong></span></p>
+
+<ul>
+<li><p><strong>4 . Las políticas públicas no influenciarán fácilmente el ingreso de las economías que están en el BGP.</strong></p>
+
+<ul>
+<li><p><strong>Solow se pregunta qué impulsa la actualización tecnológica en países desarrollados, que ya están a la vanguardia tecnológica.</strong> Presumiblemente, el flujo de nuevas ideas es una gran parte del crecimiento para estos países, y no está claro por qué las ideas deberían detenerse en la frontera de posibilidades de innovación.</p></li>
+<li><p>Solow está hablando sobre el crecimiento después de que los países lleguen al BGP. Aunque esto podría haber sucedido para algunos de los países más ricos, probablemente esté muy lejos para aquellos donde el capital aún es escaso.</p></li>
+<li><p>Los países que se encuentran en el camino hacia el BGP en realidad podrían estar actualizando sus tecnologías más rápido que los que ya están en el BGP.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-2" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“The classical approach to convergence analysis” (Sala i Martin, 1996):</strong></span></p>
+
+<ul>
+<li><p>En la literatura de crecimiento, hay 2 tipos de convergencia. Son:</p>
+
+<ul>
+<li><p><strong>Convergencia β</strong>: este tipo de convergencia se produce si la tasa de crecimiento del PIB per cápita se relaciona negativamente con el nivel inicial del PIB per cápita. Es decir, la convergencia β se define cuando los países pobres crecen más rápido que los países ricos.</p></li>
+<li><p><strong>Convergencia σ</strong>: este tipo de convergencia se produce si la variación del PIB per cápita entre países se reduce. Esto significa que la brecha en el PIB per cápita de ricos a pobres se reduce.</p></li>
+</ul></li>
+<li><p><strong>¿La convergencia β debería implicar la convergencia σ?</strong></p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-3" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“The classical approach to convergence analysis” (Sala i Martin, 1996):</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-4" class="smaller ">
+
+<ul>
+<li><p><strong>Conclusiones:</strong></p>
+
+<ul>
+<li>No existe convergencia incondicional.</li>
+</ul></li>
+<li><p><strong>Para la OCDE:</strong></p>
+
+<ul>
+<li>Existe evidencia de convergencia β con un estimado de 2% por año</li>
+<li>Existe evidencia de convergencia σ pero esta se detuvo alrededor de 1970</li>
+</ul></li>
+<li><p>Para el subconjunto de países desarrollados, existen los dos tipos de convergencia.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-5" class="smaller ">
+
+<p><img src="Material_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia condicional: dos posiciones</h2></hgroup><article  id="convergencia-condicional-dos-posiciones" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“What Remains of Cross-Country Convergence?” (Johnson, Papageorgious (JP); 2018; IMF):</strong></span></p>
+
+<ul>
+<li><p>Analizan el historial de crecimiento entre países en los últimos 50 años, examinando <strong>si los países en desarrollo han cerrado la brecha de ingreso per cápita con los de las economías desarrolladas. Concluyen que, como grupo, no lo han hecho.</strong></p></li>
+<li><p>Examinan la literatura sobre convergencia absoluta, con un énfasis particular en la última década. Con excepciones, <strong>la literatura apoya la conclusión de la falta de progreso en el cierre de la brecha de ingresos entre países desarrollados y en desarrollo.</strong></p></li>
+</ul>
+
+<p><span style="color:blue">
+<strong>“Everything You Know about Cross-Country Convergence Is (Now) Wrong” (Patel, Sandefur, Subramanian (PSS); 2018; Center for Global Development):</strong></span></p>
+
+<ul>
+<li>Encuentran evidencia estadísticamente significativa de convergencia incondicional en el PIB per cápita en todos los países. En resumen, encuentran que los países pobres crecen más rápido que los ricos, en promedio.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia condicional: dos posiciones</h2></hgroup><article  id="convergencia-condicional-dos-posiciones-1" class="smaller ">
+
+<p><span style="color:blue">
+<strong>“What Remains of Cross-Country Convergence?” (Johnson, Papageorgious (JP); 2018; IMF):</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia condicional: dos posiciones</h2></hgroup><article  id="convergencia-condicional-dos-posiciones-2" class="smaller ">
+
+<ul>
+<li><p><strong>Comparación:</strong></p>
+
+<ul>
+<li><p>La diferencia en la publicación de PSS y el paper de JP es que PSS mira periodos de tiempo relativamente recientes. PSS analiza si los países que eran pobres en 1990 crecieron más rápido que los países ricos en 1990, de 1990 a 2014.</p></li>
+<li><p>JP analiza periodos de tiempo más largos. Ellos encuentran que no hay mucha evidencia de que los países pobres en 1960 crecieron más rápido que los países ricos en 1960.</p></li>
+<li><p>Esto no es una contradicción con el artículo de PSS porque este sólo indica que hace 25 años los países pobres comenzaron a crecer más rápido que los países ricos.</p></li>
+</ul></li>
+<li><p><strong>La implicación de este hallazgo es que los países pobres están convergiendo con el PIB per cápita de los países ricos, sin importar los por que o las causas de su pobreza o riqueza.</strong> Aunque la afirmación es defendible, no significa que se deba esperar que los países en desarrollo pronto se parezcan a Europa Occidental.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Velocidad de convergencia</strong></span></p>
+
+<ul>
+<li>Concentrémonos en la convergencia \(\beta\) (asumiendo que los shocks de convergencia σ son pequeños): la siguiente pregunta es <strong>cuánto tiempo le tomará a un país pobre cerrar la brecha con un país rico</strong>. El coeficiente de la estimación de PSS estima esto. Este es definido como la <strong>“regresión de Barro”</strong>:</li>
+</ul>
+
+<p>\(\frac{Ln (y_t) - Ln (y_0)}{t}=\alpha + \beta Ln(y_0)\)</p>
+
+<ul>
+<li><p>A la izquierda está la tasa de crecimiento del PIB per cápita, 𝑦, desde algún año inicial 0 hasta el año 𝑡. Esto está relacionado con el nivel inicial del PIB per cápita, \(𝑦_0\), en el lado derecho. La fuerza de esa relación se mide por el coeficiente \(\beta\).</p></li>
+<li><p>La convergencia \(\beta\) significa que \(\beta&lt;0\), o que la tasa de crecimiento disminuye a medida que aumenta el nivel inicial de ingresos. Qué tan grande (en valor absoluto) \(\beta\) determina qué tan fuerte es ese efecto. El parámetro extra α es una tasa de referencia.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-1" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Velocidad de convergencia</strong></span></p>
+
+<ul>
+<li>Despejando, nos queda:</li>
+</ul>
+
+<p>\(Ln (y_t)=\alpha t + (1+\beta t) Ln(y_0)\)</p>
+
+<ul>
+<li><p>que es el nivel de PIB per cápita en el tiempo \(t\), dado el PIB inicial per cápita en el tiempo 0. El término multiplicativo \(\beta t\) es el efecto de la convergencia \(\beta\) en el tiempo.</p></li>
+<li><p>Usando esto, aquí hay una pregunta que podríamos hacer. Dado que un país pobre tiene \(𝑦_0^{pobre}\), es solo el 10% del valor en un país rico, \(𝑦_0^{rico}\), ¿cuánto tiempo tomará (es decir, qué tan grande tiene que ser el coeficiente) antes de que \(𝑦_t^{pobre}\) sea el 90% del valor en el país rico, \(𝑦_t^{rico}\)? Dada la ecuación, esto sucederá en algún momento.</p></li>
+<li><p>Aún agregando los shocks mencionados anteriormente que podrían seguir separando estos dos países, la convergencia \(\beta\) eventualmente garantizará lo anterior.</p></li>
+<li><p>En este tiempo \(t\), queremos que \(\frac{𝑦_t^{pobre}}{𝑦_t^{rico}}= 0.9\)</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-2" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Velocidad de convergencia</strong></span></p>
+
+<ul>
+<li>Lo que da:</li>
+</ul>
+
+<p>\(Ln (0.9)=\alpha t + (1+\beta t) Ln(y_0^{pobre})-(\alpha t + (1+\beta t) Ln(y_0^{rico}))\) - Lo que implica que:</p>
+
+<p>\(Ln (0.9)=\alpha t + (1+\beta t) (Ln(y_0^{pobre})- Ln(y_0^{rico}))\)</p>
+
+<ul>
+<li>Establecimos 𝑦\(\frac{𝑦_0^{pobre}}{𝑦_0^{rico}}= 0.1\):</li>
+</ul>
+
+<p>\(Ln (0.9)=\alpha t + (1+\beta t) Ln (0.1)\)</p>
+
+<ul>
+<li>Lo que da:</li>
+</ul>
+
+<p>\(t=\frac{\frac{Ln (0.9)}{Ln(0.1)}-1}{\beta}\)</p>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-3" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Velocidad de convergencia</strong></span></p>
+
+<ul>
+<li>El valor estimado de convergencia incondicional es \(\beta=-0.005\), lo cual no es muy grande. Insertar eso en la ecuación anterior implica que \(t=190\), o tomará alrededor de 190 años para que un país pase del 10% del PIB per cápita de los países ricos al 90%. Esto es mucho tiempo.</li>
+</ul>
+
+<p><span style="color:blue">
+<strong>Convergencia condicional:</strong></span></p>
+
+<ul>
+<li><p>La literatura indica coeficientes de convergencia condicional de \(\beta=-0.02\). Esto significa que si observa solo grupos de países que tienen características similares (tasa de ahorro, niveles de capital humano, etc.), entonces encontrará convergencia \(\beta\) en esos grupos.</p></li>
+<li><p><strong>Pero a través de los grupos, no hay tendencia a la convergencia \(\beta\). Por ejemplo, si solo observara los países de la OCDE, vería una evidencia bastante fuerte de convergencia \(\beta\), con una estimación de \(\beta=-0.02\), aproximadamente. Y si solo observara el conjunto de países del África subsahariana, vería evidencia similar de convergencia \(\beta\).</strong></p></li>
+<li><p>Pero, no hay una tendencia a que los países africanos como grupo crezcan más rápido que los países de la OCDE. Solo que, dentro del grupo de países de la ASS, los más pobres crecen más rápido, y dentro del grupo de países de la OCDE, los más pobres crecen más rápido.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-4" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<ul>
+<li><p>Probablemente la convergencia \(\beta\) condicional o incondicional no representa algún tipo de verdad estructural sobre el crecimiento económico. Es mejor considerarlo como un resumen estadístico de la experiencia general de los países pobres en un marco de tiempo determinado.</p></li>
+<li><p>Es decir:</p>
+
+<ul>
+<li><p>Los resultados del PSS nos dicen que algo cambió alrededor de 1990, por lo que muchos países pobres crecieron más rápido que los países ricos, en comparación con el período comprendido entre 1960 y 1990. Pero no nos dice qué o por qué cambió, o si persistirá.</p></li>
+<li><p>Eso no hace que el estimado de PSS sea falso. Es un buen resultado descriptivo que nos dice que debemos pensar un poco más acerca de lo que podría haber cambiado en esos años, incluso si la implicación de la convergencia β de ese período no es tan fuerte.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-5" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<ul>
+<li><p>Cabe destacar dos hechos más.</p>
+
+<ul>
+<li>La convergencia no se trata solo de la desaceleración del crecimiento en los países ricos.</li>
+</ul></li>
+<li><p><strong>1. El análisis indica que la convergencia en el período reciente es una consecuencia de la mejora del crecimiento del PIB per cápita en los países pobres y la disminución del crecimiento en los países ricos.</strong></p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-6" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-7" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<ul>
+<li><p>Cabe destacar dos hechos más.</p></li>
+<li><p><strong>2 No hay señales de una &ldquo;trampa de ingresos medios&rdquo;.</strong></p>
+
+<ul>
+<li>Predictores para el desaceleramiento económico:</li>
+<li>Nivel de ingresos: mal predictor</li>
+<li>Crecimiento acelerado: buen predictor</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CÁLCULO DE LA CONVERGENCIA</h2></hgroup><article  id="cálculo-de-la-convergencia-8" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<ul>
+<li><p>Las reformas comerciales de México llevaron a un patrón divergente en los niveles de producción per cápita regional.</p></li>
+<li><p>Este documento incluye los patrones de crecimiento regional de México después de la promulgación de las reformas del GATT en la década de 1980 y explora qué factores pueden explicar este resultado.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-1" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-2" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-3" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-4" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-5" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-6" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-7" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-8" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Why Mexico’s regional income convergence broke down” (Chiquiar, 2005)</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Conclusiones</strong></span></p>
+
+<ul>
+<li><p>Los resultados también sugieren que los <strong>ganadores de las reformas</strong> fueron aquellos <strong>Estados capaces de atraer mayores niveles de capital humano y físico, así como mejor infraestructura</strong>.</p></li>
+<li><p>Este resultado <strong>no está peleado con el modelo de crecimiento neoclásico</strong>, ya que esta <strong>puede ser una dinámica transicional</strong> donde se da un cambio estructura, en este caso, las reformas comerciales de México.</p></li>
+<li><p>Un resultado de las reformas es que aumentó la disparidad de ingreso per cápita regional ya que en las regiones cercanas a Estados Unidos tuvieron mayores beneficios de estas reformas porque tenían mayores niveles de capital humano, industrial, comunicaciones e infraestructura que pudieron aprovechar las reformas comerciales, en comparación a los Estados del sureste.</p></li>
+<li><p><strong>La conclusión es que temas de convergencia internacional, hace más sentido hablar de regiones económicas que de países</strong>.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-9" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-10" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<p>Modelo: \((\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \delta_t + \epsilon_{i,t}\)</p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-11" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<ul>
+<li><p>En línea con la evidencia gráfica, la brecha de niveles de ingreso creció a un ritmo anual de 0.44% para el periodo analizado, reforzando la tesis de un patrón de divergencia absoluta.</p></li>
+<li><p>Esto es explicable, según el modelo, debido al comportamiento del PIB regional en los años posteriores al 2008, como se puede apreciar en la no significancia de los coeficientes de la regresión.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-12" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<ul>
+<li><p>Ahondando en la explicación de Banco de México propone que la estructura económica, la dotación de capital humano, el nivel y la calidad de la infraestructura y el grado de desarrollo institucional influyan en el crecimiento económico.</p></li>
+<li><p>Sustentando así que la divergencia regional no se explique por diferencias en factores estructurales.</p></li>
+</ul>
+
+<p><span style="color:blue">
+<strong>Convergencia condicional</strong></span></p>
+
+<p>Modelo: \((\frac{1}{t})Ln (y_{i,t})-Ln(y_{i,t-1})=\alpha + \beta Ln(y_{i,t-1}) + \gamma X_{i,t-1}+\delta_t + \epsilon_{i,t}\)</p>
+
+<ul>
+<li>Se incorpora la variable \(X_{i,t-1}\) para capturar la heterogeneidad de las entidades.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-13" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-14" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en México</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Convergencia Regional en México: 1994 - 2015” (Banco de México, 2017)</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Conclusiones</strong></span></p>
+
+<ul>
+<li><p>Las variables de control tienen el signo esperado y son estadísticamente significativas. El modelo indica que los estados con un mayor acervo de capital humano y físico, y con un mayor nivel de seguridad, tienen una mayor tasa de crecimiento del PPC.</p></li>
+<li><p>A su vez la inversión extranjera directa tiene un impacto positivo sobre la tasa de crecimiento económico de las entidades, al estimular la productividad laboral y estar vinculada a la innovación tecnológica.</p></li>
+<li><p><strong>Concluyen que hay evidencia de convergencia condicional en el PIB per cápita entre las entidades federativas de México para el periodo 1994 – 2015, si bien esta se debilitó a partir del estallido de la crisis global. En dicho periodo parece haberse interrumpido el proceso de convergencia condicional.</strong></p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-15" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<ul>
+<li><p>Moretti aborda la pregunta, ¿el lugar donde vives afecta cuánto ganas?</p></li>
+<li><p>La respuesta es un sí rotundo. La unidad de análisis más relevante es la ciudad. Puede dividir, en términos generales, tanto las ciudades como los trabajos en dos grupos.</p>
+
+<ul>
+<li><p>Los trabajos pueden ser innovadores, de alta productividad o simplemente regulares: trabajos de ingeniería de Silicon Valley contra trabajos tradicionales ya sea de alta habilidad como un abogado, o de baja habilidad como un peluquero o un trabajador de la construcción.</p></li>
+<li><p>Las ciudades también están divididas: ciudades con estos sectores de vanguardia y aquellas sin ellos.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-16" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<ul>
+<li><p>¿De dónde viene la diferencia? En general, los salarios se ven afectados por la productividad.</p></li>
+<li><p>Los sectores de vanguardia, que son los más productivos, tienen los salarios más altos. Pero hay una interacción entre la ubicación y el tipo de trabajo. Debido a que los trabajos de vanguardia tienden a agruparse en ciertas ciudades, hay muchos más tipos de profesionales con salarios altos en ellas.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-17" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-16-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-18" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<ul>
+<li><p>La gran divergencia en Estados Unidos</p></li>
+<li><p>En Estados Unidos, la divergencia se está dando derivado de un cambio estructural: de la industria manufacturera a la industria de TI.</p></li>
+<li><p>Esta última utiliza mayor proporción de trabajadores educados</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-19" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-17-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>CONVERGENCIA EN LA TRANSICIÓN</h2></hgroup><article  id="convergencia-en-la-transición-20" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Convergencia regional en Estados Unidos</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“The new geography of jobs” (Moretti, 2012)</strong></span></p>
+
+<ul>
+<li><p>La gran divergencia en Estados Unidos</p></li>
+<li><p>Este cambio impulsa un mayor salario no sólo para los trabajadores con habilidades altas en estas ciudades, sino también para los trabajadores con habilidades bajas en las ciudades señaladas.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia" class="smaller ">
+
+<ul>
+<li><p><strong>¿Cómo determinar los factores que promueven el crecimiento sostenido para los países pobres? ¿Cómo implementar políticas que aumenten o mantengan el crecimiento?</strong></p></li>
+<li><p><strong>No existe una guía confiable sobre políticas apropiadas para promover el crecimiento.</strong> Hay análisis que asocian ciertas condiciones previas de una generación anterior con el crecimiento posterior, especialmente cuando no tienen en cuenta las diferencias de experiencias y circunstancias entre países.</p></li>
+<li><p><strong>¿Qué se ha hecho?</strong> Los economistas se han enfocado en estudiar:</p>
+
+<ul>
+<li>La naturaleza de los brotes de crecimiento de los países en desarrollo.</li>
+<li>Las aceleraciones y desaceleraciones de crecimiento más sostenidas.</li>
+<li>“Diagnósticos de crecimiento” que intentan mapear los hechos y condiciones específicas de un país a las recomendaciones de políticas públicas.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-1" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos: ¿Necesarios o innecesarios (estorbosos)?</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“There is only one poverty strategy: (broad based) growth” (Pritchett, 2019)</strong></span></p>
+
+<ul>
+<li>¿Cuánto de la variación observada en las tasas de pobreza entre los países se debe a la variación en la mediana de la distribución de los gastos de consumo?</li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-18-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-2" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos: ¿Necesarios o innecesarios (estorbosos)?</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“There is only one poverty strategy: (broad based) growth” (Pritchett, 2019)</strong></span></p>
+
+<ul>
+<li><p><strong>“Casi todo”</strong>.</p></li>
+<li><p>La R cuadrada de la mediana (tratada por no linealidad) para explicar la pobreza de personal considerando las tres líneas de pobreza es:</p>
+
+<ul>
+<li>$ 5.50 por día, R cuadrada = .988, correlación (pobreza, predicción) =. 994</li>
+<li>$ 3.20 por día, R cuadrada = .988, correlación (pobreza, predicción) =. 994</li>
+<li>$ 1.90 por día, R cuadrada = .983, correlación (pobreza, predicción) = .991</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-3" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos: ¿Necesarios o innecesarios (estorbosos)?</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“There is only one poverty strategy: (broad based) growth” (Pritchett, 2019)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-19-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-4" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos: ¿Necesarios o innecesarios (estorbosos)?</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“There is only one poverty strategy: (broad based) growth” (Pritchett, 2019)</strong></span></p>
+
+<ul>
+<li><strong>“La mediana es el mensaje“:</strong> condicional a la mediana, cualquiera y todos los demás factores o variables pueden explicar como máximo el 1.2 por ciento de la variación en las tasas de pobreza de los países.</li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-20-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-5" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos: ¿Necesarios o innecesarios (estorbosos)?</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“There is only one poverty strategy: (broad based) growth” (Pritchett, 2019)</strong></span></p>
+
+<ul>
+<li><strong>“Oh, come on”:</strong> ¿Para que estudiar la pobreza si ya sabemos como abatirla?</li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-21-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-6" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Magnitud de crecimiento de los países en desarrollo</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<ul>
+<li><p>Proponen una técnica para medir la magnitud total de un episodio de crecimiento:</p>
+
+<ul>
+<li>El cambio en la producción per cápita resultante de una ruptura estructural en la tendencia de crecimiento de la producción (positiva o negativa) a la siguiente.</li>
+</ul></li>
+<li><p>La magnitud de la ganancia o pérdida de un episodio de crecimiento combina:</p>
+
+<ul>
+<li>La diferencia entre la tasa de crecimiento posterior a la ruptura contra una tasa de crecimiento contrafactual “sin interrupción“.</li>
+</ul></li>
+</ul>
+
+<p>\(Magnitud_F=Y_{t+N_{EP}}^{Actual} - Y_{t+N_{EP}}^{Contrafactual}\)</p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-7" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Magnitud de crecimiento de los países en desarrollo</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<ul>
+<li>La duración del episodio de crecimiento para estimar la diferencia en la producción per cápita al final de este en relación con lo que hubiera sido en el escenario &ldquo;sin interrupción&rdquo;.</li>
+</ul>
+
+<p>\(Magnitud_F=Y_{t+N_{EP}}^{Actual} - Y_{t+N_{EP}}^{Contrafactual}\)</p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-8" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Magnitud de crecimiento de los países en desarrollo</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<ul>
+<li>Crecimiento mundial e “incondicional” para controlar.</li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-22-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-9" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Magnitud de crecimiento de los países en desarrollo</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<ul>
+<li><p>“¿Qué pueden hacer “exactamente” los países para iniciar un episodio de crecimiento sostenido (y no revertido posteriormente)? ¿Qué pueden hacer “exactamente” los países para evitar un período de estancamiento sostenido? ¿Qué pueden hacer “exactamente” los países para evitar una depresión?</p></li>
+<li><p>No estamos respondiendo ninguna de estas preguntas aquí, mucho menos &ldquo;exactamente&rdquo;. Pero esperamos sentar las bases empíricas de la magnitud de los cambios de crecimiento y una clasificación que aclare y mida lo que se debe explicar”.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-10" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Magnitud de crecimiento de los países en desarrollo</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-23-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-11" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-24-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-12" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-25-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-13" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-26-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-14" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Trillions Gained and Lost: Estimating the Magnitude of Growth Episodes (Pritchett, Sen, Kar, Raihan; 2014)</strong></span></p>
+
+<ul>
+<li>Buscan casos de <strong>aceleración rápida (alto nivel de crecimiento y aceleración significativa)</strong> que se mantengan durante al menos ocho años. Dos resultados significativos:</li>
+</ul>
+
+<ol>
+<li><p><strong>Las aceleraciones del crecimiento son bastante frecuentes.</strong> 55% de los países han tenido al menos una aceleración en el período de 35 años entre 1957 y 1992. Sugiere que lograr un crecimiento rápido a mediano plazo no es algo que sea muy difícil y está al alcance de la mayoría de los países. Este es un antídoto útil para el pesimismo que a menudo impregna las discusiones políticas sobre el crecimiento.</p></li>
+<li><p><strong>La mayoría de las aceleraciones de crecimiento no están precedidas o acompañadas por cambios importantes en las políticas económicas, arreglos institucionales, circunstancias políticas o condiciones externas.</strong> En general, esos determinantes hacen un mal trabajo al predecir los puntos de inflexión. “Parece que las aceleraciones del crecimiento son causadas predominantemente por cambios idiosincráticos, y a menudo a pequeña escala”.</p></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-15" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>What Makes Growth Sustained? (Berg, Ostry, Zettelmeyer; 2005)</strong></span></p>
+
+<ul>
+<li><p>Los autores identifican <strong>interrupciones estructurales en el crecimiento económico en 140 países</strong> y las usan para definir &ldquo;períodos de crecimiento&rdquo;: períodos de alto crecimiento precedidos por una crisis y que terminan con una crisis o con el final de la muestra.</p></li>
+<li><p><strong>Metodología:</strong> Identifican interrupciones estructurales, definen los períodos de crecimiento y exploran los determinantes potenciales de la duración del crecimiento mediante la estimación de un modelo de riesgos proporcionales y variables económicas y políticas.</p></li>
+</ul>
+
+<p><span style="color:blue">
+- <strong>Hallazgos:</strong></span></p>
+
+<ul>
+<li><strong>Una distribución más equitativa del ingreso, una tendencia a democratizarse con el tiempo, regímenes comerciales liberales y tasas de cambio competitivas parecen sostener el crecimiento.</strong></li>
+<li>También descubren que los entornos macroeconómicos estables, con tasas de inflación más bajas y menos casos de depreciación, tienen períodos de crecimiento más largos.</li>
+<li>Sin embargo, <strong>estas asociaciones pierden importancia en presencia de las variables de conflicto social (distribución del ingreso, GINI) y shocks externos</strong>, lo que sugiere que la inestabilidad macroeconómica puede ser un síntoma de características más profundas con efectos directos sobre el crecimiento, en lugar de un factor independiente.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-16" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>What Makes Growth Sustained? (Berg, Ostry, Zettelmeyer; 2005)</strong></span></p>
+
+<ul>
+<li><p>Los autores crean un conjunto de datos con información sobre las depresiones económicas en diversos países.</p></li>
+<li><p>Definen una depresión como una disminución acumulativa del 20% o más en la producción per cápita que dura al menos tres años.</p></li>
+<li><p>Los episodios de depresión son muy comunes en la historia reciente y tienden a seguir períodos de alto crecimiento.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-17" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>What Makes Growth Sustained? (Berg, Ostry, Zettelmeyer; 2005)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-27-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-18" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Aceleraciones y desaceleraciones de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Economic Depression in the World (Breuer, McDermott; 2011)</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Hallazgos:</strong></span></p>
+
+<ul>
+<li><strong>Las depresiones económicas son muy comunes:</strong> Encuentran 121 casos de depresión en 88 países. Desde finales de los años ochenta, las depresiones se han vuelto menos comunes. Sin embargo, la Gran Recesión de 2008-2009 ha causado una nueva ola de depresión económica.</li>
+<li><strong>Factores económicos y políticos:</strong> Los episodios de crecimiento negativo están asociados con bajos ingresos, alta inflación, y una gran proporción de jóvenes desempleados. También están asociados con pobres libertades individuales, falta de democracia, un ejecutivo sin restricciones y conflictos internos. Los años pasados en la guerra civil son mucho mayores durante la depresión.</li>
+<li><strong>Factores culturales:</strong> Países con bajos niveles de confianza, en general como específicamente hacia el sistema judicial, tienen más probabilidades de experimentar depresión económica.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-19" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Growth Diagnostics (Hausmann, Rodrick, Velasco; 2004)</strong></span></p>
+
+<ul>
+<li><p>Los autores desarrollan un <strong>marco para el diagnóstico del crecimiento:</strong> una estrategia para analizar y formular políticas de crecimiento que sean tanto operativas como basadas en un sólido razonamiento económico.</p></li>
+<li><p><strong>La clave:</strong> comprender cómo las restricciones vinculantes para la actividad económica difieren de un entorno a otro. Este entendimiento se puede utilizar para derivar las prioridades políticas en consecuencia, de una manera que utilice eficientemente el escaso capital político de los reformadores.</p></li>
+<li><p><strong>Consideraciones:</strong> Las estrategias de reforma deben estar dirigidas principalmente a elevar las tasas de crecimiento, es decir, deben ser estrategias de crecimiento. Es probable que las estrategias de crecimiento difieran según las oportunidades y limitaciones internas. Es improbable que se proponga una estrategia de crecimiento idéntica para todos los países, independientemente de sus circunstancias.</p></li>
+<li><p>Las estrategias de crecimiento requieren un sentido de prioridades.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-20" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Growth Diagnostics (Hausmann, Rodrick, Velasco; 2004)</strong></span></p>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-28-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-21" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>Growth Diagnostics (Hausmann, Rodrick, Velasco; 2004)</strong></span></p>
+
+<p><span style="color:blue"><strong>Hallazgos:</strong></p>
+
+<ul>
+<li><p>Las estrategias que se centran en la <strong>movilización de recursos</strong> a través del financiamiento externo y el aumento del ahorro interno son exitosas cuando los rendimientos internos son altos y privados.</p></li>
+<li><p>Las estrategias que se centran en la <strong>liberalización del mercado y la apertura</strong> funcionan mejor cuando los beneficios sociales son altos y el obstáculo más grande para su apropiación privada son los impuestos y las restricciones impuestas por el gobierno.</p></li>
+<li><p>Las estrategias que enfatizan la <strong>política industrial</strong> son apropiadas cuando los rendimientos privados están deprimidos, no por los errores de comisión del gobierno (lo que hace), sino por sus errores de omisión (lo que no hace).</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-22" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Diagnósticos de crecimiento</strong></span></p>
+
+<p><span style="color:blue">
+<strong>“Growth slowdowns: Middle-income trap vs. regression to the mean” (Pritchett, Summers, 2014)</strong></span></p>
+
+<ul>
+<li><p><strong>Implicaciones en política pública:</strong> Etiquetar el problema de mantener el crecimiento como la “trampa de ingresos medios“ sugiere que:</p></li>
+<li><p>El <strong>riesgo de una desaceleración del crecimiento es mucho más controlable por la política de lo que realmente es.</strong></p></li>
+<li><p>Puede haber una <strong>idea equivocada de prioridades en política pública (impulsar industrias de vanguardia antes de resolver los “problemas del siglo XIX”).</strong></p></li>
+<li><p>El <strong>crecimiento acelerado supone un proceso de destrucción creativa, difícil de aplicar en economías establecidas</strong>, donde las industrias se enfocan en el funcionamiento y no en la innovación.</p></li>
+<li><p>El reto de crecimiento sostenido es para todos los países y no sólo para los países de ingresos medios.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-23" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Cálculo de efectos</strong></span></p>
+
+<ul>
+<li><p>Los países utilizan <strong>políticas públicas para mejorar el crecimiento económico</strong>, entre otros fines. Hay dos formas de impulsar el crecimiento del PIB. Ya sea:</p></li>
+<li><p>Aumentar activamente el PIB real a través del aumento del gasto en algún sector de la economía.</p>
+
+<ul>
+<li><strong>Resolviendo el problema de balance de los hogares:</strong> incrementando el ingreso nominal y el gasto nominal, manteniendo fijo las deudas (como hipotecas) generando un gasto adicional.</li>
+<li>Incrementar el salario de los trabajadores de sectores específicos, como el educativo.</li>
+</ul></li>
+<li><p>Gasto en infraestructura.</p>
+
+<ul>
+<li><strong>Aumente el PIB potencial y deje que el crecimiento transitorio se acelere.</strong></li>
+<li>El crecimiento de transición es un impulso adicional al crecimiento que se produce cuando el PIB actual está por debajo del PIB potencial.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-24" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Cálculo de efectos</strong></span></p>
+
+<ul>
+<li><p>Las políticas públicas aumentan el PIB potencial, no el PIB real, abriendo una brecha entre estos dos. ¿Por qué?</p></li>
+<li><p>Para dar una idea de lo poco que un efecto de las políticas públicas en el crecimiento, utilicemos la siguiente ecuación: \(y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]\)</p></li>
+<li><p>En donde:</p>
+
+<ul>
+<li>\(g\) es la tendencia de crecimiento de la economía.</li>
+<li>\(\lambda\) es la velocidad de convergencia (asumimos la velocidad de la literatura: 2% anual)</li>
+<li>\(y_0^*\) es el PIB potencial en el periodo 0. Para cambios de un periodo a otro:</li>
+<li>\(y_{t+1}=(1+g)^t[ y_t +\lambda (y_t^* -y_t)]\)</li>
+</ul></li>
+<li><p>Despejando:</p></li>
+</ul>
+
+<p>\(\frac{y_{t+1}-y_t}{y_t}=(1+g)[\lambda \frac{y_t^*}{y_t}+(1-\lambda)]-1\)</p>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-25" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Cálculo de efectos</strong></span></p>
+
+<ul>
+<li><p>Asumiendo:</p>
+
+<ul>
+<li>\(\lambda=2\) (por la literatura);</li>
+<li>\(g=2%\); y</li>
+<li>el PIB real en 16 trillones (para EEUU) y el PIB potencial lo suponemos en 17 trillones.</li>
+</ul></li>
+</ul>
+
+<p>\(\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{17}{16}+(1-0.02)]-1=2.13\)</p>
+
+<ul>
+<li><p>Suponiendo la aplicación de una política pública efectiva, que incremente en 1 trillón el PIB potencial, entonces la tasa de crecimiento de la economía será: \(\frac{y_{t+1}-y_t}{y_t}=(1+0.02)[0.02 \frac{18}{16}+(1-0.02)]-1=2.25\)</p></li>
+<li><p>0.12 puntos porcentuales mayor en el periodo.</p></li>
+<li><p>¿Esto es mucho o es poco?</p></li>
+<li><p>El efecto depende de la política pública, de su trascendencia y su efecto en el largo plazo.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-26" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Cálculo de efectos</strong></span></p>
+
+<ul>
+<li><p>La mayoría de las políticas públicas no tendrá un impacto directo en el PIB de un periodo a otro, pero una serie de políticas públicas en el tiempo pueden articularse en <strong>reformas estructurales consistentes en el tiempo, teniendo un impacto mayor</strong>, o abriendo la brecha entre el PIB potencial y el real.</p></li>
+<li><p>Pero ninguna reforma hará una diferencia realmente apreciable para el crecimiento económico de un año a otro.</p></li>
+<li><p>Un país puede revolucionar la educación, los impuestos corporativos, la planificación urbana o la inmigración, pero <strong>los beneficios que esos cambios inducen probablemente tardarán décadas en manifestarse</strong>.</p></li>
+<li><p>Por otro lado, un <strong>incremento en el gasto público o de los hogares</strong> aumentará el PIB real de un año a otro. No da para decisiones marginales. Esa es la única forma de aumentar considerablemente la tasa de crecimiento a corto plazo. <strong>¿Es lo deseable? No:</strong></p>
+
+<ul>
+<li>Costo de oportunidad del gasto público</li>
+<li>Distorsiones en los mercados.</li>
+<li>El efecto sólo es en un periodo.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>POLÍTICAS PÚBLICAS Y CONVERGENCIA</h2></hgroup><article  id="políticas-públicas-y-convergencia-27" class="smaller ">
+
+<p><span style="color:blue">
+<strong>Cálculo de efectos</strong></span></p>
+
+<ul>
+<li><strong>Ejemplo:</strong> Dos políticas públicas. Con los mismos supuestos para la economía de EEUU.
+
+<ul>
+<li><strong>Política A:</strong> Incremento en el gasto público de 2019 suficiente para que el PIB potencial sea igual al PIB real.</li>
+<li><strong>Política B:</strong> Política pública que incrementa permanentemente el PIB potencial en 1 trillón de dólares.</li>
+<li><strong>Política A:</strong> \(y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]\) \(y_1=(1+0.02)^t[0.02^1 (17) + (1-0.021)(17)]=17.34\)</li>
+<li><strong>Política B:</strong> \(y_t=(1+g)^t[\lambda^t y_0^* + (1-\lambda^t)y_0]\) \(y_1=(1+0.02)^t[0.02^1 (18) + (1-0.021)(16)]=16.36\)</li>
+</ul></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
+    }
+  })();
+</script>
+
+</body>
+</html>

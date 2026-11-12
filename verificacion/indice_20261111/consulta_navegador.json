@@ -1,0 +1,316 @@
+{
+  "consultation_pages_checked": 27,
+  "portal_checked": true,
+  "local_links_checked": true,
+  "narrow_layouts_checked": 2,
+  "results": [
+    {
+      "html": "material_consulta/Accounting.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Competition.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Convergence.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/EDICION_ENUNCIADOS.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Energy.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Environment.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Ideas.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/index.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Introduction.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Labor.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Labor_2.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Patents.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Pensions.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Slowdown.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Solow.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Structural_Transformation.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/index.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_1.html",
+      "mathml_expressions": 10,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_2.html",
+      "mathml_expressions": 21,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_3.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_4.html",
+      "mathml_expressions": 1,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_5.html",
+      "mathml_expressions": 40,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_5_variante.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_6.html",
+      "mathml_expressions": 1,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/tareas/Tarea_7.html",
+      "mathml_expressions": 29,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Taxes.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "material_consulta/Technological_Diffusion.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    },
+    {
+      "html": "materiales_actualizados/index.html",
+      "mathml_expressions": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_requests": []
+    }
+  ]
+}

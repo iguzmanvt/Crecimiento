@@ -1,5 +1,9 @@
 # Cambio tecnológico y sustitución laboral
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Labor/notas/Material.html) · [Presentación](../../materiales_actualizados/Labor/presentacion/Material.html) · [Material de consulta](../../material_consulta/Labor.md).
+
 Las 3 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

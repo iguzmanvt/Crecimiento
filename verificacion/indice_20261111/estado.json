@@ -1,0 +1,36 @@
+{
+  "baseline": "6d42d25830bf17db3694394cc9099b59986aa2a1",
+  "state": "verificado_localmente",
+  "topics": 16,
+  "notes": 16,
+  "presentations": 16,
+  "consultation_pages": 16,
+  "task_statements": 8,
+  "task_bank": "7 tareas históricas y una variante temática",
+  "checks": {
+    "presentations_added_browser": 10,
+    "notes_added_browser": 10,
+    "consultation_html_browser": 27,
+    "portal_rows": 16,
+    "local_consultation_links": "passed",
+    "mathml_visual_review": [
+      "Tarea_2",
+      "Tarea_5",
+      "Tarea_7"
+    ],
+    "unchanged_previous_artifacts": 985,
+    "unchanged_reconstructed_graph_artifacts": 261,
+    "rmd_sources_changed": 0
+  },
+  "evidence": [
+    "presentaciones_anadidas.json",
+    "presentaciones_navegador.json",
+    "notas_alineadas.json",
+    "notas_navegador.json",
+    "consulta_generada.json",
+    "consulta_navegador.json",
+    "edicion_enunciados.json",
+    "alcance_y_preservacion.json"
+  ],
+  "scope": "Los recursos locales añadidos se verifican desde disco. Las referencias externas y MathJax de las clases conservan sus dependencias de conexión o acceso."
+}

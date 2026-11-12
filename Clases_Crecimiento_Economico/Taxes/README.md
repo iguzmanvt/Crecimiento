@@ -1,5 +1,9 @@
 # Política fiscal y crecimiento
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Taxes/notas/Material.html) · [Presentación](../../materiales_actualizados/Taxes/presentacion/Material.html) · [Material de consulta](../../material_consulta/Taxes.md).
+
 **Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Taxes/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Taxes/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
 
 

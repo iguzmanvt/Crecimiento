@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crecimiento Económico</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Crecimiento Económico',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <script src="Introduccion_files/header-attrs-2.28/header-attrs.js"></script>
+  <link href="Introduccion_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="Introduccion_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="Introduccion_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="Introduccion_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="Introduccion_files/ioslides-13.5.1/js/slide-deck.js"></script>
+  <script src="Introduccion_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="Introduccion_files/kePrint-0.0.1/kePrint.js"></script>
+  <link href="Introduccion_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
+  <link href="Introduccion_files/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+  <script src="Introduccion_files/bsTable-3.3.7/bootstrapTable.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    details > summary > p:only-child {
+      display: inline;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
+
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            
+  </style>
+
+  <link rel="stylesheet" href="introduction.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Crecimiento Económico </h2><h3> Introducción al curso</h3></hgroup><article  id="crecimiento-económico-introducción-al-curso" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>Crecimiento Económico</h2></hgroup><article  id="crecimiento-económico" class="smaller ">
+
+<h3><strong>Agenda</strong></h3>
+
+<ul>
+<li><p><strong>Introducción al curso</strong></p>
+
+<ul>
+<li>Objetivo del curso</li>
+<li>Temario</li>
+<li>Material</li>
+<li>Calificación</li>
+<li>Reglas</li>
+</ul></li>
+<li><p><strong>Introducción al crecimiento económico</strong></p>
+
+<ul>
+<li>Medición del crecimiento económico</li>
+<li>Disparidades en el ingreso entre países</li>
+<li>Factores que potencialmente determinan el crecimiento económico</li>
+<li>Relación entre factores</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Crecimiento Económico</h2></hgroup><article  id="crecimiento-económico-1" class="smaller ">
+
+<table class=" lightable-paper lightable-striped lightable-hover lightable-striped" style="font-size: 30px; font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Tema
+
+</th>
+
+<th style="text-align:left;">
+
+Descripción
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Introducción a la teoría moderna del crecimiento económico
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Factores que propician el crecimiento económico (y el estancamiento del PIB)<br/>Patrones de convergencia<br/>Efecto de políticas en la tasa de crecimiento de largo plazo
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Desarollo de los modelos de crecimiento
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Modelos de crecimiento exógeno<br/>Modelos de crecimiento endógeno<br/>* Supuestos y fundamentos<br/>* Optimización<br/>* Transiciones al estado estacionario
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Teoría y análisis de datos
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Hechos estilizados del crecimiento<br/>Teoría neoclásica y moderna<br/>Pronósticos Tendencias Patrones de crecimiento
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Tópicos de crecimiento económico
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Factores específicos potencialmente relevantes para explicar el crecimiento económico de un país
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Primera parte del curso</h2></hgroup><article  id="primera-parte-del-curso" class="smaller ">
+
+<ul>
+<li><p>La primera parte del curso trata de desarrollar los hechos del crecimiento económico y los principales modelos para comprender esos hechos.</p></li>
+<li><p>Este marco se utilizará para analizar una serie de preguntas más específicas relacionadas con el crecimiento y su interacción con otras áreas de la economía:</p>
+
+<ul>
+<li><p>¿Somos pobres, ricos, o estamos en camino a serlo?</p></li>
+<li><p>¿Cuáles son los factores fundamentales del crecimiento económico?</p></li>
+<li><p>¿Cuáles serán las tasas de crecimiento si los factores fundamentales tienen una evolución constante y predecible?</p></li>
+<li><p>¿Qué tasas de crecimiento son alcanzables en el largo plazo?</p></li>
+<li><p>¿Qué aplicaciones tiene el análisis? - ¿Cómo impulsar el crecimiento a largo plazo (en términos de los fundamentales)?</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Primera parte del curso</h2></hgroup><article  id="primera-parte-del-curso-1" class="smaller ">
+
+<ul>
+<li><p>¿Qué preguntas NO se contestarán?:</p>
+
+<ul>
+<li><p>¿Qué tasas de crecimiento ocurrirán en el largo plazo? - En el largo plazo, el crecimiento económico es muy dificil (imposible) de pronosticar.</p></li>
+<li><p>¿Cuáles serán las trayectorias de crecimiento en el corto plazo? - No se analiza la demanda en los modelos de crecimiento económico - Hay otros modelos (con otros objetivos) para esto.</p></li>
+<li><p>¿Qué políticas específicas impulsan el crecimiento económico? - Dependen del contexto del país y es dificil aislar el efecto de políticas.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Preliminares matemáticos</h2></hgroup><article  id="preliminares-matemáticos" class="smaller ">
+
+<ul>
+<li><p>Se adjunta en comunidad una Nota sobre algunas herramientas matemáticas necesarias para estudiar el crecimiento, incluyendo lo siguiente:</p>
+
+<ul>
+<li><p>Niveles y tasas de crecimiento</p></li>
+<li><p>Logaritmos y porcentajes</p></li>
+<li><p>Logaritmos, diferencias de logaritmos y pendientes</p></li>
+<li><p>Cálculo de tasas de crecimiento</p></li>
+</ul></li>
+<li><p>Este material es sólo una referencia por si necesitan reforzar el álgebra y cálculo básico, o si no se sienten cómodos con el funcionamiento de los logaritmos y exponentes.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Medición del PIB</h2></hgroup><article  id="medición-del-pib" class="smaller ">
+
+<ul>
+<li><p>Como prerequisito del curso, es necesario saber como se mide el PIB real, el indicador clave de la actividad económica.</p></li>
+<li><p>Hay muchos problemas no triviales con la medición del PIB, y en particular con la comparación del PIB en diferentes períodos de tiempo o en diferentes países, incluyendo:</p>
+
+<ul>
+<li><p>Dos bienes y dos períodos de tiempo.</p></li>
+<li><p>Muchos bienes</p></li>
+<li><p>PIB real en el tiempo</p></li>
+<li><p>PIB real entre países</p></li>
+<li><p>PIB per cápita</p></li>
+<li><p>Estándares de vida</p></li>
+<li><p>Comparaciones con el pasado.</p></li>
+</ul></li>
+<li><p>La Nota en CANVAS sobre medición del PIB da un repaso general sobre estos temas.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Medición del PIB</h2></hgroup><article  id="medición-del-pib-1" class="smaller ">
+
+<ul>
+<li><p>Medido mediante cambios en el PIB per cápita – medible y objetivo.</p></li>
+<li><p>Es un buen proxi del nivel de actividad económica.</p></li>
+<li><p><strong>Limitaciones técnicas:</strong></p>
+
+<ul>
+<li><p>No necesariamente refleja incrementos en el nivel del estándar de vida (salarios pueden caer como proporción del PIB / crecimiento poblacional afecta al indicador).</p></li>
+<li><p>El proceso de destrucción creativa y transformaciones estructurales crea tensiones sociales (generalmente crea ganadores y perdedores).</p></li>
+<li><p>No mide toda la actividad económica.</p></li>
+<li><p>Otras: difícil de medir y actualizar.</p></li>
+</ul></li>
+<li><p><strong>Teorema de imposibilidad de Arrow:</strong> No se pueden modelar las preferencias agregadas sin violar alguno de los principios de transitividad, eficiencia o exclusión.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Medición del PIB</h2></hgroup><article  id="medición-del-pib-2" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-2-1.png" width="960" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Expectativa de vida</h2></hgroup><article  id="expectativa-de-vida" class="smaller ">
+
+<iframe width="1300" height="300" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us?time=latest">
+
+</iframe>
+
+<ul>
+<li>Los países que tienen un mayor PIB per cápita también tienden a tener una mayor esperanza de vida: los países más ricos pueden proporcionar una mejor atención médica y los países más saludables también pueden producir más bienes y servicios.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mortalidad infantil</h2></hgroup><article  id="mortalidad-infantil" class="smaller ">
+
+<iframe width="1300" height="100" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/child-mortality-gdp-per-capita">
+
+</iframe>
+
+<ul>
+<li>Un mayor PIB per cápita también se asocia con menores tasas de mortalidad, particularmente entre los niños.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Crecimiento Poblacional</h2></hgroup><article  id="crecimiento-poblacional" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita">
+
+</iframe>
+
+<ul>
+<li>A medida que los países se hacen más ricos, parecen favorecer invertir más en cada niño y menos en invertir en tener más hijos.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Población urbana</h2></hgroup><article  id="población-urbana" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/urbanization-vs-gdp">
+
+</iframe>
+
+<ul>
+<li>Los países más ricos tienden a ser más urbanos. Una parte importante de esto se debe a las innovaciones tecnológicas que permiten que cada vez menos personas satisfagan las necesidades alimentarias de la población.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Contaminación</h2></hgroup><article  id="contaminación" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp">
+
+</iframe>
+
+<ul>
+<li>A medida que los países muy pobres se hacen más ricos, ven niveles más altos de contaminación del aire. Pero a medida que los países continúan enriqueciéndose, la contaminación del aire disminuye a medida que los países exigen cielos más limpios.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Emisiones de dióxido de carbono</h2></hgroup><article  id="emisiones-de-dióxido-de-carbono" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-">
+
+</iframe>
+
+<ul>
+<li>Las emisiones de CO2 parecen aumentar con el PIB per cápita, en línea con un mayor uso de energía en los países más ricos. Por lo tanto, una de las preocupaciones que rodean el mayor PIB per cápita en es que generará aún más emisiones de CO2.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Pobreza extrema</h2></hgroup><article  id="pobreza-extrema" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita">
+
+</iframe>
+
+<ul>
+<li>Si nos centramos solo en la pobreza extrema, la proporción de personas que viven con menos de $ 1.90 por día, entonces hay una fuerte relación negativa del PIB per cápita y la pobreza.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Pobreza extrema: países / regiones con más de mil millones de habitantes</h2></hgroup><article  id="pobreza-extrema-países-regiones-con-más-de-mil-millones-de-habitantes" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&amp;time=1979..2018&amp;country=CHN~IND~Sub-Sahara+Africa">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Pobreza extrema: países / regiones con más de mil millones de habitantes</h2></hgroup><article  id="pobreza-extrema-países-regiones-con-más-de-mil-millones-de-habitantes-1" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&amp;country=CHN~IND~Sub-Saharan+Africa">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Índice de hambre global</h2></hgroup><article  id="índice-de-hambre-global" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita">
+
+</iframe>
+
+<ul>
+<li>Los países que tienen un mayor PIB per cápita tienen menos personas expuestas al hambre severa.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Obesidad</h2></hgroup><article  id="obesidad" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart">
+
+</iframe>
+
+<ul>
+<li>Los países que tienen un mayor PIB per cápita tienen menos personas expuestas al hambre severa.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Número de horas trabajadas</h2></hgroup><article  id="número-de-horas-trabajadas" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked">
+
+</iframe>
+
+<ul>
+<li>A medida que los países se han enriquecido, han traducido eso en una disminución en el número de horas que las personas trabajan por año.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento</h2></hgroup><article  id="hechos-del-crecimiento" class="smaller ">
+
+<ul>
+<li><p>Este tema contiene una serie de cifras destinadas a establecer algunos de los hechos estilizados clave sobre el crecimiento económico.</p>
+
+<ul>
+<li><p>Estilizado significa que estamos observando tendencias generales y que habrá excepciones por todas partes.</p></li>
+<li><p>Cuando comencemos a construir modelos de cómo crece la economía, vamos a verificar que nuestros modelos tengan sentido preguntándoles si pueden replicar estos hechos estilizados clave.</p></li>
+<li><p>Si no pueden, entonces probablemente hay algo mal con nuestro modelo.</p></li>
+</ul></li>
+<li><p>Estos hechos estilizados son quizás el aspecto más importante del aprendizaje del crecimiento económico.</p>
+
+<ul>
+<li>Si no comprende lo que nos dicen los datos, entonces es irrelevante lo que su teoría favorita del crecimiento económico dice que debería ser cierta.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento</h2></hgroup><article  id="hechos-del-crecimiento-1" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/150.embed">
+
+</iframe>
+
+<ul>
+<li><p><strong>Crecimiento estable</strong></p>
+
+<ul>
+<li>La tasa de crecimiento del PIB per cápita en las economías desarrolladas parece ser estable a largo plazo.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento</h2></hgroup><article  id="hechos-del-crecimiento-2" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/152.embed">
+
+</iframe>
+
+<ul>
+<li><p><strong>Estabilidad del crecimiento en periodos prolongados</strong></p>
+
+<ul>
+<li>La divergencia entre regiones se produjo al mismo tiempo que varios países en el mundo &ldquo;despegaron&rdquo; y lograron un crecimiento económico sostenido.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento</h2></hgroup><article  id="hechos-del-crecimiento-3" class="smaller "></li>
+</ul>
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/66.embed">
+
+</iframe>
+
+<ul>
+<li><p><strong>Convergencia y divergencia</strong></p>
+
+<ul>
+<li>¿La tasa de crecimiento es la responsable de la diferencia en el nivel de ingresos? No. Ya existía una brecha muy grande, por ejemplo, entre Estados Unidos, por un lado, e India y Nigeria, por el otro.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento</h2></hgroup><article  id="hechos-del-crecimiento-4" class="smaller "></li>
+</ul>
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/154.embed">
+
+</iframe>
+
+<ul>
+<li><p><strong>Convergencia y divergencia</strong></p>
+
+<ul>
+<li>Las diferencias en la tasa de crecimiento del PIB per cápita entre las economías desarrolladas parecen ser temporales.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia" class="smaller ">
+
+<ul>
+<li>Tomando a los países pertenecientes a la OCDE nos arroja el siguiente resultado:</li>
+</ul>
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+<ul>
+<li>Entre mayor PIB en 1960, menor tasa de crecimiento promedio en el periodo, lo que sí indica convergencia. ¿Porqué sucede esto?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-1" class="smaller ">
+
+<ul>
+<li>Los resultados muestran a todos los países distinguiendo a los de la OCDE:</li>
+</ul>
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-2" class="smaller ">
+
+<ul>
+<li><p><em>Convergencia condicional e incondicional</em></p>
+
+<ul>
+<li><p>No hay evidencia de convergencia (incondicional) en la distribución del ingreso mundial (de hecho, la evidencia sugiere cierta divergencia en los ingresos entre las naciones).</p></li>
+<li><p>Pero existe cierta evidencia de convergencia condicional, lo que significa que la brecha de ingresos entre países que tienen características similares observables.</p></li>
+<li><p>Esta última observación es relevante tanto para reconocer entre qué países ha ocurrido la divergencia económica como para determinar qué tipos de modelos debemos considerar para comprender el proceso de crecimiento económico y las diferencias en el desempeño económico entre las naciones.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Correlación con el crecimiento económico</h2></hgroup><article  id="correlación-con-el-crecimiento-económico" class="smaller ">
+
+<ul>
+<li><p>¿Qué tipo de países crecen más rápidamente? ¿Qué características específicas de los países (incluidas sus políticas e instituciones) tienen un efecto causal en el crecimiento?</p></li>
+<li><p>Los primeros candidatos son la inversión en infraestructura y el capital humano (educación).</p></li>
+</ul>
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Correlación con el crecimiento económico</h2></hgroup><article  id="correlación-con-el-crecimiento-económico-1" class="smaller ">
+
+<ul>
+<li><p>Estos datos sugieren que los países que han crecido más rápido son típicamente aquellos que han invertido más en capital físico y humano.</p></li>
+<li><p>Esto no implica que las inversiones en capital físico o humano sean las causas del crecimiento económico (aunque esperamos que de la teoría económica básica contribuyan al crecimiento).</p></li>
+</ul>
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Correlación con la inversión</h2></hgroup><article  id="correlación-con-la-inversión" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/160.embed">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países desarrollados</h2></hgroup><article  id="hechos-del-crecimiento-países-desarrollados" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/170.embed">
+
+</iframe>
+
+<ul>
+<li>Las participaciones en el consumo tienden a ser consistentes a lo largo del tiempo para los países desarrollados.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países desarrollados</h2></hgroup><article  id="hechos-del-crecimiento-países-desarrollados-1" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/174.embed">
+
+</iframe>
+
+<ul>
+<li>Para los países desarrollados, las participaciones de la inversión se encuentran en un rango entre 20 y 25%.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países desarrollados</h2></hgroup><article  id="hechos-del-crecimiento-países-desarrollados-2" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/202.embed">
+
+</iframe>
+
+<ul>
+<li>Durante las últimas décadas ha habido una tendencia de la relación W / Y a disminuir en la mayoría de estos países.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países desarrollados</h2></hgroup><article  id="hechos-del-crecimiento-países-desarrollados-3" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/207.embed">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países desarrollados</h2></hgroup><article  id="hechos-del-crecimiento-países-desarrollados-4" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/156.embed">
+
+</iframe>
+
+<ul>
+<li><p>Existen tendencias diferentes entre los países, pero en su mayor parte la relación capital / producto se mantiene dentro de un rango de aproximadamente 3 a 4 durante décadas.</p></li>
+<li><p>En su mayor parte, la proporción de la mano de obra en los costos tienden a mantenerse alrededor de 0.7-0.8 todo el tiempo.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países en desarrollo</h2></hgroup><article  id="hechos-del-crecimiento-países-en-desarrollo" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/172.embed">
+
+</iframe>
+
+<ul>
+<li>Para los países en desarrollo, las participaciones en el consumo son más inconsistentes.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países en desarrollo</h2></hgroup><article  id="hechos-del-crecimiento-países-en-desarrollo-1" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/176.embed">
+
+</iframe>
+
+<ul>
+<li>Para los países en desarrollo, estas participaciones son más inestables.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países en desarrollo</h2></hgroup><article  id="hechos-del-crecimiento-países-en-desarrollo-2" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/205.embed">
+
+</iframe>
+
+<ul>
+<li>Durante las últimas décadas ha habido una tendencia de la relación W / Y a disminuir en la mayoría de estos países.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países en desarrollo</h2></hgroup><article  id="hechos-del-crecimiento-países-en-desarrollo-3" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/209.embed">
+
+</iframe>
+
+<ul>
+<li>En los países en desarrollo, esta proporción de está entre .75 y .85.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; del crecimiento: Países en desarrollo</h2></hgroup><article  id="hechos-del-crecimiento-países-en-desarrollo-4" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/158.embed">
+
+</iframe>
+
+<ul>
+<li>Con el grupo de países que están experimentando un crecimiento de recuperación, hay menos estabilidad involucrada.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Convergencia</h2></hgroup><article  id="convergencia-3" class="smaller ">
+
+<ul>
+<li><p><strong>Senda de crecimiento balanceado (Balanced Growth Path – BGP)</strong></p></li>
+<li><p>Una BGP, se define por una serie de hechos que se aproximan a los datos observados en países desarrollados. Se dice que un país se encuentra en una BGP si se cumplen las siguientes cuatro condiciones:</p>
+
+<ul>
+<li>La tasa de crecimiento del PIB per cápita (g) es estable</li>
+<li>La relación entre la formación bruta de capital y el PIB (I / Y) es estable</li>
+<li>La parte de los costos laborales (ϕL) es estable</li>
+<li>La relación capital / producto (K / Y) es estable</li>
+</ul></li>
+<li><p>Entender el BGP es útil porque nos permite centrarnos en algunas regularidades clave en los datos.</p>
+
+<ul>
+<li>Cuando intentemos modelar la economía y cómo crece, vamos a querer que ese modelo reproduzca los resultados asociados con un BGP, porque los vemos en países que consideramos desarrollados.</li>
+<li>Además, queremos que este modelo ayude a explicar por qué los países que están &ldquo;sin&rdquo; un BGP en algún momento (como Corea del Sur, Alemania o Japón) terminan nuevamente &ldquo;en&rdquo; un BGP después de un período de tiempo.</li>
+<li>Finalmente, una vez que tengamos ese modelo, lo usaremos para predecir lo que podría suceder en lugares como Nigeria y China.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/employment-by-economic-sector?stackMode=relative&amp;country=~USA">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-1" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/historical-and-projected-population-by-region">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-2" class="smaller ">
+
+<iframe width="1300" height="500" frameborder="0" scrolling="no" src="https://ourworldindata.org/grapher/dependency-age-groups-to-2100?country=~OWID_WRL">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-3" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/168.embed">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-4" class="smaller ">
+
+<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/118.embed">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-5" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-6" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-7" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-8" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-9" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-11-1.png" width="960" /></p>
+
+</article></slide><slide class=""><hgroup><h2>&ldquo;Hechos&rdquo; modernos del crecimiento</h2></hgroup><article  id="hechos-modernos-del-crecimiento-10" class="smaller ">
+
+<ul>
+<li>¿Hay una disminución de la BGP de EEUU?</li>
+</ul>
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-12-1.png" width="960" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-1" class="smaller ">
+
+<p><img src="Introduccion_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-2" class="smaller ">
+
+<ul>
+<li><p>En cierto nivel, las causas fundamentales son los factores que nos permiten vincular las cuestiones del crecimiento económico con las preocupaciones del resto de las ciencias sociales y hacer preguntas sobre los roles de las políticas, las instituciones, la cultura y los factores ambientales exógenos.</p></li>
+<li><p>A riesgo de simplificar en exceso los fenómenos complejos, podemos pensar en la siguiente lista de posibles causas del crecimiento económico:</p></li>
+</ul>
+
+<table class=" lightable-paper lightable-striped lightable-hover lightable-striped" style="font-size: 20px; font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Tema
+
+</th>
+
+<th style="text-align:left;">
+
+Descripción
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Suerte
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Existen caminos divergentes entre sociedades con oportunidades, preferencias y estructuras de mercado idénticas.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Diferencias geográficas
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Entornos distintos afectan la productividad de los trabajadores, la disponibilidad de recursos naturales, ciertas restricciones en el comportamiento individual, etc.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Diferencias institucionales
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Diferentes leyes y regulaciones según las cuales los individuos y las empresas funcionan y configuran los incentivos que tienen para la acumulación, la inversión y el comercio.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 5 cm; font-weight: bold;">
+
+Diferencias culturales
+
+</td>
+
+<td style="text-align:left;width: 15 cm; ">
+
+Determinan los valores, preferencias y creencias de los individuos.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-3" class="smaller ">
+
+<ul>
+<li><p>Analizando lo anterior, una conclusión rápida sugiere que, para desarrollar una mejor comprensión de las causas fundamentales del crecimiento económico, debemos observar las instituciones y políticas que afectan los incentivos de los individuos.</p></li>
+<li><p>Entender las causas del crecimiento económico implica comprender el impacto de estas instituciones y políticas en los incentivos económicos y por qué han aumentado el crecimiento en ciertos países, pero no en otros.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-4" class="smaller ">
+
+<ul>
+<li><p>Algunos problemas con las mediciones institucionales comunes son:</p>
+
+<ul>
+<li><p>Índices de las instituciones utilizados son intrínsecamente arbitrarios.</p></li>
+<li><p>Simplemente cargan cualquier diferencia en el ingreso per cápita en esas variables categóricas (multicolinealidad).</p></li>
+<li><p>Medidas institucionales generalmente miden los resultados, no las diferencias institucionales reales (problema de correlación).</p></li>
+<li><p>Los tamaños de muestra pequeños, muchas veces en el rango de 50-70 países, eliminando la posibilidad de controlar por otras variables.</p></li>
+<li><p>El sesgo de publicación, lo que significa que lo único que vemos en la literatura son los resultados estadísticamente significativos que se produjeron en el transcurso de la ejecución de todas las regresiones con diferentes especificaciones y medidas de las instituciones.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-5" class="smaller ">
+
+<ul>
+<li><p>En resumen, puede ser que las instituciones importen fundamentalmente para el crecimiento económico, pero la literatura empírica puede no evidenciarlo.</p></li>
+<li><p>Para saber que medir se requiere una buena definición de &ldquo;institución&rdquo; y una buena teoría de cómo funcionan, surgen, colapsan o mutan. Así que terminamos arrojando cosas que suenan &ldquo;institucionalizadas&rdquo; a regresiones, sin saber lo que realmente estamos midiendo.</p></li>
+<li><p>Empíricamente, lo mejor que puedo concluir es que las democracias de estilo occidental son diferentes de otro tipo de países.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-6" class="smaller ">
+
+<ul>
+<li><p>En este sentido, la cultura, la geografía y las instituciones:</p>
+
+<ul>
+<li><p>Afectan la actividad económica a través de las elecciones que los agentes toman sobre cómo asignar recursos escasos (en este caso, las empresas con el empleo).</p></li>
+<li><p>Si bien pueden ser un determinante fundamental de la actividad económica, esta actúa a través de factores como la acumulación de capital, la adopción de tecnología o las decisiones de participación en el mercado laboral (entre otros). Entonces, necesitamos describir cómo estos influyen en los factores.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelado</h2></hgroup><article  id="modelado-7" class="smaller ">
+
+<ul>
+<li><p>Las decisiones involucran algún tipo de problema de optimización:</p>
+
+<ul>
+<li><p>Hay algunas restricciones presupuestarias y alguna función de utilidad</p></li>
+<li><p>Las personas hacen lo mejor que pueden para maximizar la utilidad mientras se mantienen dentro de ese presupuesto.</p></li>
+</ul></li>
+<li><p>En este caso, o bien la cultura, instituciones, etc, influye en las restricciones presupuestarias, o influye en la función de utilidad.</p>
+
+<ul>
+<li>Por ejemplo, en el caso cultural, si los estadounidenses son más individualistas que los europeos, su función de utilidad estaría orientada hacia el ingreso individual, en comparación con los europeos en donde esta estaría orientada hacia ingresos comunales (más impuestos o seguridad social).</li>
+</ul></li>
+<li><p>El modelado también es útil porque nos forza a ser explícitos en los supuestos, mecanismos y dinámicas que estemos diseñando.</p></li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
+    }
+  })();
+</script>
+
+</body>
+</html>

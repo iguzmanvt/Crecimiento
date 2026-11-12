@@ -1,5 +1,5 @@
 {
-  "count": 13,
+  "count": 33,
   "materials": [
     {
       "id": "01",
@@ -117,6 +117,186 @@
       "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
       "html": "materiales_actualizados/Taxes/presentacion/Material.html",
       "sha256": "00727029ce4047b13eb0b473c90ebdcdd2da5f536c84548699c1365119132d82"
+    },
+    {
+      "id": "05",
+      "module": "Competition",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Competition/presentacion/Material.html",
+      "sha256": "c32206c1131e8e25e340f5151dac05220ab58e4118f484c3899c1ff0eef21512"
+    },
+    {
+      "id": "07",
+      "module": "Convergence",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Convergence/presentacion/Material.html",
+      "sha256": "2d6df96adeb1ff5fb658d446f7b9668f687a93565e5678ad187eb2611455654f"
+    },
+    {
+      "id": "22",
+      "module": "Patents",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Patents/presentacion/Material.html",
+      "sha256": "8dde984c3ba5f777a6ca63e0da968228a81fac102edce40fa66aff46c31b142d"
+    },
+    {
+      "id": "33",
+      "module": "Technological_Diffusion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
+      "sha256": "d771e6a1c9225f39dd00be838adb0c4eca28ad5b5751a3f5b1b097e47d9cd303"
+    },
+    {
+      "id": "24",
+      "module": "Pensions",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Pensions/presentacion/Material.html",
+      "sha256": "efff7c6b0bd7067cd24b9335cd856d7289f28083fb2345fe24fdae99b034c339"
+    },
+    {
+      "id": "30",
+      "module": "Structural_Transformation",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
+      "sha256": "010ddd89b829ac32a9ef836eea53ff5cbe2e1b79291c63f46f95f5a6ac0e7968"
+    },
+    {
+      "id": "11",
+      "module": "Environment",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Environment/presentacion/Material.html",
+      "sha256": "d827aaf6e8bcc018997e18360490899c0828abb8b27e2b01b8062f0119c04c9d"
+    },
+    {
+      "id": "17",
+      "module": "Labor",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Labor/presentacion/Material.html",
+      "sha256": "cc1436569494690830129d3982deb777a8949faee3be5a66a2c22d507a87a594"
+    },
+    {
+      "id": "19",
+      "module": "Labor_2",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
+      "sha256": "c0b65c7ef32d4e9db167a279f3cd74048cf029c638e5fa841067e9f6bedf1bdf"
+    },
+    {
+      "id": "I01",
+      "module": "Introduction",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Introduction/presentacion/Material.html",
+      "sha256": "072e0f5e505f8bf115aad7f9c82d4ea7bd59945d4662a1cc8c72765a9e4a5fe5"
+    },
+    {
+      "id": "04",
+      "module": "Competition",
+      "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Competition/notas/Material.html",
+      "sha256": "2402503da6a8f7f8c4ee1310889d0c84c2f123d86235fc59429c96ea4c2360ab"
+    },
+    {
+      "id": "06",
+      "module": "Convergence",
+      "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Convergence/notas/Material.html",
+      "sha256": "355d58de832c07b432f7e5de77a99b9327e83bc76b11b0e29874f63119ed9c0f"
+    },
+    {
+      "id": "21",
+      "module": "Patents",
+      "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Patents/notas/Material.html",
+      "sha256": "e326d17d33781b29f9710c012a2a54c153d9d3ca0077b1df5f930c43987424c2"
+    },
+    {
+      "id": "34",
+      "module": "Technological_Diffusion",
+      "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
+      "sha256": "3c4b14153f3706def9f2cc80aaa9d5e54cf3f03b49681ed97e150431c6621d12"
+    },
+    {
+      "id": "23",
+      "module": "Pensions",
+      "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Pensions/notas/Material.html",
+      "sha256": "0ed047461f8328ccb894363bbf78baed9387a2701c31455362273491696dec74"
+    },
+    {
+      "id": "29",
+      "module": "Structural_Transformation",
+      "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
+      "sha256": "490093d266af56ebf951561e8ff3c4028ad316574341af49442d10749d1115e0"
+    },
+    {
+      "id": "10",
+      "module": "Environment",
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Environment/notas/Material.html",
+      "sha256": "7c7e8dcde942bd006a659cd74df65f5165191d5c8365cd1b593881f07efd2559"
+    },
+    {
+      "id": "16",
+      "module": "Labor",
+      "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Labor/notas/Material.html",
+      "sha256": "4c5b5ea1af301d578dc6070dc70b6fa4e2d97fe8da8af96e10422f78ab673b00"
+    },
+    {
+      "id": "20",
+      "module": "Labor_2",
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Labor_2/notas/Material.html",
+      "sha256": "d75c2fb46f3fee9410854e2807a03acfdc90c189ae6115ebf31d444a7d136ffd"
+    },
+    {
+      "id": "I01",
+      "module": "Introduction",
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Introduction/notas/Material.html",
+      "sha256": "a7bb3bee5224c62a7a62530a53813fcc714167360f1c7f0730b9aa3c3d80a2c5"
     }
   ]
 }

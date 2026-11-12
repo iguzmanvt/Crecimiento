@@ -1,5 +1,9 @@
 # Medio ambiente y crecimiento
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Environment/notas/Material.html) · [Presentación](../../materiales_actualizados/Environment/presentacion/Material.html) · [Material de consulta](../../material_consulta/Environment.md).
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

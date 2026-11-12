@@ -1,5 +1,9 @@
 # Convergencia y políticas públicas para el crecimiento
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Convergence/notas/Material.html) · [Presentación](../../materiales_actualizados/Convergence/presentacion/Material.html) · [Material de consulta](../../material_consulta/Convergence.md).
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

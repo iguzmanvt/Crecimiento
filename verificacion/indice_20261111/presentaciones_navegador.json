@@ -1,0 +1,202 @@
+{
+  "count": 10,
+  "results": [
+    {
+      "module": "Competition",
+      "html": "materiales_actualizados/Competition/presentacion/Material.html",
+      "sha256": "c32206c1131e8e25e340f5151dac05220ab58e4118f484c3899c1ff0eef21512",
+      "slides": 17,
+      "images_loaded": 7,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Convergence",
+      "html": "materiales_actualizados/Convergence/presentacion/Material.html",
+      "sha256": "2d6df96adeb1ff5fb658d446f7b9668f687a93565e5678ad187eb2611455654f",
+      "slides": 70,
+      "images_loaded": 28,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Patents",
+      "html": "materiales_actualizados/Patents/presentacion/Material.html",
+      "sha256": "8dde984c3ba5f777a6ca63e0da968228a81fac102edce40fa66aff46c31b142d",
+      "slides": 42,
+      "images_loaded": 15,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Technological_Diffusion",
+      "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
+      "sha256": "d771e6a1c9225f39dd00be838adb0c4eca28ad5b5751a3f5b1b097e47d9cd303",
+      "slides": 43,
+      "images_loaded": 27,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Pensions",
+      "html": "materiales_actualizados/Pensions/presentacion/Material.html",
+      "sha256": "efff7c6b0bd7067cd24b9335cd856d7289f28083fb2345fe24fdae99b034c339",
+      "slides": 63,
+      "images_loaded": 32,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Structural_Transformation",
+      "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
+      "sha256": "010ddd89b829ac32a9ef836eea53ff5cbe2e1b79291c63f46f95f5a6ac0e7968",
+      "slides": 42,
+      "images_loaded": 22,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Environment",
+      "html": "materiales_actualizados/Environment/presentacion/Material.html",
+      "sha256": "d827aaf6e8bcc018997e18360490899c0828abb8b27e2b01b8062f0119c04c9d",
+      "slides": 34,
+      "images_loaded": 12,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi",
+        "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=chart&country=CHN~USA~IND~GBR~KOR~JPN",
+        "https://ourworldindata.org/grapher/co-emissions-per-capita",
+        "https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000?tab=map",
+        "https://ourworldindata.org/grapher/net-zero-targets?country=SVN~MCO~ECU~AFG~GMB~PER~BGR~SEN",
+        "https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor",
+        "https://ourworldindata.org/grapher/share-deaths-air-pollution",
+        "https://ourworldindata.org/grapher/share-deaths-air-pollution?tab=chart&country=ARE~High-middle+SDI~Middle+SDI~GNQ~High+SDI~Low+SDI~Low-middle+SDI",
+        "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes",
+        "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year"
+      ]
+    },
+    {
+      "module": "Labor",
+      "html": "materiales_actualizados/Labor/presentacion/Material.html",
+      "sha256": "cc1436569494690830129d3982deb777a8949faee3be5a66a2c22d507a87a594",
+      "slides": 50,
+      "images_loaded": 29,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Labor_2",
+      "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
+      "sha256": "c0b65c7ef32d4e9db167a279f3cd74048cf029c638e5fa841067e9f6bedf1bdf",
+      "slides": 46,
+      "images_loaded": 26,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/female-employment-to-population-ratio",
+        "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income",
+        "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi"
+      ]
+    },
+    {
+      "module": "Introduction",
+      "html": "materiales_actualizados/Introduction/presentacion/Material.html",
+      "sha256": "072e0f5e505f8bf115aad7f9c82d4ea7bd59945d4662a1cc8c72765a9e4a5fe5",
+      "slides": 64,
+      "images_loaded": 13,
+      "file_protocol_checked": true,
+      "keyboard_navigation_checked": true,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [
+        "file://plotly.com/~iguzmanvt/118.embed",
+        "file://plotly.com/~iguzmanvt/168.embed",
+        "file://plotly.com/~iguzmanvt/158.embed",
+        "file://plotly.com/~iguzmanvt/209.embed",
+        "file://plotly.com/~iguzmanvt/205.embed",
+        "file://plotly.com/~iguzmanvt/176.embed",
+        "file://plotly.com/~iguzmanvt/172.embed",
+        "file://plotly.com/~iguzmanvt/156.embed",
+        "file://plotly.com/~iguzmanvt/207.embed",
+        "file://plotly.com/~iguzmanvt/202.embed",
+        "file://plotly.com/~iguzmanvt/174.embed",
+        "file://plotly.com/~iguzmanvt/170.embed",
+        "file://plotly.com/~iguzmanvt/160.embed",
+        "file://plotly.com/~iguzmanvt/154.embed",
+        "file://plotly.com/~iguzmanvt/66.embed",
+        "file://plotly.com/~iguzmanvt/152.embed",
+        "file://plotly.com/~iguzmanvt/150.embed"
+      ],
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita",
+        "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita",
+        "https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-",
+        "https://ourworldindata.org/grapher/dependency-age-groups-to-2100?country=~OWID_WRL",
+        "https://ourworldindata.org/grapher/employment-by-economic-sector?stackMode=relative&country=~USA",
+        "https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&time=1979..2018&country=CHN~IND~Sub-Sahara+Africa",
+        "https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked",
+        "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita",
+        "https://ourworldindata.org/grapher/historical-and-projected-population-by-region",
+        "https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us?time=latest",
+        "https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp",
+        "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart",
+        "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=CHN~IND~Sub-Saharan+Africa",
+        "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita",
+        "https://ourworldindata.org/grapher/urbanization-vs-gdp"
+      ]
+    }
+  ],
+  "scope": "Diez presentaciones añadidas. Se bloquean o sustituyen dependencias externas; no se acredita su disponibilidad. Las seis presentaciones previas conservan sus archivos y comprobaciones."
+}

@@ -1,5 +1,9 @@
 # Desaceleración del crecimiento en países desarrollados
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Slowdown/notas/Material.html) · [Presentación](../../materiales_actualizados/Slowdown/presentacion/Material.html) · [Material de consulta](../../material_consulta/Slowdown.md).
+
 **Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Slowdown/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Slowdown/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
 
 

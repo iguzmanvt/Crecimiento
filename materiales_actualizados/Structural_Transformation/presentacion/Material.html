@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crecimiento Económico</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Crecimiento Económico',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <script src="Material_files/header-attrs-2.28/header-attrs.js"></script>
+  <link href="Material_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="Material_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    details > summary > p:only-child {
+      display: inline;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
+
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            
+  </style>
+
+  <link rel="stylesheet" href="curso.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Crecimiento Económico </h2><h3> Transformación sectorial y crecimiento</h3></hgroup><article  id="crecimiento-económico-transformación-sectorial-y-crecimiento" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>Implicaciones sectoriales del cambio tecnológico</h2></hgroup><article  id="implicaciones-sectoriales-del-cambio-tecnológico" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ &ldquo;Innovative Growth Accounting&rdquo; (Klenow, Li, 2021) </span></p></li>
+<li><p>Durante el curso hemos analizado la evolución de las siguientes tendencias:</p></li>
+<li><p>La desaceleración en el crecimiento medido de la productividad, particularmente en los últimos años, pero en general desde el 2000.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Implicaciones sectoriales del cambio tecnológico</h2></hgroup><article  id="implicaciones-sectoriales-del-cambio-tecnológico-1" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ &ldquo;Innovative Growth Accounting&rdquo; (Klenow, Li, 2021) </span></p></li>
+<li><p>La participación de la mano de obra en el PIB ha tenido una tendencia a la baja en los últimos 30 años.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Propiedad de invarianza del Residuo de Solow</h2></hgroup><article  id="propiedad-de-invarianza-del-residuo-de-solow" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ Invariance properties of Solow’s productivity residual (Hall, 1989)</span></p></li>
+<li><p>Esta disminución de la participación laboral se relaciona con el aumento de las ganancias que obtienen las empresas con mayor poder de mercado (“The Future of Work: Why Wages Aren’t Keeping Up”: Solow).</p></li>
+<li><p>Estas dos tendencias se vinculan a través de la forma en que se mide el crecimiento de la productividad.</p>
+
+<ul>
+<li><p><strong>Una participación laboral decreciente</strong> (y una participación de ganancias creciente en el PIB) necesariamente conducirá a una <strong>disminución en el crecimiento de la medición de la productividad, incluso si la innovación no cambia.</strong></p></li>
+<li><p>La razón es que, <strong>si las empresas tienen un poder de mercado cada vez mayor</strong>, entonces están <strong>utilizando los insumos de manera menos eficiente desde una perspectiva agregada</strong>, y la medida de la productividad en la contabilidad del crecimiento refleja la eficiencia con la que las empresas usan esos insumos.</p></li>
+<li><p><strong>Por lo tanto, un mayor poder de mercado, influyendo en la disminución de la participación laboral afectará en la medición del crecimiento de la productividad.</strong></p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Propiedad de invarianza del Residuo de Solow</h2></hgroup><article  id="propiedad-de-invarianza-del-residuo-de-solow-1" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ Invariance properties of Solow’s productivity residual (Hall, 1989)</span></p></li>
+<li><p>La <strong>productividad medida</strong> está <strong>influenciada mecánicamente por la cantidad de trabajo y capital que utilizamos</strong>.</p></li>
+<li><p><strong>La función de producción del PIB utiliza insumos de forma distinta a como se incorpora en la fórmula de contabilidad de crecimiento para obtener la productividad.</strong></p></li>
+<li><p>La baja participación del trabajo implica que la <strong>contabilidad del crecimiento subestima el papel del trabajo en la producción</strong>, por lo que se sobreestima el rol del capital, atribuyendo erróneamente algo del crecimiento de la productividad a la acumulación de capital y, por lo tanto, el crecimiento medido de la productividad es menor.</p></li>
+<li><p>Por último, <strong>a medida que la participación laboral en los ingresos disminuye, también lo hace el crecimiento de la productividad medida porque que el capital tiende a acumularse más rápido que la mano de obra.</strong></p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Propiedad de invarianza del Residuo de Solow</h2></hgroup><article  id="propiedad-de-invarianza-del-residuo-de-solow-2" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ Invariance properties of Solow’s productivity residual (Hall, 1989)</span></p></li>
+<li><p>Conclusiones:</p></li>
+<li><p>No se puede sacar conclusiones definitivas sobre lo que está sucediendo con la verdadera innovación o el crecimiento de la productividad sólo observando el crecimiento medido de la productividad.</p>
+
+<ul>
+<li><p>No se puede inferir que las innovaciones recientes sean menos útiles o productivas que las anteriores, simplemente porque el residuo está cayendo. Puede ser que las políticas y normas que transfieren una parte del PIB del trabajo a las ganancias también estén reduciendo la tasa de crecimiento de la productividad medida.</p></li>
+<li><p>También es posible que la economía reducir la participación en las ganancias del PIB, a través de impuestos o regulaciones y aún así ver el aumento de la productividad medida cuando disminuye el margen de beneficio.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></p></li>
+<li><p>Otros factores que pueden afectar a la productividad se dan cuando hay diferencias en el poder de mercado (y, por lo tanto, en las ganancias) entre los sectores, entonces la participación de un sector en el PIB ya no es igual a su participación en los costos.</p></li>
+<li><p>Consideren que el crecimiento de la productividad está descompuesto en dos fuentes:</p>
+
+<ul>
+<li><p><strong>La fuente de crecimiento “dentro” (within) de la productividad</strong>: a medida que cada empresa individual se vuelve más eficiente.</p></li>
+<li><p><strong>La fuente de crecimiento “entre” (between) la productividad</strong>: cuando cambiamos los factores de producción de empresas de baja productividad a empresas de alta productividad.</p></li>
+</ul></li>
+<li><p>La pregunta interesante en el contexto de empresas con poder de mercado es <strong>¿cuánto potencial existe en la fuente de crecimiento “entre” la productividad?</strong></p></li>
+<li><p>Es decir, ¿cuánto mayor sería la productividad si pudiera reordenar los factores de producción hasta que el producto de ingreso marginal fuera igual en todas las empresas?</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-1" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></p></li>
+<li><p>Hsieh y Klenow proporcionan evidencia cuantitativa de la mala asignación de recursos en la productividad agregada en India y China.</p></li>
+<li><p>Estiman cuánto podría aumentar la producción manufacturera agregada en China e India si el capital y la mano de obra se reasignaran para igualar los productos marginales dentro de cada sector en la medida observada en los Estados Unidos.</p></li>
+<li><p>Utilizan a Estados Unidos como punto de referencia para desestimar errores de medición y factores omitidos del modelo (como los costos de ajuste y variación del margen).</p></li>
+<li><p>¿Cuáles son los factores que causan una mala asignación?</p></li>
+<li><p>Regulaciones del mercado laboral que elevan el costo de la mano de obra. Conexiones políticas y acceso a crédito subsidiado</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-2" class="smaller ">
+
+<ul>
+<li><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-3" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></p></li>
+<li><p>Conclusiones: La productividad de los ingresos (la relación entre entre el ingreso y cada factor de producción) debe equipararse entre las empresas en ausencia de distorsiones.</p></li>
+<li><p>Pasar a la eficiencia estadounidense aumentaría la productividad entre un 30 y un 50% en China y entre un 40 y un 60% en la India.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-4" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></p></li>
+<li><p>Las ganancias de producción serían el doble si el capital se acumula en respuesta a las ganancias de la productividad agregada.</p></li>
+<li><p>Tanto en India como en China, las plantas más grandes dentro de las industrias parecen tener productos marginales más altos.</p></li>
+<li><p>El patrón es mucho más débil en Estados Unidos.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-5" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Misallocation and Manufacturing TFP in China and India ” (Hsieh, Klenow; 2009)</span></p></li>
+<li><p>Políticas públicas:</p></li>
+<li><p>Hay mucho potencial de investigación en esta área:</p>
+
+<ul>
+<li><p>La sofisticación del sector financiero para mejorar las asignaciones: una posibilidad es que las empresas de alta productividad deseen expandirse, pero su capacidad para hacerlo está limitada por la imposibilidad de encontrar financiamiento.</p></li>
+<li><p>Análisis regulatorio: los efectos de los costos de entrada, de salida y reglas que dependen del tamaño de las empresas. Entre estos, la medición del impacto de reformas particulares en crecimiento “dentro” (within) de la productividad.</p></li>
+<li><p>Si la reforma reduce los costos de transacción, o elimina empresas monopólicas estatales entonces el margen para el crecimiento “entre” (between) la productividad debería disminuir con el tiempo a medida que la economía se vuelve más eficiente y las brechas se reducen.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-6" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Baquee y Farhi construyen una medida de la productividad total de los factores agregada dando resultados para economías con producción neoclásica y distorsiones generadas por &ldquo;markups&rdquo; y &ldquo;wedges&rdquo;.</p></li>
+<li><p>Descomponen los cambios de la productividad total de los factores en dos efectos:</p>
+
+<ul>
+<li><p><strong>El cambio tecnológico puro (exógeno):</strong> Dada una distribución inicial de recursos, si el productor aumenta su producción, entonces aumenta la productividad total de los factores.</p></li>
+<li><p><strong>El cambio en la eficiencia por las asignaciones (endógeno):</strong> La distribución de los recursos entre productores cambia como respuesta de un choque, esto aumenta la producción de algunos y reduce la de otros.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-7" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Estos autores afirman que es posible romper con los supuestos estrictos de la función Cobb-Douglas y la regla empírica “alfa es igual a un tercio” permitiendo lo siguiente:</p>
+
+<ul>
+<li><p>Diferentes unidades con diferentes estructuras de costos: no es necesario suponer que todas las industrias tienen una fórmula Cobb-Douglas similar, o que es Cobb-Douglas en absoluto.</p></li>
+<li><p>Relaciones insumo-producto: Estas industrias pueden ser proveedoras unas de otras y el impacto del incremento de capital en una industria puede tener efectos en otras industrias.</p></li>
+<li><p>Markups: Cada industria puede estar cobrando un margen de beneficio sobre los costos.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-8" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Para ello, proponen un residuo de Solow modificado que pondera el crecimiento de los factores de acuerdo con el cambio en la eficiencia por las asignaciones:</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-9" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Con base en las fuentes de crecimiento para la productividad total de los factores y el residuo de Solow modificado, realizaron un análisis para la economía de Estados Unidos en el periodo 1997-2015.</p></li>
+<li><p>Descomposición del incremento promedio en el markup en la red de producción (between) y en los sectores de la producción (within).</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-10" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Descomposición del residuo de Solow modificado en efecto tecnológico puro y cambios en asignaciones eficientes.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-11" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>¿Cuánto de esto se debe a cambios en los markups?</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-12" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></p></li>
+<li><p>Descomposición del residuo de Solow modificado en efecto tecnológico puro y cambios en asignaciones eficientes a nivel industria.</p></li>
+<li><p>Esta descomposición asume que cada industria tiene una empresa representativa. (Sin tomar en cuenta reasignaciones al interior de la industria)</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-13" class="smaller ">
+
+<ul>
+<li><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-14" class="smaller ">
+
+<ul>
+<li><span style="color:blue">
+ “Productivity and misallocation in general equilibrium” (Baqaee, Farhi; 2017)</span></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-15" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>Los autores documentan la evolución del markup sobre el costo marginal cobrado basados en datos a nivel de empresa para la economía de Estados Unidos desde 1955.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-16" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>Además de aumentar la cola superior de la distribución de los markups no ponderados, hay una reasignación de la cuota de mercado de empresas en industrias chicas a empresas en industrias grandes.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-17" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>El aumento es impulsado principalmente por la parte superior de la distribución de las empresas con mayores markups: los percentiles superiores han aumentado considerablemente, mientras que la mediana no ha cambiado.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-18" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>Consecuencia: Caída en la participación del trabajo en la economía</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-19" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>Consecuencia: Caída en la participación del capital en la economía</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-16-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Mala asignación de los factores de producción</h2></hgroup><article  id="mala-asignación-de-los-factores-de-producción-20" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “The Rise of Market Power and the Macroeconomic Implications” (Loecker, Eeckhout, Unger (LEU), 2018)</span></p></li>
+<li><p>Consecuencia: Disminución en la fuerza laboral</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-17-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol" class="smaller ">
+
+<ul>
+<li>El precio de los servicios ha aumentado mientras que el precio de los bienes ha disminuido. ¿Por qué?</li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-18-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-1" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Performing Arts, The Economic Dilemma: a study of problems common to theater, opera, music, and dance” (Baumol, 1966)</span></p></li>
+<li><p>Debido a que los <strong>bienes y servicios son complementarios</strong> (complementos perfectos en el extremo), eventualmente <strong>la productividad estará determinada por el sector de crecimiento más lento (servicios)</strong>.</p></li>
+<li><p>Supuestos: 2 sectores: Manufactura y servicios.</p>
+
+<ul>
+<li><p><strong>La producción de bienes se puede acelerar mientras que el otorgamiento de los servicios es relativamente lento</strong>.</p></li>
+<li><p><strong>La fuerza laboral móvil entre los dos sectores hace que los costos laborales de los sectores cambian en la misma dirección</strong>.</p></li>
+</ul></li>
+<li><p>El crecimiento de la productividad en el sector de bienes aumenta el salario en ese sector, pero también aumenta la producción de ese sector.</p></li>
+<li><p>Por lo tanto, la relación entre el salario y la producción se mantiene constante a lo largo del tiempo. Los salarios más altos en el sector de bienes ejercen presión sobre los salarios en el sector de servicios, por lo que los salarios aumentan con el tiempo allí.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-2" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Performing Arts, The Economic Dilemma: a study of problems common to theater, opera, music, and dance” (Baumol, 1966)</span></p></li>
+<li><p>Baumol analiza las implicaciones de la demanda de servicios en la economía agregada:</p></li>
+<li><p>“Si <strong>la productividad por hora hombre aumenta de forma acumulativa en un sector en relación con su tasa de crecimiento en otras partes de la economía</strong>, mientras que <strong>los salarios aumentan proporcionalmente en todas las áreas</strong>, <strong>los costos relativos en los sectores no progresivos inevitablemente aumentarán</strong>, y estos costos aumentarán de forma acumulativa y sin límite … Por lo tanto, <strong>el progreso de los sectores tecnológicamente progresivos aumenta inevitablemente los costos de los sectores tecnológicamente invariables</strong> de la economía, a menos que de alguna manera los mercados laborales en estas áreas puedan cerrarse y los salarios se mantengan absolutamente constantes, una posibilidad muy poco probable.</p></li>
+<li><p>Vemos entonces que los costos en muchos sectores de la economía aumentarán implacablemente, y lo harán por razones que están, para todos los fines prácticos, más allá del control de los involucrados … Si se mantienen sus productos relativos, una proporción cada vez mayor de la fuerza laboral debe canalizarse hacia estas actividades y la tasa de crecimiento de la economía debe reducirse de manera correspondiente.”</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-3" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services” (Young; AER, 2014)</span></p></li>
+<li><p>Young trata de explicar por qué el crecimiento de la productividad tiende a disminuir durante una transformación estructural de la producción de bienes a servicios.</p></li>
+<li><p><strong>La idea es que los servicios tienen un bajo crecimiento de productividad inherente en comparación con la producción de bienes</strong>:</p>
+
+<ul>
+<li><p>Se prestan en unidades fijas de tiempo</p></li>
+<li><p>Son altamente elásticos en cuanto a los ingresos (demandan más a medida de que el ingreso aumenta)</p></li>
+<li><p>La mano de obra se ha trasladado a los servicios con el tiempo.</p></li>
+</ul></li>
+<li><p>Por lo tanto, la tasa de crecimiento promedio de la productividad cae porque todos trabajan ahora en este sector de bajo crecimiento.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-4" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services” (Young; AER, 2014)</span></p></li>
+<li><p><strong>Young cuestiona si los servicios realmente tienen un crecimiento de la productividad más lento que el de la manufactura</strong>.</p></li>
+<li><p>Su argumento será que podemos estar subestimando falsamente el crecimiento de la productividad en los servicios:</p>
+
+<ul>
+<li><p>La mano de obra que fluye hacia los servicios es, comparativamente con los trabajadores de servicios existentes, relativamente mala para hacer el trabajo de servicio.</p></li>
+<li><p>Lo que parece un bajo crecimiento de la productividad es de hecho un bajo crecimiento (o crecimiento negativo) en el capital humano promedio.</p></li>
+</ul></li>
+<li><p>Al mismo tiempo, <strong>el crecimiento de la productividad en la manufactura está sobrepasado</strong>:</p>
+
+<ul>
+<li><p>Los trabajadores que se quedan en el sector son los mejores trabajadores, y por lo tanto, la capacidad promedio de los trabajadores de la manufactura (para hacer trabajo de manufactura) aumenta con el tiempo .</p></li>
+<li><p>Lo que parece un alto crecimiento de la productividad es, de hecho, un alto crecimiento en el capital humano promedio.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-5" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services” (Young; AER, 2014)</span></p></li>
+<li><p>Young proporciona una tabla donde recupera las verdaderas tasas de crecimiento de la productividad en cada sector. Esto depende del valor de \(\epsilon\), y sus estimaciones sugieren que este parámetro está en algún lugar entre -0.5 y -1.0.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-19-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-6" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services” (Young; AER, 2014)</span></p></li>
+<li><p><strong>Young sugiere que la historia de Baumol es incorrecta</strong>: los servicios no tienen una tendencia integrada hacia un crecimiento más lento de la productividad a lo largo del tiempo.</p>
+
+<ul>
+<li><p>La medición de <strong>la productividad del sector servicios está sesgada por los efectos de Roy y la manufactura no necesariamente tiene un mayor crecimiento de la productividad</strong>.</p></li>
+<li><p>Es decir, si el análisis es correcto, entonces el crecimiento de la productividad en todos los sectores es aproximadamente similar a lo largo del tiempo y, por lo tanto, no es necesario preocuparse por el cambio de la producción de bienes a los servicios.</p></li>
+</ul></li>
+<li><p>Lo importante es que a pesar del aumento de los costos, las personas continúan consumiendo servicios y, de hecho, pueden aumentar sus gastos en servicios a medida que se vuelven más caros (dependiendo de la elasticidad).</p></li>
+<li><p>¿El efecto Roy ha aumentado o disminuido con el tiempo o no se ha modificado? Esto no lo responde Young. El análisis explica que la desaceleración no se debió a la enfermedad de Baumol de cambiar a los servicios.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-7" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Considerations on Cost Diseases” (Alexander; 2017)</span></p></li>
+<li><p>Hace las siguientes preguntas en el contexto de Baumol: “¿Enviar a su hijo a una escuela de 2016? ¿O enviar a su hijo a una escuela de 1975 y obtener un cheque por 5,000 cada año?”</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-20-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-8" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Considerations on Cost Diseases” (Alexander; 2017)</span></p></li>
+<li><p>Luego hace esto con la universidad (¿La universidad moderna o la universidad de tus padres más 72,000 dólares? ) y salud (¿Atención médica moderna, o la atención médica anterior más 8,000 dólares cada año?)</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-21-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-9" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Considerations on Cost Diseases” (Alexander; 2017)</span></p></li>
+<li><p>La respuesta implícita de Alexander a todas estas preguntas es que elegiría la segunda opción pues el servicio ofrecido hoy no es de mejor calidad que el servicio ofrecido hace una generación.</p></li>
+<li><p>¿En qué gastarían las personas todo el dinero extra?: Bienes o servicios</p></li>
+<li><p>Desde el segundo punto de vista de Baumol, la demanda de este tipo de servicios es elástica en cuanto a los ingresos y el precio es inelástico. Es decir, una parte del dinero que recibiría la gente se devuelve a la educación y la salud.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-10" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Considerations on Cost Diseases” (Alexander; 2017)</span></p></li>
+<li><p>Consecuencias:</p>
+
+<ul>
+<li><p>Desplaza la curva de demanda hacia la salud y la educación. El precio sube, y la cantidad real de la nueva atención médica o educación adquirida no es tan grande.</p></li>
+<li><p>Además, puede haber un aumento, en la proporción del PIB total que representa la atención médica y la educación.</p></li>
+<li><p>Este es el mismo resultado que Baumol describió, aunque para él el origen de esto fue un aumento de la productividad en el sector de bienes.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-11" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+ “Considerations on Cost Diseases” (Alexander; 2017)</span></p></li>
+<li><p>Esto no implica que los servicios de salud y de educación se administran de manera ineficiente.</p></li>
+<li><p>Pero sus altos costos no se deben en su totalidad a una ineficiencia deliberada, y la reducción de estos costos no disminuiría su participación en el PIB.</p></li>
+<li><p>Los costos crecientes en educación y salud no siempre representan una patología. El costo de estos servicios son consecuencia de las mejoras de productividad, en primer lugar.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Enfermedad de Baumol</h2></hgroup><article  id="enfermedad-de-baumol-12" class="smaller ">
+
+<ul>
+<li><p><span style="color:blue">
+Manufacturing and Service Sector Roles in the Evolution of Innovation and Productivity (Santacreu, Zhu, 2018)</span></p></li>
+<li><p>La manufactura fue solo alrededor del 17% del valor agregado, pero contribuyó con el 42% del crecimiento de la productividad. Esto crea un problema para el crecimiento de la productividad general si la demanda de servicios aumenta más rápido que la demanda de bienes.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-22-1.png" width="672" style="display: block; margin: auto;" /></p></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
+    }
+  })();
+</script>
+
+</body>
+</html>

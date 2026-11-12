@@ -1,5 +1,9 @@
 # Ideas, productividad e investigación y desarrollo
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Ideas/notas/Material.html) · [Presentación](../../materiales_actualizados/Ideas/presentacion/Material.html) · [Material de consulta](../../material_consulta/Ideas.md).
+
 **Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Ideas/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Ideas/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
 
 

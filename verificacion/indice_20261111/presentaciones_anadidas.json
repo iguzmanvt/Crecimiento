@@ -1,0 +1,129 @@
+{
+  "count": 10,
+  "presentations_total": 16,
+  "materials_total": 33,
+  "baseline": "6d42d25830bf17db3694394cc9099b59986aa2a1",
+  "source_check": "Contenido de nueve fuentes idéntico al render verificado; Introducción corresponde a su variante con tabla y jQuery local ya comprobada.",
+  "entries": [
+    {
+      "id": "05",
+      "module": "Competition",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Competition/presentacion/Material.html",
+      "sha256": "c32206c1131e8e25e340f5151dac05220ab58e4118f484c3899c1ff0eef21512",
+      "source_sha256_LF": "0315cbe8875e1f0fe0158b66d031681ea5cb754dc4f99a86ea1b3e95061b9318",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "07",
+      "module": "Convergence",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Convergence/presentacion/Material.html",
+      "sha256": "2d6df96adeb1ff5fb658d446f7b9668f687a93565e5678ad187eb2611455654f",
+      "source_sha256_LF": "57e0fad1a025094e72f06a6bad6d29327ec8026345a5fb51893a29c3f5960e37",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "22",
+      "module": "Patents",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Patents/presentacion/Material.html",
+      "sha256": "8dde984c3ba5f777a6ca63e0da968228a81fac102edce40fa66aff46c31b142d",
+      "source_sha256_LF": "1bf8cae68a70638c4c952bdaf49aa649e8702c0ac0b9ffd760325c719ffbf988",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "33",
+      "module": "Technological_Diffusion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusion Tecnologica.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Technological_Diffusion/presentacion/Material.html",
+      "sha256": "d771e6a1c9225f39dd00be838adb0c4eca28ad5b5751a3f5b1b097e47d9cd303",
+      "source_sha256_LF": "96fc1eaf97d2b661c5ceefccdfef39d418600727588f38cbed349e0a7470524f",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "24",
+      "module": "Pensions",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Pensions/presentacion/Material.html",
+      "sha256": "efff7c6b0bd7067cd24b9335cd856d7289f28083fb2345fe24fdae99b034c339",
+      "source_sha256_LF": "473d686d3571915baa3d78d2ded0f878a0f583cc418de2b73e78b46d7121bebe",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "30",
+      "module": "Structural_Transformation",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Structural_Transformation/presentacion/Material.html",
+      "sha256": "010ddd89b829ac32a9ef836eea53ff5cbe2e1b79291c63f46f95f5a6ac0e7968",
+      "source_sha256_LF": "0ead03215e6337c3b734faa36ab33a7db4162d0a89b98273b074082faded70e8",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "11",
+      "module": "Environment",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Environment/Crecimiento Economico - Medio Ambiente.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Environment/presentacion/Material.html",
+      "sha256": "d827aaf6e8bcc018997e18360490899c0828abb8b27e2b01b8062f0119c04c9d",
+      "source_sha256_LF": "87cd1bb05ba39c5ffcf157b0f81148ca410033aec05772d800d4e1529b952dbf",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "17",
+      "module": "Labor",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Labor/presentacion/Material.html",
+      "sha256": "cc1436569494690830129d3982deb777a8949faee3be5a66a2c22d507a87a594",
+      "source_sha256_LF": "85b564bd13e77c4b3171a9dad2bd8ac14577324d92f807d8172963f7781b7249",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 1
+    },
+    {
+      "id": "19",
+      "module": "Labor_2",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral - Genero y Migracion.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Labor_2/presentacion/Material.html",
+      "sha256": "c0b65c7ef32d4e9db167a279f3cd74048cf029c638e5fa841067e9f6bedf1bdf",
+      "source_sha256_LF": "610aa1333d5c641f3adce6e4bde20625abab56ec6107db58d8c3584cf62d6af1",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 3
+    },
+    {
+      "id": "I01",
+      "module": "Introduction",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+      "kind": "presentacion",
+      "html": "materiales_actualizados/Introduction/presentacion/Material.html",
+      "sha256": "072e0f5e505f8bf115aad7f9c82d4ea7bd59945d4662a1cc8c72765a9e4a5fe5",
+      "source_sha256_LF": "9a1e4296e0d58259695c00e97beebb1a2dc27c34e3d6913390a90d2e70c798c1",
+      "source_matches_verified_render": true,
+      "LF_normalization_files": 2
+    }
+  ]
+}

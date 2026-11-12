@@ -1,0 +1,202 @@
+{
+  "count": 10,
+  "results": [
+    {
+      "module": "Competition",
+      "html": "materiales_actualizados/Competition/notas/Material.html",
+      "images_loaded": 7,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Convergence",
+      "html": "materiales_actualizados/Convergence/notas/Material.html",
+      "images_loaded": 28,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Patents",
+      "html": "materiales_actualizados/Patents/notas/Material.html",
+      "images_loaded": 15,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Technological_Diffusion",
+      "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
+      "images_loaded": 27,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Pensions",
+      "html": "materiales_actualizados/Pensions/notas/Material.html",
+      "images_loaded": 32,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Structural_Transformation",
+      "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
+      "images_loaded": 22,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Environment",
+      "html": "materiales_actualizados/Environment/notas/Material.html",
+      "images_loaded": 12,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/air-pollution-london-vs-delhi",
+        "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=chart&country=CHN~USA~IND~GBR~KOR~JPN",
+        "https://ourworldindata.org/grapher/co-emissions-per-capita",
+        "https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000?tab=map",
+        "https://ourworldindata.org/grapher/net-zero-targets?country=SVN~MCO~ECU~AFG~GMB~PER~BGR~SEN",
+        "https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor",
+        "https://ourworldindata.org/grapher/share-deaths-air-pollution",
+        "https://ourworldindata.org/grapher/share-deaths-air-pollution?tab=chart&country=ARE~High-middle+SDI~Middle+SDI~GNQ~High+SDI~Low+SDI~Low-middle+SDI",
+        "https://ourworldindata.org/grapher/so-emissions-by-world-region-in-million-tonnes",
+        "https://ourworldindata.org/grapher/so-emissions-tonnes-per-year"
+      ]
+    },
+    {
+      "module": "Labor",
+      "html": "materiales_actualizados/Labor/notas/Material.html",
+      "images_loaded": 29,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    },
+    {
+      "module": "Labor_2",
+      "html": "materiales_actualizados/Labor_2/notas/Material.html",
+      "images_loaded": 26,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/female-employment-to-population-ratio",
+        "https://ourworldindata.org/grapher/female-labor-force-participation-rates-by-national-per-capita-income",
+        "https://ourworldindata.org/grapher/ratio-of-female-to-male-labor-force-participation-rates-ilo-wdi"
+      ]
+    },
+    {
+      "module": "Introduction",
+      "html": "materiales_actualizados/Introduction/notas/Material.html",
+      "images_loaded": 13,
+      "local_frames_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": [
+        "file://plotly.com/~iguzmanvt/118.embed",
+        "file://plotly.com/~iguzmanvt/168.embed",
+        "file://plotly.com/~iguzmanvt/158.embed",
+        "file://plotly.com/~iguzmanvt/209.embed",
+        "file://plotly.com/~iguzmanvt/205.embed",
+        "file://plotly.com/~iguzmanvt/176.embed",
+        "file://plotly.com/~iguzmanvt/172.embed",
+        "file://plotly.com/~iguzmanvt/156.embed",
+        "file://plotly.com/~iguzmanvt/207.embed",
+        "file://plotly.com/~iguzmanvt/202.embed",
+        "file://plotly.com/~iguzmanvt/174.embed",
+        "file://plotly.com/~iguzmanvt/170.embed",
+        "file://plotly.com/~iguzmanvt/160.embed",
+        "file://plotly.com/~iguzmanvt/154.embed",
+        "file://plotly.com/~iguzmanvt/66.embed",
+        "file://plotly.com/~iguzmanvt/152.embed",
+        "file://plotly.com/~iguzmanvt/150.embed"
+      ],
+      "width": {
+        "width": 1440,
+        "content": 1440
+      },
+      "external_attempts_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+        "https://ourworldindata.org/grapher/child-mortality-gdp-per-capita",
+        "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita",
+        "https://ourworldindata.org/grapher/co-emissions-per-capita-vs-gdp-per-capita-international-",
+        "https://ourworldindata.org/grapher/dependency-age-groups-to-2100?country=~OWID_WRL",
+        "https://ourworldindata.org/grapher/employment-by-economic-sector?stackMode=relative&country=~USA",
+        "https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&time=1979..2018&country=CHN~IND~Sub-Sahara+Africa",
+        "https://ourworldindata.org/grapher/gdppercapita-vs-annual-hours-worked",
+        "https://ourworldindata.org/grapher/global-hunger-index-vs-gdp-per-capita",
+        "https://ourworldindata.org/grapher/historical-and-projected-population-by-region",
+        "https://ourworldindata.org/grapher/life-expectancy-years-vs-real-gdp-per-capita-2011us?time=latest",
+        "https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp",
+        "https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?tab=chart",
+        "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=CHN~IND~Sub-Saharan+Africa",
+        "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita",
+        "https://ourworldindata.org/grapher/urbanization-vs-gdp"
+      ]
+    }
+  ],
+  "scope": "Diez notas añadidas. Dependencias externas bloqueadas o sustituidas para comprobar recursos locales; no se acredita disponibilidad externa."
+}

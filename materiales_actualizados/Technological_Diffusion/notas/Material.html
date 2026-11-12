@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Crecimiento Económico. Difusión tecnológica</title>
+
+<script src="Material_files/header-attrs-2.28/header-attrs.js"></script>
+<script src="Material_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Material_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="Material_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="Material_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="Material_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="Material_files/navigation-1.1/tabsets.js"></script>
+<link href="Material_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="Material_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Crecimiento Económico. Difusión
+tecnológica</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#crecimiento-econ%C3%B3mico-difusi%C3%B3n-tecnol%C3%B3gica"
+id="toc-crecimiento-económico-difusión-tecnológica">Crecimiento
+Económico | Difusión tecnológica</a>
+<ul>
+<li><a href="#modelo-de-difusi%C3%B3n-tecnol%C3%B3gica"
+id="toc-modelo-de-difusión-tecnológica">Modelo de difusión
+tecnológica</a></li>
+<li><a href="#adaptaci%C3%B3n-de-tecnolog%C3%ADas-existentes"
+id="toc-adaptación-de-tecnologías-existentes">Adaptación de tecnologías
+existentes:</a></li>
+<li><a href="#adaptaci%C3%B3n-de-tecnolog%C3%ADas-existentes-1"
+id="toc-adaptación-de-tecnologías-existentes-1">Adaptación de
+tecnologías existentes:</a></li>
+<li><a href="#adaptaci%C3%B3n-de-tecnolog%C3%ADas-existentes-2"
+id="toc-adaptación-de-tecnologías-existentes-2">Adaptación de
+tecnologías existentes:</a></li>
+<li><a href="#adaptaci%C3%B3n-de-tecnolog%C3%ADas-existentes-3"
+id="toc-adaptación-de-tecnologías-existentes-3">Adaptación de
+tecnologías existentes:</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica"
+id="toc-difusión-tecnológica">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-1"
+id="toc-difusión-tecnológica-1">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-2"
+id="toc-difusión-tecnológica-2">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-3"
+id="toc-difusión-tecnológica-3">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-4"
+id="toc-difusión-tecnológica-4">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-5"
+id="toc-difusión-tecnológica-5">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-6"
+id="toc-difusión-tecnológica-6">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-7"
+id="toc-difusión-tecnológica-7">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-8"
+id="toc-difusión-tecnológica-8">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-9"
+id="toc-difusión-tecnológica-9">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-10"
+id="toc-difusión-tecnológica-10">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-11"
+id="toc-difusión-tecnológica-11">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-12"
+id="toc-difusión-tecnológica-12">Difusión tecnológica</a></li>
+<li><a href="#difusi%C3%B3n-tecnol%C3%B3gica-13"
+id="toc-difusión-tecnológica-13">Difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-1"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-1">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-2"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-2">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-3"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-3">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-4"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-4">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-5"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-5">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-6"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-6">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-7"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-7">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-8"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-8">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-9"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-9">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-10"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-10">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-11"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-11">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-12"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-12">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-13"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-13">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-14"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-14">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-15"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-15">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-16"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-16">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-17"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-17">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-18"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-18">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-19"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-19">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+<li><a
+href="#modelo-schumpeteriano-de-difusi%C3%B3n-tecnol%C3%B3gica-20"
+id="toc-modelo-schumpeteriano-de-difusión-tecnológica-20">Modelo
+Schumpeteriano de difusión tecnológica</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="crecimiento-económico-difusión-tecnológica"
+class="section level1">
+<h1>Crecimiento Económico | Difusión tecnológica</h1>
+<div id="modelo-de-difusión-tecnológica" class="section level2">
+<h2>Modelo de difusión tecnológica</h2>
+<ul>
+<li><p>Un planteamiento para modelar la convergencia es tomar la
+tecnología de la frontera de producción de las economías “líderes” que
+son copiadas o adoptadas por países “seguidores”.</p></li>
+<li><p>En este caso, el crecimiento económico refleja:</p>
+<ul>
+<li><p>La adopción de tecnología.</p></li>
+<li><p>Las tasas diferenciales de generación de tecnología
+endógena.</p></li>
+<li><p>El uso eficiente de la tecnología.</p></li>
+</ul></li>
+<li><p>Modelar la adopción tecnológica implica los siguientes
+desafíos:</p>
+<ul>
+<li><p>Incluso dentro de un solo país, observamos diferencias
+considerables en el uso de las tecnologías entre industrias.</p></li>
+<li><p>Es difícil explicar cómo en el mundo globalizado algunos países
+pueden no importar o usar tecnologías existentes.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="adaptación-de-tecnologías-existentes" class="section level2">
+<h2>Adaptación de tecnologías existentes:</h2>
+<ul>
+<li><p>Si bien países como Estados Unidos, Alemania o Japón crean sus
+propias tecnologías a través del proceso de I&amp;D, la mayoría de los
+países del mundo son importadores de tecnología en lugar de líderes en
+tecnología.</p></li>
+<li><p>A pesar de las excepciones existentes en los países en
+desarrollo, la adopción de tecnologías es más importante para la mayoría
+de las empresas en estos países que la creación de tecnologías
+completamente nuevas.</p></li>
+<li><p>Esta perspectiva también sugiere que un análisis detallado de la
+difusión de la tecnología y las decisiones de adopción de tecnología es
+necesario entender la evolución de la productividad y las diferencias
+tecnológicas entre los países.</p></li>
+</ul>
+</div>
+<div id="adaptación-de-tecnologías-existentes-1" class="section level2">
+<h2>Adaptación de tecnologías existentes:</h2>
+<ul>
+<li><p>A pesar de la presunción de que la tecnología y los conocimientos
+técnicos disponibles se pueden adoptar fácilmente, existen diferencias
+considerables de tecnología y productividad entre países y empresas que
+operan en circunstancias similares.</p></li>
+<li><p>El artículo clásico en esta área es el estudio de Griliches
+(1957) sobre la adopción de maíz híbrido en los Estados Unidos.</p></li>
+<li><p>Griliches demostró que el maíz híbrido más productivo se difundió
+lentamente en la agricultura de los Estados Unidos y que esta difusión
+se vio afectada por las condiciones económicas locales de diferentes
+áreas.</p></li>
+<li><p>La probabilidad de adopción está relacionada con la contribución
+de la productividad del maíz híbrido en un área en particular, el tamaño
+del mercado y el nivel de habilidad de la fuerza laboral en el
+área.</p></li>
+</ul>
+</div>
+<div id="adaptación-de-tecnologías-existentes-2" class="section level2">
+<h2>Adaptación de tecnologías existentes:</h2>
+<ul>
+<li>Otra contribución del estudio fue plantear la curva de difusión en
+forma de S, en la que la tecnología se propaga primero lentamente y
+luego, una vez que alcanza un nivel crítico de adopción, comienza a
+propagarse mucho más rápidamente.</li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="adaptación-de-tecnologías-existentes-3" class="section level2">
+<h2>Adaptación de tecnologías existentes:</h2>
+<ul>
+<li>Finalmente, una vez que una gran parte de la población objetivo
+adopta la tecnología, la tasa de adopción vuelve a disminuir.</li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> “Was the wealth of nations determined
+in 1000 bc?” (Comin, Easterly, Gong, 2010)</span></p></li>
+<li><p>Comin, Easterly, Gong (2010) calculan la falta de difusión en el
+uso de 10 tecnologías para al menos 95 países. Además, también calculan
+los retrasos en el uso del tiempo para el PIB per cápita.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-1" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> “Was the wealth of nations determined
+in 1000 bc?” (Comin, Easterly, Gong, 2010)</span></p></li>
+<li><p>La mayoría de la población mundial vive en países con niveles de
+PIB per cápita menores a los observados en Estados Unidos en la era
+posterior a la Segunda Guerra Mundial.</p></li>
+<li><p>La mayor parte del África subsahariana, al igual que Afganistán y
+Mongolia, tienen niveles de ingreso per cápita que no se han observado
+en los Estados Unidos desde 1820.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-2" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> “Was the wealth of nations determined
+in 1000 bc?” (Comin, Easterly, Gong, 2010)</span></p></li>
+<li><p>Sus principales conclusiones son:</p>
+<ul>
+<li><p>Los retrasos en el uso de la tecnología son grandes, comparables
+a los retrasos en el PIB per cápita real</p></li>
+<li><p>Los retrasos en el uso están correlacionados entre los países con
+retrasos en el ingreso per cápita.</p></li>
+<li><p>Los retrasos en el uso están altamente correlacionados entre las
+tecnologías</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="difusión-tecnológica-3" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> “Was the wealth of nations determined
+in 1000 bc?” (Comin, Easterly, Gong, 2010)</span></p></li>
+<li><p>Difusión de capacidad de energía eléctrica en diferentes
+países:</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-4" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> “Was the wealth of nations determined
+in 1000 bc?” (Comin, Easterly, Gong, 2010)</span></p></li>
+<li><p>Los países desarrollados deberían observar una mayor demanda de
+bienes y servicios que incorporan o utilizan tecnología. Los costos de
+producir los bienes y servicios que incorporan la tecnología tienden a
+aumentar con el salario.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-5" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><span style="color:blue"> “Was the wealth of nations determined in
+1000 bc?” (Comin, Easterly, Gong, 2010)</span></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-6" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><span style="color:blue"> “Was the wealth of nations determined in
+1000 bc?” (Comin, Easterly, Gong, 2010)</span></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-7" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><span style="color:blue"> “Was the wealth of nations determined in
+1000 bc?” (Comin, Easterly, Gong, 2010)</span></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-8" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><span style="color:blue"> “Was the wealth of nations determined in
+1000 bc?” (Comin, Easterly, Gong, 2010)</span></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-9" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li>Una fuerte correlación negativa es evidente, lo que sugiere el hecho
+de que los retrasos en la adopción de tecnología han ido disminuyendo
+con el tiempo. Comin y Hobijn (2010) estiman que las tecnologías
+inventadas 10 años después se adoptan en promedio 4.3 años más
+rápido.</li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-10" class="section level2">
+<h2>Difusión tecnológica</h2>
+<p><img src="Material_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-11" class="section level2">
+<h2>Difusión tecnológica</h2>
+<p><img src="Material_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="difusión-tecnológica-12" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p>Modelo de difusión tecnológica</p></li>
+<li><p>Conclusiones:</p></li>
+<li><p>Tomando la tasa de crecimiento mundial como dada, la estructura
+del equilibrio es similar a la de modelos anteriores.</p></li>
+<li><p>Si se toma esta tasa de crecimiento como endógena, el crecimiento
+para cada país parecerá exógeno, pero estará determinado por la tasa
+global.</p></li>
+<li><p>El progreso tecnológico y el crecimiento económico son el
+resultado de las inversiones de todos los países, pero existen efectos
+tecnológicos secundarios que empujan a los países relativamente
+atrasados hacia el promedio mundial, asegurando tasas de crecimiento
+iguales a largo plazo para todos los países a largo plazo.</p></li>
+</ul>
+</div>
+<div id="difusión-tecnológica-13" class="section level2">
+<h2>Difusión tecnológica</h2>
+<ul>
+<li><p>Modelo de difusión tecnológica</p></li>
+<li><p>Conclusiones:</p></li>
+<li><p>Las tasas de crecimiento siguen siendo compatibles con las
+grandes diferencias de nivel entre los países.</p></li>
+<li><p>Varios supuestos simplificadores: las mismas tasas de descuento y
+el enfoque en el equilibrio de estado estacionario.</p></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Los autores destacan 10 hechos estilizados relacionados con la
+disminución del dinamismo empresarial:</p></li>
+<li><p>Hecho 1. La concentración del mercado ha aumentado</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-1"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 2. Los markups han incrementado</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-2"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 3. La participación de las ganancias en el PIB ha
+aumentado</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-16-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-3"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 3. La participación de las ganancias en el PIB ha
+aumentado</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-17-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-4"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 4. La participación laboral ha disminuido</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-18-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-5"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 5. La concentración del mercado y la participación laboral
+están negativamente asociadas</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-19-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-6"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 6. La brecha de productividad laboral entre las empresas
+líderes y seguidoras se ha ampliado</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-20-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-7"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 7. La tasa de entrada de las empresas ha
+disminuido</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-21-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-8"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 8. La participación económica de las empresas jóvenes ha
+disminuido</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-22-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-9"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 9. La reasignación de empleos y la rotación han
+disminuido</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-23-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-10"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Hechos sobre el dinamismo empresarial</p></li>
+<li><p>Hecho 10. La dispersión de las tasas de crecimiento de las
+empresas ha disminuido</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-24-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-11"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Lo que hacen los autores es proporcionar una explicación
+unificada para los diez hechos con base en el modelo shumpetereano sin
+tomar ninguno de ellos como algo dado, desarrollándola desde los
+conceptos básicos de cómo las empresas compiten y establecen los
+markups.</p></li>
+<li><p>En este caso, las empresas seguidoras no están vendiendo ningún
+producto, solo gastan en I&amp;D.</p>
+<ul>
+<li>Si se quedan muy atrás y la posibilidad de tener asimilación del
+conocimiento es lo suficientemente baja, entonces pasará mucho tiempo
+antes de que puedan alcanzar al líder actual. Por lo tanto, gastan muy
+poco en I&amp;D.</li>
+</ul></li>
+<li><p>Una lógica similar es establecida para las empresas líderes. Si
+la brecha es muy grande, simplemente están invirtiendo dinero de I&amp;D
+sin una ganancia significativa.</p></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-12"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Entonces, cuando la brecha en el costo marginal ya es muy grande
+(y por lo tanto el markup es muy grande) ambas empresas tienen pocos
+incentivos para innovar.</p>
+<ul>
+<li><p>Para el seguidor, esto depende de una gran brecha y una baja
+probabilidad de aprovechar la difusión de conocimiento. Si esta última
+es alta, entonces aún tendría incentivos invertir mucho en
+I&amp;D.</p></li>
+<li><p>Los outsiders siguen una lógica similar a la de los seguidores,
+excepto que no les importa mucho la brecha. Para ellos, lo único que
+importa es la oportunidad de innovar lo suficiente para alcanzar al
+líder. Cuanto mayor es esa posibilidad, más invierten en I + D.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-13"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Con estas consideraciones, los autores suponen impuestos
+corporativos bajos, altos subsidios de I&amp;D y altos costos de entrada
+analizando una caída en la tasa de difusión del conocimiento puede
+explicar los hechos estilizados.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-25-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-14"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p></li>
+<li><p>Una menor probabilidad de difusión del conocimiento implica menos
+productos en los que el seguidor (o un outsider) alcance al líder, y más
+productos con un líder claro y, por lo tanto, una brecha amplia en los
+costos marginales. Esto implica:</p>
+<ul>
+<li><p>La concentración del mercado aumentó. Si más productos tienen un
+líder claro, entonces más productos tienen todas las ventas dirigidas a
+una empresa, lo que se mostrará como una mayor concentración de
+ventas.</p></li>
+<li><p>Los markups promedio aumentaron. Si más productos tienen un líder
+claro, entonces más productos tienen una brecha en el costo marginal y,
+por lo tanto, tienen un markup mayor.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-15"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p>
+<ul>
+<li><p>La participación de los beneficios en el PIB aumentó. Si más
+productos tienen un líder claro, más productos tienen márgenes que se
+traducen en ganancias. Entonces, la participación de las ganancias es
+mayor.</p></li>
+<li><p>La participación laboral del PIB bajó. Si la participación en las
+ganancias aumentó, la participación en los gastos pagados como costos
+(es decir, salarios) disminuyó.</p></li>
+<li><p>La relación entre concentración de mercado y participación
+laboral se distancian aún más.</p></li>
+<li><p>La brecha de productividad aumentó. La productividad es solo el
+inverso del costo marginal aquí. Con menos posibilidades de difusión del
+conocimiento, los incentivos para realizar I&amp;D disminuyen y las
+brechas en el costo marginal (y la productividad) entre líderes y
+seguidores se amplían.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-16"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> Ten Facts on Declining Business
+Dynamism and Lessons from Endogenous Growth Theory (Akcigit y Ates,
+2019)</span></p>
+<ul>
+<li><p>La tasa de entrada de nuevas empresas cayó. Con una tasa más baja
+de difusión del conocimiento, hay menos incentivos por parte de personas
+externas para intentar ingresar a la industria.</p></li>
+<li><p>La participación de las empresas jóvenes cayó. Igual que el
+anterior. Con la entrada de menos personas externas, hay menos empresas
+nuevas como parte de todas las empresas.</p></li>
+<li><p>Los últimos dos hechos, relocalización laboral y dispersión del
+crecimiento de las empresas, se cumplen para un conjunto específico de
+industrias.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-17"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> What Happened to U.S. Business
+Dynamism? (Akcigit y Ates, 2019)</span></p></li>
+<li><p>El objetivo del artículo anterior no es que puedan explicar estos
+hechos con su modelo.</p></li>
+<li><p>El punto es que vincularon estos hechos a una característica del
+proceso de reducción en el dinamismo empresarial, la posibilidad de
+tener suerte en I&amp;D con base en la difusión de conocimiento, que no
+es obvio por el simple hecho de conocer los hechos.</p></li>
+<li><p>El paper acompañante proporciona el vínculo de la falta de
+difusión del conocimiento con protecciones de patentes más estrictas, y
+ofrece algunas pruebas que lo respaldan.</p>
+<ul>
+<li>El ejemplo es el tener la suerte de contratar a un ingeniero de la
+empresa líder. En ausencia de reglas estrictas de propiedad intelectual,
+ese ingeniero básicamente puede recrear el proceso de producción del
+líder en la empresa del seguidor.</li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-18"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> What Happened to U.S. Business
+Dynamism? (Akcigit y Ates, 2019)</span></p></li>
+<li><p>Pero ahora imagine que las reglas de patentes se endurecen.</p>
+<ul>
+<li><p>Ese nuevo ingeniero puede conocer los procesos de producción del
+líder, pero el seguidor no puede implementarlos debido a la infracción
+de una patente, y tiene que licenciar el proceso.</p></li>
+<li><p>Ni siquiera puede contratar al nuevo ingeniero porque tienen un
+acuerdo de no competencia en esa línea de productos.</p></li>
+<li><p>Los incentivos para invertir en la búsqueda de ese ingeniero
+desaparecen.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-19"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue"> What Happened to U.S. Business
+Dynamism? (Akcigit y Ates, 2019)</span></p></li>
+<li><p>En el paper documentan indicadores del flujo de conocimiento
+utilizando datos de patentes.</p></li>
+<li><p>Argumentan que la concentración de patentes en empresas líderes
+muestra que están protegiendo más activamente la propiedad intelectual
+que en el pasado para evitar la difusión del conocimiento.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-26-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="modelo-schumpeteriano-de-difusión-tecnológica-20"
+class="section level2">
+<h2>Modelo Schumpeteriano de difusión tecnológica</h2>
+<ul>
+<li><p><span style="color:blue">What Happened to U.S. Business Dynamism?
+(Akcigit y Ates, 2019)</span></p></li>
+<li><p>También analizan las reasignaciones de patentes, que ocurren
+cuando una empresa compra una patente a otra. Este es un método para un
+líder de crear red densa de patentes “patent thicket” que evita que los
+seguidores o outsiders conozcan sus conocimientos ni sus costos
+marginales.</p></li>
+<li><p>Esto muestra que los líderes están tratando más activamente de
+evitar que los seguidores o extraños asimilen el conocimiento.</p></li>
+</ul>
+<p><img src="Material_files/figure-html/unnamed-chunk-27-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

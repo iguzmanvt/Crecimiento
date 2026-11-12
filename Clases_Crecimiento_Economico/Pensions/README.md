@@ -1,5 +1,9 @@
 # Sistemas de pensiones y crecimiento económico
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Pensions/notas/Material.html) · [Presentación](../../materiales_actualizados/Pensions/presentacion/Material.html) · [Material de consulta](../../material_consulta/Pensions.md).
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

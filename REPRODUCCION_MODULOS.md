@@ -1,5 +1,20 @@
 # Generación de los 15 módulos de Crecimiento
 
+## Índice completo del curso
+
+El índice ofrece notas y presentaciones para los 16 temas, incluida Introducción. La selección publicada comprende 16 notas, 16 presentaciones y el ejemplo calculado de Estados Unidos: 33 materiales. Se agregaron diez presentaciones y se alinearon diez notas a partir de los renders existentes de las mismas fuentes comprobadas. Se conservan las variantes en sus fuentes originales.
+
+El [material de consulta](material_consulta/README.md) contiene referencias del programa para los 16 temas y ocho enunciados históricos: las siete tareas y una variante de educación y mercado laboral. La [nota de edición](material_consulta/EDICION_ENUNCIADOS.md) identifica los ajustes de los enunciados.
+
+| Requisito | Aceptación | Evidencia |
+| --- | --- | --- |
+| R-010: presentaciones en todos los temas | 16 enlaces a HTML existentes, con recursos y navegación comprobados | `verificacion/indice_20261111/presentaciones_navegador.json` y verificaciones previas conservadas |
+| R-011: consulta en todos los temas | 16 páginas con lecturas y localizador del programa; tareas relacionadas cuando existen | `material_consulta/catalogo.json` |
+| R-012: índice sin las dos etiquetas especiales | Las filas ofrecen notas, presentación y consulta de forma uniforme | `README.md` y `materiales_actualizados/index.html` |
+| R-013: conservar las fuentes y figuras de clase | Rmd y gráficos sin cambios; copias añadidas cotejadas | `verificacion/indice_20261111/estado.json` |
+
+Las notas reutilizadas provienen del mismo cuerpo Rmd comprobado; Introducción usa los formatos de la variante con tabla. Para los 15 módulos posteriores se conserva el renderizador por módulo. Introducción conserva su generador propio, `scripts/renderizar_introduccion.R`.
+
 ## Actualización de las gráficas reconstruidas
 
 Las 40 figuras están en `graficas_reconstruidas/`, con datos, fórmulas y generadores por grupo. El renderizador copia esa carpeta a la raíz común de la salida y ajusta los enlaces relativos, incluida la fuente anidada CE-Ideas. Conservar la salida completa para abrir notas y presentaciones.

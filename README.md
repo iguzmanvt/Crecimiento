@@ -1,43 +1,38 @@
 # Crecimiento Económico
 
-## Gráficas y materiales actualizados
-
-**40 gráficas reconstruidas e integradas en seis módulos.** [Notas y presentaciones](materiales_actualizados/README.md) · [Figuras, datos y método](RECONSTRUCCION_GRAFICAS.md) · [Abrir las vistas locales](graficas_reconstruidas/README.md). Descargar o clonar el repositorio para interactuar con los HTML; las imágenes PNG pueden consultarse directamente en el catálogo.
-
-
-Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 2023. El programa reúne el temario, las lecturas y la secuencia de clases. El índice organiza los materiales disponibles por carpeta. [Programa del curso en PDF](Clases_Crecimiento_Economico/Crecimiento_Econ%C3%B3mico_Programa.pdf).
+Materiales del curso **Crecimiento Económico (ECO-18300)**, ITAM, Primavera 2023. El índice reúne las notas, presentaciones y materiales de consulta por tema. [Programa del curso](Clases_Crecimiento_Economico/Crecimiento_Econ%C3%B3mico_Programa.pdf).
 
 ## Materiales por tema
 
-| Tema | Carpeta | Material de entrada |
-| --- | --- | --- |
-| Introducción al curso | [Introduction](Clases_Crecimiento_Economico/Introduction/) | [Nota HTML](Clases_Crecimiento_Economico/Introduction/Crecimiento-Economico-1-Nota.html) · [Generar presentaciones](Clases_Crecimiento_Economico/Introduction/README.md) · [Referencias externas](Clases_Crecimiento_Economico/Introduction/referencias_externas/README.md) |
-| Estudios de caso con el modelo de Solow | [Solow](Clases_Crecimiento_Economico/Solow/) | [Notas actualizadas](materiales_actualizados/Solow/notas/Material.html) · [Presentación](materiales_actualizados/Solow/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Solow/Crecimiento-Economico-2-Nota.html) · [Gráfica 42 recuperada](Clases_Crecimiento_Economico/Solow/recuperado/) |
-| Convergencia y políticas públicas para el crecimiento | [Convergence](Clases_Crecimiento_Economico/Convergence/) | [Nota HTML](Clases_Crecimiento_Economico/Convergence/Crecimiento-Economico---Convergencia-Nota.html) |
-| Contabilidad del crecimiento | [Accounting](Clases_Crecimiento_Economico/Accounting/) | [Notas actualizadas](materiales_actualizados/Accounting/notas/Material.html) · [Presentación](materiales_actualizados/Accounting/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Accounting/Crecimiento-Economico---Contabilidad-del-crecimiento-Nota.html) · [Ejemplo en Excel](Clases_Crecimiento_Economico/Accounting/Ejemplo%20Estados%20Unidos.xlsx) |
-| Ideas, productividad e investigación y desarrollo | [Ideas](Clases_Crecimiento_Economico/Ideas/) | [Notas actualizadas](materiales_actualizados/Ideas/notas/Material.html) · [Presentación](materiales_actualizados/Ideas/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Ideas/Crecimiento-Economico---Ideas-Nota.html) |
-| Patentes | [Patents](Clases_Crecimiento_Economico/Patents/) | [Nota HTML](Clases_Crecimiento_Economico/Patents/Crecimiento-Economico---Patentes-2-Nota.html) |
-| Competencia y modelo schumpeteriano | [Competition](Clases_Crecimiento_Economico/Competition/) | [Nota HTML](Clases_Crecimiento_Economico/Competition/Crecimiento-Economico---Competencia-Nota.html) |
-| Difusión tecnológica | [Technological_Diffusion](Clases_Crecimiento_Economico/Technological_Diffusion/) | [Nota HTML](Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento-Economico---Difusi%C3%B3n-tecnol%C3%B3gica-Nota.html) |
-| Transformación sectorial y crecimiento | [Structural_Transformation](Clases_Crecimiento_Economico/Structural_Transformation/) | [Nota HTML](Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento-Economico---Transformacion-sectorial-Nota.html) |
-| Desaceleración del crecimiento en países desarrollados | [Slowdown](Clases_Crecimiento_Economico/Slowdown/) | [Notas actualizadas](materiales_actualizados/Slowdown/notas/Material.html) · [Presentación](materiales_actualizados/Slowdown/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Slowdown/Crecimiento-Economico---Desaceleraci%C3%B3n-Nota.html) |
-| Cambio tecnológico y sustitución laboral | [Labor](Clases_Crecimiento_Economico/Labor/) | [Nota HTML](Clases_Crecimiento_Economico/Labor/Crecimiento-Economico---Mercado-Laboral-Nota.html) |
-| Cambio tecnológico, género y migración | [Labor_2](Clases_Crecimiento_Economico/Labor_2/) | [Nota HTML](Clases_Crecimiento_Economico/Labor_2/Crecimiento-Economico---Mercado-Laboral-2-Nota.html) · [Gráfica 223 recuperada](Clases_Crecimiento_Economico/Labor_2/recuperado/) |
-| Sistemas de pensiones y crecimiento económico | [Pensions](Clases_Crecimiento_Economico/Pensions/) | [Nota HTML](Clases_Crecimiento_Economico/Pensions/Crecimiento-Economico---Pensiones-Nota.html) |
-| Energía, población y crecimiento | [Energy](Clases_Crecimiento_Economico/Energy/) | [Notas actualizadas](materiales_actualizados/Energy/notas/Material.html) · [Presentación](materiales_actualizados/Energy/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Energy/Crecimiento-Economico---Energ%C3%ADa-Nota.html) |
-| Medio ambiente y crecimiento | [Environment](Clases_Crecimiento_Economico/Environment/) | [Nota HTML en Energía](Clases_Crecimiento_Economico/Energy/Crecimiento-Economico---Medio-Ambiente-Nota.html) · [Fuente Rmd](Clases_Crecimiento_Economico/Environment/Crecimiento%20Economico%20-%20Medio%20Ambiente.Rmd) |
-| Política fiscal y crecimiento | [Taxes](Clases_Crecimiento_Economico/Taxes/) | [Notas actualizadas](materiales_actualizados/Taxes/notas/Material.html) · [Presentación](materiales_actualizados/Taxes/presentacion/Material.html) · [Nota histórica](Clases_Crecimiento_Economico/Taxes/Crecimiento-Economico---Politica-Fiscal-y-crecimiento-Nota.html) |
+| Tema | Carpeta | Notas | Presentación | Material de consulta |
+| --- | --- | --- | --- | --- |
+| Introducción al curso | [Archivos](Clases_Crecimiento_Economico/Introduction/) | [Notas](materiales_actualizados/Introduction/notas/Material.html) | [Presentación](materiales_actualizados/Introduction/presentacion/Material.html) | [Consultar](material_consulta/Introduction.md) |
+| Estudios de caso con el modelo de Solow | [Archivos](Clases_Crecimiento_Economico/Solow/) | [Notas](materiales_actualizados/Solow/notas/Material.html) | [Presentación](materiales_actualizados/Solow/presentacion/Material.html) | [Consultar](material_consulta/Solow.md) |
+| Convergencia y políticas públicas para el crecimiento | [Archivos](Clases_Crecimiento_Economico/Convergence/) | [Notas](materiales_actualizados/Convergence/notas/Material.html) | [Presentación](materiales_actualizados/Convergence/presentacion/Material.html) | [Consultar](material_consulta/Convergence.md) |
+| Contabilidad del crecimiento | [Archivos](Clases_Crecimiento_Economico/Accounting/) | [Notas](materiales_actualizados/Accounting/notas/Material.html) | [Presentación](materiales_actualizados/Accounting/presentacion/Material.html) | [Consultar](material_consulta/Accounting.md) |
+| Ideas, productividad e investigación y desarrollo | [Archivos](Clases_Crecimiento_Economico/Ideas/) | [Notas](materiales_actualizados/Ideas/notas/Material.html) | [Presentación](materiales_actualizados/Ideas/presentacion/Material.html) | [Consultar](material_consulta/Ideas.md) |
+| Patentes | [Archivos](Clases_Crecimiento_Economico/Patents/) | [Notas](materiales_actualizados/Patents/notas/Material.html) | [Presentación](materiales_actualizados/Patents/presentacion/Material.html) | [Consultar](material_consulta/Patents.md) |
+| Competencia y modelo schumpeteriano | [Archivos](Clases_Crecimiento_Economico/Competition/) | [Notas](materiales_actualizados/Competition/notas/Material.html) | [Presentación](materiales_actualizados/Competition/presentacion/Material.html) | [Consultar](material_consulta/Competition.md) |
+| Difusión tecnológica | [Archivos](Clases_Crecimiento_Economico/Technological_Diffusion/) | [Notas](materiales_actualizados/Technological_Diffusion/notas/Material.html) | [Presentación](materiales_actualizados/Technological_Diffusion/presentacion/Material.html) | [Consultar](material_consulta/Technological_Diffusion.md) |
+| Transformación sectorial y crecimiento | [Archivos](Clases_Crecimiento_Economico/Structural_Transformation/) | [Notas](materiales_actualizados/Structural_Transformation/notas/Material.html) | [Presentación](materiales_actualizados/Structural_Transformation/presentacion/Material.html) | [Consultar](material_consulta/Structural_Transformation.md) |
+| Desaceleración del crecimiento en países desarrollados | [Archivos](Clases_Crecimiento_Economico/Slowdown/) | [Notas](materiales_actualizados/Slowdown/notas/Material.html) | [Presentación](materiales_actualizados/Slowdown/presentacion/Material.html) | [Consultar](material_consulta/Slowdown.md) |
+| Cambio tecnológico y sustitución laboral | [Archivos](Clases_Crecimiento_Economico/Labor/) | [Notas](materiales_actualizados/Labor/notas/Material.html) | [Presentación](materiales_actualizados/Labor/presentacion/Material.html) | [Consultar](material_consulta/Labor.md) |
+| Cambio tecnológico, género y migración | [Archivos](Clases_Crecimiento_Economico/Labor_2/) | [Notas](materiales_actualizados/Labor_2/notas/Material.html) | [Presentación](materiales_actualizados/Labor_2/presentacion/Material.html) | [Consultar](material_consulta/Labor_2.md) |
+| Sistemas de pensiones y crecimiento económico | [Archivos](Clases_Crecimiento_Economico/Pensions/) | [Notas](materiales_actualizados/Pensions/notas/Material.html) | [Presentación](materiales_actualizados/Pensions/presentacion/Material.html) | [Consultar](material_consulta/Pensions.md) |
+| Energía, población y crecimiento | [Archivos](Clases_Crecimiento_Economico/Energy/) | [Notas](materiales_actualizados/Energy/notas/Material.html) | [Presentación](materiales_actualizados/Energy/presentacion/Material.html) | [Consultar](material_consulta/Energy.md) |
+| Medio ambiente y crecimiento | [Archivos](Clases_Crecimiento_Economico/Environment/) | [Notas](materiales_actualizados/Environment/notas/Material.html) | [Presentación](materiales_actualizados/Environment/presentacion/Material.html) | [Consultar](material_consulta/Environment.md) |
+| Política fiscal y crecimiento | [Archivos](Clases_Crecimiento_Economico/Taxes/) | [Notas](materiales_actualizados/Taxes/notas/Material.html) | [Presentación](materiales_actualizados/Taxes/presentacion/Material.html) | [Consultar](material_consulta/Taxes.md) |
 
-## Consulta y edición
+## Consulta del curso
 
-- Abre las notas HTML en el navegador desde una copia local del repositorio. Si descargas una nota con recursos asociados, conserva sus rutas.
-- Las carpetas también contienen fuentes R Markdown (`.Rmd`) de notas y presentaciones. Para regenerarlas, revisa los paquetes, estilos y archivos de datos que indica cada fuente.
-- La [verificación de rutas e imágenes](PORTABILIDAD_RMD.md) comprueba las lecturas locales de las fuentes R Markdown y documenta sus límites de reproducción.
+- [Lecturas y recursos por tema](material_consulta/README.md).
+- [Tareas y ejercicios: siete enunciados y una variante temática](material_consulta/tareas/README.md).
+- [Ejemplo de contabilidad del crecimiento en Excel](Clases_Crecimiento_Economico/Accounting/Ejemplo%20Estados%20Unidos.xlsx) y [ejemplo calculado](materiales_actualizados/Accounting/ejemplo/Material.html).
 
-## Generar notas y presentaciones
+## Abrir y editar
 
-Los 15 módulos posteriores a Introducción cuentan con [guía de generación, estado y límites](REPRODUCCION_MODULOS.md). Las carpetas de tema incluyen un README con sus fuentes y variantes. El renderizador genera las 51 salidas fuera del repositorio. Para los seis módulos con reconstrucciones, el índice ofrece notas y presentaciones actualizadas además del antecedente histórico; los demás módulos conservan sus entradas previas.
+Descarga o clona el repositorio y abre `materiales_actualizados/index.html` para consultar las notas, presentaciones y lecturas. Conserva las carpetas que acompañan a los HTML. GitHub muestra su código fuente.
 
-## Seguimiento de Chart Studio y PWT
+Las páginas de consulta y sus fórmulas se pueden leer desde disco. Las referencias externas y algunos recursos de las clases, como MathJax, mantienen sus dependencias de conexión y acceso editorial o institucional.
 
-El [informe de seguimiento](PENDIENTES_GRAFICAS_Y_PWT.md) cierra el efecto de la diferencia de capital sobre el ejemplo USA y ofrece [44 vistas locales de apoyo](recursos_graficas/README.md). Los 40 identificadores originales mantienen su estado sin autenticar; las alternativas preservan procedencia y límites.
+Las fuentes R Markdown siguen disponibles en las carpetas del curso. [Generación de notas y presentaciones](REPRODUCCION_MODULOS.md) · [Figuras, datos y método](RECONSTRUCCION_GRAFICAS.md) · [Verificación del índice](verificacion/indice_20261111/estado.json).

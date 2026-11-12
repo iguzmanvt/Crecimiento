@@ -1,5 +1,9 @@
 # Difusión tecnológica
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Technological_Diffusion/notas/Material.html) · [Presentación](../../materiales_actualizados/Technological_Diffusion/presentacion/Material.html) · [Material de consulta](../../material_consulta/Technological_Diffusion.md).
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

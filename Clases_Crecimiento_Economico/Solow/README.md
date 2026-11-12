@@ -1,5 +1,9 @@
 # Estudios de caso con el modelo de Solow
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Solow/notas/Material.html) · [Presentación](../../materiales_actualizados/Solow/presentacion/Material.html) · [Material de consulta](../../material_consulta/Solow.md).
+
 **Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Solow/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Solow/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
 
 

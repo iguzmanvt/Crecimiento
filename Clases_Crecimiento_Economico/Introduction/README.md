@@ -1,5 +1,9 @@
 # Introducción: consulta y generación
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Introduction/notas/Material.html) · [Presentación](../../materiales_actualizados/Introduction/presentacion/Material.html) · [Material de consulta](../../material_consulta/Introduction.md).
+
 La [nota HTML histórica](Crecimiento-Economico-1-Nota.html) conserva la entrega original del curso. Las fuentes `Crecimiento Economico 1.Rmd` y `Crecimiento Economico Intro.Rmd` son variantes de la presentación: la primera incorpora una tabla inicial adicional con los bloques del temario. Se mantienen ambas.
 
 ## Corrección de configuración del 11 de noviembre de 2026

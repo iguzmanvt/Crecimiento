@@ -1,0 +1,533 @@
+{
+  "baseline": "6d42d25830bf17db3694394cc9099b59986aa2a1",
+  "program": {
+    "repo_path": "Clases_Crecimiento_Economico/Crecimiento_Económico_Programa.pdf",
+    "pages": 20,
+    "course": "Crecimiento Económico, ITAM, Primavera 2023"
+  },
+  "modules": [
+    {
+      "module": "Introduction",
+      "title": "Introducción al curso",
+      "program_locator": "pp. 4 y 16; tema I, clases 1–2",
+      "assigned_readings": [
+        "Barro y Sala-i-Martin, Introducción",
+        "Sala-i-Martin, Introducción",
+        "Jones y Klenow (2016), Beyond GDP?",
+        "Acemoglu y Robinson (2012), prefacio y capítulo 2; clase 2"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T1",
+          "sections": "1. Documentación PWT; 3. Series y crecimiento",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Solow",
+      "title": "Estudios de caso con el modelo de Solow",
+      "program_locator": "pp. 5 y 16; II.i, clases 3–4",
+      "assigned_readings": [
+        "Barro y Sala-i-Martin, 1.1 y 1.2",
+        "Sala-i-Martin, capítulo 1",
+        "Solow (1956), A contribution to the theory of economic growth; complementaria",
+        "Solow (1957), Technical change and the aggregate production function; clase 3"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T2",
+          "sections": "1.1. Senda de crecimiento balanceado; 2. Ejercicios de Solow",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. Caso Cambodia y LTGM",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Convergence",
+      "title": "Convergencia y políticas públicas para el crecimiento",
+      "program_locator": "pp. 7–8 y 16; II.iv, clase 9",
+      "assigned_readings": [
+        "Barro y Sala-i-Martin, capítulo 11",
+        "Chiquiar (2005), Why Mexico's regional income convergence broke down",
+        "Johnson y Papageorgiou (2018), What remains of cross-country convergence?"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T1",
+          "sections": "2. Convergencia entre países de la OCDE",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "1. Regresión a la media",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Accounting",
+      "title": "Contabilidad del crecimiento",
+      "program_locator": "pp. 5–6 y 16; II.ii, clase 5",
+      "assigned_readings": [
+        "Barro y Sala-i-Martin, capítulo 10",
+        "Solow (1957), Technical change and the aggregate production function",
+        "Krugman (1994), The myth of Asia's miracle",
+        "Lucas (2003), The industrial revolution: past and future"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T1",
+          "sections": "1. Documentación de las PWT",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T2",
+          "sections": "1.1. Contabilidad del crecimiento para México",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. Caso Cambodia y LTGM",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Ideas",
+      "title": "Ideas, productividad e investigación y desarrollo",
+      "program_locator": "pp. 10, 13 y 18; IV, clase 28 y clase 30",
+      "assigned_readings": [
+        "Romer, Endogenous technological change, NBER WP3210 (1989), clase 28",
+        "Jones y Summers, A Calculation of the Social Returns to Innovation (2021 en programa), clase 30",
+        "Bloom, Van Reenen y Williams (2019), A Toolkit of Policies to Promote Innovation"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T6",
+          "sections": "1. Romer y bienes no rivales; 2. Entradas del blog de Romer",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T7",
+          "sections": "2. Retornos sociales de I+D",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Patents",
+      "title": "Patentes",
+      "program_locator": "pp. 13 y 18; IV.iv, clase 29",
+      "assigned_readings": [
+        "Lerner y Tirole (2000), The Simple Economics of Open Source",
+        "Nelson (2009), Measuring knowledge spillovers; complementaria",
+        "Fischer y Leidinger (2014), Testing patent value indicators; complementaria"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T7",
+          "sections": "1. Derechos de autor, exclusividad e incentivos en música",
+          "relation": "relacionada: propiedad intelectual; no patentes técnicas"
+        },
+        {
+          "task_id": "T6",
+          "sections": "1. Exclusividad parcial de diseños",
+          "relation": "relacionada"
+        }
+      ]
+    },
+    {
+      "module": "Competition",
+      "title": "Competencia y modelo schumpeteriano",
+      "program_locator": "pp. 13 y 18; IV.iv, clase 31",
+      "assigned_readings": [
+        "Aghion y Howitt (1992), modelo de crecimiento por destrucción creativa",
+        "Barro y Sala-i-Martin, capítulos 5 y 6; marco de modelos endógenos"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T7",
+          "sections": "1. Propiedad intelectual y barreras a la creatividad",
+          "relation": "relacionada: incentivos; no desarrolla el modelo schumpeteriano"
+        }
+      ]
+    },
+    {
+      "module": "Technological_Diffusion",
+      "title": "Difusión tecnológica",
+      "program_locator": "pp. 14 y 19; IV.v, clase 32",
+      "assigned_readings": [
+        "Caselli y Coleman (2001), Cross-country technology diffusion: the case of computers",
+        "Comin y Hobijn (2004), Cross-country technology adoption: making the theories face the facts",
+        "Akcigit y Ates (2019), Ten Facts on Declining Business Dynamism",
+        "Akcigit y Ates (2019), What Happened to U.S. Business Dynamism?"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T3",
+          "sections": "1. Atlas de Complejidad Económica",
+          "relation": "relacionada: aprendizaje y conocimiento productivo; no modelo formal de difusión"
+        }
+      ]
+    },
+    {
+      "module": "Structural_Transformation",
+      "title": "Transformación sectorial y crecimiento",
+      "program_locator": "pp. 6–7 y 16; II.iii, clases 6–7",
+      "assigned_readings": [
+        "Hsieh y Klenow (2009), Misallocation and manufacturing TFP in China and India",
+        "Baumol (2012), The cost disease",
+        "Young (2014), Structural Transformation, the Mismeasurement of Productivity Growth, and the Cost Disease of Services; complementaria"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T3",
+          "sections": "1. Complejidad económica; 2. Asignación de recursos en México",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "2. Transformación estructural de Cambodia, reporte pp. 35–38",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Slowdown",
+      "title": "Desaceleración del crecimiento en países desarrollados",
+      "program_locator": "pp. 9 y 17; II.vi, clase 13",
+      "assigned_readings": [
+        "Gordon (2013), U.S. productivity growth: the slowdown has returned after a temporary revival",
+        "Pritchett y Summers (2014), Growth slowdowns: middle-income trap vs. regression to the mean",
+        "Liu (2015), Is China's growth miracle over?"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T1",
+          "sections": "3. Series de tiempo y desaceleración de Estados Unidos",
+          "relation": "directa"
+        },
+        {
+          "task_id": "T4",
+          "sections": "1. Regresión a la media",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Labor",
+      "title": "Cambio tecnológico y sustitución laboral",
+      "program_locator": "pp. 11–12 y 18; IV.iii, clases 25–26",
+      "assigned_readings": [
+        "Moretti, The new geography of jobs, capítulo 1",
+        "Cortes, Jaimovich, Nekarda y Siu (2014), The micro and macro of disappearing routine jobs",
+        "Beaudry, Green y Sand (2016), The great reversal in the demand for skill and cognitive tasks",
+        "Autor, Dorn, Katz, Patterson y Van Reenen (2020), The fall of labor share and the rise of superstar firms"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T5_variante",
+          "sections": "3. Acemoglu (2002), cambio tecnológico, desigualdad y mercado laboral",
+          "relation": "directa"
+        }
+      ]
+    },
+    {
+      "module": "Labor_2",
+      "title": "Cambio tecnológico, género y migración",
+      "program_locator": "pp. 11–12 y 18; IV.iii, clase 27",
+      "assigned_readings": [
+        "Duflo (2012), Women empowerment and economic development",
+        "Acemoglu y Autor (2011), Skills, Tasks and Technologies: Implications for Employment and Earnings; complementaria de IV.iii"
+      ],
+      "assignment_refs": []
+    },
+    {
+      "module": "Pensions",
+      "title": "Sistemas de pensiones y crecimiento económico",
+      "program_locator": "pp. 10 y 17; modelo OLG, clases 17–19",
+      "assigned_readings": [
+        "Romer, Advanced Macroeconomics, capítulo 2-B",
+        "Abel, Mankiw, Summers y Zeckhauser (1989), Assessing Dynamic Efficiency: Theory and Evidence",
+        "Bodie, Marcus y Merton (1988), Defined benefit versus defined contribution pension plans: what are the real trade-offs?"
+      ],
+      "assignment_refs": []
+    },
+    {
+      "module": "Energy",
+      "title": "Energía, población y crecimiento",
+      "program_locator": "pp. 5 y 16; aplicación de contabilidad, clase 8",
+      "assigned_readings": [
+        "Barro y Sala-i-Martin, capítulos 1.1–1.2 y 10; marco del modelo y contabilidad"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T2",
+          "sections": "1.1. Modelo de Solow y contabilidad",
+          "relation": "relacionada: modelo de base, sin ejercicio específico de energía"
+        }
+      ]
+    },
+    {
+      "module": "Environment",
+      "title": "Medio ambiente y crecimiento",
+      "program_locator": "pp. 10 y 17; extensión de Ramsey, clase 16",
+      "assigned_readings": [
+        "Banerjee y Duflo (2019), Good Economics for Hard Times, capítulo 6",
+        "Barro y Sala-i-Martin, capítulos 2 y 3; marco de Ramsey"
+      ],
+      "assignment_refs": []
+    },
+    {
+      "module": "Taxes",
+      "title": "Política fiscal y crecimiento",
+      "program_locator": "pp. 8, 16 y 17; clase 10 y modelo de Ramsey",
+      "assigned_readings": [
+        "Pritchett y Summers (2014), Growth slowdowns: middle-income trap vs. regression to the mean; listado de clase 10",
+        "Yagan (2015), Capital Tax Reform and the Real Economy; complementaria en p. 8",
+        "Barro (1987), Government spending, interest rates, prices and budget deficits in the United Kingdom, 1701–1918; clase de Ramsey en p.17"
+      ],
+      "assignment_refs": [
+        {
+          "task_id": "T5",
+          "sections": "1. Gasto público, guerras, tasas de interés y Ramsey",
+          "relation": "directa para gasto público y crecimiento"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "T1",
+      "title": "Medición, PWT, convergencia y series de tiempo",
+      "file": "tareas/Tarea_1.md",
+      "source_name": "Tarea 1.Rmd",
+      "source_sha256": "d72e60d5f9c7fc4378916b1e4b46897b70ca10e447f607770e4f7e6a803f18bb",
+      "sections": [
+        "1. Documentación PWT",
+        "2. Convergencia entre países de la OCDE",
+        "3. Suavización de series y desaceleración"
+      ],
+      "public_markdown_sha256": "605345d8684be85c96c0b065c056b04ae67e879f0f3c8307d718076d936ed8f1",
+      "html": "tareas/Tarea_1.html",
+      "public_html_sha256": "8738f3d214aeb5d3e4353b48f68b0a4d20c9f6f2082b1ad2697f283bc249073e"
+    },
+    {
+      "id": "T2",
+      "title": "México: modelo de Solow y contabilidad del crecimiento",
+      "file": "tareas/Tarea_2.md",
+      "source_name": "Tarea 2.Rmd",
+      "source_sha256": "92d66f334ffc75ef5e45f3ec0a121a8df6fb17551e409423d308943f8c760fba",
+      "sections": [
+        "1.1. Senda de crecimiento balanceado y contabilidad",
+        "1.2. Perspectiva de México",
+        "2. Ejercicios del modelo de Solow"
+      ],
+      "public_markdown_sha256": "9b04098c7c86dcc5e185f15bacc79ab80c654e12658ea928472202d37a2d269e",
+      "html": "tareas/Tarea_2.html",
+      "public_html_sha256": "f720b3d19f000ee56b3b040b3c9173ea4cd978afcfc8f5f46d1f568b5dcbda34"
+    },
+    {
+      "id": "T3",
+      "title": "Complejidad económica y asignación de recursos en México",
+      "file": "tareas/Tarea_3.md",
+      "source_name": "Tarea 3_P2023.Rmd",
+      "source_sha256": "e73e6cde4088312a23477feb1412cabce00752cfe6ff79e14dabbd4225f4a521",
+      "sections": [
+        "1. Atlas de Complejidad Económica",
+        "2. Modelo de Hsieh y Klenow, Levy y De la Calle"
+      ],
+      "public_markdown_sha256": "c22aef9c0a6a297fdef6b122c5b0d992d17877e66bd26ca9a9aae0b1758fb952",
+      "html": "tareas/Tarea_3.html",
+      "public_html_sha256": "85a9936bc38506deeaf26a0acb28708d5ad30af1feb6e8243be6c113dd0084a5"
+    },
+    {
+      "id": "T4",
+      "title": "Regresión a la media, Cambodia y optimización dinámica",
+      "file": "tareas/Tarea_4.md",
+      "source_name": "Tarea 4_P2023.Rmd",
+      "source_sha256": "0a71160bcc3725777a02fdd9b9aa98e52e7becf6d09965e8b4579d7ecee74de7",
+      "sections": [
+        "1. Contra la teoría de Solow: regreso a la media",
+        "2. Caso Cambodia con LTGM",
+        "3. Optimización dinámica en tiempo continuo"
+      ],
+      "public_markdown_sha256": "fb2163497044da522bdea6eff365deee197f19e78d8e2781364d27229a9c7550",
+      "html": "tareas/Tarea_4.html",
+      "public_html_sha256": "07c9ca7e6b851e4ad4f2aa3393ce4df2c90ec38c6f2069043109dcb945106c59"
+    },
+    {
+      "id": "T5",
+      "title": "Gasto público, tasas de interés y modelo de Lucas",
+      "file": "tareas/Tarea_5.md",
+      "source_name": "Tarea-5.html",
+      "source_sha256": "ad7d2d7da48af21dbcfec03d58cff27ac723a4022f689b28f414938610aa4b1a",
+      "sections": [
+        "1. Barro: guerras, gasto y tasas; aplicación Ramsey",
+        "2. Modelo de Lucas"
+      ],
+      "public_markdown_sha256": "b8013851605065874a0e3d127c30998671192d4c9ba6b42c78d4c78efe82be42",
+      "html": "tareas/Tarea_5.html",
+      "public_html_sha256": "c21fbbd0f700e3033cb3630f6dfb85af51ec9d29a18daff9f478f6a1471a81e1"
+    },
+    {
+      "id": "T6",
+      "title": "Innovación, ideas y productividad",
+      "file": "tareas/Tarea_6.md",
+      "source_name": "Tarea-6.html",
+      "source_sha256": "66a08b282d359eb1a2cfa2ace928060ba97f85abec06c7f2a887dfa7993c06a0",
+      "sections": [
+        "1. Endogenous Technological Change, Romer1990",
+        "2. Ocho entradas del blog de Romer"
+      ],
+      "public_markdown_sha256": "ff44d4df99cd7aaf3e06eee1a2dcd40c5f59223fd6bb004ddcc482f6edc2c25b",
+      "html": "tareas/Tarea_6.html",
+      "public_html_sha256": "ab243798b2d02af2296afa5c45899b1fabd402b330f8dec99fb5c3edab0547b8"
+    },
+    {
+      "id": "T7",
+      "title": "Propiedad intelectual y retornos sociales a la innovación",
+      "file": "tareas/Tarea_7.md",
+      "source_name": "Tarea-7.html",
+      "source_sha256": "68d66e991f5711ca3df53316fb10f91de82d6173c0ab16d82c31feb8e7adbd15",
+      "sections": [
+        "1. Derechos de autor e incentivos en la música",
+        "2. Jones y Summers: retornos sociales de I+D"
+      ],
+      "public_markdown_sha256": "4508a6793bbf766c72e804cd852b25c2eb155b9314431ffe7a1322378a17f847",
+      "html": "tareas/Tarea_7.html",
+      "public_html_sha256": "77576b3036cb4c4de757ea306fd866787a680b73196202c78078310f22a3a4a7"
+    },
+    {
+      "id": "T5_variante",
+      "title": "Financiamiento, educación y cambio tecnológico en el mercado laboral",
+      "file": "tareas/Tarea_5_variante.md",
+      "source_name": "Tarea 5_.Rmd",
+      "source_sha256": null,
+      "sections": [
+        "1. Easterly: The Ghost of the Financing Gap",
+        "2. Financiamiento en educación",
+        "3. Acemoglu: Technical change, inequality, and the labor market"
+      ],
+      "public_markdown_sha256": "5011389d27c9dab7d344114d55243dab1f8e779e00ce4627cd4343c63dbbbee9",
+      "html": "tareas/Tarea_5_variante.html",
+      "public_html_sha256": "5b7b5ed440e0cb7e943e64f7a63244349aef85f37b01ddda8e50192779afeb43"
+    }
+  ],
+  "bibliography_links": [
+    {
+      "match": "Jones y Klenow",
+      "url": "https://web.stanford.edu/~chadj/JonesKlenowAER2016.pdf",
+      "access": "PDF de los autores",
+      "source": "Stanford; versión publicada de 2016"
+    },
+    {
+      "match": "Solow (1956)",
+      "url": "https://academic.oup.com/qje/article-abstract/70/1/65/1903777",
+      "access": "Ficha editorial del artículo",
+      "source": "Quarterly Journal of Economics, 1956"
+    },
+    {
+      "match": "Chiquiar (2005)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304387804001580",
+      "access": "Ficha editorial del artículo",
+      "source": "Journal of Development Economics, 2005"
+    },
+    {
+      "match": "Hsieh y Klenow",
+      "url": "https://siepr.stanford.edu/publications/working-paper/misallocation-and-manufacturing-tfp-china-and-india",
+      "access": "Documento de trabajo de los autores",
+      "source": "Stanford; el programa cita el artículo de 2009"
+    },
+    {
+      "match": "Romer, Endogenous",
+      "url": "https://www.nber.org/papers/w3210",
+      "access": "Working paper y referencia editorial",
+      "source": "NBER WP 3210, diciembre de 1989; distinguir de la publicación de 1990"
+    },
+    {
+      "match": "Jones y Summers",
+      "url": "https://www.nber.org/system/files/working_papers/w27863/w27863.pdf",
+      "access": "Working paper",
+      "source": "NBER WP 27863; versión citada por la Tarea 7"
+    },
+    {
+      "match": "Lerner y Tirole",
+      "url": "https://www.nber.org/papers/w7600",
+      "access": "Working paper",
+      "source": "NBER WP 7600, marzo de 2000"
+    },
+    {
+      "match": "Aghion y Howitt",
+      "url": "https://www.jstor.org/stable/2951599",
+      "access": "Artículo publicado",
+      "source": "Econometrica, 1992; DOI 10.2307/2951599"
+    },
+    {
+      "match": "Comin y Hobijn",
+      "url": "https://www.newyorkfed.org/research/staff_reports/sr169.html",
+      "access": "Documento de trabajo y referencia de la publicación",
+      "source": "Federal Reserve Bank of New York, Staff Report 169; remite al artículo de 2004"
+    },
+    {
+      "match": "Akcigit y Ates (2019), Ten Facts",
+      "url": "https://www.nber.org/papers/w25755",
+      "access": "Working paper",
+      "source": "NBER WP 25755, abril de 2019"
+    },
+    {
+      "match": "Pritchett y Summers",
+      "url": "https://cepr.org/voxeu/columns/growth-slowdowns-middle-income-trap-vs-regression-mean",
+      "access": "Artículo de los autores",
+      "source": "VoxEU/CEPR, 11 de diciembre de 2014"
+    },
+    {
+      "match": "Cortes, Jaimovich",
+      "url": "https://www.nber.org/papers/w20307",
+      "access": "Working paper",
+      "source": "NBER WP 20307, julio de 2014"
+    },
+    {
+      "match": "Beaudry, Green y Sand",
+      "url": "https://www.nber.org/papers/w18901",
+      "access": "Documento de trabajo",
+      "source": "NBER WP 18901, marzo de 2013; el programa cita la publicación de 2016"
+    },
+    {
+      "match": "Duflo (2012)",
+      "url": "https://www.aeaweb.org/articles?id=10.1257%2Fjel.50.4.1051",
+      "access": "Ficha editorial del artículo",
+      "source": "Journal of Economic Literature, diciembre de 2012"
+    },
+    {
+      "match": "Abel, Mankiw",
+      "url": "https://www.nber.org/papers/w2097",
+      "access": "Documento de trabajo",
+      "source": "NBER WP 2097, diciembre de 1986; el programa cita el artículo de 1989"
+    },
+    {
+      "match": "Bodie, Marcus",
+      "url": "https://www.nber.org/books-and-chapters/pensions-us-economy/defined-benefit-versus-defined-contribution-pension-plans-what-are-real-trade-offs",
+      "access": "Capítulo publicado",
+      "source": "Pensions in the U.S. Economy, 1988"
+    },
+    {
+      "match": "Banerjee y Duflo",
+      "url": "https://www.hachettebookgroup.com/titles/abhijit-v-banerjee/good-economics-for-hard-times/9781541762879/",
+      "access": "Ficha editorial del libro",
+      "source": "PublicAffairs, edición de 2019"
+    },
+    {
+      "match": "Yagan (2015)",
+      "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20130098",
+      "access": "Ficha editorial del artículo",
+      "source": "American Economic Review, diciembre de 2015"
+    }
+  ],
+  "scope": "Lecturas del programa, enlaces primarios de referencia y enunciados históricos del curso; no incluye entregas de alumnos."
+}

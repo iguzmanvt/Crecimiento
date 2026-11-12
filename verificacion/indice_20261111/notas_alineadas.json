@@ -1,0 +1,99 @@
+{
+  "count": 10,
+  "notes_total": 16,
+  "presentations_total": 16,
+  "materials_total": 33,
+  "entries": [
+    {
+      "id": "04",
+      "module": "Competition",
+      "source": "Clases_Crecimiento_Economico/Competition/Crecimiento Economico - Competencia Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Competition/notas/Material.html",
+      "sha256": "2402503da6a8f7f8c4ee1310889d0c84c2f123d86235fc59429c96ea4c2360ab"
+    },
+    {
+      "id": "06",
+      "module": "Convergence",
+      "source": "Clases_Crecimiento_Economico/Convergence/Crecimiento Economico - Convergencia Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Convergence/notas/Material.html",
+      "sha256": "355d58de832c07b432f7e5de77a99b9327e83bc76b11b0e29874f63119ed9c0f"
+    },
+    {
+      "id": "21",
+      "module": "Patents",
+      "source": "Clases_Crecimiento_Economico/Patents/Crecimiento Economico - Patentes 2 Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Patents/notas/Material.html",
+      "sha256": "e326d17d33781b29f9710c012a2a54c153d9d3ca0077b1df5f930c43987424c2"
+    },
+    {
+      "id": "34",
+      "module": "Technological_Diffusion",
+      "source": "Clases_Crecimiento_Economico/Technological_Diffusion/Crecimiento Economico - Difusión tecnológica Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Technological_Diffusion/notas/Material.html",
+      "sha256": "3c4b14153f3706def9f2cc80aaa9d5e54cf3f03b49681ed97e150431c6621d12"
+    },
+    {
+      "id": "23",
+      "module": "Pensions",
+      "source": "Clases_Crecimiento_Economico/Pensions/Crecimiento Economico - Pensiones Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Pensions/notas/Material.html",
+      "sha256": "0ed047461f8328ccb894363bbf78baed9387a2701c31455362273491696dec74"
+    },
+    {
+      "id": "29",
+      "module": "Structural_Transformation",
+      "source": "Clases_Crecimiento_Economico/Structural_Transformation/Crecimiento Economico - Transformacion sectorial Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Structural_Transformation/notas/Material.html",
+      "sha256": "490093d266af56ebf951561e8ff3c4028ad316574341af49442d10749d1115e0"
+    },
+    {
+      "id": "10",
+      "module": "Environment",
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Medio Ambiente Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Environment/notas/Material.html",
+      "sha256": "7c7e8dcde942bd006a659cd74df65f5165191d5c8365cd1b593881f07efd2559"
+    },
+    {
+      "id": "16",
+      "module": "Labor",
+      "source": "Clases_Crecimiento_Economico/Labor/Crecimiento Economico - Mercado Laboral Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Labor/notas/Material.html",
+      "sha256": "4c5b5ea1af301d578dc6070dc70b6fa4e2d97fe8da8af96e10422f78ab673b00"
+    },
+    {
+      "id": "20",
+      "module": "Labor_2",
+      "source": "Clases_Crecimiento_Economico/Labor_2/Crecimiento Economico - Mercado Laboral 2 Nota.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Labor_2/notas/Material.html",
+      "sha256": "d75c2fb46f3fee9410854e2807a03acfdc90c189ae6115ebf31d444a7d136ffd"
+    },
+    {
+      "id": "I01",
+      "module": "Introduction",
+      "source": "Clases_Crecimiento_Economico/Introduction/Crecimiento Economico 1.Rmd",
+      "format": "html_document",
+      "kind": "notas",
+      "html": "materiales_actualizados/Introduction/notas/Material.html",
+      "sha256": "a7bb3bee5224c62a7a62530a53813fcc714167360f1c7f0730b9aa3c3d80a2c5"
+    }
+  ],
+  "source_policy": "Notas reutilizadas de las mismas fuentes verificadas de los módulos; Introducción es la versión HTML de la misma fuente con tabla utilizada en la presentación."
+}

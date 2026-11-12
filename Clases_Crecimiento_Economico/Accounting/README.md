@@ -1,5 +1,9 @@
 # Contabilidad del crecimiento
 
+## Materiales del tema
+
+[Notas](../../materiales_actualizados/Accounting/notas/Material.html) · [Presentación](../../materiales_actualizados/Accounting/presentacion/Material.html) · [Material de consulta](../../material_consulta/Accounting.md).
+
 **Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Accounting/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Accounting/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
 
 

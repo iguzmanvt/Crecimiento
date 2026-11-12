@@ -1,6 +1,6 @@
 {
   "baseline": "6d42d25830bf17db3694394cc9099b59986aa2a1",
-  "state": "verificado_localmente",
+  "state": "publicado_y_verificado",
   "topics": 16,
   "notes": 16,
   "presentations": 16,
@@ -20,7 +20,9 @@
     ],
     "unchanged_previous_artifacts": 985,
     "unchanged_reconstructed_graph_artifacts": 261,
-    "rmd_sources_changed": 0
+    "rmd_sources_changed": 0,
+    "published_files_compared": 1426,
+    "published_bytes_identical": true
   },
   "evidence": [
     "presentaciones_anadidas.json",
@@ -30,7 +32,9 @@
     "consulta_generada.json",
     "consulta_navegador.json",
     "edicion_enunciados.json",
-    "alcance_y_preservacion.json"
+    "alcance_y_preservacion.json",
+    "descarga_publicada.json"
   ],
-  "scope": "Los recursos locales añadidos se verifican desde disco. Las referencias externas y MathJax de las clases conservan sus dependencias de conexión o acceso."
+  "scope": "Los recursos locales añadidos se verifican desde disco. Las referencias externas y MathJax de las clases conservan sus dependencias de conexión o acceso.",
+  "content_commit": "68ec6ab8b12fc284a908d18b79416bd294b98f81"
 }

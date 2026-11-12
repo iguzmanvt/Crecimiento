@@ -155,25 +155,7 @@
       "images_loaded": 13,
       "local_frames_loaded": 0,
       "javascript_errors": [],
-      "missing_local_resources": [
-        "file://plotly.com/~iguzmanvt/118.embed",
-        "file://plotly.com/~iguzmanvt/168.embed",
-        "file://plotly.com/~iguzmanvt/158.embed",
-        "file://plotly.com/~iguzmanvt/209.embed",
-        "file://plotly.com/~iguzmanvt/205.embed",
-        "file://plotly.com/~iguzmanvt/176.embed",
-        "file://plotly.com/~iguzmanvt/172.embed",
-        "file://plotly.com/~iguzmanvt/156.embed",
-        "file://plotly.com/~iguzmanvt/207.embed",
-        "file://plotly.com/~iguzmanvt/202.embed",
-        "file://plotly.com/~iguzmanvt/174.embed",
-        "file://plotly.com/~iguzmanvt/170.embed",
-        "file://plotly.com/~iguzmanvt/160.embed",
-        "file://plotly.com/~iguzmanvt/154.embed",
-        "file://plotly.com/~iguzmanvt/66.embed",
-        "file://plotly.com/~iguzmanvt/152.embed",
-        "file://plotly.com/~iguzmanvt/150.embed"
-      ],
+      "missing_local_resources": [],
       "width": {
         "width": 1440,
         "content": 1440
@@ -195,8 +177,28 @@
         "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=CHN~IND~Sub-Saharan+Africa",
         "https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita",
         "https://ourworldindata.org/grapher/urbanization-vs-gdp"
+      ],
+      "external_file_protocol_attempts": [
+        "file://plotly.com/~iguzmanvt/118.embed",
+        "file://plotly.com/~iguzmanvt/168.embed",
+        "file://plotly.com/~iguzmanvt/158.embed",
+        "file://plotly.com/~iguzmanvt/209.embed",
+        "file://plotly.com/~iguzmanvt/205.embed",
+        "file://plotly.com/~iguzmanvt/176.embed",
+        "file://plotly.com/~iguzmanvt/172.embed",
+        "file://plotly.com/~iguzmanvt/156.embed",
+        "file://plotly.com/~iguzmanvt/207.embed",
+        "file://plotly.com/~iguzmanvt/202.embed",
+        "file://plotly.com/~iguzmanvt/174.embed",
+        "file://plotly.com/~iguzmanvt/170.embed",
+        "file://plotly.com/~iguzmanvt/160.embed",
+        "file://plotly.com/~iguzmanvt/154.embed",
+        "file://plotly.com/~iguzmanvt/66.embed",
+        "file://plotly.com/~iguzmanvt/152.embed",
+        "file://plotly.com/~iguzmanvt/150.embed"
       ]
     }
   ],
-  "scope": "Diez notas añadidas. Dependencias externas bloqueadas o sustituidas para comprobar recursos locales; no se acredita disponibilidad externa."
+  "scope": "Diez notas añadidas. Dependencias externas bloqueadas o sustituidas para comprobar recursos locales; no se acredita disponibilidad externa.",
+  "external_reference_policy": "Se comprueban archivos del disco local. Las URL con host remoto, incluidas las referencias //plotly.com que el protocolo file: resuelve con un host, se excluyen como referencias externas; no se acredita su disponibilidad."
 }

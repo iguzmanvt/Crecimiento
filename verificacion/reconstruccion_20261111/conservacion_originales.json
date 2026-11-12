@@ -1,0 +1,21 @@
+{
+  "baseline": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "changed_Rmd": [
+    "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+    "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+    "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+    "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+    "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd"
+  ],
+  "R_chunks_equal": 116,
+  "historical_tracked_images_Excel_HTML_changed": [],
+  "scope": "Comparación de fuentes R y archivos históricos rastreados con el commit de partida"
+}

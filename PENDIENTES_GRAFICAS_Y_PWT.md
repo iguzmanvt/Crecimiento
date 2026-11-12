@@ -1,5 +1,8 @@
 # Seguimiento de las gráficas y la diferencia PWT
 
+> Este informe conserva el estado de la revisión anterior (`8265d17`). El [seguimiento de reconstrucción](RECONSTRUCCION_GRAFICAS.md) incorpora 40 sustituciones funcionales, los Rmd actualizados y los materiales listos para clase. Las identidades de los objetos desaparecidos siguen sin autenticarse.
+
+
 11 de noviembre de 2026. Continuación del commit `d8613e6a2fe63c1b7b3659ab3211895686c14dce`.
 
 ## Resultado

@@ -1,0 +1,18 @@
+{
+  "baseline": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "functional_reconstructions": 40,
+  "identities_unique": 40,
+  "spec_and_input_hashes_match": true,
+  "PNG_1200x700": 40,
+  "SVG": 40,
+  "Rmd_sources": 13,
+  "R_chunks_unchanged": 116,
+  "rendered_outputs_checked": 21,
+  "packaged_outputs_checked_by_file_protocol": 13,
+  "historical_images_Excel_HTML_changed": 0,
+  "gallery_assets_match_generator": true,
+  "visual_samples": "Contact sheets of groups; final cost-share legend and demographic footer; updated Slowdown note and presentation after transition ended. Slides retain the existing vertical scroll policy.",
+  "staged_artifact_files_equal_raw_bytes": 988,
+  "staged_artifact_bytes": 59523177,
+  "diff_check_authored_sources_passed": true
+}

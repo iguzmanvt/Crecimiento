@@ -1,0 +1,134 @@
+{
+  "count": 13,
+  "results": [
+    {
+      "html": "materiales_actualizados/Accounting/notas/Material.html",
+      "sha256": "7c17580a4fe7a3f00bb19c7feb7a623333f1c5ac27c20f6da989be43f2ff5b68",
+      "file_protocol_checked": true,
+      "images_loaded": 10,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Accounting/presentacion/Material.html",
+      "sha256": "c954255280d738f2a2cbedaec14677d7c4fb5bc486e27d4da26414b53c36ddcb",
+      "file_protocol_checked": true,
+      "images_loaded": 4,
+      "reconstructed_iframes_loaded": 6,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Accounting/ejemplo/Material.html",
+      "sha256": "657820f844f6d71de86a5a7b75dcfbf306dabbc8dca9630ba2f5c18dec7c05bf",
+      "file_protocol_checked": true,
+      "images_loaded": 0,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Energy/notas/Material.html",
+      "sha256": "bba980933c75d751bfdefb05b46c237a1c6ab6ee92e4d5effc95cb77645723ca",
+      "file_protocol_checked": true,
+      "images_loaded": 4,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Energy/presentacion/Material.html",
+      "sha256": "034cec7644c892e5fe6ca2fa3aee0b4eca7c3ba4cbe0e23cb1c156cbfdd83e27",
+      "file_protocol_checked": true,
+      "images_loaded": 2,
+      "reconstructed_iframes_loaded": 2,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Ideas/notas/Material.html",
+      "sha256": "b1cd8f68b98692a5bfe9b4476fc4b4c543d290c1fcc75bf3fe6c6accd7f4954e",
+      "file_protocol_checked": true,
+      "images_loaded": 15,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Ideas/presentacion/Material.html",
+      "sha256": "68330f1d6ebc34cfd1aba5f7d44559122f677631ec9c6c1714e4abbf1535a111",
+      "file_protocol_checked": true,
+      "images_loaded": 6,
+      "reconstructed_iframes_loaded": 9,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/notas/Material.html",
+      "sha256": "beefaa9340d4454f1b806244a8fec82a5836e4a7c65c2d400809628cebb2cb56",
+      "file_protocol_checked": true,
+      "images_loaded": 35,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Slowdown/presentacion/Material.html",
+      "sha256": "c8faa75c17763e7a3e7db6a847ac420064adb28af4d4e941d784278f4c09be15",
+      "file_protocol_checked": true,
+      "images_loaded": 30,
+      "reconstructed_iframes_loaded": 5,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Solow/notas/Material.html",
+      "sha256": "f07440da14d5564f93a7c362e2db02ca4f1fa587efd46e194d111a0b6ffa04e1",
+      "file_protocol_checked": true,
+      "images_loaded": 18,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Solow/presentacion/Material.html",
+      "sha256": "8e9ae9b7b5611ce8ed5405e5761e0c6d06cd69bef838bb4a9fd6d059f141c939",
+      "file_protocol_checked": true,
+      "images_loaded": 1,
+      "reconstructed_iframes_loaded": 17,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Taxes/notas/Material.html",
+      "sha256": "b15259b05c7b934ada620ef33649ce770d0a66b8ca3f0aeb9704d78cca4f70fa",
+      "file_protocol_checked": true,
+      "images_loaded": 9,
+      "reconstructed_iframes_loaded": 0,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    },
+    {
+      "html": "materiales_actualizados/Taxes/presentacion/Material.html",
+      "sha256": "00727029ce4047b13eb0b473c90ebdcdd2da5f536c84548699c1365119132d82",
+      "file_protocol_checked": true,
+      "images_loaded": 7,
+      "reconstructed_iframes_loaded": 2,
+      "javascript_errors": [],
+      "missing_local_resources": []
+    }
+  ],
+  "external_dependencies": "Blocked or stubbed; not validated as offline. MathJax and external references require connection.",
+  "external_attempts_blocked": [
+    "https://fred.stlouisfed.org/graph/graph-landing.php?g=FOJf&width=1000&height=475",
+    "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+    "https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population?country=CHN~USA+%28blacks%29~USA+%28whites%29~MEX~FRA~JPN~England+and+Wales",
+    "https://ourworldindata.org/grapher/children-per-woman-by-gdp-per-capita",
+    "https://ourworldindata.org/grapher/children-per-woman-un?tab=chart&time=1950..latest&country=OWID_WRL~BGD~NGA~GHA~DEU~IND~GBR~USA~CHN~KOR~JPN",
+    "https://ourworldindata.org/grapher/energy-use-per-capita-vs-gdp-per-capita?yScale=log&time=1990..2015",
+    "https://ourworldindata.org/grapher/life-expectancy-vs-gdp-per-capita",
+    "https://ourworldindata.org/grapher/per-capita-energy-use?tab=chart&country=CHN~IND~JPN~GBR~USA~KOR~OWID_WRL~MEX~DEU",
+    "https://ourworldindata.org/grapher/primary-energy-cons?tab=chart&country=USA~CHN~IND~KOR~GBR~JPN~MEX~DEU"
+  ]
+}

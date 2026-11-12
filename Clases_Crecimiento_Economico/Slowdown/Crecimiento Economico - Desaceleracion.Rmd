@@ -35,17 +35,17 @@ grid.raster(Slowdown_US_Economic_Growth, interpolate=FALSE)
 
 ## Hechos: Caida en la producción
 
-- Se nota una posible desaceleración en el crecimiento medido de la producción en los últimos años, vía una disminución de la productividad, desde el 2000.
+- El PIB per cápita de Estados Unidos creció más despacio en la tendencia ajustada de 2001–2019 que en la de 1950–2000. Esta comparación describe el crecimiento observado y no identifica por sí sola la contribución de la productividad.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/48.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-48.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Hechos: Caida en la participación de la mano de obra
 
-- La participación del capital en la producción ha aumentado.
+- La participación no laboral del PIB, calculada como 1 − labsh, aumentó entre los extremos del periodo representado.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanv/198.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-198.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
@@ -404,11 +404,11 @@ grid.raster(Slowdown_Business_Dynamics, interpolate=FALSE)
 
 ## Teoría sobre la desaceleración: Cambios demográficos
 
-- La disminución de la tasa bruta de natalidad fue impulsada en gran parte por un cambio en las preferencias de las familias con respecto al número de hijos a tener. Este cambio de comportamiento es uno de los principales impulsores del envejecimiento de la población y la desaceleración del crecimiento.
+- La tasa bruta de natalidad de Estados Unidos disminuyó durante el periodo observado. La serie descriptiva no permite identificar por sí sola el efecto causal de las preferencias familiares, las políticas u otros factores. Evolución de la tasa bruta de natalidad; una menor natalidad puede contribuir al envejecimiento, junto con otros factores.
 
 ## Teoría sobre la desaceleración: Cambios demográficos
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/211.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-211.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
  </iframe>
 
 ## Teoría sobre la desaceleración: Cambios demográficos
@@ -417,22 +417,22 @@ grid.raster(Slowdown_Business_Dynamics, interpolate=FALSE)
 
 - En 1960 había pocas personas mayores, tanto en términos absolutos como en relación con las edades más jóvenes. En 1990 y 2020, el número absoluto de personas mayores era mucho mayor.
 
-- Este envejecimiento de la población cambió la proporción de adultos en edad laboral a personas en categorías "dependientes", como los niños (0-20 años) y las personas mayores (65 años o más).
+- Razón demográfica de dependencia: población de 0–19 años y de 65 años o más por cada 100 adultos de 20–64 años; las edades no se solapan.
 
 ## Teoría sobre la desaceleración: Cambios demográficos
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/216.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-216.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 </iframe>
 
 ## Teoría sobre la desaceleración: Cambios demográficos
 
-- Para 2030, la tasa de dependencia de las personas mayores se acercará al 40%, mientras que no se prevé que la tasa de dependencia de los jóvenes disminuya mucho. 
+- La reconstrucción muestra observaciones históricas de dependencia demográfica. Una proyección a 2030 requiere una fuente y supuestos prospectivos adicionales.
 
-- Esto significa que la proporción de trabajadores con respecto a la población total, que ya había comenzado a disminuir debido al aumento de la tasa de dependencia de las personas mayores a principios de la década de 2000, seguirá disminuyendo.
+- Personas ocupadas respecto de la población total: trayectoria observada en PWT 10.0. Esta razón también depende de participación y empleo; no equivale a población en edad laboral ni constituye una proyección.
 
 ## Teoría sobre la desaceleración: Cambios demográficos
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/213.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-213.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 </iframe>
 
 ## Teoría sobre la desaceleración: Prácticas laborales

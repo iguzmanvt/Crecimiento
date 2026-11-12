@@ -55,7 +55,7 @@ $$
 \ln y_t = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_t + \ln A_t.
 $$
 
--   Con esa información, podemos construir una serie de PIB per cápita hipotética que dependa solo de lo que sucedió con la relación capital / producción de 1960 a 2017. Esto será:
+-   Con esa información, podemos construir una serie de PIB per cápita hipotética que dependa solo de lo que sucedió con la relación capital / producción de 1960 a 2019. Esto será:
 
 $$
 \ln y_t^{KY} = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_{1960} + \ln A_{1960}
@@ -78,7 +78,13 @@ $$
 $$
 
 
-- [**Calculo del Residuo de Solow**](http://plotly.com/~iguzmanvt/104.embed)
+- [**Calculo del Residuo de Solow**](../../graficas_reconstruidas/graficas/iguzmanvt-104.html)
+
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-104.svg" alt="Estados Unidos: contabilidad del crecimiento" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
 
 
 **Comparaciones por década**
@@ -93,9 +99,15 @@ $$
 (\ln y_t - \ln y_{t-10})/10 = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t - \ln K_{t-10}/Y_{t-10})/10 + (\ln h_t - \ln h_{t-10})/10 + (\ln A_t - \ln A_{t-10})/10.
 $$
 
--   Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en lo que representa el crecimiento de la relación capital / producto y el crecimiento de la productividad.
+-   Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en contribuciones de la relación capital/producto, el capital humano y el residual de productividad.
 
-- [**Tasa de crecimiento anualizada de 10 años**](http://plotly.com/~iguzmanvt/110.embed)
+- [**Tasa de crecimiento anualizada de 10 años**](../../graficas_reconstruidas/graficas/iguzmanvt-110.html)
+
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-110.svg" alt="Estados Unidos: contribuciones al crecimiento en diez años" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
 
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
@@ -139,21 +151,45 @@ grid.raster(Accounting_Primal_Dual, interpolate=FALSE)
 
 ### **Interpretación de la contabilidad del crecimiento**
     
-- [**Productividad Multifactorial  (TFP) de Estados Unidos**](http://plotly.com/~iguzmanv/195.embed)
+- [**Productividad Multifactorial  (TFP) de Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanv-195.html)
 
-- [**Capital por trabajador de Estados Unidos**](http://plotly.com/~iguzmanv/196.embed)
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanv-195.svg" alt="Estados Unidos: productividad total de los factores" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
 
-- [**Porcentaje de capital en los costos de Estados Unidos**](http://plotly.com/~iguzmanv/198.embed)
 
--   Combinemos esos dos hechos:
+- [**Capital por trabajador de Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanv-196.html)
 
-    -   $𝑔_𝑘<0$ y $\alpha$ en aumento. 
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanv-196.svg" alt="Estados Unidos: capital por persona empleada" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
 
--   ¿Qué podemos concluir? 
 
-    -   Tenemos un efecto positivo distintivo en el crecimiento de la PTF. La composición del crecimiento de la PTF es diferente de lo de antes.
+- [**Porcentaje de capital en los costos de Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanv-198.html)
 
-- [**Capital y producción por trabajador en Estados Unidos**](http://plotly.com/~iguzmanv/197.embed)
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanv-198.svg" alt="Estados Unidos: participación del capital en los costos" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
+
+-   La reconstrucción distingue la participación del capital en costos de su participación en el PIB:
+
+    -   Con el supuesto R=5%, RK/(W+RK) pasa de 24.76% en 1960 a 21.95% en 2019. En cambio, 1−labsh pasa de 36.33% a 40.29%. Son conceptos distintos; estas proporciones no determinan por sí solas α en el ejercicio de contabilidad.
+
+-   El capital por persona empleada aumenta 2.10 veces entre 1960 y 2019, aunque disminuye en nueve años. No corresponde afirmar g_k<0 para todo el periodo.
+
+-   Como ejercicio condicional, una menor contribución del capital implica un mayor residual de productividad si se mantienen fijos el crecimiento observado y las demás contribuciones. La interpretación exige especificar el periodo y la descomposición; no identifica por sí sola un cambio tecnológico.
+
+- [**Capital y producción por trabajador en Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanv-197.html)
+
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanv-197.svg" alt="Estados Unidos: capital y producción por persona empleada" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
 
 ### **Cambios de productividad**
 

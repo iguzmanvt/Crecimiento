@@ -1,5 +1,18 @@
 # Generación de los 15 módulos de Crecimiento
 
+## Actualización de las gráficas reconstruidas
+
+Las 40 figuras están en `graficas_reconstruidas/`, con datos, fórmulas y generadores por grupo. El renderizador copia esa carpeta a la raíz común de la salida y ajusta los enlaces relativos, incluida la fuente anidada CE-Ideas. Conservar la salida completa para abrir notas y presentaciones.
+
+Los [13 materiales ya generados](materiales_actualizados/README.md) usan las reconstrucciones. Para repetir sólo los módulos afectados:
+
+```sh
+Rscript scripts/renderizar_modulos.R /ruta/externa/vacia Solow Accounting Ideas Taxes Energy Slowdown
+```
+
+Las nuevas gráficas funcionan sin conexión. Las referencias externas del curso y MathJax conservan su dependencia de red. [Método y comprobación](RECONSTRUCCION_GRAFICAS.md).
+
+
 Corte del 11 de noviembre de 2026. Esta entrega permite generar las 34 fuentes R Markdown de los 15 módulos posteriores a Introducción: 17 presentaciones con dos formatos, 16 notas HTML y un ejemplo calculado. Son 51 salidas, organizadas por módulo, ID de fuente y formato. El [manifiesto](scripts/modulos.csv) mantiene las variantes y resuelve la nota de Medio ambiente que vive en Energy.
 
 ## Estado por módulo
@@ -78,3 +91,15 @@ Las variantes idénticas de Labor/Labor_2 y la fuente anidada Ideas/CE-Ideas se 
 ## Seguimiento de Chart Studio y PWT
 
 El [informe de seguimiento](PENDIENTES_GRAFICAS_Y_PWT.md) cierra el efecto de la diferencia de capital sobre el ejemplo USA y ofrece [44 vistas locales de apoyo](recursos_graficas/README.md). Los 40 identificadores originales mantienen su estado sin autenticar; las alternativas preservan procedencia y límites.
+
+## Repetir el recálculo y el contraste
+
+Con Python 3.10+ y sin red:
+
+```sh
+python scripts/verificar_recalculo_graficas.py graficas_reconstruidas /salida/informe_recalculo.json
+```
+
+El control comprueba las huellas de los insumos, vuelve a calcular los tres grupos y compara coordenadas, fotogramas y especificaciones. Registra por separado igualdad numérica e igualdad del archivo después de normalizar LF. La tolerancia general es 1e-12; la ejecución final guardada en Windows tuvo diferencia numérica cero.
+
+Si R no detecta un Pandoc ya instalado, definir la variable de la sesión `RSTUDIO_PANDOC` con la carpeta que contiene su ejecutable antes de renderizar. La generación final usó R 4.3.3 y Pandoc 3.13.

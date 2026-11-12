@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Crecimiento Económico. Contabilidad del crecimiento</title>
+
+<script src="Material_files/header-attrs-2.28/header-attrs.js"></script>
+<script src="Material_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Material_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="Material_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="Material_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="Material_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="Material_files/navigation-1.1/tabsets.js"></script>
+<link href="Material_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="Material_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Crecimiento Económico. Contabilidad del
+crecimiento</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#contabilidad-del-crecimiento"
+id="toc-contabilidad-del-crecimiento">Contabilidad del
+crecimiento</a></li>
+<li><a href="#calculo-del-residuo-de-solow"
+id="toc-calculo-del-residuo-de-solow"><strong>Calculo del Residuo de
+Solow</strong></a></li>
+<li><a href="#interpretaci%C3%B3n-de-la-contabilidad-del-crecimiento"
+id="toc-interpretación-de-la-contabilidad-del-crecimiento"><strong>Interpretación
+de la contabilidad del crecimiento</strong></a></li>
+<li><a href="#cambios-de-productividad"
+id="toc-cambios-de-productividad"><strong>Cambios de
+productividad</strong></a></li>
+</ul>
+</div>
+
+<div id="contabilidad-del-crecimiento" class="section level3">
+<h3>Contabilidad del crecimiento</h3>
+<ul>
+<li><p>“La contabilidad del crecimiento es una metodología empírica que
+permite desglosar el crecimiento observado del PIB en componentes
+asociados con cambios en los factores de la producción.</p></li>
+<li><p>Dada la imposibilidad de medir el progreso tecnológico
+directamente, la tasa de crecimiento tecnológica se mide
+“indirectamente” como la tasa de crecimiento del PIB que no puede
+explicarse por el crecimiento de los insumos observables, es decir, como
+“crecimiento residual”.</p></li>
+<li><p>La contabilidad del crecimiento es un primer paso para el
+análisis de los determinantes fundamentales del crecimiento económico
+porque no intenta explicar las fuerzas que impulsan las tasas de
+crecimiento de cada uno de los insumos o factores.</p></li>
+<li><p>El paso final involucra las relaciones de las tasas de
+crecimiento de los factores, las participaciones de los factores y el
+cambio tecnológico con elementos tales como políticas gubernamentales,
+preferencias de los hogares, recursos naturales, niveles iniciales de
+capital físico y humano, etc.</p></li>
+<li><p>El ejercicio de contabilidad de crecimiento puede ser
+particularmente útil si los determinantes fundamentales que son
+importantes para las tasas de crecimiento de los factores son
+sustancialmente independientes de aquellos que son catalizadores para el
+cambio tecnológico.</p></li>
+<li><p>Los conceptos básicos de la contabilidad del crecimiento se
+presentaron en Solow (1957), Kendrick (1961), Denison (1962) y Jorgenson
+y Griliches (1967). Griliches (1997) proporciona una visión general de
+esta historia intelectual, con énfasis en el desarrollo del residuo de
+Solow”.</p></li>
+</ul>
+<p><strong>Solow (1957): Contabilidad del crecimiento de EEUU en el
+periodo 1909-1949</strong></p>
+<ul>
+<li><p>Conclusiones:</p>
+<ul>
+<li><p>La relación capital-trabajo crece alrededor del 30 por ciento
+durante el período (la economía es intensiva en capital).</p></li>
+<li><p>La tecnología crece alrededor del 80 por ciento. Así, alrededor
+del 80 por ciento del crecimiento en la producción por unidad de mano de
+obra durante el período se explica por el crecimiento de la tecnología y
+los 20 restantes por los aumentos en la relación
+capital-trabajo.</p></li>
+<li><p>La medida del nivel de tecnología cae en varios años de recesión
+y tiende a aumentar en los años de expansión. Por lo tanto, las tasas
+promedio del crecimiento tecnológico son pro cíclicas.</p></li>
+<li><p>La función de producción agregada muestra un producto marginal de
+capital positivo y decreciente.</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="calculo-del-residuo-de-solow" class="section level3">
+<h3><strong>Calculo del Residuo de Solow</strong></h3>
+<ul>
+<li><p>Sabemos que el crecimiento de la productividad, gA, determina la
+tasa de crecimiento del BGP. Pero podemos establecer además que el
+crecimiento de la productividad es responsable de la mayor parte del
+crecimiento del PIB per cápita a lo largo del tiempo.</p></li>
+<li><p>El análisis se centrará Estados Unidos, pero para varios países
+desarrollados se obtendrían resultados similares.</p></li>
+<li><p>Para hacer esto, vamos a construir algunas sendas hipotéticas
+para el logaritmo del PIB per cápita:</p></li>
+</ul>
+<p><span class="math display">\[
+\ln y_t = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_t + \ln A_t.
+\]</span></p>
+<ul>
+<li>Con esa información, podemos construir una serie de PIB per cápita
+hipotética que dependa solo de lo que sucedió con la relación capital /
+producción de 1960 a 2019. Esto será:</li>
+</ul>
+<p><span class="math display">\[
+\ln y_t^{KY} = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_{1960} +
+\ln A_{1960}
+\]</span></p>
+<ul>
+<li><p>Esto nos dice qué logaritmo del PIB per cápita habría sido en un
+mundo hipotético donde lo único que cambió con el tiempo fue la relación
+capital / producto, pero donde la productividad se mantuvo exactamente
+en sus niveles de 1960 todo el tiempo.</p></li>
+<li><p>Si esto resultara estar muy cerca del PIB per cápita real,
+entonces sabríamos que el capital / producción es el principal
+responsable del crecimiento real del PIB per cápita, y que la
+productividad no es importante.</p></li>
+<li><p>Podemos hacer lo mismo para el capital humano y la
+productividad:</p></li>
+</ul>
+<p><span class="math display">\[
+\ln y_t^{HC} = \frac{\alpha}{1-\alpha} (\ln K_{1960}/Y_{1960}) + \ln
+h_{t} + \ln A_{1960}
+\]</span></p>
+<p>y</p>
+<p><span class="math display">\[
+\ln y_t^{Prod} = \frac{\alpha}{1-\alpha} (\ln K_{1960}/Y_{1960}) + \ln
+h_{1960} + \ln A_{t}.
+\]</span></p>
+<ul>
+<li><a
+href="../../../graficas_reconstruidas/graficas/iguzmanvt-104.html"><strong>Calculo
+del Residuo de Solow</strong></a></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanvt-104.svg" alt="Estados Unidos: contabilidad del crecimiento" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+<p><strong>Comparaciones por década</strong></p>
+<ul>
+<li><p>Esta es solo una forma ligeramente diferente de mostrar la misma
+información de la figura anterior.</p></li>
+<li><p>Para cualquier año dado, vamos a tomar una tasa de crecimiento
+anualizada de diez años de todos los factores que determinan el
+crecimiento. Por ejemplo, examinaremos <span class="math inline">\((\ln
+A_{2000} - \ln A_{1990})/10\)</span> para ver la tasa de crecimiento de
+la productividad de 1990 a 2000.</p></li>
+<li><p>Esto nos da una forma de contabilizar el crecimiento del PIB per
+cápita durante cualquier período de 10 años.</p></li>
+</ul>
+<p><span class="math display">\[
+(\ln y_t - \ln y_{t-10})/10 = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t - \ln
+K_{t-10}/Y_{t-10})/10 + (\ln h_t - \ln h_{t-10})/10 + (\ln A_t - \ln
+A_{t-10})/10.
+\]</span></p>
+<ul>
+<li><p>Esto descompone la tasa de crecimiento anualizada de 10 años del
+PIB per cápita en contribuciones de la relación capital/producto, el
+capital humano y el residual de productividad.</p></li>
+<li><p><a
+href="../../../graficas_reconstruidas/graficas/iguzmanvt-110.html"><strong>Tasa
+de crecimiento anualizada de 10 años</strong></a></p></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanvt-110.svg" alt="Estados Unidos: contribuciones al crecimiento en diez años" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+<p><img src="Material_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Material_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="Material_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<ul>
+<li><p>Resultados consistentes con Krugman (1994): El mito del milagro
+asiático</p>
+<ul>
+<li>Utilizando el método de contabilidad de crecimiento de Solow, se
+infiere que la mayor parte del crecimiento en el PIB de la Unión
+Soviética se debió al fuerte crecimiento de los factores y no a las
+tasas de crecimiento de la tecnología. Por lo tanto, el desaceleramiento
+en la década de 1980 era predecible.</li>
+</ul></li>
+<li><p>Predicción:</p>
+<ul>
+<li>A falta de un milagro tecnológico, la tasa de crecimiento de la
+relación producción-trabajo en los “tigres asiáticos” en el futuro se
+verán como la tasa de crecimiento de la relación producción-trabajo de
+las principales economías occidentales.</li>
+</ul></li>
+<li><p>El artículo fue escrito para Foreign Affairs en 1994:</p>
+<ul>
+<li>¿Por qué en 2020, la predicción parece no cumplirse para algunos
+países?</li>
+</ul></li>
+</ul>
+</div>
+<div id="interpretación-de-la-contabilidad-del-crecimiento"
+class="section level3">
+<h3><strong>Interpretación de la contabilidad del
+crecimiento</strong></h3>
+<ul>
+<li><a
+href="../../../graficas_reconstruidas/graficas/iguzmanv-195.html"><strong>Productividad
+Multifactorial (TFP) de Estados Unidos</strong></a></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanv-195.svg" alt="Estados Unidos: productividad total de los factores" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+<ul>
+<li><a
+href="../../../graficas_reconstruidas/graficas/iguzmanv-196.html"><strong>Capital
+por trabajador de Estados Unidos</strong></a></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanv-196.svg" alt="Estados Unidos: capital por persona empleada" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+<ul>
+<li><a
+href="../../../graficas_reconstruidas/graficas/iguzmanv-198.html"><strong>Porcentaje
+de capital en los costos de Estados Unidos</strong></a></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanv-198.svg" alt="Estados Unidos: participación del capital en los costos" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+<ul>
+<li><p>La reconstrucción distingue la participación del capital en
+costos de su participación en el PIB:</p>
+<ul>
+<li>Con el supuesto R=5%, RK/(W+RK) pasa de 24.76% en 1960 a 21.95% en
+2019. En cambio, 1−labsh pasa de 36.33% a 40.29%. Son conceptos
+distintos; estas proporciones no determinan por sí solas α en el
+ejercicio de contabilidad.</li>
+</ul></li>
+<li><p>El capital por persona empleada aumenta 2.10 veces entre 1960 y
+2019, aunque disminuye en nueve años. No corresponde afirmar g_k&lt;0
+para todo el periodo.</p></li>
+<li><p>Como ejercicio condicional, una menor contribución del capital
+implica un mayor residual de productividad si se mantienen fijos el
+crecimiento observado y las demás contribuciones. La interpretación
+exige especificar el periodo y la descomposición; no identifica por sí
+sola un cambio tecnológico.</p></li>
+<li><p><a
+href="../../../graficas_reconstruidas/graficas/iguzmanv-197.html"><strong>Capital
+y producción por trabajador en Estados Unidos</strong></a></p></li>
+</ul>
+<figure class="grafica-reconstruida">
+<img src="../../../graficas_reconstruidas/imagenes/iguzmanv-197.svg" alt="Estados Unidos: capital y producción por persona empleada" style="max-width:100%;height:auto" />
+<figcaption>
+<small>Reconstrucción docente. Abra el enlace para consultar datos,
+método y fuentes.</small>
+</figcaption>
+</figure>
+</div>
+<div id="cambios-de-productividad" class="section level3">
+<h3><strong>Cambios de productividad</strong></h3>
+<p><strong>“Underestimating the Real Growth of GDP, Personal Income, and
+Productivity” (Feldstein, 2017):</strong></p>
+<ul>
+<li><p>Feldstein aborda la posible desaceleración de Estados Unidos
+desde la perspectiva de la medición de la productividad.</p></li>
+<li><p>El cambio tecnológico hace que cada vez sea más difícil integrar
+lo siguiente en la medición de la producción y en los cambios en los
+índices de precios:</p>
+<ul>
+<li><p>Medir todos los bienes y servicios relevantes para la economía
+(antes todo se concentraba en la manufactura; la variedad de sectores
+productivos es cada vez más amplia).</p></li>
+<li><p>Medir cambios en calidad a través del tiempo (smartphones que
+combinan características que antes se encontraban en diferentes
+productos: internet, teléfonos móviles, GPS).</p></li>
+<li><p>Integrar nuevos productos, en especial servicios (Facebook,
+Google).</p></li>
+</ul></li>
+<li><p>La consecuencia es que estamos subvalorando el nivel de la
+producción a partir de la introducción de estas tecnologías.</p></li>
+</ul>
+<p><strong>“Aggregate productivity and aggregate technology” (Basu,
+Fernald; EER; 2002):</strong></p>
+<ul>
+<li><p>La productividad agregada y la tecnología agregada son conceptos
+significativos pero distintos.</p></li>
+<li><p>BF muestran que el residuo de Solow ligeramente modificado mide
+los cambios en el ingreso, incluso cuando la productividad y la
+tecnología difieren debido a distorsiones como la competencia
+imperfecta.</p>
+<ul>
+<li><p>Presentan un marco general que identifica varias brechas no
+tecnológicas nuevas entre productividad y tecnología, brechas que
+reflejan imperfecciones y fricciones en los mercados de productos y
+factores.</p></li>
+<li><p>Empíricamente, estas brechas son importantes. En comparación con
+el crecimiento de la productividad, los choques tecnológicos medidos
+están significativamente poco relacionados con la producción y, en
+esencia, no están correlacionados con los factores.</p></li>
+</ul></li>
+</ul>
+<p><strong>“Aggregate productivity and aggregate technology” (Basu,
+Fernald; EER; 2002):</strong></p>
+<p><img src="Material_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

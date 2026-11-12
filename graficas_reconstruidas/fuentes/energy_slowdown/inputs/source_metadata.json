@@ -1,0 +1,386 @@
+{
+  "source_repo_head": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "retrieval_date_utc": "2026-11-11",
+  "pwt": {
+    "version": "10.0 (June 2021 corrected edition; 1950–2019)",
+    "country": "United States",
+    "countrycode": "USA",
+    "source_workbook": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+    "source_workbook_sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+    "official_workbook_url": "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+    "official_workbook_sha256": "1a13ca27ada7bcab29c15430b3fe7f4d6c3cf0d2ee3eef3aed31d0fc0a2085d3",
+    "official_data_equality_evidence": "Prior audit pwt_discrepancy_audit.json; source Data sheet checked against official current PWT10.0, as supplied by audit_a.",
+    "extracted_from": "regeneracion_clase/solow_accounting/inputs/pwt100_cases.csv",
+    "intermediate_sha256": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850",
+    "definitions": {
+      "labsh": "Share of labour compensation in GDP at current national prices (ratio).",
+      "emp": "Number of persons engaged (millions).",
+      "pop": "Population (millions)."
+    },
+    "documentation": [
+      "https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf",
+      "https://www.rug.nl/ggdc/docs/pwt_71vs80_variable_correspondence.pdf"
+    ]
+  },
+  "eia": {
+    "url": "https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T01.07",
+    "retrieved_at_utc": "2026-11-11T22:18:51.497577+00:00",
+    "status": 200,
+    "bytes": 76778,
+    "sha256": "53fcce9c97eed58bac067d987ff6ce2d5ac2f02bee07230f1afdc728c3d42dee",
+    "headers": {
+      "Content-Type": "text/csv; charset=utf-8"
+    },
+    "series": [
+      {
+        "MSN": "CDEGRUS",
+        "Description": "Total Energy CO2 Emissions per Real Dollar of GDP",
+        "Unit": "Metric Tons Carbon Dioxide per Million Chained (2017) Dollars"
+      },
+      {
+        "MSN": "CDTPRUS",
+        "Description": "Total Energy CO2 Emissions per Capita",
+        "Unit": "Metric Tons Carbon Dioxide"
+      },
+      {
+        "MSN": "TEGDSUS",
+        "Description": "Energy Expenditures as Share of GDP",
+        "Unit": "Percent"
+      },
+      {
+        "MSN": "TEGOSUS",
+        "Description": "Energy Expenditures as Share of Gross Output",
+        "Unit": "Percent"
+      },
+      {
+        "MSN": "TETCBUS",
+        "Description": "Total Primary Energy Consumption",
+        "Unit": "Quadrillion Btu"
+      },
+      {
+        "MSN": "TETCEUS",
+        "Description": "Total Energy CO2 Emissions",
+        "Unit": "Million Metric Tons Carbon Dioxide"
+      },
+      {
+        "MSN": "TETCHUS",
+        "Description": "Energy Expenditures per Capita",
+        "Unit": "Nominal Dollars"
+      },
+      {
+        "MSN": "TETCVUS",
+        "Description": "Energy Expenditures",
+        "Unit": "Million Nominal Dollars"
+      },
+      {
+        "MSN": "TETGRUS",
+        "Description": "Total Primary Energy Consumption per Real Dollar of GDP",
+        "Unit": "Thousand Btu per Chained (2017) Dollar"
+      },
+      {
+        "MSN": "TETPRUS",
+        "Description": "Total Primary Energy Consumption per Capita",
+        "Unit": "Million Btu"
+      }
+    ],
+    "vintage": "Monthly Energy Review, October 2026; release 2026-10-29",
+    "country": "United States",
+    "coverage": "50 states and District of Columbia, per official Table1.7 note",
+    "period_selected": [
+      1970,
+      2019
+    ],
+    "annual_selection": "YYYYMM ends in 13; no monthly observations or interpolation",
+    "table_pdf_url": "https://www.eia.gov/totalenergy/data/monthly/pdf/sec1_19.pdf",
+    "table_pdf_sha256": "e8d065ad1f8b8b3c38e6c7beb2083f846be68cd2e161e1c10871972d2328bed4",
+    "selected_series": [
+      "TETGRUS",
+      "TEGDSUS"
+    ],
+    "formulas": {
+      "TETGRUS": "Primary energy consumption / U.S. GDP in chained 2017 dollars, as published by EIA; thousand Btu per chained 2017 dollar.",
+      "TEGDSUS": "100 × nominal energy expenditures / nominal U.S. GDP, as published by EIA; percent."
+    }
+  },
+  "wdi": {
+    "download": {
+      "name": "wdi_usa_demography.json",
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&format=json&per_page=2000",
+      "retrieved_at_utc": "2026-11-11T22:16:58.980626+00:00",
+      "status": 200,
+      "final_url": "https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&format=json&per_page=2000",
+      "bytes": 117597,
+      "sha256": "fdb838a6917bfd893537a8e5d00353169072c759f92b1eeaf288966d7fddf828",
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8",
+        "Last-Modified": "Wed, 11 Nov 2026 22:17:03 GMT"
+      },
+      "header": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 2000,
+        "total": 528,
+        "sourceid": null,
+        "lastupdated": "2026-11-11"
+      },
+      "sample": [
+        {
+          "indicator": {
+            "id": "SP.DYN.CBRT.IN",
+            "value": "Birth rate, crude (per 1,000 people)"
+          },
+          "country": {
+            "id": "US",
+            "value": "United States"
+          },
+          "countryiso3code": "USA",
+          "date": "2025",
+          "value": null,
+          "scale": "",
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.CBRT.IN",
+            "value": "Birth rate, crude (per 1,000 people)"
+          },
+          "country": {
+            "id": "US",
+            "value": "United States"
+          },
+          "countryiso3code": "USA",
+          "date": "2024",
+          "value": 10.6,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        }
+      ],
+      "series": [
+        [
+          "SP.DYN.CBRT.IN",
+          "Birth rate, crude (per 1,000 people)"
+        ],
+        [
+          "SP.POP.0014.TO",
+          "Population ages 0-14, total"
+        ],
+        [
+          "SP.POP.1519.FE.5Y",
+          "Population ages 15-19, female (% of female population)"
+        ],
+        [
+          "SP.POP.1519.MA.5Y",
+          "Population ages 15-19, male (% of male population)"
+        ],
+        [
+          "SP.POP.65UP.TO",
+          "Population ages 65 and above, total"
+        ],
+        [
+          "SP.POP.TOTL",
+          "Population, total"
+        ],
+        [
+          "SP.POP.TOTL.FE.IN",
+          "Population, female"
+        ],
+        [
+          "SP.POP.TOTL.MA.IN",
+          "Population, male"
+        ]
+      ]
+    },
+    "metadata": [
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.DYN.CBRT.IN?source=2&format=json",
+        "sha256": "c7dbb8d451cd548df94930b3a551d0f6bfd9c11ce08dc04b15ae4ff9080e2364",
+        "metadata": {
+          "id": "SP.DYN.CBRT.IN",
+          "name": "Birth rate, crude (per 1,000 people)",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs);\nDemographic Statistics, Eurostat (ESTAT);\nPopulation and Vital Statistics Report (various years), United Nations (UN), publisher: UN Statistical Division",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.0014.TO?source=2&format=json",
+        "sha256": "88b6150f5f2f158b126fecb50878db9fbad2ce3ef0650b5ab7c20372bf9f2737",
+        "metadata": {
+          "id": "SP.POP.0014.TO",
+          "name": "Population ages 0-14, total",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Total population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.",
+          "sourceOrganization": "Staff estimates, World Bank (WB), note: Staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's World Population Prospects., publisher: World Bank staff estimates using the World Bank's total population and age/sex distributions of the United Nations Population Division's data.;\nWorld Population Prospects, United Nations (UN), publisher: UN Population Division",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.65UP.TO?source=2&format=json",
+        "sha256": "5a09266e614a7d6c232daabfc25fcc8dcf9105ec077e9ba345eb30366c65fd71",
+        "metadata": {
+          "id": "SP.POP.65UP.TO",
+          "name": "Population ages 65 and above, total",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Total population 65 years of age or older. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division;\nStaff estimates, World Bank (WB)",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?source=2&format=json",
+        "sha256": "2f8491efc00bf2c0995112ff8e87aba69e5e9d22d0880b22f7e3a4ec757ba05c",
+        "metadata": {
+          "id": "SP.POP.TOTL",
+          "name": "Population, total",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Statistical Offices;\nEurostat: Demographic Statistics, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly, publisher: Eurostat;\nPopulation and Vital Statistics Report (various years), United Nations (UN), uri: https://unstats.un.org, publisher: UN Statistics Division",
+          "topics": [
+            {
+              "id": "19",
+              "value": "Climate Change"
+            },
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.1519.MA.5Y?source=2&format=json",
+        "sha256": "8b93bc1d53e40d32de6966ed48fb74b47e12584d6e355cafe3a9113a071a3177",
+        "metadata": {
+          "id": "SP.POP.1519.MA.5Y",
+          "name": "Population ages 15-19, male (% of male population)",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Male population between the ages 15 to 19 as a percentage of the total male population.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.1519.FE.5Y?source=2&format=json",
+        "sha256": "a220a424967bd25bf03985e521ac0e447b0425d3523e715ef8da6ccc93d90478",
+        "metadata": {
+          "id": "SP.POP.1519.FE.5Y",
+          "name": "Population ages 15-19, female (% of female population)",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Female population between the ages 15 to 19 as a percentage of the total female population.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL.MA.IN?source=2&format=json",
+        "sha256": "098d59c9dd3c2292aa4fad3cdc08131a3b07be265d9f42dd2b8af8812a50be34",
+        "metadata": {
+          "id": "SP.POP.TOTL.MA.IN",
+          "name": "Population, male",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Male population is based on the de facto definition of population, which counts all male residents regardless of legal status or citizenship.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division;\nStaff estimates, World Bank (WB)",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL.FE.IN?source=2&format=json",
+        "sha256": "eb8325dafe480ebb46f244d21f8e1d25fcadbe52994372b817809524a4bdffaf",
+        "metadata": {
+          "id": "SP.POP.TOTL.FE.IN",
+          "name": "Population, female",
+          "unit": "",
+          "source": {
+            "id": "2",
+            "value": "World Development Indicators"
+          },
+          "sourceNote": "Female population is based on the de facto definition of population, which counts all female residents regardless of legal status or citizenship.",
+          "sourceOrganization": "World Population Prospects, United Nations (UN), publisher: UN Population Division;\nStaff estimates, World Bank (WB)",
+          "topics": [
+            {
+              "id": "8",
+              "value": "Health "
+            }
+          ]
+        }
+      }
+    ],
+    "country": "United States",
+    "period_selected": [
+      1960,
+      2024
+    ],
+    "vintage_note": "WDI API lastupdated 2026-11-11. Indicator metadata names UN WPP and national sources but does not identify an individual underlying edition for each value.",
+    "age_convention": "Youth 0–19, working ages20–64, older65+. This corrects the original course's overlapping0–20/20–64 convention.",
+    "age_formulas": {
+      "age15_19": "male_population × male_age15_19_pct/100 + female_population × female_age15_19_pct/100",
+      "age0_19": "age0_14 + age15_19",
+      "age20_64": "total_population − age0_19 − age65plus",
+      "young_dependency": "100 × age0_19 / age20_64",
+      "old_dependency": "100 × age65plus / age20_64",
+      "total_dependency": "100 × (age0_19 + age65plus) / age20_64"
+    }
+  }
+}

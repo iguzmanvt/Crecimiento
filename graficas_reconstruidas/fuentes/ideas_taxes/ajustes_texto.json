@@ -1,0 +1,194 @@
+[
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- El número de trabajadores de I&D ha aumentado con el tiempo. \nEstados Unidos y China ponen a más personas a trabajar en investigación y desarrollo que otros países.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/96.embed\">",
+    "new": "- Investigadores equivalentes a tiempo completo (FTE) en seis países. La cobertura temporal es desigual; FTE no equivale necesariamente al número de personas físicas.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/96.embed\">",
+    "reason": "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- Estados Unidos y China dominan el gasto en I&D, lo que se debe en gran parte a un aumento masivo en el gasto en China durante los últimos veinte años.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/102.embed\">",
+    "new": "- Evolución relativa del gasto en I+D, con índice 2000 = 100 para cada país. No compara tamaños monetarios absolutos entre países.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/102.embed\">",
+    "reason": "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- Aplicando logaritmos para ver las tasas de crecimiento podemos ver que Estados Unidos, Japón, Alemania y Reino Unido tuvieron tasas de crecimiento similares mientras que China y Corea del Sur registraron tasas de crecimiento muy rápidas de este gasto.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/100.embed\">",
+    "new": "- Logaritmo natural del gasto relativo a 2000, representado sobre un eje lineal. Las diferencias entre años indican cambios logarítmicos acumulados, no tasas anuales directamente.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/100.embed\">",
+    "reason": "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/116.embed\">",
+    "new": "- Logaritmo del número de investigadores FTE y crecimiento de productividad: 265 observaciones de nueve países del objeto local de 2021. Esta es una nueva asignación docente del material archivado.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/116.embed\">",
+    "reason": "Distinguir la muestra local de nueve países y documentar su nueva asignación."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/118.embed\">",
+    "new": "- Cambio del logaritmo de investigadores FTE y crecimiento de productividad en seis países. El eje horizontal usa un rezago de 10 observaciones y divide la diferencia entre 10; con huecos temporales no equivale necesariamente a 10 años.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/118.embed\">",
+    "reason": "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/120.embed\">",
+    "new": "- Logaritmo de investigadores FTE y nivel logarítmico de productividad en seis países. Esta variante compara niveles, mientras que las otras dispersiones de la sección muestran crecimiento.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/120.embed\">",
+    "reason": "La nueva figura representa niveles de productividad, no tasas de crecimiento."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/72.embed\">",
+    "new": "- Logaritmo de investigadores FTE y crecimiento de productividad en los seis países del archivo StudyGuide. Se conserva separado del objeto local de nueve países; no se mezclan sus muestras ni ediciones.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/72.embed\">",
+    "reason": "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [El número de trabajadores de I&D ha aumentado con el tiempo. Estados Unidos y China ponen a más personas a trabajar en investigación y desarrollo que otros países](http://plotly.com/~iguzmanvt/96.embed)",
+    "new": "- [Investigadores equivalentes a tiempo completo (FTE) en seis países. La cobertura temporal es desigual; FTE no equivale necesariamente al número de personas físicas.](http://plotly.com/~iguzmanvt/96.embed)",
+    "reason": "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [Estados Unidos y China dominan el gasto en I&D, lo que se debe en gran parte a un aumento masivo en el gasto en China durante los últimos veinte años](http://plotly.com/~iguzmanvt/102.embed)",
+    "new": "- [Evolución relativa del gasto en I+D, con índice 2000 = 100 para cada país. No compara tamaños monetarios absolutos entre países.](http://plotly.com/~iguzmanvt/102.embed)",
+    "reason": "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [Aplicando logaritmos para ver las tasas de crecimiento podemos ver que Estados Unidos, Japón, Alemania y Reino Unido tuvieron tasas de crecimiento similares mientras que China y Corea del Sur registraron tasas de crecimiento muy rápidas de este gasto](http://plotly.com/~iguzmanvt/100.embed)",
+    "new": "- [Logaritmo natural del gasto relativo a 2000, representado sobre un eje lineal. Las diferencias entre años indican cambios logarítmicos acumulados, no tasas anuales directamente.](http://plotly.com/~iguzmanvt/100.embed)",
+    "reason": "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/116.embed)",
+    "new": "- [Logaritmo del número de investigadores FTE y crecimiento de productividad: 265 observaciones de nueve países del objeto local de 2021. Esta es una nueva asignación docente del material archivado.](http://plotly.com/~iguzmanvt/116.embed)",
+    "reason": "Distinguir la muestra local de nueve países y documentar su nueva asignación."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/118.embed)",
+    "new": "- [Cambio del logaritmo de investigadores FTE y crecimiento de productividad en seis países. El eje horizontal usa un rezago de 10 observaciones y divide la diferencia entre 10; con huecos temporales no equivale necesariamente a 10 años.](http://plotly.com/~iguzmanvt/118.embed)",
+    "reason": "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/120.embed)",
+    "new": "- [Logaritmo de investigadores FTE y nivel logarítmico de productividad en seis países. Esta variante compara niveles, mientras que las otras dispersiones de la sección muestran crecimiento.](http://plotly.com/~iguzmanvt/120.embed)",
+    "reason": "La nueva figura representa niveles de productividad, no tasas de crecimiento."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+    "old": "- [La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara](http://plotly.com/~iguzmanvt/72.embed)",
+    "new": "- [Logaritmo de investigadores FTE y crecimiento de productividad en los seis países del archivo StudyGuide. Se conserva separado del objeto local de nueve países; no se mezclan sus muestras ni ediciones.](http://plotly.com/~iguzmanvt/72.embed)",
+    "reason": "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- El número de trabajadores de I&D ha aumentado con el tiempo. \nEstados Unidos y China ponen a más personas a trabajar en investigación y desarrollo que otros países.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/96.embed\">",
+    "new": "- Investigadores equivalentes a tiempo completo (FTE) en seis países. La cobertura temporal es desigual; FTE no equivale necesariamente al número de personas físicas.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/96.embed\">",
+    "reason": "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- Estados Unidos y China dominan el gasto en I&D, lo que se debe en gran parte a un aumento masivo en el gasto en China durante los últimos veinte años.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/102.embed\">",
+    "new": "- Evolución relativa del gasto en I+D, con índice 2000 = 100 para cada país. No compara tamaños monetarios absolutos entre países.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/102.embed\">",
+    "reason": "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- Aplicando logaritmos para ver las tasas de crecimiento podemos ver que Estados Unidos, Japón, Alemania y Reino Unido tuvieron tasas de crecimiento similares mientras que China y Corea del Sur registraron tasas de crecimiento muy rápidas de este gasto.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/100.embed\">",
+    "new": "- Logaritmo natural del gasto relativo a 2000, representado sobre un eje lineal. Las diferencias entre años indican cambios logarítmicos acumulados, no tasas anuales directamente.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/100.embed\">",
+    "reason": "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/116.embed\">",
+    "new": "- Logaritmo del número de investigadores FTE y crecimiento de productividad: 265 observaciones de nueve países del objeto local de 2021. Esta es una nueva asignación docente del material archivado.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/116.embed\">",
+    "reason": "Distinguir la muestra local de nueve países y documentar su nueva asignación."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/118.embed\">",
+    "new": "- Cambio del logaritmo de investigadores FTE y crecimiento de productividad en seis países. El eje horizontal usa un rezago de 10 observaciones y divide la diferencia entre 10; con huecos temporales no equivale necesariamente a 10 años.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/118.embed\">",
+    "reason": "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/120.embed\">",
+    "new": "- Logaritmo de investigadores FTE y nivel logarítmico de productividad en seis países. Esta variante compara niveles, mientras que las otras dispersiones de la sección muestran crecimiento.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/120.embed\">",
+    "reason": "La nueva figura representa niveles de productividad, no tasas de crecimiento."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+    "old": "- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/72.embed\">",
+    "new": "- Logaritmo de investigadores FTE y crecimiento de productividad en los seis países del archivo StudyGuide. Se conserva separado del objeto local de nueve países; no se mezclan sus muestras ni ediciones.\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/72.embed\">",
+    "reason": "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "-  Para algunos países (México), la mayor participación gubernamental está levemente asociada con un mayor PIB per cápita. Pero para otros (Japón), esta está asociada claramente con un PIB per cápita más bajo. ",
+    "new": "- La gráfica compara la participación del consumo del gobierno en el PIB con el nivel logarítmico del PIB per cápita en seis países. El eje horizontal no es una tasa impositiva.",
+    "reason": "Precisar variable fiscal y evitar conclusiones por país no verificadas para la nueva edición."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "-  No hay una relación clara.",
+    "new": "- Las asociaciones descriptivas de esta gráfica no identifican efectos causales.",
+    "reason": "Mantener la lectura descriptiva de la dispersión reconstruida."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "- Con la relación con el crecimiento, China parece tener una relación claramente positiva, mientras que Corea del Sur claramente negativa y México algo negativa.",
+    "new": "- La gráfica compara la participación del consumo del gobierno en el PIB con el crecimiento anual medio del PIB per cápita en ventanas de 10 años, para seis países.",
+    "reason": "Describir la nueva figura con la definición documentada de su tasa."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "- También parece depender del año, como en Japón.",
+    "new": "- El archivo de dispersión no conserva el año de cada punto; no se atribuye una fecha a las observaciones ni un efecto causal a la participación del gobierno.",
+    "reason": "El archivo gráfico no retiene fechas; evitar inferirlas del orden de los puntos."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "- [**Gobierno y crecimiento del PIB per cápita**](http://plotly.com/~iguzmanvt/132.embed)",
+    "new": "- [**Consumo del gobierno/PIB y crecimiento del PIB per cápita**](http://plotly.com/~iguzmanvt/132.embed)",
+    "reason": "Precisar que la variable fiscal es consumo del gobierno/PIB."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+    "old": "- [**Gobierno y nivel del PIB per cápita**](http://plotly.com/~iguzmanvt/134.embed)",
+    "new": "- [**Consumo del gobierno/PIB y nivel del PIB per cápita**](http://plotly.com/~iguzmanvt/134.embed)",
+    "reason": "Precisar que la variable fiscal es consumo del gobierno/PIB."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "old": "-  Para algunos países (México), la mayor participación gubernamental está levemente asociada con un mayor PIB per cápita. Pero para otros (Japón), esta está asociada claramente con un PIB per cápita más bajo. ",
+    "new": "- La gráfica compara la participación del consumo del gobierno en el PIB con el nivel logarítmico del PIB per cápita en seis países. El eje horizontal no es una tasa impositiva.",
+    "reason": "Precisar variable fiscal y evitar conclusiones por país no verificadas para la nueva edición."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "old": "-  No hay una relación clara.",
+    "new": "- Las asociaciones descriptivas de esta gráfica no identifican efectos causales.",
+    "reason": "Mantener la lectura descriptiva de la dispersión reconstruida."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "old": "- Con la relación con el crecimiento, China parece tener una relación claramente positiva, mientras que Corea del Sur claramente negativa y México algo negativa.",
+    "new": "- La gráfica compara la participación del consumo del gobierno en el PIB con el crecimiento anual medio del PIB per cápita en ventanas de 10 años, para seis países.",
+    "reason": "Describir la nueva figura con la definición documentada de su tasa."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "old": "- También parece depender del año, como en Japón.",
+    "new": "- El archivo de dispersión no conserva el año de cada punto; no se atribuye una fecha a las observaciones ni un efecto causal a la participación del gobierno.",
+    "reason": "El archivo gráfico no retiene fechas; evitar inferirlas del orden de los puntos."
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+    "old": "## Gobierno y nivel del PIB per cápita\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/132.embed\">",
+    "new": "## Gobierno y crecimiento del PIB per cápita\n\n <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/132.embed\">",
+    "reason": "Corregir el encabezado de la figura de crecimiento 132."
+  }
+]

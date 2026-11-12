@@ -1,0 +1,122 @@
+{
+  "count": 13,
+  "materials": [
+    {
+      "id": "01",
+      "module": "Accounting",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+      "html": "materiales_actualizados/Accounting/notas/Material.html",
+      "sha256": "7c17580a4fe7a3f00bb19c7feb7a623333f1c5ac27c20f6da989be43f2ff5b68"
+    },
+    {
+      "id": "02",
+      "module": "Accounting",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+      "html": "materiales_actualizados/Accounting/presentacion/Material.html",
+      "sha256": "c954255280d738f2a2cbedaec14677d7c4fb5bc486e27d4da26414b53c36ddcb"
+    },
+    {
+      "id": "03",
+      "module": "Accounting",
+      "kind": "ejemplo",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+      "html": "materiales_actualizados/Accounting/ejemplo/Material.html",
+      "sha256": "657820f844f6d71de86a5a7b75dcfbf306dabbc8dca9630ba2f5c18dec7c05bf"
+    },
+    {
+      "id": "09",
+      "module": "Energy",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+      "html": "materiales_actualizados/Energy/notas/Material.html",
+      "sha256": "bba980933c75d751bfdefb05b46c237a1c6ab6ee92e4d5effc95cb77645723ca"
+    },
+    {
+      "id": "08",
+      "module": "Energy",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+      "html": "materiales_actualizados/Energy/presentacion/Material.html",
+      "sha256": "034cec7644c892e5fe6ca2fa3aee0b4eca7c3ba4cbe0e23cb1c156cbfdd83e27"
+    },
+    {
+      "id": "13",
+      "module": "Ideas",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "html": "materiales_actualizados/Ideas/notas/Material.html",
+      "sha256": "b1cd8f68b98692a5bfe9b4476fc4b4c543d290c1fcc75bf3fe6c6accd7f4954e"
+    },
+    {
+      "id": "14",
+      "module": "Ideas",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "html": "materiales_actualizados/Ideas/presentacion/Material.html",
+      "sha256": "68330f1d6ebc34cfd1aba5f7d44559122f677631ec9c6c1714e4abbf1535a111"
+    },
+    {
+      "id": "26",
+      "module": "Slowdown",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "html": "materiales_actualizados/Slowdown/notas/Material.html",
+      "sha256": "beefaa9340d4454f1b806244a8fec82a5836e4a7c65c2d400809628cebb2cb56"
+    },
+    {
+      "id": "25",
+      "module": "Slowdown",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "html": "materiales_actualizados/Slowdown/presentacion/Material.html",
+      "sha256": "c8faa75c17763e7a3e7db6a847ac420064adb28af4d4e941d784278f4c09be15"
+    },
+    {
+      "id": "27",
+      "module": "Solow",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "html": "materiales_actualizados/Solow/notas/Material.html",
+      "sha256": "f07440da14d5564f93a7c362e2db02ca4f1fa587efd46e194d111a0b6ffa04e1"
+    },
+    {
+      "id": "28",
+      "module": "Solow",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+      "html": "materiales_actualizados/Solow/presentacion/Material.html",
+      "sha256": "8e9ae9b7b5611ce8ed5405e5761e0c6d06cd69bef838bb4a9fd6d059f141c939"
+    },
+    {
+      "id": "31",
+      "module": "Taxes",
+      "kind": "notas",
+      "format": "html_document",
+      "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+      "html": "materiales_actualizados/Taxes/notas/Material.html",
+      "sha256": "b15259b05c7b934ada620ef33649ce770d0a66b8ca3f0aeb9704d78cca4f70fa"
+    },
+    {
+      "id": "32",
+      "module": "Taxes",
+      "kind": "presentacion",
+      "format": "ioslides_presentation",
+      "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+      "html": "materiales_actualizados/Taxes/presentacion/Material.html",
+      "sha256": "00727029ce4047b13eb0b473c90ebdcdd2da5f536c84548699c1365119132d82"
+    }
+  ]
+}

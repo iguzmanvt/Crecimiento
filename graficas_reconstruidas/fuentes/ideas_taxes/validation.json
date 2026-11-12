@@ -1,0 +1,128 @@
+{
+  "expected_ids": [
+    "iguzmanvt:72",
+    "iguzmanvt:76",
+    "iguzmanvt:96",
+    "iguzmanvt:100",
+    "iguzmanvt:102",
+    "iguzmanvt:112",
+    "iguzmanvt:116",
+    "iguzmanvt:118",
+    "iguzmanvt:120",
+    "iguzmanvt:132",
+    "iguzmanvt:134"
+  ],
+  "input_hashes_verified": 19,
+  "checks": [
+    {
+      "identity": "iguzmanvt:72",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 201,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:96",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 210,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:100",
+      "archived_x_equal": true,
+      "archived_y_equal": false,
+      "documented_normalization": true,
+      "effective_pairs": 227,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:102",
+      "archived_x_equal": true,
+      "archived_y_equal": false,
+      "documented_normalization": true,
+      "effective_pairs": 227,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:112",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 355,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 141,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:120",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 201,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:132",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 355,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:134",
+      "archived_x_equal": true,
+      "archived_y_equal": true,
+      "documented_normalization": false,
+      "effective_pairs": 415,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:116",
+      "source_rows": 265,
+      "output_points": 265,
+      "all_dated_records_preserved": true,
+      "frames": 0
+    },
+    {
+      "identity": "iguzmanvt:76",
+      "observations": 500,
+      "frames": 250,
+      "max_abs_difference_from_archived_model": 4.884981308350689e-15,
+      "tolerance": 1e-12,
+      "asymptote_ratio": 2,
+      "asymptote_growth": 0.02
+    },
+    {
+      "identity": "iguzmanvt:100",
+      "linear_y_axis": true,
+      "original_log_archive_matches_rounded_level_logs": true,
+      "matched_level_observations": 227,
+      "max_original_log_rounding_difference": 0.0,
+      "new_definition": "ln(gasto/gasto de 2000)",
+      "base_year": 2000,
+      "base_value": 0,
+      "series": 6
+    },
+    {
+      "identity": "iguzmanvt:102",
+      "new_definition": "100*gasto/gasto de 2000",
+      "base_year": 2000,
+      "base_value": 100,
+      "series": 6,
+      "coordinates": 227
+    }
+  ],
+  "output_files": 11,
+  "network_used": false,
+  "R_or_archived_HTML_executed": false
+}

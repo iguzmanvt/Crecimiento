@@ -1,5 +1,8 @@
 # Energía, población y crecimiento
 
+**Gráficas reconstruidas:** [notas actualizadas](../../materiales_actualizados/Energy/notas/Material.html) · [presentación actualizada](../../materiales_actualizados/Energy/presentacion/Material.html) · [guía del conjunto](../../materiales_actualizados/README.md) · [figuras, datos y método](../../RECONSTRUCCION_GRAFICAS.md). Las fuentes Rmd de este módulo incorporan las reconstrucciones; los HTML históricos se conservan como antecedentes.
+
+
 Las 2 fuentes de este módulo pueden generarse mediante la [guía común](../../REPRODUCCION_MODULOS.md). Se conservan las variantes y los HTML históricos; las salidas nuevas se escriben fuera del repositorio.
 
 | ID | Fuente | Formatos |

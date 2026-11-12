@@ -71,7 +71,7 @@ grid.raster(Energy_Crude_Reserves, interpolate=FALSE)
 
 -  Los costos reales aumentaron con el tiempo, pero en los últimos años disminuyeron. 
 
--  Los costos reales como una fracción del PIB real disminuyen.
+-  Las nuevas series distinguen la intensidad energética física y el gasto energético como proporción del PIB. La primera usa energía/PIB real; la segunda, gasto nominal/PIB nominal, por lo que no deben confundirse sus unidades.
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -87,13 +87,13 @@ grid.raster(Energy_Energy_Expenditure, interpolate=FALSE)
 
 ## Datos sobre el uso de energía
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/190.embed">
+<iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-190.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Datos sobre el uso de energía
 
-<iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/192.embed">
+<iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-192.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 

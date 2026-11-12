@@ -1,0 +1,100 @@
+{
+  "repo_commit": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "source_workbook": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+  "workbook_sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+  "case_rows": 350,
+  "cross_rows": 1647,
+  "case_countries": [
+    "CHN",
+    "DEU",
+    "JPN",
+    "KOR",
+    "USA"
+  ],
+  "cross_years": [
+    1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000,
+    2005,
+    2010,
+    2015
+  ],
+  "sources": [
+    {
+      "repo_path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "sha256": "7a5c6eda6398e28d23801cc6d0b97f0f3cd7411a7c956d0edda9e54e28ace1a5",
+      "git_blob": "d788b65ad4468e1385de9a92ccfb3b604845bd1e"
+    },
+    {
+      "repo_path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+      "sha256": "c24ba716774b8f31f5893a82a0443736f9ea70e891d9efde145b72db4310bd66",
+      "git_blob": "4d8a3db38e4b7d815b1cb8e5449c12bf621984e1"
+    },
+    {
+      "repo_path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+      "sha256": "388b0dd15dab68cc5a57c72ee334faa32ed9f8451d047fa3a44bd0109c0e798b",
+      "git_blob": "f19a96bf93063893604710aa366be27dae2adf8e"
+    },
+    {
+      "repo_path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+      "sha256": "db48624bdaf1a07d0102f99e0562645a7b471aa41442e0eee7bf02f3609581aa",
+      "git_blob": "eb44c0d74a6fa5f31ff1654a5d2fb9d842ed8b38"
+    },
+    {
+      "repo_path": "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd",
+      "sha256": "0f9581cac86fa7dcb700a98f88cdae736ef4aee15aef15ca10638846c268b34e",
+      "git_blob": "11b1ce3dc5f4981e788e5bf9d41bd274f12af5bc"
+    }
+  ],
+  "files": [
+    {
+      "path": "inputs/pwt100_cases.csv",
+      "bytes": 53334,
+      "sha256": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+    },
+    {
+      "path": "inputs/pwt100_cross_sections.csv",
+      "bytes": 106765,
+      "sha256": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+    },
+    {
+      "path": "context/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "bytes": 3503,
+      "sha256": "f829ec92b3f48665001f723d9d98c28ba8c9b76451eabced154d8785244b0788",
+      "original_windows_sha256": "7a5c6eda6398e28d23801cc6d0b97f0f3cd7411a7c956d0edda9e54e28ace1a5",
+      "line_endings": "LF; sólo normalización de CRLF"
+    },
+    {
+      "path": "context/Solow/Crecimiento Economico 2.Rmd",
+      "bytes": 5353,
+      "sha256": "89beeef2d9e3fa89e0a519251fdf5897e959b6786e41067f86f3723db425a8df",
+      "original_windows_sha256": "c24ba716774b8f31f5893a82a0443736f9ea70e891d9efde145b72db4310bd66",
+      "line_endings": "LF; sólo normalización de CRLF"
+    },
+    {
+      "path": "context/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+      "bytes": 10101,
+      "sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1",
+      "original_windows_sha256": "388b0dd15dab68cc5a57c72ee334faa32ed9f8451d047fa3a44bd0109c0e798b",
+      "line_endings": "LF; sólo normalización de CRLF"
+    },
+    {
+      "path": "context/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+      "bytes": 11168,
+      "sha256": "89eb1056fd5c9038ff4f24667cab28a4dc85acd28fecd3daea20f1507dc6177d",
+      "original_windows_sha256": "db48624bdaf1a07d0102f99e0562645a7b471aa41442e0eee7bf02f3609581aa",
+      "line_endings": "LF; sólo normalización de CRLF"
+    },
+    {
+      "path": "context/Accounting/Ejemplo Estados Unidos.Rmd",
+      "bytes": 2541,
+      "sha256": "ca7803acdee41f044466c311c90d187caf961c4e4a34bd05ae82ff502e0658f0",
+      "original_windows_sha256": "0f9581cac86fa7dcb700a98f88cdae736ef4aee15aef15ca10638846c268b34e",
+      "line_endings": "LF; sólo normalización de CRLF"
+    }
+  ],
+  "extraction_script": "extraer_insumos.py REPO_PATH; escribe bundle base64 a stdout; lectura del libro con hash fijo y Rmd, sin ejecutar fuentes."
+}

@@ -8,17 +8,29 @@ output:
 ---
 ### Gobierno y nivel del PIB per cápita
 
--  Para algunos países (México), la mayor participación gubernamental está levemente asociada con un mayor PIB per cápita. Pero para otros (Japón), esta está asociada claramente con un PIB per cápita más bajo. 
+- La gráfica compara la participación del consumo del gobierno en el PIB con el nivel logarítmico del PIB per cápita en seis países. El eje horizontal no es una tasa impositiva.
 
--  No hay una relación clara.
+- Las asociaciones descriptivas de esta gráfica no identifican efectos causales.
 
-- [**Gobierno y nivel del PIB per cápita**](http://plotly.com/~iguzmanvt/134.embed)
+- [**Consumo del gobierno/PIB y nivel del PIB per cápita**](../../graficas_reconstruidas/graficas/iguzmanvt-134.html)
 
-- Con la relación con el crecimiento, China parece tener una relación claramente positiva, mientras que Corea del Sur claramente negativa y México algo negativa.
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-134.svg" alt="Gasto del gobierno y nivel del PIB per cápita" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
 
-- También parece depender del año, como en Japón.
 
-- [**Gobierno y crecimiento del PIB per cápita**](http://plotly.com/~iguzmanvt/132.embed)
+- La gráfica compara la participación del consumo del gobierno en el PIB con el crecimiento anual medio del PIB per cápita en ventanas de 10 años, para seis países.
+
+- El archivo de dispersión no conserva el año de cada punto; no se atribuye una fecha a las observaciones ni un efecto causal a la participación del gobierno.
+
+- [**Consumo del gobierno/PIB y crecimiento del PIB per cápita**](../../graficas_reconstruidas/graficas/iguzmanvt-132.html)
+
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-132.svg" alt="Gasto del gobierno y crecimiento del PIB per cápita" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
 
 -  Saez, Slemrod y Giertz (2009) analizan la tendencia de los impuestos marginales al top 1% de Estados Unidos. 
 

@@ -26,6 +26,12 @@ required <- c("rmarkdown", "knitr", "png", "gridExtra", "plotly", "shiny", "json
 if (any(grepl("Ejemplo Estados Unidos", manifest$source, fixed = TRUE))) required <- c(required, "pwt10")
 missing <- required[!vapply(required, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing)) stop("Faltan paquetes: ", paste(missing, collapse = ", "))
+reconstruction <- file.path(repo, "graficas_reconstruidas")
+uses_reconstruction <- any(manifest$module %in% c("Accounting", "Energy", "Ideas", "Slowdown", "Solow", "Taxes"))
+if (uses_reconstruction) {
+  if (!dir.exists(reconstruction)) stop("Faltan las gráficas reconstruidas.")
+  if (!file.copy(reconstruction, out, recursive = TRUE)) stop("No se pudieron copiar las gráficas reconstruidas.")
+}
 results <- list()
 for (i in seq_len(nrow(manifest))) {
   row <- manifest[i, ]
@@ -66,6 +72,11 @@ for (i in seq_len(nrow(manifest))) {
       session = list(R = R.version.string, pandoc = as.character(rmarkdown::pandoc_version()),
         packages = setNames(lapply(required, function(p) as.character(packageVersion(p))), required))),
       file.path(out, "resultados.json"), pretty = TRUE, auto_unbox = TRUE, null = "null")
+    if (!inherits(result, "error") && uses_reconstruction) {
+      html <- readLines(result, warn = FALSE, encoding = "UTF-8")
+      html <- gsub("(?:\\.\\./)+graficas_reconstruidas/", "../../../graficas_reconstruidas/", html, perl = TRUE)
+      writeLines(html, result, useBytes = TRUE)
+    }
     if (inherits(result, "error")) cat("FAILED", record$error, "\n") else cat("OK", record$output, "\n")
   }
 }

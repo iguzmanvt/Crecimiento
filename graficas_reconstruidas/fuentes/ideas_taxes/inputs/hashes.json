@@ -1,0 +1,21 @@
+{
+  "Guide_ME_gA.r": "d139aca55b07491d7e2dd1cb8be953bf6f505db89de94308e96c4a73f81d42e8",
+  "Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+  "Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+  "Guide_PWT_Topics.r": "832fc1c752eb6a79584c889766a5bc8bd903f516bc7a5761ef0de171621536fd",
+  "fig_local_puntos_con_fecha.json": "7bd93a20d823a233bfd378d27023ce318a0cdce753d3264157d3e21f86ebcec7",
+  "model76_parameters.json": "1a72e1101c9a686cabc3d34341956799e57279cab67fdbed2c16c7127c9bfaa9",
+  "model76_reference.json": "0c1c5a9cbfce279dc45d08523c03e0ebefcc437c3294caeac4dce60d975a5ead",
+  "oecd-rd-fte.json": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+  "oecd-rd-levelrd.json": "7d8a75e196118486ca7023f06cd4abb16ffadedf6ad5225de6defec85fee7db0",
+  "oecd-rd-logrd.json": "d0edac205821320085ac646f2b167e1548a40c41d547c17ccc60e5e976cffd6a",
+  "pwt-all-cshg-growth.json": "528d466c0137a2e8b694d183594f4a529939810d9d82ca0974d12a6a6bb92e2c",
+  "pwt-all-cshg-level.json": "a3512bf7517e2e4c434fe747c788a41be84ba00aeb1770c637d3e93ef3bdfa86",
+  "pwt-growth-tfp-comp.json": "499b5d219b69e31e1117c09ef8efb5dc36969ddaeee7e4b6e40cf3da4b28be07",
+  "pwt-oecd-level-rd.json": "d43b39c36048fb078b3b447efb71daa263473081f849df71f67fbf067fd05dba",
+  "pwt-oecd-rd-gtfp.json": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+  "pwt-oecd-rd-tfp.json": "c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3",
+  "rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657",
+  "saved_fig_provenance.json": "90f4122a8c47973b5c6672815170b400152402b042caa84d337f6ed15a7032b6",
+  "source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1"
+}

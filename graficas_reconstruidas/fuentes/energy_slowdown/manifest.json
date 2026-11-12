@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "generator": "generar.py",
+  "offline": true,
+  "baseline_commit": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "entries": [
+    {
+      "identity": "iguzmanvt:190",
+      "slug": "iguzmanvt-190",
+      "title": "Estados Unidos: intensidad energética",
+      "module": "Energy",
+      "description": "Consumo de energía primaria por unidad de PIB real; menor intensidad significa menos energía por dólar de producción.",
+      "formula": "Serie TETGRUS publicada por EIA: consumo de energía primaria / PIB real en dólares encadenados de 2017, expresado en miles de Btu por dólar.",
+      "units": "Miles de Btu por dólar de 2017",
+      "period": {
+        "start": 1970,
+        "end": 2019,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T01.07",
+        "https://www.eia.gov/totalenergy/data/monthly/pdf/sec1_19.pdf",
+        "https://www.eia.gov/totalenergy/data/monthly/index.php"
+      ],
+      "source_paths": [
+        "inputs/eia_usa_1970_2019.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Monthly Energy Review de octubre de 2026, publicado el 29-10-2026; se selecciona el período 1970–2019.",
+      "limitations": [
+        "Reconstrucción temática; no se recuperó el gráfico original de Chart Studio.",
+        "Cobertura: los 50 estados de Estados Unidos y el Distrito de Columbia, verificada en el cuadro 1.7 de EIA.",
+        "Se utilizan datos revisados en octubre de 2026 para 1970–2019; la edición histórica del gráfico original es desconocida.",
+        "La intensidad observada no identifica por separado los efectos causales de la tecnología, la composición sectorial o los precios de la energía."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/eia_usa_1970_2019.csv": "6d1fadc1bb2ae2e7e615970e42686f5d165f74b3604b75119699f57c04271241",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-190.json",
+      "derived_csv_path": "iguzmanvt-190.csv",
+      "original_chart_recovered": false,
+      "data_points": 50
+    },
+    {
+      "identity": "iguzmanvt:192",
+      "slug": "iguzmanvt-192",
+      "title": "Estados Unidos: gasto energético / PIB",
+      "module": "Energy",
+      "description": "Gasto nominal en energía como porcentaje del PIB nominal. Complementa la intensidad física de la gráfica 190.",
+      "formula": "Serie TEGDSUS publicada por EIA: 100 × gasto nominal en energía / PIB nominal.",
+      "units": "Porcentaje del PIB nominal",
+      "period": {
+        "start": 1970,
+        "end": 2019,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T01.07",
+        "https://www.eia.gov/totalenergy/data/monthly/pdf/sec1_19.pdf",
+        "https://www.eia.gov/totalenergy/data/monthly/index.php"
+      ],
+      "source_paths": [
+        "inputs/eia_usa_1970_2019.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Monthly Energy Review de octubre de 2026, publicado el 29-10-2026; se selecciona el período 1970–2019.",
+      "limitations": [
+        "Reconstrucción temática; no se recuperó el gráfico original de Chart Studio.",
+        "Cobertura: los 50 estados de Estados Unidos y el Distrito de Columbia, verificada en el cuadro 1.7 de EIA.",
+        "Se utilizan datos revisados en octubre de 2026 para 1970–2019; la edición histórica del gráfico original es desconocida.",
+        "El gasto incluye impuestos cuando hay datos disponibles. El cociente no estima una elasticidad de producción ni el efecto causal del precio de la energía."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/eia_usa_1970_2019.csv": "6d1fadc1bb2ae2e7e615970e42686f5d165f74b3604b75119699f57c04271241",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-192.json",
+      "derived_csv_path": "iguzmanvt-192.csv",
+      "original_chart_recovered": false,
+      "data_points": 50
+    },
+    {
+      "identity": "iguzmanvt:198",
+      "slug": "iguzmanvt-198",
+      "title": "Estados Unidos: participación no laboral del PIB",
+      "module": "Slowdown",
+      "description": "Complemento contable de la participación de la remuneración laboral en el PIB a precios nacionales corrientes.",
+      "formula": "100 × (1 − labsh), donde labsh es la participación de la remuneración laboral en el PIB a precios nacionales corrientes.",
+      "units": "Porcentaje del PIB",
+      "period": {
+        "start": 1950,
+        "end": 2019,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf"
+      ],
+      "source_paths": [
+        "inputs/pwt100_usa.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Penn World Table 10.0, edición corregida de junio de 2021; datos de 1950–2019.",
+      "limitations": [
+        "Reconstrucción con datos verificados; no corresponde a los datos recuperados del gráfico original de Chart Studio.",
+        "PWT 10.0, período histórico 1950–2019; no incluye proyecciones ni observaciones posteriores.",
+        "Este complemento no es RK/(W+RK), una participación observada del capital en los costos ni una estimación directa de su elasticidad de producción."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/pwt100_usa.csv": "f0c4c1e68809a689c772b1257c75d4b5c4f2169139dfc7b12719f3c3dcd67b5c",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-198.json",
+      "derived_csv_path": "iguzmanvt-198.csv",
+      "original_chart_recovered": false,
+      "data_points": 70
+    },
+    {
+      "identity": "iguzmanvt:211",
+      "slug": "iguzmanvt-211",
+      "title": "Estados Unidos: tasa bruta de natalidad",
+      "module": "Slowdown",
+      "description": "Nacimientos vivos ocurridos en el año por cada 1.000 habitantes estimados a mitad de año.",
+      "formula": "Indicador WDI SP.DYN.CBRT.IN: 1.000 × nacimientos vivos del año / población total estimada a mitad de año.",
+      "units": "Nacimientos por cada 1.000 habitantes",
+      "period": {
+        "start": 1960,
+        "end": 2024,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&format=json&per_page=2000",
+        "https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=US"
+      ],
+      "source_paths": [
+        "inputs/wdi_usa_1960_2024.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Banco Mundial, WDI: actualización de la API y consulta del 11-11-2026. La respuesta identifica fuentes de Naciones Unidas y nacionales, pero no precisa la edición de origen de cada observación.",
+      "limitations": [
+        "Reconstrucción de una serie histórica; no se recuperó el gráfico original de Chart Studio.",
+        "Se utiliza la consulta WDI del 11-11-2026; las estimaciones históricas pueden diferir de las disponibles cuando se preparó la clase.",
+        "No incluye proyecciones: todos los años representados pertenecen al período 1960–2024.",
+        "La tasa bruta de natalidad no es la tasa global de fecundidad ni el número de hijos por mujer.",
+        "La tendencia descriptiva no demuestra que los cambios en las preferencias familiares la causaran ni cuantifica un efecto causal sobre el crecimiento."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/wdi_usa_1960_2024.csv": "21d3bc1094bab009c86bdc2711a377858c8904211b8952a9bcdbad0d879167cf",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-211.json",
+      "derived_csv_path": "iguzmanvt-211.csv",
+      "original_chart_recovered": false,
+      "data_points": 65
+    },
+    {
+      "identity": "iguzmanvt:213",
+      "slug": "iguzmanvt-213",
+      "title": "Estados Unidos: ocupados / población total",
+      "module": "Slowdown",
+      "description": "Personas ocupadas en relación con toda la población; PWT mide ambas variables en millones de personas.",
+      "formula": "100 × emp / pop; emp es el número de personas ocupadas y pop la población total. Ambas variables están en millones, por lo que las unidades se cancelan.",
+      "units": "Ocupados por cada 100 habitantes",
+      "period": {
+        "start": 1950,
+        "end": 2019,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/docs/pwt100-user-guide-to-data-files.pdf"
+      ],
+      "source_paths": [
+        "inputs/pwt100_usa.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Penn World Table 10.0, edición corregida de junio de 2021; datos de 1950–2019.",
+      "limitations": [
+        "Reconstrucción con datos verificados; no corresponde a los datos recuperados del gráfico original de Chart Studio.",
+        "PWT 10.0, período histórico 1950–2019; no incluye proyecciones ni observaciones posteriores.",
+        "El denominador incluye todas las edades. No es la tasa habitual de empleo sobre población en edad de trabajar, la participación laboral ni la proporción de personas de 20–64 años.",
+        "La variación observada no identifica por sí sola un efecto causal de la demografía sobre el crecimiento económico."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/pwt100_usa.csv": "f0c4c1e68809a689c772b1257c75d4b5c4f2169139dfc7b12719f3c3dcd67b5c",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-213.json",
+      "derived_csv_path": "iguzmanvt-213.csv",
+      "original_chart_recovered": false,
+      "data_points": 70
+    },
+    {
+      "identity": "iguzmanvt:216",
+      "slug": "iguzmanvt-216",
+      "title": "Estados Unidos: dependencia demográfica",
+      "module": "Slowdown",
+      "description": "Población de 0–19 y 65 años o más por cada 100 personas de 20–64 años. Los grupos cubren todas las edades y no se solapan.",
+      "formula": "N15_19 = población masculina × porcentaje masculino de 15–19 / 100 + población femenina × porcentaje femenino de 15–19 / 100; N0_19 = N0_14 + N15_19; N20_64 = población total − N0_19 − N65más. Dependencia joven = 100 × N0_19 / N20_64; dependencia mayor = 100 × N65más / N20_64; dependencia total = suma de ambas.",
+      "units": "Personas por cada 100 adultos de 20–64",
+      "period": {
+        "start": 1960,
+        "end": 2024,
+        "frequency": "annual"
+      },
+      "country": "USA",
+      "source_urls": [
+        "https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&format=json&per_page=2000",
+        "https://data.worldbank.org/indicator/SP.POP.65UP.TO?locations=US",
+        "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.POP.1519.MA.5Y"
+      ],
+      "source_paths": [
+        "inputs/wdi_usa_1960_2024.csv",
+        "inputs/source_metadata.json"
+      ],
+      "source_vintage": "Banco Mundial, WDI: actualización de la API y consulta del 11-11-2026. La respuesta identifica fuentes de Naciones Unidas y nacionales, pero no precisa la edición de origen de cada observación.",
+      "limitations": [
+        "Reconstrucción de una serie histórica; no se recuperó el gráfico original de Chart Studio.",
+        "Se utiliza la consulta WDI del 11-11-2026; las estimaciones históricas pueden diferir de las disponibles cuando se preparó la clase.",
+        "No incluye proyecciones: todos los años representados pertenecen al período 1960–2024.",
+        "Cambio explícito de convención: 0–19 sustituye al intervalo 0–20 de la clase original para no contar la edad de 20 años en dos grupos.",
+        "Son cocientes de dependencia por edad; no cuentan personas económicamente dependientes ni personas ocupadas.",
+        "La serie histórica no verifica la proyección de clase según la cual la dependencia de mayores se acercaría al 40% en 2030.",
+        "La población de 15–19 años se deriva ponderando los porcentajes específicos de cada sexo por su población correspondiente; las estimaciones pueden tener valores fraccionarios."
+      ],
+      "kind": "reconstructed_from_verified_sources",
+      "inputs_sha256": {
+        "inputs/wdi_usa_1960_2024.csv": "21d3bc1094bab009c86bdc2711a377858c8904211b8952a9bcdbad0d879167cf",
+        "inputs/source_metadata.json": "e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9"
+      },
+      "spec_path": "iguzmanvt-216.json",
+      "derived_csv_path": "iguzmanvt-216.csv",
+      "original_chart_recovered": false,
+      "data_points": 195
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "figures": 23,
+  "initial_traces": 51,
+  "frames": {
+    "iguzmanvt:78": 250,
+    "iguzmanvt:160": 7,
+    "iguzmanvt:162": 7
+  },
+  "R_reference_104_exact_points": 240,
+  "accounting_identity_max_abs_error": 1.865174681370263e-14,
+  "hashes_valid": true,
+  "no_empty_traces": true,
+  "no_nonfinite_numbers": true,
+  "historical_identity_claimed": false,
+  "browser_visual_validation": "Pendiente de integración; esta comprobación valida datos y contrato, no render."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "group": "solow_accounting",
+    "count": 23,
+    "all_specs_recomputed_identically": true,
+    "stdout": "{\"accounting_growth_identity_max_abs_error\": 1.865174681370263e-14, \"count\": 23, \"countries_case_rows\": 350, \"cross_section_input_rows\": 1647, \"all_outputs_finite\": true, \"original_identities_authenticated\": false, \"network_used\": false}"
+  },
+  {
+    "group": "ideas_taxes",
+    "count": 11,
+    "all_specs_recomputed_identically": true,
+    "stdout": "{\"output\": \"/workspace/scratch/b7a84d4ecbc0/regeneracion_clase/recalculated/ideas_taxes\", \"figures\": 11, \"points_in_base_traces\": 3097, \"model_frames\": 250, \"max_model_difference\": 4.884981308350689e-15}"
+  },
+  {
+    "group": "energy_slowdown",
+    "count": 6,
+    "all_specs_recomputed_identically": true,
+    "stdout": "Generated 6 figures and derived CSVs in /workspace/scratch/b7a84d4ecbc0/regeneracion_clase/recalculated/energy_slowdown"
+  }
+]

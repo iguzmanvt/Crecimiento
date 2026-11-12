@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "generator": "generar.py",
+  "generator_sha256": "2a973cb8058e07a090fb2d98343065fa74976ebabf2e4b409cbca9110a5f48b0",
+  "baseline_commit": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "authorization_scope": "Reconstrucciones docentes nuevas de 11 destinos; no se atribuye autenticidad histórica.",
+  "source_license": "StudyGuide: MIT, Copyright (c) 2020 Dietz Vollrath; LICENSE-StudyGuide adjunta.",
+  "entries": [
+    {
+      "identity": "iguzmanvt:72",
+      "slug": "iguzmanvt-72",
+      "title": "Investigadores y crecimiento: comparación internacional",
+      "module": "Ideas",
+      "description": "Reconstrucción del contraste entre intensidad de investigación y crecimiento de productividad en seis países del archivo StudyGuide. Se mantiene separada del objeto local de nueve países usado para 116.",
+      "formula": "x = lnrdworker archivado = ln(FTE); y = g10.accttfp archivado. El código fuente documenta g10.accttfp = round((accttfp_t − accttfp_(t−10))/10, 4). No se recalculan los datos.",
+      "units": "x: logaritmo natural de investigadores FTE. y: tasa decimal archivada; las etiquetas porcentuales cambian sólo la presentación.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-oecd-rd-tfp.json",
+        "inputs/Guide_PWT_Account.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-oecd-rd-tfp.json": "c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3",
+        "inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 201,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 29,
+            "effective_pairs": 29
+          },
+          {
+            "series": "Alemania",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 37,
+            "effective_pairs": 37
+          },
+          {
+            "series": "Japón",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 25,
+            "effective_pairs": 25
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 39,
+            "effective_pairs": 39
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+      "source_file_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+      "output_sha256": "1abcdbdc54bae233e10e1819d22245285972a675a95f9380ff357c97400252c8"
+    },
+    {
+      "identity": "iguzmanvt:76",
+      "slug": "iguzmanvt-76",
+      "title": "Modelo de I+D: convergencia del crecimiento",
+      "module": "Ideas",
+      "description": "Reconstrucción de dos economías con crecimiento de investigadores de 2%. Las trayectorias completas permanecen visibles; el control temporal resalta los puntos de cada periodo sin duplicar las observaciones en las trazas principales.",
+      "formula": "gA_t = theta·R_t^lambda/A_t^(1−phi); A_(t+1)=(1+gA_t)A_t; R_(t+1)=(1+gR)R_t. theta=0.01, lambda=1, phi=0, gR=0.02, R_1=10, A_A,1=2, A_B,1=10. R/A=gA/theta. Límite R/A=2 y gA=0.02.",
+      "units": "R/A: investigadores por unidad de productividad del modelo; crecimiento decimal por periodo, mostrado como porcentaje. Economías hipotéticas, sin países.",
+      "period": "250 periodos simulados, t=1…250; 500 observaciones, dos economías. No son años calendario.",
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_ME_gA.r",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/me-gA-dynamics.html"
+      ],
+      "source_paths": [
+        "inputs/model76_parameters.json",
+        "inputs/model76_reference.json",
+        "inputs/Guide_ME_gA.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "Parámetros y regla dinámica del modelo archivado en StudyGuide@3a8c79f20022ef7b985b392d73921839a4317883.",
+      "limitations": [
+        "Simulación pedagógica, no evidencia de países ni estimación empírica.",
+        "Las coordenadas se recalculan en Python y coinciden con las 500 coordenadas archivadas dentro de tolerancia absoluta de 1e-12; no se afirma recuperación del antiguo ID 76.",
+        "La vista estática muestra las dos trayectorias completas; los 250 estados sólo mueven los resaltados mediante la disposición visual, sin añadir observaciones."
+      ],
+      "kind": "reconstruccion_modelo_documentado",
+      "inputs_sha256": {
+        "inputs/model76_parameters.json": "1a72e1101c9a686cabc3d34341956799e57279cab67fdbed2c16c7127c9bfaa9",
+        "inputs/model76_reference.json": "0c1c5a9cbfce279dc45d08523c03e0ebefcc437c3294caeac4dce60d975a5ead",
+        "inputs/Guide_ME_gA.r": "d139aca55b07491d7e2dd1cb8be953bf6f505db89de94308e96c4a73f81d42e8",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 500,
+        "by_series": [
+          {
+            "series": "Economía A",
+            "array_length": 250,
+            "effective_pairs": 250
+          },
+          {
+            "series": "Economía B",
+            "array_length": 250,
+            "effective_pairs": 250
+          }
+        ]
+      },
+      "frames": 250,
+      "historical_identity_authenticated": false,
+      "output_sha256": "8acaaed23927c3befb681e6702870065289606f93f177452e5e074b0aaa8638d"
+    },
+    {
+      "identity": "iguzmanvt:96",
+      "slug": "iguzmanvt-96",
+      "title": "Investigadores en I+D",
+      "module": "Ideas",
+      "description": "Evolución del personal investigador en seis países, conservando todos los años y valores del objeto gráfico archivado.",
+      "formula": "x = Time; y = ObsValue. Los comentarios del código OECD documentan filtros FTE, investigadores, todos los sectores y ambos géneros; el eje archivado indica FTE.",
+      "units": "Investigadores equivalentes a tiempo completo (FTE); no son necesariamente personas físicas.",
+      "period": "1981–2021; cobertura desigual por país",
+      "period_by_series": {
+        "China": [
+          1991,
+          2021
+        ],
+        "Alemania": [
+          1981,
+          2021
+        ],
+        "Reino Unido": [
+          1981,
+          2017
+        ],
+        "Japón": [
+          1981,
+          2021
+        ],
+        "Corea del Sur": [
+          1995,
+          2021
+        ],
+        "Estados Unidos": [
+          1981,
+          2020
+        ]
+      },
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r"
+      ],
+      "source_paths": [
+        "inputs/oecd-rd-fte.json",
+        "inputs/Guide_OECD_RD.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/oecd-rd-fte.json": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+        "inputs/Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 210,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 31,
+            "effective_pairs": 31
+          },
+          {
+            "series": "Alemania",
+            "array_length": 34,
+            "effective_pairs": 34
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 37,
+            "effective_pairs": 37
+          },
+          {
+            "series": "Japón",
+            "array_length": 41,
+            "effective_pairs": 41
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 27,
+            "effective_pairs": 27
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 40,
+            "effective_pairs": 40
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "caa8734e1a88de21488a5d0cb81b96f88a074e2b",
+      "source_file_sha256": "8e3019730e7d3b7bbcba394d1cb8bb9451d4d8890f72d07eef12709b7e4baae4",
+      "output_sha256": "521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7"
+    },
+    {
+      "identity": "iguzmanvt:100",
+      "slug": "iguzmanvt-100",
+      "title": "Evolución del gasto en I+D en logaritmos relativos",
+      "module": "Ideas",
+      "description": "Se calcula el logaritmo natural del gasto relativo a 2000 en cada país. El eje es lineal: no se aplica un segundo logaritmo. Se comparan trayectorias relativas, sin comparar tamaños monetarios entre países.",
+      "formula": "y = ln(OBS_VALUE_t / OBS_VALUE_2000), por país, calculado desde los niveles originales sin redondeo intermedio; eje y lineal. En 2000, y = 0.",
+      "units": "Logaritmo natural de una razón sin unidades, base 2000 = 0. No mide una tasa anual; una diferencia entre años mide cambio logarítmico acumulado.",
+      "period": "1981–2022; cobertura desigual por país",
+      "period_by_series": {
+        "China": [
+          1991,
+          2022
+        ],
+        "Alemania": [
+          1981,
+          2021
+        ],
+        "Reino Unido": [
+          1981,
+          2021
+        ],
+        "Japón": [
+          1981,
+          2022
+        ],
+        "Corea del Sur": [
+          1991,
+          2022
+        ],
+        "Estados Unidos": [
+          1981,
+          2021
+        ]
+      },
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-levelrd.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r"
+      ],
+      "source_paths": [
+        "inputs/oecd-rd-levelrd.json",
+        "inputs/Guide_OECD_RD.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "Transformación nueva desde los niveles originales: ln(gasto/gasto de 2000), en eje lineal. El gráfico archivado usaba valores ln y además eje logarítmico; esta reconstrucción evita esa doble transformación.",
+        "La normalización elimina la escala de cada serie y no permite comparar tamaños monetarios absolutos entre países.",
+        "No se acreditan moneda, multiplicador, PPA ni base de precios en los datos originales; tampoco se certifica la comparabilidad metodológica a lo largo del tiempo. No se interpretan a partir de PRICE_BASE=Q."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/oecd-rd-levelrd.json": "7d8a75e196118486ca7023f06cd4abb16ffadedf6ad5225de6defec85fee7db0",
+        "inputs/Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 227,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Alemania",
+            "array_length": 41,
+            "effective_pairs": 41
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Japón",
+            "array_length": 42,
+            "effective_pairs": 42
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 41,
+            "effective_pairs": 41
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "17655fa0e0f8308a289d720b8ae1773abfd2a727",
+      "source_file_sha256": "4af4eb46255d22a48cd261cfa0222a11046611a9374e900849a374ef2e246ad9",
+      "normalization": {
+        "year": 2000,
+        "base_values_in_archived_units": {
+          "China": 39806.30693,
+          "Alemania": 78825.21993,
+          "Reino Unido": 34868.15141,
+          "Japón": 133313.8028,
+          "Corea del Sur": 22393.69052,
+          "Estados Unidos": 359380.5339
+        },
+        "common_base_verified": true
+      },
+      "output_sha256": "c38fe5a63b06ce7cbb2d6952525e7595cbc6d9c5f2186d09a536c7abbbfbf091"
+    },
+    {
+      "identity": "iguzmanvt:102",
+      "slug": "iguzmanvt-102",
+      "title": "Evolución relativa del gasto en I+D",
+      "module": "Ideas",
+      "description": "Índice del gasto de I+D con base 2000 = 100 en cada uno de seis países. Permite comparar la evolución relativa del gasto; no permite comparar niveles monetarios absolutos entre países.",
+      "formula": "y = 100 × OBS_VALUE_t / OBS_VALUE_2000, por país. El año 2000 está presente y tiene valor positivo en las seis series archivadas.",
+      "units": "Índice sin unidades, base propia de cada país en 2000 = 100. Se conservan las unidades originales sólo en los archivos de entrada, sin atribuir moneda, PPA ni base de precios.",
+      "period": "1981–2022; cobertura desigual por país",
+      "period_by_series": {
+        "China": [
+          1991,
+          2022
+        ],
+        "Alemania": [
+          1981,
+          2021
+        ],
+        "Reino Unido": [
+          1981,
+          2021
+        ],
+        "Japón": [
+          1981,
+          2022
+        ],
+        "Corea del Sur": [
+          1991,
+          2022
+        ],
+        "Estados Unidos": [
+          1981,
+          2021
+        ]
+      },
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-levelrd.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r"
+      ],
+      "source_paths": [
+        "inputs/oecd-rd-levelrd.json",
+        "inputs/Guide_OECD_RD.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La normalización elimina la escala de cada serie y no permite comparar tamaños monetarios absolutos entre países.",
+        "No se acreditan moneda, multiplicador, PPA ni base de precios en los datos originales; tampoco se certifica la comparabilidad metodológica a lo largo del tiempo. No se interpretan a partir de PRICE_BASE=Q."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/oecd-rd-levelrd.json": "7d8a75e196118486ca7023f06cd4abb16ffadedf6ad5225de6defec85fee7db0",
+        "inputs/Guide_OECD_RD.r": "c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 227,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Alemania",
+            "array_length": 41,
+            "effective_pairs": 41
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Japón",
+            "array_length": 42,
+            "effective_pairs": 42
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 41,
+            "effective_pairs": 41
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "17655fa0e0f8308a289d720b8ae1773abfd2a727",
+      "source_file_sha256": "4af4eb46255d22a48cd261cfa0222a11046611a9374e900849a374ef2e246ad9",
+      "normalization": {
+        "year": 2000,
+        "base_values_in_archived_units": {
+          "China": 39806.30693,
+          "Alemania": 78825.21993,
+          "Reino Unido": 34868.15141,
+          "Japón": 133313.8028,
+          "Corea del Sur": 22393.69052,
+          "Estados Unidos": 359380.5339
+        },
+        "common_base_verified": true
+      },
+      "output_sha256": "4688e4402c68906c8cc02130bb022c2c7cd86794827a554f56c6588102c359f4"
+    },
+    {
+      "identity": "iguzmanvt:112",
+      "slug": "iguzmanvt-112",
+      "title": "Crecimiento de la productividad",
+      "module": "Ideas",
+      "description": "Evolución temporal de la productividad para leer junto a las gráficas de trabajadores y gasto de I+D. La figura no estima por sí sola una relación causal.",
+      "formula": "accttfp = round(ln(rgdpna/pop),2) − (0.3/0.7)ln(round(rnna/rgdpna,2)) − ln(hc) − ln(emp/pop); g10.accttfp = round((accttfp_t − accttfp_(t−10))/10,4). Se reutiliza la serie archivada.",
+      "units": "Tasa decimal anual media de variación logarítmica en una ventana de 10 años; etiquetas en porcentaje.",
+      "period": "1960–2019; cobertura desigual por país",
+      "period_by_series": {
+        "China": [
+          1962,
+          2019
+        ],
+        "Alemania": [
+          1960,
+          2019
+        ],
+        "Reino Unido": [
+          1960,
+          2019
+        ],
+        "Japón": [
+          1960,
+          2019
+        ],
+        "Corea del Sur": [
+          1963,
+          2019
+        ],
+        "Estados Unidos": [
+          1960,
+          2019
+        ]
+      },
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-growth-tfp-comp.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-growth-tfp-comp.json",
+        "inputs/Guide_PWT_Account.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-growth-tfp-comp.json": "499b5d219b69e31e1117c09ef8efb5dc36969ddaeee7e4b6e40cf3da4b28be07",
+        "inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 355,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 58,
+            "effective_pairs": 58
+          },
+          {
+            "series": "Alemania",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Japón",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 57,
+            "effective_pairs": 57
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 60,
+            "effective_pairs": 60
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "a548dbdf247c9ad70289fa9c01e14dc9a012b2c1",
+      "source_file_sha256": "74fbdf6253a6e4832316d6d15a55c5474db18ec3ed2c5463e47edfe4a08f9c66",
+      "output_sha256": "e250f74a518871f0f0c95a7aeebbc234a6870b5c9ad58b846dae53bbbb3390cf"
+    },
+    {
+      "identity": "iguzmanvt:116",
+      "slug": "iguzmanvt-116",
+      "title": "Investigadores y productividad: nueve países",
+      "module": "Ideas",
+      "description": "Nueva presentación de las 265 observaciones del objeto gráfico local de 2021, con nueve países, años y códigos de unidad conservados. Se elige para este destino por su contexto docente; no se afirma que el objeto haya sido históricamente el ID 116.",
+      "formula": "x = lnrdworker y y = g10.accttfp materializados en el objeto local. Se conservan sin recalcular; la definición de la tasa no se amplía a partir de su nombre.",
+      "units": "x: ln de investigadores FTE (UNIT=FTE, POWERCODE=0, MEASURE=FTE); y: tasa decimal archivada denominada crecimiento a 10 años, mostrada como porcentaje.",
+      "period": "1981–2019; 265 observaciones; cobertura por país conservada en obsTime.",
+      "period_by_series": {
+        "Argentina": [
+          1997,
+          2019
+        ],
+        "Chile": [
+          2007,
+          2019
+        ],
+        "China": [
+          1991,
+          2019
+        ],
+        "Alemania": [
+          1981,
+          2019
+        ],
+        "Reino Unido": [
+          1981,
+          2019
+        ],
+        "Japón": [
+          1981,
+          2019
+        ],
+        "Corea del Sur": [
+          1995,
+          2019
+        ],
+        "México": [
+          1993,
+          2019
+        ],
+        "Estados Unidos": [
+          1981,
+          2019
+        ]
+      },
+      "source_urls": [
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/recursos_graficas/datos/fig-local-2021-puntos-originales.json",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/recursos_graficas/datos/fig-local-2021-procedencia.json"
+      ],
+      "source_paths": [
+        "inputs/fig_local_puntos_con_fecha.json",
+        "inputs/saved_fig_provenance.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "Objeto local del curso Otoño 2021, preservado en Crecimiento@8265d179322918f035cc4102f1bc9403cbcbb1dc; se utiliza su tabla materializada, sin ejecutar el objeto R.",
+      "limitations": [
+        "Asignación editorial al destino 116, no recuperación de identidad histórica.",
+        "El objeto local difiere en muestra y valores del objeto gráfico inglés de seis países; no se fusionan sus observaciones.",
+        "No se recalcula la tasa de productividad ni se atribuye una edición estadística no acreditada por el objeto."
+      ],
+      "kind": "reconstruccion_objeto_local_archivado",
+      "inputs_sha256": {
+        "inputs/fig_local_puntos_con_fecha.json": "7bd93a20d823a233bfd378d27023ce318a0cdce753d3264157d3e21f86ebcec7",
+        "inputs/saved_fig_provenance.json": "90f4122a8c47973b5c6672815170b400152402b042caa84d337f6ed15a7032b6",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 265,
+        "by_series": [
+          {
+            "series": "Argentina",
+            "array_length": 23,
+            "effective_pairs": 23
+          },
+          {
+            "series": "Chile",
+            "array_length": 13,
+            "effective_pairs": 13
+          },
+          {
+            "series": "China",
+            "array_length": 29,
+            "effective_pairs": 29
+          },
+          {
+            "series": "Alemania",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Japón",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 25,
+            "effective_pairs": 25
+          },
+          {
+            "series": "México",
+            "array_length": 26,
+            "effective_pairs": 26
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 39,
+            "effective_pairs": 39
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "output_sha256": "74f08301d36f6c8e92e4c6024de7700e123289b6b367f42f7283b9a070ce701c"
+    },
+    {
+      "identity": "iguzmanvt:118",
+      "slug": "iguzmanvt-118",
+      "title": "Cambio de investigadores y crecimiento de productividad",
+      "module": "Ideas",
+      "description": "Variante específica de dispersión que compara tasas de crecimiento, en lugar de niveles. Se conserva la muestra de seis países del archivo fuente.",
+      "formula": "x = (ln(FTE_i) − ln(FTE_(i−10)))/10, con i como fila dentro del país; y = g10.accttfp archivado. El código utiliza rezagos de 10 observaciones; no se recalculan ni se imputan datos.",
+      "units": "Valores decimales, mostrados como porcentajes. En x, la diferencia logarítmica se divide entre 10 aunque el rezago es de 10 observaciones: con huecos temporales no equivale necesariamente a 10 años. En y, crecimiento anual medio de productividad a 10 años según el código del curso.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-oecd-rd-gtfp.json",
+        "inputs/Guide_PWT_Account.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-oecd-rd-gtfp.json": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+        "inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 141,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 19,
+            "effective_pairs": 19
+          },
+          {
+            "series": "Alemania",
+            "array_length": 22,
+            "effective_pairs": 22
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 27,
+            "effective_pairs": 27
+          },
+          {
+            "series": "Japón",
+            "array_length": 29,
+            "effective_pairs": 29
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 15,
+            "effective_pairs": 15
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 29,
+            "effective_pairs": 29
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+      "source_file_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+      "output_sha256": "9b6eced195ac6f81df19b014e9dcf9e4b7b13f7d86aafbf979a460a192967bbf"
+    },
+    {
+      "identity": "iguzmanvt:120",
+      "slug": "iguzmanvt-120",
+      "title": "Investigadores y nivel de productividad",
+      "module": "Ideas",
+      "description": "Variante de niveles para distinguirla de las gráficas de crecimiento. La elección para este destino es editorial: el texto Rmd repetido no identifica la gráfica histórica.",
+      "formula": "x = ln(FTE); y = accttfp archivado = ln(Y/N) − (0.3/0.7)ln(K/Y) − ln(hc) − ln(emp/pop), con los redondeos incorporados en la fuente.",
+      "units": "x: logaritmo natural de FTE. y: residuo logarítmico de contabilidad del crecimiento; no es un índice TFP con base 100.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-level-rd.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-oecd-level-rd.json",
+        "inputs/Guide_PWT_Account.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-oecd-level-rd.json": "d43b39c36048fb078b3b447efb71daa263473081f849df71f67fbf067fd05dba",
+        "inputs/Guide_PWT_Account.r": "7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 201,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 29,
+            "effective_pairs": 29
+          },
+          {
+            "series": "Alemania",
+            "array_length": 32,
+            "effective_pairs": 32
+          },
+          {
+            "series": "Reino Unido",
+            "array_length": 37,
+            "effective_pairs": 37
+          },
+          {
+            "series": "Japón",
+            "array_length": 39,
+            "effective_pairs": 39
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 25,
+            "effective_pairs": 25
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 39,
+            "effective_pairs": 39
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "6dc54c865c7d0adc5065f30748d9d8fbc9a063f7",
+      "source_file_sha256": "281fd79a44c0fd06da64eb0dd3e69af16b56734521727664fd20134d92c83426",
+      "output_sha256": "e92c915d142672293a1ae7b0dc30a60e8990b9c207ed3a45685513a71bbbfb17"
+    },
+    {
+      "identity": "iguzmanvt:132",
+      "slug": "iguzmanvt-132",
+      "title": "Gasto del gobierno y crecimiento del PIB per cápita",
+      "module": "Taxes",
+      "description": "Comparación de participación del gobierno y crecimiento del PIB per cápita en seis países. La participación del gasto no se presenta como una tasa impositiva.",
+      "formula": "x = round(csh_g,3); y = [round(ln(rgdpna/pop),3)_t − round(ln(rgdpna/pop),3)_(t−10)]/10. Datos del objeto gráfico archivado, sin recalcular con otra PWT.",
+      "units": "x: proporción del PIB (etiquetas en porcentaje). y: tasa decimal anual media de variación logarítmica a 10 años (etiquetas en porcentaje).",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-growth.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Topics.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-all-cshg-growth.json",
+        "inputs/Guide_PWT_Topics.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Consumo del gobierno/PIB no es una tasa impositiva. La nube de puntos no identifica un efecto causal."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-all-cshg-growth.json": "528d466c0137a2e8b694d183594f4a529939810d9d82ca0974d12a6a6bb92e2c",
+        "inputs/Guide_PWT_Topics.r": "832fc1c752eb6a79584c889766a5bc8bd903f516bc7a5761ef0de171621536fd",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 355,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 58,
+            "effective_pairs": 58
+          },
+          {
+            "series": "Alemania",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Japón",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 57,
+            "effective_pairs": 57
+          },
+          {
+            "series": "México",
+            "array_length": 60,
+            "effective_pairs": 60
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 60,
+            "effective_pairs": 60
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "4e30ce35afa90a69c694b988666214bd821fb4f1",
+      "source_file_sha256": "ca6e5fc08bce641eb34792a196ee7ee85fc8e7c0dbab7a80909e65e2e572098e",
+      "output_sha256": "3e55e15f5dfe542f022bda96250b86246bddac42c0c4e2ec2f03ca421761adeb"
+    },
+    {
+      "identity": "iguzmanvt:134",
+      "slug": "iguzmanvt-134",
+      "title": "Gasto del gobierno y nivel del PIB per cápita",
+      "module": "Taxes",
+      "description": "Comparación de participación del gobierno y nivel logarítmico del PIB per cápita. Conserva los puntos del archivo y se distingue del crecimiento mostrado en 132.",
+      "formula": "x = round(csh_g,3); y = round(ln(rgdpna/pop),3). Se preservan los valores archivados.",
+      "units": "x: proporción del PIB, mostrada como porcentaje. y: logaritmo natural del PIB per cápita de la fuente; no se atribuye moneda o base de precios no verificada.",
+      "period": "El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.",
+      "period_by_series": {},
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-level.html",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Topics.r"
+      ],
+      "source_paths": [
+        "inputs/pwt-all-cshg-level.json",
+        "inputs/Guide_PWT_Topics.r",
+        "inputs/source_catalog.json",
+        "inputs/rmd_sources_capture.json"
+      ],
+      "source_vintage": "StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.",
+      "limitations": [
+        "Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.",
+        "Se preserva la edición archivada; no se incorporan observaciones nuevas.",
+        "La dispersión no conserva un campo temporal; no se asignan años a los puntos.",
+        "Consumo del gobierno/PIB no es una tasa impositiva. La nube de puntos no identifica un efecto causal."
+      ],
+      "kind": "reconstruccion_datos_archivados",
+      "inputs_sha256": {
+        "inputs/pwt-all-cshg-level.json": "a3512bf7517e2e4c434fe747c788a41be84ba00aeb1770c637d3e93ef3bdfa86",
+        "inputs/Guide_PWT_Topics.r": "832fc1c752eb6a79584c889766a5bc8bd903f516bc7a5761ef0de171621536fd",
+        "inputs/source_catalog.json": "0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1",
+        "inputs/rmd_sources_capture.json": "8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657"
+      },
+      "observations": {
+        "total_effective_pairs": 415,
+        "by_series": [
+          {
+            "series": "China",
+            "array_length": 68,
+            "effective_pairs": 68
+          },
+          {
+            "series": "Alemania",
+            "array_length": 70,
+            "effective_pairs": 70
+          },
+          {
+            "series": "Japón",
+            "array_length": 70,
+            "effective_pairs": 70
+          },
+          {
+            "series": "Corea del Sur",
+            "array_length": 67,
+            "effective_pairs": 67
+          },
+          {
+            "series": "México",
+            "array_length": 70,
+            "effective_pairs": 70
+          },
+          {
+            "series": "Estados Unidos",
+            "array_length": 70,
+            "effective_pairs": 70
+          }
+        ]
+      },
+      "historical_identity_authenticated": false,
+      "source_blob": "274c680db7c6a262040a23fc3d07206f0ecbab0f",
+      "source_file_sha256": "8ff0edb9b6bd4f5f46a110afd811f6b5d3ef09b5059474c83f3c75fc4d31d3aa",
+      "output_sha256": "5044d985f75dc35bcfa2ea66f8475f2159ffd0405ab7372bee5a1bad0caa8518"
+    }
+  ]
+}

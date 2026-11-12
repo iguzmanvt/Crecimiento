@@ -23,25 +23,25 @@ opts_chunk$set(echo = TRUE)
 
 ## Gobierno y nivel del PIB per cápita
 
--  Para algunos países (México), la mayor participación gubernamental está levemente asociada con un mayor PIB per cápita. Pero para otros (Japón), esta está asociada claramente con un PIB per cápita más bajo. 
+- La gráfica compara la participación del consumo del gobierno en el PIB con el nivel logarítmico del PIB per cápita en seis países. El eje horizontal no es una tasa impositiva.
 
--  No hay una relación clara.
+- Las asociaciones descriptivas de esta gráfica no identifican efectos causales.
 
 ## Gobierno y nivel del PIB per cápita
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/134.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-134.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Gobierno y nivel del PIB per cápita
 
-- Con la relación con el crecimiento, China parece tener una relación claramente positiva, mientras que Corea del Sur claramente negativa y México algo negativa.
+- La gráfica compara la participación del consumo del gobierno en el PIB con el crecimiento anual medio del PIB per cápita en ventanas de 10 años, para seis países.
 
-- También parece depender del año, como en Japón.
+- El archivo de dispersión no conserva el año de cada punto; no se atribuye una fecha a las observaciones ni un efecto causal a la participación del gobierno.
 
-## Gobierno y nivel del PIB per cápita
+## Gobierno y crecimiento del PIB per cápita
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/132.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-132.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 

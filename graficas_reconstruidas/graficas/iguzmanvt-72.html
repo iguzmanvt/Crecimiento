@@ -1,0 +1,751 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Investigadores y crecimiento: comparación internacional</title><link rel="stylesheet" href="../assets/clase.css"></head><body data-slug="iguzmanvt-72"><main><div class="full-only"><nav><a href="../index.html">← Gráficas de Crecimiento</a></nav><h1>Investigadores y crecimiento: comparación internacional</h1><p class="note">Reconstrucción docente. Reconstrucción del contraste entre intensidad de investigación y crecimiento de productividad en seis países del archivo StudyGuide. Se mantiene separada del objeto local de nueve países usado para 116.</p><p><strong>Periodo:</strong> El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.. <strong>Unidades:</strong> x: logaritmo natural de investigadores FTE. y: tasa decimal archivada; las etiquetas porcentuales cambian sólo la presentación..</p><p><strong>Edición:</strong> StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD..</p></div><div id="grafica" class="plot" role="img" aria-label="Investigadores y crecimiento: comparación internacional"></div><p class="embed-only">Reconstrucción docente · datos y fuentes en la vista completa.</p><div class="full-only"><p id="estado">Puede consultar valores, ampliar el gráfico y ocultar series desde la leyenda.</p><p><a href="../datos/iguzmanvt-72.csv" download>Datos CSV</a> · <a href="../datos/iguzmanvt-72.json" download>Datos y animación JSON</a> · <a href="../imagenes/iguzmanvt-72.svg" download>Imagen SVG</a> · <a href="../imagenes/iguzmanvt-72.png" download>Imagen PNG</a></p><p><strong>Método:</strong> x = lnrdworker archivado = ln(FTE); y = g10.accttfp archivado. El código fuente documenta g10.accttfp = round((accttfp_t − accttfp_(t−10))/10, 4). No se recalculan los datos.</p><p><strong>Alcance:</strong> Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.; Se preserva la edición archivada; no se incorporan observaciones nuevas.; La dispersión no conserva un campo temporal; no se asignan años a los puntos.; Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita.</p><p><a href="https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html">Fuente 1</a> · <a href="https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r">Fuente 2</a></p><details><summary>Procedencia, edición y reproducción</summary><pre>{
+  &quot;identity&quot;: &quot;iguzmanvt:72&quot;,
+  &quot;slug&quot;: &quot;iguzmanvt-72&quot;,
+  &quot;title&quot;: &quot;Investigadores y crecimiento: comparación internacional&quot;,
+  &quot;module&quot;: &quot;Ideas&quot;,
+  &quot;description&quot;: &quot;Reconstrucción del contraste entre intensidad de investigación y crecimiento de productividad en seis países del archivo StudyGuide. Se mantiene separada del objeto local de nueve países usado para 116.&quot;,
+  &quot;formula&quot;: &quot;x = lnrdworker archivado = ln(FTE); y = g10.accttfp archivado. El código fuente documenta g10.accttfp = round((accttfp_t − accttfp_(t−10))/10, 4). No se recalculan los datos.&quot;,
+  &quot;units&quot;: &quot;x: logaritmo natural de investigadores FTE. y: tasa decimal archivada; las etiquetas porcentuales cambian sólo la presentación.&quot;,
+  &quot;period&quot;: &quot;El archivo gráfico de dispersión no conserva el año por observación; no se infiere del orden ni de x.&quot;,
+  &quot;period_by_series&quot;: {},
+  &quot;source_urls&quot;: [
+    &quot;https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html&quot;,
+    &quot;https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Account.r&quot;
+  ],
+  &quot;source_paths&quot;: [
+    &quot;fuentes/ideas_taxes/inputs/pwt-oecd-rd-tfp.json&quot;,
+    &quot;fuentes/ideas_taxes/inputs/Guide_PWT_Account.r&quot;,
+    &quot;fuentes/ideas_taxes/inputs/source_catalog.json&quot;,
+    &quot;fuentes/ideas_taxes/inputs/rmd_sources_capture.json&quot;
+  ],
+  &quot;source_vintage&quot;: &quot;StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.&quot;,
+  &quot;limitations&quot;: [
+    &quot;Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.&quot;,
+    &quot;Se preserva la edición archivada; no se incorporan observaciones nuevas.&quot;,
+    &quot;La dispersión no conserva un campo temporal; no se asignan años a los puntos.&quot;,
+    &quot;Los textos repetidos de Ideas no distinguen estas variantes. La elección de variables para este destino es una adaptación editorial explícita.&quot;
+  ],
+  &quot;kind&quot;: &quot;reconstruccion_datos_archivados&quot;,
+  &quot;inputs_sha256&quot;: {
+    &quot;inputs/pwt-oecd-rd-tfp.json&quot;: &quot;c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3&quot;,
+    &quot;inputs/Guide_PWT_Account.r&quot;: &quot;7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035&quot;,
+    &quot;inputs/source_catalog.json&quot;: &quot;0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1&quot;,
+    &quot;inputs/rmd_sources_capture.json&quot;: &quot;8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657&quot;
+  },
+  &quot;observations&quot;: {
+    &quot;total_effective_pairs&quot;: 201,
+    &quot;by_series&quot;: [
+      {
+        &quot;series&quot;: &quot;China&quot;,
+        &quot;array_length&quot;: 29,
+        &quot;effective_pairs&quot;: 29
+      },
+      {
+        &quot;series&quot;: &quot;Alemania&quot;,
+        &quot;array_length&quot;: 32,
+        &quot;effective_pairs&quot;: 32
+      },
+      {
+        &quot;series&quot;: &quot;Reino Unido&quot;,
+        &quot;array_length&quot;: 37,
+        &quot;effective_pairs&quot;: 37
+      },
+      {
+        &quot;series&quot;: &quot;Japón&quot;,
+        &quot;array_length&quot;: 39,
+        &quot;effective_pairs&quot;: 39
+      },
+      {
+        &quot;series&quot;: &quot;Corea del Sur&quot;,
+        &quot;array_length&quot;: 25,
+        &quot;effective_pairs&quot;: 25
+      },
+      {
+        &quot;series&quot;: &quot;Estados Unidos&quot;,
+        &quot;array_length&quot;: 39,
+        &quot;effective_pairs&quot;: 39
+      }
+    ]
+  },
+  &quot;historical_identity_authenticated&quot;: false,
+  &quot;source_blob&quot;: &quot;15330e45ca74a6abd0c39e223a1d4cb5b3f84563&quot;,
+  &quot;source_file_sha256&quot;: &quot;8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a&quot;,
+  &quot;output_sha256&quot;: &quot;1abcdbdc54bae233e10e1819d22245285972a675a95f9380ff357c97400252c8&quot;,
+  &quot;spec_sha256&quot;: &quot;1abcdbdc54bae233e10e1819d22245285972a675a95f9380ff357c97400252c8&quot;,
+  &quot;generator&quot;: &quot;fuentes/ideas_taxes/generar.py&quot;,
+  &quot;method_folder&quot;: &quot;fuentes/ideas_taxes&quot;,
+  &quot;spec_path&quot;: &quot;datos/iguzmanvt-72.json&quot;,
+  &quot;source_paths_originales&quot;: [
+    &quot;inputs/pwt-oecd-rd-tfp.json&quot;,
+    &quot;inputs/Guide_PWT_Account.r&quot;,
+    &quot;inputs/source_catalog.json&quot;,
+    &quot;inputs/rmd_sources_capture.json&quot;
+  ],
+  &quot;local_inputs&quot;: {
+    &quot;fuentes/ideas_taxes/inputs/pwt-oecd-rd-tfp.json&quot;: &quot;c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3&quot;,
+    &quot;fuentes/ideas_taxes/inputs/Guide_PWT_Account.r&quot;: &quot;7b98edadb6820eaee0c9e49efd14d52576a0e44eaf1f2e7a1ff8cee03a0fa035&quot;,
+    &quot;fuentes/ideas_taxes/inputs/source_catalog.json&quot;: &quot;0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1&quot;,
+    &quot;fuentes/ideas_taxes/inputs/rmd_sources_capture.json&quot;: &quot;8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657&quot;
+  }
+}</pre></details></div><script type="application/json" id="spec">{
+  "data": [
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "China",
+      "legendgroup": "CHN",
+      "x": [
+        13.0634622694842,
+        13.0645223777145,
+        13.1005266827952,
+        13.2213033252592,
+        13.1654228668648,
+        13.2140305659302,
+        13.2856719950164,
+        13.0929345667135,
+        13.1827056064105,
+        13.4517563292012,
+        13.5180824804501,
+        13.6054374648395,
+        13.6671358318209,
+        13.7389016148344,
+        13.927676067044,
+        14.0174357026395,
+        14.1685455854373,
+        14.2807654296878,
+        13.9572800490817,
+        14.0068255522914,
+        14.0916912422952,
+        14.1548479717567,
+        14.2102784543732,
+        14.2370329222013,
+        14.2973363418402,
+        14.3415257144602,
+        14.3696497768342,
+        14.4393659652277,
+        14.5619424537165
+      ],
+      "y": [
+        0.0069,
+        0.0079,
+        0.0124,
+        0.0087,
+        0.0119,
+        0.0122,
+        0.0092,
+        0.0051,
+        0.0116,
+        0.0201,
+        0.0243,
+        0.0269,
+        0.0246,
+        0.0277,
+        0.0281,
+        0.0346,
+        0.041,
+        0.0497,
+        0.0543,
+        0.0597,
+        0.0584,
+        0.0502,
+        0.0487,
+        0.0459,
+        0.0393,
+        0.0302,
+        0.0221,
+        0.0159,
+        0.0117
+      ],
+      "marker": {
+        "color": "#D26932",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#D26932",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "CHN",
+        "country_code": "CHN"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "Alemania",
+      "legendgroup": "DEU",
+      "x": [
+        11.7613468234687,
+        11.8095053343576,
+        11.9010341513802,
+        12.0174271346235,
+        12.080520760359,
+        12.396151536257,
+        12.3462996971166,
+        12.3507269485944,
+        12.346655989593,
+        12.37070958047,
+        12.3788151358771,
+        12.4478063246542,
+        12.4602263725182,
+        12.4851616531264,
+        12.4905445709691,
+        12.5022510219532,
+        12.5069732174011,
+        12.5141013149469,
+        12.5419089657137,
+        12.5805732638809,
+        12.6203025635573,
+        12.6676250384688,
+        12.70075669217,
+        12.7328375611601,
+        12.7725760875953,
+        12.7783592471517,
+        12.771167680651,
+        12.8687142257767,
+        12.8982318381908,
+        12.9470976694596,
+        12.9800738261155,
+        13.0185511514161
+      ],
+      "y": [
+        0.011,
+        0.0041,
+        0.0098,
+        0.0031,
+        0.0056,
+        0.0218,
+        0.0231,
+        0.0218,
+        0.0218,
+        0.0242,
+        0.0219,
+        0.0181,
+        0.0126,
+        0.0063,
+        0.0038,
+        0.0047,
+        0.0033,
+        0.0039,
+        0.0076,
+        0.0074,
+        0.0061,
+        -0.0023,
+        0.0024,
+        0.0029,
+        0.0027,
+        0.0028,
+        0.0043,
+        0.0046,
+        0.0016,
+        0.0015,
+        0.0023,
+        0.0107
+      ],
+      "marker": {
+        "color": "#3895B5",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#3895B5",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "DEU",
+        "country_code": "DEU"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "Reino Unido",
+      "legendgroup": "GBR",
+      "x": [
+        11.7519423654407,
+        11.7597855429018,
+        11.7519423654407,
+        11.7675676833438,
+        11.7829526021833,
+        11.805595078933,
+        11.805595078933,
+        11.8277362048103,
+        11.7981044072039,
+        11.7981044072039,
+        11.7597855429018,
+        11.7675676833438,
+        11.7829526021833,
+        11.805595078933,
+        11.8891196627253,
+        11.8826597631226,
+        11.8889013417501,
+        11.9682087800593,
+        12.0291745352269,
+        12.0468095277676,
+        12.1125519835832,
+        12.196845102403,
+        12.2862224397774,
+        12.3413422952601,
+        12.4235976422865,
+        12.4451249784438,
+        12.4397635771508,
+        12.4369132980118,
+        12.4534174223824,
+        12.4552151051272,
+        12.4346319053853,
+        12.4535434744154,
+        12.4976166262055,
+        12.5302691281679,
+        12.5632399682306,
+        12.5814324354175,
+        12.5975808070091
+      ],
+      "y": [
+        0.0041,
+        0.0039,
+        0.0041,
+        0.0099,
+        0.0162,
+        0.0156,
+        0.0181,
+        0.0169,
+        0.0135,
+        0.0155,
+        0.0147,
+        0.0124,
+        0.0096,
+        0.0125,
+        0.0106,
+        0.0085,
+        0.0077,
+        0.0085,
+        0.0095,
+        0.0142,
+        0.0158,
+        0.0158,
+        0.0159,
+        0.0139,
+        0.0152,
+        0.0154,
+        0.0141,
+        0.0077,
+        0.0019,
+        0.0005,
+        -0.0005,
+        -0.001,
+        -0.0026,
+        -0.0009,
+        -0.0031,
+        -0.0035,
+        -0.0044
+      ],
+      "marker": {
+        "color": "#536A9C",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#536A9C",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "GBR",
+        "country_code": "GBR"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "Japón",
+      "legendgroup": "JPN",
+      "x": [
+        12.8806102368409,
+        12.9142118815093,
+        12.9838826139688,
+        13.0119210824619,
+        13.0674762645592,
+        13.0976177134068,
+        13.1485514565928,
+        13.1900369790374,
+        13.23618479844,
+        13.2756250907894,
+        13.3019027341332,
+        13.3413543185553,
+        13.3709142126997,
+        13.3982754544171,
+        13.4201259702541,
+        13.3332157001009,
+        13.3462138787705,
+        13.3890950140797,
+        13.3983422335966,
+        13.3809852632851,
+        13.3893645670064,
+        13.3423579759668,
+        13.3883656317392,
+        13.3904757054406,
+        13.4307755880575,
+        13.4370047598385,
+        13.4361677716324,
+        13.394946025143,
+        13.393199347729,
+        13.3939648472243,
+        13.3949079538934,
+        13.3790917902532,
+        13.4007357487559,
+        13.4341549656493,
+        13.4031280799235,
+        13.4083930854537,
+        13.4243802144231,
+        13.4271001875123,
+        13.432522439033
+      ],
+      "y": [
+        0.0153,
+        0.0112,
+        0.0095,
+        0.0183,
+        0.0213,
+        0.0231,
+        0.0244,
+        0.027,
+        0.0274,
+        0.029,
+        0.0261,
+        0.0235,
+        0.0188,
+        0.0148,
+        0.012,
+        0.0124,
+        0.0081,
+        0.0013,
+        -0.0028,
+        -0.0011,
+        -0.0016,
+        0.0006,
+        0.0048,
+        0.0066,
+        0.0063,
+        0.0039,
+        0.0058,
+        0.0053,
+        -0.0015,
+        0.0002,
+        0.0002,
+        0.0022,
+        0.003,
+        0.0003,
+        0.0007,
+        -0.0007,
+        0.0003,
+        0,
+        0.0074
+      ],
+      "marker": {
+        "color": "#719C84",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#719C84",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "JPN",
+        "country_code": "JPN"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "Corea del Sur",
+      "legendgroup": "KOR",
+      "x": [
+        11.5174750996688,
+        11.5072393294992,
+        11.5391778361143,
+        11.4354070685405,
+        11.5150232630524,
+        11.593306576917,
+        11.8228850408607,
+        11.8629976586503,
+        11.9267158218244,
+        11.9590185711826,
+        12.0996695198767,
+        12.2060227492854,
+        12.3101093248032,
+        12.3721668777593,
+        12.4052380982281,
+        12.4841510096483,
+        12.5738392163207,
+        12.6621966246553,
+        12.6818155485908,
+        12.7526420613046,
+        12.7839416537675,
+        12.7974404848103,
+        12.8560520641784,
+        12.9199300316086,
+        12.9731438666866
+      ],
+      "y": [
+        0.0364,
+        0.0342,
+        0.0303,
+        0.0191,
+        0.0295,
+        0.03,
+        0.027,
+        0.0309,
+        0.0295,
+        0.0282,
+        0.0253,
+        0.025,
+        0.0275,
+        0.0326,
+        0.0223,
+        0.023,
+        0.0222,
+        0.0171,
+        0.0165,
+        0.0143,
+        0.0133,
+        0.0114,
+        0.0079,
+        0.0094,
+        0.0085
+      ],
+      "marker": {
+        "color": "#8864A5",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#8864A5",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "KOR",
+        "country_code": "KOR"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "markers",
+      "name": "Estados Unidos",
+      "legendgroup": "USA",
+      "x": [
+        13.184227701061,
+        13.2220910583943,
+        13.2724630056484,
+        13.3288766083318,
+        13.3139568171359,
+        13.3830231130646,
+        13.433683360102,
+        13.4555702886486,
+        13.4877867420727,
+        13.5100283319269,
+        13.5224983053075,
+        13.5480597790881,
+        13.5684584615984,
+        13.5596048917765,
+        13.5878606181164,
+        13.6443212075908,
+        13.6889298106839,
+        13.7512034767091,
+        13.7800698914243,
+        13.7921907526427,
+        13.8139583539186,
+        13.8373385837359,
+        13.9021468646238,
+        13.8738238047279,
+        13.8624914673713,
+        13.8826728215773,
+        13.8781256680321,
+        13.9234569274185,
+        13.9662726458505,
+        13.9106970937614,
+        13.9507981575542,
+        13.955900129426,
+        13.9878600586691,
+        14.0229075808801,
+        14.0409770092561,
+        14.0372298955674,
+        14.0783362544172,
+        14.159697247244,
+        14.1773281557616
+      ],
+      "y": [
+        0.0014,
+        -0.0038,
+        -0.0021,
+        0.0078,
+        0.0107,
+        0.01,
+        0.0088,
+        0.0098,
+        0.0114,
+        0.0153,
+        0.0135,
+        0.0195,
+        0.017,
+        0.0148,
+        0.0132,
+        0.0145,
+        0.0165,
+        0.0174,
+        0.0182,
+        0.0205,
+        0.0207,
+        0.0197,
+        0.0204,
+        0.0213,
+        0.0233,
+        0.0203,
+        0.0183,
+        0.0142,
+        0.011,
+        0.0107,
+        0.0116,
+        0.0111,
+        0.0097,
+        0.0071,
+        0.0077,
+        0.0081,
+        0.008,
+        0.012,
+        0.0131
+      ],
+      "marker": {
+        "color": "#1764A0",
+        "size": 7,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#1764A0",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>x: %{x:.3f}<br>y: %{y:.2%}<extra><\/extra>",
+      "meta": {
+        "source_series": "USA",
+        "country_code": "USA"
+      }
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Investigadores y crecimiento: comparación internacional",
+      "x": 0.025,
+      "xanchor": "left",
+      "font": {
+        "size": 20
+      }
+    },
+    "paper_bgcolor": "#FFFFFF",
+    "plot_bgcolor": "#FFFFFF",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 14,
+      "color": "#243B50"
+    },
+    "margin": {
+      "l": 100,
+      "r": 35,
+      "t": 75,
+      "b": 125
+    },
+    "height": 560,
+    "xaxis": {
+      "type": "linear",
+      "automargin": true,
+      "showline": true,
+      "linecolor": "#BAC7D1",
+      "gridcolor": "#E5EBF0",
+      "zerolinecolor": "#B6C3CC",
+      "tickfont": {
+        "size": 12
+      },
+      "title": {
+        "text": "ln(investigadores equivalentes a tiempo completo)",
+        "font": {
+          "size": 14
+        },
+        "standoff": 14
+      }
+    },
+    "yaxis": {
+      "type": "linear",
+      "automargin": true,
+      "showline": true,
+      "linecolor": "#BAC7D1",
+      "gridcolor": "#E5EBF0",
+      "zerolinecolor": "#B6C3CC",
+      "tickfont": {
+        "size": 12
+      },
+      "title": {
+        "text": "Crecimiento de la productividad (ventana de 10 años)",
+        "font": {
+          "size": 14
+        },
+        "standoff": 14
+      },
+      "tickformat": ".1%"
+    },
+    "hovermode": "closest",
+    "legend": {
+      "orientation": "h",
+      "x": 0,
+      "y": -0.22,
+      "xanchor": "left",
+      "yanchor": "top",
+      "font": {
+        "size": 12
+      },
+      "traceorder": "normal"
+    },
+    "hoverlabel": {
+      "bgcolor": "#FFFFFF",
+      "font": {
+        "color": "#243B50"
+      }
+    },
+    "showlegend": true
+  },
+  "frames": []
+}
+</script><script src="../assets/plotly.min.js"></script><script src="../assets/clase.js"></script></main></body></html>

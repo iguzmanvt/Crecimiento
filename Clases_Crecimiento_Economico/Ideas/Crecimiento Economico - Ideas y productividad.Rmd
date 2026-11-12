@@ -95,34 +95,33 @@ opts_chunk$set(echo = TRUE)
 
 ## Investigación y crecimiento de la productividad
 
-- El número de trabajadores de I&D ha aumentado con el tiempo. 
-Estados Unidos y China ponen a más personas a trabajar en investigación y desarrollo que otros países.
+- Investigadores equivalentes a tiempo completo (FTE) en seis países. La cobertura temporal es desigual; FTE no equivale necesariamente al número de personas físicas.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/96.embed">
-
-</iframe>
-
-## Investigación y crecimiento de la productividad
-
-- Estados Unidos y China dominan el gasto en I&D, lo que se debe en gran parte a un aumento masivo en el gasto en China durante los últimos veinte años.
-
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/102.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-96.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Investigación y crecimiento de la productividad
 
-- Aplicando logaritmos para ver las tasas de crecimiento podemos ver que Estados Unidos, Japón, Alemania y Reino Unido tuvieron tasas de crecimiento similares mientras que China y Corea del Sur registraron tasas de crecimiento muy rápidas de este gasto.
+- Evolución relativa del gasto en I+D, con índice 2000 = 100 para cada país. No compara tamaños monetarios absolutos entre países.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/100.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-102.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Investigación y crecimiento de la productividad
 
-- El incremento en el esfuerzo de I&D no estuvo asociado con un aumento sistemático en la tasa de crecimiento de la productividad.
+- Logaritmo natural del gasto relativo a 2000, representado sobre un eje lineal. Las diferencias entre años indican cambios logarítmicos acumulados, no tasas anuales directamente.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/112.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-100.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
+
+</iframe>
+
+## Investigación y crecimiento de la productividad
+
+- La gráfica muestra el crecimiento anual medio de la productividad en ventanas de diez años. Su comparación con las series de investigadores y gasto permite explorar tendencias, sin constituir una prueba estadística de asociación.
+
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-112.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
@@ -131,23 +130,23 @@ Estados Unidos y China ponen a más personas a trabajar en investigación y desa
 
 - En la simulación se nota que ambas economías colapsan hacia una proporción de investigadores / productividad de 2, y una tasa de crecimiento común de la productividad de 2%, cuya tasa de crecimiento es la tasa de crecimiento de los investigadores.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/76.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-76.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Investigación y crecimiento de la productividad
 
-- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.
+- Logaritmo del número de investigadores FTE y crecimiento de productividad: 265 observaciones de nueve países del objeto local de 2021. Esta es una nueva asignación docente del material archivado.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/116.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-116.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Investigación y crecimiento de la productividad
 
-- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.
+- Cambio del logaritmo de investigadores FTE y crecimiento de productividad en seis países. El eje horizontal usa un rezago de 10 observaciones y divide la diferencia entre 10; con huecos temporales no equivale necesariamente a 10 años.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/118.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-118.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
@@ -285,16 +284,16 @@ grid.raster(Ideas_6, interpolate=FALSE)
 
 ## Investigación y crecimiento de la productividad
 
-- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.
+- Logaritmo de investigadores FTE y nivel logarítmico de productividad en seis países. Esta variante compara niveles, mientras que las otras dispersiones de la sección muestran crecimiento.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/120.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-120.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Investigación y crecimiento de la productividad
 
-- La comparación hace sentido para China en donde hay muchos investigadores y una alta tasa de crecimiento de la productividad, pero en la mayoría de los países no existe una relación clara.
+- Logaritmo de investigadores FTE y crecimiento de productividad en los seis países del archivo StudyGuide. Se conserva separado del objeto local de nueve países; no se mezclan sus muestras ni ediciones.
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/72.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-72.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>

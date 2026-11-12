@@ -67,7 +67,7 @@ grid.raster(Energy_Crude_Reserves, interpolate=FALSE)
 
 -  Los costos reales aumentaron con el tiempo, pero en los últimos años disminuyeron. 
 
--  Los costos reales como una fracción del PIB real disminuyen.
+-  Las nuevas series distinguen la intensidad energética física y el gasto energético como proporción del PIB. La primera usa energía/PIB real; la segunda, gasto nominal/PIB nominal, por lo que no deben confundirse sus unidades.
 
 ```{r fig.align="center", fig.height = 4, fig.width = 7, echo=FALSE}
 library(png)
@@ -81,9 +81,21 @@ grid.raster(Energy_Energy_Expenditure, interpolate=FALSE)
 
 - La caída de $\beta$ también podría deberse a una caída en el precio de la energía o a una caída en la relación E / Y, algo que a veces se denomina "intensidad energética". 
 
--   [**Datos sobre el uso de energía**](http://plotly.com/~iguzmanvt/190.embed)
+-   [**Intensidad energética de Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanvt-190.html)
 
--   [**Datos sobre el uso de energía**](http://plotly.com/~iguzmanvt/192.embed)
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-190.svg" alt="Estados Unidos: intensidad energética" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
+
+-   [**Gasto energético / PIB nominal de Estados Unidos**](../../graficas_reconstruidas/graficas/iguzmanvt-192.html)
+
+<figure class="grafica-reconstruida">
+<img src="../../graficas_reconstruidas/imagenes/iguzmanvt-192.svg" alt="Estados Unidos: gasto energético / PIB" style="max-width:100%;height:auto" />
+<figcaption><small>Reconstrucción docente. Abra el enlace para consultar datos, método y fuentes.</small></figcaption>
+</figure>
+
 
 
 ## Demografía y población

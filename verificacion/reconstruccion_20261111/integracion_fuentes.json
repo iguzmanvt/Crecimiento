@@ -1,0 +1,357 @@
+{
+  "baseline": "8265d179322918f035cc4102f1bc9403cbcbb1dc",
+  "identities": 40,
+  "changed_Rmd": 13,
+  "references_replaced": 91,
+  "sources": [
+    {
+      "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+      "references_replaced": 6,
+      "identities": [
+        "iguzmanv:195",
+        "iguzmanv:196",
+        "iguzmanv:197",
+        "iguzmanv:198",
+        "iguzmanvt:104",
+        "iguzmanvt:110"
+      ],
+      "before_sha256": "4e10beb01e45ec4c26142cf645e9770b10002bbd9133c4effcd8a3176cba9fe1",
+      "after_sha256": "8b99cda733f1cf016d581f23a5df5c5440e7d1c8af8fbad78a534353bee6ed86",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Las nuevas series no apoyan la afirmación general de capital por empleado decreciente y participación en costos creciente. Preservar la interpretación contable como argumento condicional.",
+        "La figura recalculada usa PWT10.0 hasta 2019.",
+        "La identidad y la figura 110 contienen tres componentes; no omitir capital humano en la explicación."
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+      "references_replaced": 6,
+      "identities": [
+        "iguzmanv:195",
+        "iguzmanv:196",
+        "iguzmanv:197",
+        "iguzmanv:198",
+        "iguzmanvt:104",
+        "iguzmanvt:110"
+      ],
+      "before_sha256": "89eb1056fd5c9038ff4f24667cab28a4dc85acd28fecd3daea20f1507dc6177d",
+      "after_sha256": "42121008b47109e292027f3126221eab8fa6c7fb283b9607ba52460ef6ff184f",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Las nuevas series no apoyan la afirmación general de capital por empleado decreciente y participación en costos creciente. Preservar la interpretación contable como argumento condicional.",
+        "La figura recalculada usa PWT10.0 hasta 2019.",
+        "La identidad y la figura 110 contienen tres componentes; no omitir capital humano en la explicación."
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energia poblacion y crecimiento.Rmd",
+      "references_replaced": 2,
+      "identities": [
+        "iguzmanvt:190",
+        "iguzmanvt:192"
+      ],
+      "before_sha256": "aa8c40d121187c108276f1cc9d73949fb5ada9e51a75283aa70fbdf973ea1d7a",
+      "after_sha256": "b5b50975d937139bdd1a08dcdd54ac591eba82fe6b20bdbd64e78fbfe5169066",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": true,
+      "text_adjustments": [],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Energy/Crecimiento Economico - Energía Nota.Rmd",
+      "references_replaced": 2,
+      "identities": [
+        "iguzmanvt:190",
+        "iguzmanvt:192"
+      ],
+      "before_sha256": "3079f675b3e6526f7ec0a4feae5e0ef68121d77c5ccb47684890c9104fb12eb6",
+      "after_sha256": "022c380094d168c191ec1c2f85ee6c0763e177600ac70117937ad87095cdead7",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": true,
+      "text_adjustments": [],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "references_replaced": 9,
+      "identities": [
+        "iguzmanvt:100",
+        "iguzmanvt:102",
+        "iguzmanvt:112",
+        "iguzmanvt:116",
+        "iguzmanvt:118",
+        "iguzmanvt:120",
+        "iguzmanvt:72",
+        "iguzmanvt:76",
+        "iguzmanvt:96"
+      ],
+      "before_sha256": "ecb2933935b4f4a601f0afc14f7242788bbd05cd0eb112d013e195d0a6e416a1",
+      "after_sha256": "5b595cbb264527aa90f95d843faca968836df2518fda16654695daf88822dff8",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos.",
+        "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada.",
+        "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo.",
+        "Distinguir la muestra local de nueve países y documentar su nueva asignación.",
+        "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años.",
+        "La nueva figura representa niveles de productividad, no tasas de crecimiento.",
+        "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada.",
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "references_replaced": 9,
+      "identities": [
+        "iguzmanvt:100",
+        "iguzmanvt:102",
+        "iguzmanvt:112",
+        "iguzmanvt:116",
+        "iguzmanvt:118",
+        "iguzmanvt:120",
+        "iguzmanvt:72",
+        "iguzmanvt:76",
+        "iguzmanvt:96"
+      ],
+      "before_sha256": "f956f79ab123ffab30bcd469f1e342d695b4d9a9e23dd3fb7f49a5ba05faa148",
+      "after_sha256": "781c9eaa8e14b929a8f56e702313dd848fe20f28c41c4551c0135fbc41f3ee89",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos.",
+        "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada.",
+        "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo.",
+        "Distinguir la muestra local de nueve países y documentar su nueva asignación.",
+        "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años.",
+        "La nueva figura representa niveles de productividad, no tasas de crecimiento.",
+        "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada.",
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "references_replaced": 9,
+      "identities": [
+        "iguzmanvt:100",
+        "iguzmanvt:102",
+        "iguzmanvt:112",
+        "iguzmanvt:116",
+        "iguzmanvt:118",
+        "iguzmanvt:120",
+        "iguzmanvt:72",
+        "iguzmanvt:76",
+        "iguzmanvt:96"
+      ],
+      "before_sha256": "0bd322ac7f2dde0633a729e3d387f42de85606ec0a08551979d0f8c4daf77f7d",
+      "after_sha256": "67ce6f836410f84f8d1fe0c40f9cfbf30cc90f6ac766b4eda2199a4770cb79e5",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Distinguir FTE de personas físicas y evitar comparar finales de series con años distintos.",
+        "Normalización por país a 2000 = 100; la unidad monetaria original no está acreditada.",
+        "Transformación nueva ln(gasto/gasto de 2000) en eje lineal, sin doble logaritmo.",
+        "Distinguir la muestra local de nueve países y documentar su nueva asignación.",
+        "Distinguir crecimiento de niveles y explicitar que el código usa rezago de observaciones, no necesariamente años.",
+        "La nueva figura representa niveles de productividad, no tasas de crecimiento.",
+        "Distinguir seis países StudyGuide de los nueve del objeto local y evitar una equivalencia histórica no acreditada.",
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "references_replaced": 5,
+      "identities": [
+        "iguzmanv:198",
+        "iguzmanvt:211",
+        "iguzmanvt:213",
+        "iguzmanvt:216",
+        "iguzmanvt:48"
+      ],
+      "before_sha256": "beee2e6a59e2b1d927e8fb846e2866d4c79ab6d6868c32142376ed4fba0fec7a",
+      "after_sha256": "148ff0b11f548de34717a824e51bf5fe66e90082ed42ecdf5208803b58fda3dc",
+      "demographic_context_adjusted": true,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Distinguir tendencia del PIB per cápita de contribución de productividad",
+        "Denominar 1-labsh participación no laboral del PIB"
+      ],
+      "contextual_reassignment": "iguzmanv:198 → iguzmanvt:198; se usa participación del PIB, coherente con el texto; costes se conserva en Accounting"
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "references_replaced": 5,
+      "identities": [
+        "iguzmanvt:198",
+        "iguzmanvt:211",
+        "iguzmanvt:213",
+        "iguzmanvt:216",
+        "iguzmanvt:48"
+      ],
+      "before_sha256": "702305f84b3d8cb1d656d74e367e8517bb0a4b85954ffc91877c3b491b1e320e",
+      "after_sha256": "fbc14bdee0df19d58460245fc262169d39e0816e4405c70948c320521828ca71",
+      "demographic_context_adjusted": true,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Distinguir tendencia del PIB per cápita de contribución de productividad",
+        "Denominar 1-labsh participación no laboral del PIB"
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "references_replaced": 17,
+      "identities": [
+        "iguzmanvt:122",
+        "iguzmanvt:124",
+        "iguzmanvt:126",
+        "iguzmanvt:160",
+        "iguzmanvt:162",
+        "iguzmanvt:44",
+        "iguzmanvt:46",
+        "iguzmanvt:48",
+        "iguzmanvt:50",
+        "iguzmanvt:52",
+        "iguzmanvt:54",
+        "iguzmanvt:56",
+        "iguzmanvt:58",
+        "iguzmanvt:60",
+        "iguzmanvt:62",
+        "iguzmanvt:78",
+        "iguzmanvt:82"
+      ],
+      "before_sha256": "f829ec92b3f48665001f723d9d98c28ba8c9b76451eabced154d8785244b0788",
+      "after_sha256": "2d8a4212c2bd62ed6c4287a2199fdd3716ac1c7b6fa91a64a9a2966b9db243ce",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Identificar los ajustes OLS y sus ventanas reales; no atribuir parámetros desconocidos al archivo original.",
+        "La nueva figura estima tendencias estadísticas, no manipula parámetros estructurales para generar las líneas.",
+        "Distinguir OLS de la calibración Solow y definir el origen temporal.",
+        "Sustituir atribución al antiguo gráfico por el ajuste comprobado.",
+        "Pendiente OLS efectiva de la nueva recta naranja.",
+        "α y δ se fijan para la calibración didáctica; no se estiman con la recta.",
+        "Crecimiento logarítmico de la población de USA entre 1950 y 2000 dividido entre 50.",
+        "Promedio de csh_i para USA 1950–2000.",
+        "Intercepto de la nueva tendencia en 1950 y parámetros coherentes con ella.",
+        "Actualizar el despeje, incluyendo la misma g_A en todas las expresiones.",
+        "Exponencial del ln A0 calibrado: 10075.9687.",
+        "Explicar la nueva calibración sin asignar significado físico al nivel.",
+        "Evitar equiparar el residual calibrado con una medida internacional de tecnología.",
+        "Declarar la ventana y la aproximación de inversión usada en la calibración.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido."
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+      "references_replaced": 17,
+      "identities": [
+        "iguzmanvt:122",
+        "iguzmanvt:124",
+        "iguzmanvt:126",
+        "iguzmanvt:160",
+        "iguzmanvt:162",
+        "iguzmanvt:44",
+        "iguzmanvt:46",
+        "iguzmanvt:48",
+        "iguzmanvt:50",
+        "iguzmanvt:52",
+        "iguzmanvt:54",
+        "iguzmanvt:56",
+        "iguzmanvt:58",
+        "iguzmanvt:60",
+        "iguzmanvt:62",
+        "iguzmanvt:78",
+        "iguzmanvt:82"
+      ],
+      "before_sha256": "89beeef2d9e3fa89e0a519251fdf5897e959b6786e41067f86f3723db425a8df",
+      "after_sha256": "ffc1a81bc6e6938fa9988cda2eb03048213eb89e4b1382d756b2a0c6c0c2361c",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Identificar los ajustes OLS y sus ventanas reales; no atribuir parámetros desconocidos al archivo original.",
+        "La nueva figura estima tendencias estadísticas, no manipula parámetros estructurales para generar las líneas.",
+        "Distinguir OLS de la calibración Solow y definir el origen temporal.",
+        "Sustituir atribución al antiguo gráfico por el ajuste comprobado.",
+        "Pendiente OLS efectiva de la nueva recta naranja.",
+        "α y δ se fijan para la calibración didáctica; no se estiman con la recta.",
+        "Crecimiento logarítmico de la población de USA entre 1950 y 2000 dividido entre 50.",
+        "Promedio de csh_i para USA 1950–2000.",
+        "Intercepto de la nueva tendencia en 1950 y parámetros coherentes con ella.",
+        "Actualizar el despeje, incluyendo la misma g_A en todas las expresiones.",
+        "Exponencial del ln A0 calibrado: 10075.9687.",
+        "Explicar la nueva calibración sin asignar significado físico al nivel.",
+        "Evitar equiparar el residual calibrado con una medida internacional de tecnología.",
+        "Declarar la ventana y la aproximación de inversión usada en la calibración.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+        "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido."
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento Nota.Rmd",
+      "references_replaced": 2,
+      "identities": [
+        "iguzmanvt:132",
+        "iguzmanvt:134"
+      ],
+      "before_sha256": "811366213a6a66150d95f4dae30c053657d78bfc32666b670384337adc1347ec",
+      "after_sha256": "107ea4a4ca40a8841d22375e3495ce32e5b2b0819e3b4956bd74e3ba2b9105ab",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Precisar variable fiscal y evitar conclusiones por país no verificadas para la nueva edición.",
+        "Mantener la lectura descriptiva de la dispersión reconstruida.",
+        "Describir la nueva figura con la definición documentada de su tasa.",
+        "El archivo gráfico no retiene fechas; evitar inferirlas del orden de los puntos.",
+        "Precisar que la variable fiscal es consumo del gobierno/PIB.",
+        "Precisar que la variable fiscal es consumo del gobierno/PIB."
+      ],
+      "contextual_reassignment": null
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Taxes/Crecimiento Economico - Politica Fiscal y crecimiento.Rmd",
+      "references_replaced": 2,
+      "identities": [
+        "iguzmanvt:132",
+        "iguzmanvt:134"
+      ],
+      "before_sha256": "b5f1224e5128e33a61a1070eddcca6f86726446ee40e524b1f2f8886d91fa534",
+      "after_sha256": "fb94b2f11c16ed8bf49fea68ccbea14842b8a8bb108a941333238d254fd2cb3a",
+      "demographic_context_adjusted": false,
+      "energy_units_context_adjusted": false,
+      "text_adjustments": [
+        "Precisar variable fiscal y evitar conclusiones por país no verificadas para la nueva edición.",
+        "Mantener la lectura descriptiva de la dispersión reconstruida.",
+        "Describir la nueva figura con la definición documentada de su tasa.",
+        "El archivo gráfico no retiene fechas; evitar inferirlas del orden de los puntos.",
+        "Corregir el encabezado de la figura de crecimiento 132."
+      ],
+      "contextual_reassignment": null
+    }
+  ],
+  "original_images_and_historical_HTML_replaced": false,
+  "source_hash_newline_policy": "Canonical LF text, as stored in the Git blob; Windows checkouts can use CRLF outside the new artifact folders."
+}

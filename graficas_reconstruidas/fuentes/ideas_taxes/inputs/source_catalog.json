@@ -1,0 +1,3356 @@
+{
+  "repository": "dvollrath/StudyGuide",
+  "author_copyright": "2020 Dietz Vollrath",
+  "license": "MIT",
+  "license_blob": "cd77803a2e7d3dfed8eb74c1fee27027d0258077",
+  "license_sha256": "165d77bbd664a2ccdaa4ac9e95e7cafa59d69710789c69036ce0cc402d5cea17",
+  "primary_pinned_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+  "fork_capture_commit": "44927f3925b7f4de4803a76a703a5281b1a774fd",
+  "upstream_head_checked": "bc0cce025e6bc418b2015b22c508fdaeeecf48fc",
+  "selected_widget_count": 10,
+  "widgets": [
+    {
+      "path": "plotly/me-gA-dynamics.html",
+      "blob": "5ad9e9e0f691c00bb14d6c6e9779ba9c3fd228bb",
+      "source_sha256": "2c72d63e2db5ade38aed8feaf7838896482b5a92835e3b2ce58fec04fe30b01d",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/me-gA-dynamics.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": true,
+      "raw_widget_sha256": "489182bade5b8a3b5101e7197e1788423d9f1842c39d7cb0d76599fea3a1f309",
+      "minimal_sha256": "e6908748647ebf5290313d84b041ba83f04fdef517a9960ac0b522ff7eea2ea8",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Dynamics of productivity growth",
+      "axes": {
+        "xaxis": {
+          "title": "Ratio of R/A",
+          "type": null,
+          "range": [
+            0.8,
+            5.2
+          ]
+        },
+        "yaxis": {
+          "title": "Growth rate",
+          "type": null,
+          "range": [
+            0,
+            0.06
+          ]
+        }
+      },
+      "traces": [
+        {
+          "name": "A",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 1,
+          "y_array_length": 1,
+          "effective_xy_non_null_pairs": 1,
+          "point_text_present": true,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "B",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 1,
+          "y_array_length": 1,
+          "effective_xy_non_null_pairs": 1,
+          "point_text_present": true,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": true,
+        "count": 250,
+        "absent_normalized_to_empty_list": false,
+        "present_field_equality_verified": true,
+        "per_frame": [
+          {
+            "name": "1",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "2",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "3",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "4",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "5",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "6",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "7",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "8",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "9",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "10",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "11",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "12",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "13",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "14",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "15",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "16",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "17",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "18",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "19",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "20",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "21",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "22",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "23",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "24",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "25",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "26",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "27",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "28",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "29",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "30",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "31",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "32",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "33",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "34",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "35",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "36",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "37",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "38",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "39",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "40",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "41",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "42",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "43",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "44",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "45",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "46",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "47",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "48",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "49",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "50",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "51",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "52",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "53",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "54",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "55",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "56",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "57",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "58",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "59",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "60",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "61",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "62",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "63",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "64",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "65",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "66",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "67",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "68",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "69",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "70",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "71",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "72",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "73",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "74",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "75",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "76",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "77",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "78",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "79",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "80",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "81",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "82",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "83",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "84",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "85",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "86",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "87",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "88",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "89",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "90",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "91",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "92",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "93",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "94",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "95",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "96",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "97",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "98",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "99",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "100",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "101",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "102",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "103",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "104",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "105",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "106",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "107",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "108",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "109",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "110",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "111",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "112",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "113",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "114",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "115",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "116",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "117",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "118",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "119",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "120",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "121",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "122",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "123",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "124",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "125",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "126",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "127",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "128",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "129",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "130",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "131",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "132",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "133",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "134",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "135",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "136",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "137",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "138",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "139",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "140",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "141",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "142",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "143",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "144",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "145",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "146",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "147",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "148",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "149",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "150",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "151",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "152",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "153",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "154",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "155",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "156",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "157",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "158",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "159",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "160",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "161",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "162",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "163",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "164",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "165",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "166",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "167",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "168",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "169",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "170",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "171",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "172",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "173",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "174",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "175",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "176",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "177",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "178",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "179",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "180",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "181",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "182",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "183",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "184",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "185",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "186",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "187",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "188",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "189",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "190",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "191",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "192",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "193",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "194",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "195",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "196",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "197",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "198",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "199",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "200",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "201",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "202",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "203",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "204",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "205",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "206",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "207",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "208",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "209",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "210",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "211",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "212",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "213",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "214",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "215",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "216",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "217",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "218",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "219",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "220",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "221",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "222",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "223",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "224",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "225",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "226",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "227",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "228",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "229",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "230",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "231",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "232",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "233",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "234",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "235",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "236",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "237",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "238",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "239",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "240",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "241",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "242",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "243",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "244",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "245",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "246",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "247",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "248",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "249",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          },
+          {
+            "name": "250",
+            "traces": 2,
+            "effective_xy_non_null_pairs": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_ME_gA.r",
+          "blob": "81a151e1eacd3e5198356c1296c856651bad264d",
+          "line": 62,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/me-gA-dynamics.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "code/Guide_Sim_gA.r",
+          "blob": "81a151e1eacd3e5198356c1296c856651bad264d",
+          "line": 62,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/me-gA-dynamics.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 77,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/me-gA-dynamics.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 77,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/me-gA-dynamics.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years.",
+      "extracted_reference": "inputs/model76_reference.json"
+    },
+    {
+      "path": "plotly/oecd-rd-fte.html",
+      "blob": "caa8734e1a88de21488a5d0cb81b96f88a074e2b",
+      "source_sha256": "8e3019730e7d3b7bbcba394d1cb8bb9451d4d8890f72d07eef12709b7e4baae4",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": true,
+      "raw_widget_sha256": "be477681a78f8fa436cf800e7e1abe90c65a52f2ce7c3c878cad1c67a48799da",
+      "minimal_path": "inputs/oecd-rd-fte.json",
+      "minimal_sha256": "d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "R&D Workers over time",
+      "axes": {
+        "xaxis": {
+          "title": "Year",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "FTE R&D Workers",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 31,
+          "y_array_length": 31,
+          "effective_xy_non_null_pairs": 31,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1991,
+            2021
+          ]
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 34,
+          "y_array_length": 34,
+          "effective_xy_non_null_pairs": 34,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 37,
+          "y_array_length": 37,
+          "effective_xy_non_null_pairs": 37,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2017
+          ]
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 41,
+          "y_array_length": 41,
+          "effective_xy_non_null_pairs": 41,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 27,
+          "y_array_length": 27,
+          "effective_xy_non_null_pairs": 27,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1995,
+            2021
+          ]
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 40,
+          "y_array_length": 40,
+          "effective_xy_non_null_pairs": 40,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2020
+          ]
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_OECD_RD.r",
+          "blob": "0e9218a44a8d2da0edc7dadebc9baa4955f13215",
+          "line": 30,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/oecd-rd-fte.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 20,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-fte.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 20,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-fte.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/oecd-rd-levelrd.html",
+      "blob": "17655fa0e0f8308a289d720b8ae1773abfd2a727",
+      "source_sha256": "4af4eb46255d22a48cd261cfa0222a11046611a9374e900849a374ef2e246ad9",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-levelrd.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": true,
+      "raw_widget_sha256": "9fc5d3c7e2948157bb52edb3ca1f40a16fce26d6096d3f2c3af07e9b94831513",
+      "minimal_path": "inputs/oecd-rd-levelrd.json",
+      "minimal_sha256": "7d8a75e196118486ca7023f06cd4abb16ffadedf6ad5225de6defec85fee7db0",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "R&D expenditure over time",
+      "axes": {
+        "xaxis": {
+          "title": "Year",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "Real R&D expenditures",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1991,
+            2022
+          ]
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 41,
+          "y_array_length": 41,
+          "effective_xy_non_null_pairs": 41,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 42,
+          "y_array_length": 42,
+          "effective_xy_non_null_pairs": 42,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2022
+          ]
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1991,
+            2022
+          ]
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 41,
+          "y_array_length": 41,
+          "effective_xy_non_null_pairs": 41,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_OECD_RD.r",
+          "blob": "0e9218a44a8d2da0edc7dadebc9baa4955f13215",
+          "line": 91,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/oecd-rd-levelrd.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 28,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-levelrd.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 28,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-levelrd.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/oecd-rd-logrd.html",
+      "blob": "65105018cc9e95f864660d1ec92d4b72f520ea37",
+      "source_sha256": "d0f23eb7ca5ea6cda0ae58383cb32749eee52390b481c6bf44a8fd7b1d7d6708",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-logrd.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": true,
+      "raw_widget_sha256": "f1b3b089886345eed69e5d4a32b669740a82fec5c02a14e51fdf1b87eea4988a",
+      "minimal_path": "inputs/oecd-rd-logrd.json",
+      "minimal_sha256": "d0edac205821320085ac646f2b167e1548a40c41d547c17ccc60e5e976cffd6a",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "R&D expenditure over time",
+      "axes": {
+        "xaxis": {
+          "title": "Year",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "Log real R&D expenditures",
+          "type": "log",
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1991,
+            2022
+          ]
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 41,
+          "y_array_length": 41,
+          "effective_xy_non_null_pairs": 41,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 42,
+          "y_array_length": 42,
+          "effective_xy_non_null_pairs": 42,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2022
+          ]
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1991,
+            2022
+          ]
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 41,
+          "y_array_length": 41,
+          "effective_xy_non_null_pairs": 41,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1981,
+            2021
+          ]
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_OECD_RD.r",
+          "blob": "0e9218a44a8d2da0edc7dadebc9baa4955f13215",
+          "line": 82,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/oecd-rd-logrd.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 34,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-logrd.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 34,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/oecd-rd-logrd.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-all-cshg-growth.html",
+      "blob": "4e30ce35afa90a69c694b988666214bd821fb4f1",
+      "source_sha256": "ca6e5fc08bce641eb34792a196ee7ee85fc8e7c0dbab7a80909e65e2e572098e",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-growth.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "2ead8c4a5908a9babc2e3e0c3cdea14ff9ff00189cdb50553b0f74968b4628bb",
+      "minimal_path": "inputs/pwt-all-cshg-growth.json",
+      "minimal_sha256": "528d466c0137a2e8b694d183594f4a529939810d9d82ca0974d12a6a6bb92e2c",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Government and growth",
+      "axes": {
+        "xaxis": {
+          "title": "Gov. spending share of GDP",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "10-year growth rate",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "China",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 58,
+          "y_array_length": 58,
+          "effective_xy_non_null_pairs": 58,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Germany",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Japan",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Republic of Korea",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 57,
+          "y_array_length": 57,
+          "effective_xy_non_null_pairs": 57,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Mexico",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "United States of America",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_BGP.r",
+          "blob": "38681ca99b774be43964eab5a9d293a9d45f5857",
+          "line": 58,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-all-cshg-growth.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "code/Guide_PWT_Topics.r",
+          "blob": "92ca9d6a6ff00981c90e53bbd72e7ca8f59885ec",
+          "line": 29,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-all-cshg-growth.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/policy.md",
+          "blob": "679ffd6b7d61d40bfad8632df4888ca17f6cea1d",
+          "line": 27,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-all-cshg-growth.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/policy.md",
+          "blob": "679ffd6b7d61d40bfad8632df4888ca17f6cea1d",
+          "line": 27,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-all-cshg-growth.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-all-cshg-level.html",
+      "blob": "274c680db7c6a262040a23fc3d07206f0ecbab0f",
+      "source_sha256": "8ff0edb9b6bd4f5f46a110afd811f6b5d3ef09b5059474c83f3c75fc4d31d3aa",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-all-cshg-level.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "8b35a5d4c62dcb3e8c7675066db3bca6e3af45886d052a896bd52e8bee85d163",
+      "minimal_path": "inputs/pwt-all-cshg-level.json",
+      "minimal_sha256": "a3512bf7517e2e4c434fe747c788a41be84ba00aeb1770c637d3e93ef3bdfa86",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Government and level of GDP per capita",
+      "axes": {
+        "xaxis": {
+          "title": "Gov. spending share of GDP",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "Log GDP per capita",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "China",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 68,
+          "y_array_length": 68,
+          "effective_xy_non_null_pairs": 68,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Germany",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 70,
+          "y_array_length": 70,
+          "effective_xy_non_null_pairs": 70,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Japan",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 70,
+          "y_array_length": 70,
+          "effective_xy_non_null_pairs": 70,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Republic of Korea",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 67,
+          "y_array_length": 67,
+          "effective_xy_non_null_pairs": 67,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "Mexico",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 70,
+          "y_array_length": 70,
+          "effective_xy_non_null_pairs": 70,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "United States of America",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 70,
+          "y_array_length": 70,
+          "effective_xy_non_null_pairs": 70,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_Topics.r",
+          "blob": "92ca9d6a6ff00981c90e53bbd72e7ca8f59885ec",
+          "line": 35,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-all-cshg-level.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/policy.md",
+          "blob": "679ffd6b7d61d40bfad8632df4888ca17f6cea1d",
+          "line": 23,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-all-cshg-level.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/policy.md",
+          "blob": "679ffd6b7d61d40bfad8632df4888ca17f6cea1d",
+          "line": 23,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-all-cshg-level.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-growth-tfp-comp.html",
+      "blob": "a548dbdf247c9ad70289fa9c01e14dc9a012b2c1",
+      "source_sha256": "74fbdf6253a6e4832316d6d15a55c5474db18ec3ed2c5463e47edfe4a08f9c66",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-growth-tfp-comp.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "3c06ef140a687ef3a78924a5a6b769ece2115c62f0d11c64edfb26ca651edd80",
+      "minimal_path": "inputs/pwt-growth-tfp-comp.json",
+      "minimal_sha256": "499b5d219b69e31e1117c09ef8efb5dc36969ddaeee7e4b6e40cf3da4b28be07",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Productivity growth",
+      "axes": {
+        "xaxis": {
+          "title": "Year",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "10-year productivity growth rate",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 58,
+          "y_array_length": 58,
+          "effective_xy_non_null_pairs": 58,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1962,
+            2019
+          ]
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1960,
+            2019
+          ]
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1960,
+            2019
+          ]
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1960,
+            2019
+          ]
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 57,
+          "y_array_length": 57,
+          "effective_xy_non_null_pairs": 57,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1963,
+            2019
+          ]
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "lines+markers",
+          "x_array_length": 60,
+          "y_array_length": 60,
+          "effective_xy_non_null_pairs": 60,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": [
+            1960,
+            2019
+          ]
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_Account.r",
+          "blob": "0eeb8c314b6184191c45d1a087fd01bcf6707c64",
+          "line": 128,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-growth-tfp-comp.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 43,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-growth-tfp-comp.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/effort.md",
+          "blob": "deecab99fbe110b79a2fee81099cf8109a79609c",
+          "line": 43,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-growth-tfp-comp.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-oecd-level-rd.html",
+      "blob": "6dc54c865c7d0adc5065f30748d9d8fbc9a063f7",
+      "source_sha256": "281fd79a44c0fd06da64eb0dd3e69af16b56734521727664fd20134d92c83426",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-level-rd.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "7df480bf706fb197b7eec166c47086a2edad305155606457a5b0c52cafd2fb37",
+      "minimal_path": "inputs/pwt-oecd-level-rd.json",
+      "minimal_sha256": "d43b39c36048fb078b3b447efb71daa263473081f849df71f67fbf067fd05dba",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Relationship of R&D level and prod level",
+      "axes": {
+        "xaxis": {
+          "title": "Log R&D FTE",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "Log productivity",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 29,
+          "y_array_length": 29,
+          "effective_xy_non_null_pairs": 29,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 37,
+          "y_array_length": 37,
+          "effective_xy_non_null_pairs": 37,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 25,
+          "y_array_length": 25,
+          "effective_xy_non_null_pairs": 25,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_Account.r",
+          "blob": "0eeb8c314b6184191c45d1a087fd01bcf6707c64",
+          "line": 199,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-oecd-level-rd.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/prodlevel.md",
+          "blob": "1ca3f13be09a19c43dbfe6c949fad1af25fd02a8",
+          "line": 35,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-level-rd.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/prodlevel.md",
+          "blob": "1ca3f13be09a19c43dbfe6c949fad1af25fd02a8",
+          "line": 35,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-level-rd.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-oecd-rd-gtfp.html",
+      "blob": "0b06cc0d347dd0b5fc11b12a8314f290906eeeec",
+      "source_sha256": "b5b2449d6a527f9e8fb6bb6088c24c7888b8ceeeab9849cf6b01dad838a6ff83",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-gtfp.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "be10b3de26a44f43849c0365fb4200657bbf052760fb311fdd0dd61296bc7d55",
+      "minimal_path": "inputs/pwt-oecd-rd-gtfp.json",
+      "minimal_sha256": "884a37dc25497cd7b29f54c51ae27b048b8f2bb51b180234758f5c76ad5421ac",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Relationship of R&D growth and prod growth",
+      "axes": {
+        "xaxis": {
+          "title": "10-year growth rate of R&D FTE",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "10-year productivity growth rate",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 19,
+          "y_array_length": 19,
+          "effective_xy_non_null_pairs": 19,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 22,
+          "y_array_length": 22,
+          "effective_xy_non_null_pairs": 22,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 27,
+          "y_array_length": 27,
+          "effective_xy_non_null_pairs": 27,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 29,
+          "y_array_length": 29,
+          "effective_xy_non_null_pairs": 29,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 15,
+          "y_array_length": 15,
+          "effective_xy_non_null_pairs": 15,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 29,
+          "y_array_length": 29,
+          "effective_xy_non_null_pairs": 29,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_Account.r",
+          "blob": "0eeb8c314b6184191c45d1a087fd01bcf6707c64",
+          "line": 183,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-oecd-rd-gtfp.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 133,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-rd-gtfp.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 133,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-rd-gtfp.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    },
+    {
+      "path": "plotly/pwt-oecd-rd-tfp.html",
+      "blob": "15330e45ca74a6abd0c39e223a1d4cb5b3f84563",
+      "source_sha256": "8bc21e62313fc12a2c55f5a7593bba90242234c4d8045e5dc8098c1177be7f1a",
+      "primary_source_url": "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/pwt-oecd-rd-tfp.html",
+      "source_commit": "3a8c79f20022ef7b985b392d73921839a4317883",
+      "upstream_current_same_blob": false,
+      "raw_widget_sha256": "d8e08fbf513d07ce7604595007666cc2c0a3d8deb0b66c1e377459e640ef43ab",
+      "minimal_path": "inputs/pwt-oecd-rd-tfp.json",
+      "minimal_sha256": "c892b1c946cff2228698509417a6a2ec7ab06187a6c610663f9897a9dd01a7e3",
+      "minimal_fields": [
+        "data",
+        "layout",
+        "frames"
+      ],
+      "data_layout_object_equality_verified": true,
+      "title": "Relationship of R&D work and prod growth",
+      "axes": {
+        "xaxis": {
+          "title": "Log R&D FTE workers",
+          "type": null,
+          "range": null
+        },
+        "yaxis": {
+          "title": "10-year productivity growth rate",
+          "type": null,
+          "range": null
+        }
+      },
+      "traces": [
+        {
+          "name": "CHN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 29,
+          "y_array_length": 29,
+          "effective_xy_non_null_pairs": 29,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "DEU",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 32,
+          "y_array_length": 32,
+          "effective_xy_non_null_pairs": 32,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "GBR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 37,
+          "y_array_length": 37,
+          "effective_xy_non_null_pairs": 37,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "JPN",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "KOR",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 25,
+          "y_array_length": 25,
+          "effective_xy_non_null_pairs": 25,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        },
+        {
+          "name": "USA",
+          "type": "scatter",
+          "mode": "markers",
+          "x_array_length": 39,
+          "y_array_length": 39,
+          "effective_xy_non_null_pairs": 39,
+          "point_text_present": false,
+          "point_text_unique": null,
+          "calendar_year_range_from_x": null
+        }
+      ],
+      "frames": {
+        "original_field_present": false,
+        "count": 0,
+        "absent_normalized_to_empty_list": true,
+        "present_field_equality_verified": null,
+        "per_frame": []
+      },
+      "course_code_links": [
+        {
+          "path": "code/Guide_PWT_Account.r",
+          "blob": "0eeb8c314b6184191c45d1a087fd01bcf6707c64",
+          "line": 167,
+          "text": "saveWidget(partial_bundle(fig), \"../plotly/pwt-oecd-rd-tfp.html\",selfcontained = F, libdir = \"lib\")"
+        },
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 127,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-rd-tfp.html\"></iframe>"
+        }
+      ],
+      "course_document_links": [
+        {
+          "path": "ideas/proddynamic.md",
+          "blob": "f712a220056940beb9a7f244eabe7988064ed7f6",
+          "line": 127,
+          "text": "<iframe width=\"900\" height=\"600\" frameborder=\"0\" scrolling=\"no\" src=\"../plotly/pwt-oecd-rd-tfp.html\"></iframe>"
+        }
+      ],
+      "chartstudio_user_id_proven": false,
+      "period_note": "A calendar range is reported only when the archived x axis explicitly says Year and its coordinates are calendar-like. Scatter x/y coordinates are not treated as years."
+    }
+  ],
+  "notes": [
+    "data and layout are structurally equal to the parsed archived JSON; the raw .widget.json preserves the exact original script bytes.",
+    "37 absent frames fields are represented as [] in the minimal format; the four present frames arrays are preserved exactly as parsed.",
+    "No script or HTML was executed. saveWidget and Markdown links document intended destinations; they do not demonstrate reproduction by the current code.",
+    "No author/ID equivalence with the 40 missing Chart Studio resources is asserted."
+  ]
+}

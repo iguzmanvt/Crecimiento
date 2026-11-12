@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crecimiento Económico</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Crecimiento Económico',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            ]
+    };
+  </script>
+
+  <script src="Material_files/header-attrs-2.28/header-attrs.js"></script>
+  <link href="Material_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="Material_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="Material_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="Material_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    details > summary > p:only-child {
+      display: inline;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
+slide:not(.current) .plotly.html-widget{
+  display: block;
+}
+
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            
+  </style>
+
+  <link rel="stylesheet" href="curso.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Crecimiento Económico </h2><h3> Ideas y productividad: Investigación y Desarrollo</h3></hgroup><article  id="crecimiento-económico-ideas-y-productividad-investigación-y-desarrollo" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>Modelo de Investigación y Desarrollo (I&amp;D)</h2></hgroup><article  id="modelo-de-investigación-y-desarrollo-id" class="smaller ">
+
+<ul>
+<li><p>Romer (1990)</p></li>
+<li><p>La economía se dedica recursos no solo a la producción de bienes sino también hacia la producción de nuevas tecnologías.</p></li>
+<li><p>Supone que la mano de obra, el capital y la tecnología se combinan por un sector intermedio especializado para producir mejoras en la tecnología.</p></li>
+<li><p>Puntos relevantes:</p>
+
+<ul>
+<li><p>Dificultades empíricas en contraste con Solow y Ramsey.</p></li>
+<li><p>No hay mathiness (en contraste con otros modelos endógenos)</p></li>
+</ul></li>
+<li><p>El modelo hace otras dos simplificaciones:</p>
+
+<ul>
+<li><p>Primero, se asume que tanto la I&amp;D como las funciones de producción de bienes son funciones Cobb-Douglas generalizadas, es decir, la función de producción no tiene necesariamente rendimientos constantes a escala.</p></li>
+<li><p>Como en el modelo de Solow, toma la fracción de la producción ahorrada y las fracciones de la fuerza laboral y el acervo de capital utilizados en el sector de I&amp;D como exógenas y constantes.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelo de Investigación y Desarrollo (I&amp;D)</h2></hgroup><article  id="modelo-de-investigación-y-desarrollo-id-1" class="smaller ">
+
+<ul>
+<li><p>Economía de las ideas</p>
+
+<ul>
+<li><p>Ideas son bienes no rivales</p></li>
+<li><p>Bienes no rivales producen rendimientos crecientes a escala al ser excluibles</p></li>
+</ul></li>
+<li><p>Ejemplos:</p>
+
+<ul>
+<li><p>Terapia de rehidratación oral (Ejemplo de Romer)</p></li>
+<li><p>Replicar la producción de una fábrica vs instrucciones para hacer una computadora</p></li>
+<li><p>Hacer mas productivo a una persona vs hacer más productivo a un número amplio de personas</p></li>
+</ul></li>
+<li><p>Es muy fácil obtener crecimiento en un agregado en cualquier modelo, incluso en Solow, debido al crecimiento de la población. Más trabajadores automáticos significan que se producen más coches.</p></li>
+<li><p>En Solow, esto no puede sostener el crecimiento per cápita porque necesitamos crecimiento en automóviles por trabajador. Pero en Romer, este no es el caso: más investigadores producen más ideas, lo que hace que todos estén mejor debido a la no rivalidad.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelo de Investigación y Desarrollo (I&amp;D)</h2></hgroup><article  id="modelo-de-investigación-y-desarrollo-id-2" class="smaller ">
+
+<ul>
+<li><p>Romer se centró originalmente en ideas no rivales que eran muy fáciles de copiar, como software, libros o planos. Al ser fáciles de copiar, no son fácilmente excluibles y, por lo tanto, sería difícil obtener rentas sobre ellas sin algún tipo de protección.</p></li>
+<li><p>Las patentes o los derechos de autor otorgan exclusividad a estas ideas fáciles de copiar. Esos derechos de propiedad intelectual ofrecen el incentivo para que las personas creen nuevas ideas fáciles de copiar.</p></li>
+<li><p>La economía del crecimiento endógeno implica una relación no lineal entre los derechos de propiedad intelectual y la actividad innovadora.</p></li>
+<li><p>Paradoja:</p>
+
+<ul>
+<li><p>Sin protección de patentes nadie querrá innovar.</p></li>
+<li><p>Con demasiada protección de patentes será demasiado difícil reemplazar a las empresas existentes.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Modelo de Investigación y Desarrollo (I&amp;D)</h2></hgroup><article  id="modelo-de-investigación-y-desarrollo-id-3" class="smaller ">
+
+<ul>
+<li><p>Crecimiento endógeno y capital humano</p></li>
+<li><p>En las visiones de Romer y Lucas de como generar crecimiento endógeno, se contesta de forma distinta a la pregunta: ¿Los factores de la producción se igualan a su producto marginal?</p></li>
+<li><p>Sólo dos de los siguientes tres argumentos pueden ser ciertos:</p>
+
+<ul>
+<li><p>Los factores rivales de la producción no tienen retornos constantes o crecientes a escala.</p></li>
+<li><p>Los factores no rivales reciben algún pago de la producción.</p></li>
+<li><p>Los factores rivales reciben un pago de la producción igual a su producto marginal.</p></li>
+</ul></li>
+<li><p>Para Romer, las primeras dos son ciertas: (1) ejemplo de replicación de la fábrica; (2) sustenta su teoría; (3) no puede ser verdad. Si los propietarios de los factores no rivales son compensados de alguna manera, será menos que su producto marginal.</p></li>
+<li><p>Para Lucas, la 1 y la 3 son verdaderas: Esto puede ser verdadero si sólo hay factores rivales y el crecimiento balanceado se explica con la adquisición de conocimiento.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad" class="smaller ">
+
+<ul>
+<li>Investigadores equivalentes a tiempo completo (FTE) en seis países. La cobertura temporal es desigual; FTE no equivale necesariamente al número de personas físicas.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-96.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-1" class="smaller ">
+
+<ul>
+<li>Evolución relativa del gasto en I+D, con índice 2000 = 100 para cada país. No compara tamaños monetarios absolutos entre países.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-102.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-2" class="smaller ">
+
+<ul>
+<li>Logaritmo natural del gasto relativo a 2000, representado sobre un eje lineal. Las diferencias entre años indican cambios logarítmicos acumulados, no tasas anuales directamente.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-100.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-3" class="smaller ">
+
+<ul>
+<li>La gráfica muestra el crecimiento anual medio de la productividad en ventanas de diez años. Su comparación con las series de investigadores y gasto permite explorar tendencias, sin constituir una prueba estadística de asociación.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-112.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-4" class="smaller ">
+
+<ul>
+<li>En la simulación se nota que ambas economías colapsan hacia una proporción de investigadores / productividad de 2, y una tasa de crecimiento común de la productividad de 2%, cuya tasa de crecimiento es la tasa de crecimiento de los investigadores.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-76.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-5" class="smaller ">
+
+<ul>
+<li>Logaritmo del número de investigadores FTE y crecimiento de productividad: 265 observaciones de nueve países del objeto local de 2021. Esta es una nueva asignación docente del material archivado.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-116.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-6" class="smaller ">
+
+<ul>
+<li>Cambio del logaritmo de investigadores FTE y crecimiento de productividad en seis países. El eje horizontal usa un rezago de 10 observaciones y divide la diferencia entre 10; con huecos temporales no equivale necesariamente a 10 años.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-118.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-7" class="smaller ">
+
+<ul>
+<li><p>“Age and Great Invention” (Jones, 2010):</p></li>
+<li><p>Jones ha investigado mucho sobre cómo la ciencia se ha vuelto más difícil con el tiempo, en el sentido de que hoy los científicos tienden a ser mucho mayores cuando producen ideas que son dignas de un premio Nobel o algún premio similar.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-8" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>En muchos modelos, el crecimiento económico surge de las personas que crean ideas, y la tasa de crecimiento a largo plazo es el producto de dos términos: el número efectivo de investigadores y su productividad de investigación.</p></li>
+<li><p>BJVW presentan evidencia de varias industrias, productos y empresas que muestran que el esfuerzo de investigación está aumentando sustancialmente mientras que la productividad de la investigación está disminuyendo considerablemente.</p></li>
+<li><p>A través de una amplia gama de estudios de casos en varios niveles de desagregación, encontramos que las ideas, y en particular el crecimiento exponencial que implican, son cada vez más difíciles de encontrar. El crecimiento exponencial resulta de grandes aumentos en el esfuerzo de investigación que compensan su productividad decreciente.</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-9" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>Un buen ejemplo es la ley de Moore: el número de investigadores requeridos hoy para lograr la famosa duplicación cada dos años de la densidad de los chips de computadora es más de 18 veces mayor que el número requerido a principios de los años setenta.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-10" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>BJvRW examinan industrias individuales o tipos de productos para establecer que la “productividad ideal” cae.</p></li>
+<li><p>Puede ser que las ideas no se traduzcan perfectamente a la productividad, o que estemos difundiendo nuestros esfuerzos de investigación en una lista cada vez más amplia de industrias o líneas de investigación</p></li>
+<li><p>En conjunto, esto parecería una idea decreciente de productividad.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-11" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>No hay disminución en la tasa de crecimiento de los transistores, pero tampoco hay un aumento, a pesar del mayor número de investigadores.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-12" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>Lo que esto significa es que la &ldquo;idea de productividad del transistor&rdquo; está cayendo aproximadamente el 10% por año. La Ley de Moore sigue vigente, pero se necesitan 78 veces más investigadores para descubrir cómo duplicar la densidad de los transistores que en 1970.</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-13" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>Implicaciones para el crecimiento:</p>
+
+<ul>
+<li><p>La pregunta que surge es si esto implica que el crecimiento económico se desacelere hasta cero. Posiblemente no.</p></li>
+<li><p>Lo más probable es que las ideas tengan una tasa de crecimiento incluso si la productividad de ideas está disminuyendo con el tiempo.</p></li>
+</ul></li>
+<li><p>A medida que acumulamos más ideas, la tasa de crecimiento de las ideas disminuye: la productividad ideal disminuye.</p>
+
+<ul>
+<li><p>Pero solo porque la productividad ideal se reduce a medida que obtenemos más ideas no significa que la tasa de crecimiento de las ideas esté disminuyendo. ¿Por qué?</p></li>
+<li><p>Porque el esfuerzo de la investigación está aumentando con el tiempo debido al crecimiento de la población.</p></li>
+<li><p>Si la proporción de personas que trabajan como investigadores es constante, entonces su número absoluto está aumentando con el tiempo.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-14" class="smaller ">
+
+<ul>
+<li><p>“Are Ideas Getting Harder to Find?” (Bloom, Jones, Van Reene, Web (BJVW), 2019):</p></li>
+<li><p>Implicaciones para el crecimiento:</p>
+
+<ul>
+<li><p>La tasa de crecimiento de la población efectiva ha disminuido: si la población que proporciona investigadores comienza a crecer más lentamente, entonces el esfuerzo crece más lentamente y la tasa de crecimiento a largo plazo de las ideas continúa.</p></li>
+<li><p>Una disminución en la proporción de la población que está haciendo investigación: esto generaría una tasa de crecimiento de ideas a corto plazo más baja, ya que el esfuerzo tendría una tasa de crecimiento a corto plazo más baja por un tiempo a medida que avanzábamos hacia una menor proporción de personas que realizan investigaciones.</p></li>
+<li><p>Una caída exógena en el nivel de la productividad ideal. En este caso, la tasa de crecimiento de las ideas eventualmente volverá a subir a lo que era antes, después de tener un menor crecimiento de la productividad hacia el estado estacionario.</p></li>
+<li><p>Afectaciones por políticas públicas: subsidios para investigación básica, política fiscal con respecto al tratamiento del gasto en I&amp;D, etc.</p></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-15" class="smaller ">
+
+<ul>
+<li><p>“Superexponential long-term trends in information technology” (Nagy, et. al. 2011):</p></li>
+<li><p>La Ley de Moore ha creado una percepción popular del progreso exponencial en la tecnología de la información.</p></li>
+<li><p>¿Pero es el progreso de TI realmente exponencial?</p></li>
+</ul>
+
+<p><img src="Material_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-16" class="smaller ">
+
+<ul>
+<li>Logaritmo de investigadores FTE y nivel logarítmico de productividad en seis países. Esta variante compara niveles, mientras que las otras dispersiones de la sección muestran crecimiento.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-120.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Investigación y crecimiento de la productividad</h2></hgroup><article  id="investigación-y-crecimiento-de-la-productividad-17" class="smaller ">
+
+<ul>
+<li>Logaritmo de investigadores FTE y crecimiento de productividad en los seis países del archivo StudyGuide. Se conserva separado del objeto local de nueve países; no se mezclan sus muestras ni ediciones.</li>
+</ul>
+
+<p><iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../../graficas_reconstruidas/graficas/iguzmanvt-72.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy"></p>
+
+</iframe></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
+    }
+  })();
+</script>
+
+</body>
+</html>

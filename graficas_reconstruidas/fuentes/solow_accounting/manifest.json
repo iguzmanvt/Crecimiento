@@ -1,0 +1,1144 @@
+{
+  "entries": [
+    {
+      "identity": "iguzmanv:195",
+      "slug": "iguzmanv-195",
+      "title": "Estados Unidos: productividad total de los factores",
+      "module": "Accounting",
+      "description": "PTF a precios nacionales constantes publicada por PWT 10.0.",
+      "formula": "Índice PTF = 100 · rtfpna.",
+      "units": "Índice 2017=100",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "No es el residual simplificado del ejercicio de contabilidad de la clase ni una medida pura de tecnología."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "6137c389a85a59d901efbee73756059051cb12326e61872b42630bddbd1cd80d"
+    },
+    {
+      "identity": "iguzmanv:196",
+      "slug": "iguzmanv-196",
+      "title": "Estados Unidos: capital por persona empleada",
+      "module": "Accounting",
+      "description": "Stock de capital por persona empleada; millones monetarios y millones de personas se cancelan.",
+      "formula": "k = rnna / emp.",
+      "units": "US$ de 2017 por persona empleada",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Emp mide personas empleadas, no horas ni población total."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "7385754c1a46edfb91a5fd9d02b1e420eccde47ee74ec94aefdd2e8ef2c5b239"
+    },
+    {
+      "identity": "iguzmanv:197",
+      "slug": "iguzmanv-197",
+      "title": "Estados Unidos: capital y producción por persona empleada",
+      "module": "Accounting",
+      "description": "Comparación de la evolución relativa de capital y producción por empleado con una base común.",
+      "formula": "Índice k_t = 100·(rnna_t/emp_t)/(rnna_1960/emp_1960); análogo con rgdpna para y.",
+      "units": "Índice 1960=100",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Normalizar ambas series no equipara sus niveles monetarios ni estima elasticidades."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "71211ad3ec8f21249826dde66da2acf4adf22841b547bfcc83e8e5c68daa26f3"
+    },
+    {
+      "identity": "iguzmanv:198",
+      "slug": "iguzmanv-198",
+      "title": "Estados Unidos: participación del capital en los costos",
+      "module": "Accounting",
+      "description": "Aproximación al peso del costo del capital y comparación con la participación no laboral del PIB.",
+      "formula": "W ≈ labsh·rgdpna; RK = 0.05·rnna; participación en costos = RK/(W+RK). Referencia distinta: participación no laboral del PIB = 1−labsh.",
+      "units": "Fracción del costo o PIB, respectivamente; eje en porcentaje",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "R=0.05 es un supuesto de rendimiento/costo anual del capital; no es una tasa observada ni incorpora por separado todos los componentes del costo de uso.",
+        "labsh mide participación laboral en el PIB; 1−labsh no es automáticamente la participación del capital en costos."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "0cf5d43f86d10858ec991b259fb7926b338fd76e8146b3cb1049297166bb7dc5",
+      "shared_modules": [
+        "Accounting",
+        "Slowdown"
+      ],
+      "model_parameters": {
+        "R": 0.05
+      }
+    },
+    {
+      "identity": "iguzmanvt:44",
+      "slug": "iguzmanvt-44",
+      "title": "Japón: distintas sendas de crecimiento",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1950,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "519f3d52b7e277a866e9f25db7b30cc0dac56f6cb52680debf42047b655ade67",
+      "model_parameters": [
+        {
+          "start": 1950,
+          "end": 1990,
+          "n": 41,
+          "intercept_calendar_year": -103.57409407665503,
+          "slope": 0.0573362369337979,
+          "growth_percent_annual_log": 5.73362369337979,
+          "countrycode": "JPN"
+        },
+        {
+          "start": 2000,
+          "end": 2019,
+          "n": 20,
+          "intercept_calendar_year": -4.608631578947383,
+          "slope": 0.007526315789473692,
+          "growth_percent_annual_log": 0.7526315789473692,
+          "countrycode": "JPN"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:46",
+      "slug": "iguzmanvt-46",
+      "title": "Estados Unidos: senda de crecimiento ajustada",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1950,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "21ea762e4bdd7b1aae915dc977996a2deb0dbf2bc5b5fa98e8a59ae24a908cc0",
+      "model_parameters": [
+        {
+          "start": 1950,
+          "end": 2019,
+          "n": 70,
+          "intercept_calendar_year": -30.300865366109697,
+          "slope": 0.020524713498381593,
+          "growth_percent_annual_log": 2.0524713498381595,
+          "countrycode": "USA"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:48",
+      "slug": "iguzmanvt-48",
+      "title": "Estados Unidos: crecimiento antes y después de 2000",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1950,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "e346cc77c4945c7254ff1b818c620afee6a1ac12b567f061ff37a6509eb6553d",
+      "shared_modules": [
+        "Solow",
+        "Slowdown"
+      ],
+      "model_parameters": [
+        {
+          "start": 1950,
+          "end": 2000,
+          "n": 51,
+          "intercept_calendar_year": -34.48264705882353,
+          "slope": 0.022647058823529412,
+          "growth_percent_annual_log": 2.264705882352941,
+          "countrycode": "USA"
+        },
+        {
+          "start": 2001,
+          "end": 2019,
+          "n": 19,
+          "intercept_calendar_year": -9.631052631578877,
+          "slope": 0.010228070175438562,
+          "growth_percent_annual_log": 1.0228070175438562,
+          "countrycode": "USA"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:50",
+      "slug": "iguzmanvt-50",
+      "title": "Alemania: senda de crecimiento desde 1991",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1950,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "5993fed86551ec963f66e781af463860e4908581189625ce3451daf95ae6da89",
+      "model_parameters": [
+        {
+          "start": 1991,
+          "end": 2019,
+          "n": 29,
+          "intercept_calendar_year": -14.134310344827604,
+          "slope": 0.012379310344827595,
+          "growth_percent_annual_log": 1.2379310344827594,
+          "countrycode": "DEU"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:52",
+      "slug": "iguzmanvt-52",
+      "title": "Alemania: relación capital/producto",
+      "module": "Solow",
+      "description": "Stock de capital dividido entre el flujo anual de producción.",
+      "formula": "K/Y = rnna / rgdpna.",
+      "units": "Años de producción",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Se inicia en 1960 para reducir la dependencia de supuestos de stock inicial de PWT."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "b4b5bdc5f9400ae62dccb7ce8ec1079fb151a8cd29c3c816497f2bfcca7f7dc1"
+    },
+    {
+      "identity": "iguzmanvt:54",
+      "slug": "iguzmanvt-54",
+      "title": "Corea del Sur: cambio en la senda de crecimiento",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1953,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "40a17416894e990b361122b572a2ee7415222005037ba6232c4ae567253d0ec4",
+      "model_parameters": [
+        {
+          "start": 1953,
+          "end": 1962,
+          "n": 10,
+          "intercept_calendar_year": -17.527636363636432,
+          "slope": 0.012727272727272762,
+          "growth_percent_annual_log": 1.2727272727272763,
+          "countrycode": "KOR"
+        },
+        {
+          "start": 2010,
+          "end": 2019,
+          "n": 10,
+          "intercept_calendar_year": -40.11472727272728,
+          "slope": 0.025151515151515154,
+          "growth_percent_annual_log": 2.5151515151515156,
+          "countrycode": "KOR"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:56",
+      "slug": "iguzmanvt-56",
+      "title": "China: crecimiento y referencia de Corea del Sur",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1952,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "41a233b65d548839c8e27c68e0f5dd3cd7206020ac41ddfae26b2a551b4b0aee",
+      "model_parameters": [
+        {
+          "start": 1952,
+          "end": 1969,
+          "n": 18,
+          "intercept_calendar_year": -6.259635362917078,
+          "slope": 0.006749226006191941,
+          "growth_percent_annual_log": 0.6749226006191941,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 2010,
+          "end": 2019,
+          "n": 10,
+          "intercept_calendar_year": -40.11472727272728,
+          "slope": 0.025151515151515154,
+          "growth_percent_annual_log": 2.5151515151515156,
+          "countrycode": "KOR"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:58",
+      "slug": "iguzmanvt-58",
+      "title": "China: crecimiento de la población",
+      "module": "Solow",
+      "description": "Variación anual del logaritmo de la población, calculada sólo con años consecutivos.",
+      "formula": "g_L,t = ln(pop_t) − ln(pop_(t−1)).",
+      "units": "Tasa logarítmica anual; eje en porcentaje",
+      "period": [
+        1953,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "76cee7b6da5f101fa96983385b796c79e3815865ec4274ac3cd0bca11a444ade"
+    },
+    {
+      "identity": "iguzmanvt:60",
+      "slug": "iguzmanvt-60",
+      "title": "China: transición hacia una senda de crecimiento",
+      "module": "Solow",
+      "description": "Solow en tiempo continuo, calibrado con China 1978–2019; comparación del modelo con los datos.",
+      "formula": "q*=s/(δ+g_A+g_L); q(t)=q*+(q0−q*)exp[−(1−α)(δ+g_A+g_L)t]; ln y(t)=α/(1−α)ln q(t)+ln A0+g_A t.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1978,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_Sim_Solow_Model.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "δ=0.05 y α=0.3 son supuestos. s usa el promedio de csh_i como aproximación; la proporción a PPP corrientes no es contablemente idéntica a una tasa de inversión a precios nacionales constantes.",
+        "g_A se calibra al residual ln(Y/pop)−α/(1−α)ln(K/Y); no es la PTF publicada por PWT. Parámetros constantes e igual condición inicial no garantizan ajuste de toda la trayectoria."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "039f67039ec62cd68d627c38cb118c5188dae6de217f3ca472bcc82f0b8d126c",
+      "model_parameters": {
+        "alpha": 0.3,
+        "delta": 0.05,
+        "s_mean_csh_i": 0.3199119149219422,
+        "g_population": 0.009475732219237627,
+        "g_productivity_residual": 0.03929307378073464,
+        "KY_initial": 1.3454973132765407,
+        "KY_steady_state": 3.238997492001999,
+        "lnA_initial": 7.275484189550572,
+        "calibration_years": [
+          1978,
+          2019
+        ]
+      }
+    },
+    {
+      "identity": "iguzmanvt:62",
+      "slug": "iguzmanvt-62",
+      "title": "China: distintas etapas de crecimiento",
+      "module": "Solow",
+      "description": "Comparación del logaritmo del PIB per cápita y tendencias lineales estimadas por ventanas declaradas.",
+      "formula": "ln y = round(ln(rgdpna) − ln(pop), 2); tendencia OLS ln y_t = a + b·año.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1952,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Las ventanas de ajuste son una elección documentada, no especificaciones originales autenticadas. Las rectas fuera de su ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+        "PWT rgdpna está a precios nacionales constantes; la referencia entre países no es una comparación de niveles a PPP corrientes."
+      ],
+      "kind": "adaptacion_modelo",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "d3f827ddc894b975611383d43c25256cf34c9966010b7914cff6a534ed9b33fb",
+      "model_parameters": [
+        {
+          "start": 1963,
+          "end": 1977,
+          "n": 15,
+          "intercept_calendar_year": -46.03933333333326,
+          "slope": 0.02699999999999996,
+          "growth_percent_annual_log": 2.699999999999996,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 1978,
+          "end": 2007,
+          "n": 30,
+          "intercept_calendar_year": -94.2037500926956,
+          "slope": 0.05135261401557286,
+          "growth_percent_annual_log": 5.135261401557286,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 2008,
+          "end": 2019,
+          "n": 12,
+          "intercept_calendar_year": -82.99255244755227,
+          "slope": 0.04587412587412579,
+          "growth_percent_annual_log": 4.587412587412579,
+          "countrycode": "CHN"
+        }
+      ]
+    },
+    {
+      "identity": "iguzmanvt:78",
+      "slug": "iguzmanvt-78",
+      "title": "Dinámica de la productividad: dos condiciones iniciales",
+      "module": "Solow",
+      "description": "Simulación del modelo de producción de ideas; ambas condiciones convergen a R/A=2 y g_A=2%.",
+      "formula": "Ȧ=θR; Ṙ=g_R R; q=R/A; q̇=q(g_R−θq); q(t)=g_R/[θ+(g_R/q0−θ)e^(−g_R t)]; g_A=θq.",
+      "units": "R/A normalizado; crecimiento anual; tiempo del modelo",
+      "period": [
+        0,
+        249
+      ],
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_Sim_Prod.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd"
+      ],
+      "source_vintage": "Modelo y parámetros explícitos en generar.py; datos simulados, no edición estadística.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Parámetros ilustrativos θ=0.01, g_R=0.02 y q0=5 o 1. No son estimaciones ni datos de países.",
+        "La formulación continua es una adaptación documentada; no acredita la trayectoria del archivo remoto."
+      ],
+      "kind": "simulacion_didactica",
+      "inputs_sha256": {
+        "generar.py": "939e8ea0199f726a75146378f946a39bf594b9ffc224941fe012afd62dcc4fa5"
+      },
+      "output_sha256": "56f0f93110cb76e6b5fd760b84a9cecdce3dd29396fbd1f585bd98b48935109f",
+      "model_parameters": {
+        "theta": 0.01,
+        "g_R": 0.02,
+        "q0": [
+          5.0,
+          1.0
+        ],
+        "q_steady": 2.0
+      }
+    },
+    {
+      "identity": "iguzmanvt:82",
+      "slug": "iguzmanvt-82",
+      "title": "Nivel del PIB per cápita: transición en el modelo de Solow",
+      "module": "Solow",
+      "description": "Dos economías simuladas con los mismos parámetros de largo plazo y diferente capital inicial.",
+      "formula": "q*=s/(δ+g_A+g_L); q(t)=q*+(q0−q*)exp[−(1−α)(δ+g_A+g_L)t]; ln y=α/(1−α)ln q+ln A0+g_A t.",
+      "units": "Unidades normalizadas; log natural; no dólares observados",
+      "period": [
+        0,
+        60
+      ],
+      "source_urls": [
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_Sim_Solow_Model.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd"
+      ],
+      "source_vintage": "Modelo y parámetros explícitos en generar.py; datos simulados, no edición estadística.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Parámetros didácticos elegidos explícitamente; no observaciones ni calibración a un país."
+      ],
+      "kind": "simulacion_didactica",
+      "inputs_sha256": {
+        "generar.py": "939e8ea0199f726a75146378f946a39bf594b9ffc224941fe012afd62dcc4fa5"
+      },
+      "output_sha256": "60596fbd218c077c020b8fa0249d2455dca3bf60251de3850921be2e52dc08ce",
+      "model_parameters": {
+        "alpha": 0.3,
+        "s": 0.2,
+        "delta": 0.05,
+        "g_A": 0.02,
+        "g_L": 0.01,
+        "A0": 50.0,
+        "KY0": [
+          1.0,
+          4.0
+        ],
+        "KY_steady_state": 2.5
+      }
+    },
+    {
+      "identity": "iguzmanvt:104",
+      "slug": "iguzmanvt-104",
+      "title": "Estados Unidos: contabilidad del crecimiento",
+      "module": "Accounting",
+      "description": "Contrafactuales del ejemplo original: cambia un componente y los demás permanecen en 1960.",
+      "formula": "ln y=round(ln rgdpna−ln pop,2); q=round(rnna/rgdpna,2); c_K=(0.3/0.7)ln q; c_H=ln hc; c_A=ln y−c_K−c_H. Cada contrafactual se redondea a 2 decimales.",
+      "units": "Log natural de US$ de 2017 por habitante",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Ejemplo%20Estados%20Unidos.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Se conserva la convención del ejemplo: el término laboral es ln(hc), sin emp/pop. El residual absorbe otros factores omitidos; no equivale a rtfpna de PWT."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "232e751bda98ac3afa8f99e9576bed86ce27dd2b62b6a9fd7f25e1d1bc9b6a8b",
+      "model_parameters": {
+        "alpha": 0.3,
+        "reference_year": 1960,
+        "round_lngdppc": 2,
+        "round_KY": 2,
+        "round_traces": 2
+      }
+    },
+    {
+      "identity": "iguzmanvt:110",
+      "slug": "iguzmanvt-110",
+      "title": "Estados Unidos: contribuciones al crecimiento en diez años",
+      "module": "Accounting",
+      "description": "Contribuciones de los componentes del ejercicio al crecimiento anualizado logarítmico en ventanas móviles de diez años.",
+      "formula": "Contribución de j = 100·[c_j(t)−c_j(t−10)]/10; suma = 100·[ln y_t−ln y_(t−10)]/10.",
+      "units": "Puntos porcentuales anuales logarítmicos; no CAGR exacta",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Crecimiento%20Economico%20-%20Contabilidad%20del%20crecimiento%20Nota.Rmd",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Accounting/Ejemplo%20Estados%20Unidos.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.Rmd"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Ventanas móviles superpuestas. No se añaden emp/pop al término hc; se conserva el ejercicio de clase.",
+        "Las contribuciones no se redondean por separado para mantener su suma numéricamente igual al total."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "6ef86e6ce7b8d202324ed2834633dfa98c4b66d83aac1c487d035d185b1e26aa"
+    },
+    {
+      "identity": "iguzmanvt:122",
+      "slug": "iguzmanvt-122",
+      "title": "Corea del Sur: relación capital/producto",
+      "module": "Solow",
+      "description": "Stock de capital dividido entre el flujo anual de producción.",
+      "formula": "K/Y = rnna / rgdpna.",
+      "units": "Años de producción",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Se inicia en 1960 para reducir la dependencia de supuestos de stock inicial de PWT."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "1b9b70de4e686182bb7de102dcfec9a3b532d68d2ca926157cfa1ad6fb4c94fc"
+    },
+    {
+      "identity": "iguzmanvt:124",
+      "slug": "iguzmanvt-124",
+      "title": "Corea del Sur: crecimiento de la población",
+      "module": "Solow",
+      "description": "Variación anual del logaritmo de la población, calculada sólo con años consecutivos.",
+      "formula": "g_L,t = ln(pop_t) − ln(pop_(t−1)).",
+      "units": "Tasa logarítmica anual; eje en porcentaje",
+      "period": [
+        1954,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "ac3e005fff004d1c48d263bd29dcc8c7bc94a997167fe4dc9407b28b5a35cbdf"
+    },
+    {
+      "identity": "iguzmanvt:126",
+      "slug": "iguzmanvt-126",
+      "title": "China: relación capital/producto",
+      "module": "Solow",
+      "description": "Stock de capital dividido entre el flujo anual de producción.",
+      "formula": "K/Y = rnna / rgdpna.",
+      "units": "Años de producción",
+      "period": [
+        1960,
+        2019
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Apply.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Se inicia en 1960 para reducir la dependencia de supuestos de stock inicial de PWT."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cases.csv": "dc2595a965cc4e41e6819eb832c03a1f51f9fee3dfefafdf09547cf853659850"
+      },
+      "output_sha256": "7927d0743008266183c2e1049f8bae97c6cca1f399853926041b78fa5fedea57"
+    },
+    {
+      "identity": "iguzmanvt:160",
+      "slug": "iguzmanvt-160",
+      "title": "Inversión y nivel del PIB per cápita",
+      "module": "Solow",
+      "description": "Cortes internacionales animados; tamaño de burbuja según población. Selección igual para las dos correlaciones.",
+      "formula": "y=round(ln(rgdpna/pop),2); inversión=round(csh_i,2); g_L=[ln(pop_t)−ln(pop_(t−10))]/10. Filtros: 0<inversión<0.6 y −0.01<g_L<0.06.",
+      "units": "x proporción o tasa anual; y log de US$2017/habitante; tamaño población en millones",
+      "period": [
+        1960,
+        2015
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Correlation.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Correlación descriptiva, no efecto causal. Se omiten faltantes y observaciones fuera de los filtros declarados; no se rellenan países/años.",
+        "rgdpna a precios nacionales constantes puede limitar la comparación de niveles entre países; se conserva la convención didáctica del código de referencia."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cross_sections.csv": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+      },
+      "output_sha256": "f54f59e10767d05bcd83c4a5f6b79e8667b41504da5800bca088cd9345c1de90",
+      "sample_sizes_by_frame": {
+        "1960": 55,
+        "1970": 110,
+        "1980": 147,
+        "1990": 155,
+        "2000": 171,
+        "2010": 176,
+        "2015": 179
+      }
+    },
+    {
+      "identity": "iguzmanvt:162",
+      "slug": "iguzmanvt-162",
+      "title": "Población y nivel del PIB per cápita",
+      "module": "Solow",
+      "description": "Cortes internacionales animados; tamaño de burbuja según población. Selección igual para las dos correlaciones.",
+      "formula": "y=round(ln(rgdpna/pop),2); inversión=round(csh_i,2); g_L=[ln(pop_t)−ln(pop_(t−10))]/10. Filtros: 0<inversión<0.6 y −0.01<g_L<0.06.",
+      "units": "x proporción o tasa anual; y log de US$2017/habitante; tamaño población en millones",
+      "period": [
+        1960,
+        2015
+      ],
+      "source_urls": [
+        "https://www.rug.nl/ggdc/docs/pwt100.xlsx",
+        "https://www.rug.nl/ggdc/productivity/pwt/pwt-releases/pwt100?lang=en",
+        "https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_PWT_Correlation.r",
+        "https://github.com/iguzmanvt/Crecimiento/blob/8265d179322918f035cc4102f1bc9403cbcbb1dc/Clases_Crecimiento_Economico/Solow/Crecimiento%20Economico%202%20Nota.Rmd"
+      ],
+      "source_paths": [
+        "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+        "Clases_Crecimiento_Economico/Accounting/Ejemplo Estados Unidos.xlsx"
+      ],
+      "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+      "limitations": [
+        "Reconstrucción didáctica autorizada; no se afirma identidad con el gráfico Chart Studio original.",
+        "Correlación descriptiva, no efecto causal. Se omiten faltantes y observaciones fuera de los filtros declarados; no se rellenan países/años.",
+        "rgdpna a precios nacionales constantes puede limitar la comparación de niveles entre países; se conserva la convención didáctica del código de referencia."
+      ],
+      "kind": "recalculada",
+      "inputs_sha256": {
+        "inputs/pwt100_cross_sections.csv": "ae0ef108263d7fe3f0c76e08b3f1b33e59857ca4254eaa0e2c785c716b5a0321"
+      },
+      "output_sha256": "a203240546ec70e1243a3483202ec2436a891c2ab021d8a4c3a2a6df9280b1a2",
+      "sample_sizes_by_frame": {
+        "1960": 55,
+        "1970": 110,
+        "1980": 147,
+        "1990": 155,
+        "2000": 171,
+        "2010": 176,
+        "2015": 179
+      }
+    }
+  ],
+  "count": 23,
+  "source_vintage": "PWT 10.0, libro con revisión de junio de 2021; copia del repositorio 8265d179322918f035cc4102f1bc9403cbcbb1dc.",
+  "source_workbook_sha256": "e5a4816e51cf2d9caf4d415668fd5e0c8c966c1467ee6874c1cc0a47204ba5e7",
+  "runtime": "Python 3.10+; sólo biblioteca estándar; sin red",
+  "checks": {
+    "accounting_growth_identity_max_abs_error": 1.865174681370263e-14,
+    "count": 23,
+    "countries_case_rows": 350,
+    "cross_section_input_rows": 1647,
+    "all_outputs_finite": true,
+    "original_identities_authenticated": false,
+    "network_used": false
+  },
+  "models": {
+    "44": {
+      "fits": [
+        {
+          "start": 1950,
+          "end": 1990,
+          "n": 41,
+          "intercept_calendar_year": -103.57409407665503,
+          "slope": 0.0573362369337979,
+          "growth_percent_annual_log": 5.73362369337979,
+          "countrycode": "JPN"
+        },
+        {
+          "start": 2000,
+          "end": 2019,
+          "n": 20,
+          "intercept_calendar_year": -4.608631578947383,
+          "slope": 0.007526315789473692,
+          "growth_percent_annual_log": 0.7526315789473692,
+          "countrycode": "JPN"
+        }
+      ]
+    },
+    "46": {
+      "fits": [
+        {
+          "start": 1950,
+          "end": 2019,
+          "n": 70,
+          "intercept_calendar_year": -30.300865366109697,
+          "slope": 0.020524713498381593,
+          "growth_percent_annual_log": 2.0524713498381595,
+          "countrycode": "USA"
+        }
+      ]
+    },
+    "48": {
+      "fits": [
+        {
+          "start": 1950,
+          "end": 2000,
+          "n": 51,
+          "intercept_calendar_year": -34.48264705882353,
+          "slope": 0.022647058823529412,
+          "growth_percent_annual_log": 2.264705882352941,
+          "countrycode": "USA"
+        },
+        {
+          "start": 2001,
+          "end": 2019,
+          "n": 19,
+          "intercept_calendar_year": -9.631052631578877,
+          "slope": 0.010228070175438562,
+          "growth_percent_annual_log": 1.0228070175438562,
+          "countrycode": "USA"
+        }
+      ]
+    },
+    "50": {
+      "fits": [
+        {
+          "start": 1991,
+          "end": 2019,
+          "n": 29,
+          "intercept_calendar_year": -14.134310344827604,
+          "slope": 0.012379310344827595,
+          "growth_percent_annual_log": 1.2379310344827594,
+          "countrycode": "DEU"
+        }
+      ]
+    },
+    "54": {
+      "fits": [
+        {
+          "start": 1953,
+          "end": 1962,
+          "n": 10,
+          "intercept_calendar_year": -17.527636363636432,
+          "slope": 0.012727272727272762,
+          "growth_percent_annual_log": 1.2727272727272763,
+          "countrycode": "KOR"
+        },
+        {
+          "start": 2010,
+          "end": 2019,
+          "n": 10,
+          "intercept_calendar_year": -40.11472727272728,
+          "slope": 0.025151515151515154,
+          "growth_percent_annual_log": 2.5151515151515156,
+          "countrycode": "KOR"
+        }
+      ]
+    },
+    "56": {
+      "fits": [
+        {
+          "start": 1952,
+          "end": 1969,
+          "n": 18,
+          "intercept_calendar_year": -6.259635362917078,
+          "slope": 0.006749226006191941,
+          "growth_percent_annual_log": 0.6749226006191941,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 2010,
+          "end": 2019,
+          "n": 10,
+          "intercept_calendar_year": -40.11472727272728,
+          "slope": 0.025151515151515154,
+          "growth_percent_annual_log": 2.5151515151515156,
+          "countrycode": "KOR"
+        }
+      ]
+    },
+    "62": {
+      "fits": [
+        {
+          "start": 1963,
+          "end": 1977,
+          "n": 15,
+          "intercept_calendar_year": -46.03933333333326,
+          "slope": 0.02699999999999996,
+          "growth_percent_annual_log": 2.699999999999996,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 1978,
+          "end": 2007,
+          "n": 30,
+          "intercept_calendar_year": -94.2037500926956,
+          "slope": 0.05135261401557286,
+          "growth_percent_annual_log": 5.135261401557286,
+          "countrycode": "CHN"
+        },
+        {
+          "start": 2008,
+          "end": 2019,
+          "n": 12,
+          "intercept_calendar_year": -82.99255244755227,
+          "slope": 0.04587412587412579,
+          "growth_percent_annual_log": 4.587412587412579,
+          "countrycode": "CHN"
+        }
+      ]
+    },
+    "60": {
+      "alpha": 0.3,
+      "delta": 0.05,
+      "s_mean_csh_i": 0.3199119149219422,
+      "g_population": 0.009475732219237627,
+      "g_productivity_residual": 0.03929307378073464,
+      "KY_initial": 1.3454973132765407,
+      "KY_steady_state": 3.238997492001999,
+      "lnA_initial": 7.275484189550572,
+      "calibration_years": [
+        1978,
+        2019
+      ]
+    }
+  }
+}

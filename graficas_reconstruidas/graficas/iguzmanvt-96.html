@@ -1,0 +1,793 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Investigadores en I+D</title><link rel="stylesheet" href="../assets/clase.css"></head><body data-slug="iguzmanvt-96"><main><div class="full-only"><nav><a href="../index.html">← Gráficas de Crecimiento</a></nav><h1>Investigadores en I+D</h1><p class="note">Reconstrucción docente. Evolución del personal investigador en seis países, conservando todos los años y valores del objeto gráfico archivado.</p><p><strong>Periodo:</strong> 1981–2021; cobertura desigual por país. <strong>Unidades:</strong> Investigadores equivalentes a tiempo completo (FTE); no son necesariamente personas físicas..</p><p><strong>Edición:</strong> StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD..</p></div><div id="grafica" class="plot" role="img" aria-label="Investigadores en I+D"></div><p class="embed-only">Reconstrucción docente · datos y fuentes en la vista completa.</p><div class="full-only"><p id="estado">Puede consultar valores, ampliar el gráfico y ocultar series desde la leyenda.</p><p><a href="../datos/iguzmanvt-96.csv" download>Datos CSV</a> · <a href="../datos/iguzmanvt-96.json" download>Datos y animación JSON</a> · <a href="../imagenes/iguzmanvt-96.svg" download>Imagen SVG</a> · <a href="../imagenes/iguzmanvt-96.png" download>Imagen PNG</a></p><p><strong>Método:</strong> x = Time; y = ObsValue. Los comentarios del código OECD documentan filtros FTE, investigadores, todos los sectores y ambos géneros; el eje archivado indica FTE.</p><p><strong>Alcance:</strong> Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.; Se preserva la edición archivada; no se incorporan observaciones nuevas.</p><p><a href="https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html">Fuente 1</a> · <a href="https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r">Fuente 2</a></p><details><summary>Procedencia, edición y reproducción</summary><pre>{
+  &quot;identity&quot;: &quot;iguzmanvt:96&quot;,
+  &quot;slug&quot;: &quot;iguzmanvt-96&quot;,
+  &quot;title&quot;: &quot;Investigadores en I+D&quot;,
+  &quot;module&quot;: &quot;Ideas&quot;,
+  &quot;description&quot;: &quot;Evolución del personal investigador en seis países, conservando todos los años y valores del objeto gráfico archivado.&quot;,
+  &quot;formula&quot;: &quot;x = Time; y = ObsValue. Los comentarios del código OECD documentan filtros FTE, investigadores, todos los sectores y ambos géneros; el eje archivado indica FTE.&quot;,
+  &quot;units&quot;: &quot;Investigadores equivalentes a tiempo completo (FTE); no son necesariamente personas físicas.&quot;,
+  &quot;period&quot;: &quot;1981–2021; cobertura desigual por país&quot;,
+  &quot;period_by_series&quot;: {
+    &quot;China&quot;: [
+      1991,
+      2021
+    ],
+    &quot;Alemania&quot;: [
+      1981,
+      2021
+    ],
+    &quot;Reino Unido&quot;: [
+      1981,
+      2017
+    ],
+    &quot;Japón&quot;: [
+      1981,
+      2021
+    ],
+    &quot;Corea del Sur&quot;: [
+      1995,
+      2021
+    ],
+    &quot;Estados Unidos&quot;: [
+      1981,
+      2020
+    ]
+  },
+  &quot;source_urls&quot;: [
+    &quot;https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/plotly/oecd-rd-fte.html&quot;,
+    &quot;https://github.com/dvollrath/StudyGuide/blob/3a8c79f20022ef7b985b392d73921839a4317883/code/Guide_OECD_RD.r&quot;
+  ],
+  &quot;source_paths&quot;: [
+    &quot;fuentes/ideas_taxes/inputs/oecd-rd-fte.json&quot;,
+    &quot;fuentes/ideas_taxes/inputs/Guide_OECD_RD.r&quot;,
+    &quot;fuentes/ideas_taxes/inputs/source_catalog.json&quot;,
+    &quot;fuentes/ideas_taxes/inputs/rmd_sources_capture.json&quot;
+  ],
+  &quot;source_vintage&quot;: &quot;StudyGuide archivado en 3a8c79f20022ef7b985b392d73921839a4317883; se usan las coordenadas existentes, no una nueva versión de PWT/OECD.&quot;,
+  &quot;limitations&quot;: [
+    &quot;Reconstrucción docente nueva; la correspondencia con la apariencia o datos del ID histórico no está autenticada.&quot;,
+    &quot;Se preserva la edición archivada; no se incorporan observaciones nuevas.&quot;
+  ],
+  &quot;kind&quot;: &quot;reconstruccion_datos_archivados&quot;,
+  &quot;inputs_sha256&quot;: {
+    &quot;inputs/oecd-rd-fte.json&quot;: &quot;d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329&quot;,
+    &quot;inputs/Guide_OECD_RD.r&quot;: &quot;c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb&quot;,
+    &quot;inputs/source_catalog.json&quot;: &quot;0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1&quot;,
+    &quot;inputs/rmd_sources_capture.json&quot;: &quot;8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657&quot;
+  },
+  &quot;observations&quot;: {
+    &quot;total_effective_pairs&quot;: 210,
+    &quot;by_series&quot;: [
+      {
+        &quot;series&quot;: &quot;China&quot;,
+        &quot;array_length&quot;: 31,
+        &quot;effective_pairs&quot;: 31
+      },
+      {
+        &quot;series&quot;: &quot;Alemania&quot;,
+        &quot;array_length&quot;: 34,
+        &quot;effective_pairs&quot;: 34
+      },
+      {
+        &quot;series&quot;: &quot;Reino Unido&quot;,
+        &quot;array_length&quot;: 37,
+        &quot;effective_pairs&quot;: 37
+      },
+      {
+        &quot;series&quot;: &quot;Japón&quot;,
+        &quot;array_length&quot;: 41,
+        &quot;effective_pairs&quot;: 41
+      },
+      {
+        &quot;series&quot;: &quot;Corea del Sur&quot;,
+        &quot;array_length&quot;: 27,
+        &quot;effective_pairs&quot;: 27
+      },
+      {
+        &quot;series&quot;: &quot;Estados Unidos&quot;,
+        &quot;array_length&quot;: 40,
+        &quot;effective_pairs&quot;: 40
+      }
+    ]
+  },
+  &quot;historical_identity_authenticated&quot;: false,
+  &quot;source_blob&quot;: &quot;caa8734e1a88de21488a5d0cb81b96f88a074e2b&quot;,
+  &quot;source_file_sha256&quot;: &quot;8e3019730e7d3b7bbcba394d1cb8bb9451d4d8890f72d07eef12709b7e4baae4&quot;,
+  &quot;output_sha256&quot;: &quot;521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7&quot;,
+  &quot;spec_sha256&quot;: &quot;521175e7d76f6a7168dd7f5079d0521da97bf93048a1ee80259f8633156d27b7&quot;,
+  &quot;generator&quot;: &quot;fuentes/ideas_taxes/generar.py&quot;,
+  &quot;method_folder&quot;: &quot;fuentes/ideas_taxes&quot;,
+  &quot;spec_path&quot;: &quot;datos/iguzmanvt-96.json&quot;,
+  &quot;source_paths_originales&quot;: [
+    &quot;inputs/oecd-rd-fte.json&quot;,
+    &quot;inputs/Guide_OECD_RD.r&quot;,
+    &quot;inputs/source_catalog.json&quot;,
+    &quot;inputs/rmd_sources_capture.json&quot;
+  ],
+  &quot;local_inputs&quot;: {
+    &quot;fuentes/ideas_taxes/inputs/oecd-rd-fte.json&quot;: &quot;d980a932f519c86fbdcc934df546622125c351571c4e99f38e18cb51b896d329&quot;,
+    &quot;fuentes/ideas_taxes/inputs/Guide_OECD_RD.r&quot;: &quot;c6b1fef04cef45d772ff1f9f27ba76a4f28694f20ef4c59c1bb068fc55af80eb&quot;,
+    &quot;fuentes/ideas_taxes/inputs/source_catalog.json&quot;: &quot;0fbf9d04bafa450e7fdbdee7b30a7d863dc2725bc944b1a1d2a411d66cc577d1&quot;,
+    &quot;fuentes/ideas_taxes/inputs/rmd_sources_capture.json&quot;: &quot;8025dba6fdba4fbcac7690ca60d5194dbdbab3d38fce336fee4b7e4711085657&quot;
+  }
+}</pre></details></div><script type="application/json" id="spec">{
+  "data": [
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "China",
+      "legendgroup": "CHN",
+      "x": [
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "y": [
+        471400,
+        471900,
+        489200,
+        552000,
+        522000,
+        548000,
+        588700,
+        485500,
+        531100,
+        695062,
+        742726,
+        810525,
+        862108,
+        926252,
+        1118698,
+        1223756.4,
+        1423381,
+        1592420,
+        1152311,
+        1210840.8,
+        1318086,
+        1404017,
+        1484039.7,
+        1524280.3,
+        1619027.7,
+        1692175.8,
+        1740442.2,
+        1866108.8,
+        2109459.8,
+        2281134,
+        2405509.4
+      ],
+      "marker": {
+        "color": "#D26932",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#D26932",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "CHN",
+        "country_code": "CHN"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Alemania",
+      "legendgroup": "DEU",
+      "x": [
+        1981,
+        1983,
+        1985,
+        1987,
+        1989,
+        1991,
+        1993,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "y": [
+        128200,
+        134525,
+        147419,
+        165616,
+        176402,
+        241869,
+        230107,
+        231128,
+        230189,
+        235793,
+        237712,
+        254691,
+        257874,
+        264385,
+        265812,
+        268942,
+        270215,
+        272148,
+        279822,
+        290853,
+        302641,
+        317307,
+        327996,
+        338689,
+        352419,
+        354463,
+        351923,
+        387982,
+        399605,
+        419617,
+        433685.036,
+        450697.27,
+        450796.444,
+        461645
+      ],
+      "marker": {
+        "color": "#3895B5",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#3895B5",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "DEU",
+        "country_code": "DEU"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Reino Unido",
+      "legendgroup": "GBR",
+      "x": [
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "y": [
+        127000,
+        128000,
+        127000,
+        129000,
+        131000,
+        134000,
+        134000,
+        137000,
+        133000,
+        133000,
+        128000,
+        129000,
+        131000,
+        134000,
+        145673,
+        144735,
+        145641.2,
+        157662,
+        167573.03,
+        170554.39,
+        182143.84,
+        198162.98,
+        216689.87,
+        228969.09,
+        248599.3,
+        254009,
+        252650.8,
+        251931.7,
+        256124.113,
+        256584.957,
+        251357.6,
+        256156.4,
+        267698.5,
+        276583.8,
+        285855,
+        291103,
+        295842
+      ],
+      "marker": {
+        "color": "#536A9C",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#536A9C",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "GBR",
+        "country_code": "GBR"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Japón",
+      "legendgroup": "JPN",
+      "x": [
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "y": [
+        392625,
+        406042,
+        435340,
+        447719,
+        473296,
+        487779,
+        513267,
+        535008,
+        560276,
+        582815,
+        598333,
+        622410,
+        641083,
+        658866,
+        673421,
+        617365,
+        625442,
+        652845,
+        658910,
+        647572,
+        653021,
+        623035,
+        652369,
+        653747,
+        680631,
+        684884,
+        684311,
+        656676,
+        655530,
+        656032,
+        656651,
+        646347,
+        660489,
+        682935,
+        662071,
+        665566,
+        676292,
+        678134,
+        681821,
+        689889,
+        704502
+      ],
+      "marker": {
+        "color": "#719C84",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#719C84",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "JPN",
+        "country_code": "JPN"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Corea del Sur",
+      "legendgroup": "KOR",
+      "x": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "y": [
+        100456,
+        99433,
+        102660,
+        92541,
+        100210,
+        108370,
+        136337,
+        141917,
+        151254,
+        156219.691,
+        179812.428,
+        199990.021,
+        221928.231,
+        236136.871,
+        244076.773,
+        264117.936,
+        288900.962,
+        315589.193,
+        321841.848,
+        345463.427,
+        356447.29,
+        361291.534,
+        383100.281,
+        408370.46,
+        430690.006,
+        446738.854,
+        470728.115
+      ],
+      "marker": {
+        "color": "#8864A5",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#8864A5",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "KOR",
+        "country_code": "KOR"
+      }
+    },
+    {
+      "type": "scatter",
+      "mode": "lines+markers",
+      "name": "Estados Unidos",
+      "legendgroup": "USA",
+      "x": [
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "y": [
+        531909,
+        552435,
+        580975,
+        614692,
+        605589,
+        648893,
+        682613,
+        697718,
+        720562,
+        736768,
+        746013,
+        765328,
+        781100,
+        774215,
+        796403,
+        842662,
+        881103,
+        937717,
+        965180,
+        976950,
+        998449,
+        1022068,
+        1090500,
+        1060047,
+        1048102,
+        1069469,
+        1064617,
+        1113988,
+        1162720,
+        1099864,
+        1144866,
+        1150722,
+        1188093,
+        1230471,
+        1252907,
+        1248221,
+        1300600,
+        1410842,
+        1435937,
+        1493075
+      ],
+      "marker": {
+        "color": "#1764A0",
+        "size": 5,
+        "opacity": 0.86,
+        "line": {
+          "color": "#FFFFFF",
+          "width": 0.4
+        }
+      },
+      "line": {
+        "color": "#1764A0",
+        "width": 2
+      },
+      "connectgaps": false,
+      "hovertemplate": "<b>%{fullData.name}<\/b><br>Año: %{x:.0f}<br>y: %{y:.4f}<extra><\/extra>",
+      "meta": {
+        "source_series": "USA",
+        "country_code": "USA"
+      }
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Investigadores en I+D",
+      "x": 0.025,
+      "xanchor": "left",
+      "font": {
+        "size": 20
+      }
+    },
+    "paper_bgcolor": "#FFFFFF",
+    "plot_bgcolor": "#FFFFFF",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 14,
+      "color": "#243B50"
+    },
+    "margin": {
+      "l": 100,
+      "r": 35,
+      "t": 75,
+      "b": 125
+    },
+    "height": 560,
+    "xaxis": {
+      "type": "linear",
+      "automargin": true,
+      "showline": true,
+      "linecolor": "#BAC7D1",
+      "gridcolor": "#E5EBF0",
+      "zerolinecolor": "#B6C3CC",
+      "tickfont": {
+        "size": 12
+      },
+      "title": {
+        "text": "Año",
+        "font": {
+          "size": 14
+        },
+        "standoff": 14
+      },
+      "tickformat": "d",
+      "dtick": 10
+    },
+    "yaxis": {
+      "type": "linear",
+      "automargin": true,
+      "showline": true,
+      "linecolor": "#BAC7D1",
+      "gridcolor": "#E5EBF0",
+      "zerolinecolor": "#B6C3CC",
+      "tickfont": {
+        "size": 12
+      },
+      "title": {
+        "text": "Investigadores equivalentes a tiempo completo",
+        "font": {
+          "size": 14
+        },
+        "standoff": 14
+      }
+    },
+    "hovermode": "x unified",
+    "legend": {
+      "orientation": "h",
+      "x": 0,
+      "y": -0.22,
+      "xanchor": "left",
+      "yanchor": "top",
+      "font": {
+        "size": 12
+      },
+      "traceorder": "normal"
+    },
+    "hoverlabel": {
+      "bgcolor": "#FFFFFF",
+      "font": {
+        "color": "#243B50"
+      }
+    },
+    "showlegend": true
+  },
+  "frames": []
+}
+</script><script src="../assets/plotly.min.js"></script><script src="../assets/clase.js"></script></main></body></html>

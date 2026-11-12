@@ -1,0 +1,24 @@
+{
+  "columns": ["COUNTRY", "obsTime", "g10.accttfp", "pop", "accttfp", "lnpop", "SECTPERF", "FUNCTION", "GENDER", "MEASURE", "TIME_FORMAT", "UNIT", "POWERCODE", "obsValue", "OBS_STATUS", "lnrdworker", "lag10.lnrdworker", "g10.lnrdworker"],
+  "exported": ["COUNTRY", "obsTime", "UNIT", "POWERCODE", "MEASURE", "SECTPERF", "FUNCTION", "GENDER", "lnrdworker", "g10.accttfp"],
+  "rows": 265,
+  "layout": {
+    "title": {
+      "text": "Relación entre trabajadores de I&D y crecimiento de la productividad",
+      "x": 0
+    },
+    "xaxis": {
+      "title": "Log de trabajadores de I&D con horas ajustadas"
+    },
+    "yaxis": {
+      "title": "Tasa de crecimiento de la productividad a 10 años"
+    },
+    "hovermode": "x unified"
+  },
+  "countries": ["ARG", "CHL", "CHN", "DEU", "GBR", "JPN", "KOR", "MEX", "USA"],
+  "formula_body": "plotlyVisDat",
+  "palette": ["#e41a1c", "#377eb8", "#4daf4a", "#ff1493", "#24ff38", "#9baae6", "#c5912e", "#ffd179", "#79aeaa"],
+  "period": [1981, 2019],
+  "rendered_traces": 9,
+  "rendered_points": 265
+}

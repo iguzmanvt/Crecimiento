@@ -1,0 +1,72 @@
+{
+  "scope": "Pasajes adyacentes a las reconstrucciones; no auditoría de todas las referencias históricas",
+  "sources": [
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/CE-Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "before_sha256": "75fa25d75b0f21d93df33374abbbda715281226dba30c1a90da499352c5ff06d",
+      "after_sha256": "5b595cbb264527aa90f95d843faca968836df2518fda16654695daf88822dff8",
+      "adjustments": [
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "before_sha256": "fc5bbd9ff9bf5606ca523489c2ec153b71bc77d1672bd2bf14dfdec25d9b2b6d",
+      "after_sha256": "781c9eaa8e14b929a8f56e702313dd848fe20f28c41c4551c0135fbc41f3ee89",
+      "adjustments": [
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas y productividad.Rmd",
+      "before_sha256": "746637f1bebc700d0987880e053aea6e40abf8379237bdfee4dac53fffb889ab",
+      "after_sha256": "67ce6f836410f84f8d1fe0c40f9cfbf30cc90f6ac766b4eda2199a4770cb79e5",
+      "adjustments": [
+        "Describir evolución de productividad sin atribuir una prueba de asociación con I+D"
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "before_sha256": "0c01454d94b7757ed976643a73240399d7927d5be4f6bfd94bda783bbe4f4f11",
+      "after_sha256": "148ff0b11f548de34717a824e51bf5fe66e90082ed42ecdf5208803b58fda3dc",
+      "adjustments": [
+        "Distinguir tendencia del PIB per cápita de contribución de productividad",
+        "Denominar 1-labsh participación no laboral del PIB"
+      ]
+    },
+    {
+      "source": "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "before_sha256": "20e414c1e2d9dd0c051004556af7a770ba7bec058b17b614b59c2a9bdea81555",
+      "after_sha256": "fbc14bdee0df19d58460245fc262169d39e0816e4405c70948c320521828ca71",
+      "adjustments": [
+        "Distinguir tendencia del PIB per cápita de contribución de productividad",
+        "Denominar 1-labsh participación no laboral del PIB"
+      ]
+    }
+  ],
+  "figure_legend_changed": [
+    "iguzmanv:198"
+  ],
+  "specifications_compared": 23,
+  "series_and_frames_equivalent": true,
+  "comparison_relative_tolerance": 1e-14,
+  "comparison_absolute_tolerance": 1e-14,
+  "maximum_numeric_difference": 2.220446049250313e-16,
+  "spec_sha_changes": [
+    "iguzmanv:198",
+    "iguzmanvt:58",
+    "iguzmanvt:78",
+    "iguzmanvt:162"
+  ],
+  "portable_output_newlines": "Solow/accounting generator explicitly writes LF on Windows and Linux",
+  "publication_whitespace_cleanup": {
+    "sources": [
+      "Clases_Crecimiento_Economico/Ideas/Crecimiento Economico - Ideas Nota.Rmd",
+      "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleracion.Rmd",
+      "Clases_Crecimiento_Economico/Slowdown/Crecimiento Economico - Desaceleración Nota.Rmd",
+      "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+      "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd"
+    ],
+    "scope": "Espacios finales de líneas nuevas y líneas vacías al cierre, sin cambiar contenido renderizado"
+  }
+}

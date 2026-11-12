@@ -69,7 +69,7 @@ $$
 
 **Calculo del Residuo de Solow**
 
--   Con esa información, podemos construir una serie de PIB per cápita hipotética que dependa solo de lo que sucedió con la relación capital / producción de 1960 a 2017. Esto será:
+-   Con esa información, podemos construir una serie de PIB per cápita hipotética que dependa solo de lo que sucedió con la relación capital / producción de 1960 a 2019. Esto será:
 
 $$
 \ln y_t^{KY} = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t) + \ln h_{1960} + \ln A_{1960}
@@ -97,7 +97,7 @@ $$
 
 **Calculo del Residuo de Solow**
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/104.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-104.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
@@ -115,11 +115,11 @@ $$
 (\ln y_t - \ln y_{t-10})/10 = \frac{\alpha}{1-\alpha} (\ln K_t/Y_t - \ln K_{t-10}/Y_{t-10})/10 + (\ln h_t - \ln h_{t-10})/10 + (\ln A_t - \ln A_{t-10})/10.
 $$
 
--   Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en lo que representa el crecimiento de la relación capital / producto y el crecimiento de la productividad.
+-   Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en contribuciones de la relación capital/producto, el capital humano y el residual de productividad.
 
 ## Contabilidad del crecimiento
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanvt/110.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanvt-110.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
@@ -169,36 +169,36 @@ grid.raster(Accounting_Primal_Dual, interpolate=FALSE)
 
 ## Interpretación de la contabilidad del crecimiento
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanv/195.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanv-195.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Interpretación de la contabilidad del crecimiento
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanv/196.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanv-196.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Interpretación de la contabilidad del crecimiento
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanv/198.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanv-198.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 
 ## Interpretación de la contabilidad del crecimiento
 
--   Combinemos esos dos hechos:
+-   La reconstrucción distingue la participación del capital en costos de su participación en el PIB:
 
-    -   $𝑔_𝑘<0$ y $\alpha$ en aumento. 
+    -   Con el supuesto R=5%, RK/(W+RK) pasa de 24.76% en 1960 a 21.95% en 2019. En cambio, 1−labsh pasa de 36.33% a 40.29%. Son conceptos distintos; estas proporciones no determinan por sí solas α en el ejercicio de contabilidad.
 
--   ¿Qué podemos concluir? 
+-   El capital por persona empleada aumenta 2.10 veces entre 1960 y 2019, aunque disminuye en nueve años. No corresponde afirmar g_k<0 para todo el periodo.
 
-    -   Tenemos un efecto positivo distintivo en el crecimiento de la PTF. La composición del crecimiento de la PTF es diferente de lo de antes.
+-   Como ejercicio condicional, una menor contribución del capital implica un mayor residual de productividad si se mantienen fijos el crecimiento observado y las demás contribuciones. La interpretación exige especificar el periodo y la descomposición; no identifica por sí sola un cambio tecnológico.
 
 
 ## Interpretación de la contabilidad del crecimiento
 
- <iframe width="1300" height="400" frameborder="0" scrolling="no" src="//plotly.com/~iguzmanv/197.embed">
+ <iframe width="100%" height="440" frameborder="0" scrolling="no" src="../../graficas_reconstruidas/graficas/iguzmanv-197.html?embed=1" title="Gráfica reconstruida del curso" loading="lazy">
 
 </iframe>
 

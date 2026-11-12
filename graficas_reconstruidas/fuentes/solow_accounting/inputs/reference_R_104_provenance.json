@@ -1,0 +1,7 @@
+{
+  "source_file": "crecimiento_pendientes/USA_trace_comparison_1960_2019.csv",
+  "source_sha256": "4c99b3f162645ac157edc83541ba9185b25b638ea45ae1c3dc923a2df46557d4",
+  "reference_sha256": "fae4851e4c06fc81d7b87996b674563591b917b2a6342c0d103ea3609c43690e",
+  "calculation": "Ejercicio de clase ejecutado en R4.3.3, misma fórmula y datos Excel PWT10.0; auditoría 2026-11-11",
+  "scope": "60 años x4trazas; control independiente de Python"
+}

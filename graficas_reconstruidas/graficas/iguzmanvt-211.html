@@ -1,0 +1,265 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Estados Unidos: tasa bruta de natalidad</title><link rel="stylesheet" href="../assets/clase.css"></head><body data-slug="iguzmanvt-211"><main><div class="full-only"><nav><a href="../index.html">← Gráficas de Crecimiento</a></nav><h1>Estados Unidos: tasa bruta de natalidad</h1><p class="note">Reconstrucción docente. Nacimientos vivos ocurridos en el año por cada 1.000 habitantes estimados a mitad de año.</p><p><strong>Periodo:</strong> 1960–2024; anual. <strong>Unidades:</strong> Nacimientos por cada 1.000 habitantes.</p><p><strong>Edición:</strong> Banco Mundial, WDI: actualización de la API y consulta del 11-11-2026. La respuesta identifica fuentes de Naciones Unidas y nacionales, pero no precisa la edición de origen de cada observación..</p></div><div id="grafica" class="plot" role="img" aria-label="Estados Unidos: tasa bruta de natalidad"></div><p class="embed-only">Reconstrucción docente · datos y fuentes en la vista completa.</p><div class="full-only"><p id="estado">Puede consultar valores, ampliar el gráfico y ocultar series desde la leyenda.</p><p><a href="../datos/iguzmanvt-211.csv" download>Datos CSV</a> · <a href="../datos/iguzmanvt-211.json" download>Datos y animación JSON</a> · <a href="../imagenes/iguzmanvt-211.svg" download>Imagen SVG</a> · <a href="../imagenes/iguzmanvt-211.png" download>Imagen PNG</a></p><p><strong>Método:</strong> Indicador WDI SP.DYN.CBRT.IN: 1.000 × nacimientos vivos del año / población total estimada a mitad de año.</p><p><strong>Alcance:</strong> Reconstrucción de una serie histórica; no se recuperó el gráfico original de Chart Studio.; Se utiliza la consulta WDI del 11-11-2026; las estimaciones históricas pueden diferir de las disponibles cuando se preparó la clase.; No incluye proyecciones: todos los años representados pertenecen al período 1960–2024.; La tasa bruta de natalidad no es la tasa global de fecundidad ni el número de hijos por mujer.; La tendencia descriptiva no demuestra que los cambios en las preferencias familiares la causaran ni cuantifica un efecto causal sobre el crecimiento.</p><p><a href="https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&amp;format=json&amp;per_page=2000">Fuente 1</a> · <a href="https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=US">Fuente 2</a></p><details><summary>Procedencia, edición y reproducción</summary><pre>{
+  &quot;identity&quot;: &quot;iguzmanvt:211&quot;,
+  &quot;slug&quot;: &quot;iguzmanvt-211&quot;,
+  &quot;title&quot;: &quot;Estados Unidos: tasa bruta de natalidad&quot;,
+  &quot;module&quot;: &quot;Slowdown&quot;,
+  &quot;description&quot;: &quot;Nacimientos vivos ocurridos en el año por cada 1.000 habitantes estimados a mitad de año.&quot;,
+  &quot;formula&quot;: &quot;Indicador WDI SP.DYN.CBRT.IN: 1.000 × nacimientos vivos del año / población total estimada a mitad de año.&quot;,
+  &quot;units&quot;: &quot;Nacimientos por cada 1.000 habitantes&quot;,
+  &quot;period&quot;: {
+    &quot;start&quot;: 1960,
+    &quot;end&quot;: 2024,
+    &quot;frequency&quot;: &quot;annual&quot;
+  },
+  &quot;country&quot;: &quot;USA&quot;,
+  &quot;source_urls&quot;: [
+    &quot;https://api.worldbank.org/v2/country/USA/indicator/SP.DYN.CBRT.IN;SP.POP.0014.TO;SP.POP.65UP.TO;SP.POP.TOTL;SP.POP.1519.MA.5Y;SP.POP.1519.FE.5Y;SP.POP.TOTL.MA.IN;SP.POP.TOTL.FE.IN?source=2&amp;format=json&amp;per_page=2000&quot;,
+    &quot;https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=US&quot;
+  ],
+  &quot;source_paths&quot;: [
+    &quot;fuentes/energy_slowdown/inputs/wdi_usa_1960_2024.csv&quot;,
+    &quot;fuentes/energy_slowdown/inputs/source_metadata.json&quot;
+  ],
+  &quot;source_vintage&quot;: &quot;Banco Mundial, WDI: actualización de la API y consulta del 11-11-2026. La respuesta identifica fuentes de Naciones Unidas y nacionales, pero no precisa la edición de origen de cada observación.&quot;,
+  &quot;limitations&quot;: [
+    &quot;Reconstrucción de una serie histórica; no se recuperó el gráfico original de Chart Studio.&quot;,
+    &quot;Se utiliza la consulta WDI del 11-11-2026; las estimaciones históricas pueden diferir de las disponibles cuando se preparó la clase.&quot;,
+    &quot;No incluye proyecciones: todos los años representados pertenecen al período 1960–2024.&quot;,
+    &quot;La tasa bruta de natalidad no es la tasa global de fecundidad ni el número de hijos por mujer.&quot;,
+    &quot;La tendencia descriptiva no demuestra que los cambios en las preferencias familiares la causaran ni cuantifica un efecto causal sobre el crecimiento.&quot;
+  ],
+  &quot;kind&quot;: &quot;reconstructed_from_verified_sources&quot;,
+  &quot;inputs_sha256&quot;: {
+    &quot;inputs/wdi_usa_1960_2024.csv&quot;: &quot;21d3bc1094bab009c86bdc2711a377858c8904211b8952a9bcdbad0d879167cf&quot;,
+    &quot;inputs/source_metadata.json&quot;: &quot;e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9&quot;
+  },
+  &quot;spec_path&quot;: &quot;datos/iguzmanvt-211.json&quot;,
+  &quot;derived_csv_path&quot;: &quot;fuentes/energy_slowdown/derivados/iguzmanvt-211.csv&quot;,
+  &quot;original_chart_recovered&quot;: false,
+  &quot;data_points&quot;: 65,
+  &quot;spec_sha256&quot;: &quot;34a01e4621b2ce854f2feef171cdb26c5f5a78ff050245e6fb2f1aaaa9a82aee&quot;,
+  &quot;generator&quot;: &quot;fuentes/energy_slowdown/generar.py&quot;,
+  &quot;method_folder&quot;: &quot;fuentes/energy_slowdown&quot;,
+  &quot;source_paths_originales&quot;: [
+    &quot;inputs/wdi_usa_1960_2024.csv&quot;,
+    &quot;inputs/source_metadata.json&quot;
+  ],
+  &quot;local_inputs&quot;: {
+    &quot;fuentes/energy_slowdown/inputs/wdi_usa_1960_2024.csv&quot;: &quot;21d3bc1094bab009c86bdc2711a377858c8904211b8952a9bcdbad0d879167cf&quot;,
+    &quot;fuentes/energy_slowdown/inputs/source_metadata.json&quot;: &quot;e2fc5e7c4512f67507376a5b9d5dcd528041423faf6f53045c3a8ea0661850e9&quot;
+  }
+}</pre></details></div><script type="application/json" id="spec">{
+  "data": [
+    {
+      "type": "scatter",
+      "mode": "lines",
+      "name": "Tasa bruta de natalidad",
+      "x": [
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "y": [
+        23.7,
+        23.3,
+        22.4,
+        21.7,
+        21.1,
+        19.4,
+        18.4,
+        17.8,
+        17.6,
+        17.9,
+        18.4,
+        17.2,
+        15.6,
+        14.8,
+        14.8,
+        14.6,
+        14.6,
+        15.1,
+        15.0,
+        15.6,
+        15.9,
+        15.8,
+        15.9,
+        15.6,
+        15.6,
+        15.8,
+        15.6,
+        15.7,
+        16.0,
+        16.4,
+        16.7,
+        16.2,
+        15.8,
+        15.4,
+        15.0,
+        14.6,
+        14.4,
+        14.2,
+        14.3,
+        14.2,
+        14.4,
+        14.1,
+        14.0,
+        14.1,
+        14.0,
+        14.0,
+        14.3,
+        14.3,
+        14.0,
+        13.5,
+        13.0,
+        12.7,
+        12.6,
+        12.4,
+        12.5,
+        12.4,
+        12.2,
+        11.8,
+        11.6,
+        11.4,
+        10.9,
+        11.0,
+        11.0,
+        10.7,
+        10.6
+      ],
+      "line": {
+        "color": "#2463A6",
+        "width": 3,
+        "dash": "solid"
+      },
+      "connectgaps": false,
+      "hovertemplate": "%{x}<br>%{y:.2f}<extra>%{fullData.name}<\/extra>"
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Estados Unidos: tasa bruta de natalidad",
+      "x": 0.02,
+      "xanchor": "left",
+      "font": {
+        "size": 21
+      }
+    },
+    "paper_bgcolor": "white",
+    "plot_bgcolor": "white",
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 13,
+      "color": "#243447"
+    },
+    "margin": {
+      "l": 85,
+      "r": 35,
+      "t": 85,
+      "b": 105
+    },
+    "height": 500,
+    "xaxis": {
+      "title": {
+        "text": "Año"
+      },
+      "type": "linear",
+      "tickformat": "d",
+      "showgrid": false
+    },
+    "yaxis": {
+      "title": {
+        "text": "Nacimientos por cada 1.000 habitantes"
+      },
+      "rangemode": "tozero",
+      "gridcolor": "#E5EAF0",
+      "zerolinecolor": "#BBC4CE"
+    },
+    "hovermode": "x unified",
+    "showlegend": false,
+    "legend": {
+      "orientation": "h",
+      "x": 0,
+      "y": 1.12
+    },
+    "annotations": [
+      {
+        "text": "Fuente: Banco Mundial, WDI. Serie descriptiva; no identifica causas ni efectos sobre el crecimiento.",
+        "xref": "paper",
+        "yref": "paper",
+        "x": 0,
+        "y": -0.24,
+        "xanchor": "left",
+        "showarrow": false,
+        "align": "left",
+        "font": {
+          "size": 11,
+          "color": "#687787"
+        }
+      }
+    ]
+  },
+  "frames": []
+}
+</script><script src="../assets/plotly.min.js"></script><script src="../assets/clase.js"></script></main></body></html>

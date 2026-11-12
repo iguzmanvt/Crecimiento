@@ -1,0 +1,352 @@
+[
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "¿Cuál es la estimación correcta? Podemos ajustar los parámetros para mover un BGP hacia arriba y hacia abajo.",
+    "new": "La reconstrucción BGP 1 ajusta una recta al logaritmo del PIB per cápita de 1950–2019. BGP 2 compara las rectas ajustadas a 1950–2000 (naranja) y 2001–2019 (verde).",
+    "reason": "Identificar los ajustes OLS y sus ventanas reales; no atribuir parámetros desconocidos al archivo original.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "Esas líneas de BGP en la figura están moviendo esos parámetros hacia arriba y hacia abajo hasta que la línea se ajuste a la evidencia sobre el PIB per cápita.",
+    "new": "Las rectas se estiman por mínimos cuadrados con PWT 10.0; sus pendientes son tasas logarítmicas medias ajustadas. Fuera de cada ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+    "reason": "La nueva figura estima tendencias estadísticas, no manipula parámetros estructurales para generar las líneas.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "Podemos estimar el BGP de Estados Unidos con la fórmula respectiva:",
+    "new": "Podemos representar la recta de 1950–2000 mediante la fórmula de Solow, midiendo t desde 1950. Es una calibración ilustrativa, no una estimación estructural:",
+    "reason": "Distinguir OLS de la calibración Solow y definir el origen temporal.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "La BGP naranja me da:",
+    "new": "La recta naranja ajustada a 1950–2000 tiene la siguiente pendiente, usada como g_A en esta calibración:",
+    "reason": "Sustituir atribución al antiguo gráfico por el ajuste comprobado.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "$g_A=0.0208$",
+    "new": "$g_A = 0.022647$ (aproximadamente 2.2647% anual logarítmico).",
+    "reason": "Pendiente OLS efectiva de la nueva recta naranja.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "La literatura indica que:",
+    "new": "Para ilustrar la fórmula, mantenemos los supuestos:",
+    "reason": "α y δ se fijan para la calibración didáctica; no se estiman con la recta.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "$n = 0.011$",
+    "new": "$g_L = 0.011874$",
+    "reason": "Crecimiento logarítmico de la población de USA entre 1950 y 2000 dividido entre 50.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "$s = 0.249$",
+    "new": "$s_I = 0.247932$",
+    "reason": "Promedio de csh_i para USA 1950–2000.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "9.58 \\approx \\frac{.3}{1-.3} \\left(\\ln 0.249 - \\ln(.05 + .02 + .011) \\right) + \\ln A_0",
+    "new": "9.679118 \\approx \\frac{0.3}{1-0.3} \\left(\\ln 0.247932 - \\ln(0.05 + 0.022647 + 0.011874) \\right) + \\ln A_0",
+    "reason": "Intercepto de la nueva tendencia en 1950 y parámetros coherentes con ella.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "\\ln A_0 \\approx 9.58- \\frac{.3}{1-.3} \\left(\\ln 0.249 - \\ln(.05 + .02 + .011) \\right) = 9.10.",
+    "new": "\\ln A_0 \\approx 9.679118 - \\frac{0.3}{1-0.3} \\left(\\ln 0.247932 - \\ln(0.05 + 0.022647 + 0.011874) \\right) \\approx 9.217909.",
+    "reason": "Actualizar el despeje, incluyendo la misma g_A en todas las expresiones.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "$A_0 = 8,955$",
+    "new": "$A_0 \\approx 10\\,076$",
+    "reason": "Exponencial del ln A0 calibrado: 10075.9687.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "¿Qué significa esto? 8,955 niveles de tecnología no significa nada por si mismo. Pero garantiza un nivel de tecnología en donde se puedan ajustar los demás parámetros.",
+    "new": "A_0 es una escala residual que hace compatible la tendencia ajustada con los supuestos del modelo; no representa unidades observables de tecnología.",
+    "reason": "Explicar la nueva calibración sin asignar significado físico al nivel.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "Además es interesante porque podemos compararlo con el nivel de tecnología de otros países.",
+    "new": "Una comparación entre países requiere definiciones, unidades y parámetros coherentes; este A_0 calibrado no es directamente el índice de PTF publicado por PWT.",
+    "reason": "Evitar equiparar el residual calibrado con una medida internacional de tecnología.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "Podemos estimar $n$ y $s$ de los datos para el periodo:",
+    "new": "Con los datos de USA 1950–2000 calculamos g_L como el crecimiento logarítmico anualizado de la población y usamos el promedio de csh_i como aproximación a s_I. Esta proporción a PPP corrientes no es contablemente idéntica a una tasa de inversión a precios nacionales constantes:",
+    "reason": "Declarar la ventana y la aproximación de inversión usada en la calibración.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**Japón**](http://plotly.com/~iguzmanvt/44.embed) - Distintos BGP",
+    "new": "- [**Japón**](http://plotly.com/~iguzmanvt/44.embed) - Distintos BGP\n\n**Especificación de la reconstrucción:** Se compara el PIB per cápita de Japón con tendencias OLS ajustadas a 1950–1990 y 2000–2019. Las ventanas son una adaptación documentada, no especificaciones recuperadas del gráfico original.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/46.embed) - BGP 1",
+    "new": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/46.embed) - BGP 1\n\n**Especificación de la reconstrucción:** La recta utiliza todo el periodo 1950–2019: pendiente anual logarítmica de aproximadamente 2.052%. Es un ajuste descriptivo.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/48.embed) - BGP 2",
+    "new": "- [**Estados Unidos**](http://plotly.com/~iguzmanvt/48.embed) - BGP 2\n\n**Especificación de la reconstrucción:** La recta naranja usa 1950–2000 (2.2647% anual logarítmico); la verde, 2001–2019 (1.0228%). Prolongar las rectas fuera de esas ventanas no equivale a un pronóstico.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**Alemania**](http://plotly.com/~iguzmanvt/50.embed) - BGP",
+    "new": "- [**Alemania**](http://plotly.com/~iguzmanvt/50.embed) - BGP\n\n**Especificación de la reconstrucción:** La tendencia se ajusta a Alemania en 1991–2019; se dibuja sobre la serie disponible para distinguir ajuste y extrapolación.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**Corea del Sur**](http://plotly.com/~iguzmanvt/54.embed) - BGP",
+    "new": "- [**Corea del Sur**](http://plotly.com/~iguzmanvt/54.embed) - BGP\n\n**Especificación de la reconstrucción:** Se comparan tendencias de Corea del Sur ajustadas a 1953–1962 y 2010–2019. Las rectas son referencias descriptivas, no observaciones del BGP.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**China**](http://plotly.com/~iguzmanvt/56.embed) - BGP",
+    "new": "- [**China**](http://plotly.com/~iguzmanvt/56.embed) - BGP\n\n**Especificación de la reconstrucción:** La referencia temprana se ajusta a China en 1952–1969; la segunda recta usa Corea del Sur en 2010–2019. Es una comparación ilustrativa y no prueba convergencia a esa trayectoria.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**China**](http://plotly.com/~iguzmanvt/60.embed) - Transición al BGP",
+    "new": "- [**China**](http://plotly.com/~iguzmanvt/60.embed) - Transición al BGP\n\n**Especificación de la reconstrucción:** La transición de Solow se calibra a China en 1978–2019 con α=0.3 y δ=0.05. La inversión usa el promedio de csh_i; población y productividad residual se calibran con los extremos del periodo. La trayectoria del modelo se distingue de los datos observados.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2 Nota.Rmd",
+    "old": "- [**China**](http://plotly.com/~iguzmanvt/62.embed) - Diferentes BGP",
+    "new": "- [**China**](http://plotly.com/~iguzmanvt/62.embed) - Diferentes BGP\n\n**Especificación de la reconstrucción:** Se comparan tendencias OLS de China en 1963–1977, 1978–2007 y 2008–2019. Estos cortes son decisiones explícitas de la reconstrucción.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "¿Cuál es la estimación correcta? Podemos ajustar los parámetros para mover un BGP hacia arriba y hacia abajo.",
+    "new": "La reconstrucción BGP 1 ajusta una recta al logaritmo del PIB per cápita de 1950–2019. BGP 2 compara las rectas ajustadas a 1950–2000 (naranja) y 2001–2019 (verde).",
+    "reason": "Identificar los ajustes OLS y sus ventanas reales; no atribuir parámetros desconocidos al archivo original.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "Esas líneas de BGP en la figura están moviendo esos parámetros hacia arriba y hacia abajo hasta que la línea se ajuste a la evidencia sobre el PIB per cápita.",
+    "new": "Las rectas se estiman por mínimos cuadrados con PWT 10.0; sus pendientes son tasas logarítmicas medias ajustadas. Fuera de cada ventana son extrapolaciones descriptivas, no observaciones ni pronósticos.",
+    "reason": "La nueva figura estima tendencias estadísticas, no manipula parámetros estructurales para generar las líneas.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "Podemos estimar el BGP de Estados Unidos con la fórmula respectiva:",
+    "new": "Podemos representar la recta de 1950–2000 mediante la fórmula de Solow, midiendo t desde 1950. Es una calibración ilustrativa, no una estimación estructural:",
+    "reason": "Distinguir OLS de la calibración Solow y definir el origen temporal.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "La BGP naranja me da:",
+    "new": "La recta naranja ajustada a 1950–2000 tiene la siguiente pendiente, usada como g_A en esta calibración:",
+    "reason": "Sustituir atribución al antiguo gráfico por el ajuste comprobado.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "$g_A=0.0208$",
+    "new": "$g_A = 0.022647$ (aproximadamente 2.2647% anual logarítmico).",
+    "reason": "Pendiente OLS efectiva de la nueva recta naranja.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "La literatura indica que:",
+    "new": "Para ilustrar la fórmula, mantenemos los supuestos:",
+    "reason": "α y δ se fijan para la calibración didáctica; no se estiman con la recta.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "$n = 0.011$",
+    "new": "$g_L = 0.011874$",
+    "reason": "Crecimiento logarítmico de la población de USA entre 1950 y 2000 dividido entre 50.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "$s = 0.249$",
+    "new": "$s_I = 0.247932$",
+    "reason": "Promedio de csh_i para USA 1950–2000.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "9.58 \\approx \\frac{.3}{1-.3} \\left(\\ln 0.249 - \\ln(.05 + .02 + .011) \\right) + \\ln A_0",
+    "new": "9.679118 \\approx \\frac{0.3}{1-0.3} \\left(\\ln 0.247932 - \\ln(0.05 + 0.022647 + 0.011874) \\right) + \\ln A_0",
+    "reason": "Intercepto de la nueva tendencia en 1950 y parámetros coherentes con ella.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "\\ln A_0 \\approx 9.58- \\frac{.3}{1-.3} \\left(\\ln 0.249 - \\ln(.05 + .02 + .011) \\right) = 9.10.",
+    "new": "\\ln A_0 \\approx 9.679118 - \\frac{0.3}{1-0.3} \\left(\\ln 0.247932 - \\ln(0.05 + 0.022647 + 0.011874) \\right) \\approx 9.217909.",
+    "reason": "Actualizar el despeje, incluyendo la misma g_A en todas las expresiones.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "$A_0 = 8,955$",
+    "new": "$A_0 \\approx 10\\,076$",
+    "reason": "Exponencial del ln A0 calibrado: 10075.9687.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "¿Qué significa esto? 8,955 niveles de tecnología no significa nada por si mismo. Pero garantiza un nivel de tecnología en donde se puedan ajustar los demás parámetros.",
+    "new": "A_0 es una escala residual que hace compatible la tendencia ajustada con los supuestos del modelo; no representa unidades observables de tecnología.",
+    "reason": "Explicar la nueva calibración sin asignar significado físico al nivel.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "Además es interesante porque podemos compararlo con el nivel de tecnología de otros países.",
+    "new": "Una comparación entre países requiere definiciones, unidades y parámetros coherentes; este A_0 calibrado no es directamente el índice de PTF publicado por PWT.",
+    "reason": "Evitar equiparar el residual calibrado con una medida internacional de tecnología.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": "Podemos estimar 𝑛 y 𝑠 de los datos para el periodo:",
+    "new": "Con los datos de USA 1950–2000 calculamos g_L como el crecimiento logarítmico anualizado de la población y usamos el promedio de csh_i como aproximación a s_I. Esta proporción a PPP corrientes no es contablemente idéntica a una tasa de inversión a precios nacionales constantes:",
+    "reason": "Declarar la ventana y la aproximación de inversión usada en la calibración.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/44.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/44.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** Se compara el PIB per cápita de Japón con tendencias OLS ajustadas a 1950–1990 y 2000–2019. Las ventanas son una adaptación documentada, no especificaciones recuperadas del gráfico original.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/46.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/46.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** La recta utiliza todo el periodo 1950–2019: pendiente anual logarítmica de aproximadamente 2.052%. Es un ajuste descriptivo.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/48.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/48.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** La recta naranja usa 1950–2000 (2.2647% anual logarítmico); la verde, 2001–2019 (1.0228%). Prolongar las rectas fuera de esas ventanas no equivale a un pronóstico.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/50.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/50.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** La tendencia se ajusta a Alemania en 1991–2019; se dibuja sobre la serie disponible para distinguir ajuste y extrapolación.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/54.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/54.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** Se comparan tendencias de Corea del Sur ajustadas a 1953–1962 y 2010–2019. Las rectas son referencias descriptivas, no observaciones del BGP.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/56.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/56.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** La referencia temprana se ajusta a China en 1952–1969; la segunda recta usa Corea del Sur en 2010–2019. Es una comparación ilustrativa y no prueba convergencia a esa trayectoria.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/60.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/60.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** La transición de Solow se calibra a China en 1978–2019 con α=0.3 y δ=0.05. La inversión usa el promedio de csh_i; población y productividad residual se calibran con los extremos del periodo. La trayectoria del modelo se distingue de los datos observados.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Solow/Crecimiento Economico 2.Rmd",
+    "old": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/62.embed\">\n\n</iframe>",
+    "new": " <iframe width=\"1300\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"//plotly.com/~iguzmanvt/62.embed\">\n\n</iframe>\n\n**Especificación de la reconstrucción:** Se comparan tendencias OLS de China en 1963–1977, 1978–2007 y 2008–2019. Estos cortes son decisiones explícitas de la reconstrucción.",
+    "reason": "Fijar las ventanas/supuestos de esta figura para que su explicación no dependa del archivo desaparecido.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+    "old": "-   Combinemos esos dos hechos:\n\n    -   $𝑔_𝑘<0$ y $\\alpha$ en aumento. \n\n-   ¿Qué podemos concluir? \n\n    -   Tenemos un efecto positivo distintivo en el crecimiento de la PTF. La composición del crecimiento de la PTF es diferente de lo de antes.",
+    "new": "-   La reconstrucción distingue la participación del capital en costos de su participación en el PIB:\n\n    -   Con el supuesto R=5%, RK/(W+RK) pasa de 24.76% en 1960 a 21.95% en 2019. En cambio, 1−labsh pasa de 36.33% a 40.29%. Son conceptos distintos; estas proporciones no determinan por sí solas α en el ejercicio de contabilidad.\n\n-   El capital por persona empleada aumenta 2.10 veces entre 1960 y 2019, aunque disminuye en nueve años. No corresponde afirmar g_k<0 para todo el periodo.\n\n-   Como ejercicio condicional, una menor contribución del capital implica un mayor residual de productividad si se mantienen fijos el crecimiento observado y las demás contribuciones. La interpretación exige especificar el periodo y la descomposición; no identifica por sí sola un cambio tecnológico.",
+    "reason": "Las nuevas series no apoyan la afirmación general de capital por empleado decreciente y participación en costos creciente. Preservar la interpretación contable como argumento condicional.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+    "old": "1960 a 2017",
+    "new": "1960 a 2019",
+    "reason": "La figura recalculada usa PWT10.0 hasta 2019.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento Nota.Rmd",
+    "old": "Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en lo que representa el crecimiento de la relación capital / producto y el crecimiento de la productividad.",
+    "new": "Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en contribuciones de la relación capital/producto, el capital humano y el residual de productividad.",
+    "reason": "La identidad y la figura 110 contienen tres componentes; no omitir capital humano en la explicación.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+    "old": "-   Combinemos esos dos hechos:\n\n    -   $𝑔_𝑘<0$ y $\\alpha$ en aumento. \n\n-   ¿Qué podemos concluir? \n\n    -   Tenemos un efecto positivo distintivo en el crecimiento de la PTF. La composición del crecimiento de la PTF es diferente de lo de antes.",
+    "new": "-   La reconstrucción distingue la participación del capital en costos de su participación en el PIB:\n\n    -   Con el supuesto R=5%, RK/(W+RK) pasa de 24.76% en 1960 a 21.95% en 2019. En cambio, 1−labsh pasa de 36.33% a 40.29%. Son conceptos distintos; estas proporciones no determinan por sí solas α en el ejercicio de contabilidad.\n\n-   El capital por persona empleada aumenta 2.10 veces entre 1960 y 2019, aunque disminuye en nueve años. No corresponde afirmar g_k<0 para todo el periodo.\n\n-   Como ejercicio condicional, una menor contribución del capital implica un mayor residual de productividad si se mantienen fijos el crecimiento observado y las demás contribuciones. La interpretación exige especificar el periodo y la descomposición; no identifica por sí sola un cambio tecnológico.",
+    "reason": "Las nuevas series no apoyan la afirmación general de capital por empleado decreciente y participación en costos creciente. Preservar la interpretación contable como argumento condicional.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+    "old": "1960 a 2017",
+    "new": "1960 a 2019",
+    "reason": "La figura recalculada usa PWT10.0 hasta 2019.",
+    "expected_occurrences": 1
+  },
+  {
+    "path": "Clases_Crecimiento_Economico/Accounting/Crecimiento Economico - Contabilidad del crecimiento.Rmd",
+    "old": "Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en lo que representa el crecimiento de la relación capital / producto y el crecimiento de la productividad.",
+    "new": "Esto descompone la tasa de crecimiento anualizada de 10 años del PIB per cápita en contribuciones de la relación capital/producto, el capital humano y el residual de productividad.",
+    "reason": "La identidad y la figura 110 contienen tres componentes; no omitir capital humano en la explicación.",
+    "expected_occurrences": 1
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "verified_commit": "4a1b0377fb390d12b6242d291485e01255dd241a",
+  "verified_at_utc": "2026-11-12T03:48:04.160505+00:00",
+  "fresh_clone": true,
+  "artifact_files_compared_byte_for_byte": 988,
+  "artifact_bytes_compared": 59523177,
+  "all_equal": true,
+  "catalog_specifications_checked": 40,
+  "all_catalog_local_input_hashes_match": true,
+  "browser_samples": [
+    {
+      "path": "graficas_reconstruidas/graficas/iguzmanvt-76.html",
+      "file_protocol_checked": true,
+      "frames": 250,
+      "last_frame_selected": true,
+      "external_requests": [],
+      "javascript_errors": []
+    },
+    {
+      "path": "materiales_actualizados/Accounting/ejemplo/Material.html",
+      "file_protocol_checked": true,
+      "local_images_loaded": 0,
+      "missing_local_resources": [],
+      "javascript_errors": [],
+      "external_dependencies_blocked": [
+        "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+      ]
+    }
+  ],
+  "scope": "Descarga nueva del commit publicado y cotejo íntegro de los 988 archivos de gráficas/materiales; dos pruebas de apertura desde disco. Las pruebas de las 40 vistas, 21 salidas y 13 materiales están en los informes previos."
+}

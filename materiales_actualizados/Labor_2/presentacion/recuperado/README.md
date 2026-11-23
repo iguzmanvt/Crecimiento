@@ -1,6 +1,6 @@
 # Gráfica 223 de Mercado Laboral 2 recuperada
 
-La [nota HTML histórica](../Crecimiento-Economico---Mercado-Laboral-2-Nota.html) conserva el respaldo de `iguzmanvt:223` dentro del iframe de la línea 903. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión, conservando el documento HTML histórico.
+La [nota HTML histórica](https://github.com/iguzmanvt/Crecimiento/blob/d8216e86cbf822a798ec72ac6433a26c20c8cfca/Clases_Crecimiento_Economico/Labor_2/Crecimiento-Economico---Mercado-Laboral-2-Nota.html#L903) conserva el respaldo de `iguzmanvt:223` dentro del iframe de la línea 903. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión, conservando el documento HTML histórico.
 
 ![Tasa de crecimiento poblacional](grafica_223.svg)
 

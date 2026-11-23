@@ -1,6 +1,6 @@
 # Gráfica 42 de Solow recuperada
 
-La [nota HTML histórica](../Crecimiento-Economico-2-Nota.html) conserva los datos de la gráfica `iguzmanvt:42` dentro de una página Chart Studio codificada en un atributo `img`. Ese respaldo depende de scripts externos antiguos y no funciona como imagen. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión.
+La [nota HTML histórica](https://github.com/iguzmanvt/Crecimiento/blob/504f34e277cb4d88b153ac45916532383658590c/Clases_Crecimiento_Economico/Solow/Crecimiento-Economico-2-Nota.html) conserva los datos de la gráfica `iguzmanvt:42` dentro de una página Chart Studio codificada en un atributo `img`. Ese respaldo depende de scripts externos antiguos y no funciona como imagen. Esta entrega extrae sus datos y ofrece una vista local que abre sin conexión.
 
 ![Log PIB per cápita de Estados Unidos](grafica_42.svg)
 

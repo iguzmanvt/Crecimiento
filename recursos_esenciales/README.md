@@ -1,6 +1,6 @@
 # Recursos esenciales del curso
 
-21 vistas locales, insumos archivados el 12 de noviembre de 2026. Abrir [el índice](index.html) desde la copia completa del repositorio. 20 figuras generadas incluyen HTML, CSV, JSON, PNG y SVG. La tasa marginal máxima reutiliza exactamente la imagen histórica del curso, sin datos digitalizados.
+21 vistas locales, insumos archivados el 12 de noviembre de 2026. Los dos módulos leen los mismos CSV de exposición a PM2.5, fecundidad e ingreso y esperanza de vida e ingreso desde `introduccion_local/owid/originales/`. El catálogo identifica cada ruta y huella. Abrir [el índice](index.html) desde la copia completa del repositorio. 20 figuras generadas incluyen HTML, CSV, JSON, PNG y SVG. La tasa marginal máxima reutiliza exactamente la imagen histórica del curso, sin datos digitalizados.
 
 ## Correspondencia y fuentes
 

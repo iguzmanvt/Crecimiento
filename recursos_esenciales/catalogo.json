@@ -496,7 +496,7 @@
       "bytes": 856579,
       "sha256": "14eaa272941c02599f0b682f44c8f325a9ae34f78113c1e389e0aa5341baad7d"
     },
-    "recursos_esenciales/originales/average-exposure-pm25-pollution.csv": {
+    "introduccion_local/owid/originales/average-exposure-pm25-pollution.csv": {
       "bytes": 214368,
       "sha256": "2b4aa64dd0da8323daec44fb2a32b14d5ffaa62a822464d2789cbf76a93d56ce"
     },
@@ -504,7 +504,7 @@
       "bytes": 548987,
       "sha256": "4d7a62664617ca235f6c7f175a4eb64c90e1caa313e15757c6bccffb5a18fc0f"
     },
-    "recursos_esenciales/originales/children-per-woman-by-gdp-per-capita.csv": {
+    "introduccion_local/owid/originales/children-per-woman-by-gdp-per-capita.csv": {
       "bytes": 765308,
       "sha256": "a0ee582b563c32fbe4690c61db28eddd72822df13ce38d830247bb6591754c11"
     },
@@ -528,7 +528,7 @@
       "bytes": 340661,
       "sha256": "e181265d7d3e851c9dd9588ecced3f79b3d86d627a445bd314d886a9ddc6a68c"
     },
-    "recursos_esenciales/originales/life-expectancy-vs-gdp-per-capita.csv": {
+    "introduccion_local/owid/originales/life-expectancy-years-vs-real-gdp-per-capita-2011us.csv": {
       "bytes": 1414428,
       "sha256": "815842d77e389fa20f7ccab4a4fe30d1b0cb8ccd7722aebdf716e8c0aabc971c"
     },
